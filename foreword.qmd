@@ -1,0 +1,16 @@
+# Foreword
+
+The soil is a living, heterogeneous and dynamic system that includes physical, chemical, biological components, and their interactions. Therefore, to assess its quality it is necessary to measure, describe, and classify its properties.
+
+Soil classification is necessary to predict its behavior and identify limitations that allow us to make correct management decisions in the agricultural, livestock, forestry, urban, environmental, and health fields to name a few of the most important. IUSS soil scientists understood all that and the consequent urgent necessity to create an international soil classification system for name soils and create soil map legends based on a global reference system.
+
+That is why the International Union of Soil Sciences in 1980 formed a Working Group to develop the International Reference Base for Soil Classification (IRB), in 1992 renamed the World Reference Base for Soil Resources (WRB), with the proposal of setting forth a soil classification system.
+
+During the 16th World Congress of Soil Science in Montpellier, France, in 1998, the WRB classification was approved and adopted as the international soil correlation and communication system of the International Union of Soil Sciences (IUSS), and the first edition of the World Reference Base for Soil Resources (WRB) was presented.
+
+In 2022, within the framework of the IUSS "International Decade of Soils 2015-2024" and with the firm commitment to offer to the international community a soil classification system to facilitate both the implementation of soil inventories and the interpretation of soil maps as practical tools for decision-making for geologists, agronomists, farmers, engineers, politicians, etc., the International Union of Soil Sciences presents the fourth edition of the World Reference Base (WRB).
+
+The IUSS appreciates the efforts of all those who participate in the WRB working group and make the presentation of this new edition possible as an IUSS edition free to download from the IUSS website.
+
+Laura Bertha Reyes-Sánchez \
+President of the International Union of Soil Sciences (IUSS)
