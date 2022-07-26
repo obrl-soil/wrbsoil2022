@@ -1,0 +1,30 @@
+# List of acronyms
+
+| Al~ox~   | Aluminium extracted by an acid ammonium oxalate solution                            |
+|----------|--------------------------------------------------------------|
+| CaCO~3~  | Calcium carbonate                                                                   |
+| CEC      | Cation exchange capacity                                                            |
+| COLE     | Coefficient of linear extensibility                                                 |
+| EC       | Electrical conductivity                                                             |
+| ESP      | Exchangeable sodium percentage                                                      |
+| FAO      | Food and Agriculture Organization of the United Nations                             |
+| Fe~dith~ | Iron extracted by a dithionite-citrate-bicarbonate solution                         |
+| Fe~ox~   | Iron extracted by an acid ammonium oxalate solution                                 |
+| HCl      | Hydrochloric acid                                                                   |
+| ISRIC    | International Soil Reference and Information Centre                                 |
+| ISSS     | International Society of Soil Science                                               |
+| IUSS     | International Union of Soil Sciences                                                |
+| KOH      | Potassium hydroxide                                                                 |
+| KCl      | Potassium chloride                                                                  |
+| Mn~dith~ | Manganese extracted by a dithionite-citrate-bicarbonate solution                    |
+| NaOH     | Sodium hydroxide                                                                    |
+| NH~4~OAc | Ammonium acetate                                                                    |
+| RSG      | Reference Soil Group                                                                |
+| SAR      | Sodium adsorption ratio                                                             |
+| Si~ox~   | Silicon extracted by an acid ammonium oxalate solution                              |
+| SiO~2~   | Silica                                                                              |
+| SUITMA   | Soils in Urban, Industrial, Traffic, Mining and Military Areas (IUSS working group) |
+| TRB      | Total reserve of bases                                                              |
+| UNESCO   | United Nations Educational, Scientific, and Cultural Organization                   |
+| USDA     | United States Department of Agriculture                                             |
+| WRB      | World Reference Base for Soil Resources                                             |

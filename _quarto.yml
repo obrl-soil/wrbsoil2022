@@ -10,6 +10,7 @@ book:
     - foreword.qmd
     - preface.qmd
     - acknowledgements.qmd
+    - list-of-acronyms.qmd
 
 
 bibliography: references.bib
