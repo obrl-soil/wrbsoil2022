@@ -9,6 +9,7 @@ book:
     - verso.qmd
     - foreword.qmd
     - preface.qmd
+    - acknowledgements.qmd
 
 
 bibliography: references.bib
