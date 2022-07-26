@@ -1,0 +1,110 @@
+# Background and basics
+
+## History
+
+### From its beginnings to the third edition 2014/15
+
+The World Reference Base for Soil Resources (WRB) is based on the Legend (FAO-Unesco, 1974) and the Revised Legend (FAO, 1988) of the Soil Map of the World (FAO-Unesco, 1971-1981). In 1980, the International Society of Soil Science (ISSS, since 2002 the International Union of Soil Sciences, IUSS) formed a Working Group 'International Reference Base for Soil Classification' for further elaboration of a science-based international soil classification system. This Working Group was renamed 'World Reference Base for Soil Resources' in 1992. The Working Group presented the first edition of the WRB in 1998 (FAO, 1998), the second edition in 2006 (IUSS Working Group WRB, 2006) and the third edition in 2014/15 (IUSS Working Group WRB, 2015). In 1998, the ISSS Council endorsed the WRB as its officially recommended terminology to name and classify soils.
+
+A detailed description of the older WRB history is given in the second edition (IUSS Working Group WRB, 2006) and the third edition of the WRB (IUSS Working Group WRB, 2015).
+
+### From the third edition 2014 (Update 2015) to the fourth edition 2022
+
+The third edition of the WRB was presented at the 20th World Congress of Soil Science 2014 in Jeju, Korea. In 2015, an Update was published online, which is the valid WRB from 2015 to 2022: https://www.fao.org/3/i3794en/I3794en.pdf.
+
+The second edition was translated into several languages: Czech, French, Georgian, Polish, Russian, Slovene, and Spanish.
+
+Since 2014, several WRB field workshops were organized to test the third edition:
+
+2014: Ireland\
+2017: Latvia and Estonia \
+2018: Romania\
+2019: Mongolia\
+2022: Iceland
+
+The field tours associated with the meetings of the IUSS Commission on Soil Classification in South Africa (2016) and Mexico (2022) were additional tests of the third edition and also the tours offered with the 21st World Congress of Soil Science 2018 in Brazil.
+
+Now, after 8 years, a fourth edition has been prepared.
+
+## Major changes in WRB 2022
+
+The major changes are:
+
+-   The contents of the book were rearranged:
+
+    -   The former Annex 1 (Descriptions) was deleted. The descriptions were not fully up to date.
+    -   Annex 2 (Laboratory methods) was maintained.
+    -   The former Annex 3 (Codes) is now Chapter 6. This reflects that the codes, if used, are not only recommended but mandatory.
+    -   The former Annex 4 is integrated in the new Annex 1.
+    -   The new Annex 1 is a Field Guide. It replaces the FAO Guidelines (2006). Compared to the FAO Guidelines, the Annex 1 is more comprehensive for WRB, more precise and more didactical using many illustrations. It gives many definitions of field characteristics that up till now have been nowhere defined in WRB, neither in the WRB itself, nor in the FAO Guidelines. Many of these definitions were taken from the USDA Soil Survey Manual (2017) and the NRCS Fieldbook (2012), which brings WRB and Soil Taxonomy closer together.
+    -   The new Annex 3 provides brief definitions of layer symbols further developing the definitions of the FAO Guidelines.
+    -   The new Annex 4 explains a soil description sheet that is provided online.
+    -   The new Annex 5 gives a guidance on database set-up. The details are provided online.
+    -   The new Annex 6 gives recommendations for colour symbols for Reference Soil Group maps.
+
+-   In Chapter 2.1, General rules and definitions, several definitions have been added for WRB: fine earth, whole soil, litter layer, soil surface, mineral soil surface, soil layer, soil horizon. Some new general rules have been added to make the definitions easier.
+
+-   All Reference Soil Groups (RSGs) are maintained. There are some changes in the Key: Planosols and Stagnosols are now before Nitisols and Ferralsols. Fluvisols are before Arenosols.
+
+-   The following diagnostics were deleted:
+
+    -   fulvic horizon, melanic horizon: belonged to an outdated concept of soil organic matter;
+    -   aridic properties: had a non-systematic combination of various characteristics (the wind deposition is now characterized by the aeolic material, see below);
+    -   geric properties: can be better expressed as qualifier;
+    -   sulfidic material: not needed after introducing the hypersulfidic and the hyposulfidic material in 2014.
+
+-   The following diagnostics were introduced:
+
+    -   albic horizon: In the first and the second edition of WRB, the albic horizon was defined. However, it was only defined by colour, and results of soil-forming processes were not required. Therefore, it was changed to albic material in 2014. But this made the definition of the Albic qualifier difficult. Now, the albic horizon was reintroduced, explicitly requiring results of soil-forming processes. The albic material was maintained (just defined by colour) and renamed claric material (see below)
+    -   cohesic horizon: Dense subsurface horizon dominated by kaolinite. It is found in tropical regions with seasonal climate and was not considered so far in WRB.
+    -   limonic horizon: Accumulation of Fe by capillary rise in groundwater soils. The accumulation is so strong that Fe oxides cause a cementation. It is traditionally referred to as bog iron.
+    -   panpaic horizon: Buried A horizon.
+    -   tsitelic horizon: Accumulation of Fe by subsurface flow, usually from Planosols and Stagnosols further up in the landscape.
+    -   protogypsic properties: Accumulation of secondary gypsum, not sufficient for a gypsic or petrogypsic horizon.
+    -   aeolic material: Deposited by wind.
+    -   mulmic material: Mineral material with a high content of soil organic carbon, derived from organic material. Drainage of organic material causes accelerated decomposition, and eventually the content of soil organic carbon sinks below 20%, which transforms the organic material into mineral material.
+    -   organotechnic material: Contains large amounts of organic artefacts and relatively small contents of soil organic carbon in the fine earth.
+
+-   The following diagnostic materials received new names:
+
+    -   claric material instead of albic material: After reintroducing the albic horizon, it had to be avoided that a diagnostic material and a diagnostic horizon have the same name. The albic material was therefore renamed in claric material.
+    -   solimovic material instead of colluvic material: The word colluvium has very different meanings in different countries. To avoid confusion, the new name solimovic material was coined. It explains that at least parts of the accumulated material underwent soil formation before having been transported.
+
+-   Many criteria in the diagnostics, the key and in the definitions of the qualifiers were sharpened and refined. Special effort was undertaken to make sure that the same features are worded in the same way throughout the text, including the annexes.
+
+-   Some new qualifiers were defined, some existing ones were deleted, and many definitions have been refined.
+
+## The object classified in the WRB
+
+Like many common words, 'soil' has several meanings. In its traditional meaning, soil is the natural medium for the growth of plants, whether or not it has discernible soil horizons (Soil Survey Staff, 1999).
+
+In the 1998 WRB, soil was defined as:
+
+> "... a continuous natural body which has three spatial and one temporal dimension. The three main features governing soil are:
+>
+> -   It is formed by **mineral and organic constituents** and includes solid, liquid and gaseous phases.
+> -   The constituents are organized in **structures**, specific for the pedological medium. These structures form the morphological aspect of the soil cover, equivalent to the anatomy of a living being. They result from the history of the soil cover and from its actual dynamics and properties. Study of the structures of the soil cover facilitates perception of the physical, chemical and biological properties; it permits understanding the past and present of the soil and predicting its future.
+> -   The soil is in **constant evolution**, thus giving the soil its fourth dimension, time."
+
+Although there are good arguments to limit soil survey and mapping to identifiable stable soil areas with a certain thickness, the WRB has taken the more comprehensive approach to name any object forming part of the ***epiderm of the earth*** (Sokolov, 1997; Nachtergaele, 2005). This approach has a number of advantages; notably that it allows for addressing environmental problems in a systematic and holistic way and avoids sterile discussion on a universally agreed definition of soil and its required thickness and stability. Therefore, the object classified in the WRB is: *any material within 2 m of the Earth's surface that is in contact with the atmosphere, excluding living organisms, areas with continuous ice not covered by other material, and water bodies deeper than 2 m*. If explicitly stated, the object classified in the WRB includes layers deeper than 2 m. In tidal areas, the depth of 2 m is to be applied at mean low water springs.
+
+The definition includes *continuous rock*, paved urban soils, soils of industrial areas, soils on buildings and other (permanent/stable) constructions, cave soils as well as subaqueous soils. Soils under *continuous rock*, except those that occur in caves, are generally not considered for classification, but in special cases, the WRB may be even used to classify soils under rock, for example for palaeopedological reconstruction of the environment. The use of WRB for paleosols is still in an experimental stage.
+
+## Basic principles
+
+### General principles
+
+-   The classification of soils is based on soil properties defined in terms of diagnostic horizons, diagnostic properties and diagnostic materials (together called the **diagnostics**), which to the greatest extent possible should be measurable and observable in the field. Table 1.1 provides an overview of the diagnostics used in the WRB.
+-   The selection of diagnostic characteristics takes into account their relationship with soil-forming processes. An understanding of soil-forming processes contributes to a better characterization of soils but these processes should not, as such, be used as differentiating criteria.
+-   To the extent possible at a high level of generalization, diagnostic features that are of significance for soil management are selected.
+-   Climate parameters are not applied in the classification of soils. It is understood that they should be used for interpretation purposes, in combination with soil properties, but they should not form part of soil definitions. The classification of soils is therefore not subordinated to the availability of climate data. The name of a certain soil will not become obsolete due to global or local climate change.
+-   The WRB is a comprehensive classification system that enables accommodation of national soil classification systems.
+-   The WRB is not intended to be a substitute for national soil classification systems, but rather to serve as a common denominator for communication at the international level.
+-   The WRB comprises two levels of categorical detail:
+    -   the ***First Level*** having 32 Reference Soil Groups (RSGs);
+    -   the ***Second Level***, consisting of the name of the RSG combined with a set of principal and supplementary qualifiers.
+-   Many RSGs in the WRB are representative of major soil regions so as to provide a comprehensive overview of the world's soil cover.
+-   Definitions and descriptions reflect variations in soil characteristics that occur both vertically and laterally in the landscape.
+-   The term *Reference Base* is connotative of the common denominator function of the WRB: its units (RSGs) have sufficient width to facilitate harmonization and correlation with national systems.
+-   In addition to serving as a correlation between existing classification systems, the WRB also serves as a communication tool for compiling global soil databases and for the inventory and monitoring of the world's soil resources.
+-   The nomenclature used to distinguish soil groups retains terms that have been used traditionally or that can be introduced easily into common language. They are defined precisely, in order to avoid the confusion that occurs where names are used with different connotations.
