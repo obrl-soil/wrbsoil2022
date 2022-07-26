@@ -1,0 +1,21 @@
+project:
+  type: book
+
+book:
+  title: "wrbsoil2022"
+  author: "Lauren O'Brien"
+  date: "26/07/2022"
+  chapters:
+    - verso.qmd
+
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+editor: visual
+
