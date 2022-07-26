@@ -1,0 +1,286 @@
+# The rules for naming soils and creating legends for soil maps
+
+## General rules and definitions
+
+The following principles have to be considered for classification in WRB:
+
+1.  All data refer to the fine earth, unless stated otherwise. The **fine earth** comprises the soil constituents ≤ 2 mm. The **whole soil** comprises fine earth, coarse fragments, artefacts and dead plant remnants of any size. These rules also apply to cemented layers.
+2.  All data are given **by mass** (dried at 105° C, see Annex 2, Chapter 9.2), unless stated otherwise.
+3.  A **litter layer** is a loose layer that contains \> 90% (by volume, related to the fine earth plus all dead plant remnants) recognizable dead plant tissues (e.g. undecomposed leaves). Dead plant material still connected to living plants (e.g. dead parts of *Sphagnum* mosses) is not regarded to form part of a litter layer. The **soil surface** (0 cm) is by convention the surface of the soil after removing, if present, the litter layer and, if present, below a layer of living plants (e.g. living mosses). The **mineral soil surface** is the upper limit of the uppermost mineral horizon (see Annex 1, Chapters 8.3.1 and 8.3.2).
+4.  A **soil layer** is a zone in the soil, approximately parallel to the soil surface, with properties different from layers above and/or below it. If at least one of these properties is the result of soil-forming processes, the layer is called a **soil horizon**. In the diagnostic criteria, the term 'horizon' is mainly used for the defined diagnostic horizons. The other layers are mainly called 'layer' to make sure that the criteria apply, even if they were not regarded to be soil horizons.
+5.  If a criterion is worded as a conditional clause (if...) and the condition (**if-clause**) is not true, the criterion is ignored.
+6.  Numerical values obtained in the field or in the laboratory have to be taken as such and **must not be rounded** when compared with the threshold values in the diagnostic criteria.
+7.  The diagnostic criteria must be fulfilled **throughout the specified depth range**, unless stated otherwise. If a diagnostic horizon consists of several subhorizons, the diagnostic criteria (except thickness) must be fulfilled in every subhorizon separately (averages are not calculated), unless stated otherwise.
+8.  The term **limiting layer** used in definitions comprises *continuous rock*, *technic hard material*, *petrocalcic*, *petroduric*, *petrogypsic* and *petroplinthic* horizons and other cemented layers with both of the following: cementation with a class of at least moderately cemented and a continuity to the extent that vertical fractures, if present, have an average horizontal spacing of ≥ 10 cm and occupy \< 20% (by volume, related to the whole soil).
+9.  On a **slope**, the soil is described as a vertical profile. The thickness and depth values are calculated by multiplying the vertically measured values by the cosine of the inclination angle (see Annex 1, Chapter 8.1.2) (Prietzel & Wiesmeier, 2019). This is especially important on steep slopes.
+
+Classification consists of three steps:
+
+### Step one -- detecting diagnostic horizons, properties and materials (for short: diagnostics)
+
+Describe the soil applying the Field Guide in Annex 1 (Chapter 8). It is useful that you already in the field compile a list of the possible diagnostic horizons, properties and materials observed (see Chapter 3). Conduct the relevant analyses according to Annex 2 (Chapter 9). Then, decide on the presence of diagnostics. **For the decision, only the diagnostic criteria are relevant** - neither the name of the diagnostic, nor any other description. A layer may fulfil the criteria of more than one diagnostic horizon, property or material, which are then regarded as overlapping or coinciding.
+
+### Step two -- allocating the soil to a Reference Soil Group
+
+For the first level of the WRB classification, the described combination of diagnostic horizons, properties and materials and/or additional characteristics are compared to the WRB Key (Chapter 4) in order to allocate the soil to the appropriate **Reference Soil Group (RSG)**. The user must go through the Key systematically, starting at the beginning and excluding one by one all RSGs for which the specified requirements are not met. The soil belongs to the first RSG for which it fulfils the criteria.
+
+### Step three -- allocating the qualifiers
+
+For the second level of the WRB classification, qualifiers are used. The qualifiers available for use with a particular RSG are listed in the Key, along with the RSG. They are divided into principal and supplementary qualifiers.
+
+The **principal qualifiers** are ranked and given in an order of importance. The rank of the principal qualifiers reflects particular soil chacracteristics or properties strongly influencing the soil's functionality:
+
+Examples of subdivisions based on soil characteristics:
+
+-   Vitric, Aluandic and Silandic for Andosols
+-   Carbic and Rustic for Podzols
+-   anthropogenic horizons: Anthraquic, Hortic, Hydragric, Irragric, Plaggic, Pretic, Terric. These soils have distinct physico-chemical characteristics reflecting their formation.
+
+Examples of subdivisions reflecting major functional restrictions (many of them indicate a deviation from the central image of the RSG): Abruptic, Fragic, Gleyic, Leptic, Petrocalcic, Petroduric, Petrogypsic, Petroplinthic, Retic, Skeletic, Stagnic, Thionic.
+
+The **supplementary qualifiers** are not ranked. **Supplementary qualifiers related to the texture**, if applicable, are the first in the list. If several ones apply (see Chapter 2.3), they are placed in the sequence from the top to the bottom of the soil profile (e.g. Episiltic, Katoloamic). All **other supplementary qualifiers** follow them and are used in alphabetical order.
+
+Qualifiers may be principal for some RSGs and supplementary for others, e.g., Turbic is principal for Cryosols and supplementary for other RSGs.
+
+The principal qualifiers are added before the name of the RSG without brackets and without commas. The sequence is from right to left, i.e. the uppermost qualifier in the list is placed closest to the name of the RSG. The supplementary qualifiers are added in brackets after the name of the RSG and are separated from each other by commas. The sequence is from left to right, i.e. the first qualifier in the list is placed closest to the name of the RSG.
+
+If two or more qualifiers in the list are **separated by a slash** (**/**), they are either mutually exclusive (e.g. Dystric and Eutric) or one of them is redundant (see below) with the redundant qualifier(s) listed after the slash(es). In the soil name, supplementary qualifiers are placed in the order of the alphabet (exception: supplementary qualifiers related to the texture, see above), even if their position in the list differs from the alphabetical sequence due to the use of the slash.
+
+Qualifiers that are mutually exclusive may apply to the same soil at different depths. In this case, they can be used both, each one with the respective specifier (see Chapter 2.3). If no specifier is used, only the first applicable qualifier can be used.
+
+**Qualifiers conveying redundant information are not added**. This is a general rule and applies even if the slash is not used. For example, Eutric is not added if the Calcaric qualifier applies.
+
+**If qualifiers apply but are not in the list for the particular RSG**, they should be added last as supplementary qualifiers.
+
+The names of the RSGs and the (sub)qualifiers must start with a capital letter.
+
+## Rules for naming soils
+
+For naming a soil at the second level, all the principal and supplementary qualifiers that apply must be added to the name of the RSG.
+
+### Example of naming a soil according to WRB
+
+#### Field description
+
+A soil developed from loess with high-activity clays has a marked clay increase at 60 cm depth, clay coatings in the clay-rich horizon, no stratification, and a field pH value around 6 in the depth from 50 to 100 cm. The clay-poor upper soil is subdivided into a darker upper and a light-coloured lower horizon. The clay-rich horizon has a limited amount of oximorphic features with intensive colours inside the soil aggregates and reducing conditions in some parts during springtime. The following conclusions can be drawn (for subqualifiers see Chapter 2.3):
+
+|     |                                                                                |                            |
+|-----------------|-------------------------------------|------------------|
+| a\. | clay increase without *lithic discontinuity* and/or with clay coatings         | --\> *argic horizon*       |
+| b\. | *argic horizon* with high CEC and more base cations than Al (inferred by pH 6) | --\> Luvisol               |
+| c\. | light colour in the eluvial horizon                                            | --\> Albic qualifier       |
+| d\. | some oximorphic features inside aggregates                                     | --\> *stagnic properties*  |
+| e\. | *stagnic properties* and *reducing conditions* starting at 60 cm               | --\> Endostagnic qualifier |
+| f\. | clay coatings                                                                  | --\> Cutanic qualifier     |
+| g\. | clay increase without *lithic discontinuity*                                   | --\> Differentic qualifier |
+
+The **field classification** is Albic Endostagnic Luvisol (Cutanic, Differentic).
+
+#### Laboratory analyses
+
+The laboratory analyses confirm a high CEC kg^-1^ clay in the *argic horizon* and a high base saturation in the depth from 50 - 100 cm. They further detect the texture class of silty clay loam with 30% clay (Siltic qualifier) from 0 - 60 cm (Ano- specifier) and of silty clay with 45% clay (Clayic qualifier) from 60 - 100 cm (Endo- specifier). The organic carbon content in the topsoil is intermediate (Ochric qualifier).
+
+The **final classification** is Albic Endostagnic Luvisol (Anosiltic, Endoclayic, Cutanic, Differentic, Ochric).
+
+## Subqualifiers
+
+**Qualifiers may be combined with specifiers** (e.g. Epi-, Proto-) **to form subqualifiers** (e.g. Epiarenic, Protocalcic). Depending on the specifier, the subqualifier fulfils all the criteria of the respective qualifier, or it deviates in a defined way from its set of criteria. The following rules apply:
+
+1.  If a subqualifier applies that fulfils all the criteria of the qualifier, the subqualifier can - but does not have to - be used instead of its qualifier (**optional subqualifiers**).
+2.  If a subqualifier applies that fulfils all the criteria of the qualifier except thickness and/or depth criteria, the subqualifier can - but does not have to - be used, but not the qualifier (additional subqualifiers). Note: It may happen that the qualifier is not listed with the available qualifiers for the respective RSG in Chapter 4.
+3.  If a subqualifier applies that deviates in a defined way from the set of criteria of the qualifier, the subqualifier must be used instead of the qualifier that is listed as available for the respective RSG in Chapter 4 (mandatory subqualifiers). This is the case for some subqualifiers with a given definition (see below).
+
+**Optional and additional subqualifiers are recommended especially for naming soils**. Their use is not recommended for principal qualifiers in map units or wherever generalization is important.
+
+The use of specifiers does not change the **position of the qualifier in the soil name** with the exception of the specifiers Bathy-, Thapto-, and Proto- (see below). Those supplementary qualifiers that are added according to the alphabet follow the alphabetical order of the qualifier, not the subqualifier.
+
+Some subqualifiers can be constructed by the user according to certain rules (see Chapter 2.3.1). Other subqualifiers have a fixed definition given in Chapter 5 (see Chapter 2.3.2).
+
+### Subqualifiers constructed by the users
+
+#### Constructed subqualifiers related to depth requirements
+
+Qualifiers that have depth requirements can be combined with the specifiers **Epi-**, **Endo-**, **Amphi-**, **Ano-**, **Kato-**, **Poly-**, **Panto-** and **Bathy-** to create subqualifiers (e.g. Epicalcic, Endocalcic) further expressing the depth of occurrence. Qualifiers that are mutually exclusive at the same depth may be applicable at different depths in the same soil. Qualifiers that already have a depth range requirement of 0-50 cm or 50-100 cm of the soil surface do not require these extra depth specifiers. For every qualifier with depth requirements, the definition (Chapter 5) specifies whether the depth requirement refers **to the soil surface or to the mineral soil surface**. Subqualifiers related to depth requirements are only used if the relevant soil characteristics are **reported until ≥ 100 cm of the (mineral) soil surface or to a limiting layer**, whichever is shallower.
+
+Depending on the particular qualifier and the particular soil characteristics, depth-related subqualifiers are used in the following different ways:
+
+1.  If a qualifier refers to a characteristic that occurs at a specific point of depth (e.g. Raptic), **optional subqualifiers** can be constructed with the following specifiers:
+    -   **Epi-** (from Greek *epi*, over): the characteristic is present somewhere ≤ 50 cm of the (mineral) soil surface and is absent \> 50 and ≤ 100 cm of the (mineral) soil surface; not used if a limiting layer starts ≤ 50 cm from the (mineral) soil surface.
+    -   **Endo-** (from Greek *endon*, inside): the characteristic is present somewhere \> 50 and ≤ 100 cm of the (mineral) soil surface and is absent ≤ 50 cm of the (mineral) soil surface.
+    -   **Amphi-** (from Greek *amphi*, around): the characteristic is present two or more times, once or more times somewhere ≤ 50 cm of the (mineral) soil surface and once or more times somewhere \> 50 and ≤ 100 cm of the (mineral) soil surface.
+2.  If a qualifier refers to a **layer** (e.g. Calcic, Arenic, Fluvic), **optional subqualifiers** can be constructed with the following specifiers (see Figure 2.1):
+    -   **Epi-** (from Greek *epi*, over): the layer has its lower limit ≤ 50 cm of the (mineral) soil surface; and no such layer occurs between 50 and 100 cm of the (mineral) soil surface; not used if the definition of the qualifier or of the horizon requires that the layer starts at the (mineral) soil surface; if a limiting layer starts ≤ 50 cm from the mineral soil surface, the qualifier referring to the limiting layer receives the Epi- specifier and all other qualifiers remain without specifier.
+
+    -   **Endo-** (from Greek *endon*, inside): the layer starts ≥ 50 cm from the (mineral) soil surface; and no such layer occurs \< 50 cm of the (mineral) soil surface. (Examples: Endocalcic: the *calcic horizon* starts ≥ 50 and ≤ 100 cm from the soil surface; Endospodic: the *spodic horizon* starts ≥ 50 and ≤ 200 cm from the mineral soil surface.)
+
+    -   **Amphi-** (from Greek *amphi*, around): the layer starts \> 0 and \< 50 cm from the (mineral) soil surface and has its lower limit \> 50 and \< 100 cm of the (mineral) soil surface; and no such layer occurs \< 1 cm of the (mineral) soil surface; and no such layer occurs between 99 and 100 cm of the (mineral) soil surface or directly above a limiting layer.
+
+    -   **Ano-** (from Greek *ano*, upwards): the layer starts at the (mineral) soil surface and has its lower limit \> 50 and \< 100 cm of the (mineral) soil surface; and no such layer occurs between 99 and 100 cm of the (mineral) soil surface or directly above a limiting layer.
+
+    -   **Kato-** (from Greek *kato*, downwards): the layer starts \> 0 and \< 50 cm from the (mineral) soil surface and has its lower limit ≥ 100 cm of the (mineral) soil surface or at a limiting layer starting \> 50 cm from the (mineral) soil surface; and no such layer occurs \< 1 cm of the (mineral) soil surface.
+
+    -   **Poly-** (from Greek *polys*, many):
+
+        a.  diagnostic horizons: two or more diagnostic horizons are present at the depth required by the qualifier definition, interrupted by layers that do not fulfil the criteria of the respective diagnostic horizon;
+        b.  other layers: two or more layers within 100 cm of the (mineral) soil surface fulfil the criteria of the qualifier, interrupted by layers that do not fulfil the criteria of the respective qualifier; and the thickness criterion is fulfilled by the sum of the thicknesses of the layers; it may or may not be fulfilled by the single layers.
+
+    -   **Panto-** (from Greek *pan*, all): the layer starts at the (mineral) soil surface and has its lower limit ≥ 100 cm of the (mineral) soil surface or at a limiting layer starting \> 50 cm from the (mineral) soil surface.
+
+**Qualifiers that are mutually exclusive may occur in the same soil at different depths**. In this case, they can be used both, each one with the respective specifier. If the specifiers are used with principal qualifiers, the qualifier referring to the upper layer is placed closer to the name of the RSG. If the specifiers are used with supplementary qualifiers related to the texture, the qualifiers are placed in the sequence from the top to the bottom of the profile. The sequence of the other supplementary qualifiers is according to the alphabetical position of the qualifier, not the subqualifier.
+
+![Specifiers to construct optional subqualifiers related to depth requirements and referring to a particular layer (Bathy- not illustrated), modified by S. Dondeyne](Figure_2-1.png){#fig201 fig-alt="Specifiers to construct optional subqualifiers related to depth requirements and referring to a particular layer (Bathy- not illustrated), modified by S. Dondeyne"}
+
+-   If a qualifier refers to the **major part of a certain depth range or to half or more of a certain depth range** (Dystric and Eutric, only), **additional subqualifiers** can be constructed with the following specifiers:
+    -   **Epi-** (from Greek *epi*, over): the characteristic is present in the major part (or half or more of the part) between the specified upper limit and 50 cm of the (mineral) soil surface and is absent in the major part (or half or more of the part) between the specified upper limit and 100 cm of the (mineral) soil surface or between the specified upper limit and a limiting layer starting \> 50 cm from the mineral soil surface, whichever is shallower.
+
+    -   **Endo-** (from Greek *endon*, inside): the characteristic is present in the major part (or half or more of the part) between 50 and 100 cm of the (mineral) soil surface or between 50 cm of the (mineral) soil surface and a limiting layer, whichever is shallower, and is absent in the major part (or half or more of the part) between the specified upper limit and 100 cm of the (mineral) soil surface or between the specified upper limit and a limiting layer, whichever is shallower.
+
+**These additional subqualifiers are only allowed together with the predominant qualifier**. If it is a principal qualifier, the predominant qualifier stands closer to the name of the RSG (Epidystic Eutric, Endodystric Eutric, Epieutric Dystric, Endoeutric Dystric). If it is a supplementary qualifier, the alphabetical sequence of the qualifiers is followed.
+
+4.  If a qualifier refers to a **specified depth range throughout** (Relocatic, only), **additional subqualifiers** can be constructed with the following specifiers:
+    -   **Epi-** (from Greek *epi*, over): the characteristic is present throughout between the (mineral) soil surface and 50 cm of the (mineral) soil surface and is absent in some layer between 50 and 100 cm of the (mineral) soil surface.
+    -   **Endo-** (not applicable).
+5.  If a qualifier refers to a **percentage** (e.g. Skeletic), **additional subqualifiers** can be constructed with the following specifiers (no subqualifier if a limiting layer starts \< 60 cm from the mineral soil surface):
+    -   **Epi-** (from Greek *epi*, over): the characteristic is present between the (mineral) soil surface and 50 cm of the (mineral) soil surface but is not present throughout, i.e., if averaged over a depth of 100 cm of the (mineral) soil surface or between the (mineral) soil surface and a limiting layer, whichever is shallower.
+    -   **Endo-** (from Greek *endon*, inside): the characteristic is present between 50 and 100 cm of the (mineral) soil surface or between 50 cm of the (mineral) soil surface and a limiting layer, whichever is shallower, but is not present throughout, i.e., if averaged over a depth of 100 cm of the (mineral) soil surface or between the (mineral) soil surface and a limiting layer, whichever is shallower.
+6.  If a qualifier refers to a specific point of depth or to a layer, but its criteria are only fulfilled if layers at a depth of \> 100 cm of the (mineral) soil surface are taken into account, the **Bathy-** (from Greek *bathys*, deep) specifier can be used to construct **additional subqualifiers**. The Bathy- subqualifier extends to a greater depth than specified for the qualifier. If the Endo- specifier cannot be added to a qualifier, the Bathy- specifier cannot be used either (e.g. Alcalic: neither Endo-, nor Bathy-). If used with a principal qualifier, the Bathy- subqualifier **must shift to the supplementary qualifiers** and be placed within the list of the supplementary qualifiers according to the alphabetical position of the qualifier, not the subqualifier. With the Bathy- specifier, qualifiers that are not even in the list for the particular RSG (see Chapter 4) can be added, for example Eutric Arenosol (Bathylixic). If it comprises buried layers, Bathy- is only allowed in combination with the Thapto- specifier, e.g. Thaptobathyvertic (see the Thapto- specifier, below, and Chapter 2.4).
+
+Note: Specifiers conveying redundant information are not added. For example: Skeletic Epileptic Cambisol, not: Episkeletic Epileptic Cambisol.
+
+#### Constructed subqualifiers related to other requirements
+
+If a diagnostic horizon or a layer with a diagnostic property belongs to a buried soil (see Chapter 2.4), the **Thapto-** (from Greek *thaptein*, to bury) specifier can be used to construct **optional or additional subqualifiers**. If used with a principal qualifier, the Thapto- subqualifier **must shift to the supplementary qualifiers** and be placed within the list of the supplementary qualifiers according to the alphabetical position of the qualifier, not the subqualifier.
+
+For soils with a limiting layer, a geomembrane or a continuous layer of *artefacts*, **additional subqualifiers** with the **Supra-** (from Latin *supra*, above) specifier can be constructed to describe the soil material above, if the thickness or depth requirements of a qualifier or of its respective diagnostics are not fulfilled, but all other criteria are fulfilled throughout in the soil material above (e.g. Ekranic Technosol (Suprafolic)). If the Supra- specifier is used, the Epi- specifier is not used.
+
+### Subqualifiers with a given definition
+
+**For some qualifiers, subqualifiers are defined in Chapter 5**, e.g., Hypersalic and Protosalic for the Salic qualifier. These **subqualifiers are not listed with the RSGs in Chapter 4** (unless the qualifier without specifier cannot exist for the respective RSG). They belong to the **optional** (e.g. Hypercalcic, Orthomineralic), the **additional** (e.g. Akromineralic) or the **mandatory** (e.g. Protocalcic) subqualifiers. If the Proto- specifier is used with a principal qualifier, the Proto- subqualifier **must shift to the supplementary qualifiers** and be placed within the list of the supplementary qualifiers according to the alphabetical position of the qualifier, not the subqualifier.
+
+If of one qualifier, two or more subqualifiers with a given definition apply (e.g. Anthromollic and Tonguimollic), they **have to be listed all**. Adding a further specifier to a subqualifier with a given definition is also allowed, e.g., Endoprotosalic, Supraprotosodic.
+
+## Buried soils
+
+A buried soil is a soil covered by younger deposits. Where a soil is buried, the following rules apply:
+
+1.  The overlying material and the buried soil are classified as one soil if both together qualify as a Histosol, Anthrosol, Technosol, Cryosol, Leptosol, Vertisol, Gleysol, Andosol, Planosol, Stagnosol, Arenosol, Fluvisol or Regosol.
+2.  Otherwise, the overlying material is classified with preference if it is ≥ 50 cm thick or if the overlying material, if it stood alone, satisfies the requirements of a RSG other than a Regosol. For depth requirements in the overlying material, the lower limit of the overlying material is regarded as if it were the upper limit of *continuous rock*.
+3.  In all other cases, the buried soil is classified with preference. For depth requirements in the buried soil, the upper limit of the buried soil is regarded as its soil surface.
+4.  If the overlying soil is classified with preference, there are two options to consider the underlying soil:
+    a.  If the underlying soil is not a Regosol or Leptosol and shows a complete horizon sequence, including clearly identifiable organic surface layers and/or mineral topsoil horizons, and one soil does not influence the pedogenic processes in the other soil, respectively (e.g. no clay migration from the overlying into the underlying soil, no Fe transport by capillary upward movement from the underlying into the overlying soil), then the name of the buried soil is placed after the name of the overlying soil adding the word 'over' in between, e.g. Skeletic Umbrisol (Siltic) over Albic Podzol (Arenic). As many buried soils are polygenetic, qualifiers that are not in the list for the particular RSG may be applicable. If so, these qualifiers must be used as supplementary qualifiers. The qualifiers Infraandic and Infraspodic are provided for buried soils only and are therefore not listed with the RSGs in Chapter 4.
+
+    b.  Otherwise, a buried diagnostic horizon or a buried layer with a diagnostic property is added with the Thapto- subqualifier to the name of the overlying soil (see Chapter 2.3).
+5.  If the buried soil is classified with preference, the overlying material is indicated with the Novic qualifier. If applicable, the Novic qualifier is combined with certain other qualifiers in the following way (codes in brackets); thickness and depth criteria of these qualifiers do not need to be fulfilled:\
+    Aeoli-Novic (nva)\
+    Fluvi-Novic (nvf)\
+    Solimovi-Novic (nvs)\
+    Techni-Novic (nvt)\
+    Tephri-Novic (nvv)\
+    Transporti-Novic. (nvp)\
+    In addition, according to Chapter 5, the texture may also be added, e.g., Aeoli-Siltinovic (sja).
+
+## Guidelines for creating legends for soil maps
+
+The following guidelines apply:
+
+1.  A map unit consists of
+
+    -   a dominant soil only
+    -   a dominant soil plus a codominant soil and/or one or more associated soils
+    -   two or three codominant soils
+    -   two or three codominant soils plus one or more associated soils.\
+        \
+        Dominant soils represent ≥ 50% of the soil cover, codominant soils ≥ 25 and \< 50% of the soil cover. Associated soils represent ≥ 5 and \< 25% of the soil cover or are of high relevance in the landscape ecology. The other soils should be ignored in the denomination of the map unit.\
+        \
+        If codominant or associated soils are indicated, the words 'dominant:', 'codominant:' and 'associated:' are written before the name of the soil; the soils are separated by semicolons.
+
+2.  The number of qualifiers specified below refers to the dominant soil. For codominant or associated soils, fewer numbers of qualifiers (or even no qualifier) may be appropriate.
+
+3.  Depending on scale, different numbers of principal qualifiers are used:
+
+    a.  For very small map scales, only the Reference Soil Group (RSG) is used.
+    b.  For next larger map scales, the RSG plus the first applicable principal qualifier are used.
+    c.  For next larger map scales, the RSG plus the first two applicable principal qualifiers are used.\
+        \
+        It is not possible to give general numbers for these scales, because this depends very much on the homogeneity or heterogeneity of the landscape. In landscapes of intermediate homogeneity, very small scales would be smaller than 1 :  10 000 000, the next larger scales smaller than 1 : 5 000 000 and the next larger scales smaller than 1 : 1 000 000.
+
+4.  If there are fewer qualifiers applicable than described above, the lesser number is used.
+
+5.  Depending on the purpose of the map or according to national traditions, at any scale level, further qualifiers may be added as **elective qualifiers**. These may be principal qualifiers from further down the list and not already used in the soil name, or they may be supplementary qualifiers. They are placed using the above-mentioned rules for supplementary qualifiers. If two or more elective qualifiers are used, the following rules apply:
+
+    a.  the principal qualifiers are placed first, and of them, the first applicable qualifier is placed first, and
+
+    b.  the sequence of any supplementary qualifiers added is decided by the soil scientist who makes the map.
+
+#### Example for creating a map unit in WRB
+
+A landscape usually shows a variety of soils. For a map unit, they often have to be combined. The principles are shown in Figure 2.2 and in Table 2.1 and Table 2.2.
+
+![Soils in a landscape that need to be combined to form a map unit](Figure_2-2.png){#fig202 fig-alt="Soils in a landscape that need to be combined to form a map unit"}
+
+| Area | Complete soil name                                                                | Result          |
+|-------|---------------------------------------------------|---------------|
+| 1    | Haplic Luvisol (Episiltic, Katoclayic, Aric, Cutanic, Differentic, Epic, Ochric)  | dominant soil   |
+| 2    | Eutric Stagnic Leptic Cambisol (Loamic, Humic)                                    | codominant soil |
+| 3    | Albic Stagnic Luvisol (Anosiltic, Endoclayic, Cutanic, Differentic, Endic, Humic) | associated soil |
+| 4    | Thyric Technosol (Loamic, Calcaric, Skeletic)                                     | ignored         |
+| 5    | Eutric Luvic Stagnosol (Episiltic, Katoclayic, Humic)                             | ignored         |
+| 6    | Hortic Anthrosol (Loamic, Eutric)                                                 | ignored         |
+
+: Table 2.1: Detection of dominant, codominant and associated soils
+
+| Map scale level | Dominant soil   | Codominant soil          | Associated soil        |
+|----------------|--------------|---------------------|----------------------|
+| First           | Luvisols        | Cambisols                |                        |
+| Second          | Haplic Luvisols | Leptic Cambisols         | Stagnic Luvisols       |
+| Third           | Haplic Luvisols | Stagnic Leptic Cambisols | Albic Stagnic Luvisols |
+
+: Table 2.2: Denomination of the map unit depending on the scale level
+
+#### Examples for map units in WRB
+
+##### Example 1
+
+A map unit dominated by a soil with a very dark mineral surface horizon, 30 cm thick, with high base saturation, no secondary carbonates and groundwater influence starting at 60 cm from the mineral soil surface (i.e. having a layer, ≥ 25 cm thick, that has gleyic properties throughout and reducing conditions in some parts of every sublayer), will be named as follows:
+
+-   at the first map scale level: Phaeozems
+-   at the second map scale level: Chernic Phaeozems
+-   at the third map scale level: Gleyic Chernic Phaeozems
+
+##### Example 2
+
+In a map unit, no diagnostics apply. In 80% of the area, the soil has \< 40% coarse fragments as a weighted average in the uppermost 100 cm, in the other 20% of the area, the soil has 85% coarse fragments as a weighted average in the uppermost 75 cm. The soils are calcareous and silty. This map unit will be named as follows:
+
+-   at the first map scale level: dominant: Regosols associated: Leptosols
+
+-   at the second map scale level: dominant: Calcaric Regosols associated: Coarsic Leptosols
+
+-   at the third map scale level: dominant: Calcaric Regosols associated: Calcaric Coarsic Leptosols
+
+In this example, the next applicable qualifier for the Regosols is Eutric. However, as high base saturation is already indicated by the Calcaric qualifier, the Eutric qualifier is redundant. Therefore, in this case, only one principal qualifier is applicable at the third map scale level. For associated soils, it is allowed to use fewer qualifiers than indicated for the scale level. If appropriate, at the third scale level, the Leptosols may just be named Coarsic Leptosols.
+
+The high silt content may be expressed by the Siltic qualifier, which as a supplementary qualifier is elective in a map legend. It may be added at any scale level, for example:
+
+-   at the first map scale level: Regosols (Siltic)
+
+-   at the second map scale level: Calcaric Regosols (Siltic)
+
+Principal qualifiers, not required at the respective scale level, may also be added as elective qualifiers, for example:
+
+-   at the first map scale level: Regosols (Calcaric, Siltic)
+
+-   at the second map scale level: Calcaric Regosols (Siltic)
+
+##### Example 3
+
+A map unit, dominated by a soil with a thick layer of strongly decomposed acidic *organic material*, 70 cm thick and filled with rainwater, with continuous rock at 80 cm will be named as follows:
+
+-   at the first map scale level: Histosols
+-   at the second map scale level: Sapric Histosols
+-   at the third map scale level: Leptic Sapric Histosols
+
+In this example, the next applicable qualifier is Ombric. As two qualifiers are already used, the third may be added as elective qualifier. In a similar way, elective qualifiers may be used at the other scale levels, for example:
+
+-   at the first map scale level: Histosols (Sapric)
+-   at the second map scale level: Sapric Histosols (Leptic, Ombric)
+-   at the third map scale level: Leptic Sapric Histosols (Ombric)

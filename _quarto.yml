@@ -12,6 +12,7 @@ book:
     - acknowledgements.qmd
     - list-of-acronyms.qmd
     - chapter-01.qmd
+    - chapter-02.qmd
 
 
 bibliography: references.bib
