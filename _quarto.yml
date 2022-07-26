@@ -8,6 +8,7 @@ book:
   chapters:
     - verso.qmd
     - foreword.qmd
+    - preface.qmd
 
 
 bibliography: references.bib

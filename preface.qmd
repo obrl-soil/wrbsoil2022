@@ -1,0 +1,24 @@
+# Preface
+
+The first edition of the World Reference Base for Soil Resources (WRB) was published in 1998, the second in 2006 and the third in 2014. In 2022, at the 22nd World Congress of Soil Science in Glasgow, we present the fourth edition.
+
+The fourth edition is the result of another eight years of testing. During international field workshops, we classified numerous soil profiles and developed ideas for improvement. Establishing algorithms for automated classification helped overcome inconsistencies. The 32 Reference Soil Groups were maintained but soil characteristics, not reflected or properly defined up till now in the WRB, had to be taken into account. Many criteria in the diagnostics, the key and in the definitions of the qualifiers were sharpened and refined. Special effort was made to ensure consistency; that the same features are worded in the same way throughout the text, including the annexes.
+
+The fourth edition has new annexes:
+
+-   A new Field Guide, exactly tailored to the needs of WRB, with many definitions of field characteristics, supported by numerous illustrations - it may be used instead of the FAO Guidelines for Soil Description (2006)
+-   Horizon and Layer Designations with master symbols and suffixes
+-   Recommendations for Colour Symbols for Reference Soil Group Maps
+-   A Soil Description Sheet and a Guidance on Database Set-Up to be provided as separate documents for download.
+
+A large number of soil scientists contributed to the fourth edition (see Acknowledgements). We all hope that the new edition promotes a better understanding of soils, of their distribution and properties, and of their protection and sustainable management.
+
+The first three editions of the WRB were published by the FAO in the World Soil Resources Reports series. This was no longer possible. We are glad that the present fourth edition is published by the IUSS. This reflects well the character of the WRB as a publication of an IUSS Working Group.
+
+Peter Schad\
+Technical University of Munich, Germany\
+Chair of the IUSS Working Group WRB
+
+Stephan Mantel\
+ISRIC - World Soil Information, The Netherlands\
+Vice-Chair of the IUSS Working Group WRB
