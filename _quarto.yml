@@ -13,6 +13,7 @@ book:
     - list-of-acronyms.qmd
     - chapter-01.qmd
     - chapter-02.qmd
+    - chapter-03.qmd
 
 
 bibliography: references.bib
