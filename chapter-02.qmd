@@ -65,7 +65,7 @@ For naming a soil at the second level, all the principal and supplementary quali
 A soil developed from loess with high-activity clays has a marked clay increase at 60 cm depth, clay coatings in the clay-rich horizon, no stratification, and a field pH value around 6 in the depth from 50 to 100 cm. The clay-poor upper soil is subdivided into a darker upper and a light-coloured lower horizon. The clay-rich horizon has a limited amount of oximorphic features with intensive colours inside the soil aggregates and reducing conditions in some parts during springtime. The following conclusions can be drawn (for subqualifiers see Chapter 2.3):
 
 |     |                                                                                |                            |
-|------------------|------------------------------------|------------------|
+|------------------|-----------------------------------|------------------|
 | a\. | clay increase without *lithic discontinuity* and/or with clay coatings         | --\> *argic horizon*       |
 | b\. | *argic horizon* with high CEC and more base cations than Al (inferred by pH 6) | --\> Luvisol               |
 | c\. | light colour in the eluvial horizon                                            | --\> Albic qualifier       |
@@ -219,7 +219,7 @@ A landscape usually shows a variety of soils. For a map unit, they often have to
 ![Soils in a landscape that need to be combined to form a map unit](Figure_2-2.png){#fig202 fig-alt="Soils in a landscape that need to be combined to form a map unit"}
 
 | Area | Complete soil name                                                                | Result          |
-|--------------|-------------------------------------------------------------------------------------------|------------------------|
+|--------------|---------------------------------------------|--------------|
 | 1    | Haplic Luvisol (Episiltic, Katoclayic, Aric, Cutanic, Differentic, Epic, Ochric)  | dominant soil   |
 | 2    | Eutric Stagnic Leptic Cambisol (Loamic, Humic)                                    | codominant soil |
 | 3    | Albic Stagnic Luvisol (Anosiltic, Endoclayic, Cutanic, Differentic, Endic, Humic) | associated soil |
@@ -230,7 +230,7 @@ A landscape usually shows a variety of soils. For a map unit, they often have to
 : Table 2.1: Detection of dominant, codominant and associated soils
 
 | Map scale level | Dominant soil   | Codominant soil          | Associated soil        |
-|-----------------|-----------------|-------------------|--------------------|
+|------------------|------------------|------------------|-------------------|
 | First           | Luvisols        | Cambisols                |                        |
 | Second          | Haplic Luvisols | Leptic Cambisols         | Stagnic Luvisols       |
 | Third           | Haplic Luvisols | Stagnic Leptic Cambisols | Albic Stagnic Luvisols |
