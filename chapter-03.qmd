@@ -1330,7 +1330,7 @@ Similar to many spodic horizons, *sombric horizons* also contain more organic ma
 
 ### Terric horizon
 
-#### General description 
+#### General description
 
 A terric horizon (from Latin *terra*, earth) is a mineral surface horizon that develops through addition of *mineral material* or a combination of *mineral material* and organic residues, for example, fertile mineral soil, compost, calcareous beach sands, loess or mud. It may contain stones, randomly sorted and distributed. In most cases, it is built up gradually over a long period of time. Occasionally, terric horizons are created by single additions of material. Normally the added material is mixed with the original topsoil.
 
@@ -1350,7 +1350,7 @@ A terric horizon is a surface horizon consisting of mineral material and:
 
 6.  has a thickness of ≥ 20 cm.
 
-#### Field identification 
+#### Field identification
 
 Terric horizons show characteristics related to the source material, e.g. in colour. Buried soils may be observed at the base of the horizon although mixing can obscure the contact. Soils with a terric horizon show a raised surface that may be inferred either from field observation or from historical records. The terric horizon is not homogeneous, but subhorizons are thoroughly mixed. It commonly contains a small amount of *artefacts* such as pottery fragments, cultural debris and refuse, that are typically very small (\< 1 cm in diameter) and very abraded.
 
@@ -1379,11 +1379,11 @@ A thionic horizon has:
 
 Thionic horizons generally exhibit pale yellow jarosite or yellowish-brown schwertmannite accumulations on or adjacent to surfaces of soil aggregates. Soil reaction is extremely acid; pH~water~ of 3.5 is quite common. While mostly associated with recent sulfidic coastal sediments, thionic horizons may also develop inland in *sulfidic materials* that may be present either in natural deposits or in *artefacts* such as mine spoil.
 
-#### Additional information 
+#### Additional information
 
 Iron or aluminium sulfate or hydroxysulfate minerals include jarosite, natrojarosite, schwertmannite, sideronatrite and tamarugite. Thionic horizons may consist of organic or *mineral material*.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 A thionic horizon often underlies a horizon with strongly expressed *stagnic properties*.
 
@@ -1393,7 +1393,7 @@ A thionic horizon often underlies a horizon with strongly expressed *stagnic pro
 
 A tsitelic horizon (from Georgian *tsiteli*, red) shows a lateral accumulation of Fe. It is usually found on lower slopes or in depressions. Stagnosols and Planosols occur upslope in inclined positions and have lost reduced Fe by lateral subsurface water flow. Further down, the reduced Fe gets in contact with atmospheric oxygen, is oxidized and accumulates in subsurface horizons starting usually at shallow depths. They are rich in oxalate-extractable Fe, which gives the tsitelic horizons a homogeneous reddish colour.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 A tsitelic horizon consists of *mineral material* and
 
@@ -1411,17 +1411,17 @@ A tsitelic horizon consists of *mineral material* and
 
 7.  has a thickness of ≥ 5 cm.
 
-#### Field identification 
+#### Field identification
 
 The accumulation of ferrihydrites causes a homogeneous reddish colour and, if the horizon is fine-textured, a low bulk density and some thixotropy.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Tsitelic horizons may resemble *spodic horizons* of Rustic Podzols but lack the translocation of Al that is required for *spodic horizons*. If showing low bulk density and thixotropy, they may give the impression of *andic properties*, but they have neither a significant amount of allophanes and imogolites nor of Al-humus complexes. Contrary to most horizons with *andic properties*, tsitelic horizons show more Fe than Al in the oxalate extract. Layers with oximorphic features caused by *gleyic properties* may also look similar to tsitelic horizons. While in layers with *gleyic properties*, the oxides are predominantly found at soil aggregate surfaces, the oxides in tsitelic horizons fill the entire soil matrix homogenously. Tsitelic horizons distinguish well from *limonic horizons*, which are (at least partially) cemented.
 
 ### Umbric horizon
 
-#### General description 
+#### General description
 
 An umbric horizon (from Latin *umbra*, shade) is a relatively thick, dark-coloured surface horizon with a low base saturation and a moderate to high content of organic matter.
 
@@ -1459,7 +1459,7 @@ The main field characteristics of an umbric horizon are its dark colour and its 
 
 Most umbric horizons have an acid reaction (pH~water~ \< 5.5), which usually indicates a base saturation of \< 50%. An additional indication for strong acidity is a shallow, horizontal rooting pattern in the absence of a physical barrier.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 The base saturation requirement sets the umbric horizon apart from the *mollic horizon*, which is otherwise similar. The upper limit of the content of *soil organic carbon* is 20%, which is the lower limit for *organic material*.
 
@@ -1467,11 +1467,11 @@ Some *irragric* and *plaggic horizons* may also qualify as umbric horizons.
 
 ### Vertic horizon
 
-#### General description 
+#### General description
 
 A vertic horizon (from Latin *vertere*, to turn) is a clay-rich subsurface horizon that, as a result of shrinking and swelling, has slickensides and wedge-shaped soil aggregates.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 A vertic horizon consists of mineral material and has:
 
@@ -1486,17 +1486,17 @@ A vertic horizon consists of mineral material and has:
 
 4.  a thickness of ≥ 25 cm.
 
-#### Field identification 
+#### Field identification
 
 Vertic horizons are clay-rich and, when dry, often have a rupture-resistance class of at least hard. Polished, shiny surfaces with striations (slickensides), often at sharp angles, are distinctive.
 
 Wedge-shaped soil aggregates and slickensides (see Annex 1, Chapter 8.4.10 and 8.4.14) may not be immediately evident if the soil is moist. A decision about their presence can sometimes only be made after the soil has dried out. Wedge-shaped aggregates may be a second-level structure of larger angular blocky or prismatic elements, which should be carefully examined to see if wedge-shaped aggregates are present.
 
-#### Additional information 
+#### Additional information
 
 The coefficient of linear extensibility (COLE, see Annex 2, Chapter 9.6) is usually ≥ 0.06.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Several other diagnostic horizons may also have high clay contents, e.g., the *argic*, *natric* and *nitic horizon*. Most of them lack the characteristics typical for the vertic horizon. However, they may be laterally linked in the landscape with vertic horizons, the latter usually taking up the lowest position. Less pronounced swelling and shrinking of clay minerals leads to a *protovertic horizon*.
 
@@ -1506,11 +1506,11 @@ Several other diagnostic horizons may also have high clay contents, e.g., the *a
 
 ### Abrupt textural difference
 
-#### General description 
+#### General description
 
 An abrupt textural difference (from Latin *abruptus*, broken away) is a very sharp increase in clay content within a limited depth range.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 An abrupt textural difference refers to two superimposed layers consisting of *mineral material* with all of the following:
 
@@ -1530,17 +1530,17 @@ An abrupt textural difference refers to two superimposed layers consisting of *m
 
 5.  a transitional layer, if present, has a thickness of ≤ 2 cm.
 
-### Additional information 
+### Additional information
 
 An example for an uneven limit between the two layers are *retic properties* in the underlying layer. Depending on the development of the *retic properties*, the abrupt textural difference may be at the upper limit of the *retic properties* or further down (criterion 3).
 
 ### Albeluvic glossae
 
-#### General description 
+#### General description
 
 The term albeluvic glossae (from Latin *albus*, white, and *eluere*, to wash out, and Greek *glossa*, tongue) refers to penetrations of clay- and Fe-depleted material into an *argic horizon*. Albeluvic glossae occur along soil aggregate surfaces and form vertically continuous tongues. In horizontal sections, they exhibit a polygonal pattern.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Albeluvic glossae:
 
@@ -1554,17 +1554,17 @@ Albeluvic glossae:
     b)  have a horizontal extension of ≥ 1 cm; ***and***
     c)  occupy ≥ 10 and \< 90% of the exposed area.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Albeluvic glossae are a special case of *retic properties*. In *retic properties*, the coarser-textured parts may be thinner and are not necessarily vertically continuous. *Retic properties* may also be present in *natric horizons* whereas albeluvic glossae are defined only in *argic horizons*. The *argic horizon* into which the albeluvic glossae penetrate may also fulfil the diagnostic criteria of a *fragic horizon*. In undisturbed soils, the *argic horizon* with the albeluvic glossae is typically overlain by an *albic* or *cambic horizon*. However, the overlying horizons may be lost due to erosion or ploughing.
 
 ### Andic properties
 
-#### General description 
+#### General description
 
 Andic properties (from Japanese *an*, dark, and *do*, soil) result from moderate weathering of mainly pyroclastic deposits. The presence of short-range-order minerals and/or organo-metallic complexes is characteristic for andic properties. These minerals and complexes are commonly part of the weathering sequence in pyroclastic deposits (*tephric material* → *vitric properties* → andic properties). However, andic properties with organo-metallic complexes may also form in non-pyroclastic silicate-rich materials in cooltemperate and humid climates.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Andic properties require:
 
@@ -1572,13 +1572,13 @@ Andic properties require:
 2.  an Al~ox~ + ½Fe~ox~ value of ≥ 2%; ***and***
 3.  a phosphate retention of ≥ 85%.
 
-#### Field identification 
+#### Field identification
 
 Andic properties may be identified using the sodium fluoride field test of Fieldes and Perrott (1966). A pH in NaF of ≥ 9.5 indicates allophane and/or organo-aluminium complexes in carbonate-free soils. The test is indicative for most layers with andic properties, except for those very rich in organic matter. However, the same reaction occurs in *spodic horizons* and in certain acid clays that are rich in Al-interlayered clay minerals.
 
 Andic layers may exhibit thixotropy, i.e. the soil material changes, under pressure or by rubbing, from a plastic solid into a liquefied stage and back into the solid condition.
 
-#### Additional information 
+#### Additional information
 
 Andic properties may be found at the soil surface or in the subsurface, commonly occurring as layers. Many surface layers with andic properties contain a high amount of organic matter (≥ 5%), are commonly very dark coloured (Munsell colour value and chroma of ≤ 3, moist), have a fluffy macrostructure, and in some places show thixotropy. They have a low bulk density and commonly have a silt loam or finer texture. Andic surface layers rich in organic matter may be very thick, having a thickness of ≥ 50 cm in some soils. Andic subsurface layers are generally somewhat lighter coloured.
 
@@ -1598,11 +1598,11 @@ Uncultivated, organic matter-rich surface layers with silandic properties typica
 
 ### Anthric properties
 
-#### General description 
+#### General description
 
 Anthric properties (from Greek *anthropos*, human being) refer to human-made *mollic* or *umbric horizons*. Some of the *mollic horizons* with anthric properties are natural *umbric horizons* transformed into *mollic horizons* by liming and fertilization. Thin, light-coloured or humus-poor mineral topsoil horizons may be transformed into *umbric* or even *mollic horizons* by long-term cultivation (ploughing, liming, fertilization etc.). Another group of artificial *mollic* or *umbric horizons* is created by ploughing organic surface layers into the mineral soil. In all these cases, the soil has very little animal activity, which is especially uncommon for soils with a *mollic horizon*.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Anthric properties:
 
@@ -1620,7 +1620,7 @@ Anthric properties:
     a.  in the lowermost 5 cm of the *mollic* or *umbric horizon*; ***or***
     b.  in a depth range of 5 cm below the plough layer, if present.
 
-#### Field identification 
+#### Field identification
 
 Signs of mixing or cultivation, evidence of liming (e.g. remnants of applied lime chunks), the dark colour and the almost complete absence of traces of soil animal activity are the main criteria for recognition. Incorporated humus-richer material may be established with the naked eye, using a 10x hand lens or using thin sections, depending on the degree of fragmentation/dispersion of the humus-richer material. The incorporated humus-richer material is typically weakly bound to the humus-poorer material, which is manifested by uncoated sand grains in a darker matrix throughout the mixed layer.
 
@@ -1628,23 +1628,23 @@ Signs of mixing or cultivation, evidence of liming (e.g. remnants of applied lim
 
 430 mg kg^-1^ P in the Mehlich-3 extract roughly correspond to 654 mg kg^-1^ P or 1500 mg kg^-1^ P~2~O~5~ in 1% citric acid (Kabała et al., 2018), which was the requirement in former editions of WRB. The original idea of the anthric properties is derived from Krogh & Greve (1999).
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Anthric properties are an additional characteristic of some *mollic* or *umbric horizons*. *Chernic horizons* normally show a higher animal activity and do not have anthric properties.
 
 ### Continuous rock
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Continuous rock (from Latin *continuare*, to continue) is consolidated material, exclusive of cemented pedogenic horizons such as *limonic*, *petrocalcic*, *petroduric*, *petrogypsic*, *petroplinthic* and *spodic horizons*. Continuous rock is sufficiently consolidated to remain intact when an air-dried specimen, 25--30 mm on one side, is submerged in water for 1 hour. The material is considered continuous only if cracks occupy \< 10% (by volume) of the continuous rock, with no significant displacement of the rock having taken place.
 
 ### Gleyic properties
 
-#### General description 
+#### General description
 
 Gleyic properties (from Russian folk name *gley*, wet bluish clay) develop in layers that are saturated with groundwater (or were saturated in the past, if now drained) for a period that allows *reducing conditions* to occur (this may range from a few days in the tropics to a few weeks in other areas) and in the capillary fringe above them. There may be gleyic properties without the presence of groundwater in a clay-rich layer over a layer rich in sand or coarse fragments. In some soils with gleyic properties, the *reducing conditions* are caused by upward moving gases such as methane or carbon dioxide. If there are no more *reducing conditions*, the gleyic properties are relict.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Gleyic properties refer to *mineral material*, show redoximorphic features and comprise one of the following:
 
@@ -1660,11 +1660,11 @@ Gleyic properties refer to *mineral material*, show redoximorphic features and c
 
 3.  a combination of two layers: a layer fulfilling diagnostic criterion 2 and a directly underlying layer fulfilling diagnostic criterion 1.
 
-#### Field identification 
+#### Field identification
 
 Redoximorphic features are described in Annex 1 (Chapter 8.4.20).
 
-#### Additional information 
+#### Additional information
 
 Gleyic properties result from a redox gradient between groundwater and the capillary fringe causing an uneven distribution of iron or manganese (hydr-)oxides. In the lower part of the soil and/or inside the soil aggregates, the oxides are either transformed into soluble Fe/Mn(II) compounds or they are translocated; both processes lead to the absence of colours that have a Munsell hue redder than 2.5Y. Translocated Fe and Mn compounds can be concentrated in the oxidized form (Fe\[III\], Mn\[IV\]) on soil aggregate surfaces or on biopore walls (rusty root channels), and towards the surface even in the matrix. Mn concentrations can be recognized by strong effervescence using a 10% H~2~O~2~ solution.
 
@@ -1674,17 +1674,17 @@ Oximorphic features reflect oxidizing conditions, as in the capillary fringe and
 
 In most cases, a layer fulfilling diagnostic criterion 2 overlies a layer fulfilling criterion 1. Some soils, including underwater soils (freshwater or seawater) and tidal soils have only a layer that fulfils diagnostic criterion 1 and no layer fulfilling criterion 2.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Gleyic properties differ from *stagnic properties*. Gleyic properties are caused by an upward moving agent (mostly groundwater) that causes *reducing conditions* and that leads to an underlying strongly reduced layer and an overlying layer with oximorphic features on or adjacent to soil aggregate surfaces. (In some soils only one of these layers is present.) *Stagnic properties* are caused by stagnation of an intruding agent (mostly rainwater) that causes *reducing conditions* and that leads to an overlying Fe-poor layer and an underlying layer with oximorphic features inside the soil aggregates. (In some soils, only one of these layers is present.)
 
 ### Lithic discontinuity
 
-#### General description 
+#### General description
 
 Lithic discontinuities (from Greek *lithos*, stone, and Latin *continuare*, to continue) represent significant differences in parent material within a soil. A lithic discontinuity can also denote different times of deposition. The different strata may have the same or a different mineralogy.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 When comparing two directly superimposed layers consisting of mineral material, a lithic discontinuity requires one or more of the following:
 
@@ -1706,24 +1706,24 @@ When comparing two directly superimposed layers consisting of mineral material, 
 10. differences in the TiO~2~/ZrO~2~ ratios of the sand fraction by a factor of ≥ 2; ***or***
 11. differences in CEC (by 1 *M* NH~4~OAc, pH 7) per kg clay by a factor of ≥ 2.
 
-#### Additional information 
+#### Additional information
 
 In some cases, a lithic discontinuity may be suggested by one of the following: a horizontal line of coarse fragments (stone line) overlying and underlying layers with lesser amounts of coarse fragments, or a decreasing percentage of coarse fragments with increasing depth. On the other hand, the sorting action of small fauna such as termites can produce similar effects in what would initially have been lithicly uniform parent material.
 
 Diagnostic criterion 2 is illustrated by the following example:
 
-Layer 1: 20% coarse sand, 10% medium sand → ratio coarse sand to medium sand: 2. \
-Layer 2: 15% coarse sand, 10% medium sand → ratio coarse sand to medium sand: 1.5. Difference in ratios: 25% \
-Difference in contents of coarse sand (absolute): 5% \
-Difference in contents of medium sand (absolute): 0 \
+Layer 1: 20% coarse sand, 10% medium sand → ratio coarse sand to medium sand: 2.\
+Layer 2: 15% coarse sand, 10% medium sand → ratio coarse sand to medium sand: 1.5. Difference in ratios: 25%\
+Difference in contents of coarse sand (absolute): 5%\
+Difference in contents of medium sand (absolute): 0\
 Result: between the two layers, there is a lithic discontinuity.
 
-Generally, the mathematical formula for calculating differences in ratios is: \
+Generally, the mathematical formula for calculating differences in ratios is:\
 ABS(ratio~i~-ratio~i+1~)/MAX(ratio~i~; ratio~i+1~)\*100
 
 ### Protocalcic properties
 
-#### General description 
+#### General description
 
 Protocalcic properties (from Greek *proton*, first, and Latin *calx*, lime) refer to carbonates that are derived from the soil solution and precipitated in the soil. They do not belong to the soil parent material or to other sources such as dust. They occur across the soil structure or fabric. These carbonates are called secondary carbonates. For protocalcic properties, they must be permanent and be present in significant quantities.
 
@@ -1735,21 +1735,21 @@ Protocalcic properties refer to accumulations of secondary carbonates, visible w
 2.  cover ≥ 10% of the surfaces of soil aggregates or biopore walls; ***or***
 3.  cover ≥ 10% of the underside surfaces of coarse fragments or of fragments of a cemented horizon.
 
-#### Field identification 
+#### Field identification
 
 The identification of secondary carbonates is described in Annex 1 (Chapter 8.4.25).
 
-#### Additional information 
+#### Additional information
 
 Accumulations of secondary carbonates qualify as protocalcic properties only if they are permanent and do not come and go with changing moisture conditions. This should be checked by spraying some water on them.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Accumulations of secondary carbonates with higher contents of calcium carbonate equivalent may qualify for a *calcic horizon*, or if continuously cemented with a cementation class of at least moderately cemented, for a *petrocalcic horizon*. *Calcaric material* refers to the presence of carbonates in the entire fine earth, which usually includes primary carbonates.
 
 ### Protogypsic properties
 
-#### General description 
+#### General description
 
 Protogypsic properties (from Greek *proton*, first, and *gypsos*, gypsum) refer to gypsum that is derived from the soil solution and precipitated in the soil. It does not belong to the soil parent material or to other sources such as dust. This gypsum is called secondary gypsum.
 
@@ -1757,30 +1757,30 @@ Protogypsic properties (from Greek *proton*, first, and *gypsos*, gypsum) refer 
 
 Protogypsic properties refer to visible accumulations of secondary gypsum that occupy ≥ 1% of the exposed area (related to the fine earth plus accumulations of secondary gypsum of any size and any cementation class).
 
-#### Field identification 
+#### Field identification
 
 The identification of secondary gypsum is described in Annex 1 (Chapter 8.4.26).
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Accumulations of secondary gypsum with higher gypsum contents may qualify for a *gypsic horizon*, or if continuously cemented, for a *petrogypsic horizon*. *Gypsiric material* includes primary gypsum.
 
 ### Reducing conditions
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Reducing conditions (from Latin *reducere*, to draw back) show one or more of the following:
 
 1.  a negative logarithm of the hydrogen partial pressure (rH, calculated as Eh·29^-1^ + 2·pH) of \< 20; ***or***
 2.  the presence of free Fe^2+^, as shown on a freshly broken and smoothed surface of a field-wet soil by the appearance of a strong red colour after wetting it with 0.2% α,α-dipyridyl dissolved in 1 *N* ammonium acetate (NH~4~OAc), pH 7; ***or***
-3.   the presence of iron sulfide; ***or***
+3.  the presence of iron sulfide; ***or***
 4.  the presence of methane.
 
 **Caution**: α,α-dipyridyl solution is toxic if swallowed and harmful if absorbed through skin or inhaled. It has to be used with care. In layers with a neutral or alkaline soil reaction it may not give the strong red colour.
 
 ### Retic properties
 
-#### General description 
+#### General description
 
 Retic properties (from Latin *rete*, net) describe the interfingering of coarser-textured *claric material* into a finer-textured *argic* or *natric horizon*. The interfingering coarser-textured *claric material* is characterized by a partial removal of clay minerals and iron oxides. There may be also coarser-textured *claric material* falling from the overlying horizon into cracks in the *argic* or *natric horizon*. The coarser-textured *claric material* is found as vertical, horizontal and inclined interfingerings between soil aggregates.
 
@@ -1803,34 +1803,34 @@ Retic properties refer to a combination of finer-textured parts and coarser-text
         whichever is thinner; ***and***
 8.  do not occur within a plough layer.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Retic properties include the special case of *albeluvic glossae*. The *argic* or *natric horizons* that exhibit retic properties may also satisfy the requirements of a *fragic horizon*. A layer with retic properties may also show *stagnic properties* with or without *reducing conditions*. In undisturbed soils, the *argic* or *natric horizon* with the retic properties is typically overlain by an *albic* or *cambic horizon*. However, the overlying horizons may be lost due to erosion or ploughing.
 
 ### Shrink-swell cracks
 
-#### General description 
+#### General description
 
 Shrink-swell cracks open and close due to shrinking and swelling of clay minerals with changing water content of the soil. They may be evident only when the soil is dry. They control the infiltration and percolation of water, even if they are filled with material from the surface.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Shrink-swell cracks occur in *mineral material* and:
 
 1.  open and close with changing water content of the soil; ***and***
 2.  are ≥ 0.5 cm wide, when the soil is dry, with or without infillings of material from the surface.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Shrink-swell cracks are referred to in the diagnostic criteria of the *protovertic horizon*, the *vertic horizon* and in the Key to the Reference Soil Groups (where reference is made to their depth requirements).
 
 ### Sideralic properties
 
-#### General description 
+#### General description
 
 Sideralic properties (from Greek *sideros*, iron, and Latin *alumen*, alum) refer to *mineral material* that has a relatively low CEC.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Sideralic properties occur in *mineral material* and require:
 
@@ -1841,17 +1841,17 @@ Sideralic properties occur in *mineral material* and require:
 
 2.  evidence of soil formation as defined in criterion 3 of the *cambic horizon*.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Sideralic properties are also present in *ferralic horizons*.
 
 ### Stagnic properties
 
-#### General description 
+#### General description
 
 Stagnic properties (from Latin *stagnare*, to flood) form in layers that are, at least temporarily, saturated with stagnant water (or were saturated in the past, if now drained) for a period long enough that allows *reducing conditions* to occur (this may range from a few days in the tropics to a few weeks in other areas). In some soils with stagnic properties, the *reducing conditions* are caused by the intrusion of other liquids such as gasoline. If there are no more *reducing conditions*, the stagnic properties are relict.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Stagnic properties refer to *mineral material*, show redoximorphic features and comprise one or more of the following:
 
@@ -1879,27 +1879,27 @@ Stagnic properties refer to *mineral material*, show redoximorphic features and 
 
 5.  a combination of two layers: a layer with *claric material* in ≥ 95% of its exposed area, which is considered as reductimorphic feature, and a directly underlying layer fulfilling the diagnostic criteria 1, 2 or 3.
 
-#### Field identification 
+#### Field identification
 
 Redoximorphic features are described in Annex 1 (Chapter 8.4.20).
 
-#### Additional information 
+#### Additional information
 
 Stagnic properties result from a reduction of iron and/or manganese (hydr-)oxides around the larger pores. Mobilized Mn and Fe may be washed out laterally resulting in *claric material* (especially in the upper part of the profile that is coarser textured in many soils) or may migrate into the interiors of the soil aggregates where they are reoxidized (especially in the lower part of the profile).
 
 If the stagnic properties are weakly expressed, the reductimorphic and oximorphic features cover only some parts of the exposed area, and the other parts show the original matrix colour that prevailed in the soil before the redox processes started. If the stagnic properties are strongly expressed, the entire exposed area of the fine earth shows either reductimorphic or oximorphic features.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Stagnic properties differ from *gleyic properties*. Stagnic properties are caused by stagnation of an intruding agent (mostly rainwater) that causes *reducing conditions* and that leads to an overlying Fe-poor layer and an underlying layer with oximorphic features inside the soil aggregates. (In some soils, only one of these layers is present.) *Gleyic properties* are caused by an upward moving agent (mostly groundwater) that causes *reducing conditions* and that leads to an underlying strongly reduced layer and an overlying layer with oximorphic features on or adjacent to the soil aggregate surfaces. (In some soils, only one of these layers is present.)
 
 ### Takyric properties
 
-#### General description 
+#### General description
 
 Takyric properties (from Turkic languages *takyr*, barren land) are related to a fine-textured surface crust with a platy or massive structure. They occur under arid conditions in periodically flooded soils.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Takyric properties refer to a surface crust consisting of *mineral material* that has all of the following:
 
@@ -1911,11 +1911,11 @@ Takyric properties refer to a surface crust consisting of *mineral material* tha
     a.  \< 4 dS m^-1^; ***or***
     b.  at least 1 dS m^-1^ less than that of the layer directly below the surface crust.
 
-#### Field identification 
+#### Field identification
 
 Takyric properties occur in depressions in arid regions, where surface water, rich in clay and silt but relatively low in soluble salts, accumulates and leaches salts out of the upper soil horizons. This causes clay dispersion and the formation of a thick, compact, fine-textured crust with prominent polygonal cracks when dry. The crust often contains ≥ 80% clay and silt. It is thick enough that it does not curl entirely upon drying.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Takyric properties occur in association with many diagnostic horizons, the most important ones being the *natric*, *salic*, *gypsic*, *calcic* and *cambic horizons*. The low EC and low soluble-salt content of takyric properties set them apart from the *salic horizon*.
 
@@ -1925,7 +1925,7 @@ Takyric properties occur in association with many diagnostic horizons, the most 
 
 Vitric properties (from Latin *vitrum*, glass) apply to layers that contain glass from volcanic or industrial origin and that contain a limited amount of short-range-order minerals or organo-metallic complexes.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Vitric properties require:
 
@@ -1933,11 +1933,11 @@ Vitric properties require:
 2.  an Al~ox~ + ½Fe~ox~ value of ≥ 0.4%; ***and***
 3.  a phosphate retention of ≥ 25%.
 
-#### Field identification 
+#### Field identification
 
 Vitric properties can occur in a surface layer. However, they can also occur under some tens of centimetres of recent pyroclastic deposits. Layers with vitric properties can have an appreciable amount of organic matter. The sand and coarse silt fractions of layers with vitric properties have a significant amount of unaltered or partially altered volcanic glass, glassy aggregates, other glass-coated primary minerals or glassses resulting from industiral processes (coarser fractions may be checked by using a 10x hand lens; finer fractions may be checked by using a microscope).
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Vitric properties are, on the one hand, closely linked with *andic properties*, into which they may eventually develop. For some time during this development, a layer may show both the amount of volcanic glasses required for the vitric properties and the characteristics of *andic properties*. On the other hand, layers with vitric properties develop from *tephric material*. The diagnostic criteria of the vitric and *andic properties* are adapted after Shoji et al. (1996), Takahashi et al. (2004) and findings of the COST 622 Action.
 
@@ -1945,11 +1945,11 @@ Vitric properties are, on the one hand, closely linked with *andic properties*, 
 
 ### Yermic properties
 
-#### General description 
+#### General description
 
 Yermic properties (from Spanish *yermo*, desert) are found on the mineral soil surface in deserts. They comprise features like desert pavement, desert varnish, ventifacts (windkanters), a platy strucure and vesicular pores.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Yermic properties occur in *mineral material* and have one or both of the following:
 
@@ -1960,17 +1960,17 @@ Yermic properties occur in *mineral material* and have one or both of the follow
     d.  a surface layer, ≥ 1 cm thick, with many vesicular pores; ***or***
 2.  a surface layer, not compacted by human activity, ≥ 1 cm thick, with a platy structure and many vesicular pores.
 
-#### Field identification 
+#### Field identification
 
-The features of the yermic properties are described in Annex 1: \
-desert pavement (Chapter 8.3.4) \
-desert varnish and ventifacts (Chapter 8.3.5) \
-platy structure (Chapter 8.4.10) \
+The features of the yermic properties are described in Annex 1:\
+desert pavement (Chapter 8.3.4)\
+desert varnish and ventifacts (Chapter 8.3.5)\
+platy structure (Chapter 8.4.10)\
 vesicular pores (Chapter 8.4.12) - to be diagnostic, the vesicular pores must be present in the abundance class 'many'.
 
 If the texture is fine enough, the soil may show a polygonal network of desiccation cracks (Chapter 8.4.13), often filled with in-blown material, that extend into greater depths. In cold deserts, larger coarse fragments at the soil surface are often shattered by frost.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Yermic properties often occur in association with other diagnostics, characteristic for desert environments (*salic*, *duric*, *gypsic*, *calcic* and *cambic horizons*). In very cold deserts (e.g. Antarctica), they may occur associated with *cryic horizons*. Under these conditions, coarse cryoclastic material dominates, and there is little dust to be deflated and deposited by wind. Here, a dense pavement with varnish, ventifacts, aeolian sand layers and accumulations of soluble minerals may occur directly on loose deposits, without vesicular pores.
 
@@ -1980,11 +1980,11 @@ Yermic properties often occur in association with other diagnostics, characteris
 
 ### Aeolic material
 
-#### General description 
+#### General description
 
 Aeolic material (from Greek *aiolos*, wind) describes material deposited by wind, typical in arid and semi-arid environments.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Aeolic material requires:
 
@@ -1995,11 +1995,11 @@ Aeolic material requires:
 
 ### Artefacts
 
-#### General description 
+#### General description
 
 Artefacts describe human-made, human-altered and human-excavated material. They may by physically altered (e.g. broken to pieces) but are chemically and mineralogically not or only poorly altered and still largely recognizable.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Artefacts (from Latin *ars*, art, and *factus*, made) are liquid or solid substances of any size that:
 
@@ -2008,35 +2008,35 @@ Artefacts (from Latin *ars*, art, and *factus*, made) are liquid or solid substa
     b.  brought to the soil surface by human activity from a depth, where they were not influenced by surface processes, and deposited in an environment, where they do not commonly occur, with properties substantially different from the environment where they are placed; ***and***
 2.  have substantially the same chemical and mineralogical properties as when first manufactured, modified or excavated.
 
-#### Additional information 
+#### Additional information
 
 Examples of artefacts are bricks, pottery, glass, crushed or dressed stone, wooden boards, industrial waste, plastic, garbage, processed oil products, bitumen, mine spoil and crude oil.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 *Technic hard material* and geomembranes, intact, fractured or composed, also fulfil the diagnostic criteria of artefacts.
 
 ### Calcaric material
 
-#### General description 
+#### General description
 
 Calcaric material (from Latin *calcarius*, containing lime) refers to material that contains ≥ 2% calcium carbonate equivalent. The carbonates are at least partially inherited from the parent material (primary carbonates).
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Calcaric material shows visible effervescence with 1 *M* HCl throughout the fine earth.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Calcaric material may also meet the diagnostic criteria of *protocalcic properties*, which show discernible accumulations of secondary carbonates. *Calcic* and *petrocalcic horizons* have higher contents of carbonates and also show secondary carbonates. *Petrocalcic horizons* are continuously cemented.
 
 ### Claric material
 
-#### General description 
+#### General description
 
 Claric material (from Latin *clarus*, bright) is light-coloured fine earth.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Claric material is *mineral material* and:
 
@@ -2055,31 +2055,31 @@ Claric material is *mineral material* and:
         ii. a value of ≥ 4 and a chroma of ≤ 3; ***and***
         iii. ≥ 25% of the sand and coarse silt grains are uncoated.
 
-#### Field identification 
+#### Field identification
 
 Identification in the field depends on soil colours. In addition, a 10x hand lens may be used to ascertain that sand and coarse silt grains are free of coatings (criterion 2.d). Claric material may exhibit a considerable shift in chroma when wetted.
 
-#### Additional information 
+#### Additional information
 
 The presence of coatings around sand and coarse silt grains can be determined using an optical microscope for analysing thin sections. Uncoated grains usually show a very thin rim at their surface. Coatings may be of an organic nature, consist of iron oxides, or both, and are dark-coloured under translucent light. Iron coatings become reddish in colour under reflected light, while organic coatings remain brownish-black.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 The claric material is used as a diagnostic criterion in the definition of the *spodic horizon*, the *retic* and the *stagnic properties*. A layer with claric material that has lost oxides and/or organic matter due to clay migration, podzolization or due to redox processes caused by stagnant water, forms an *albic horizon*.
 
 ### Dolomitic material
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Dolomitic material (named after the French geoscientist *Déodat de Dolomieu*) shows visible effervescence with heated 1 *M* HCl throughout the fine earth. It applies to material that contains ≥ 2% of a mineral that has a ratio CaCO~3~/MgCO~3~ \< 1.5. With non-heated HCl, it gives only a retarded and poorly visible effervescence.
 
 ### Fluvic material
 
-#### General description 
+#### General description
 
 Fluvic material (from Latin *fluvius*, river) refers to fluviatile, marine and lacustrine sediments that receive fresh material or have received it in the past and still show stratification. Fluvic material shows only little soil formation after deposition.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Fluvic material is *mineral material* and:
 
@@ -2093,7 +2093,7 @@ Fluvic material is *mineral material* and:
 3.  has a single grain, a massive, a platy or a weak subangular blocky structure; ***and***
 4.  is not cemented.
 
-#### Field identification 
+#### Field identification
 
 Stratification may be reflected in different ways:
 
@@ -2101,27 +2101,27 @@ Stratification may be reflected in different ways:
 -   different colours related to the source materials
 -   alternating lighter- and darker-coloured soil layers, indicating an irregular decrease in soil organic carbon content with depth.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Fluvic material is always associated with water bodies (e.g. rivers, lakes, the sea) and can therefore be distinguished from *solimovic material*. It may also fulfil the criteria of *limnic material*.
 
 ### Gypsiric material
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Gypsiric material (from Greek *gypsos*, gypsum) is *mineral material* that contains ≥ 5% gypsum that is not secondary gypsum.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Gypsiric material may also meet the diagnostic criteria of *protogypsic properties*, which show discernible accumulations of secondary gypsum. *Gypsic* and *petrogypsic horizons* also show secondary gypsum. *Petrogypsic horizons* have high amounts of gypsum and are continuously cemented.
 
 ### Hypersulfidic material
 
-#### General description 
+#### General description
 
 Hypersulfidic material (from Greek *hyper*, over, and Latin *sulpur*, sulfur) contains inorganic sulfidic S and is capable of severe acidification as a result of the oxidation of inorganic sulfidic compounds contained within it. Hypersulfidic material is also known as 'potential acid sulfate soil'.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Hypersulfidic material:
 
@@ -2135,7 +2135,7 @@ Hypersulfidic material:
     b.  latest after these 8 weeks, the decrease in pH is only ≤ 0.1 pH units over a further period of 14 days; *or*
     c.  latest after these 8 weeks, the pH begins to increase again.
 
-#### Field identification 
+#### Field identification
 
 Hypersulfidic material is seasonally or permanently waterlogged or forms under largely anaerobic conditions. It has a Munsell colour hue of N, 5Y, 5GY, 5BG, or 5G, a value of ≤ 4, and a chroma of 1, all moist. If the soil is disturbed, an odour of hydrogen sulfide (rotten eggs) may be noticed. This is accentuated by application of 1 *M* HCl.
 
@@ -2143,13 +2143,13 @@ For a quick screening test that is not definitive, a 10 g sample treated with 5
 
 **Caution**: H~2~O~2~ is a strong oxidant, and sulfides and organic matter will froth violently in a test tube that may become very hot.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Acidification of hypersulfidic material usually causes the development of a *thionic horizon*. *Hyposulfidic material* has the same criteria for inorganic sulfidic S and for the pH value but is not capable of severe acidification.
 
 ### Hyposulfidic material
 
-#### General description 
+#### General description
 
 Hyposulfidic material (from Greek *hypo*, under, and Latin *sulpur*, sulfur) contains inorganic sulfidic S and is not capable of severe acidification resulting from the oxidation of inorganic sulfidic compounds contained within it. Although oxidation does not lead to the formation of acid sulfate soils, hyposulfidic material is an important environmental hazard due to processes related to inorganic sulfides. Hyposulfidic material has a self-neutralizing capacity, usually due to the presence of calcium carbonate.
 
@@ -2165,13 +2165,13 @@ Hyposulfidic material:
 
 Hyposulfidic material forms in similar environments to *hypersulfidic material* and morphologically may be indistinguishable from it. However, it is less likely to be coarse in texture. The hydrogen peroxide screening test (see *hypersulfidic material*) may also be indicative, but final assessment depends on incubation testing. Field tests for fine earth carbonate may be used to indicate whether the soil has some self-neutralizing capacity.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Acidification of hyposulfidic material usually does not cause the development of a *thionic horizon*. *Hypersulfidic material* has the same criteria for inorganic sulfidic S and for the pH value but is capable of severe acidification.
 
 ### Limnic material
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Limnic material (from Greek *limnae*, pool) includes both organic and mineral material and is one or more of the following:
 
@@ -2180,7 +2180,7 @@ Limnic material (from Greek *limnae*, pool) includes both organic and mineral ma
 3.  derived from aquatic plants and subsequently transported; ***or***
 4.  derived from aquatic plants and subsequently modified by aquatic animals and/or microorganisms.
 
-#### Field identification 
+#### Field identification
 
 *Limnic material* is formed as subaquatic deposits and usually stratified. (After drainage it may occur at the soil surface.) Four types of limnic material can be distinguished:
 
@@ -2198,20 +2198,20 @@ Limnic material (from Greek *limnae*, pool) includes both organic and mineral ma
 
 In mineral material (from Celtic *mine*, mineral), the properties of the fine earth are dominated by mineral components.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Mineral material has
 
 1.  \< 20% soil organic carbon (related to the fine earth plus the dead plant remnants of any length and a diameter ≤ 5 mm); ***and***
 2.  \< 35% (by volume, related to the whole soil) artefacts containing ≥ 20% organic carbon.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Material that has ≥ 20% *soil organic carbon* is *organic material*. Other material that has ≥ 35% (by volume, related to the whole soil) *artefacts* containing ≥ 20% organic carbon is *organotechnic material*.
 
 ### Mulmic material
 
-#### General description 
+#### General description
 
 Mulmic material (from German *Mulm*, powdery detritus) is *mineral material* developed from *organic material*. If water-saturated *organic material* is drained, a fast decomposition starts. While the amount of mineral components remains constant, the amount of organic matter decreases, and the organic matter content eventually falls below 20%, resulting in *mineral material*.
 
@@ -2231,7 +2231,7 @@ Mulmic material is *mineral material* that has developed from water-saturated *o
 
 Organic material (from Greek *organon*, tool) has large amounts of organic matter in the fine earth and/or contains many dead thin plant remnants. It may show different stages of decomposition. If still connected to living plants (e.g. *Sphagnum* mosses), it may even be completely undecomposed. If derived from fallen organic residues, it is decomposed to at least the extent that it is not loose and/or that recognizable dead plant tissues comprise ≤ 90% of the volume (related to the fine earth plus all dead plant remnants). Fallen organic residues with \> 90% recognizable dead plant tissues and still loose are called litter layer (see Chapter 2.1, General rules, and Annex 1, Chapters 8.3.1 and 8.3.2) and are not considered for classification in WRB. (Litter layers are temporally and spatially extremely variable in thickness). On the other hand, decomposition may be advanced until no recognizable dead plant tissues remain, and a homogeneous organic soil mass results. Organic material accumulates under both wet and dry conditions. The mineral component of the fine earth has a limited influence on soil properties.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Organic material
 
@@ -2245,61 +2245,61 @@ Organic material
 
 20% organic carbon roughly correspond to 40% organic matter. The remaining up to 60% consist of mineral components and/or of organic components that meet the criteria of *artefacts*.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 *Soil organic carbon* is organic carbon that does not meet the set of diagnostic criteria of *artefacts*. Material that has \< 20% *soil organic carbon* is either *organotechnic* or *mineral material*. *Histic* and *folic horizons* consist of *organic material*.
 
 ### Organotechnic material
 
-#### General description 
+#### General description
 
 Organotechnic material (from Greek *organon*, tool, and *technae*, art) contains large amounts of organic *artefacts*. It contains relatively small amounts of *soil organic carbon* (organic carbon that does not meet the set of diagnostic criteria of *artefacts*).
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Organotechnic material has
 
 1.  ≥ 35% (by volume, related to the whole soil) *artefacts* containing ≥ 20% organic carbon; ***and***
 2.  \< 20% *soil organic carbon* (related to the fine earth plus the dead plant remnants of any length and a diameter ≤ 5 mm).
 
-#### Additional information 
+#### Additional information
 
 Examples for organotechnic material are excavated coal, petroleum lenses, plastic, wooden boards and garbage like kitchen slops or baby nappies.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Material with ≥ 20% *soil organic carbon* is *organic material*, irrespective of the other components. Material with \< 20% *soil organic carbon* and lower amounts of organic *artefacts* is *mineral material*.
 
 ### Ornithogenic material
 
-#### General description 
+#### General description
 
 Ornithogenic material (from Greek *ornis*, bird, and *genesis*, origin) is material with strong influence of bird excrements. It often has a high content of coarse fragments that have been transported by birds.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Ornithogenic material has:
 
 1.  remnants of birds or bird activity (bones, feathers, and sorted coarse fragments of similar size); ***and***
 2.  ≥ 750 mg kg^-1^ P in the Mehlich-3 extract.
 
-#### Additional information 
+#### Additional information
 
 750 mg kg^-1^ P in the Mehlich-3 extract roughly correspond to 1090 mg kg^-1^ P or 2500 mg kg^-1^ P~2~O~5~ in 1% citric acid (Kabała et al., 2018), which was the requirement in former editions of WRB.
 
 ### Soil organic carbon
 
-####  Diagnostic criteria
+#### Diagnostic criteria
 
 Soil organic carbon (from Greek *organon*, tool, and Latin *carbo*, coal) is organic carbon that does not meet the set of diagnostic criteria of *artefacts*.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 For organic carbon meeting the criteria of *artefacts*, the *Garbic* or the *Carbonic* qualifier may apply.
 
 ### Solimovic material
 
-#### General description 
+#### General description
 
 Solimovic material (from Latin *solum*, soil, and *movere*, to move) is a heterogeneous mixture of material that has moved downslope, suspended in water. It is dominated by material that underwent soil formation at its original place, e.g. organic matter accumulation or the formation of Fe oxides. It has been transported as a result of erosional wash or soil creep, and the transport may have been accelerated by land-use practices (e.g. deforestation, ploughing, downhill tillage, structure degradation). Solimovic material has been formed in relatively recent times (mostly Holocene). It normally accumulates in slope positions, in depressions or above a barrier on a low-grade slope. The barrier may be natural or human-made (e.g. hedge walls, terraces, benches). After deposition, there was no advanced soil formation.
 
@@ -2321,13 +2321,13 @@ Solimovic material is mineral material and:
 
 4.  does not form part of a diagnostic horizon other than a *cambic*, *chernic*, *mollic* or *umbric horizon*.
 
-#### Field identification 
+#### Field identification
 
 The fine earth of solimovic material can be of any particle size. Some small coarse fragments may be included. Solimovic material is generally imperfectly sorted. It may show some gross stratification, but stratification is not a typical feature due to the diffuse or chaotic nature of the deposition process. Solimovic material tends to occupy gently sloping to moderately steep sloping (2-30%) areas. Black carbon or small *artefacts* such as pieces of bricks, ceramics and glass may be present in solimovic material. In many cases, solimovic material has a *lithic discontinuity* at its base.
 
 The upper part of the solimovic material shows characteristics (fine earth texture, colour, pH and *soil organic carbon* content) similar to the surface layer of the source in the neighbourhood. In extreme cases, the profile in the solimovic material mirrors the eroded soil profile of upward slope positions, with topsoil material buried under former subsoil material. Good indication in a landscape is varying colour of the soil surface between convex and concave positions.
 
-#### Additional information 
+#### Additional information
 
 Accumulations by rapid mass movements such as in landslides, slumps or tree throws do not meet the set of diagnostic criteria of solimovic material.
 
@@ -2335,7 +2335,7 @@ In agricultural environments, solimovic material has mostly a high base saturati
 
 In former editions of WRB, the solimovic material was called colluvic material. However, the traditional use of the word 'colluvium' is so different between countries and national traditions and changed so much over time (Miller & Juilleret, 2020) that it is better to avoid this term and use a new one.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Solimovic material is not associated with perennial water bodies (e.g. rivers, lakes, the sea) and can therefore be distinguished from *fluvic material*. However, in toeslope positions, *fluvic* and solimovic material may be sedimented alternatingly or grade into each other and may be difficult to differentiate.
 
@@ -2343,11 +2343,11 @@ Solimovic material is not purposefully added as, e.g., the soil material in *ter
 
 ### Technic hard material
 
-#### General description 
+#### General description
 
 Technic hard material (from Greek *technae*, art) describes consolidated material, created or substantially modified by humans.
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Technic hard material:
 
@@ -2355,21 +2355,21 @@ Technic hard material:
 2.  has properties substantially different from those of natural materials; ***and***
 3.  is continuous or has free space covering \< 5% of its horizontal extension.
 
-#### Additional information 
+#### Additional information
 
 Examples of technic hard material are asphalt, concrete or a continuous layer of worked stones.
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Technic hard material, intact, fractured or composed, also fulfils the diagnostic criteria of artefacts.
 
 ### Tephric material
 
-#### General description 
+#### General description
 
 Tephric material (from Greek *tephra*, pile ash) has many glasses in the fine earth. These consist of tephra (i.e. unconsolidated, unweathered or only slightly weathered pyroclastic products of volcanic eruptions), of tephric deposits (i.e. tephra that has been reworked and mixed with material from other sources, which includes tephric loess, tephric blown sand and volcanogenic alluvium) or of glasses resulting from industrial processes (e.g. ashes from power stations combusting coal or lignite).
 
-#### Diagnostic criteria 
+#### Diagnostic criteria
 
 Tephric material has:
 
@@ -2377,10 +2377,10 @@ Tephric material has:
 
 2.  no *andic* or *vitric properties*.
 
-#### Additional information 
+#### Additional information
 
 Tephric material refers to the fine earth, but coarse fragments may also be present (including cinders, lapilli, pumice, pumice-like vesicular pyroclasts, blocks and volcanic bombs). The original description of the tephric material is based on Hewitt (1992), the amendment of *artefacts* is adapted from Uzarowicz et al. (2017).
 
-#### Relationships with some other diagnostics 
+#### Relationships with some other diagnostics
 
 Progressive weathering of tephric material will lead to the formation of *vitric properties*. Glasses resulting from industrial processes fulfil the criteria of *artefacts*.

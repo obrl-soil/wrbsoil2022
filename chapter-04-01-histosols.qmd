@@ -1,0 +1,46 @@
+# Histosols {#key-histosols}
+
+::: grid
+::: g-col-4
+Soils having one or more of the following:
+
+1.  *organic material* starting ≤ 40 cm from the soil surface and having within 100 cm of the soil surface a combined thickness of:
+    a.  ≥ 40 cm if \< 25% (by volume, related to the fine earth plus all dead plant remnants) consists of moss fibres; *or*
+    b.  ≥ 60 cm; *or*
+2.  *organic material* starting at the soil surface, having a thickness of ≥ 10 cm and directly overlying ice, *continuous rock* or *technic hard material*; *or*
+3.  a layer of coarse fragments that, together with overlying organic material, if present, starts at the soil surface and has a thickness of
+    a.  ≥ 10 cm if overlying *continuous rock* or *technic hard material*; *or*
+    b.  ≥ 40 cm;\
+        \
+        and the major part of the interstices between the coarse fragments is filled with *organic material* and the remaining interstices, if present, are void.
+:::
+
+::: g-col-8
+| Principal Qualifiers    | Supplementary Qualifiers |
+|-------------------------|--------------------------|
+| Muusic / Rockic / Mawic | Alcalic/ Dystric/ Eutric |
+| Cryic                   | Aric                     |
+| Thionic                 | Dolomitic/ Calcaric      |
+| Folic                   | Fluvic                   |
+| Floatic                 | Gelic                    |
+| Subaquatic/ Tidalic     | Hyperorganic             |
+| Fibric/ Hemic/ Sapric   | Isolatic                 |
+| Leptic/ Thyric          | Lignic                   |
+| Murshic/ Drainic        | Limnic                   |
+| Ombric/ Rheic           | Limonic                  |
+| Coarsic                 | Mineralic                |
+| Skeletic                | Mulmic                   |
+| Andic                   | Ornithic                 |
+| Vitric                  | Placic                   |
+|                         | Pyric                    |
+|                         | Relocatic                |
+|                         | Salic                    |
+|                         | Sulfidic                 |
+|                         | Technic/ Kalaic          |
+|                         | Tephric                  |
+|                         | Toxic                    |
+|                         | Transportic              |
+|                         | Turbic                   |
+|                         | Wapnic                   |
+:::
+:::

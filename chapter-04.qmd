@@ -1,0 +1,15 @@
+# Key to the Reference Soil Groups with lists of principal and supplementary qualifiers
+
+[**Before using the key, please read the 'Rules for naming soils' (Chapter 2).**]{style="color:red"}
+
+## Overview of Key to Reference Soil Groups
+
+|             |             |              |            |            |
+|-------------|-------------|--------------|------------|------------|
+| Histosols   | Solonchaks  | Nitisols     | Gypsisols  | Cambisols  |
+| Anthrosols  | Gleysols    | Ferralsols   | Calcisols  | Fluvisols  |
+| Technosols  | Andosols    | Chernozems   | Retisols   | Arenosols  |
+| Cryosols    | Podzols     | Kastanozems  | Acrisols   | Regosols   |
+| Leptosols   | Plinthosols | Phaeozems    | Lixisols   |            |
+| Solonetz    | Planosols   | Umbrisols    | Alisols    |            |
+| Vertisols   | Stagnosols  | Durisols     | Luvisols   |            |
