@@ -1,0 +1,35 @@
+# Plinthosols {#key-plinthosols}
+
+::: grid
+::: g-col-4
+Other soils having a *plinthic*, *pisoplinthic* or *petroplinthic horizon* starting ≤ 100 cm from the mineral soil surface.
+:::
+
+::: g-col-8
+| Principal Qualifiers | Supplementary Qualifiers        |
+|----------------------|---------------------------------|
+| Petric               | Arenic/ Clayic/ Loamic/ Siltic  |
+| Pisoplinthic         | Abruptic                        |
+| Gibbsic              | Acric/ Lixic                    |
+| Stagnic              | Aric                            |
+| Geric                | Cohesic                         |
+| Nitic                | Drainic                         |
+| Histic               | Duric                           |
+| Mollic/ Umbric       | Dystric/ Eutric                 |
+| Albic                | Epic/ Endic                     |
+| Coarsic              | Folic                           |
+| Haplic               | Fractic                         |
+|                      | Humic/ Ochric                   |
+|                      | Isopteric                       |
+|                      | Magnesic                        |
+|                      | Novic                           |
+|                      | Oxyaquic                        |
+|                      | Posic                           |
+|                      | Pyric                           |
+|                      | Raptic                          |
+|                      | Saprolithic                     |
+|                      | Technic/ Kalaic                 |
+|                      | Toxic                           |
+|                      | Transportic                     |
+:::
+:::

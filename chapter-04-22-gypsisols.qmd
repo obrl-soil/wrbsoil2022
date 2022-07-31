@@ -1,0 +1,36 @@
+# Gypsisols {#key-gypsisols}
+
+::: grid
+::: g-col-4
+Other soils having:
+
+1.  a *gypsic* or *petrogypsic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
+2.  no *argic horizon* starting above or at the upper limit of the *gypsic* or *petrogypsic horizon*, unless the *argic horizon* contains secondary gypsum or secondary carbonates, throughout.
+:::
+
+::: g-col-8
+| Principal Qualifiers | Supplementary Qualifiers        |
+|----------------------|---------------------------------|
+| Petric               | Arenic/ Clayic/ Loamic/ Siltic  |
+| Petrocalcic          | Abruptic                        |
+| Calcic               | Aeolic                          |
+| Leptic               | Aric                            |
+| Gleyic               | Biocrustic                      |
+| Stagnic              | Epic/ Endic                     |
+| Lixic/ Luvic         | Fluvic                          |
+| Cambic               | Hypergypsic                     |
+| Coarsic              | Humic/ Ochric                   |
+|  Fractic             | Isopteric                       |
+| Skeletic             | Naramic                         |
+| Yermic/ Takyric      | Novic                           |
+| Calcaric             | Panpaic/ Raptic                 |
+| Haplic               | Pyric                           |
+|                      | Salic                           |
+|                      | Sodic                           |
+|                      | Technic/ Kalaic                 |
+|                      | Toxic                           |
+|                      | Transportic                     |
+|                      | Turbic                          |
+|                      | Vertic                          |
+:::
+:::

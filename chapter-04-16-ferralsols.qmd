@@ -1,0 +1,46 @@
+# Ferralsols {#key-ferralsols}
+
+::: grid
+::: g-col-4
+Other soils having:
+
+1.  a *ferralic horizon* starting ≤ 150 cm from the mineral soil surface; *and*
+2.  no *argic horizon* starting above or at the upper limit of the *ferralic horizon*, unless the *argic horizon* has, in its upper 30 cm or throughout, whichever is shallower, one or more of the following:
+    a.  \< 10% water-dispersible clay; *or*
+    b.  a ΔpH (pH~KCl~ - pH~water~) ≥ 0 (both in 1:1 solution); *or*
+    c.  ≥ 1.4% *soil organic carbon*.
+:::
+
+::: g-col-8
+| Principal Qualifiers | Supplementary Qualifiers        |
+|----------------------|---------------------------------|
+| Ferritic             | Arenic/ Clayic/ Loamic/ Siltic  |
+| Gibbsic              | Abruptic                        |
+| Rhodic/ Xanthic      | Activic                         |
+| Geric                | Andic                           |
+| Nitic                | Aric                            |
+| Pretic               | Cohesic                         |
+| Gleyic               | Densic                          |
+| Stagnic              | Dystric/ Eutric                 |
+| Profundihumic        | Epic/ Endic/ Dorsic             |
+| Mollic/ Umbric       | Ferric                          |
+| Acric/ Lixic         | Fluvic                          |
+| Fractic              | Folic                           |
+| Skeletic             | Gleyic                          |
+| Haplic               | Humic/ Ochric                   |
+|                      | Isopteric                       |
+|                      | Litholinic                      |
+|                      | Novic                           |
+|                      | Oxyaquic                        |
+|                      | Posic                           |
+|                      | Pyric                           |
+|                      | Raptic                          |
+|                      | Saprolithic                     |
+|                      | Solimovic                       |
+|                      | Sombric                         |
+|                      | Stagnic                         |
+|                      | Technic/ Kalaic                 |
+|                      | Toxic                           |
+|                      | Transportic                     |
+:::
+:::

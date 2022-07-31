@@ -1,0 +1,49 @@
+# Alisols {#key-alisols}
+
+::: grid
+::: g-col-4
+Other soils having:
+
+1.  an *argic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
+2.  exchangeable Al \> exchangeable (Ca+Mg+K+Na)[^chapter-04-27-alisols-1] in half or more of:
+    a.  the depth range between 50 and 100 cm of the mineral soil surface; *or*
+    b.  the lower half of the mineral soil above a limiting layer starting ≤ 100 cm from the mineral soil surface whichever is shallower.
+:::
+
+::: g-col-8
+| Principal Qualifiers                           | Supplementary Qualifiers       |
+|-------------------------------------------|-----------------------------|
+| Abruptic                                       | Arenic/ Clayic/ Loamic/ Siltic |
+| Fragic                                         | Andic                          |
+| Leptic                                         | Aric                           |
+| Hydragric/ Anthraquic/ Plaggic/ Pretic/ Terric | Neocambic/ Neobrunic           |
+| Gleyic                                         | Cutanic                        |
+| Stagnic                                        | Densic                         |
+| Vertic                                         | Differentic                    |
+| Rhodic/ Chromic                                | Hyperdystric/ Epieutric        |
+| Nudiargic                                      | Epic/ Endic                    |
+| Lamellic                                       | Fluvic                         |
+| Albic                                          | Folic                          |
+| Ferric                                         | Gelic                          |
+| Skeletic                                       | Humic/ Ochric                  |
+| Haplic                                         | Hyperalic                      |
+|                                                | Magnesic                       |
+|                                                | Nechic                         |
+|                                                | Nitic                          |
+|                                                | Novic                          |
+|                                                | Oxyaquic                       |
+|                                                | Profondic                      |
+|                                                | Pyric                          |
+|                                                | Raptic                         |
+|                                                | Solimovic                      |
+|                                                | Sodic                          |
+|                                                | Protospodic                    |
+|                                                | Technic/ Kalaic                |
+|                                                | Toxic                          |
+|                                                | Transportic                    |
+|                                                | Turbic                         |
+|                                                | Vitric                         |
+:::
+:::
+
+[^chapter-04-27-alisols-1]: Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 (Chapter 9.13).

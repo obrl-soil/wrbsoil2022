@@ -1,0 +1,44 @@
+# Kastanozems {#key-kastanozems}
+
+::: grid
+::: g-col-4
+Other soils having:
+
+1.  a *mollic horizon*; *and*
+2.  starting ≤ 70 cm of the mineral soil surface and, if present, above a *petrocalcic horizon*, a layer with *protocalcic properties*, ≥ 5 cm thick, or a *calcic horizon*; *and*
+3.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-18-kastanozems-1] of ≥ 50% from the mineral soil surface to the layer with *protocalcic properties* or to the *calcic horizon*, throughout.
+:::
+
+::: g-col-8
+| Principal Qualifiers | Supplementary Qualifiers        |
+|----------------------|---------------------------------|
+| Someric              | Arenic/ Clayic/ Loamic/ Siltic  |
+| Petroduric/ Duric    | Andic                           |
+| Petrogypsic          | Anthric                         |
+| Gypsic               | Aric                            |
+| Petrocalcic          | Chromic                         |
+| Leptic               | Densic                          |
+| Hortic/ Terric       | Fractic                         |
+| Gleyic               | Gelic                           |
+| Fluvic               | Humic                           |
+| Vertic               | Laxic                           |
+| Luvic                | Magnesic                        |
+| Calcic               | Novic                           |
+| Cambic/ Brunic       | Oxyaquic                        |
+| Skeletic             | Pachic                          |
+| Tonguic              | Panpaic/ Raptic                 |
+| Haplic               | Pyric                           |
+|                      | Salic                           |
+|                      | Sodic                           |
+|                      | Solimovic                       |
+|                      | Sombric                         |
+|                      | Stagnic                         |
+|                      | Technic/ Kalaic                 |
+|                      | Tephric                         |
+|                      | Transportic                     |
+|                      | Turbic                          |
+|                      | Vitric                          |
+:::
+:::
+
+[^chapter-04-18-kastanozems-1]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).

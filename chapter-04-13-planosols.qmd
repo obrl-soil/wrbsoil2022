@@ -1,0 +1,50 @@
+# Planosols {#key-planosols}
+
+::: grid
+::: g-col-4
+Other soils having an *abrupt textural difference* ≤ 75 cm from the mineral soil surface and having within the range of 5 cm directly above or below the *abrupt textural difference*:
+
+1.  *stagnic properties*, in which the area of reductimorphic features plus the area of oximorphic features is ≥ 50% (weighted average) of the total area; *and*
+2.  *reducing conditions* for some time during the year in some parts of the soil volume that has the reductimorphic features.
+:::
+
+::: g-col-8
+| Principal Qualifiers                                              | Supplementary Qualifiers        |
+|-------------------------------------------------------------------|---------------------------------|
+| Reductic                                                          | Arenic/ Clayic/ Loamic/ Siltic  |
+| Thionic                                                           | Alcalic                         |
+| Leptic                                                            | Andic                           |
+| Hydragric/ Anthraquic/ Irragric/ Hortic/ Plaggic/ Pretic/ Terric  | Aric                            |
+| Histic                                                            | Cambic                          |
+| Gleyic                                                            | Capillaric                      |
+| Chernic/ Mollic/ Umbric                                           | Chromic                         |
+| Albic                                                             | Cohesic                         |
+| Fluvic                                                            | Columnic                        |
+| Vertic                                                            | Densic                          |
+| Glossic/ Retic                                                    | Drainic                         |
+| Acric/ Lixic/ Alic/ Luvic                                         | Ferralic/ Sideralic             |
+| Petroduric/ Duric                                                 | Ferric                          |
+| Calcic                                                            | Folic                           |
+| Dolomitic/ Calcaric                                               | Fragic                          |
+| Dystric/ Eutric                                                   | Gelic                           |
+|                                                                   | Gelistagnic                     |
+|                                                                   | Geric                           |
+|                                                                   | Humic/ Ochric                   |
+|                                                                   | Inclinic                        |
+|                                                                   | Magnesic                        |
+|                                                                   | Mochipic                        |
+|                                                                   | Nechic                          |
+|                                                                   | Novic                           |
+|                                                                   | Pyric                           |
+|                                                                   | Raptic                          |
+|                                                                   | Skeletic                        |
+|                                                                   | Sodic                           |
+|                                                                   | Solimovic                       |
+|                                                                   | Sulfidic                        |
+|                                                                   | Technic/ Kalaic                 |
+|                                                                   | Toxic                           |
+|                                                                   | Transportic                     |
+|                                                                   | Turbic                          |
+|                                                                   | Uterquic                        |
+:::
+:::
