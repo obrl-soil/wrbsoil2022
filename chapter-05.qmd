@@ -1,0 +1,58 @@
+# Definitions of qualifiers
+
+[**Before using the qualifiers, please read the 'Rules for naming soils' (Chapter 2).**]{style="color:red"}
+
+The definitions of the qualifiers for the second-level units relate to RSGs, diagnostic horizons, properties and materials, and to attributes such as colour, chemical conditions, texture, etc. References to the RSGs defined in Chapter 4 and the diagnostics listed in Chapter 3 are shown *in italics*.
+
+Usually, only a limited number of combinations will be possible in a soil name; many of the definitions make the qualifiers mutually exclusive.
+
+## General rules 
+
+1.  **Subqualifiers** (see Chapter 2.3), **which may be used in the soil name instead of the qualifier listed in the Key** (Chapter 4), are found beneath the definition of the respective qualifier (e.g. Protocalcic is found under Calcic). **Subqualifiers, which cannot replace a listed qualifier**, are found in alphabetical order (e.g. Hyperalic).
+
+2.  If a subqualifier (**optional or additional subqualifier**) related to depth requirements can be constructed by the user, **the figure indicates, which rule applies**: (1), (2), (3), (4), (5). If no figure is indicated, these subqualifiers cannot be constructed.
+
+## Definitions 
+
+### Abruptic (ap) 
+
+(from Latin *abruptus*, broken away): having an *abrupt textural difference* within 100 cm of the mineral soil surface (1).
+
+### Geoabruptic (go)
+
+(from Greek *gaia*, earth): having an abrupt textural difference within 100 cm of the mineral soil surface that is not associated with the upper limit of an *argic*, *natric* or *spodic horizon* (1).
+
+### Aceric (ae)
+
+(from Latin *acer*, sharp): having within 100 cm of the soil surface a layer with a pH (1:1 in water) between ≥ 3.5 and \< 5 and jarosite concentrations (in *Solonchaks only*) (2).
+
+### Acric (ac) 
+
+(from Latin *acer*, sharp): having an *argic horizon* starting ≤ 100 cm from the mineral soil surface with a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 24 cmol~c~ kg^-1^ clay in some subhorizon within 150 cm of the mineral soil surface; and having exchangeable Al \> exchangeable (Ca+Mg+K+Na) in half or more of the depth range between 50 and 100 cm of the mineral soil surface or the lower half of the mineral soil above a limiting layer starting ≤ 100 cm from the mineral soil surface, whichever is shallower (2).
+
+**Note:** Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+
+### Acroxic (ao)
+
+(from Latin *acer*, sharp, and Greek *oxys*, sour): having within 100 cm of the soil surface one or more layers with a combined thickness of ≥ 30 cm, and with \< 2 cmol~c~ kg^-1^ fine earth exchangeable bases (by 1 *M* NH~4~OAc, pH 7) plus exchangeable Al (by 1 *M* KCl, unbuffered) (in *Andosols only*) (2).
+
+### Activic (at) 
+
+(from Latin *activus*, busy): having above a ferralic horizon a layer, ≥ 30 cm thick, with a CEC (by 1 M NH4OAc, pH 7) of ≥ 24 cmolc kg-1 clay and \< 0.6% soil organic carbon (in Ferralsols only) (2).
+
+### Aeolic (ay) 
+
+(from Greek *aiolos*, wind): having *aeolic material* (2: Ano- and Panto- only).
+
+### Albic (ab) 
+
+(from Latin *albus*, white): having an *albic horizon* starting ≤ 100 cm from the mineral soil surface.
+
+### Alcalic (ax) 
+
+(from Arabic *al-qali*, salt-containing ash): having:
+
+-   in *Histosols*, a pH (1:1 in water) of ≥ 8.5 in the *organic material* within 50 cm of the soil surface,
+-   in other soils, a pH (1:1 in water) of ≥ 8.5 in the upper 50 cm of the mineral soil surface or to a limiting layer, whichever is shallower,
+
+and fulfilling the set of diagnostic criteria of the Eutric qualifier.
