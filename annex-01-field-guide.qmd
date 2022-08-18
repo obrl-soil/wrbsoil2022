@@ -1,0 +1,115 @@
+# Annex 1: Field Guide
+
+This field guide helps describe soils. It provides all field characteristics needed for WRB classification and some other general field characteristics. This field guide is not supposed to be a comprehensive manual. People using this guide must have basic knowledge in soil science and experience in the field. In many soils, some of the listed characteristics are not present. Every characteristic must be reported in the soil description sheet (Annex 4, Chapter 11) using the provided codes.
+
+The field guide consists of six consecutive parts:
+
+1.  Preparation work and general rules
+2.  General data and description of soil-forming factors
+3.  Description of surface characteristics
+4.  Description of layers
+5.  Sampling
+6.  References
+
+![Ideal soil scientists](figure_8-1.png)
+
+## Preparation work and general rules
+
+### Exploration of an area of interest with auger and spade
+
+::: {grid}
+::: {grid-col-4}
+![Pürckhauer auger profile](figure_8-2.png)
+
+![Mini-profile](figure_8-3.png)
+:::
+
+::: {grid-col-8}
+Select your area of interest and give it a distinct name, e.g., Gombori Pass. Then select a location. For further exploration, use a Pürckhauer or an Edelman auger. If using a Pürckhauer auger, drive it into the soil vertically with a plastic hammer. Occasionally, turn the auger with the help of the turning bar, especially in clay-rich soils. If the auger hits a rock or big stone, take it out. You may try again a small distance apart but be careful not to damage the auger. Drive the auger in to a depth of 1 m if possible. If not, note the actual depth that was reached. To take it out, turn it while pulling.
+
+Now place the auger onto the ground. Cut the protruding soil material with a knife and remove it to the side. Avoid contaminating one layer with the removed material from another. Be aware that compaction inside the auger may have occurred; the layer depths may therefore not be accurate. Place a folding ruler aside the auger according to the actually reached depth (Figure 8.2).
+
+In most cases, the topsoil falls out of the auger. To investigate it in more detail, always make a mini-profile close to where the auger was driven in. It should be at least 25 cm deep and wide, and the profile walls should be vertical and smooth. Now place a folding ruler inside the profile in such a way that point 0 is at the soil surface (see Chapter 8.3.1). For later reconstruction, it may help to take a picture of the mini-profile (Figure 8.3).
+
+The characteristics that can be described from the soil material in the auger are marked with an asterisk (\*) in Chapter 8.4.
+:::
+:::
+
+### Preparation of a soil profile
+
+The soil profile should be at least 1 m deep or reach the parent material. On a slope, unless the parent material starts at smaller depth, the profile depth (Figure 8.4) should be 1 m / cos(α). For the decision if the thickness and depth criteria of the WRB are fulfilled and when calculating element stocks (Prietzel & Wiesmeier, 2019), the layer thickness perpendicular to the slope is needed. This is calculated multiplying the vertical thickness by cos(α).
+
+![Correct profile depth when terrain is inclined](figure_8-4.png)
+
+The profile should be 1 m wide. If on a slope, the profile wall must be parallel to the contour lines. The material should be piled up to the left and/or right side of the profile and must not be placed on top side of the profile (the side of the profile wall). Never walk or place tools on the side of the profile wall. It is recommended to collect the soil material on two tarps, topsoil and subsoil separately. When refilling the soil profile later, you should first fill in the subsoil and then the topsoil.
+
+::: {grid}
+::: {grid-col-4}
+![Ideal soil profile. Always take the photo perpendicular to the profile wall](figure_8-5.png)
+:::
+
+::: {grid-col-8}
+Carefully prepare the profile wall: it must be strictly vertical and smooth. Roots should be cut directly at the profile wall. Use an appropriate tool to clean the profile wall horizontally and avoid vertical smearing. Place the measuring tape in such a way that point 0 is at the soil surface (see Chapter 8.3.1). It should be at one side but not touch the side walls. It must be strictly vertical and plane. It may help to weight the bottom end of the tape with a stone or stick. Take a photo. Hold the camera perpendicularly to the profile wall (Figure 8.5). Avoid any inclination. Also take at least one picture of the surrounding terrain and vegetation (Figure 8.6), e.g., the tree canopy. Make sure you will be able to associate profile and photo later. If possible, save and name the pictures the same day they are taken.
+
+If you describe a soil profile that has been dug some time ago, the topsoil may be disturbed. To describe the humus forms, you need a fresh miniprofile nearby the soil profile.
+:::
+:::
+
+![The setting of the profile in the landscape](figure_8-6.png)
+
+## General data and description of soil-forming factors
+
+This Chapter refers to some general data and to the soil-forming factors climate, landform and vegetation. Other soil-forming factors are described with the layer description.
+
+### Date and authors
+
+Report the date of description and the names of the describing authors.
+
+### Location
+
+Give the location a name and report it; e.g., *Gombori Pass 1*.\
+Report the GPS coordinates.\
+Report the altitude above sea level (a.s.l.); e.g., *106 m*.
+
+### Landform and topography
+
+This Chapter refers to the large-scale topography. For local surface unevenness, see Chapter 8.3.11.
+
+#### Gradient
+
+Report the ground surface inclination with respect to the horizontal plane. If the profile lies on a flat surface, the gradient is 0%. If it lies on a slope, make 2 records, one upslope and one downslope; e.g., *upslope: 18%, downslope: 16%*.
+
+#### Slope aspect
+
+If the profile lies on a slope, report the compass direction that the slope faces, viewed downslope; e.g., 225°.
+
+![Slope aspect, Schoeneberger et al. (2012), 1-5](figure_8-7.png)
+
+#### Slope shape
+
+If the profile lies on a slope, report the slope shape in 2 directions: up-/downslope (perpendicular to the elevation contour, i.e. the vertical curvature) and across slope (along the elevation contour, i.e. the horizontal curvature); e.g., *Linear*, *Convex* or *Concave*.
+
+![Slope Shape, Schoeneberger et al. (2012), 1-6](figure_8-8.png)
+
+#### Position of the soil profile (related to topography)
+
+If the profile lies in an uneven terrain, report the profile position.
+
+![Position of the profile, Schoeneberger et al. (2012), 1-7, modified (basin not included)](figure_8-9.png)
+
+| Position           | Code |
+|--------------------|------|
+| Summit             | SU   |
+| Shoulder           | SH   |
+| Backslope          | BS   |
+| Footslope          | FS   |
+| Toeslope           | TS   |
+| Valley bottom      | VB   |
+| Basin with outflow | OB   |
+| Endorheic basin    | EB   |
+
+### Climate and weather
+
+#### Climate
+
+Report the climate according to Köppen (1936) and the ecozones according to Schultz (2005, adapted). The term 'summer' refers to the season with high solar altitude and the term 'winter' to the season with low solar altitude.

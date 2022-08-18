@@ -29,7 +29,7 @@ book:
     - chapter-04-12-plinthosols.qmd
     - chapter-04-13-planosols.qmd
     - chapter-04-14-stagnosols.qmd
-    - chapter-04-15-stagnosols.qmd
+    - chapter-04-15-nitisols.qmd
     - chapter-04-16-ferralsols.qmd
     - chapter-04-17-chernozems.qmd
     - chapter-04-18-kastanozems.qmd
@@ -46,6 +46,10 @@ book:
     - chapter-04-29-cambisols.qmd
     - chapter-04-30-fluvisols.qmd
     - chapter-04-31-arenosols.qmd
+    - chapter-05.qmd
+    - chapter-06.qmd
+    - chapter-08-references.qmd
+    - annex-01-field-guide.qmd
 
 
 
