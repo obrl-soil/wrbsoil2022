@@ -1,0 +1,187 @@
+# Codes for the Reference Soil Groups, qualifiers and specifiers
+
+## Reference Soil Groups
+
+|           |        |            |        |            |        |           |        |
+|-----------|--------|------------|--------|------------|--------|-----------|--------|
+| Acrisol   | **AC** | Chernozem  | **CH** | Leptosol   | **LP** | Regosol   | **RG** |
+| Alisol    | **AL** | Durisol    | **DU** | Lixisol    | **LX** | Retisol   | **RT** |
+| Andosol   | **AN** | Ferralsol  | **FR** | Luvisol    | **LV** | Solonchak | **SC** |
+| Anthrosol | **AT** | Fluvisol   | **FL** | Nitisol    | **NT** | Solonetz  | **SN** |
+| Arenosol  | **AR** | Gleysol    | **GL** | Phaeozem   | **PH** | Stagnosol | **ST** |
+| Calcisol  | **CL** | Gypsisol   | **GY** | Planosol   | **PL** | Technosol | **TC** |
+| Cambisol  | **CM** | Histosol   | **HS** | Plinthosol | **PT** | Umbrisol  | **UM** |
+| Cryosol   | **CR** | Kastanozem | **KS** | Podzol     | **PZ** | Vertisol  | **VR** |
+
+## Qualifiers
+
+|               |        |                 |        |                  |        |                |         |
+|--------------|-----|--------------|-----|---------------|-----|------------|-----|
+| Abruptic      | **ap** | Carbonic        | **cx** | Fluvic           | **fv** | Hypergarbic    | **jb**  |
+| Aceric        | **ae** | Chernic         | **ch** | Folic            | **fo** | Hypergeric     | **jq**  |
+| Acric         | **ac** | Claric          | **cq** | Fractic          | **fc** | Hypergypsic    | **jg**  |
+| Acroxic       | **ao** | Chloridic       | **cl** | Fragic           | **fg** | Hyperhumic     | **jh**  |
+| Activic       | **at** | Chromic         | **cr** | Garbic           | **ga** | Hyperhydragric | **jy**  |
+| Aeolic        | **ay** | Clayic          | **ce** | Gelic            | **ge** | Hypermagnesic  | **jm**  |
+| Akrofluvic    | **kf** | Clayinovic      | **cj** | Gelistagnic      | **gt** | Hypernatric    | **jn**  |
+| Akromineralic | **km** | Coarsic         | **cs** | Geoabruptic      | **go** | Hyperorganic   | **jo**  |
+| Akroskeletic  | **kk** | Cohesic         | **co** | Geric            | **gr** | Hypersalic     | **jz**  |
+| Albic         | **ab** | Columnic        | **cu** | Gibbsic          | **gi** | Hypersideralic | **jr**  |
+| Alcalic       | **ax** | Cordic          | **cd** | Gilgaic          | **gg** | Hyperspodic    | **jp**  |
+| Alic          | **al** | Cryic           | **cy** | Glacic           | **gc** | Hyperspolic    | **jj**  |
+| Aluandic      | **aa** | Cutanic         | **ct** | Gleyic           | **gl** | Hypersulfidic  | **js**  |
+| Andic         | **an** | Densic          | **dn** | Glossic          | **gs** | Hypertechnic   | **jt**  |
+| Anthraquic    | **aq** | Differentic     | **df** | Greyzemic        | **gz** | Hyperthionic   | **ji**  |
+| Anthric       | **ak** | Dolomitic       | **do** | Grumic           | **gm** | Hyperurbic     | **jx**  |
+| Anthromollic  | **am** | Dorsic          | **ds** | Gypsic           | **gy** | Hyposulfidic   | **ws**  |
+| Anthroumbric  | **aw** | Drainic         | **dr** | Gypsifractic     | **gf** | Hypothionic    | **wi**  |
+| Archaic       | **ah** | Duric           | **du** | Gypsiric         | **gp** | Immissic       | **im**  |
+| Arenic        | **ar** | Dystric         | **dy** | Haplic           | **ha** | Inclinic       | **ic**  |
+| Arenicolic    | **ad** | Ejectiskeletic  | **jk** | Hemic            | **hm** | Inclinigleyic  | **iy**  |
+| Areninovic    | **aj** | Ekranic         | **ek** | Histic           | **hi** | Inclinistagnic | **iw**  |
+| Argisodic     | **as** | Endic           | **ed** | Hortic           | **ht** | Infraandic     | **ia**  |
+| Aric          | **ai** | Entic           | **et** | Humic            | **hu** | Infraspodic    | **ia**  |
+| Arzic         | **az** | Epic            | **ep** | Hydragric        | **hg** | Irragric       | **ir**  |
+| Biocrustic    | **bc** | Escalic         | **ec** | Hydric           | **hy** | Isolatic       | **il**  |
+| Brunic        | **br** | Eutric          | **eu** | Hydrophobic      | **hf** | Isopteric      | **ip**  |
+| Calcaric      | **ca** | Eutrosilic      | **es** | Hyperalic        | **jl** | Kalaic         | **ka**  |
+| Calcic        | **cc** | Evapocrustic    | **ev** | Hyperartefactic  | **ja** | Lamellic       | **ll**  |
+| Calcifractic  | **cf** | Ferralic        | **fl** | Hypercalcic      | **jc** | Lapiadic       | **ld**  |
+| Cambic        | **cm** | Ferric          | **fr** | Hyperduric       | **ju** | Laxic          | **la**  |
+| Capillaric    | **cp** | Ferritic        | **fe** | Hyperdystric     | **jd** | Leptic         | **le**  |
+| Carbic        | **cb** | Fibric          | **fi** | Hypereutric      | **je** | Lignic         | **lg**  |
+| Carbonatic    | **cn** | Floatic         | **ft** | Hyperferritic    | **jf** | Limnic         | **lm**  |
+
+| Limonic           | **ln** | Orthoeutric    | **oe** | Prototephric       | **qf** | Someriumbric  | **sw** |
+|--------------|-----|-------------|-----|---------------|-----|------------|-----|
+| Linic             | **lc** | Orthofluvic    | **of** | Protovertic        | **qv** | Spodic        | **sd** |
+| Lithic            | **li** | Orthomineralic | **oi** | Puffic             | **pu** | Spolic        | **sp** |
+| Litholinic        | **lh** | Orthoskeletic  | **ok** | Pyric              | **py** | Stagnic       | **st** |
+| Lixic             | **lx** | Ortsteinic     | **os** | Radiotoxic         | **rx** | Subaquatic    | **sq** |
+| Loamic            | **lo** | Oxyaquic       | **oa** | Raptic             | **rp** | Sulfatic      | **su** |
+| Loaminovic        | **lj** | Oxygleyic      | **oy** | Reductaquic        | **ra** | Sulfidic      | **sf** |
+| Luvic             | **lv** | Pachic         | **ph** | Reductic           | **rd** | Takyric       | **ty** |
+| Magnesic          | **mg** | Panpaic        | **pb** | Reductigleyic      | **ry** | Technic       | **te** |
+| Manganiferric     | **mf** | Pellic         | **pe** | Relictigleyic      | **rl** | Technotephric | **tt** |
+| Mawic             | **mw** | Pelocrustic    | **pq** | Relictistagnic     | **rw** | Tephric       | **tf** |
+| Mazic             | **mz** | Petric         | **pt** | Relictiturbic      | **rb** | Terric        | **tr** |
+| Mineralic         | **mi** | Petrocalcic    | **pc** | Relocatic          | **rc** | Thionic       | **ti** |
+| Mochipic          | **mc** | Petroduric     | **pd** | Rendzic            | **rz** | Thixotropic   | **tp** |
+| Mollic            | **mo** | Petrogypsic    | **pg** | Retic              | **rt** | Thyric        | **th** |
+| Mulmic            | **mm** | Petroplinthic  | **pp** | Rheic              | **rh** | Tidalic       | **td** |
+| Murshic           | **mh** | Petrosalic     | **ps** | Rhodic             | **ro** | Tonguic       | **to** |
+| Muusic            | **mu** | Pisoplinthic   | **px** | Rockic             | **rk** | Tonguichernic | **tc** |
+| Naramic           | **nr** | Placic         | **pi** | Rubic              | **ru** | Tonguimollic  | **tm** |
+| Natric            | **na** | Plaggic        | **pa** | Rustic             | **rs** | Tonguiumbric  | **tw** |
+| Nechic            | **ne** | Plinthic       | **pl** | Salic              | **sz** | Totilamellic  | **ta** |
+| Neobrunic         | **nb** | Posic          | **po** | Sapric             | **sa** | Toxic         | **tx** |
+| Neocambic         | **nc** | Pretic         | **pk** | Saporlithic        | **sh** | Transportic   | **tn** |
+| Nitic             | **ni** | Profondic      | **pn** | Sideralic          | **se** | Tsitelic      | **ts** |
+| Novic             | **nv** | Profundihumic  | **dh** | Silandic           | **sn** | Turbic        | **tu** |
+| Nudiargic         | **ng** | Protic         | **pr** | Siltic             | **sl** | Umbric        | **um** |
+| Nudilithic        | **nt** | Protoandic     | **qa** | Siltinovic         | **sj** | Urbic         | **ub** |
+| Nudinatric        | **nn** | Protoargic     | **qg** | Skeletic           | **sk** | Uterquic      | **uq** |
+| Nudipetric        | **np** | Protocalcic    | **qc** | Skeletofolic       | **ko** | Vermic        | **vm** |
+| Nudispodic        | **ns** | Protogleyic    | **qy** | Skeletohistic      | **kh** | Vertic        | **vr** |
+| Nudiyermic        | **ny** | Protogypsic    | **qq** | Skeletotransportic | **kt** | Vitric        | **vi** |
+| Ochric            | **oh** | Protokalaic    | **qk** | Sodic              | **so** | Wapnic        | **wa** |
+| Oligoeutric       | **ol** | Protosalic     | **qz** | Solimovic          | **sv** | Xanthic       | **xa** |
+| Ombric            | **om** | Protosodic     | **qs** | Sombric            | **sb** | Yermic        | **ye** |
+| Organotransportic | **ot** | Protospodic    | **qp** | Someric            | **si** |               |        |
+| Ornithic          | **oc** | Protostagnic   | **qw** | Somerimollic       | **sm** |               |        |
+| Orthodystric      | **od** | Prototechnic   | **qt** | Somerirendzic      | **sr** |               |        |
+
+## Specifiers
+
+|       |         |      |         |       |         |        |         |
+|-------|---------|------|---------|-------|---------|--------|---------|
+| Amphi | **..m** | Endo | **..n** | Kato  | **..k** | Supra  | **..s** |
+| Ano   | **..a** | Epi  | **..p** | Panto | **..e** | Thapto | **..b** |
+| Bathy | **..d** |      |         | Poly  | **..y** |        |         |
+
+## Combinations with the Novic qualifier
+
+|             |         |                 |         |              |         |                  |         |
+|--------------|-----|--------------|-----|-------------|------|-------------|-----|
+| Aeoli-Novic | **nva** | Solimovic-Novic | **nvs** | Tephri-Novic | **nvv** | Transporti-Novic | **nvp** |
+| Fluvi-Novic | **nvf** | Techni-Novic    | **nvt** |              |         |                  |         |
+
+**Note:** The codes for the combinations with subqualifiers of the Novic qualifier are constructed accordingly, e.g., Aeoli-Siltinovic (sja).
+
+### Rules for the use of the codes for naming soils
+
+At the first level of classification, the code of the RSG stands alone.
+
+At the second level, the code starts with the RSG, \
+followed by a '-', \
+followed by the principal qualifiers according to the list from top to bottom, with a '.' between them, followed by a '-', \
+followed by the supplementary qualifiers with a '.' between them:
+
+-   first, if applicable, the qualifiers related to the texture, if several ones apply, in the sequence from the top to the bottom of the profile,
+-   then, all others in alphabetical order of the qualifier names (not in alphabetical order of their codes), if applicable, followed by a '-', \
+    followed by qualifiers that are not in the list for the particular RSG.
+
+Subqualifiers (qualifiers combined with specifiers) are placed in the order of the qualifiers as if they were used without the specifier. Exceptions:
+
+-   if used with a principal qualifier, the Proto-, Bathy- and Thapto- subqualifiers must shift to the supplementary qualifiers,
+-   the list of supplementary qualifiers starts, if applicable, with the qualifiers related to the texture (see above). If one group of qualifiers is empty, the '-' is still included, if one of the following groups is not empty.
+
+The resulting scheme is as follows: \
+RSG{-}\[PQ1\[.PQ2\]etc\]{-}\[TQ1\[.TQ2\]etc\]\[SQ1\[.SQ2\]etc\]{-}\[NQ1\[.NQ2\]etc\]
+
+With: PQ = principal qualifier, with or without added specifiers, TQ = supplementary qualifier related to texture, with or without added specifiers, SQ = other supplementary qualifier, with or without added specifiers, NQ = qualifier not listed for the particular RSG, with or without added specifiers; etc = further qualifiers can be added in the same way if necessary; elements in \[\] are listed if they apply; elements in {} are necessary if elements follow.
+
+### Examples of the use of the codes for naming soils
+
+Albic Stagnic Luvisol (Episiltic, Endoclayic, Cutanic, Differentic, Ochric): \
+LV-st.ab-slp.cen.ct.df.oh
+
+Hemic Folic Endorockic Histosol (Dystric): \
+HS-rkn.fo.hm-dy
+
+Haplic Ferralsol (Pantoloamic, Dystric, Humic, Bathypetroplinthic, Posic): \
+FR-ha-loe.dy.hu.ppd.po
+
+Calcaric Skeletic Pantofluvic Fluvisol (Pantoarenic, Ochric): \
+FL-fve.sk.ca-are.oh
+
+Dystric Umbric Aluandic Andosol (Pantosiltic, Thaptohistic, Hyperhumic): \
+AN-aa.um.dy-sle.hib.jh
+
+Isolatic Ekranic Technosol (Supraarenic, Supracalcaric): \
+TC-ek.il-ars.cas
+
+Dystric Arenosol (Bathyspodic): \
+AR-dy-sdd
+
+### Rules for the use of the codes for creating map legends 
+
+At the first scale level, the code of the RSG stands alone. \
+At the second and third scale level, the code starts with the RSG, \
+followed by a '-', \
+followed by the principal qualifiers (number according to the scale level) according to the list from top to bottom, with a '.' between them.
+
+If elective qualifiers are added, \
+a '-' is added, \
+followed by the elective qualifiers, with a '.' between them (the principal qualifiers are placed first, and of them, the first applicable qualifier is placed first, and the sequence of any supplementary qualifiers added is decided by the soil scientist who makes the map).
+
+If according to the scale level no principal qualifier has to be added, the '-' is still included, if any elective qualifier is added.
+
+If codominant or associated soils are indicated, the words 'dominant:', 'codominant:' and 'associated:' are written before the code of the soil.
+
+The resulting scheme is as follows: \
+RSG{-}\[PQ1\[.PQ2\]\]{-}\[EQ1\[.EQ2\]etc\]
+
+With: PQ = principal qualifier, EQ = elective qualifier; etc = further qualifiers can be added in the same way if necessary; elements in \[\] are listed if they apply; elements in {} are necessary if elements follow.
+
+### Examples of the use of the codes for creating map legends 
+
+Umbric Geric Xanthic Ferralsols (Clayic, Dystric, Humic): \
+first scale level: FR \
+second scale level: FR-xa \
+third scale level: FR-xa.gr
+
+If elective qualifiers are added: examples: \
+first scale level: FR--ce\
+second scale level: FR-xa-ce\
+third scale level: FR-xa.gr-um.ce.dy
