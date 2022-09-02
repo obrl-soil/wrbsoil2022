@@ -113,3 +113,1048 @@ If the profile lies in an uneven terrain, report the profile position.
 #### Climate
 
 Report the climate according to Köppen (1936) and the ecozones according to Schultz (2005, adapted). The term 'summer' refers to the season with high solar altitude and the term 'winter' to the season with low solar altitude.
+
+| Climate                                                        | Code    |
+|----------------------------------------------------------------|---------|
+| Tropical climates                                              | **A**   |
+| Tropical rainforest climate                                    | **Af**  |
+| Tropical savanna climate with dry-winter characteristics       | **Aw**  |
+| Tropical savanna climate with dry-summer characteristics       | **As**  |
+| Tropical monsoon climate                                       | **Am**  |
+| Dry climates                                                   | **B**   |
+| Hot arid climate                                               | **BWh** |
+| Cold arid climate                                              | **BWc** |
+| Hot semi-arid climate                                          | **BSh** |
+| Cold semi-arid climate                                         | **BSc** |
+| Temperate climates                                             | **C**   |
+| Mediterranean hot summer climate                               | **Csa** |
+| Mediterranean warm/cool summer climate                         | **Csb** |
+| Mediterranean cold summer climate                              | **Csc** |
+| Humid subtropical climate                                      | **Cfa** |
+| Oceanic climate                                                | **Cfb** |
+| Subpolar oceanic climate                                       | **Cfc** |
+| Dry-winter humid subtropical climate                           | **Cwa** |
+| Dry-winter subtropical highland climate                        | **Cwb** |
+| Dry-winter subpolar oceanic climate                            | **Cwc** |
+| Continental climates                                           | **D**   |
+| Hot-summer humid continental climate                           | **Dfa** |
+| Warm-summer humid continental climate                          | **Dfb** |
+| Subarctic climate                                              | **Dfc** |
+| Extremely cold subarctic climate                               | **Dfd** |
+| Monsoon-influenced hot-summer humid continental climate        | **Dwa** |
+| Monsoon-influenced warm-summer humid continental climate       | **Dwb** |
+| Monsoon-influenced subarctic climate                           | **Dwc** |
+| Monsoon-influenced extremely cold subarctic climate            | **Dwd** |
+| Mediterranean-influenced hot-summer humid continental climate  | **Dsa** |
+| Mediterranean-influenced warm-summer humid continental climate | **Dsb** |
+| Mediterranean-influenced subarctic climate                     | **Dsc** |
+| Mediterranean-influenced extremely cold subarctic climate      | **Dsd** |
+| Polar and alpine climates                                      | **E**   |
+| Tundra climate                                                 | **ET**  |
+| Ice cap climate                                                | **EF**  |
+
+: Climate according to Köppen (1936)
+
+| Ecozone                                             | Code    |
+|-----------------------------------------------------|---------|
+| Tropics with year-round rain                        | **TYR** |
+| Tropics with summer rain                            | **TSR** |
+| Dry tropics and subtropics                          | **TSD** |
+| Subtropics with year-round rain                     | **SYR** |
+| Subtropics with winter rain (Mediterranean climate) | **SWR** |
+| Humid mid-latitudes                                 | **MHU** |
+| Dry mid-latitudes                                   | **MDR** |
+| Boreal zone                                         | **BOR** |
+| Polar-subpolar zone                                 | **POS** |
+
+: Ecozones according to Schultz (2005, adapted)
+
+#### Season of Description
+
+Report the season of the description. Vegetation can best be described in the season of full vegetation development.
+
+| Ecozone                      | Season                                      | Code   |
+|------------------------------|---------------------------------------------|--------|
+| SYR, SWR, MHU, MDR, BOR, POS | Spring                                      | **SP** |
+|                              | Summer                                      | **SU** |
+|                              | Autumn                                      | **AU** |
+|                              | Winter                                      | **WI** |
+| TSR                          | Wet season                                  | **WS** |
+|                              | Dry season                                  | **DS** |
+| TYR, TSD                     | No significant seasonality for plant growth | **NS** |
+
+: Season of description
+
+#### Weather conditions
+
+Report the current and past weather conditions.
+
+| Current weather conditions | Code   |
+|----------------------------|--------|
+| Sunny/clear                | **SU** |
+| Partly cloudy              | **PC** |
+| Overcast                   | **OV** |
+| Rain                       | **RA** |
+| Sleet                      | **SL** |
+| Snow                       | **SN** |
+
+: Current weather conditions, Schoeneberger et al. (2012), 1-1
+
+| Past weather conditions                                         | Code   |
+|-----------------------------------------------------------------|--------|
+| No rain in the last month                                       | **NM** |
+| No rain in the last week                                        | **NW** |
+| No rain in the last 24 hours                                    | **ND** |
+| Rain but no heavy rain in the last 24 hours                     | **RD** |
+| Heavy rain for some days or excessive rain in the last 24 hours | **RH** |
+| Extremely rainy or snow melting                                 | **RE** |
+
+### Vegetation and land use
+
+This Chapter refers to all kinds of plant cover from completely natural to completely human-made. It is not a vegetation survey, and only the really soil-relevant characteristics are reported. If the land is cultivated as cropland or grassland, the cultivation type is reported. In all other cases, the vegetation type is reported. Observe an area (10 m x 10 m, if possible) with the profile at its centre.
+
+#### Vegetation strata
+
+The following strata are relevant.
+
+| Criterion                                                                                                                          | Stratum        | Code   |
+|------------------------------------------------------------------------------------------------------------------------------------|----------------|--------|
+| Ground vegetation                                                                                                                  | Ground stratum | **GS** |
+| If both ground stratum and upper stratum are present, you may define a midstratum between the upper stratum and the ground stratum | Mid-stratum    | **MS** |
+| Tallest plants (only if crown cover ≥ 5%)                                                                                          | Upper stratum  | **US** |
+
+: Vegetation strata, National Committee on Soil and Terrain (2009), 79, modified
+
+#### Vegetation type or cultivation type
+
+If the land is not cultivated, report the vegetation type according to Table 8.8, for each stratum separately; if more than one type occurs in the same stratum, report up to three, the dominant one first. If the land is cultivated, report the cultivation type according to Table 8.9; cultivated land may show several strata, but they are not reported separately.
+
+| Life form                    | Vegetation type                                                          | Code   |
+|------------------------------|--------------------------------------------------------------------------|--------|
+| Aquatic                      | Algae: fresh or brackish                                                 | **AF** |
+| Aquatic                      | Algae: marine                                                            | **AM** |
+| Aquatic                      | Higher aquatic plants (woody or non-woody)                               | **AH** |
+| Surface crusts               | Biological crust (of cyanobacteria, algae, fungi, lichens and/or mosses) | **CR** |
+| Terrestrial non-woody plants | Fungi                                                                    | **NF** |
+| Terrestrial non-woody plants | Lichens                                                                  | **NL** |
+| Terrestrial non-woody plants | Mosses (non-peat)                                                        | **NM** |
+| Terrestrial non-woody plants | Peat                                                                     | **NP** |
+| Terrestrial non-woody plants | Grasses and/or herbs                                                     | **NG** |
+| Terrestrial woody plants     | Heath or dwarf shrubs                                                    | **WH** |
+| Terrestrial woody plants     | Evergreen shrubs                                                         | **WG** |
+| Terrestrial woody plants     | Seasonally green shrubs                                                  | **WS** |
+| Terrestrial woody plants     | Evergreen trees (mainly not planted)                                     | **WE** |
+| Terrestrial woody plants     | Seasonally green trees (mainly not planted)                              | **WT** |
+| Terrestrial woody plants     | Plantation forest, not in rotation with cropland or grassland            | **WP** |
+| Terrestrial woody plants     | Plantation forest, in rotation with cropland or grassland                | **WR** |
+| None (barren)                | Water, rock, or soil surface with \< 0.5% vegetation cover               | **NO** |
+
+: Vegetation type, National Committee on Soil and Terrain (2009), 88-93, modified
+
+| Cultivation type                                                              | Code    |
+|-------------------------------------------------------------------------------|---------|
+| Simultaneous agroforestry system with trees and perennial crops               | **ACP** |
+| Simultaneous agroforestry system with trees and annual crops                  | **ACA** |
+| Simultaneous agroforestry system with trees, perennial and annual crops       | **ACB** |
+| Simultaneous agroforestry system with trees and grassland                     | **AGG** |
+| Simultaneous agroforestry system with trees, crops and grassland              | **ACG** |
+| Pasture on (semi-)natural vegetation                                          | **GNP** |
+| Intensively-managed grassland, pastured                                       | **GIP** |
+| Intensively-managed grassland, not pastured                                   | **GIN** |
+| Perennial crop production (e.g. food, fodder, fuel, fiber, ornamental plants) | **CPP** |
+| Annual crop production (e.g. food, fodder, fuel, fiber, ornamental plants)    | **CPA** |
+| Fallow, less than 12 months, with spontaneous vegetation                      | **FYO** |
+| Fallow, at least 12 months, with spontaneous vegetation                       | **FOL** |
+| Fallow, all plants constantly removed (dry farming)                           | **FDF** |
+
+: Cultivation type
+
+#### Vegetation height, cover and taxa
+
+For non-cultivated land, report the following characteristics:
+
+-   Report the average height and the maximum height in m above ground for each stratum separately.
+-   Report the vegetation cover. For the upper stratum and the mid-stratum, report the percentage (by area) of the crown cover. For the ground stratum, report the percentage (by area) of the ground cover.
+-   Report up to three important species per stratum, e.g., *Fagus orientalis*. If you do not know the species, report the next higher taxonomic rank.
+
+#### Actual or last cultivated species
+
+For cultivated land, report the actual cultivated species using the scientific name, e.g., *Zea mays*. If currently under fallow, report the last species and indicate month and year of harvest or of cultivation cessation. If more than one species is/was grown simultaneously, report up to three in the sequence of the area covered, starting with the species that covers the largest area; this includes tree species in simultaneous agroforestry systems.
+
+#### Rotational cultivated species
+
+For cultivated land, report the species that have been cultivated in the last five years in rotation with the actual or last species. Report up to three in the sequence of frequency, starting with the most frequent species; this includes tree species in rotational agroforestry systems.
+
+#### Special techniques to enhance site productivity
+
+Report the techniques that refer to the surrounding area of the soil profile. Techniques that affect certain soil layers are reported for the respective layer. Techniques that cause surface unevenness have to be reported in Chapter 8.3.11, additionally. If more than one type is present, report up to three, the dominant one first.
+
+| Type                        | Code   |
+|-----------------------------|--------|
+| Drainage by open canals     | **DC** |
+| Underground drainage        | **DU** |
+| Wet cultivation             | **CW** |
+| Irrigation                  | **IR** |
+| Raised beds                 | **RB** |
+| Human-made terraces         | **HT** |
+| Local raise of land surface | **LO** |
+| Other                       | **OT** |
+| None                        | **NO** |
+
+: Special techniques to enhance site productivity
+
+## Description of surface characteristics
+
+Surface characteristics can be detected on the soil surface without looking into a soil profile.
+
+### Soil surface
+
+A **litter layer** is a loose layer that contains \> 90% (by volume, related to the fine earth plus all dead plant remnants) recognizable dead plant tissues (e.g. undecomposed leaves). Dead plant material still connected to living plants (e.g. dead parts of *Sphagnum* mosses) is not regarded to form part of a litter layer. The **soil surface** (0 cm) is by convention the surface of the soil after removing, if present, the litter layer and, if present, below a layer of living plants (e.g. living mosses). The **mineral soil surface** is the upper limit of the uppermost mineral horizon (see Chapter 2.1, General rules, and see Chapter 8.4.4).
+
+### Litter layer
+
+Observe an area of 5 m x 5 m with the profile at its centre. Report the average and the maximum thickness of the litter layer in cm (see Chapter 8.3.1). If there is no litter layer, report 0 cm as thickness.
+
+### Rock outcrops
+
+Rock outcrops are exposures of bedrock. Observe an area (10 m x 10 m if possible) with the profile at its centre. Report the percentage of the area that is covered by rock outcrops. Also report in m the average distance between rock outcrops and their size (average length of the greatest dimension).
+
+### Coarse surface fragments
+
+Coarse surface fragments are loose fragments lying at the soil surface, including those partially exposed. Observe an area (5 m x 5 m if possible) with the profile at its centre. The Table indicates the average length of the greatest dimension in cm.
+
+| Size (cm)    | Size class                  | Code  |
+|--------------|-----------------------------|-------|
+| \> 0.2\--0.6 | Fine gravel                 | **F** |
+| \> 0.6 - 2   | Medium gravel               | **M** |
+| \> 2 - 6     | Coarse gravel               | **C** |
+| \> 6 - 20    | Stones                      | **S** |
+| \> 20 - 60   | Boulders                    | **B** |
+| \> 60        | Large boulders              | **L** |
+|              | No coarse surface fragments | **N** |
+
+: Size of coarse surface fragments, FAO (2006), Table 15
+
+Report the total percentage of the area that is covered by coarse surface fragments. In addition, report at least one and up to three size classes and report the percentage of the area that is covered by the coarse surface fragments of the respective size class, the dominant one first.
+
+### Desert features
+
+Coarse fragments that are constantly exposed to wind-blown sand may be affected by abrasion, etching and polishing, which results in even surfaces with sharp edges. These fragments are called ventifacts (windkanters), and their totality is called desert pavement. Observe an area of 5 m x 5 m with the profile at its centre and report the percentage of ventifacts out of the coarse fragments \> 2 cm (greatest dimension).
+
+Coarse fragments may show chemical weathering, which may lead to the formation of oxides and an intense colour at their upper surfaces, whereas there is no such weathering and therefore the original rock colour at their lower surfaces. This intense colour at the upper surfaces is called desert varnish. Observe an area of 5 m x 5 m with the profile at its centre and report the percentage of coarse fragments \> 2 cm (greatest dimension) featuring desert varnish.
+
+### Patterned ground
+
+Patterned ground is the result of material sorting due to freeze-thaw cycles in permafrost regions. Report the sorting of coarse fragments \> 6 cm (greatest dimension) at the soil surface.
+
+| Form     | Code  |
+|----------|-------|
+| Rings    | **R** |
+| Polygons | **P** |
+| Stripes  | **S** |
+| None     | **N** |
+
+: Patterned ground
+
+### Surface crusts
+
+Surface crusts are described as layers in Chapter 8.4.31 and further explained there. The area covered is described here. Observe an area (5 m x 5 m if possible) with the profile at its centre. Report the percentage of the area that has a surface crust.
+
+### Surface cracks
+
+Cracks are fissures other than those attributed to soil structure (see Chapter 8.4.10). If surface cracks are present, report the average width of the cracks. If the soil surface between cracks of larger width classes is regularly divided by cracks of smaller width classes, report the two width classes. If different width classes occur randomly, just report the dominant one. The continuity of cracks to a greater depth is reported with the layer description (see Chapter 8.4.13). For every width class, report the average distance between the cracks and the spatial arrangement and persistence of the cracks.
+
+#### Width
+
+| Width (cm) | Width class       | Code   |
+|------------|-------------------|--------|
+| ≤ 1        | Very fine         | **VF** |
+| \> 1 - 2   | Fine              | **FI** |
+| \> 2 - 5   | Medium            | **ME** |
+| \> 5 - 10  | Wide              | **WI** |
+| \> 10      | Very wide         | **VW** |
+|            | No surface cracks | **NO** |
+
+: Width of surface cracks, FAO (2006), Table 21
+
+#### Distance between surface cracks
+
+| Distance (cm) | Distance class | Code   |
+|---------------|----------------|--------|
+| ≤ 0.5         | Tiny           | **TI** |
+| \> 0.5 - 2    | Very small     | **VS** |
+| \> 2 - 5      | Small          | **SM** |
+| \> 5 - 20     | Medium         | **ME** |
+| \> 20 - 50    | Large          | **LA** |
+| \> 50 - 200   | Very large     | **VL** |
+| \> 200 - 500  | Huge           | **HU** |
+| \> 500        | Very huge      | **VH** |
+
+: Distance between surface cracks, FAO (2006), Table 21, modified
+
+#### Spatial arrangement of surface cracks
+
+| Spatial arrangement | Code  |
+|---------------------|-------|
+| Polygonal           | **P** |
+| Non-polygonal       | **N** |
+
+: Spatial arrangement of surface cracks
+
+#### Persistence of surface cracks
+
+| Criterion                                                                                                                        | **Code** |
+|----------------------------------------------------------------------------------------------------------------------------------|----------|
+| Reversible (open and close with changing moisture, e.g., in Vertisols and in soils with the Vertic or the Protovertic qualifier) | **R**    |
+| Irreversible (persist year-round, e.g., drained polder cracks, cracks in cemented layers)                                        | **I**    |
+
+: Persistence of surface clacks
+
+### Presence of water
+
+Report the presence of water above the soil surface. For wet cultivation and irrigation, see Chapter 8.2.5. If water of more than one origin occurs above the soil surface, report the dominant one.
+
+| Criterion                                                         | Code   |
+|-------------------------------------------------------------------|--------|
+| Permanently submerged by seawater (below mean low water springs)  | **MP** |
+| Tidal area (between mean low and mean high water springs)         | **MT** |
+| Occasional storm surges (above mean high water springs)           | **MO** |
+| Permanently submerged by inland water                             | **FP** |
+| Submerged by remote flowing inland water at least once a year     | **FF** |
+| Submerged by remote flowing inland water less than once a year    | **FO** |
+| Submerged by rising local groundwater at least once a year        | **GF** |
+| Submerged by rising local groundwater less than once a year       | **GO** |
+| Submerged by local rainwater at least once a year                 | **RF** |
+| Submerged by local rainwater less than once a year                | **RO** |
+| Submerged by inland water of unknown origin at least once a year  | **UF** |
+| Submerged by inland water of unknown origin less than once a year | **UO** |
+| None of the above                                                 | **NO** |
+
+: Water above the soil surface
+
+### Water repellence
+
+Dry soil surfaces may be water-repellent (hydrophobic). Report the water repellence only if the soil surface is dry. Place some water on the soil surface and measure the time until it infiltrates.
+
+| Criterion                                         | Code  |
+|---------------------------------------------------|-------|
+| Water stands for ≥ 60 seconds                     | **R** |
+| Water infiltrates completely within \< 60 seconds | **N** |
+
+: Water repellence
+
+### Surface unevenness
+
+#### Natural surface unevenness
+
+This paragraph refers to unevenness resulting from soil-forming processes, not associated with erosion, deposition or human activity. Human-made surface unevenness and erosion are reported in the following paragraphs. Deposition is regarded to be a feature of the layers (see Chapter 8.4). Report surface unevenness with an average height difference ≥ 5 cm. Report the type, the average height difference, the average diameter of the elevated areas and the average distance between the height maxima. Give all values in m.
+
+| Criterion                                                               | Code  |
+|-------------------------------------------------------------------------|-------|
+| Unevenness caused by permafrost (palsa, pingo, mud boils, thufurs etc.) | **P** |
+| Unevenness caused by shrink-swell clays (gilgai relief)                 | **G** |
+| Other                                                                   | **O** |
+| None                                                                    | **N** |
+
+: Types of natural surface unevenness
+
+#### Human-made surface unevenness
+
+Report up to two types of human-made surface unevenness with an average height difference of ≥ 5 cm, the dominant one first. Report only if it shows a repeating pattern. Single characteristics, e.g. a single heap, are not reported. For terraces, report the average height of the terrace wall. For all other features, report the average difference between the highest and the lowest points, the average width/length of the feature, and the average distance between the depth/height maxima. Give all values in cm.
+
+| Type                          | Code   |
+|-------------------------------|--------|
+| Human-made terraces           | **HT** |
+| Raised beds                   | **RB** |
+| Other longitudinal elevations | **EL** |
+| Polygonal elevations          | **EP** |
+| Rounded elevations            | **ER** |
+| Drainage canals               | **CD** |
+| Irrigation canals             | **CI** |
+| Other canals                  | **CO** |
+| Polygonal holes               | **HP** |
+| Rounded holes                 | **HR** |
+| Other                         | **OT** |
+| None                          | **NO** |
+
+: Types of human-made surface unevenness
+
+![Human-made surface alterations](figure_8-10.png)
+
+#### Surface unevenness caused by erosion
+
+This paragraph refers to erosion phenomena with an average height difference of ≥ 5 cm. Report category, degree, and activity.
+
+| Category                                         | Code   |
+|--------------------------------------------------|--------|
+| Water erosion                                    |        |
+| Sheet erosion                                    | **WS** |
+| Rill erosion                                     | **WR** |
+| Gully erosion                                    | **WG** |
+| Tunnel erosion                                   | **WT** |
+| Aeolian (wind) erosion                           |        |
+| Shifting sands                                   | **AS** |
+| Other types of wind erosion                      | **AO** |
+| Water and aeolian (wind) erosion                 | **WA** |
+| Mass movement (landslides and similar phenomena) | **MM** |
+| Erosion, not categorized                         | **NC** |
+| No evidence of erosion                           | **NO** |
+
+: Categories of erosion, FAO (2006), Table 16
+
+| Criterion                                                                                                        | Degree   | Code  |
+|------------------------------------------------------------------------------------------------------------------|----------|-------|
+| Some evidence of damage to surface layers, original ecological functions largely intact                          | Slight   | **S** |
+| Clear evidence of removal of surface layers, original ecological functions partly destroyed                      | Moderate | **M** |
+| Surface layers completely removed and subsurface layers exposed, original ecological functions largely destroyed | Severe   | **V** |
+| Substantial removal of deeper subsurface layers, original ecological functions fully destroyed (badlands)        | Extreme  | **E** |
+
+: Degree of erosion, FAO (2006), Table 18
+
+| Criterion                                         | Code   |
+|---------------------------------------------------|--------|
+| Active at present                                 | **PR** |
+| Active in recent past (within the last 100 years) | **RE** |
+| Active in historical times                        | **HI** |
+| Period of activity not known                      | **NK** |
+
+: Activity of erosion, FAO (2006), Table 19
+
+### Position of the soil profile (related to surface unevenness)
+
+Report, where the soil profile is located.
+
+| Position                 | Code  |
+|--------------------------|-------|
+| On the high              | **H** |
+| On the slope             | **S** |
+| In the low               | **L** |
+| On an unaffected surface | **E** |
+
+: Position of the soil profile, if the soil surface is uneven
+
+### Technical surface alterations
+
+This Chapter refers to technical surface alterations that do not cause or enhance surface unevenness. For surface unevenness see Chapter 8.3.11. Report the technical surface alterations.
+
+| Type                   | Code   |
+|------------------------|--------|
+| Sealing by concrete    | **SC** |
+| Sealing by asphalt     | **SA** |
+| Other types of sealing | **SO** |
+| Topsoil removal        | **TR** |
+| Levelling              | **LV** |
+| Other                  | **OT** |
+| None                   | **NO** |
+
+: Technical surface alterations
+
+## Description of layers
+
+### Identification of layers and layer depths
+
+A **soil layer** is a zone in the soil, approximately parallel to the soil surface, with properties different from layers above and/or below it. If at least one of these properties is the result of soil-forming processes, the layer is called a **soil horizon**. In the following, the term 'layer' is preferred to include layers, in which soilforming processes did not occur.
+
+A soil layer is identified by certain observable characteristics. Among these characteristics are:
+
+-   Matrix colour
+-   Redoximorphic features
+-   Texture
+-   Coarse fragments
+-   Artefacts
+-   Bulk density
+-   Structure
+-   Coatings and bridges
+-   Cracks
+-   Carbonates
+-   Secondary carbonates
+-   Secondary gypsum
+-   Secondary silica
+-   Cementation
+-   Water saturation
+-   Volcanic glasses
+-   C~org~ content
+-   Human alterations
+
+Wherever you observe a major difference in at least one of these characteristics, set a layer boundary. Whenever a layer is too thick (e.g. \> 30 cm), it may be wise to subdivide it into two or more layers of more or less equal thickness for description. In certain soils, it may also be wise to add additional layer limits at depths, which you may need to check for the presence or absence of a diagnostic horizon (e.g. 20 cm to check mollic or umbric horizons). Alluvial sediments and tephra layers may be finely stratified. It may be appropriate to combine several such strata to one layer for description. In all other cases, different geological strata must not be combined to one layer.
+
+In the following headings, the (o), the (m), and the (o, m) indicate, whether the described characteristic has to be reported in organic or in mineral layers or in both (see Chapter 8.4.4). For organotechnic layers, the user decides, which characteristics have to be described. The asterisk (\*) informs that the characteristic can also be reported in a *Pürckhauer* auger.
+
+The layers are numbered consecutively from the soil surface (see Chapter 8.3.1) downwards. Report the upper and lower depth for every layer. If the lower depth of the last layer is unknown, report the depth of the profile with the + symbol as the layer's lower depth.
+
+The following principles have to be considered for description (see General rules, Chapter 2.1):
+
+1.  All data refer to the fine earth, unless stated otherwise. The fine earth comprises the soil constituents ≤ 2 mm. The whole soil comprises fine earth, coarse fragments, artefacts and dead plant remnants of any size. These rules also apply to cemented layers.
+2.  All data are given by mass, unless stated otherwise.
+
+### Homogeneity of the layer (o, m)
+
+#### Layer consisting of different parts
+
+If a layer consists of two or more different parts that do not form horizontal layers but can easily be distinguished, describe them separately. Use separate lines in the Soil Description Sheet (Annex 4, Chapter 11) and report the percentage (by exposed area, related to the whole soil) of each part. Examples are layers with retic properties (see Chapter 8.4.18), with cryogenic alteration (see Chapter 8.4.34) or with remodelling by single ploughing (see Chapter 8.4.39). The separation is not recommended, if there is just a wavy boundary (as typical, e.g., for chernic horizons or for eluvial horizons in Podzols, see Chapter 8.4.5) or if there are just some additions of materials (see Chapter 8.4.39).
+
+#### Layer composed of several strata of alluvial sediments or of tephra
+
+Alluvial strata comprise fluviatile, lacustrine and marine deposits. Tephra strata have a significant amount of pyroclasts. Report the presence of alluvial strata and of tephra strata within the described layer.
+
+| Criterion                                                          | Code  |
+|--------------------------------------------------------------------|-------|
+| Layer is composed of two or more alluvial strata                   | **A** |
+| Layer is composed of two or more tephra strata                     | **T** |
+| Layer is composed of two or more alluvial strata containing tephra | **B** |
+| Layer is not composed of different strata                          | **N** |
+
+: Presence of strata within a layer
+
+### Water
+
+#### Water saturation (o, m)
+
+Report the water saturation.
+
+| Criterion                                                                                                                           | Code   |
+|-------------------------------------------------------------------------------------------------------------------------------------|--------|
+| Saturated by seawater for ≥ 30 consecutive days                                                                                     | **MS** |
+| Saturated by seawater according to tidal changes                                                                                    | **MT** |
+| Saturated by groundwater or flowing water for ≥ 30 consecutive days with water that has an electrical conductivity of ≥ 4 dS m^-1^  | **GS** |
+| Saturated by groundwater or flowing water for ≥ 30 consecutive days with water that has an electrical conductivity of \< 4 dS m^-1^ | **GF** |
+| Saturated by rainwater for ≥ 30 consecutive days                                                                                    | **RA** |
+| Saturated by water from melted ice for ≥ 30 consecutive days                                                                        | **MI** |
+| Pure water, covered by floating organic material                                                                                    | **PW** |
+| None of the above                                                                                                                   | **NO** |
+
+: Types of water saturation
+
+#### Soil water status (m) (\*)
+
+Check the soil water status of non-saturated layers. Spray the profile wall with water and observe the colour change. Then crush a sample and report the behaviour.
+
+| Moistening          | Crushing       | Moisture class | Code   |
+|---------------------|----------------|----------------|--------|
+| Going very dark     | Dusty or hard  | Very dry       | **VD** |
+| Going dark          | Makes no dust  | Dry            | **DR** |
+| Going slightly dark | Makes no dust  | Slightly moist | **SM** |
+| No change of colour | Makes no dust  | Moist          | **MO** |
+| No change of colour | Drops of water | Wet            | **WE** |
+
+: Soil water status, FAO (2006), Table 57, modified
+
+### Organic, organotechnic and mineral layers
+
+We distinguish the following layers (see Chapter 3.3):
+
+-   Organic layers consist of organic material.
+-   Organotechnic layers consist of organotechnic material.
+-   Mineral layers are all other layers.
+
+An organic or organotechnic layer is called hydromorphic, if water saturation lasts ≥ 30 consecutive days in most years or if it has been drained. Otherwise, it is called terrestrial. Hydromorphic organic layers comprise peat and organic limnic material. Report, whether a layer is organic, organotechnic or mineral and, if organic or organotechnic, whether it is hydromorphic or terrestrial. The distinction is preliminary and may have to be corrected according to laboratory analyses.
+
+| Criterion                  | Code   |
+|----------------------------|--------|
+| Organic hydromorphic       | **OH** |
+| Organic terrestrial        | **OT** |
+| Organotechnic hydromorphic | **TH** |
+| Organotechnic terrestrial  | **TT** |
+| Mineral                    | **MI** |
+
+: Organic (hydromorphic and terrestrial), organotechnic and mineral layers
+
+### Layer boundaries (o, m)
+
+#### Distinctness of the layer's lower boundary (\*)
+
+Report the distinctness of the layer's lower boundary.
+
+| Mineral layers, organotechnic layers and hydromorphic organic layers: transition within (cm) | Terrestrial organic layers: transition within (cm) | Distinctness | Code  |
+|----------------------------------------------------------------------------------------------|----------------------------------------------------|--------------|-------|
+| ≤ 0.5                                                                                        | ≤ 0.1                                              | Very abrupt  | **V** |
+| \> 0.5-2                                                                                     | \> 0.1-0.2                                         | Abrupt       | **A** |
+| \>2-5                                                                                        | \> 0.2-0.5                                         | Clear        | **C** |
+| \>5-15                                                                                       | \> 0.5-1                                           | Gradual      | **G** |
+| \>15                                                                                         | \> 1                                               | Diffuse      | **D** |
+
+: Distinctness of layer boundaries, Schoeneberger et al. (2012), 2-6, modified
+
+#### Shape
+
+Report the shape. The characteristic refers to the layer's lower boundary or, if the shape is 'broken', to the entire layer.
+
+| Criterion                   | Shape     | Code  |
+|-----------------------------|-----------|-------|
+| Nearly plane surface        | Smooth    | **S** |
+| Pockets less deep than wide | Wavy      | **W** |
+| Pockets more deep than wide | Irregular | **I** |
+| Discontinuous               | Broken    | **B** |
+
+: Shape of layer boundaries, Schoeneberger et al. (2012), 2-7
+
+![Shape of layer boundaries, Schoeneberger et al. (2012), 2-7, modified](figure_8-11.png)
+
+### Wind deposition (m)
+
+Report any evidence of wind deposition. Use a hand lens (maximum 10x).
+
+| Criterion                                                                                                                                                | Code |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------|------|
+| Aeroturbation (cross-bedding)                                                                                                                            | CB   |
+| ≥ 10% of the particles of medium sand or coarser are rounded or subangular and have a matt surface                                                       | RH   |
+| ≥ 10% of the particles of medium sand or coarser are rounded or subangular and have a matt surface, but only in in-blown material that has filled cracks | RC   |
+| Other                                                                                                                                                    | OT   |
+| No evidence of wind deposition                                                                                                                           | NO   |
+
+: Types of wind deposition
+
+### Coarse fragments (o, m)
+
+A coarse fragment is a mineral particle \> 2 mm in its equivalent diameter (see Chapter 8.4.9). The subdivision of coarse fragments (0.6 to 60 cm) is according to their greatest dimension. This Chapter refers to natural coarse fragments. Artefacts are described in Chapter 8.4.8. Fragments of broken-up cemented layers are reported here together with the coarse fragments. In addition, the cementing agent has to be reported (see Chapters 8.4.30 and 8.4.32) (the term 'oxides' includes hydroxides and oxide-hydroxides).
+
+#### Size and shape
+
+The Table indicates the length of the greatest dimension and the shape.
+
+| Size (cm)  | Size class          | Shape               | Code   |
+|------------|---------------------|---------------------|--------|
+| \> 0.2-0.6 | Fine gravel         | Rounded             | **FR** |
+|            |                     | Angular             | **FA** |
+|            |                     | Rounded and angular | **FB** |
+| \> 0.6-2   |                     | Rounded             | **MR** |
+|            |                     | Angular             | **MA** |
+|            |                     | Rounded and angular | **MB** |
+| \> 2-6     |                     | Rounded             | **CR** |
+|            |                     | Angular             | **CA** |
+|            |                     | Rounded and angular | **CB** |
+| \> 6-20    |                     | Rounded             | **SR** |
+|            |                     | Angular             | **SA** |
+|            |                     | Rounded and angular | **SB** |
+|  \>20-60   |                     | Rounded             | **BR** |
+|            |                     | Angular             | **BA** |
+|            |                     | Rounded and angular | **BB** |
+| \> 60      |                     | Rounded             | **LR** |
+|            |                     | Angular             | **LA** |
+|            |                     | Rounded and angular | **LB** |
+|            | No coarse fragments |                     | **NO** |
+
+: Size and shape classes of coarse fragments, FAO (2006), Tables 27 and 28
+
+#### Weathering stage
+
+| Criterion                                                                                                                                              | Weathering stage     | **Code** |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|----------|
+| No or little signs of weathering                                                                                                                       | Fresh                | **F**    |
+| Loss of original rock colour and loss of crystal form in the outer parts; centres remain relatively fresh; original strength relatively well preserved | Moderately weathered | **M**    |
+| All but the most resistant minerals weathered; original rock colour lost throughout; tend to disintegrate under only moderate pressure                 | Strongly weathered   | **S**    |
+
+: Weathering stage of coarse fragments, FAO (2006), Table 29
+
+#### Fragments of broken-up cemented layers
+
+| Cementing agent                                                                                                      | Code   |
+|----------------------------------------------------------------------------------------------------------------------|--------|
+| Secondary carbonates                                                                                                 | **CA** |
+| Secondary gypsum                                                                                                     | **GY** |
+| Secondary silica                                                                                                     | **SI** |
+| Fe oxides, predominantly inside (former) soil aggregates, no significant concentration of organic matter             | **FI** |
+| Fe oxides, predominantly on the surfaces of (former) soil aggregates, no significant concentration of organic matter | **FO** |
+| Fe oxides, no relationship to (former) soil aggregates, no significant concentration of organic matter               | **FN** |
+| Fe oxides in the presence of a significant concentration of organic matter                                           | **FH** |
+
+: Fragments of broken-up cemented layers: cementing agent
+
+#### Abundance (by volume)
+
+Report the total percentage of the volume (related to the whole soil) occupied by coarse fragments. In addition, report at least one and up to four size and shape classes and report their weathering stage and the percentage of the volume that is occupied by the coarse fragments of the respective class, the dominant one first. Figure 8.12 helps with the estimation of the volume. For fragments of a broken-up cemented layer, report the agent that caused the cementation, where applicable up to two, and the percentage of each group of fragments (by volume, related to the whole soil).
+
+![Charts for estimating percentages of coarse fragments, FAO (2006), Figure 5, modified by B. Repe](figure_8-12.png)
+
+#### Free large pores between coarse fragments
+
+Between coarse fragments, large pores may exist that are visible with the naked eye and do not contain soil material. Report the total percentage (by volume, related to the whole soil).
+
+### Artefacts (o, m)
+
+Artefacts are solid or liquid substances that are
+
+-   created or substantially modified by humans as part of an industrial or artisanal manufacturing process, or
+-   brought to the surface by human activity from a depth, where they were not influenced by surface processes, and deposited in an environment, where they do not commonly occur.
+
+#### Type
+
+| Type                                                         | Code   |
+|--------------------------------------------------------------|--------|
+| Bitumen (asphalt), continuous                                | **BT** |
+| Bitumen (asphalt), fragments                                 | **BF** |
+| Black carbon (e.g. charcoal, partly charred particles, soot) | **BC** |
+| Boiler slag                                                  | **BS** |
+| Bottom ash                                                   | **BA** |
+| Bricks, adobes                                               | **BR** |
+| Ceramics                                                     | **CE** |
+| Cloth, carpet                                                | **CL** |
+| Coal combustion byproducts                                   | **CU** |
+| Concrete, continuous                                         | **CR** |
+| Concrete, fragments                                          | **CF** |
+| Crude oil                                                    | **CO** |
+| Debitage (stone tool flakes)                                 | **DE** |
+| Dressed or crushed stones                                    | **DS** |
+| Fly ash                                                      | **FA** |
+| Geomembrane, continuous                                      | **GM** |
+| Geomembrane, fragments                                       | **GF** |
+| Glass                                                        | **GL** |
+| Gold coins                                                   | **GC** |
+| Household waste (undifferentiated)                           | **HW** |
+| Industrial waste                                             | **IW** |
+| Lumps of applied lime                                        | **LL** |
+| Metal                                                        | **ME** |
+| Mine spoil                                                   | **MS** |
+| Organic waste                                                | **OW** |
+| Paper, cardboard                                             | **PA** |
+| Plasterboard                                                 | **PB** |
+| Plastic                                                      | **PT** |
+| Processed oil products                                       | **PO** |
+| Rubber (tires etc.)                                          | **RU** |
+| Treated wood                                                 | **TW** |
+| Other                                                        | **OT** |
+| None                                                         | **NO** |
+
+: Examples of artefacts, Schoeneberger et al. (2012), 2-50, modified
+
+Note: If not purposefully made by humans, black carbon is considered to be natural (see Chapter 8.4.36).
+
+#### Size
+
+The Table indicates the average length of the greatest dimension of solid artefacts.
+
+| Size (cm)    | Size class     | Code  |
+|--------------|----------------|-------|
+| ≤ 0.2        | Fine earth     | **E** |
+| \> 0.2 - 0.6 | Fine gravel    | **F** |
+| \> 0.6-2     | Medium gravel  | **M** |
+| \> 2-6       | Coarse gravel  | **C** |
+| \> 6-20      | Stones         | **S** |
+| \> 20-60     | Boulders       | **B** |
+| \> 60        | Large boulders | **L** |
+
+: Size of artefacts, FAO (2006), Table 27
+
+#### Abundance (by volume)
+
+Report the total percentage of the volume (related to the whole soil) occupied by solid artefacts. In addition, report at least one and up to five types and size classes and the percentage of the volume that is occupied by the respective type and size class, the dominant one first. Figure 8.12 helps with the estimation of the volume. Black carbon has to be additionally reported as percentage of the exposed area (related to the fine earth plus black carbon of any size).
+
+### Soil texture (m) (\*)
+
+#### Particle-size classes
+
+| Particle-size class | Diameter of particles |
+|---------------------|-----------------------|
+| Fine earth          | all particles ≤ 2 mm  |
+| Sand                | \> 63 μm - ≤ 2 mm     |
+| Very coarse sand    | \> 1250 μm - ≤ 2 mm   |
+| Coarse sand         | \> 630 μm - ≤ 1250 μm |
+| Medium sand         | \> 200 μm - ≤ 630 μm  |
+| Fine sand           | \> 125 μm - ≤ 200 μm  |
+| Very fine sand      | \> 63 μm - \< 125 μm  |
+| Silt                | \> 2 μm - ≤ 63 μm     |
+| Clay                | ≤ 2 μm                |
+
+: Particle-size classes, ISO 11277:2009
+
+The particle size classes up to 2 mm are defined according to the equivalent diameter. The equivalent diameter is the diameter of a sphere that in sedimentation analysis sinks with the same velocity as the respective particle.
+
+The human eye and the tactile sense of the fingers can detect particles \> 150-300 μm, depending on individual sensitivity.
+
+#### Texture classes
+
+Report the texture class. Please note that the hand-texturing according to the following flow chart only provides an estimation of the texture. Especially around the limits between the classes, the results might be not absolutely reliable. Beginners should ask experienced soil scientists for help.
+
+![Texture classes, triangle, Blum et al. (2018), Figure 28, modified](figure_8-13.png)
+
++------------------------+---------------+----------------+---------------+-------------------------------+
+| Texture class          | \% sand       | \% silt        | \% clay       | Additional criteria           |
++========================+===============+================+===============+===============================+
+| Sand (S)               | \> 85         | \< 15          | \< 10         | (%silt + 1.5×%clay) \< 15     |
++------------------------+---------------+----------------+---------------+-------------------------------+
+| Loamy sand (LS)        | \> 70 - ≤ 90  | \< 30          | \< 15         | (%silt + 1.5×%clay) ≥ 15 and\ |
+|                        |               |                |               | (%silt + 2×%clay) \< 30       |
++------------------------+---------------+----------------+---------------+-------------------------------+
+| Silt (Si)              | ≤ 20          | ≥ 80           | \< 12         |                               |
++------------------------+---------------+----------------+---------------+-------------------------------+
+| Silt loam (SiL)        | ≤ 50          | ≥ 50 to \< 80  | \< 27         |                               |
++------------------------+---------------+----------------+---------------+-------------------------------+
+|                        | ≤ 8           | ≥ 80 to ≤ 88   | ≥ 12 to ≤ 20  |                               |
++------------------------+---------------+----------------+---------------+-------------------------------+
+| Sandy loam (SL)        | \> 52 - ≤ 85  | ≤ 48           | \< 20         | (%silt + 2×%clay) ≥ 30        |
++------------------------+---------------+----------------+---------------+-------------------------------+
+|                        | \> 43 - ≤ 52  | ≥ 41 to \< 50  | \< 7          |                               |
++------------------------+---------------+----------------+---------------+-------------------------------+
+| Loam (L)               | \> 23 to ≤ 52 | ≥ 28 to \< 50  | ≥ 7 to \< 27  |                               |
++------------------------+---------------+----------------+---------------+-------------------------------+
+| Sandy clay loam (SCL)  | \> 45 to ≤ 80 | \< 28          | ≥ 20 to \< 35 |                               |
++------------------------+---------------+----------------+---------------+-------------------------------+
+| Silty clay loam (SiCL) | ≤ 20          | \> 40 to ≤ 73  | ≥ 27 to \< 40 |                               |
++------------------------+---------------+----------------+---------------+-------------------------------+
+| Clay loam (CL)         | \> 20 to ≤ 45 | \> 15 to \< 53 | ≥ 27 to \< 40 |                               |
++------------------------+---------------+----------------+---------------+-------------------------------+
+| Sandy clay (SC)        | \> 45 to ≤ 65 | \< 20          | ≥ 35 to \< 55 |                               |
++------------------------+---------------+----------------+---------------+-------------------------------+
+| Silty clay (SiC)       | ≤ 20          | ≥ 40 to ≤ 60   | ≥ 40 to ≤ 60  |                               |
++------------------------+---------------+----------------+---------------+-------------------------------+
+| Clay (C)               | ≤ 45          | \< 40          | ≥ 40          |                               |
++------------------------+---------------+----------------+---------------+-------------------------------+
+
+: Texture classes, Soil Science Division Staff (2017)
+
+![Texture classes, flow chart, ideas adapted from - Natural England Technical Information Note TIN037 (2008) - Thien (1979)](figure_8-14.png)
+
+#### Subclasses of the texture classes sand and loamy sand
+
+If the layer belongs to the texture classes sand or loamy sand, report the subclass. The particle-size subclasses of sand are detected by visual estimation of the diameters of the grains or by laboratory analysis. The texture subclasses very fine sand and loamy very fine sand tend to feel floury, whereas all the coarser subclasses feel grainy.
+
+| \% very coarse and coarse sand | \% medium sand | \% sum of very coarse, coarse and medium sand | \% fine sand | \% very fine sand | Feel                 | Subclasses of the texture class sand | Subclasses of the texture class loamy sand |
+|--------------------------------|----------------|-----------------------------------------------|--------------|-------------------|----------------------|--------------------------------------|--------------------------------------------|
+| ≥ 25                           | \< 50          | Not defined                                   | \< 50        | \< 50             | Grainy               | Coarse sand (CS)                     | Loamy coarse sand (LCS)                    |
+| \< 25                          | Not defined    | ≥ 25                                          | \< 50        | \< 50             | Grainy               | Medium sand (MS)                     | Loamy medium sand (LMS)                    |
+| ≥ 25                           | ≥ 50           | Not defined                                   | Not defined  | Not defined       | Grainy               | Medium sand (MS)                     | Loamy medium sand (LMS)                    |
+| Not defined                    | Not defined    | Not defined                                   | ≥ 50         | Not defined       | Grainy               | Fine sand (FS)                       | Loamy fine sand (LFS)                      |
+| Not defined                    | Not defined    | \< 25                                         | Not defined  | \< 50             | Grainy               | Fine sand (FS)                       | Loamy fine sand (LFS)                      |
+| Not defined                    | Not defined    | Not defined                                   | Not defined  | ≥ 50              | Tending to be floury | Very fine sand (VFS)                 | Loamy very fine sand (LVFS)                |
+
+: Subclasses of the texture classes sand and loamy sand If the layer belongs to the texture classes sand or loamy sand, report the subclass. The particle-size subclasses of sand are detected by visual estimation of the diameters of the grains or by laboratory analysis. The texture subclasses very fine sand and loamy very fine sand tend to feel floury, whereas all the coarser subclasses feel grainy.
+
+### Structure (m)
+
+Structure is the spatial arrangement of soil constituents and pores. If this is, at least partially, the result of soil-forming processes, it is called **soil structure**. Otherwise, it is **rock structure**. Structure refers to the fine earth. Structure is reported for mineral layers. Additionally, structure is reported for drained hydromorphic organic layers.
+
+A **soil aggregate** is a discrete structural body that can be clearly distinguished from its surroundings and that results from soil-forming processes. If a force is applied to a specimen, and the specimen breaks along natural surfaces of weakness, it is composed of aggregates. If the specimen breaks exactly where force is applied, the structure is **massive** (coherent). If there is no coherence between the particles, the structure is of **single-grain** type. Human disturbance may create artificial structural elements, which are called **clods**.
+
+Undisturbed aggregates or non-aggregated structure are called the first-level structure. Aggregates of the types subangular blocky, angular blocky, polyhedral, lenticular, platy, wedge-shaped, prismatic, and columnar may break into aggregates of a second-level structure and even further into aggregates of a thirdlevel structure. The second-level and the third-level structure may be of the same type(s) as the first-level structure or of a different one.
+
+Use the spade, take out a large sample, make sure that the aggregates of the first-level structure, if present, are undisturbed, and observe the structure. Report the type, if present, up to three, the dominant one first. For each type, report separately grade, penetrability for roots, and size class. If applicable, report two size classes, the dominant one first. Report for every type and size class the abundance (as percentage by volume of the layer).
+
+From the first-level structure, take some specimens from each type (if more than one size class of a type is present, take only the greater one) and try to break them with low forces. If aggregates of a second-level structure appear, report the type, if present, up to two, the dominant one first. For each type, report separately grade, size class, and penetrability for roots. If applicable, report two size classes, the dominant one first. Report for every type and size class the abundance (as percentage by volume of the respective first level structure).
+
+From the second-level structure, take some specimens from each type (if more than one size class of a type is present, take only the greater one) and try to break them with low forces. If aggregates of a third-level structure appear, report type, grade, size class, and penetrability for roots. If applicable, report two size classes, the dominant one first. Report for every size class the abundance (as percentage by volume of the respective second level structure).
+
+#### Types
+
+Figure 8.15 explains some general terms of soil aggregate description.
+
+![General terms of soil aggregate description](figure_8-15.png)
+
+::: {grid}
+::: {g-col-4}
+Granular
+
+![](table_8-41-01.png)
+:::
+
+::: {g-col-8}
+-   Spheroidal;
+-   biogenic; many visible pores;
+-   bounded by curved or very irregular faces;
+-   limited accommodation to the faces of surrounding aggregates
+:::
+
+::: {g-col-4}
+Subangular blocky
+
+![](table_8-41-02.png)
+:::
+
+::: {g-col-8}
+-   Bounded by undulating rough faces;
+-   number of faces variable;
+-   many vertices rounded;
+-   limited accommodation to the faces of surrounding aggregates
+:::
+
+::: {g-col-4}
+Angular blocky
+
+![](table_8-41-03.png)
+:::
+
+::: {g-col-8}
+-   Bounded by relatively flat smooth, roughly equal faces;
+-   number of faces variable;
+-   most vertices angular;
+-   usually much accommodation to the faces of surrounding aggregates
+:::
+
+::: {g-col-4}
+Lenticular
+
+![](table_8-41-04.png)
+:::
+
+::: {g-col-8}
+-   Bounded by curved faces;
+-   overlapping, lens-shaped aggregates generally parallel to the soil surface that are thick at the centre and taper toward the edges;
+-   usually much accommodation to the faces of surrounding aggregates;
+-   (formed by active or relict frost processes)
+:::
+
+::: {g-col-4}
+Wedge-shaped
+
+![](table_8-41-05.png)
+:::
+
+::: {g-col-8}
+-   Bounded by flat faces;
+-   interlocking wedges or lenses that terminate in pronounced angular vertices;
+-   ends of vertices may be missing;
+-   much accommodation to the faces of surrounding aggregates
+-   (typical for first-level or second-level structure in vertic horizons)
+:::
+
+::: {g-col-4}
+Prismatic
+
+![](table_8-41-06.png)
+:::
+
+::: {g-col-8}
+-   Bounded by relatively flat faces;
+-   vertically elongated units with angular vertices and flat tops;
+-   much accommodation to the faces of surrounding aggregates
+:::
+
+::: {g-col-4}
+Columnar
+
+![](table_8-41-07.png)
+:::
+
+::: {g-col-8}
+-   Bounded by relatively flat faces;
+-   vertically elongated units with angular to rounded vertices and rounded (domed) tops
+:::
+
+::: {g-col-4}
+Polyhedral
+
+![](table_8-41-08.png)
+:::
+
+::: {g-col-8}
+-   Bounded by relatively flat smooth, unequal faces;
+-   more than six faces; most vertices angular;
+-   usually much accommodation to the faces of surrounding aggregates;
+-   re-entrant angles between adjoining faces
+-   (typical for second-level structure in nitic horizons)
+:::
+
+::: {g-col-4}
+Flat-edged
+
+![](table_8-41-09.png)
+:::
+
+::: {g-col-8}
+-   Bounded by curved faces;
+-   lens-shaped aggregates that are thick at the centre and taper toward the edges;
+-   limited accommodation to the faces of surrounding aggregates
+-   (typical for second-level structure in nitic horizons)
+:::
+
+::: {g-col-4}
+Pseudosand/Pseudosilt
+
+![](table_8-41-10.png)
+:::
+
+::: {g-col-8}
+-   Spheroidal units of sand and silt size, composed of kaolinite-oxide complexes;
+-   the complexes may be interconnected to each other;
+-   hand-texturing according to Chapter 8.4.9 first yields the impression of a dominance of sand and silt and after prolonged squeezing proves the dominance of clay
+:::
+
+::: {g-col-4}
+Platy
+
+![](table_8-41-11.png)
+:::
+
+::: {g-col-8}
+-   Bounded by relatively flat horizontal faces;
+-   much accommodation to the faces of surrounding aggregates
+:::
+
+::: {g-col-4}
+Single grain
+
+![](table_8-41-12.png)
+:::
+
+::: {g-col-8}
+-   Entirely non-coherent, e.g., loose sand
+:::
+
+::: {g-col-4}
+Massive
+
+![](table_8-41-13.png)
+:::
+
+::: {g-col-8}
+-   Material is a coherent mass (not necessarily cemented)
+:::
+
+::: {g-col-4}
+Cloddy
+
+![](table_8-41-14.png)
+:::
+
+::: {g-col-8}
+-   Artificial clods created by disturbance; e.g., ploughing
+:::
+:::
+
+| Type                   | Formation                                                                                                                                                            | Code   |
+|------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
+| Granular               | Soil aggregate structure, natural                                                                                                                                    | **GR** |
+| Subangular blocky      | Soil aggregate structure, natural                                                                                                                                    | **BS** |
+| Angular blocky         | Soil aggregate structure, natural                                                                                                                                    | **BA** |
+| Lenticular             | Soil aggregate structure, natural                                                                                                                                    | **LC** |
+| Wefge-shaped           | Soil aggregate structure, natural                                                                                                                                    | **WE** |
+| Prismatic              | Soil aggregate structure, natural                                                                                                                                    | **PR** |
+| Columnar               | Soil aggregate structure, natural                                                                                                                                    | **CO** |
+| Polyhedral             | Soil aggregate structure, natural                                                                                                                                    | **PH** |
+| Flatedged              | Soil aggregate structure, natural                                                                                                                                    | **FE** |
+| Pseudosand/ Pseudosilt | Soil aggregate structure, natural                                                                                                                                    | **PS** |
+| Platy                  | Soil aggregate structure, natural or resulting from artificial pressure                                                                                              | **PL** |
+| Single grain           | No structural units, rock structure, inherited from the parent material                                                                                              | **SR** |
+| Single grain           | No structural units, soil structure, resulting from soil-forming processes, like loss of organic matter and/or oxides and/or clay minerals or loss of stratification | **SS** |
+| Massive                | No structural units, rock structure, inherited from the parent material, structure not changing with soil moisture, not or only slightly chemically weathered        | **MR** |
+| Massive                | No structural units, rock structure, inherited from the parent material, structure not changing with soil moisture, strongly chemically weathered (e.g. saprolite)   | **MW** |
+| Massive                | No structural units, soil structure, present when moist and changing into soil aggregate structure when dry                                                          | **MS** |
+| Stratified             | No structural units, rock structure, visible stratification from sedimentation                                                                                       | **ST** |
+| Cloddy                 | Artificial structural elements                                                                                                                                       | **CL** |
+
+: Types of structure, formation and codes
+
+#### Grade
+
+| Criterion                                                                                                                                                                                                                                                                                                                   | Grade    | Code  |
+|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------|-------|
+| The units are barely observable in place. When gently disturbed, the soil material parts into a mixture of whole and broken units, the majority of which exhibit no surfaces of weakness. The surfaces differ in some way from the interiors.                                                                               | Weak     | **W** |
+| The units are well formed and evident in place. When disturbed, the soil material parts into a mixture of mostly whole units, some broken units, and material that is not in units. Aggregates part from adjoining aggregates to reveal nearly entire faces that have properties distinct from those of fractured surfaces. | Moderate | **M** |
+| The units are distinct in place. When disturbed, they separate cleanly, mainly into whole units. Aggregates have distinct surface properties.                                                                                                                                                                               | Strong   | **S** |
+
+: Grade of structural units, Soil Science Division Staff (2017), 159f, modified
+
+#### Penetrability for roots
+
+Large soil aggregates may have a dense outer rim that does not allow roots to enter.
+
+| Criterion                            | Code  |
+|--------------------------------------|-------|
+| All aggregates with dense outer rim  | **P** |
+| Some aggregates with dense outer rim | **S** |
+| No aggregate with dense outer rim    | **N** |
+
+: Aggregate penetrability for roots
+
+#### Size
+
+The dimension to be reported is indicated in Table 8.41 by a line.
