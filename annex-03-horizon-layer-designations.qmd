@@ -1,0 +1,374 @@
+# Annex 3: Horizon and layer designations
+
+This annex provides the horizon and layer symbols for soil description. The designations are based on field characteristics (Annex 1, Chapter 8) and laboratory characteristics (Annex 2, Chapter 9). In some cases, the processes that have led to these characteristics, may no longer be active. **Only brief descriptions are given here, which are not intended to be definitions as in the diagnostics of the WRB**. In most cases, no quantitative criteria are given.
+
+A **soil layer** is a zone in the soil, approximately parallel to the soil surface, with properties different from layers above and/or below it. If at least one of these properties is the result of soil-forming processes, the layer is called a **soil horizon**. In the following, the term layer is used to indicate the possibility that soilforming processes did not occur. A **stratum** (see Chapter 10.4) is the result of geological processes and may comprise more than one layer.
+
+A **litter layer** is a loose layer that contains \> 90% (by volume, related to the fine earth plus all dead plant remmants) recognizable dead plant tissues (e.g. undecomposed leaves). Dead plant material still connected to living plants (e.g. dead parts of *Sphagnum* mosses) is not regarded to form part of a litter layer. The **soil surface** (0 cm) is by convention the surface of the soil after removing, if present, the litter layer and, if present, below a layer of living plants (e.g. living mosses). The **mineral soil surface** is the upper limit of the uppermost mineral horizon (see Chapter 2.1, General rules, and Annex 1, Chapters 8.3.1 and 8.3.2).
+
+The **fine earth** comprises the soil constituents ≤ 2 mm. The **whole soil** comprises fine earth, coarse fragments, artefacts and dead plant remnants of any size. These rules also apply to cemented layers (see Chapter 2.1, General rules, and Annex 1, Chapters 8.3.1 and 8.3.2).
+
+We distinguish the following layers (see Chapter 3.3):
+
+-   Organic layers consist of organic material.
+-   Organotechnic layers consist of organotechnic material.
+-   Mineral layers are all other layers.
+
+The designation consists of a capital letter (master symbol), which in most cases is followed by one or more lowercase letters (suffixes). Rules are given for the combinations of symbols in one layer and for layer sequences.
+
+The word **rock** comprises both consolidated and unconsolidated material. The word **oxides**, in the following, includes oxides, hydroxides and oxide-hydroxides.
+
+## Master symbols
+
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| Symbol  | Criteria                                                                                                                                                                                                                                                                                                                                          |
++=========+===================================================================================================================================================================================================================================================================================================================================================+
+| H       | Organic or organotechnic layer, not forming part of a litter layer; water saturation \> 30 consecutive days in most years or drained; generally regarded as peat layer or organic limnic layer.                                                                                                                                                   |
+|         |                                                                                                                                                                                                                                                                                                                                                   |
+|         | Nota bene:                                                                                                                                                                                                                                                                                                                                        |
+|         |                                                                                                                                                                                                                                                                                                                                                   |
+|         | -   Under water saturation, completely undecomposed organic layers, consisting of 100% (by volume, related to all dead plant remnants) recognizable dead plant tissues, may exist. However, most H layers underwent at least some decomposition, show \< 100% (by volume) recognizable dead plant tissues and are considered to be soil horizons. |
+|         | -   If the H is used for organotechnic layers, the suffix u is mandatory.                                                                                                                                                                                                                                                                         |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| O       | Organic horizon or organotechnic layer, not forming part of a litter layer; water saturation ≤ 30 consecutive days in most years and not drained; generally regarded as non-peat and non-limnic horizon.                                                                                                                                          |
+|         |                                                                                                                                                                                                                                                                                                                                                   |
+|         | Nota bene: If the O is used for organotechnic layers, the suffix u is mandatory.                                                                                                                                                                                                                                                                  |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| A       | Mineral horizon at the mineral soil surface or buried; \                                                                                                                                                                                                                                                                                          |
+|         | contains organic matter that has at least partly been modified in-situ; \                                                                                                                                                                                                                                                                         |
+|         | soil structure and/or structural elements created by cultivation in ≥ 50% (by volume, related to the fine earth), i.e. rock structure, if present, in \< 50% (by volume); cultivated mineral layers are designated A, even if they belonged to another layer before cultivation.                                                                  |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| E       | Mineral horizon;\                                                                                                                                                                                                                                                                                                                                 |
+|         | has lost by downward movement within the soil (vertically or laterally) one or more of the following: Fe, Al, and/or Mn species; clay minerals; organic matter.                                                                                                                                                                                   |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| B       | Mineral horizon that has (at least originally) formed below an A or E horizon; rock structure, if present, in \< 50% (by volume, related to the fine earth); one or more of the following processes of soil formation:                                                                                                                            |
+|         |                                                                                                                                                                                                                                                                                                                                                   |
+|         | -   formation of soil aggregate structure                                                                                                                                                                                                                                                                                                         |
+|         | -   formation of clay minerals and/or oxides                                                                                                                                                                                                                                                                                                      |
+|         | -   accumulation by illuviation processes of one or more of the following: Fe, Al, and/or Mn species; clay minerals; organic matter; silica; carbonates; gypsum                                                                                                                                                                                   |
+|         | -   removal of carbonates or gypsum.                                                                                                                                                                                                                                                                                                              |
+|         |                                                                                                                                                                                                                                                                                                                                                   |
+|         | Nota bene: B horizons may show other accumulations as well.                                                                                                                                                                                                                                                                                       |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| C       | Mineral layer; \                                                                                                                                                                                                                                                                                                                                  |
+|         | unconsolidated (can be cut with a spade when moist), or consolidated and more fractured than the R layer; \                                                                                                                                                                                                                                       |
+|         | no soil formation, or soil formation that does not meet the criteria of the A, E, and B horizon.                                                                                                                                                                                                                                                  |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| R       | Consolidated rock;\                                                                                                                                                                                                                                                                                                                               |
+|         | air-dry or drier specimens, when placed in water, will not slake within 24 hours;\                                                                                                                                                                                                                                                                |
+|         | fractures, if present, occupy \< 10% (by volume, related to the whole soil); not resulting from the cementation of a soil horizon.                                                                                                                                                                                                                |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| I       | ≥ 75% ice (by volume, related to the whole soil), permanent, below an H, O, A, E, B or C layer.                                                                                                                                                                                                                                                   |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| W       | Permanent water above the soil surface or between layers, may be seasonally frozen.                                                                                                                                                                                                                                                               |
++---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+: Master symbols
+
+## Suffixes
+
+If not stated otherwise, the descriptions are related to the fine earth (see Chapter 2.1).
+
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| Symbol | Criteria                                                                                                                                                                                                                                                                                                                                                             | Combination with    |
++========+======================================================================================================================================================================================================================================================================================================================================================================+=====================+
+| a      | Organic material in an advanced state of decomposition; after gently rubbing, ≤ one sixth of the volume (related to the fine earth plus all dead plant remnants) consists of recognizable dead plant tissues \[a like **a**dvanced\].                                                                                                                                | H, O                |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| b      | Buried horizon; \                                                                                                                                                                                                                                                                                                                                                    | H, O, A, E, B       |
+|        | first, the horizon has formed, and then, it was buried by mineral material \[b like **b**uried\].                                                                                                                                                                                                                                                                    |                     |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| c      | Concretions or nodules\                                                                                                                                                                                                                                                                                                                                              |                     |
+|        | (only used if following another suffix (k, q, v, y) that indicates the accumulated substance) \[c like **c**oncretion\].                                                                                                                                                                                                                                             |                     |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| d      | Drained \[d like **d**rained\].                                                                                                                                                                                                                                                                                                                                      | H                   |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| e      | Organic material in an intermediate state of decomposition; after gently rubbing, ≤ two thirds and \> one sixth of the volume (related to the fine earth plus all dead plant remnants) consist of recognizable dead plant tissues \[e like interm**e**diate\].                                                                                                       | H, O                |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+|        | Saprolite \[e like saprolit**e**\].                                                                                                                                                                                                                                                                                                                                  | C                   |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| f      | Permafrost \[f like **f**rost\].                                                                                                                                                                                                                                                                                                                                     | H, O, A, E, B, C    |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| g      | Accumulation of Fe and/or Mn oxides (related to the fine earth plus accumulations of Fe and/or Mn oxides of any size and any cementation class) predominantly inside soil aggregates, if present, and loss of these oxides on aggregate surfaces (A, B, and C horizons), \                                                                                           | A, B, C\            |
+|        | or loss of Fe and/or Mn by lateral subsurface flow (pale colours in ≥ 50% of the exposed area; E horizons); \                                                                                                                                                                                                                                                        | \                   |
+|        | transport in reduced form\                                                                                                                                                                                                                                                                                                                                           | \                   |
+|        | \[g like sta**g**nic\].                                                                                                                                                                                                                                                                                                                                              | \                   |
+|        |                                                                                                                                                                                                                                                                                                                                                                      | E                   |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| h      | Significant amount of organic matter;\                                                                                                                                                                                                                                                                                                                               | A, B, C,            |
+|        | in A horizons at least partly modified in situ;\                                                                                                                                                                                                                                                                                                                     |                     |
+|        | in B horizons predominantly by illuviation;\                                                                                                                                                                                                                                                                                                                         |                     |
+|        | in C horizons forming part of the parent material \[h like humus\].                                                                                                                                                                                                                                                                                                  |                     |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| i      | Organic material in an initial state of decomposition; after gently rubbing, \> two thirds of the volume (related to the fine earth plus all dead plant remnants) consist of recognizable dead plant tissues \[i like **i**nitial\].                                                                                                                                 | H, O                |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+|        | Slickensides and/or wedge-shaped aggregates \[i like sl**i**ckenside\].                                                                                                                                                                                                                                                                                              | B                   |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| j      | Accumulation of jarosite and/or schwertmannite (related to the fine earth plus accumulations of jarosite and/or schwertmannite of any size and any cementation class) \[j like **j**arosite\].                                                                                                                                                                       | H, O, A, E, B, C    |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| k      | Accumulation of secondary carbonates (related to the fine earth plus accumulations of secondary carbonates of any size and any cementation class), evident by one or both of the following:                                                                                                                                                                          | H, O, A, E, B, C    |
+|        |                                                                                                                                                                                                                                                                                                                                                                      |                     |
+|        | -   visible even in moist state,                                                                                                                                                                                                                                                                                                                                     |                     |
+|        | -   has a calcium carbonate equivalent of ≥ 5% higher (absolute, related to the fine earth plus accumulations of secondary carbonates of any size and any cementation class) than that of an underlying layer and no lithic discontinuity between the two layers                                                                                                     |                     |
+|        |                                                                                                                                                                                                                                                                                                                                                                      |                     |
+|        | \[k like German **K**arbonat\].                                                                                                                                                                                                                                                                                                                                      |                     |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| l      | Accumulation of Fe and/or Mn in reduced form by upwardmoving capillary water with subsequent oxidation (related to the fine earth plus accumulations of Fe and/or Mn oxides of any size and any cementation class): accumulation predominantly at soil aggregate surfaces, if present, and reduction of these oxides inside the aggregates \[l like capi**l**lary\]. | H, A, B, C          |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| m      | Pedogenic cementation in ≥ 50% of the volume (related to the whole soil);\                                                                                                                                                                                                                                                                                           |                     |
+|        | cementation class: at least moderately cemented\                                                                                                                                                                                                                                                                                                                     |                     |
+|        | (only used if following another suffix (k, l, q, s, v, y, z) that indicates the cementing agent) \[m like ce**m**ented\].                                                                                                                                                                                                                                            |                     |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| n      | Exchangeable sodium percentage ≥ 6% \[n like **n**atrium\].                                                                                                                                                                                                                                                                                                          | E, B, C             |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| o      | Residual accumulation of large amounts of pedogenic oxides in strongly weathered horizons \[o like **o**xide\].                                                                                                                                                                                                                                                      | B                   |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| p      | Modification by cultivation (e.g. ploughing); \                                                                                                                                                                                                                                                                                                                      | H, O, A             |
+|        | mineral layers are designated A, even if they belonged to another layer before cultivation \[p like **p**lough\].                                                                                                                                                                                                                                                    |                     |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| q      | Accumulation of secondary silica (related to the fine earth plus accumulations of secondary silica of any size and any cementation class) \[q like **q**uartz\].                                                                                                                                                                                                     | A, E, B, C          |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| r      | Strong reduction \[r like **r**eduction\].                                                                                                                                                                                                                                                                                                                           | A, E, B, C          |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| s      | Accumulation of Fe oxides, Mn oxides and/or Al (related to the fine earth plus accumulations of Fe oxides, Mn oxides and/or Al of any size and any cementation class) by vertical illuviation processes from above \[s like **s**esquioxide\].                                                                                                                       | B, C                |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| t      | Accumulation of clay minerals by illuviation processes \[t like German ***T**on*, clay\].                                                                                                                                                                                                                                                                            | B, C                |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| u      | Containing artefacts or consisting of artefacts (related to the whole soil) \[u like **u**rban\].                                                                                                                                                                                                                                                                    | H, O, A, E, B, C, R |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| v      | Plinthite (related to the fine earth plus accumulations of Fe and/or Mn oxides of any size and any cementation class) \[the suffix v has no connotation\].                                                                                                                                                                                                           | B, C                |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| w      | Formation of soil structure and/or oxides and/or clay minerals (layer silicates, allophanes and/or imogolites) \[w like Beathered\].                                                                                                                                                                                                                                 | B                   |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| x      | Fragic characteristics (soil aggregates with a rupture resistance of at least firm and a brittle manner of failure, not allowing roots to enter the aggregates) \[the x refers to the impossibility to enter the aggregates\].                                                                                                                                       | E, B, C             |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| y      | Accumulation of secondary gypsum (related to the fine earth plus accumulations of secondary gypsum of any size and any cementation class) \[y like gypsum or Spanish **y**eso\].                                                                                                                                                                                     | A, E, B, C          |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| z      | Presence of readily soluble salts \[z like Dutch ***z**out*\].                                                                                                                                                                                                                                                                                                       | H, O, A, E, B, C    |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| /\@    | Cryogenic alteration.                                                                                                                                                                                                                                                                                                                                                | H, O, A, E, B, C    |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| α      | Presence of primary carbonates (in R layers related to the rock, in all other layers related to the fine earth) \[α like c**a**rbonate\].                                                                                                                                                                                                                            | H, A, E, B, C, R    |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| β      | Bulk density ≤ 0.9 kg dm^-3^ \[β like **b**ulk density\].                                                                                                                                                                                                                                                                                                            | B                   |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| γ      | Containing ≥ 5% (by grain count) volcanic glasses in the fraction between \> 0.02 and ≤ 2 mm \[γ like **g**lass\].                                                                                                                                                                                                                                                   | H, O, A, E, B, C    |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| δ      | High bulk density (natural or anthropogenic - not due to cementation (symbol ..m), not in fragic horizons (symbol x), not in layers with retic properties (symbol Bt/E)), so that roots cannot enter, except along cracks \[δ like **d**ense\].                                                                                                                      | A, E, B, C          |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| λ      | Deposited in a body of water (limnic) \[λ like **l**imnic\].                                                                                                                                                                                                                                                                                                         | H, A, C             |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| ρ      | Relict features (only used if following another suffix (g, k, l, p, \@) that indicates the relict feature) \[ρ like **r**elict\].                                                                                                                                                                                                                                    |                     |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| σ      | Permanent water saturation and no redoximorphic features \[σ like saturation\]                                                                                                                                                                                                                                                                                       | A, E, B, C          |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| τ      | Human-transported natural material (related to the whole soil) \[τ like **t**ransported\].                                                                                                                                                                                                                                                                           | H, O, A, B, C       |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+| φ      | Accumulation of Fe and/or Mn in reduced form by lateral subsurface flow with subsequent oxidation (related to the fine earth plus accumulations of Fe and/or Mn oxides of any size and any cementation class) \[φ like **f**low\].                                                                                                                                   | A, B, C             |
++--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
+
+: Suffixes
+
+I and W layers have no suffixes.
+
+Combination of suffixes:
+
+1.  The c follows the suffix that indicates the substance that forms the concretions or nodules; if this is true for more than one suffix, each one is followed by the c.
+
+2.  The m follows the suffix that indicates the substance that is the cementing agent; if this is true for more than one suffix, each one is followed by the m.
+
+3.  The ρ follows the suffix that indicates the relict features; if this is true for more than one suffix, each one is followed by the ρ.
+
+4.  If two suffixes belong to the same soil-forming process, they follow each other immediately; in the combination of t and n, the t is written first; rules 1, 2 and 3 have to be followed, if applicable. Examples: Btn, Bhs, Bsh, Bhsm, Bsmh.
+
+5.  If in a B horizon the characteristics of the suffixes g, h, k, l, o, q, s, t, v, or y are strongly expressed, the suffix w is not used, even if its characteristics are present; if the characteristics of the mentioned suffixes are weakly expressed and the characteristics of the suffix w are present as well, the suffixes are combined. Examples: Bwt (weak illuvial accumulation of clay minerals; characteristics of w present), Btw (intermediate illuvial accumulation of clay minerals; characteristics of w present), Bt (strong illuvial accumulation of clay minerals; characteristics of w present), \
+    Nota bene: If the characteristics of the B horizon are absent (≥ 50 % rock structure, by volume, related to the fine earth), the horizon is named Ct.
+
+6.  In H and O layers, the i, e or a is written first.
+
+7.  The \@, f and b are written last, if b occurs together with \@ or f (only if other suffixes are present as well): \@b, fb.
+
+8.  Besides that, combinations must be in the sequence of dominance, the dominant one first. Examples: Btng, Btgb, Bkcyc.
+
+## Transitional layers
+
+If the characteristics of two or more master layers are superimposed to each other, the master symbols are combined without anything in between, the dominant one first, each one followed by its suffixes. Examples: AhBw, BwAh, AhE, EAh, EBg, BgE, BwC, CBw, BsC, CBs.
+
+If the characteristics of two or more master layers occur in the same depth range, but occupy distinct parts clearly separated from each other, the master symbols are combined with the slash (/), the dominant one first, each one followed by its suffixes.
+
+Examples: \
+E/Bt (interfingering of E material into a Bt horizon), \
+C/Bt (Bt horizon forming lamellae within a C layer).
+
+If a suffix applies to two or more master symbols, it is not repeated and follows the first master symbol. Example: AhkBw (not: AhkBwk; not: AhBwk).
+
+W cannot be combined with other master symbols. H, O, I, and R can only be combined using the slash.
+
+## Layer sequences
+
+The sequence of the layers is from top to down with a hyphen in between. Examples see Chapter 10.5.
+
+If lithic discontinuities occur, the strata are indicated by preceding figures, starting with the second stratum. I and W layers are not considered as strata. All layers of the respective stratum are indicated by the figure: \
+Example: Oi-Oe-Ah-E-2Bt-2C-3R.
+
+If the suffix b occurs, the preceding figure and the suffix b are combined. \
+Example: Oi-Oe-Ah-E-Bt-2Ahb-2Eb-2Btb-2C-3R.
+
+If two or more layers with the same designation occur, the letters are followed by figures. The sequence of figures continues across different strata. \
+Examples: \
+Oi-Oe-Oa-Ah-Bw1-Bw2-2Bw3-3Ahb1-3Eb-3Btb-4Ahb2-4C, \
+Oi-He-Ha-Cr1-2Heb-2Hab-2Cr2-3Crγ.
+
+## Examples for layer sequences
+
+This Chapter provides for every RSG examples for layer sequences. These are just examples, and in every RSG other layer sequences occur as well. Some layer sequences occur in more than one RSG.
+
+**Histosols:** \
+Hi-He-Ha-Haλ-Cr\
+Hi-Hef-Haf-Cf \
+Hi-Haγ-Haβ-Cr \
+Oi-Hid-Hed-He-Ha-Haλ-Cr \
+W-Hiλ-Heλ-Haλ-Cr \
+Oi-W-Hiλ-Heλ-Haλ-Cr \
+Oi-I \
+Oi-Oe-Oa-R \
+Oi-Oe-Ru \
+Oi-Oe/C-Oa/C-R
+
+**Anthrosols:** \
+Ap-Bw-C\
+Arp-Ardp-Bg-C
+
+**Technosols:** \
+Ahτ-2Bwu-2Cu \
+Ah-2Our-3C \
+Ru-2Cu-3Bw-3C \
+Ahτ-2Ru
+
+**Cryosols:** \
+Oi-Ah-Bw\@-Bwf-Cf \
+Oi-Oe-Ah-Cf
+
+**Leptosols:** \
+Oi-Oe-Ah-R \
+Oi-Ah-CBw-C
+
+**Solonetz:** \
+Ah-E-Btn-C
+
+**Vertisols:** \
+Ah-Bw-Bi-C
+
+**Solonchaks:** \
+Ah-Bz-Cz
+
+**Gleysols:** \
+Ah-Bl-Br-Cr \
+Ah-Br-Cr \
+Ah-Bl-C \
+Ah-Cσ \
+He-Cr \
+W-Heλ-Cr \
+W-Ahr-Cr
+
+**Andosols:** \
+Ah-Bwγ-Cγ \
+Ah-Bwβ-Cγ
+
+**Podzols:** \
+Oi-Oe-Oa-AhE-E-Bhs-Bs-C \
+Oi-Oe-Oa-AhE-E-Bhs-BsC-C \
+Oi-Oe-Oa-AhE-E-Bh-C \
+Oi-Oe-Oa-AhE-E-Bs-C
+
+**Plinthosols:** \
+Ah-Eg-Bvg-C \
+Ah-Bv-Bo-C \
+Ah-Bvc-Bo-C \
+Ah-Bvm-Bo-C \
+Ah-Bvm-Ce-C
+
+**Planosols:** \
+Oi-Oe-Ah-Eg-2Bg-2C \
+Ah-Eg-Btg-C
+
+**Stagnosols:** \
+Ah-Bg-C\
+Oi-Ah-Eg-Btg-C
+
+**Nitisols:** \
+Ah-Bo-C
+
+**Ferralsols:** \
+Ah-Bo-C \
+Ah-Bo-Ce-C\
+Ah-Bw-Bo-Ce-C
+
+**Chernozems:** \
+Ah-Ck Ah-Bwk-C \
+Ah-Bw-Bwk-C
+
+**Kastanozems:** \
+Ah-Ck Ah-Bwk-C \
+Ah-Bk-C
+
+**Phaeozems:** \
+Ah-C \
+Ah-Bw-C \
+Ah-Bw-Bwk-C\
+Ah-E-Bt-C
+
+**Umbrisols:** \
+Ah-C \
+Oi-Ah-Bw-C
+
+**Durisols:** \
+Ah-Bqc-C \
+A-Bqc-C \
+A-Bqm-C \
+A-Bw-Bqm-C\
+A-Bk-Bqm-C
+
+**Gypsisols:** \
+Ah-Cy\
+A-By-C\
+A-Bk-By-C\
+A-By-Bk-C\
+A-Bym-C
+
+**Calcisols:** \
+Ah-Ck\
+Ah-Bk-Cα \
+A-Bkc-C \
+A-Bkm-C \
+A-Bw-Bk-Cα \
+Ah-E-Btk-Bk-C
+
+**Retisols:** \
+Ah-E-Bt/E-Bt-C
+
+**Acrisols, Lixisols, Alisols, Luvisols:** \
+Ah-E-Bt-C
+
+**Cambisols:** \
+Ah-Bw-C \
+Oi-Oe-Ah-Bw-C \
+Ah-Bwφ-C
+
+**Fluvisols:** \
+Ah-C1-2C2-3C3
+
+**Arenosols:** \
+A-C \
+Ah-C
+
+**Regosols:** \
+A-C \
+Ah-C \
+Ahτ-C \
+Ah-Cγ
+
+## References
+
+FAO. 2006. Guidelines for soil description. Prepared by Jahn R, Blume H-P, Asio VB, Spaargaren O, Schad P. 4th ed. FAO, Rome.
+
+Schoeneberger P.J., Wysocki D.A., Benham E.C. & Soil Survey Staff. 2012. Field Book for describing and sampling soils. Version 3.0. Natural Resources Conservation Service, National Soil Survey Center, Lincoln.
