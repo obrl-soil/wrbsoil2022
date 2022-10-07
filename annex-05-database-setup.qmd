@@ -1,0 +1,16 @@
+# Annex 5: Guidance on database set-up
+
+Setting up a database for soil description and classification according to WRB is not a simple task due to often conflicting requirements regarding issues like
+
+-   Data evaluation aims and needs
+-   Data reusability
+-   Data quality
+-   Data and system security
+-   Performance of database operations
+-   Experience of database administrators and users
+
+and last but not least, the complex data structure necessary to cover parameters with their auxiliary data and the complexity of WRB soil name syntax.
+
+The single-user one-project data collection can be done in a spreadsheet approach, which is unsuitable for multi-user information systems that need to maintain data security for decades. Introducing WRB 2022 into an existing soil or even land information system asks for different solutions than a newly set-up single-aim database. Even if we consider the most widespread relational database approach, not all of the database management systems provide any logical operation and further possibilities foreseen in the *Structured Query Language (SQL)*, and they differ largely in performance and the use of additional programming.
+
+The WRB homepage provides guidance and practice examples for database solutions suited to the fourth edition of WRB.
