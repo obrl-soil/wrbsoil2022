@@ -1,0 +1,59 @@
+# Annex 6: Colour symbols for RSG maps
+
+This annex provides suggestions for colours in maps showing the RSGs. The suggestions follow roughly the colour choices in the atlases edited by the Joint Research Centre of the European Commission.
+
+The guidelines for creating map legends are given in Chapter 2.5. A map unit consists of
+
+-   a dominant soil only
+-   a dominant soil plus a codominant soil and/or one or more associated soils
+-   one, two or three codominant soils with or without one or more associated soils. It is strongly recommended to indicate more than just one soil in the map units, because the restriction to only one soil gives often an insufficient or even misleading image.
+
+It is recommended to use colour symbols and alphanumeric codes to allow the map reader a correct identification of the mapping unit of each polygon. (For raster datasets, only colours can be used.) The colour represents the dominant soil or, if absent, the major codominant soil, only. The other soils are indicated by adding alphanumeric codes. On the first scale level, nothing else is required. If you add optional qualifiers, use alphanumeric codes. The principal qualifiers added at the second and third scale level are also indicated by alphanumeric codes. These are selected by the soil scientist, who makes the map. In complex mapping units with several soils, codominant and associated soils may be mentioned in the mapping unit explanation, only.
+
+| RSG             | R   | G   | B   | RGB Hex |
+|-----------------|-----|-----|-----|---------|
+| Acrisol (AC)    | 247 | 152 | 4   | #F79804 |
+| Alisol (AL)     | 255 | 255 | 190 | #FFFFBE |
+| Andosol (AN)    | 254 | 0   | 0   | #FE0000 |
+| Anthrosol (AT)  | 207 | 152 | 4   | #CF9804 |
+| Arenosol (AR)   | 245 | 212 | 161 | #F5D4A1 |
+| Calcisol (CL)   | 254 | 244 | 0   | #FEF400 |
+| Cambisol (CM)   | 254 | 190 | 0   | #FEBE00 |
+| Chernozem (CH)  | 145 | 77  | 53  | #914D35 |
+| Cryosol (CR)    | 75  | 61  | 172 | #4B3DAC |
+| Durisol (DU)    | 239 | 228 | 190 | #EFE4BE |
+| Ferralsol (FR)  | 255 | 135 | 33  | #FF8721 |
+| Fluvisol (FL)   | 0   | 254 | 253 | #00FEFD |
+| Gleysol (GL)    | 128 | 131 | 217 | #8083D9 |
+| Gypsisol (GY)   | 254 | 246 | 164 | #FEF6A4 |
+| Histosol (HS)   | 112 | 107 | 102 | #706B66 |
+| Kastanozem (KS) | 202 | 147 | 127 | #CA937F |
+| Leptosol (LP)   | 209 | 209 | 209 | #D1D1D1 |
+| Lixisol (LX)    | 255 | 190 | 190 | #FFBEBE |
+| Luvisol (LV)    | 250 | 132 | 132 | #FA8484 |
+| Nitisol (NT)    | 255 | 167 | 127 | #FFA77F |
+| Phaeozem (PH)   | 189 | 100 | 70  | #BD6446 |
+| Planosol (PL)   | 247 | 125 | 58  | #F77D3A |
+| Plinthosol (PT) | 115 | 0   | 0   | #730000 |
+| Podzol (PZ)     | 12  | 217 | 0   | #0CD900 |
+| Regosol (RG)    | 254 | 227 | 164 | #FEE3A4 |
+| Retisol (RT)    | 254 | 194 | 194 | #FEC2C2 |
+| Solonchak (SC)  | 254 | 0   | 250 | #FE00FA |
+| Solonetz (SN)   | 249 | 194 | 254 | #F9C2FE |
+| Stagnosol (ST)  | 64  | 192 | 233 | #40C0E9 |
+| Technosol (TC)  | 145 | 0   | 157 | #91009D |
+| Umbrisol (UM)   | 115 | 142 | 127 | #738E7F |
+| Vertisol (VR)   | 197 | 0   | 255 | #C500FF |
+|                 |     |     |     |         |
+
+: Colour symbols for RSG maps
+
+#### References
+
+Gardi, C., Angelini, M., Barceló, S., Comerma, J., Cruz Gaistardo, C., Encina Rojas, A., Jones, A., Krasilnikov, P., Mendonça Santos Brefin, M.L., Montanarella, L., Muñiz Ugarte, O., Schad, P., Vara Rodríguez, M.I. & Vargas, R. (eds.). 2014. Atlas de suelos de América Latina y el Caribe, Comisión Europea - Oficina de Publicaciones de la Unión Europea, L-2995 Luxembourg, 176 pp.
+
+Jones, A., Montanarella, L. & Jones, R. (eds.). 2005. Soil Atlas of Europe. European Commission, Publications Office of the European Union, Luxembourg.
+
+Jones, A., Stolbovoy, V., Tarnocai, C., Broll, G., Spaargaren, O. & Montanarella, L. (eds.). 2010. Soil Atlas of the Northern Circumpolar Region. European Commission, Publications Office of the European Union, Luxembourg.
+
+Jones, A., Breuning-Madsen, H., Brossard, M., Dampha, A., Deckers, J., Dewitte, O., Gallali, T., Hallett, S., Jones, R., Kilasara, M., Le Roux, P., Micheli, E., Montanarella, L., Spaargaren, O., Thiombiano, L., Van Ranst, E., Yemefack, M. & Zougmoré, R. (eds.). 2013. Soil Atlas of Africa. European Commission, Publications Office of the European Union, Luxembourg.
