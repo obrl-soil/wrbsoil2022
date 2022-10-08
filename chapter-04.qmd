@@ -8,15 +8,15 @@ reference-location: margin
 
 ## Overview of Key to Reference Soil Groups
 
-|                               |                               |                               |                             |                             |
+|                               |                                 |                                 |                             |                             |
 |---------------|---------------|---------------|---------------|---------------|
-| [Histosols](#key-histosols)   | [Solonchaks](#key-solonchaks) | [Nitisols](#key-nitisols)     | [Gypsisols](#key-gypsisols) | [Cambisols](#key-cambisols) |
-| [Anthrosols](#key-anthrosols) | [Gleysols](#key-gleysols)     | [Ferralsols](#key-ferralsols) | [Calcisols](#key-calcisols) | [Fluvisols]                 |
-| [Technosols](#key-technosols) | [Andosols]                    | [Chernozems]                  | [Retisols]                  | [Arenosols]                 |
-| [Cryosols](#key-cryosols)     | [Podzols]                     | [Kastanozems]                 | [Acrisols]                  | [Regosols]                  |
-| [Leptosols](#key-leptosols)   | [Plinthosols]                 | [Phaeozems]                   | [Lixisols]                  |                             |
-| [Solonetz](#key-solonetz)     | [Planosols]                   | [Umbrisols]                   | [Alisols]                   |                             |
-| [Vertisols](#key-vertisols)   | [Stagnosols]                  | [Durisols]                    | [Luvisols]                  |                             |
+| [Histosols](#key-histosols)   | [Solonchaks](#key-solonchaks)   | [Nitisols](#key-nitisols)       | [Gypsisols](#key-gypsisols) | [Cambisols](#key-cambisols) |
+| [Anthrosols](#key-anthrosols) | [Gleysols](#key-gleysols)       | [Ferralsols](#key-ferralsols)   | [Calcisols](#key-calcisols) | [Fluvisols](#key-fluvisols) |
+| [Technosols](#key-technosols) | [Andosols](#key-andosols)       | [Chernozems](#key-chernozems)   | [Retisols](#key-retisols)   | [Arenosols](#key-arenosols) |
+| [Cryosols](#key-cryosols)     | [Podzols](#key-podzols)         | [Kastanozems](#key-kastanozems) | [Acrisols](#key-acrisols)   | [Regosols](#key-regosols)   |
+| [Leptosols](#key-leptosols)   | [Plinthosols](#key-plinthosols) | [Phaeozems](#key-phaeozems)     | [Lixisols](#key-lixisols)   |                             |
+| [Solonetz](#key-solonetz)     | [Planosols](#key-planosols)     | [Umbrisols](#key-umbrisols)     | [Alisols](#key-alisols)     |                             |
+| [Vertisols](#key-vertisols)   | [Stagnosols](#key-stagnosols)   | [Durisols](#key-durisols)       | [Luvisols](#key-luvisols)   |                             |
 
 ## Histosols {#key-histosols .unnumbered}
 
@@ -31,6 +31,9 @@ Soils having one or more of the following:
     b.  ≥ 40 cm;\
         \
         and the major part of the interstices between the coarse fragments is filled with *organic material* and the remaining interstices, if present, are void.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers    | Supplementary Qualifiers |
 |-------------------------|--------------------------|
@@ -58,6 +61,7 @@ Soils having one or more of the following:
 |                         | Transportic              |
 |                         | Turbic                   |
 |                         | Wapnic                   |
+:::
 
 ## Anthrosols {#key-anthrosols .unnumbered}
 
@@ -66,6 +70,9 @@ Other soils having:
 1.  a *hortic*, *irragric*, *plaggic* or *terric* horizon, ≥ 50 cm thick; *or*
 2.  an *anthraquic horizon* and an underlying *hydragric horizon* with a combined thickness of ≥ 50 cm; *or*
 3.  a *pretic horizon*, the layers of which have a combined thickness of ≥ 50 cm, within 100 cm of the mineral soil surface.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers                                | Supplementary Qualifiers       |
 |--------------------------------------------|----------------------------|
@@ -92,6 +99,7 @@ Other soils having:
 |                                                     | Toxic                          |
 |                                                     | Vertic                         |
 |                                                     | Vitric                         |
+:::
 
 ## Technosols {#key-technosols .unnumbered}
 
@@ -108,6 +116,9 @@ Other soils:
 ::: callout-note
 Technosols may bury other soils, which can be mentioned behind the Technosol classification using the word 'over' in between (see Chapter 2.4). Alternatively, buried diagnostic horizons or buried layers with a diagnostic property can be indicated with the Thapto- specifier followed by a qualifier. The soil material above a geomembrane or *technic hard material* may also be characterized by qualifiers. If the thickness or depth criteria of these qualifiers are not met, the Supra- specifier can be used (see Chapter 2.3.2).
 :::
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers | Supplementary Qualifiers                              |
 |------------------------------------|------------------------------------|
@@ -154,6 +165,7 @@ Technosols may bury other soils, which can be mentioned behind the Technosol cla
 |                      | Toxic                                                 |
 |                      | Transportic                                           |
 |                      | Vitric                                                |
+:::
 
 ## Cryosols {#key-cryosols .unnumbered}
 
@@ -162,6 +174,9 @@ Other soils having:
 1.  a *cryic horizon* starting ≤ 100 cm from the soil surface; *or*
 2.  a *cryic horizon* starting ≤ 200 cm from the soil surface *and*\
     evidence of cryogenic alteration (cryoturbation, frost heave, cryogenic sorting, thermal cracking, ice segregation, patterned ground, etc.) in some layer within 100 cm of the soil surface.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers                       | Supplementary Qualifiers       |
 |------------------------------------------|------------------------------|
@@ -193,6 +208,7 @@ Other soils having:
 |                                            | Toxic                          |
 |                                            | Transportic                    |
 |                                            | Vitric                         |
+:::
 
 ## Leptosols {#key-leptosols .unnumbered}
 
@@ -204,6 +220,9 @@ Other soils having:
 2.  no *chernic*, *duric*, *petrocalcic*, *petroduric*, *petrogypsic*, *petroplinthic*, *pisoplinthic* or *spodic horizon*.
 
 [^chapter-04-1]: The volume not occupied by fine earth is occupied by coarse fragments or pores.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers    | Supplementary Qualifiers       |
 |-------------------------|--------------------------------|
@@ -241,10 +260,14 @@ Other soils having:
 |                         | Turbic                         |
 |                         | Protovertic                    |
 |                         | Vitric                         |
+:::
 
 ## Solonetz {#key-solonetz .unnumbered}
 
 Other soils having a *natric horizon* starting ≤ 100 cm from the mineral soil surface.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers | Supplementary Qualifiers       |
 |----------------------|--------------------------------|
@@ -275,6 +298,7 @@ Other soils having a *natric horizon* starting ≤ 100 cm from the mineral soi
 |                      | Toxic                          |
 |                      | Transportic                    |
 |                      | Turbic                         |
+:::
 
 ## Vertisols {#key-vertisols .unnumbered}
 
@@ -289,6 +313,9 @@ Other soils having:
     d.  directly below a surface crust; *and*\
         \
         extend to the *vertic horizon*.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers            | Supplementary Qualifiers   |
 |---------------------------------|----------------------------|
@@ -319,6 +346,7 @@ Other soils having:
 |                                 | Takyric                    |
 |                                 | Thionic                    |
 |                                 | Toxic                      |
+:::
 
 ## Solonchaks {#key-solonchaks .unnumbered}
 
@@ -327,6 +355,9 @@ Other soils having:
 1.  a *salic horizon* starting ≤ 50 cm from the soil surface; *and*
 2.  no *thionic horizon* starting ≤ 50 cm from the soil surface; *and*
 3.  not permanently submerged by water and not located below the line affected by tidal water (i.e. not located below the line of mean high water springs).
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers | Supplementary Qualifiers        |
 |----------------------|---------------------------------|
@@ -361,6 +392,7 @@ Other soils having:
 |                      | Transportic                     |
 |                      | Turbic                          |
 |                      | Vertic                          |
+:::
 
 ## Gleysols {#key-gleysols .unnumbered}
 
@@ -375,6 +407,9 @@ Other soils having one or more of the following:
         i.  *gleyic properties* throughout; *and*
         ii. *reducing conditions* in some parts of every sublayer; *or*
 3.  permanent saturation by water starting ≤ 40 cm from the mineral soil surface.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers                                             | Supplementary Qualifiers       |
 |------------------------------------|------------------------------------|
@@ -415,6 +450,7 @@ Other soils having one or more of the following:
 |                                                                  | Turbic                         |
 |                                                                  | Uterquic                       |
 |                                                                  | Vertic                         |
+:::
 
 ## Andosols {#key-andosols .unnumbered}
 
@@ -428,6 +464,9 @@ Other soils having:
 ::: callout-note
 Andosols may bury other soils, which can be mentioned behind the Andosol classification using the word 'over' in between (see Chapter 2.4). Alternatively, buried diagnostic horizons or buried layers with a diagnostic property can be indicated with the Thapto- specifier followed by a qualifier.
 :::
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers    | Supplementary Qualifiers       |
 |-------------------------|--------------------------------|
@@ -460,10 +499,14 @@ Andosols may bury other soils, which can be mentioned behind the Andosol classif
 |                         | Toxic                          |
 |                         | Transportic                    |
 |                         | Turbic                         |
+:::
 
 ## Podzols {#key-podzols .unnumbered}
 
 Other soils having a *spodic horizon* starting ≤ 200 cm from the mineral soil surface.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers            | Supplementary Qualifiers |
 |---------------------------------|--------------------------|
@@ -491,10 +534,14 @@ Other soils having a *spodic horizon* starting ≤ 200 cm from the mineral soi
 |                                 | Toxic                    |
 |                                 | Transportic              |
 |                                 | Turbic                   |
+:::
 
 ## Plinthosols {#key-plinthosols .unnumbered}
 
 Other soils having a *plinthic*, *pisoplinthic* or *petroplinthic horizon* starting ≤ 100 cm from the mineral soil surface.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers | Supplementary Qualifiers       |
 |----------------------|--------------------------------|
@@ -521,6 +568,7 @@ Other soils having a *plinthic*, *pisoplinthic* or *petroplinthic horizon* start
 |                      | Technic/ Kalaic                |
 |                      | Toxic                          |
 |                      | Transportic                    |
+:::
 
 ## Planosols {#key-planosols .unnumbered}
 
@@ -528,6 +576,9 @@ Other soils having an *abrupt textural difference* ≤ 75 cm from the mineral 
 
 1.  *stagnic properties*, in which the area of reductimorphic features plus the area of oximorphic features is ≥ 50% (weighted average) of the total area; *and*
 2.  *reducing conditions* for some time during the year in some parts of the soil volume that has the reductimorphic features.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers                                             | Supplementary Qualifiers       |
 |----------------------------------------------|--------------------------|
@@ -566,6 +617,7 @@ Other soils having an *abrupt textural difference* ≤ 75 cm from the mineral 
 |                                                                  | Transportic                    |
 |                                                                  | Turbic                         |
 |                                                                  | Uterquic                       |
+:::
 
 ## Stagnosols {#key-stagnosols .unnumbered}
 
@@ -573,6 +625,9 @@ Other soils having:
 
 1.  *stagnic properties*, in which the area of reductimorphic features plus the area of oximorphic features is ≥ one third (weighted average) of the area from the mineral soil surface to a depth of 60 cm or to *continuous rock*, whichever is shallower; *and*
 2.  *reducing conditions* for some time during the year in some parts of the soil volume that has the reductimorphic features within 60 cm from the mineral soil surface or to *continuous rock*, whichever is shallower.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers                                             | Supplementary Qualifiers       |
 |----------------------------------------------|--------------------------|
@@ -612,6 +667,7 @@ Other soils having:
 |                                                                  | Transportic                    |
 |                                                                  | Turbic                         |
 |                                                                  | Uterquic                       |
+:::
 
 ## Nitisols {#key-nitisols .unnumbered}
 
@@ -620,6 +676,9 @@ Other soils having:
 1.  a *nitic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
 2.  from the mineral soil surface to the *nitic horizon*, a clay content that is at least half of the weighted average clay content of the *nitic horizon*; *and*
 3.  no *vertic horizon* starting above or at the upper limit of the *nitic horizon*.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers          | Supplementary Qualifiers |
 |-------------------------------|--------------------------|
@@ -641,6 +700,7 @@ Other soils having:
 |                               | Technic/ Kalaic          |
 |                               | Toxic                    |
 |                               | Transportic              |
+:::
 
 ## Ferralsols {#key-ferralsols .unnumbered}
 
@@ -651,6 +711,9 @@ Other soils having:
     a.  \< 10% water-dispersible clay; *or*
     b.  a ΔpH (pH~KCl~ - pH~water~) ≥ 0 (both in 1:1 solution); *or*
     c.  ≥ 1.4% *soil organic carbon*.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers | Supplementary Qualifiers       |
 |----------------------|--------------------------------|
@@ -682,6 +745,7 @@ Other soils having:
 |                      | Technic/ Kalaic                |
 |                      | Toxic                          |
 |                      | Transportic                    |
+:::
 
 ## Chernozems {#key-chernozems .unnumbered}
 
@@ -694,6 +758,9 @@ Other soils having:
 [^chapter-04-2]: Any *chernic horizon* also meets the criteria of a *mollic horizon*. The *mollic horizon* may extend below the *chernic horizon*.
 
 [^chapter-04-3]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers | Supplementary Qualifiers       |
 |----------------------|--------------------------------|
@@ -719,6 +786,7 @@ Other soils having:
 |                      | Transportic                    |
 |                      | Turbic                         |
 |                      | Vitric                         |
+:::
 
 ## Kastanozems {#key-kastanozems .unnumbered}
 
@@ -729,6 +797,9 @@ Other soils having:
 3.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-4] of ≥ 50% from the mineral soil surface to the layer with *protocalcic properties* or to the *calcic horizon*, throughout.
 
 [^chapter-04-4]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers | Supplementary Qualifiers       |
 |----------------------|--------------------------------|
@@ -758,6 +829,7 @@ Other soils having:
 |                      | Transportic                    |
 |                      | Turbic                         |
 |                      | Vitric                         |
+:::
 
 ## Phaeozems {#key-phaeozems .unnumbered}
 
@@ -767,6 +839,9 @@ Other soils having:
 2.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-5] of ≥ 50% throughout to a depth of 100 cm from the mineral soil surface or to a limiting layer, whichever is shallower.
 
 [^chapter-04-5]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers             | Supplementary Qualifiers       |
 |----------------------------------|--------------------------------|
@@ -803,10 +878,14 @@ Other soils having:
 |                                  | Transportic                    |
 |                                  | Turbic                         |
 |                                  | Vitric                         |
+:::
 
 ## Umbrisols {#key-umbrisols .unnumbered}
 
 Other soils having an *umbric* or *mollic* or *hortic horizon*.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers            | Supplementary Qualifiers       |
 |---------------------------------|--------------------------------|
@@ -846,10 +925,14 @@ Other soils having an *umbric* or *mollic* or *hortic horizon*.
 |                                 | Transportic                    |
 |                                 | Turbic                         |
 |                                 | Vitric                         |
+:::
 
 ## Durisols {#key-durisols .unnumbered}
 
 Other soils having a *petroduric* or *duric horizon* starting ≤ 100 cm from the mineral soil surface.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers      | Supplementary Qualifiers       |
 |---------------------------|--------------------------------|
@@ -875,6 +958,7 @@ Other soils having a *petroduric* or *duric horizon* starting ≤ 100 cm from 
 |                           | Toxic                          |
 |                           | Transportic                    |
 |                           | Vertic                         |
+:::
 
 ## Gypsisols {#key-gypsisols .unnumbered}
 
@@ -882,6 +966,9 @@ Other soils having:
 
 1.  a *gypsic* or *petrogypsic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
 2.  no *argic horizon* starting above or at the upper limit of the *gypsic* or *petrogypsic horizon*, unless the *argic horizon* contains secondary gypsum or secondary carbonates, throughout.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers | Supplementary Qualifiers       |
 |----------------------|--------------------------------|
@@ -906,6 +993,7 @@ Other soils having:
 |                      | Transportic                    |
 |                      | Turbic                         |
 |                      | Vertic                         |
+:::
 
 ## Calcisols {#key-calcisols .unnumbered}
 
@@ -913,6 +1001,9 @@ Other soils having:
 
 1.  a *calcic* or *petrocalcic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
 2.  no *argic horizon* starting above or at the upper limit of the *calcic* or *petrocalcic horizon* unless the *argic horizon* contains secondary carbonates, throughout.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers | Supplementary Qualifiers       |
 |----------------------|--------------------------------|
@@ -943,10 +1034,14 @@ Other soils having:
 |                      | Transportic                    |
 |                      | Turbic                         |
 |                      | Vertic                         |
+:::
 
 ## Retisols {#key-retisols .unnumbered}
 
 Other soils having an *argic horizon* starting ≤ 100 cm from the mineral soil surface and having *retic properties* at its upper boundary.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers        | Supplementary Qualifiers       |
 |-----------------------------|--------------------------------|
@@ -973,6 +1068,7 @@ Other soils having an *argic horizon* starting ≤ 100 cm from the mineral soi
 |                             | Toxic                          |
 |                             | Transportic                    |
 |                             | Turbic                         |
+:::
 
 ## Acrisols {#key-acrisols .unnumbered}
 
@@ -985,6 +1081,9 @@ Other soils having:
     b.  the lower half of the mineral soil above a limiting layer starting ≤ 100 cm from the mineral soil surface, whichever is shallower.
 
 [^chapter-04-6]: Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers                  | Supplementary Qualifiers       |
 |---------------------------------------|--------------------------------|
@@ -1018,6 +1117,7 @@ Other soils having:
 |                                       | Toxic                          |
 |                                       | Transportic                    |
 |                                       | Vitric                         |
+:::
 
 ## Lixisols {#key-lixisols .unnumbered}
 
@@ -1025,6 +1125,9 @@ Other soils having:
 
 1.  an *argic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
 2.  a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 24 cmol~c~ kg-1 clay in some subhorizon of the *argic horizon* within 150 cm of the mineral soil surface.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers                  | Supplementary Qualifiers       |
 |---------------------------------------|--------------------------------|
@@ -1058,6 +1161,7 @@ Other soils having:
 |                                       | Toxic                          |
 |                                       | Transportic                    |
 |                                       | Vitric                         |
+:::
 
 ## Alisols {#key-alisols .unnumbered}
 
@@ -1069,6 +1173,9 @@ Other soils having:
     b.  the lower half of the mineral soil above a limiting layer starting ≤ 100 cm from the mineral soil surface whichever is shallower.
 
 [^chapter-04-7]: Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers                           | Supplementary Qualifiers       |
 |-------------------------------------------|-----------------------------|
@@ -1102,10 +1209,14 @@ Other soils having:
 |                                                | Transportic                    |
 |                                                | Turbic                         |
 |                                                | Vitric                         |
+:::
 
 ## Luvisols {#key-luvisols .unnumbered}
 
 Other soils having an *argic horizon* starting ≤ 100 cm from the mineral soil surface.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers                            | Supplementary Qualifiers       |
 |------------------------------------|------------------------------------|
@@ -1139,6 +1250,7 @@ Other soils having an *argic horizon* starting ≤ 100 cm from the mineral soi
 |                                                 | Transportic                    |
 |                                                 | Turbic                         |
 |                                                 | Vitric                         |
+:::
 
 ## Cambisols {#key-cambisols .unnumbered}
 
@@ -1151,6 +1263,9 @@ Other soils having:
 3.  a *fragic*, *thionic* or *vertic horizon* starting ≤ 100 cm from the mineral soil surface; *or*
 4.  a *tsitelic horizon* with a texture class of sandy loam or finer, starting ≤ 50 cm from the mineral soil surface; *or*
 5.  one or more layers with *andic* or *vitric properties* with a combined thickness of ≥ 15 cm within 100 cm of the soil surface.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers                                     | Supplementary Qualifiers       |
 |---------------------------------------------|---------------------------|
@@ -1195,6 +1310,7 @@ Other soils having:
 |                                                          | Toxic                          |
 |                                                          | Transportic                    |
 |                                                          | Turbic                         |
+:::
 
 ## Fluvisols {#key-fluvisols .unnumbered}
 
@@ -1202,6 +1318,9 @@ Other soils having *fluvic material*:
 
 1.  ≥ 25 cm thick and starting ≤ 25 cm from the mineral soil surface; *or*
 2.  from the lower limit of a plough layer, ≤ 40 cm thick, to a depth of ≥ 50 cm from the mineral soil surface.
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers                | Supplementary Qualifiers       |
 |-------------------------------------|--------------------------------|
@@ -1233,6 +1352,7 @@ Other soils having *fluvic material*:
 |                                     | Transportic                    |
 |                                     | Turbic                         |
 |                                     | Protovertic                    |
+:::
 
 ## Arenosols {#key-arenosols .unnumbered}
 
@@ -1245,6 +1365,9 @@ Other soils having within 100 cm of the mineral soil surface:
 ::: callout-note
 Arenosols may bury other soils, which can be mentioned behind the Arenosol classification using the word 'over' in between (see Chapter 2.4). Alternatively, buried diagnostic horizons or buried layers with a diagnostic property can be indicated with the Thapto- specifier followed by a qualifier. Arenosols may have diagnostic horizons at depths of \> 100 cm. These can be indicated with the Bathy- specifier followed by a qualifier, e.g. Bathyacric (\> 100 cm), Bathyspodic (\> 200 cm).
 :::
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers | Supplementary Qualifiers       |
 |----------------------|--------------------------------|
@@ -1281,10 +1404,14 @@ Arenosols may bury other soils, which can be mentioned behind the Arenosol class
 |                      | Technic/ Kalaic                |
 |                      | Toxic                          |
 |                      | Turbic                         |
+:::
 
 ## Regosols {#key-regosols .unnumbered}
 
 Other soils:
+
+::: {.callout-note collapse="true" appearance="minimal" icon="false"}
+### Qualifiers
 
 | Principal Qualifiers | Supplementary Qualifiers       |
 |----------------------|--------------------------------|
@@ -1320,3 +1447,4 @@ Other soils:
 |                      | Toxic                          |
 |                      | Turbic                         |
 |                      | Protovertic                    |
+:::
