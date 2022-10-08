@@ -1,4 +1,4 @@
-# Calcisols {#key-calcisols}
+# Calcisols {#key-calcisols .unnumbered}
 
 ::: grid
 ::: g-col-4
@@ -9,34 +9,34 @@ Other soils having:
 :::
 
 ::: g-col-8
-| Principal Qualifiers | Supplementary Qualifiers        |
-|----------------------|---------------------------------|
-| Petric               | Arenic/ Clayic/ Loamic/ Siltic  |
-| Leptic               | Abruptic                        |
-| Gleyic               | Aeolic                          |
-| Stagnic              | Aric                            |
-| Lixic/ Luvic         | Biocrustic                      |
-| Cambic               | Hypercalcic                     |
-| Coarsic              | Densic                          |
-| Fractic              | Epic/ Endic                     |
-| Skeletic             | Fluvic                          |
-| Yermic/ Takyric      | Gelic                           |
-| Gypsiric             | Protogypsic                     |
-| Haplic               | Humic/ Ochric                   |
-|                      | Isopteric                       |
-|                      | Magnesic                        |
-|                      | Naramic                         |
-|                      | Novic                           |
-|                      | Panpaic/ Raptic                 |
-|                      | Pyric                           |
-|                      | Rhodic/ Chromic                 |
-|                      | Salic                           |
-|                      | Sodic                           |
-|                      | Solimovic                       |
-|                      | Technic                         |
-|                      | Toxic/ Kalaic                   |
-|                      | Transportic                     |
-|                      | Turbic                          |
-|                      | Vertic                          |
+| Principal Qualifiers | Supplementary Qualifiers       |
+|----------------------|--------------------------------|
+| Petric               | Arenic/ Clayic/ Loamic/ Siltic |
+| Leptic               | Abruptic                       |
+| Gleyic               | Aeolic                         |
+| Stagnic              | Aric                           |
+| Lixic/ Luvic         | Biocrustic                     |
+| Cambic               | Hypercalcic                    |
+| Coarsic              | Densic                         |
+| Fractic              | Epic/ Endic                    |
+| Skeletic             | Fluvic                         |
+| Yermic/ Takyric      | Gelic                          |
+| Gypsiric             | Protogypsic                    |
+| Haplic               | Humic/ Ochric                  |
+|                      | Isopteric                      |
+|                      | Magnesic                       |
+|                      | Naramic                        |
+|                      | Novic                          |
+|                      | Panpaic/ Raptic                |
+|                      | Pyric                          |
+|                      | Rhodic/ Chromic                |
+|                      | Salic                          |
+|                      | Sodic                          |
+|                      | Solimovic                      |
+|                      | Technic                        |
+|                      | Toxic/ Kalaic                  |
+|                      | Transportic                    |
+|                      | Turbic                         |
+|                      | Vertic                         |
 :::
 :::

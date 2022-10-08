@@ -1,4 +1,4 @@
-# Histosols {#key-histosols}
+# Histosols {#key-histosols .unnumbered}
 
 ::: grid
 ::: g-col-4

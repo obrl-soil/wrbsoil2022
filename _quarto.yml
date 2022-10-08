@@ -5,7 +5,6 @@ book:
   title: "World Reference Base for Soil Resources"
   author: "Lauren O'Brien"
   date: "2022-07-26"
-  logo: cover.png
   isbn: 979-8-9862451-1-9
   language: en
   page-navigation: true
@@ -18,38 +17,39 @@ book:
     - chapter-01.qmd
     - chapter-02.qmd
     - chapter-03.qmd
-    - chapter-04.qmd
-    - chapter-04-01-histosols.qmd
-    - chapter-04-02-anthrosols.qmd
-    - chapter-04-03-technosols.qmd
-    - chapter-04-04-cryosols.qmd
-    - chapter-04-05-leptosols.qmd
-    - chapter-04-06-solonetz.qmd
-    - chapter-04-07-vertisols.qmd
-    - chapter-04-08-solonchaks.qmd
-    - chapter-04-09-gleysols.qmd
-    - chapter-04-10-andosols.qmd
-    - chapter-04-11-podzols.qmd
-    - chapter-04-12-plinthosols.qmd
-    - chapter-04-13-planosols.qmd
-    - chapter-04-14-stagnosols.qmd
-    - chapter-04-15-nitisols.qmd
-    - chapter-04-16-ferralsols.qmd
-    - chapter-04-17-chernozems.qmd
-    - chapter-04-18-kastanozems.qmd
-    - chapter-04-19-phaeozems.qmd
-    - chapter-04-20-umbrisols.qmd
-    - chapter-04-21-durisols.qmd
-    - chapter-04-22-gypsisols.qmd
-    - chapter-04-23-calcisols.qmd
-    - chapter-04-24-retisols.qmd
-    - chapter-04-25-acrisols.qmd
-    - chapter-04-26-lixisols.qmd
-    - chapter-04-27-alisols.qmd
-    - chapter-04-28-luvisols.qmd
-    - chapter-04-29-cambisols.qmd
-    - chapter-04-30-fluvisols.qmd
-    - chapter-04-31-arenosols.qmd
+    - part: chapter-04.qmd # why is this one not numbered??
+      chapters:
+        - chapter-04-01-histosols.qmd
+        - chapter-04-02-anthrosols.qmd
+        - chapter-04-03-technosols.qmd
+        - chapter-04-04-cryosols.qmd
+        - chapter-04-05-leptosols.qmd
+        - chapter-04-06-solonetz.qmd
+        - chapter-04-07-vertisols.qmd
+        - chapter-04-08-solonchaks.qmd
+        - chapter-04-09-gleysols.qmd
+        - chapter-04-10-andosols.qmd
+        - chapter-04-11-podzols.qmd
+        - chapter-04-12-plinthosols.qmd
+        - chapter-04-13-planosols.qmd
+        - chapter-04-14-stagnosols.qmd
+        - chapter-04-15-nitisols.qmd
+        - chapter-04-16-ferralsols.qmd
+        - chapter-04-17-chernozems.qmd
+        - chapter-04-18-kastanozems.qmd
+        - chapter-04-19-phaeozems.qmd
+        - chapter-04-20-umbrisols.qmd
+        - chapter-04-21-durisols.qmd
+        - chapter-04-22-gypsisols.qmd
+        - chapter-04-23-calcisols.qmd
+        - chapter-04-24-retisols.qmd
+        - chapter-04-25-acrisols.qmd
+        - chapter-04-26-lixisols.qmd
+        - chapter-04-27-alisols.qmd
+        - chapter-04-28-luvisols.qmd
+        - chapter-04-29-cambisols.qmd
+        - chapter-04-30-fluvisols.qmd
+        - chapter-04-31-arenosols.qmd
     - chapter-05.qmd
     - chapter-06.qmd
     - chapter-07.qmd
@@ -69,8 +69,12 @@ format:
     theme: cosmo
     citations-hover: true
     footnotes-hover: true
+    number-sections: true
     number-depth: 3
     date-modified: last-modified
+    logo: cover.png
+    appendix-style: plain
+
 
 editor: visual
 

@@ -1,4 +1,4 @@
-# Kastanozems {#key-kastanozems}
+# Kastanozems {#key-kastanozems .unnumbered}
 
 ::: grid
 ::: g-col-4
@@ -10,34 +10,34 @@ Other soils having:
 :::
 
 ::: g-col-8
-| Principal Qualifiers | Supplementary Qualifiers        |
-|----------------------|---------------------------------|
-| Someric              | Arenic/ Clayic/ Loamic/ Siltic  |
-| Petroduric/ Duric    | Andic                           |
-| Petrogypsic          | Anthric                         |
-| Gypsic               | Aric                            |
-| Petrocalcic          | Chromic                         |
-| Leptic               | Densic                          |
-| Hortic/ Terric       | Fractic                         |
-| Gleyic               | Gelic                           |
-| Fluvic               | Humic                           |
-| Vertic               | Laxic                           |
-| Luvic                | Magnesic                        |
-| Calcic               | Novic                           |
-| Cambic/ Brunic       | Oxyaquic                        |
-| Skeletic             | Pachic                          |
-| Tonguic              | Panpaic/ Raptic                 |
-| Haplic               | Pyric                           |
-|                      | Salic                           |
-|                      | Sodic                           |
-|                      | Solimovic                       |
-|                      | Sombric                         |
-|                      | Stagnic                         |
-|                      | Technic/ Kalaic                 |
-|                      | Tephric                         |
-|                      | Transportic                     |
-|                      | Turbic                          |
-|                      | Vitric                          |
+| Principal Qualifiers | Supplementary Qualifiers       |
+|----------------------|--------------------------------|
+| Someric              | Arenic/ Clayic/ Loamic/ Siltic |
+| Petroduric/ Duric    | Andic                          |
+| Petrogypsic          | Anthric                        |
+| Gypsic               | Aric                           |
+| Petrocalcic          | Chromic                        |
+| Leptic               | Densic                         |
+| Hortic/ Terric       | Fractic                        |
+| Gleyic               | Gelic                          |
+| Fluvic               | Humic                          |
+| Vertic               | Laxic                          |
+| Luvic                | Magnesic                       |
+| Calcic               | Novic                          |
+| Cambic/ Brunic       | Oxyaquic                       |
+| Skeletic             | Pachic                         |
+| Tonguic              | Panpaic/ Raptic                |
+| Haplic               | Pyric                          |
+|                      | Salic                          |
+|                      | Sodic                          |
+|                      | Solimovic                      |
+|                      | Sombric                        |
+|                      | Stagnic                        |
+|                      | Technic/ Kalaic                |
+|                      | Tephric                        |
+|                      | Transportic                    |
+|                      | Turbic                         |
+|                      | Vitric                         |
 :::
 :::
 

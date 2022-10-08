@@ -1,4 +1,4 @@
-# Nitisols {#key-nitisols}
+# Nitisols {#key-nitisols .unnumbered}
 
 ::: grid
 ::: g-col-4
@@ -10,25 +10,25 @@ Other soils having:
 :::
 
 ::: g-col-8
-| Principal Qualifiers           | Supplementary Qualifiers |
-|--------------------------------|--------------------------|
-| Ferralic/ Sideralic            | Andic                    |
-| Ferritic                       | Aric                     |
-| Leptic                         | Densic                   |
-| Rhodic/ Xanthic                | Epic/ Endic              |
-| Geric                          | Ferric                   |
-| Hydragric/ Anthraquic/ Pretic  | Endogleyic               |
-| Profundihumic                  | Humic/ Ochric            |
-| Mollic/ Umbric                 | Magnesic                 |
-| Acric/ Lixic/ Alic/ Luvic      | Novic                    |
-| Dystric/ Eutric                | Oxyaquic                 |
-|                                | Posic                    |
-|                                | Pyric                    |
-|                                | Raptic                   |
-|                                | Sodic                    |
-|                                | Endostagnic              |
-|                                | Technic/ Kalaic          |
-|                                | Toxic                    |
-|                                | Transportic              |
+| Principal Qualifiers          | Supplementary Qualifiers |
+|-------------------------------|--------------------------|
+| Ferralic/ Sideralic           | Andic                    |
+| Ferritic                      | Aric                     |
+| Leptic                        | Densic                   |
+| Rhodic/ Xanthic               | Epic/ Endic              |
+| Geric                         | Ferric                   |
+| Hydragric/ Anthraquic/ Pretic | Endogleyic               |
+| Profundihumic                 | Humic/ Ochric            |
+| Mollic/ Umbric                | Magnesic                 |
+| Acric/ Lixic/ Alic/ Luvic     | Novic                    |
+| Dystric/ Eutric               | Oxyaquic                 |
+|                               | Posic                    |
+|                               | Pyric                    |
+|                               | Raptic                   |
+|                               | Sodic                    |
+|                               | Endostagnic              |
+|                               | Technic/ Kalaic          |
+|                               | Toxic                    |
+|                               | Transportic              |
 :::
 :::

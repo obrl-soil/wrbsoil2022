@@ -1,4 +1,4 @@
-# Stagnosols {#key-stagnosols}
+# Stagnosols {#key-stagnosols .unnumbered}
 
 ::: grid
 ::: g-col-4
@@ -9,43 +9,43 @@ Other soils having:
 :::
 
 ::: g-col-8
-| Principal Qualifiers                                              | Supplementary Qualifiers        |
-|-------------------------------------------------------------------|---------------------------------|
-| Reductic                                                          | Arenic/ Clayic/ Loamic/ Siltic  |
-| Thionic                                                           | Endoabruptic                    |
-| Leptic                                                            | Alcalic                         |
-| Hydragric/ Anthraquic/ Irragric/ Hortic/ Plaggic/ Pretic/ Terric  | Aric                            |
-| Histic                                                            | Cambic                          |
-| Gleyic                                                            | Capillaric                      |
-| Chernic/ Mollic/ Umbric                                           | Cohesic                         |
-| Albic                                                             | Drainic                         |
-| Fluvic                                                            | Ferralic/ Sideralic             |
-| Vertic                                                            | Ferric                          |
-| Glossic/ Retic                                                    | Folic                           |
-| Acric/ Lixic/ Alic/ Luvic                                         | Fragic                          |
-| Calcic                                                            | Gelic                           |
-| Dolomitic/ Calcaric                                               | Gelistagnic                     |
-| Dystric/ Eutric                                                   | Geric                           |
-|                                                                   | Humic/ Ochric                   |
-|                                                                   | Inclinic                        |
-|                                                                   | Magnesic                        |
-|                                                                   | Mochipic                        |
-|                                                                   | Nechic                          |
-|                                                                   | Nitic                           |
-|                                                                   | Novic                           |
-|                                                                   | Ornithic                        |
-|                                                                   | Pyric                           |
-|                                                                   | Raptic                          |
-|                                                                   | Rhodic/ Chromic                 |
-|                                                                   | Skeletic                        |
-|                                                                   | Sodic                           |
-|                                                                   | Solimovic                       |
-|                                                                   | Protospodic                     |
-|                                                                   | Sulfidic                        |
-|                                                                   | Technic/ Kalaic                 |
-|                                                                   | Toxic                           |
-|                                                                   | Transportic                     |
-|                                                                   | Turbic                          |
-|                                                                   | Uterquic                        |
+| Principal Qualifiers                                             | Supplementary Qualifiers       |
+|------------------------------------------------|------------------------|
+| Reductic                                                         | Arenic/ Clayic/ Loamic/ Siltic |
+| Thionic                                                          | Endoabruptic                   |
+| Leptic                                                           | Alcalic                        |
+| Hydragric/ Anthraquic/ Irragric/ Hortic/ Plaggic/ Pretic/ Terric | Aric                           |
+| Histic                                                           | Cambic                         |
+| Gleyic                                                           | Capillaric                     |
+| Chernic/ Mollic/ Umbric                                          | Cohesic                        |
+| Albic                                                            | Drainic                        |
+| Fluvic                                                           | Ferralic/ Sideralic            |
+| Vertic                                                           | Ferric                         |
+| Glossic/ Retic                                                   | Folic                          |
+| Acric/ Lixic/ Alic/ Luvic                                        | Fragic                         |
+| Calcic                                                           | Gelic                          |
+| Dolomitic/ Calcaric                                              | Gelistagnic                    |
+| Dystric/ Eutric                                                  | Geric                          |
+|                                                                  | Humic/ Ochric                  |
+|                                                                  | Inclinic                       |
+|                                                                  | Magnesic                       |
+|                                                                  | Mochipic                       |
+|                                                                  | Nechic                         |
+|                                                                  | Nitic                          |
+|                                                                  | Novic                          |
+|                                                                  | Ornithic                       |
+|                                                                  | Pyric                          |
+|                                                                  | Raptic                         |
+|                                                                  | Rhodic/ Chromic                |
+|                                                                  | Skeletic                       |
+|                                                                  | Sodic                          |
+|                                                                  | Solimovic                      |
+|                                                                  | Protospodic                    |
+|                                                                  | Sulfidic                       |
+|                                                                  | Technic/ Kalaic                |
+|                                                                  | Toxic                          |
+|                                                                  | Transportic                    |
+|                                                                  | Turbic                         |
+|                                                                  | Uterquic                       |
 :::
 :::

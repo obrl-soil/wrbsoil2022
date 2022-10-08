@@ -1,4 +1,4 @@
-# Leptosols {#key-leptosols}
+# Leptosols {#key-leptosols .unnumbered}
 
 ::: grid
 ::: g-col-4
@@ -11,42 +11,42 @@ Other soils having:
 :::
 
 ::: g-col-8
-| Principal Qualifiers     | Supplementary Qualifiers        |
-|--------------------------|---------------------------------|
-| Nudilithic/ Lithic       | Arenic/ Clayic/ Loamic/ Siltic  |
-| Coarsic                  | Aeolic                          |
-| Skeletic                 | Aric                            |
-| Subaquatic/ Tidalic      | Biocrustic                      |
-| Histic                   | Protocalcic                     |
-| Andic                    | Drainic                         |
-| Rendzic/ Mollic/ Umbric  | Fluvic                          |
-| Gypsic                   | Gelic                           |
-| Calcic                   | Gleyic                          |
-| Cambic/ Brunic           | Humic/ Ochric                   |
-| Yermic/ Takyric          | Isolatic                        |
-| Folic                    | Lapiadic                        |
-| Gypsiric                 | Magnesic                        |
-| Dolomitic/ Calcaric      | Nechic                          |
-| Dystric/ Eutric          | Novic                           |
-|                          | Ornithic                        |
-|                          | Oxyaquic                        |
-|                          | Panpaic/ Raptic                 |
-|                          | Placic                          |
-|                          | Protic                          |
-|                          | Pyric                           |
-|                          | Salic                           |
-|                          | Sodic                           |
-|                          | Protospodic                     |
-|                          | Solimovic                       |
-|                          | Stagnic                         |
-|                          | Sulfidic                        |
-|                          | Technic/ Kalaic                 |
-|                          | Tephric                         |
-|                          | Toxic                           |
-|                          | Transportic                     |
-|                          | Turbic                          |
-|                          | Protovertic                     |
-|                          | Vitric                          |
+| Principal Qualifiers    | Supplementary Qualifiers       |
+|-------------------------|--------------------------------|
+| Nudilithic/ Lithic      | Arenic/ Clayic/ Loamic/ Siltic |
+| Coarsic                 | Aeolic                         |
+| Skeletic                | Aric                           |
+| Subaquatic/ Tidalic     | Biocrustic                     |
+| Histic                  | Protocalcic                    |
+| Andic                   | Drainic                        |
+| Rendzic/ Mollic/ Umbric | Fluvic                         |
+| Gypsic                  | Gelic                          |
+| Calcic                  | Gleyic                         |
+| Cambic/ Brunic          | Humic/ Ochric                  |
+| Yermic/ Takyric         | Isolatic                       |
+| Folic                   | Lapiadic                       |
+| Gypsiric                | Magnesic                       |
+| Dolomitic/ Calcaric     | Nechic                         |
+| Dystric/ Eutric         | Novic                          |
+|                         | Ornithic                       |
+|                         | Oxyaquic                       |
+|                         | Panpaic/ Raptic                |
+|                         | Placic                         |
+|                         | Protic                         |
+|                         | Pyric                          |
+|                         | Salic                          |
+|                         | Sodic                          |
+|                         | Protospodic                    |
+|                         | Solimovic                      |
+|                         | Stagnic                        |
+|                         | Sulfidic                       |
+|                         | Technic/ Kalaic                |
+|                         | Tephric                        |
+|                         | Toxic                          |
+|                         | Transportic                    |
+|                         | Turbic                         |
+|                         | Protovertic                    |
+|                         | Vitric                         |
 :::
 :::
 

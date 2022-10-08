@@ -1,4 +1,4 @@
-# Gleysols {#key-gleysols}
+# Gleysols {#key-gleysols .unnumbered}
 
 ::: grid
 ::: g-col-4
@@ -16,44 +16,44 @@ Other soils having one or more of the following:
 :::
 
 ::: g-col-8
-| Principal Qualifiers                                              | Supplementary Qualifiers        |
+| Principal Qualifiers                                             | Supplementary Qualifiers       |
 |------------------------------------|------------------------------------|
-| Thionic                                                           | Acric/ Lixic/ Alic/ Luvic       |
-| Reductic                                                          | Alcalic                         |
-| Subaquatic/ Tidalic                                               | Abruptic                        |
-| Hydragric/ Anthraquic/ Irragric/ Hortic/ Plaggic/ Pretic/ Terric  | Arenicolic                      |
-| Histic                                                            | Arenic/ Clayic/ Loamic/ Siltic  |
-| Andic                                                             | Aric                            |
-| Vitric                                                            | Drainic                         |
-| Chernic/ Mollic/ Umbric                                           | Ferralic/ Sideralic             |
-| Pisoplinthic/ Plinthic                                            | Folic                           |
-| Stagnic                                                           | Fractic                         |
-| Oxyaquic                                                          | Gelic                           |
-| Oxygleyic/ Reductigleyic                                          | Humic/ Ochric                   |
-| Gypsic                                                            | Inclinic                        |
-| Calcic/ Wapnic                                                    | Laxic                           |
-| Spodic                                                            | Limnic                          |
-| Fluvic                                                            | Limonic                         |
-| Gypsiric                                                          | Magnesic                        |
-| Dolomitic/ Calcaric                                               | Mulmic                          |
-| Dystric/ Eutric                                                   | Nechic                          |
-|                                                                   | Novic                           |
-|                                                                   | Placic                          |
-|                                                                   | Pyric                           |
-|                                                                   | Raptic                          |
-|                                                                   | Relocatic                       |
-|                                                                   | Salic                           |
-|                                                                   | Skeletic                        |
-|                                                                   | Sodic                           |
-|                                                                   | Solimovic                       |
-|                                                                   | Sulfidic                        |
-|                                                                   | Takyric                         |
-|                                                                   | Technic/ Kalaic                 |
-|                                                                   | Tephric                         |
-|                                                                   | Toxic                           |
-|                                                                   | Transportic                     |
-|                                                                   | Turbic                          |
-|                                                                   | Uterquic                        |
-|                                                                   | Vertic                          |
+| Thionic                                                          | Acric/ Lixic/ Alic/ Luvic      |
+| Reductic                                                         | Alcalic                        |
+| Subaquatic/ Tidalic                                              | Abruptic                       |
+| Hydragric/ Anthraquic/ Irragric/ Hortic/ Plaggic/ Pretic/ Terric | Arenicolic                     |
+| Histic                                                           | Arenic/ Clayic/ Loamic/ Siltic |
+| Andic                                                            | Aric                           |
+| Vitric                                                           | Drainic                        |
+| Chernic/ Mollic/ Umbric                                          | Ferralic/ Sideralic            |
+| Pisoplinthic/ Plinthic                                           | Folic                          |
+| Stagnic                                                          | Fractic                        |
+| Oxyaquic                                                         | Gelic                          |
+| Oxygleyic/ Reductigleyic                                         | Humic/ Ochric                  |
+| Gypsic                                                           | Inclinic                       |
+| Calcic/ Wapnic                                                   | Laxic                          |
+| Spodic                                                           | Limnic                         |
+| Fluvic                                                           | Limonic                        |
+| Gypsiric                                                         | Magnesic                       |
+| Dolomitic/ Calcaric                                              | Mulmic                         |
+| Dystric/ Eutric                                                  | Nechic                         |
+|                                                                  | Novic                          |
+|                                                                  | Placic                         |
+|                                                                  | Pyric                          |
+|                                                                  | Raptic                         |
+|                                                                  | Relocatic                      |
+|                                                                  | Salic                          |
+|                                                                  | Skeletic                       |
+|                                                                  | Sodic                          |
+|                                                                  | Solimovic                      |
+|                                                                  | Sulfidic                       |
+|                                                                  | Takyric                        |
+|                                                                  | Technic/ Kalaic                |
+|                                                                  | Tephric                        |
+|                                                                  | Toxic                          |
+|                                                                  | Transportic                    |
+|                                                                  | Turbic                         |
+|                                                                  | Uterquic                       |
+|                                                                  | Vertic                         |
 :::
 :::

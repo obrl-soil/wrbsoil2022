@@ -1,4 +1,4 @@
-# Cambisols {#key-cambisols}
+# Cambisols {#key-cambisols .unnumbered}
 
 ::: grid
 ::: g-col-4
@@ -14,48 +14,48 @@ Other soils having:
 :::
 
 ::: g-col-8
-| Principal Qualifiers                                      | Supplementary Qualifiers        |
-|-----------------------------------------------------------|---------------------------------|
-| Fragic                                                    | Arenic/ Clayic/ Loamic/ Siltic  |
-| Thionic                                                   | Geoabruptic                     |
-| Hydragric/ Anthraquic/ Irragric/ Plaggic/ Pretic/ Terric  | Aeolic                          |
-| Tsitelic                                                  | Alcalic                         |
-| Vertic                                                    | Aric                            |
-| Andic                                                     | Biocrustic                      |
-| Vitric                                                    | Protocalcic                     |
-| Leptic                                                    | Carbonic                        |
-| Histic                                                    | Cohesic                         |
-| Gleyic                                                    | Columnic                        |
-| Stagnic                                                   | Densic                          |
-| Solimovic                                                 | Drainic                         |
-| Fluvic                                                    | Escalic                         |
-| Sideralic                                                 | Ferric                          |
-| Rhodic/ Chromic/ Xanthic                                  | Folic                           |
-| Skeletic                                                  | Fractic                         |
-| Yermic/ Takyric                                           | Gelic                           |
-| Gypsiric                                                  | Gelistagnic                     |
-| Dolomitic/ Calcaric                                       | Protogypsic                     |
-| Dystric/ Eutric                                           | Humic/ Ochric                   |
-|                                                           | Isopteric                       |
-|                                                           | Laxic                           |
-|                                                           | Limonic                         |
-|                                                           | Litholinic                      |
-|                                                           | Magnesic                        |
-|                                                           | Nechic                          |
-|                                                           | Novic                           |
-|                                                           | Ornithic                        |
-|                                                           | Oxyaquic                        |
-|                                                           | Panpaic/ Raptic                 |
-|                                                           | Pyric                           |
-|                                                           | Salic                           |
-|                                                           | Saprolithic                     |
-|                                                           | Sodic                           |
-|                                                           | Protospodic                     |
-|                                                           | Sulfidic                        |
-|                                                           | Technic/ Kalaic                 |
-|                                                           | Tephric                         |
-|                                                           | Toxic                           |
-|                                                           | Transportic                     |
-|                                                           | Turbic                          |
+| Principal Qualifiers                                     | Supplementary Qualifiers       |
+|----------------------------------------------|--------------------------|
+| Fragic                                                   | Arenic/ Clayic/ Loamic/ Siltic |
+| Thionic                                                  | Geoabruptic                    |
+| Hydragric/ Anthraquic/ Irragric/ Plaggic/ Pretic/ Terric | Aeolic                         |
+| Tsitelic                                                 | Alcalic                        |
+| Vertic                                                   | Aric                           |
+| Andic                                                    | Biocrustic                     |
+| Vitric                                                   | Protocalcic                    |
+| Leptic                                                   | Carbonic                       |
+| Histic                                                   | Cohesic                        |
+| Gleyic                                                   | Columnic                       |
+| Stagnic                                                  | Densic                         |
+| Solimovic                                                | Drainic                        |
+| Fluvic                                                   | Escalic                        |
+| Sideralic                                                | Ferric                         |
+| Rhodic/ Chromic/ Xanthic                                 | Folic                          |
+| Skeletic                                                 | Fractic                        |
+| Yermic/ Takyric                                          | Gelic                          |
+| Gypsiric                                                 | Gelistagnic                    |
+| Dolomitic/ Calcaric                                      | Protogypsic                    |
+| Dystric/ Eutric                                          | Humic/ Ochric                  |
+|                                                          | Isopteric                      |
+|                                                          | Laxic                          |
+|                                                          | Limonic                        |
+|                                                          | Litholinic                     |
+|                                                          | Magnesic                       |
+|                                                          | Nechic                         |
+|                                                          | Novic                          |
+|                                                          | Ornithic                       |
+|                                                          | Oxyaquic                       |
+|                                                          | Panpaic/ Raptic                |
+|                                                          | Pyric                          |
+|                                                          | Salic                          |
+|                                                          | Saprolithic                    |
+|                                                          | Sodic                          |
+|                                                          | Protospodic                    |
+|                                                          | Sulfidic                       |
+|                                                          | Technic/ Kalaic                |
+|                                                          | Tephric                        |
+|                                                          | Toxic                          |
+|                                                          | Transportic                    |
+|                                                          | Turbic                         |
 :::
 :::

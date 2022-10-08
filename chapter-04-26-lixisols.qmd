@@ -1,4 +1,4 @@
-# Lixisols {#key-lixisols}
+# Lixisols {#key-lixisols .unnumbered}
 
 ::: grid
 ::: g-col-4
@@ -10,37 +10,37 @@ Other soils having:
 :::
 
 ::: g-col-8
-| Principal Qualifiers                   | Supplementary Qualifiers        |
-|----------------------------------------|---------------------------------|
-| Abruptic                               | Arenic/ Clayic/ Loamic/ Siltic  |
-| Fragic                                 | Andic                           |
-| Petrocalcic                            | Aric                            |
-| Leptic                                 | Neocambic/ Neobrunic            |
-| Hydragric/ Anthraquic/ Pretic/ Terric  | Cohesic                         |
-| Gleyic                                 | Columnic                        |
-| Stagnic                                | Cutanic                         |
-| Ferralic                               | Densic                          |
-| Rhodic/ Chromic/ Xanthic               | Differentic                     |
-| Nudiargic                              | Epidystric/ Hypereutric         |
-| Lamellic                               | Epic/ Endic                     |
-| Albic                                  | Fractic                         |
-| Ferric                                 | Geric                           |
-| Gypsic                                 | Gibbsic                         |
-| Calcic                                 | Humic/ Ochric                   |
-| Yermic/ Takyric                        | Magnesic                        |
-| Skeletic                               | Nechic                          |
-| Haplic                                 | Nitic                           |
-|                                        | Novic                           |
-|                                        | Oxyaquic                        |
-|                                        | Profondic                       |
-|                                        | Pyric                           |
-|                                        | Raptic                          |
-|                                        | Saprolithic                     |
-|                                        | Sodic                           |
-|                                        | Solimovic                       |
-|                                        | Technic/ Kalaic                 |
-|                                        | Toxic                           |
-|                                        | Transportic                     |
-|                                        | Vitric                          |
+| Principal Qualifiers                  | Supplementary Qualifiers       |
+|---------------------------------------|--------------------------------|
+| Abruptic                              | Arenic/ Clayic/ Loamic/ Siltic |
+| Fragic                                | Andic                          |
+| Petrocalcic                           | Aric                           |
+| Leptic                                | Neocambic/ Neobrunic           |
+| Hydragric/ Anthraquic/ Pretic/ Terric | Cohesic                        |
+| Gleyic                                | Columnic                       |
+| Stagnic                               | Cutanic                        |
+| Ferralic                              | Densic                         |
+| Rhodic/ Chromic/ Xanthic              | Differentic                    |
+| Nudiargic                             | Epidystric/ Hypereutric        |
+| Lamellic                              | Epic/ Endic                    |
+| Albic                                 | Fractic                        |
+| Ferric                                | Geric                          |
+| Gypsic                                | Gibbsic                        |
+| Calcic                                | Humic/ Ochric                  |
+| Yermic/ Takyric                       | Magnesic                       |
+| Skeletic                              | Nechic                         |
+| Haplic                                | Nitic                          |
+|                                       | Novic                          |
+|                                       | Oxyaquic                       |
+|                                       | Profondic                      |
+|                                       | Pyric                          |
+|                                       | Raptic                         |
+|                                       | Saprolithic                    |
+|                                       | Sodic                          |
+|                                       | Solimovic                      |
+|                                       | Technic/ Kalaic                |
+|                                       | Toxic                          |
+|                                       | Transportic                    |
+|                                       | Vitric                         |
 :::
 :::

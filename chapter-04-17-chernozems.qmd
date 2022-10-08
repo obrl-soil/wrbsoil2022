@@ -1,4 +1,4 @@
-# Chernozems {#key-chernozems}
+# Chernozems {#key-chernozems .unnumbered}
 
 ::: grid
 ::: g-col-4
@@ -10,30 +10,30 @@ Other soils having:
 :::
 
 ::: g-col-8
-| Principal Qualifiers | Supplementary Qualifiers        |
-|----------------------|---------------------------------|
-| Petroduric/ Duric    | Arenic/ Clayic/ Loamic/ Siltic  |
-| Petrocalcic          | Andic                           |
-| Leptic               | Aric                            |
-| Hortic               | Densic                          |
-| Gleyic               | Fluvic                          |
-| Vertic               | Fractic                         |
-| Greyzemic            | Humic                           |
-| Luvic                | Novic                           |
-| Calcic               | Oxyaquic                        |
-| Cambic               | Pachic                          |
-| Skeletic             | Pyric                           |
-| Vermic               | Raptic                          |
-| Tonguic              | Salic                           |
-| Haplic               | Sodic                           |
-|                      | Solimovic                       |
-|                      | Sombric                         |
-|                      | Stagnic                         |
-|                      | Technic/ Kalaic                 |
-|                      | Tephric                         |
-|                      | Transportic                     |
-|                      | Turbic                          |
-|                      | Vitric                          |
+| Principal Qualifiers | Supplementary Qualifiers       |
+|----------------------|--------------------------------|
+| Petroduric/ Duric    | Arenic/ Clayic/ Loamic/ Siltic |
+| Petrocalcic          | Andic                          |
+| Leptic               | Aric                           |
+| Hortic               | Densic                         |
+| Gleyic               | Fluvic                         |
+| Vertic               | Fractic                        |
+| Greyzemic            | Humic                          |
+| Luvic                | Novic                          |
+| Calcic               | Oxyaquic                       |
+| Cambic               | Pachic                         |
+| Skeletic             | Pyric                          |
+| Vermic               | Raptic                         |
+| Tonguic              | Salic                          |
+| Haplic               | Sodic                          |
+|                      | Solimovic                      |
+|                      | Sombric                        |
+|                      | Stagnic                        |
+|                      | Technic/ Kalaic                |
+|                      | Tephric                        |
+|                      | Transportic                    |
+|                      | Turbic                         |
+|                      | Vitric                         |
 :::
 :::
 

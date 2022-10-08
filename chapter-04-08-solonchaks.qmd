@@ -1,4 +1,4 @@
-# Solonchaks {#key-solonchaks}
+# Solonchaks {#key-solonchaks .unnumbered}
 
 ::: grid
 ::: g-col-4

@@ -1,4 +1,4 @@
-# Vertisols {#key-vertisols}
+# Vertisols {#key-vertisols .unnumbered}
 
 ::: grid
 ::: g-col-4
@@ -13,40 +13,40 @@ Other soils having:
     a.  at the mineral soil surface; *or*
     b.  at the base of a plough layer; *or*
     c.  directly below a layer with strong granular structure or strong angular or subangular blocky structure with an aggregate size of ≤ 1 cm (self-mulching surface); *or*
-    d.  directly below a surface crust; *and* \
+    d.  directly below a surface crust; *and*\
         \
         extend to the *vertic horizon*.
 :::
 
 ::: g-col-8
-| Principal Qualifiers             | Supplementary Qualifiers    |
-|----------------------------------|-----------------------------|
-| Salic                            | Alcalic/ Endodystric        |
-| Sodic                            | Aric                        |
-| Leptic                           | Chernic/ Mollic             |
-| Petroduric/ Duric                | Dolomitic/ Calcaric         |
-| Gypsic                           | Drainic                     |
-| Petrocalcic                      | Hypereutric                 |
-| Calcic                           | Epic/ Endic                 |
-| Hydragric/ Anthraquic/ Irragric  | Ferric                      |
-| Pellic                           | Fractic                     |
-| Chromic                          | Gilgaic                     |
-| Haplic                           | Gleyic                      |
-|                                  | Grumic/ Mazic/ Pelocrustic  |
-|                                  | Gypsiric                    |
-|                                  | Humic/ Ochric               |
-|                                  | Magnesic                    |
-|                                  | Mesotrophic                 |
-|                                  | Novic                       |
-|                                  | Oxyaquic                    |
-|                                  | Pyric                       |
-|                                  | Raptic                      |
-|                                  | Skeletic                    |
-|                                  | Stagnic                     |
-|                                  | Sulfidic                    |
-|                                  | Technic/ Kalaic             |
-|                                  | Takyric                     |
-|                                  | Thionic                     |
-|                                  | Toxic                       |
+| Principal Qualifiers            | Supplementary Qualifiers   |
+|---------------------------------|----------------------------|
+| Salic                           | Alcalic/ Endodystric       |
+| Sodic                           | Aric                       |
+| Leptic                          | Chernic/ Mollic            |
+| Petroduric/ Duric               | Dolomitic/ Calcaric        |
+| Gypsic                          | Drainic                    |
+| Petrocalcic                     | Hypereutric                |
+| Calcic                          | Epic/ Endic                |
+| Hydragric/ Anthraquic/ Irragric | Ferric                     |
+| Pellic                          | Fractic                    |
+| Chromic                         | Gilgaic                    |
+| Haplic                          | Gleyic                     |
+|                                 | Grumic/ Mazic/ Pelocrustic |
+|                                 | Gypsiric                   |
+|                                 | Humic/ Ochric              |
+|                                 | Magnesic                   |
+|                                 | Mesotrophic                |
+|                                 | Novic                      |
+|                                 | Oxyaquic                   |
+|                                 | Pyric                      |
+|                                 | Raptic                     |
+|                                 | Skeletic                   |
+|                                 | Stagnic                    |
+|                                 | Sulfidic                   |
+|                                 | Technic/ Kalaic            |
+|                                 | Takyric                    |
+|                                 | Thionic                    |
+|                                 | Toxic                      |
 :::
 :::

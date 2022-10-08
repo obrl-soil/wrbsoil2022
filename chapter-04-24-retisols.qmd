@@ -1,4 +1,4 @@
-# Retisols {#key-retisols}
+# Retisols {#key-retisols .unnumbered}
 
 ::: grid
 ::: g-col-4
@@ -6,30 +6,30 @@ Other soils having an *argic horizon* starting ≤ 100 cm from the mineral soi
 :::
 
 ::: g-col-8
-| Principal Qualifiers         | Supplementary Qualifiers        |
-|------------------------------|---------------------------------|
-| Abruptic                     | Arenic/ Clayic/ Loamic/ Siltic  |
-| Fragic                       | Aric                            |
-| Glossic                      | Cutanic                         |
-| Leptic                       | Densic                          |
-| Plaggic/ Pretic/ Terric      | Differentic                     |
-| Histic                       | Drainic                         |
-| Gleyic                       | Epic/ Endic                     |
-| Stagnic                      | Folic                           |
-| Stagnic                      | Gelic                           |
-| Sideralic                    | Humic/ Ochric                   |
-| Nudiargic                    | Lamellic                        |
-| Neocambic                    | Nechic                          |
-| Albic                        | Novic                           |
-| Calcic                       | Oxyaquic                        |
-| Skeletic                     | Profondic                       |
-| Endodolomitic/ Endocalcaric  | Pyric                           |
-| Dystric/ Eutric              | Raptic                          |
-|                              | Solimovic                       |
-|                              | Protospodic                     |
-|                              | Technic/ Kalaic                 |
-|                              | Toxic                           |
-|                              | Transportic                     |
-|                              | Turbic                          |
+| Principal Qualifiers        | Supplementary Qualifiers       |
+|-----------------------------|--------------------------------|
+| Abruptic                    | Arenic/ Clayic/ Loamic/ Siltic |
+| Fragic                      | Aric                           |
+| Glossic                     | Cutanic                        |
+| Leptic                      | Densic                         |
+| Plaggic/ Pretic/ Terric     | Differentic                    |
+| Histic                      | Drainic                        |
+| Gleyic                      | Epic/ Endic                    |
+| Stagnic                     | Folic                          |
+| Stagnic                     | Gelic                          |
+| Sideralic                   | Humic/ Ochric                  |
+| Nudiargic                   | Lamellic                       |
+| Neocambic                   | Nechic                         |
+| Albic                       | Novic                          |
+| Calcic                      | Oxyaquic                       |
+| Skeletic                    | Profondic                      |
+| Endodolomitic/ Endocalcaric | Pyric                          |
+| Dystric/ Eutric             | Raptic                         |
+|                             | Solimovic                      |
+|                             | Protospodic                    |
+|                             | Technic/ Kalaic                |
+|                             | Toxic                          |
+|                             | Transportic                    |
+|                             | Turbic                         |
 :::
 :::

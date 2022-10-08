@@ -1,4 +1,4 @@
-# Alisols {#key-alisols}
+# Alisols {#key-alisols .unnumbered}
 
 ::: grid
 ::: g-col-4

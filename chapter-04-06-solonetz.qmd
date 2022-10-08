@@ -1,4 +1,4 @@
-# Solonetz {#key-solonetz}
+# Solonetz {#key-solonetz .unnumbered}
 
 ::: grid
 ::: g-col-4
@@ -6,34 +6,34 @@ Other soils having a *natric horizon* starting ≤ 100 cm from the mineral soi
 :::
 
 ::: g-col-8
-| Principal Qualifiers | Supplementary Qualifiers        |
-|----------------------|---------------------------------|
-| Abruptic             | Arenic/ Clayic/ Loamic/ Siltic  |
-| Gleyic               | Aeolic                          |
-| Stagnic              | Biocrustic                      |
-| Mollic               | Neocambic                       |
-| Salic                | Chromic                         |
-| Gypsic               | Columnic                        |
-| Petrocalcic          | Cutanic                         |
-| Calcic               | Differentic                     |
-| Vertic               | Duric                           |
-| Yermic/ Takyric      | Epic/ Endic                     |
-| Nudinatric           | Ferric                          |
-| Albic                | Fluvic                          |
-| Haplic               | Fractic                         |
-|                      | Humic/ Ochric                   |
-|                      | Magnesic                        |
-|                      | Hypernatric                     |
-|                      | Novic                           |
-|                      | Oxyaquic                        |
-|                      | Petroplinthic                   |
-|                      | Pyric                           |
-|                      | Raptic                          |
-|                      | Retic                           |
-|                      | Skeletic                        |
-|                      |  =Technic/ Kalaic               |
-|                      | Toxic                           |
-|                      | Transportic                     |
-|                      | Turbic                          |
+| Principal Qualifiers | Supplementary Qualifiers       |
+|----------------------|--------------------------------|
+| Abruptic             | Arenic/ Clayic/ Loamic/ Siltic |
+| Gleyic               | Aeolic                         |
+| Stagnic              | Biocrustic                     |
+| Mollic               | Neocambic                      |
+| Salic                | Chromic                        |
+| Gypsic               | Columnic                       |
+| Petrocalcic          | Cutanic                        |
+| Calcic               | Differentic                    |
+| Vertic               | Duric                          |
+| Yermic/ Takyric      | Epic/ Endic                    |
+| Nudinatric           | Ferric                         |
+| Albic                | Fluvic                         |
+| Haplic               | Fractic                        |
+|                      | Humic/ Ochric                  |
+|                      | Magnesic                       |
+|                      | Hypernatric                    |
+|                      | Novic                          |
+|                      | Oxyaquic                       |
+|                      | Petroplinthic                  |
+|                      | Pyric                          |
+|                      | Raptic                         |
+|                      | Retic                          |
+|                      | Skeletic                       |
+|                      | =Technic/ Kalaic               |
+|                      | Toxic                          |
+|                      | Transportic                    |
+|                      | Turbic                         |
 :::
 :::

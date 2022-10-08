@@ -1,4 +1,4 @@
-# Fluvisols {#key-fluvisols}
+# Fluvisols {#key-fluvisols .unnumbered}
 
 ::: grid
 ::: g-col-4
@@ -9,35 +9,35 @@ Other soils having *fluvic material*:
 :::
 
 ::: g-col-8
-| Principal Qualifiers                | Supplementary Qualifiers        |
-|-------------------------------------|---------------------------------|
-| Tidalic                             | Arenic/ Clayic/ Loamic/ Siltic  |
-| Pantofluvic/ Anofluvic/ Orthofluvic | Geoabruptic                     |
-| Leptic                              | Alcalic                         |
-| Histic                              | Arenicolic                      |
-| Gleyic                              | Aric                            |
-| Stagnic                             | Protocalcic                     |
-| Skeletic                            | Densic                          |
-| Tephric                             | Drainic                         |
-| Yermic/ Takyric                     | Folic                           |
-| Gypsiric                            | Gelic                           |
-| Dolomitic/ Calcaric                 | Humic/ Ochric                   |
-| Dystric/ Eutric                     | Limnic                          |
-|                                     | Limonic                         |
-|                                     | Magnesic                        |
-|                                     | Nechic                          |
-|                                     | Oxyaquic                        |
-|                                     | Panpaic                         |
-|                                     | Placic                          |
-|                                     | Pyric                           |
-|                                     | Salic                           |
-|                                     | Sideralic                       |
-|                                     | Sodic                           |
-|                                     | Sulfidic                        |
-|                                     | Technic/ Kalaic                 |
-|                                     | Toxic                           |
-|                                     | Transportic                     |
-|                                     | Turbic                          |
-|                                     | Protovertic                     |
+| Principal Qualifiers                | Supplementary Qualifiers       |
+|-------------------------------------|--------------------------------|
+| Tidalic                             | Arenic/ Clayic/ Loamic/ Siltic |
+| Pantofluvic/ Anofluvic/ Orthofluvic | Geoabruptic                    |
+| Leptic                              | Alcalic                        |
+| Histic                              | Arenicolic                     |
+| Gleyic                              | Aric                           |
+| Stagnic                             | Protocalcic                    |
+| Skeletic                            | Densic                         |
+| Tephric                             | Drainic                        |
+| Yermic/ Takyric                     | Folic                          |
+| Gypsiric                            | Gelic                          |
+| Dolomitic/ Calcaric                 | Humic/ Ochric                  |
+| Dystric/ Eutric                     | Limnic                         |
+|                                     | Limonic                        |
+|                                     | Magnesic                       |
+|                                     | Nechic                         |
+|                                     | Oxyaquic                       |
+|                                     | Panpaic                        |
+|                                     | Placic                         |
+|                                     | Pyric                          |
+|                                     | Salic                          |
+|                                     | Sideralic                      |
+|                                     | Sodic                          |
+|                                     | Sulfidic                       |
+|                                     | Technic/ Kalaic                |
+|                                     | Toxic                          |
+|                                     | Transportic                    |
+|                                     | Turbic                         |
+|                                     | Protovertic                    |
 :::
 :::

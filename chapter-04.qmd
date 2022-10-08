@@ -4,12 +4,12 @@
 
 ## Overview of Key to Reference Soil Groups
 
-|             |             |              |            |            |
-|-------------|-------------|--------------|------------|------------|
-| Histosols   | Solonchaks  | Nitisols     | Gypsisols  | Cambisols  |
-| Anthrosols  | Gleysols    | Ferralsols   | Calcisols  | Fluvisols  |
-| Technosols  | Andosols    | Chernozems   | Retisols   | Arenosols  |
-| Cryosols    | Podzols     | Kastanozems  | Acrisols   | Regosols   |
-| Leptosols   | Plinthosols | Phaeozems    | Lixisols   |            |
-| Solonetz    | Planosols   | Umbrisols    | Alisols    |            |
-| Vertisols   | Stagnosols  | Durisols     | Luvisols   |            |
+|            |             |             |           |           |
+|------------|-------------|-------------|-----------|-----------|
+| Histosols  | Solonchaks  | Nitisols    | Gypsisols | Cambisols |
+| Anthrosols | Gleysols    | Ferralsols  | Calcisols | Fluvisols |
+| Technosols | Andosols    | Chernozems  | Retisols  | Arenosols |
+| Cryosols   | Podzols     | Kastanozems | Acrisols  | Regosols  |
+| Leptosols  | Plinthosols | Phaeozems   | Lixisols  |           |
+| Solonetz   | Planosols   | Umbrisols   | Alisols   |           |
+| Vertisols  | Stagnosols  | Durisols    | Luvisols  |           |

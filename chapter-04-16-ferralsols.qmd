@@ -1,4 +1,4 @@
-# Ferralsols {#key-ferralsols}
+# Ferralsols {#key-ferralsols .unnumbered}
 
 ::: grid
 ::: g-col-4
@@ -12,35 +12,35 @@ Other soils having:
 :::
 
 ::: g-col-8
-| Principal Qualifiers | Supplementary Qualifiers        |
-|----------------------|---------------------------------|
-| Ferritic             | Arenic/ Clayic/ Loamic/ Siltic  |
-| Gibbsic              | Abruptic                        |
-| Rhodic/ Xanthic      | Activic                         |
-| Geric                | Andic                           |
-| Nitic                | Aric                            |
-| Pretic               | Cohesic                         |
-| Gleyic               | Densic                          |
-| Stagnic              | Dystric/ Eutric                 |
-| Profundihumic        | Epic/ Endic/ Dorsic             |
-| Mollic/ Umbric       | Ferric                          |
-| Acric/ Lixic         | Fluvic                          |
-| Fractic              | Folic                           |
-| Skeletic             | Gleyic                          |
-| Haplic               | Humic/ Ochric                   |
-|                      | Isopteric                       |
-|                      | Litholinic                      |
-|                      | Novic                           |
-|                      | Oxyaquic                        |
-|                      | Posic                           |
-|                      | Pyric                           |
-|                      | Raptic                          |
-|                      | Saprolithic                     |
-|                      | Solimovic                       |
-|                      | Sombric                         |
-|                      | Stagnic                         |
-|                      | Technic/ Kalaic                 |
-|                      | Toxic                           |
-|                      | Transportic                     |
+| Principal Qualifiers | Supplementary Qualifiers       |
+|----------------------|--------------------------------|
+| Ferritic             | Arenic/ Clayic/ Loamic/ Siltic |
+| Gibbsic              | Abruptic                       |
+| Rhodic/ Xanthic      | Activic                        |
+| Geric                | Andic                          |
+| Nitic                | Aric                           |
+| Pretic               | Cohesic                        |
+| Gleyic               | Densic                         |
+| Stagnic              | Dystric/ Eutric                |
+| Profundihumic        | Epic/ Endic/ Dorsic            |
+| Mollic/ Umbric       | Ferric                         |
+| Acric/ Lixic         | Fluvic                         |
+| Fractic              | Folic                          |
+| Skeletic             | Gleyic                         |
+| Haplic               | Humic/ Ochric                  |
+|                      | Isopteric                      |
+|                      | Litholinic                     |
+|                      | Novic                          |
+|                      | Oxyaquic                       |
+|                      | Posic                          |
+|                      | Pyric                          |
+|                      | Raptic                         |
+|                      | Saprolithic                    |
+|                      | Solimovic                      |
+|                      | Sombric                        |
+|                      | Stagnic                        |
+|                      | Technic/ Kalaic                |
+|                      | Toxic                          |
+|                      | Transportic                    |
 :::
 :::
