@@ -8,15 +8,15 @@ reference-location: margin
 
 ## Overview of Key to Reference Soil Groups
 
-|                               |             |             |           |           |
+|                               |                               |                               |                             |                             |
 |---------------|---------------|---------------|---------------|---------------|
-| [Histosols](#key-histosols)   | Solonchaks  | Nitisols    | Gypsisols | Cambisols |
-| [Anthrosols](#key-anthrosols) | Gleysols    | Ferralsols  | Calcisols | Fluvisols |
-| Technosols                    | Andosols    | Chernozems  | Retisols  | Arenosols |
-| Cryosols                      | Podzols     | Kastanozems | Acrisols  | Regosols  |
-| Leptosols                     | Plinthosols | Phaeozems   | Lixisols  |           |
-| Solonetz                      | Planosols   | Umbrisols   | Alisols   |           |
-| Vertisols                     | Stagnosols  | Durisols    | Luvisols  |           |
+| [Histosols](#key-histosols)   | [Solonchaks](#key-solonchaks) | [Nitisols](#key-nitisols)     | [Gypsisols](#key-gypsisols) | [Cambisols](#key-cambisols) |
+| [Anthrosols](#key-anthrosols) | [Gleysols](#key-gleysols)     | [Ferralsols](#key-ferralsols) | [Calcisols](#key-calcisols) | [Fluvisols]                 |
+| [Technosols](#key-technosols) | [Andosols]                    | [Chernozems]                  | [Retisols]                  | [Arenosols]                 |
+| [Cryosols](#key-cryosols)     | [Podzols]                     | [Kastanozems]                 | [Acrisols]                  | [Regosols]                  |
+| [Leptosols](#key-leptosols)   | [Plinthosols]                 | [Phaeozems]                   | [Lixisols]                  |                             |
+| [Solonetz](#key-solonetz)     | [Planosols]                   | [Umbrisols]                   | [Alisols]                   |                             |
+| [Vertisols](#key-vertisols)   | [Stagnosols]                  | [Durisols]                    | [Luvisols]                  |                             |
 
 ## Histosols {#key-histosols .unnumbered}
 
@@ -530,7 +530,7 @@ Other soils having an *abrupt textural difference* ≤ 75 cm from the mineral 
 2.  *reducing conditions* for some time during the year in some parts of the soil volume that has the reductimorphic features.
 
 | Principal Qualifiers                                             | Supplementary Qualifiers       |
-|-----------------------------------------------|-------------------------|
+|----------------------------------------------|--------------------------|
 | Reductic                                                         | Arenic/ Clayic/ Loamic/ Siltic |
 | Thionic                                                          | Alcalic                        |
 | Leptic                                                           | Andic                          |
@@ -575,7 +575,7 @@ Other soils having:
 2.  *reducing conditions* for some time during the year in some parts of the soil volume that has the reductimorphic features within 60 cm from the mineral soil surface or to *continuous rock*, whichever is shallower.
 
 | Principal Qualifiers                                             | Supplementary Qualifiers       |
-|-----------------------------------------------|-------------------------|
+|----------------------------------------------|--------------------------|
 | Reductic                                                         | Arenic/ Clayic/ Loamic/ Siltic |
 | Thionic                                                          | Endoabruptic                   |
 | Leptic                                                           | Alcalic                        |
