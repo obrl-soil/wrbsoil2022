@@ -5,6 +5,10 @@ book:
   title: "World Reference Base for Soil Resources"
   author: "Lauren O'Brien"
   date: "2022-07-26"
+  logo: cover.png
+  isbn: 979-8-9862451-1-9
+  language: en
+  page-navigation: true
   chapters:
     - index.qmd
     - foreword.qmd
@@ -65,7 +69,6 @@ format:
     theme: cosmo
     citations-hover: true
     footnotes-hover: true
-    page-navigation: true
     number-depth: 3
     date-modified: last-modified
 
