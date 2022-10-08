@@ -93,9 +93,7 @@ Other soils having:
 |                                                     | Vertic                         |
 |                                                     | Vitric                         |
 
-## Technosols[^chapter-04-1] {#key-technosols .unnumbered}
-
-[^chapter-04-1]: Technosols may bury other soils, which can be mentioned behind the Technosol classification using the word 'over' in between (see Chapter 2.4). Alternatively, buried diagnostic horizons or buried layers with a diagnostic property can be indicated with the Thapto- specifier followed by a qualifier. The soil material above a geomembrane or *technic hard material* may also be characterized by qualifiers. If the thickness or depth criteria of these qualifiers are not met, the Supra- specifier can be used (see Chapter 2.3.2).
+## Technosols {#key-technosols .unnumbered}
 
 Other soils:
 
@@ -106,6 +104,10 @@ Other soils:
     b.  not having a layer containing *artefacts* that qualifies as an *argic*, *duric*, *ferralic*, *ferric*, *fragic*, *hydragric*, *natric*, *nitic*, *petrocalcic*, *petroduric*, *petrogypsic*, *petroplinthic*, *pisoplinthic*, *plinthic*, *spodic* or *vertic* horizon starting ≤ 100 cm from the soil surface, unless buried; *and*
     c.  not having a limiting layer, starting ≤ 10 cm from the soil surface; *or*
 2.  having a continuous, very slowly permeable to impermeable, constructed geomembrane of any thickness or *technic hard material* starting ≤ 100 cm from the soil surface.
+
+::: callout-note
+Technosols may bury other soils, which can be mentioned behind the Technosol classification using the word 'over' in between (see Chapter 2.4). Alternatively, buried diagnostic horizons or buried layers with a diagnostic property can be indicated with the Thapto- specifier followed by a qualifier. The soil material above a geomembrane or *technic hard material* may also be characterized by qualifiers. If the thickness or depth criteria of these qualifiers are not met, the Supra- specifier can be used (see Chapter 2.3.2).
+:::
 
 | Principal Qualifiers | Supplementary Qualifiers                              |
 |------------------------------------|------------------------------------|
@@ -198,10 +200,10 @@ Other soils having:
 
 1.  one of the following:
     a.  *continuous rock* starting ≤ 25 cm from the soil surface; *or*
-    b.  \< 20% (by volume, related to the whole soil) fine earth[^chapter-04-2], averaged over a depth of 75 cm from the soil surface or to *continuous rock*, whichever is shallower; *and*
+    b.  \< 20% (by volume, related to the whole soil) fine earth[^chapter-04-1], averaged over a depth of 75 cm from the soil surface or to *continuous rock*, whichever is shallower; *and*
 2.  no *chernic*, *duric*, *petrocalcic*, *petroduric*, *petrogypsic*, *petroplinthic*, *pisoplinthic* or *spodic horizon*.
 
-[^chapter-04-2]: The volume not occupied by fine earth is occupied by coarse fragments or pores.
+[^chapter-04-1]: The volume not occupied by fine earth is occupied by coarse fragments or pores.
 
 | Principal Qualifiers    | Supplementary Qualifiers       |
 |-------------------------|--------------------------------|
@@ -414,9 +416,7 @@ Other soils having one or more of the following:
 |                                                                  | Uterquic                       |
 |                                                                  | Vertic                         |
 
-## Andosols[^chapter-04-3] {#key-andosols .unnumbered}
-
-[^chapter-04-3]: Andosols may bury other soils, which can be mentioned behind the Andosol classification using the word 'over' in between (see Chapter 2.4). Alternatively, buried diagnostic horizons or buried layers with a diagnostic property can be indicated with the Thapto- specifier followed by a qualifier.
+## Andosols {#key-andosols .unnumbered}
 
 Other soils having:
 
@@ -424,6 +424,10 @@ Other soils having:
     a.  ≥ 30 cm, within 100 cm of the soil surface and starting ≤ 25 cm from the soil surface; *or*
     b.  ≥ 60% of the entire thickness of the soil, if a limiting layer starts \> 25 and ≤ 50 cm from the soil surface; *and*
 2.  no *argic*, *ferralic*, *petroplinthic*, *pisoplinthic*, *plinthic* or *spodic horizon* starting ≤ 100 cm of the soil surface, unless buried deeper than 50 cm from the mineral soil surface.
+
+::: callout-note
+Andosols may bury other soils, which can be mentioned behind the Andosol classification using the word 'over' in between (see Chapter 2.4). Alternatively, buried diagnostic horizons or buried layers with a diagnostic property can be indicated with the Thapto- specifier followed by a qualifier.
+:::
 
 | Principal Qualifiers    | Supplementary Qualifiers       |
 |-------------------------|--------------------------------|
@@ -526,7 +530,7 @@ Other soils having an *abrupt textural difference* ≤ 75 cm from the mineral 
 2.  *reducing conditions* for some time during the year in some parts of the soil volume that has the reductimorphic features.
 
 | Principal Qualifiers                                             | Supplementary Qualifiers       |
-|------------------------------------------------|-------------------------|
+|-----------------------------------------------|-------------------------|
 | Reductic                                                         | Arenic/ Clayic/ Loamic/ Siltic |
 | Thionic                                                          | Alcalic                        |
 | Leptic                                                           | Andic                          |
@@ -571,7 +575,7 @@ Other soils having:
 2.  *reducing conditions* for some time during the year in some parts of the soil volume that has the reductimorphic features within 60 cm from the mineral soil surface or to *continuous rock*, whichever is shallower.
 
 | Principal Qualifiers                                             | Supplementary Qualifiers       |
-|------------------------------------------------|-------------------------|
+|-----------------------------------------------|-------------------------|
 | Reductic                                                         | Arenic/ Clayic/ Loamic/ Siltic |
 | Thionic                                                          | Endoabruptic                   |
 | Leptic                                                           | Alcalic                        |
@@ -684,12 +688,12 @@ Other soils having:
 Other soils having:
 
 1.  a *chernic horizon*; *and*
-2.  starting ≤ 50 cm below the lower limit of the *mollic*[^chapter-04-4] *horizon* and, if present, above a *petrocalcic horizon*, a layer with *protocalcic properties*, ≥ 5 cm thick, or a *calcic horizon*; *and*
-3.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-5] of ≥ 50% from the mineral soil surface to the layer with *protocalcic properties* or to the *calcic horizon*, throughout.
+2.  starting ≤ 50 cm below the lower limit of the *mollic*[^chapter-04-2] *horizon* and, if present, above a *petrocalcic horizon*, a layer with *protocalcic properties*, ≥ 5 cm thick, or a *calcic horizon*; *and*
+3.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-3] of ≥ 50% from the mineral soil surface to the layer with *protocalcic properties* or to the *calcic horizon*, throughout.
 
-[^chapter-04-4]: Any *chernic horizon* also meets the criteria of a *mollic horizon*. The *mollic horizon* may extend below the *chernic horizon*.
+[^chapter-04-2]: Any *chernic horizon* also meets the criteria of a *mollic horizon*. The *mollic horizon* may extend below the *chernic horizon*.
 
-[^chapter-04-5]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+[^chapter-04-3]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).
 
 | Principal Qualifiers | Supplementary Qualifiers       |
 |----------------------|--------------------------------|
@@ -722,9 +726,9 @@ Other soils having:
 
 1.  a *mollic horizon*; *and*
 2.  starting ≤ 70 cm of the mineral soil surface and, if present, above a *petrocalcic horizon*, a layer with *protocalcic properties*, ≥ 5 cm thick, or a *calcic horizon*; *and*
-3.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-6] of ≥ 50% from the mineral soil surface to the layer with *protocalcic properties* or to the *calcic horizon*, throughout.
+3.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-4] of ≥ 50% from the mineral soil surface to the layer with *protocalcic properties* or to the *calcic horizon*, throughout.
 
-[^chapter-04-6]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+[^chapter-04-4]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).
 
 | Principal Qualifiers | Supplementary Qualifiers       |
 |----------------------|--------------------------------|
@@ -760,9 +764,9 @@ Other soils having:
 Other soils having:
 
 1.  a *mollic horizon*; *and*
-2.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-7] of ≥ 50% throughout to a depth of 100 cm from the mineral soil surface or to a limiting layer, whichever is shallower.
+2.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-5] of ≥ 50% throughout to a depth of 100 cm from the mineral soil surface or to a limiting layer, whichever is shallower.
 
-[^chapter-04-7]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+[^chapter-04-5]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).
 
 | Principal Qualifiers             | Supplementary Qualifiers       |
 |----------------------------------|--------------------------------|
@@ -976,11 +980,11 @@ Other soils having:
 
 1.  an *argic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
 2.  a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 24 cmol~c~ kg^-1^ clay in some subhorizon of the *argic horizon* within 150 cm of the mineral soil surface; *and*
-3.  exchangeable Al \> exchangeable (Ca+Mg+K+Na)[^chapter-04-8] in half or more of:
+3.  exchangeable Al \> exchangeable (Ca+Mg+K+Na)[^chapter-04-6] in half or more of:
     a.  the depth range between 50 and 100 cm of the mineral soil surface; *or*
     b.  the lower half of the mineral soil above a limiting layer starting ≤ 100 cm from the mineral soil surface, whichever is shallower.
 
-[^chapter-04-8]: Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+[^chapter-04-6]: Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 (Chapter 9.13).
 
 | Principal Qualifiers                  | Supplementary Qualifiers       |
 |---------------------------------------|--------------------------------|
@@ -1060,11 +1064,11 @@ Other soils having:
 Other soils having:
 
 1.  an *argic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
-2.  exchangeable Al \> exchangeable (Ca+Mg+K+Na)[^chapter-04-9] in half or more of:
+2.  exchangeable Al \> exchangeable (Ca+Mg+K+Na)[^chapter-04-7] in half or more of:
     a.  the depth range between 50 and 100 cm of the mineral soil surface; *or*
     b.  the lower half of the mineral soil above a limiting layer starting ≤ 100 cm from the mineral soil surface whichever is shallower.
 
-[^chapter-04-9]: Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+[^chapter-04-7]: Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 (Chapter 9.13).
 
 | Principal Qualifiers                           | Supplementary Qualifiers       |
 |-------------------------------------------|-----------------------------|
@@ -1149,7 +1153,7 @@ Other soils having:
 5.  one or more layers with *andic* or *vitric properties* with a combined thickness of ≥ 15 cm within 100 cm of the soil surface.
 
 | Principal Qualifiers                                     | Supplementary Qualifiers       |
-|---------------------------------------------|--------------------------|
+|---------------------------------------------|---------------------------|
 | Fragic                                                   | Arenic/ Clayic/ Loamic/ Siltic |
 | Thionic                                                  | Geoabruptic                    |
 | Hydragric/ Anthraquic/ Irragric/ Plaggic/ Pretic/ Terric | Aeolic                         |
@@ -1230,15 +1234,17 @@ Other soils having *fluvic material*:
 |                                     | Turbic                         |
 |                                     | Protovertic                    |
 
-## Arenosols[^chapter-04-10] {#key-arenosols .unnumbered}
-
-[^chapter-04-10]: Arenosols may bury other soils, which can be mentioned behind the Arenosol classification using the word 'over' in between (see Chapter 2.4). Alternatively, buried diagnostic horizons or buried layers with a diagnostic property can be indicated with the Thapto- specifier followed by a qualifier. Arenosols may have diagnostic horizons at depths of \> 100 cm. These can be indicated with the Bathy- specifier followed by a qualifier, e.g. Bathyacric (\> 100 cm), Bathyspodic (\> 200 cm).
+## Arenosols {#key-arenosols .unnumbered}
 
 Other soils having within 100 cm of the mineral soil surface:
 
 1.  a weighted average texture class of loamy sand or sand; *and*
 2.  layers of finer texture, if present, with a combined thickness of \< 15 cm; *and*
 3.  layers with ≥ 40% (by volume, related to the whole soil) coarse fragments, if present, with a combined thickness of \< 15 cm.
+
+::: callout-note
+Arenosols may bury other soils, which can be mentioned behind the Arenosol classification using the word 'over' in between (see Chapter 2.4). Alternatively, buried diagnostic horizons or buried layers with a diagnostic property can be indicated with the Thapto- specifier followed by a qualifier. Arenosols may have diagnostic horizons at depths of \> 100 cm. These can be indicated with the Bathy- specifier followed by a qualifier, e.g. Bathyacric (\> 100 cm), Bathyspodic (\> 200 cm).
+:::
 
 | Principal Qualifiers | Supplementary Qualifiers       |
 |----------------------|--------------------------------|
