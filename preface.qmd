@@ -1,4 +1,4 @@
-# Preface
+# Preface {.unnumbered}
 
 The first edition of the World Reference Base for Soil Resources (WRB) was published in 1998, the second in 2006 and the third in 2014. In 2022, at the 22nd World Congress of Soil Science in Glasgow, we present the fourth edition.
 

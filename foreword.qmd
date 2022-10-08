@@ -1,4 +1,4 @@
-# Foreword
+# Foreword {.unnumbered}
 
 The soil is a living, heterogeneous and dynamic system that includes physical, chemical, biological components, and their interactions. Therefore, to assess its quality it is necessary to measure, describe, and classify its properties.
 
@@ -12,5 +12,5 @@ In 2022, within the framework of the IUSS "International Decade of Soils 2015-20
 
 The IUSS appreciates the efforts of all those who participate in the WRB working group and make the presentation of this new edition possible as an IUSS edition free to download from the IUSS website.
 
-Laura Bertha Reyes-Sánchez \
+Laura Bertha Reyes-Sánchez\
 President of the International Union of Soil Sciences (IUSS)

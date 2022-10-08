@@ -2,11 +2,11 @@ project:
   type: book
 
 book:
-  title: "wrbsoil2022"
+  title: "World Reference Base for Soil Resources"
   author: "Lauren O'Brien"
-  date: "26/07/2022"
+  date: "2022-07-26"
   chapters:
-    - verso.qmd
+    - index.qmd
     - foreword.qmd
     - preface.qmd
     - acknowledgements.qmd
@@ -48,29 +48,36 @@ book:
     - chapter-04-31-arenosols.qmd
     - chapter-05.qmd
     - chapter-06.qmd
-    - chapter-08-references.qmd
+    - chapter-07.qmd
+  appendices:
     - annex-01-field-guide.qmd
+    - annex-02-analytical-procedures.qmd
+    - annex-03-horizon-layer-designations.qmd
+    - annex-04-soil-description-sheet.qmd
+    - annex-05-database-setup.qmd
+    - annex-06-rsg-colours.qmd
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-bibliography: references.bib
+#bibliography: references.bib
 
 format:
   html:
     theme: cosmo
-  pdf:
-    documentclass: scrreprt
+    citations-hover: true
+    footnotes-hover: true
+    page-navigation: true
+    number-depth: 3
+    date-modified: last-modified
 
 editor: visual
 
+# global knitr options
+knitr:
+  opts_chunk:
+    comment: "#>"
+    collapse: true
+    out.width: '85%'
+    fig.align: 'center'
+    echo: false
+    fig.show: 'hold'
+    results: 'hold'

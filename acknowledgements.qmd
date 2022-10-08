@@ -1,4 +1,4 @@
-# Acknowledgements
+# Acknowledgements {.unnumbered}
 
 The lead author of the 4th edition of the WRB is Peter Schad (Technical University of Munich, Germany).
 

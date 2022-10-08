@@ -1,7 +1,8 @@
-# List of acronyms
+# List of acronyms {.unnumbered}
 
+|          |                                                                                     |
+|---------------|---------------------------------------------------------|
 | Al~ox~   | Aluminium extracted by an acid ammonium oxalate solution                            |
-|----------|--------------------------------------------------------------|
 | CaCO~3~  | Calcium carbonate                                                                   |
 | CEC      | Cation exchange capacity                                                            |
 | COLE     | Coefficient of linear extensibility                                                 |
@@ -28,3 +29,4 @@
 | UNESCO   | United Nations Educational, Scientific, and Cultural Organization                   |
 | USDA     | United States Department of Agriculture                                             |
 | WRB      | World Reference Base for Soil Resources                                             |
+
