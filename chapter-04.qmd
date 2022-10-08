@@ -1,15 +1,1316 @@
+---
+reference-location: margin
+---
+
 # Key to the Reference Soil Groups with lists of principal and supplementary qualifiers
 
 [**Before using the key, please read the 'Rules for naming soils' (Chapter 2).**]{style="color:red"}
 
 ## Overview of Key to Reference Soil Groups
 
-|            |             |             |           |           |
-|------------|-------------|-------------|-----------|-----------|
-| Histosols  | Solonchaks  | Nitisols    | Gypsisols | Cambisols |
-| Anthrosols | Gleysols    | Ferralsols  | Calcisols | Fluvisols |
-| Technosols | Andosols    | Chernozems  | Retisols  | Arenosols |
-| Cryosols   | Podzols     | Kastanozems | Acrisols  | Regosols  |
-| Leptosols  | Plinthosols | Phaeozems   | Lixisols  |           |
-| Solonetz   | Planosols   | Umbrisols   | Alisols   |           |
-| Vertisols  | Stagnosols  | Durisols    | Luvisols  |           |
+|                               |             |             |           |           |
+|---------------|---------------|---------------|---------------|---------------|
+| [Histosols](#key-histosols)   | Solonchaks  | Nitisols    | Gypsisols | Cambisols |
+| [Anthrosols](#key-anthrosols) | Gleysols    | Ferralsols  | Calcisols | Fluvisols |
+| Technosols                    | Andosols    | Chernozems  | Retisols  | Arenosols |
+| Cryosols                      | Podzols     | Kastanozems | Acrisols  | Regosols  |
+| Leptosols                     | Plinthosols | Phaeozems   | Lixisols  |           |
+| Solonetz                      | Planosols   | Umbrisols   | Alisols   |           |
+| Vertisols                     | Stagnosols  | Durisols    | Luvisols  |           |
+
+## Histosols {#key-histosols .unnumbered}
+
+Soils having one or more of the following:
+
+1.  *organic material* starting ≤ 40 cm from the soil surface and having within 100 cm of the soil surface a combined thickness of:
+    a.  ≥ 40 cm if \< 25% (by volume, related to the fine earth plus all dead plant remnants) consists of moss fibres; *or*
+    b.  ≥ 60 cm; *or*
+2.  *organic material* starting at the soil surface, having a thickness of ≥ 10 cm and directly overlying ice, *continuous rock* or *technic hard material*; *or*
+3.  a layer of coarse fragments that, together with overlying organic material, if present, starts at the soil surface and has a thickness of
+    a.  ≥ 10 cm if overlying *continuous rock* or *technic hard material*; *or*
+    b.  ≥ 40 cm;\
+        \
+        and the major part of the interstices between the coarse fragments is filled with *organic material* and the remaining interstices, if present, are void.
+
+| Principal Qualifiers    | Supplementary Qualifiers |
+|-------------------------|--------------------------|
+| Muusic / Rockic / Mawic | Alcalic/ Dystric/ Eutric |
+| Cryic                   | Aric                     |
+| Thionic                 | Dolomitic/ Calcaric      |
+| Folic                   | Fluvic                   |
+| Floatic                 | Gelic                    |
+| Subaquatic/ Tidalic     | Hyperorganic             |
+| Fibric/ Hemic/ Sapric   | Isolatic                 |
+| Leptic/ Thyric          | Lignic                   |
+| Murshic/ Drainic        | Limnic                   |
+| Ombric/ Rheic           | Limonic                  |
+| Coarsic                 | Mineralic                |
+| Skeletic                | Mulmic                   |
+| Andic                   | Ornithic                 |
+| Vitric                  | Placic                   |
+|                         | Pyric                    |
+|                         | Relocatic                |
+|                         | Salic                    |
+|                         | Sulfidic                 |
+|                         | Technic/ Kalaic          |
+|                         | Tephric                  |
+|                         | Toxic                    |
+|                         | Transportic              |
+|                         | Turbic                   |
+|                         | Wapnic                   |
+
+## Anthrosols {#key-anthrosols .unnumbered}
+
+Other soils having:
+
+1.  a *hortic*, *irragric*, *plaggic* or *terric* horizon, ≥ 50 cm thick; *or*
+2.  an *anthraquic horizon* and an underlying *hydragric horizon* with a combined thickness of ≥ 50 cm; *or*
+3.  a *pretic horizon*, the layers of which have a combined thickness of ≥ 50 cm, within 100 cm of the mineral soil surface.
+
+| Principal Qualifiers                                | Supplementary Qualifiers       |
+|--------------------------------------------|----------------------------|
+| Hydragric/ Irragric/ Hortic/ Plaggic/ Pretic/Terric | Arenic/ Clayic/ Loamic/ Siltic |
+| Gleyic                                              | Glossic/ Retic                 |
+| Stagnic                                             | Acric/ Lixic/ Alic/ Luvic      |
+| Ferralic/ Sideralic                                 | Alcalic/ Dystric/ Eutric       |
+| Andic                                               | Calcic                         |
+|                                                     | Carbonic                       |
+|                                                     | Dolomitic/ Calcaric            |
+|                                                     | Drainic                        |
+|                                                     | Escalic                        |
+|                                                     | Fluvic                         |
+|                                                     | Endoleptic/ Endothyric         |
+|                                                     | Novic                          |
+|                                                     | Oxyaquic                       |
+|                                                     | Panpaic                        |
+|                                                     | Pyric                          |
+|                                                     | Salic                          |
+|                                                     | Skeletic                       |
+|                                                     | Sodic                          |
+|                                                     | Spodic                         |
+|                                                     | Technic/ Kalaic                |
+|                                                     | Toxic                          |
+|                                                     | Vertic                         |
+|                                                     | Vitric                         |
+
+## Technosols[^chapter-04-1] {#key-technosols .unnumbered}
+
+[^chapter-04-1]: Technosols may bury other soils, which can be mentioned behind the Technosol classification using the word 'over' in between (see Chapter 2.4). Alternatively, buried diagnostic horizons or buried layers with a diagnostic property can be indicated with the Thapto- specifier followed by a qualifier. The soil material above a geomembrane or *technic hard material* may also be characterized by qualifiers. If the thickness or depth criteria of these qualifiers are not met, the Supra- specifier can be used (see Chapter 2.3.2).
+
+Other soils:
+
+1.  with all of the following:
+    a.  one or both of the following:
+        i.  having ≥ 20% (by volume, weighted average, related to the whole soil) *artefacts* in the upper 100 cm from the soil surface or to a limiting layer, whichever is shallower; *or*
+        ii. having a layer, ≥ 10 cm thick and starting ≤ 50 cm from the soil surface, with ≥ 80% (by volume, related to the whole soil) artefacts; *and*
+    b.  not having a layer containing *artefacts* that qualifies as an *argic*, *duric*, *ferralic*, *ferric*, *fragic*, *hydragric*, *natric*, *nitic*, *petrocalcic*, *petroduric*, *petrogypsic*, *petroplinthic*, *pisoplinthic*, *plinthic*, *spodic* or *vertic* horizon starting ≤ 100 cm from the soil surface, unless buried; *and*
+    c.  not having a limiting layer, starting ≤ 10 cm from the soil surface; *or*
+2.  having a continuous, very slowly permeable to impermeable, constructed geomembrane of any thickness or *technic hard material* starting ≤ 100 cm from the soil surface.
+
+| Principal Qualifiers | Supplementary Qualifiers                              |
+|------------------------------------|------------------------------------|
+| Ekranic/ Thyric      | Arenic/ Clayic/ Loamic/ Siltic                        |
+| Linic                | Geoabruptic                                           |
+| Urbic                | Alcalic/ Dystric/ Eutric                              |
+| Spolic               | Anthraquic/ Irragric/ Hortic/ Plaggic/ Pretic/ Terric |
+| Garbic               | Archaic                                               |
+| Cryic                | Calcic                                                |
+| Isolatic             | Cambic                                                |
+| Leptic               | Carbonic                                              |
+| Subaquatic/ Tidalic  | Chernic/ Mollic/ Umbric                               |
+| Reductic             | Densic                                                |
+| Coarsic              | Dolomitic/ Calcaric                                   |
+| Gleyic               | Drainic                                               |
+| Stagnic              | Ferritic                                              |
+| Andic                | Fluvic                                                |
+|                      | Folic/ Histic                                         |
+|                      | Fractic                                               |
+|                      | Gelic                                                 |
+|                      | Gypsic                                                |
+|                      | Gypsiric                                              |
+|                      | Humic/ Ochric                                         |
+|                      | Hyperartefactic                                       |
+|                      | Immissic                                              |
+|                      | Laxic                                                 |
+|                      | Lignic                                                |
+|                      | Limnic                                                |
+|                      | Magnesic                                              |
+|                      | Novic                                                 |
+|                      | Oxyaquic                                              |
+|                      | Panpaic/ Raptic                                       |
+|                      | Pyric                                                 |
+|                      | Relocatic                                             |
+|                      | Salic                                                 |
+|                      | Sideralic                                             |
+|                      | Skeletic                                              |
+|                      | Sodic                                                 |
+|                      | Solimovic                                             |
+|                      | Protospodic                                           |
+|                      | Sulfidic                                              |
+|                      | Tephric                                               |
+|                      | Thionic                                               |
+|                      | Toxic                                                 |
+|                      | Transportic                                           |
+|                      | Vitric                                                |
+
+## Cryosols {#key-cryosols .unnumbered}
+
+Other soils having:
+
+1.  a *cryic horizon* starting ≤ 100 cm from the soil surface; *or*
+2.  a *cryic horizon* starting ≤ 200 cm from the soil surface *and*\
+    evidence of cryogenic alteration (cryoturbation, frost heave, cryogenic sorting, thermal cracking, ice segregation, patterned ground, etc.) in some layer within 100 cm of the soil surface.
+
+| Principal Qualifiers                       | Supplementary Qualifiers       |
+|------------------------------------------|------------------------------|
+| Glacic                                     | Arenic/ Clayic/ Loamic/ Siltic |
+| Turbic                                     | Abruptic                       |
+| Subaquatic/ Tidalic/ Reductaquic/ Oxyaquic | Albic                          |
+| Leptic                                     | Alcalic/ Dystric/ Eutric       |
+| Protic                                     | Biocrustic                     |
+| Histic                                     | Dolomitic/ Calcaric            |
+| Andic                                      | Drainic                        |
+| Mollic/ Umbric                             | Epic/ Endic/ Dorsic            |
+| Natric                                     | Evapocrustic/ Puffic           |
+| Salic                                      | Fluvic                         |
+| Spodic                                     | Folic                          |
+| Alic/ Luvic                                | Gypsiric                       |
+| Calcic/ Wapnic                             | Humic/ Ochric                  |
+| Yermic                                     | Limnic                         |
+| Cambic                                     | Magnesic                       |
+| Coarsic                                    | Nechic                         |
+| Skeletic                                   | Novic                          |
+| Haplic                                     | Ornithic                       |
+|                                            | Pyric                          |
+|                                            | Raptic                         |
+|                                            | Sodic                          |
+|                                            | Sulfidic                       |
+|                                            | Technic/ Kalaic                |
+|                                            | Tephric                        |
+|                                            | Thixotropic                    |
+|                                            | Toxic                          |
+|                                            | Transportic                    |
+|                                            | Vitric                         |
+
+## Leptosols {#key-leptosols .unnumbered}
+
+Other soils having:
+
+1.  one of the following:
+    a.  *continuous rock* starting ≤ 25 cm from the soil surface; *or*
+    b.  \< 20% (by volume, related to the whole soil) fine earth[^chapter-04-2], averaged over a depth of 75 cm from the soil surface or to *continuous rock*, whichever is shallower; *and*
+2.  no *chernic*, *duric*, *petrocalcic*, *petroduric*, *petrogypsic*, *petroplinthic*, *pisoplinthic* or *spodic horizon*.
+
+[^chapter-04-2]: The volume not occupied by fine earth is occupied by coarse fragments or pores.
+
+| Principal Qualifiers    | Supplementary Qualifiers       |
+|-------------------------|--------------------------------|
+| Nudilithic/ Lithic      | Arenic/ Clayic/ Loamic/ Siltic |
+| Coarsic                 | Aeolic                         |
+| Skeletic                | Aric                           |
+| Subaquatic/ Tidalic     | Biocrustic                     |
+| Histic                  | Protocalcic                    |
+| Andic                   | Drainic                        |
+| Rendzic/ Mollic/ Umbric | Fluvic                         |
+| Gypsic                  | Gelic                          |
+| Calcic                  | Gleyic                         |
+| Cambic/ Brunic          | Humic/ Ochric                  |
+| Yermic/ Takyric         | Isolatic                       |
+| Folic                   | Lapiadic                       |
+| Gypsiric                | Magnesic                       |
+| Dolomitic/ Calcaric     | Nechic                         |
+| Dystric/ Eutric         | Novic                          |
+|                         | Ornithic                       |
+|                         | Oxyaquic                       |
+|                         | Panpaic/ Raptic                |
+|                         | Placic                         |
+|                         | Protic                         |
+|                         | Pyric                          |
+|                         | Salic                          |
+|                         | Sodic                          |
+|                         | Protospodic                    |
+|                         | Solimovic                      |
+|                         | Stagnic                        |
+|                         | Sulfidic                       |
+|                         | Technic/ Kalaic                |
+|                         | Tephric                        |
+|                         | Toxic                          |
+|                         | Transportic                    |
+|                         | Turbic                         |
+|                         | Protovertic                    |
+|                         | Vitric                         |
+
+## Solonetz {#key-solonetz .unnumbered}
+
+Other soils having a *natric horizon* starting ≤ 100 cm from the mineral soil surface.
+
+| Principal Qualifiers | Supplementary Qualifiers       |
+|----------------------|--------------------------------|
+| Abruptic             | Arenic/ Clayic/ Loamic/ Siltic |
+| Gleyic               | Aeolic                         |
+| Stagnic              | Biocrustic                     |
+| Mollic               | Neocambic                      |
+| Salic                | Chromic                        |
+| Gypsic               | Columnic                       |
+| Petrocalcic          | Cutanic                        |
+| Calcic               | Differentic                    |
+| Vertic               | Duric                          |
+| Yermic/ Takyric      | Epic/ Endic                    |
+| Nudinatric           | Ferric                         |
+| Albic                | Fluvic                         |
+| Haplic               | Fractic                        |
+|                      | Humic/ Ochric                  |
+|                      | Magnesic                       |
+|                      | Hypernatric                    |
+|                      | Novic                          |
+|                      | Oxyaquic                       |
+|                      | Petroplinthic                  |
+|                      | Pyric                          |
+|                      | Raptic                         |
+|                      | Retic                          |
+|                      | Skeletic                       |
+|                      | =Technic/ Kalaic               |
+|                      | Toxic                          |
+|                      | Transportic                    |
+|                      | Turbic                         |
+
+## Vertisols {#key-vertisols .unnumbered}
+
+Other soils having:
+
+1.  a *vertic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
+2.  ≥ 30% clay between the mineral soil surface and the *vertic horizon* throughout; *and*
+3.  *shrink-swell cracks* that start:
+    a.  at the mineral soil surface; *or*
+    b.  at the base of a plough layer; *or*
+    c.  directly below a layer with strong granular structure or strong angular or subangular blocky structure with an aggregate size of ≤ 1 cm (self-mulching surface); *or*
+    d.  directly below a surface crust; *and*\
+        \
+        extend to the *vertic horizon*.
+
+| Principal Qualifiers            | Supplementary Qualifiers   |
+|---------------------------------|----------------------------|
+| Salic                           | Alcalic/ Endodystric       |
+| Sodic                           | Aric                       |
+| Leptic                          | Chernic/ Mollic            |
+| Petroduric/ Duric               | Dolomitic/ Calcaric        |
+| Gypsic                          | Drainic                    |
+| Petrocalcic                     | Hypereutric                |
+| Calcic                          | Epic/ Endic                |
+| Hydragric/ Anthraquic/ Irragric | Ferric                     |
+| Pellic                          | Fractic                    |
+| Chromic                         | Gilgaic                    |
+| Haplic                          | Gleyic                     |
+|                                 | Grumic/ Mazic/ Pelocrustic |
+|                                 | Gypsiric                   |
+|                                 | Humic/ Ochric              |
+|                                 | Magnesic                   |
+|                                 | Mesotrophic                |
+|                                 | Novic                      |
+|                                 | Oxyaquic                   |
+|                                 | Pyric                      |
+|                                 | Raptic                     |
+|                                 | Skeletic                   |
+|                                 | Stagnic                    |
+|                                 | Sulfidic                   |
+|                                 | Technic/ Kalaic            |
+|                                 | Takyric                    |
+|                                 | Thionic                    |
+|                                 | Toxic                      |
+
+## Solonchaks {#key-solonchaks .unnumbered}
+
+Other soils having:
+
+1.  a *salic horizon* starting ≤ 50 cm from the soil surface; *and*
+2.  no *thionic horizon* starting ≤ 50 cm from the soil surface; *and*
+3.  not permanently submerged by water and not located below the line affected by tidal water (i.e. not located below the line of mean high water springs).
+
+| Principal Qualifiers | Supplementary Qualifiers        |
+|----------------------|---------------------------------|
+| Petrosalic           | Arenic/ Clayic/ Loamic/ Siltic  |
+| Gleyic               | Aceric                          |
+| Stagnic              | Aeolic                          |
+| Sodic                | Alcalic                         |
+| Petrogypsic          | Biocrustic                      |
+| Gypsic               | Carbonatic/ Chloridic/ Sulfatic |
+| Petrocalcic          | Densic                          |
+| Calcic               | Dolomitic/ Calcaric             |
+| Leptic               | Drainic                         |
+| Mollic               | Duric                           |
+| Fluvic               | Evapocrustic/ Puffic            |
+| Yermic/ Takyric      | Folic/ Histic                   |
+| Haplic               | Fractic                         |
+|                      | Gelic                           |
+|                      | Gypsiric                        |
+|                      | Humic/ Ochric                   |
+|                      | Magnesic                        |
+|                      | Novic                           |
+|                      | Oxyaquic                        |
+|                      | Pyric                           |
+|                      | Panpaic/ Raptic                 |
+|                      | Hypersalic                      |
+|                      | Skeletic                        |
+|                      | Solimovic                       |
+|                      | Sulfidic                        |
+|                      | Technic/ Kalaic                 |
+|                      | Endothionic                     |
+|                      | Toxic                           |
+|                      | Transportic                     |
+|                      | Turbic                          |
+|                      | Vertic                          |
+
+## Gleysols {#key-gleysols .unnumbered}
+
+Other soils having one or more of the following:
+
+1.  a layer, ≥ 25 cm thick and starting ≤ 40 cm from the mineral soil surface, that has
+    a.  *gleyic properties* throughout; *and*
+    b.  *reducing conditions* in some parts of every sublayer; *or*
+2.  both of the following:
+    a.  a *mollic* or *umbric horizon*, \> 40 cm thick, that has *reducing conditions* in some parts of every sublayer, from 40 cm below the mineral soil surface to the lower limit of the *mollic* or *umbric horizon*; *and*
+    b.  directly underneath the *mollic/umbric horizon*, a layer, ≥ 10 cm thick, that has its lower limit ≥ 65 cm below the mineral soil surface, and that has:
+        i.  *gleyic properties* throughout; *and*
+        ii. *reducing conditions* in some parts of every sublayer; *or*
+3.  permanent saturation by water starting ≤ 40 cm from the mineral soil surface.
+
+| Principal Qualifiers                                             | Supplementary Qualifiers       |
+|------------------------------------|------------------------------------|
+| Thionic                                                          | Acric/ Lixic/ Alic/ Luvic      |
+| Reductic                                                         | Alcalic                        |
+| Subaquatic/ Tidalic                                              | Abruptic                       |
+| Hydragric/ Anthraquic/ Irragric/ Hortic/ Plaggic/ Pretic/ Terric | Arenicolic                     |
+| Histic                                                           | Arenic/ Clayic/ Loamic/ Siltic |
+| Andic                                                            | Aric                           |
+| Vitric                                                           | Drainic                        |
+| Chernic/ Mollic/ Umbric                                          | Ferralic/ Sideralic            |
+| Pisoplinthic/ Plinthic                                           | Folic                          |
+| Stagnic                                                          | Fractic                        |
+| Oxyaquic                                                         | Gelic                          |
+| Oxygleyic/ Reductigleyic                                         | Humic/ Ochric                  |
+| Gypsic                                                           | Inclinic                       |
+| Calcic/ Wapnic                                                   | Laxic                          |
+| Spodic                                                           | Limnic                         |
+| Fluvic                                                           | Limonic                        |
+| Gypsiric                                                         | Magnesic                       |
+| Dolomitic/ Calcaric                                              | Mulmic                         |
+| Dystric/ Eutric                                                  | Nechic                         |
+|                                                                  | Novic                          |
+|                                                                  | Placic                         |
+|                                                                  | Pyric                          |
+|                                                                  | Raptic                         |
+|                                                                  | Relocatic                      |
+|                                                                  | Salic                          |
+|                                                                  | Skeletic                       |
+|                                                                  | Sodic                          |
+|                                                                  | Solimovic                      |
+|                                                                  | Sulfidic                       |
+|                                                                  | Takyric                        |
+|                                                                  | Technic/ Kalaic                |
+|                                                                  | Tephric                        |
+|                                                                  | Toxic                          |
+|                                                                  | Transportic                    |
+|                                                                  | Turbic                         |
+|                                                                  | Uterquic                       |
+|                                                                  | Vertic                         |
+
+## Andosols[^chapter-04-3] {#key-andosols .unnumbered}
+
+[^chapter-04-3]: Andosols may bury other soils, which can be mentioned behind the Andosol classification using the word 'over' in between (see Chapter 2.4). Alternatively, buried diagnostic horizons or buried layers with a diagnostic property can be indicated with the Thapto- specifier followed by a qualifier.
+
+Other soils having:
+
+1.  one or more layers with *andic* or *vitric properties* with a combined thickness of:
+    a.  ≥ 30 cm, within 100 cm of the soil surface and starting ≤ 25 cm from the soil surface; *or*
+    b.  ≥ 60% of the entire thickness of the soil, if a limiting layer starts \> 25 and ≤ 50 cm from the soil surface; *and*
+2.  no *argic*, *ferralic*, *petroplinthic*, *pisoplinthic*, *plinthic* or *spodic horizon* starting ≤ 100 cm of the soil surface, unless buried deeper than 50 cm from the mineral soil surface.
+
+| Principal Qualifiers    | Supplementary Qualifiers       |
+|-------------------------|--------------------------------|
+| Aluandic/ Silandic      | Arenic/ Clayic/ Loamic/ Siltic |
+| Vitric                  | Protoandic                     |
+| Leptic                  | Aric                           |
+| Hydragric/ Anthraquic   | Dolomitic/ Calcaric            |
+| Gleyic                  | Drainic                        |
+| Hydric                  | Eutrosilic/ Acroxic            |
+| Histic                  | Fluvic                         |
+| Chernic/ Mollic/ Umbric | Folic                          |
+| Petroduric/ Duric       | Fragic                         |
+| Gypsic                  | Gelic                          |
+| Calcic                  | Humic                          |
+| Tephric                 | Mulimic                        |
+| Aeolic                  | Nechic                         |
+| Skeletic                | Novic                          |
+| Dystric/ Eutric         | Oxyaquic                       |
+|                         | Panpaic                        |
+|                         | Placic                         |
+|                         | Posic                          |
+|                         | Pyric                          |
+|                         | Reductic                       |
+|                         | Sideralic                      |
+|                         | Sodic                          |
+|                         | Solimovic                      |
+|                         | Protospodic                    |
+|                         | Technic/ Kalaic                |
+|                         | Thixotropic                    |
+|                         | Toxic                          |
+|                         | Transportic                    |
+|                         | Turbic                         |
+
+## Podzols {#key-podzols .unnumbered}
+
+Other soils having a *spodic horizon* starting ≤ 200 cm from the mineral soil surface.
+
+| Principal Qualifiers            | Supplementary Qualifiers |
+|---------------------------------|--------------------------|
+| Ortsteinic                      | Arenic/ Loamic/ Siltic   |
+| Carbic/ Rustic                  | Aric                     |
+| Albic/ Entic                    | Abruptic                 |
+| Leptic                          | Neocambic                |
+| Hortic/ Plaggic/ Pretic/ Terric | Cordic                   |
+| Histic                          | Densic                   |
+| Gleyic                          | Drainic                  |
+| Andic                           | Epic/ Endic/ Dorsic      |
+| Vitric                          | Eutric                   |
+| Stagnic                         | Folic                    |
+| Anthromollic/ Umbric            | Fragic                   |
+| Glossic/ Retic                  | Gelic                    |
+| Acric/ Alic                     | Novic                    |
+| Coarsic                         | Ornithic                 |
+| Skeletic                        | Oxyaquic                 |
+|                                 | Placic                   |
+|                                 | Pyric                    |
+|                                 | Raptic                   |
+|                                 | Sideralic                |
+|                                 | Hyperspodic              |
+|                                 | Technic/ Kalaic          |
+|                                 | Toxic                    |
+|                                 | Transportic              |
+|                                 | Turbic                   |
+
+## Plinthosols {#key-plinthosols .unnumbered}
+
+Other soils having a *plinthic*, *pisoplinthic* or *petroplinthic horizon* starting ≤ 100 cm from the mineral soil surface.
+
+| Principal Qualifiers | Supplementary Qualifiers       |
+|----------------------|--------------------------------|
+| Petric               | Arenic/ Clayic/ Loamic/ Siltic |
+| Pisoplinthic         | Abruptic                       |
+| Gibbsic              | Acric/ Lixic                   |
+| Stagnic              | Aric                           |
+| Geric                | Cohesic                        |
+| Nitic                | Drainic                        |
+| Histic               | Duric                          |
+| Mollic/ Umbric       | Dystric/ Eutric                |
+| Albic                | Epic/ Endic                    |
+| Coarsic              | Folic                          |
+| Haplic               | Fractic                        |
+|                      | Humic/ Ochric                  |
+|                      | Isopteric                      |
+|                      | Magnesic                       |
+|                      | Novic                          |
+|                      | Oxyaquic                       |
+|                      | Posic                          |
+|                      | Pyric                          |
+|                      | Raptic                         |
+|                      | Saprolithic                    |
+|                      | Technic/ Kalaic                |
+|                      | Toxic                          |
+|                      | Transportic                    |
+
+## Planosols {#key-planosols .unnumbered}
+
+Other soils having an *abrupt textural difference* ≤ 75 cm from the mineral soil surface and having within the range of 5 cm directly above or below the *abrupt textural difference*:
+
+1.  *stagnic properties*, in which the area of reductimorphic features plus the area of oximorphic features is ≥ 50% (weighted average) of the total area; *and*
+2.  *reducing conditions* for some time during the year in some parts of the soil volume that has the reductimorphic features.
+
+| Principal Qualifiers                                             | Supplementary Qualifiers       |
+|------------------------------------------------|-------------------------|
+| Reductic                                                         | Arenic/ Clayic/ Loamic/ Siltic |
+| Thionic                                                          | Alcalic                        |
+| Leptic                                                           | Andic                          |
+| Hydragric/ Anthraquic/ Irragric/ Hortic/ Plaggic/ Pretic/ Terric | Aric                           |
+| Histic                                                           | Cambic                         |
+| Gleyic                                                           | Capillaric                     |
+| Chernic/ Mollic/ Umbric                                          | Chromic                        |
+| Albic                                                            | Cohesic                        |
+| Fluvic                                                           | Columnic                       |
+| Vertic                                                           | Densic                         |
+| Glossic/ Retic                                                   | Drainic                        |
+| Acric/ Lixic/ Alic/ Luvic                                        | Ferralic/ Sideralic            |
+| Petroduric/ Duric                                                | Ferric                         |
+| Calcic                                                           | Folic                          |
+| Dolomitic/ Calcaric                                              | Fragic                         |
+| Dystric/ Eutric                                                  | Gelic                          |
+|                                                                  | Gelistagnic                    |
+|                                                                  | Geric                          |
+|                                                                  | Humic/ Ochric                  |
+|                                                                  | Inclinic                       |
+|                                                                  | Magnesic                       |
+|                                                                  | Mochipic                       |
+|                                                                  | Nechic                         |
+|                                                                  | Novic                          |
+|                                                                  | Pyric                          |
+|                                                                  | Raptic                         |
+|                                                                  | Skeletic                       |
+|                                                                  | Sodic                          |
+|                                                                  | Solimovic                      |
+|                                                                  | Sulfidic                       |
+|                                                                  | Technic/ Kalaic                |
+|                                                                  | Toxic                          |
+|                                                                  | Transportic                    |
+|                                                                  | Turbic                         |
+|                                                                  | Uterquic                       |
+
+## Stagnosols {#key-stagnosols .unnumbered}
+
+Other soils having:
+
+1.  *stagnic properties*, in which the area of reductimorphic features plus the area of oximorphic features is ≥ one third (weighted average) of the area from the mineral soil surface to a depth of 60 cm or to *continuous rock*, whichever is shallower; *and*
+2.  *reducing conditions* for some time during the year in some parts of the soil volume that has the reductimorphic features within 60 cm from the mineral soil surface or to *continuous rock*, whichever is shallower.
+
+| Principal Qualifiers                                             | Supplementary Qualifiers       |
+|------------------------------------------------|-------------------------|
+| Reductic                                                         | Arenic/ Clayic/ Loamic/ Siltic |
+| Thionic                                                          | Endoabruptic                   |
+| Leptic                                                           | Alcalic                        |
+| Hydragric/ Anthraquic/ Irragric/ Hortic/ Plaggic/ Pretic/ Terric | Aric                           |
+| Histic                                                           | Cambic                         |
+| Gleyic                                                           | Capillaric                     |
+| Chernic/ Mollic/ Umbric                                          | Cohesic                        |
+| Albic                                                            | Drainic                        |
+| Fluvic                                                           | Ferralic/ Sideralic            |
+| Vertic                                                           | Ferric                         |
+| Glossic/ Retic                                                   | Folic                          |
+| Acric/ Lixic/ Alic/ Luvic                                        | Fragic                         |
+| Calcic                                                           | Gelic                          |
+| Dolomitic/ Calcaric                                              | Gelistagnic                    |
+| Dystric/ Eutric                                                  | Geric                          |
+|                                                                  | Humic/ Ochric                  |
+|                                                                  | Inclinic                       |
+|                                                                  | Magnesic                       |
+|                                                                  | Mochipic                       |
+|                                                                  | Nechic                         |
+|                                                                  | Nitic                          |
+|                                                                  | Novic                          |
+|                                                                  | Ornithic                       |
+|                                                                  | Pyric                          |
+|                                                                  | Raptic                         |
+|                                                                  | Rhodic/ Chromic                |
+|                                                                  | Skeletic                       |
+|                                                                  | Sodic                          |
+|                                                                  | Solimovic                      |
+|                                                                  | Protospodic                    |
+|                                                                  | Sulfidic                       |
+|                                                                  | Technic/ Kalaic                |
+|                                                                  | Toxic                          |
+|                                                                  | Transportic                    |
+|                                                                  | Turbic                         |
+|                                                                  | Uterquic                       |
+
+## Nitisols {#key-nitisols .unnumbered}
+
+Other soils having:
+
+1.  a *nitic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
+2.  from the mineral soil surface to the *nitic horizon*, a clay content that is at least half of the weighted average clay content of the *nitic horizon*; *and*
+3.  no *vertic horizon* starting above or at the upper limit of the *nitic horizon*.
+
+| Principal Qualifiers          | Supplementary Qualifiers |
+|-------------------------------|--------------------------|
+| Ferralic/ Sideralic           | Andic                    |
+| Ferritic                      | Aric                     |
+| Leptic                        | Densic                   |
+| Rhodic/ Xanthic               | Epic/ Endic              |
+| Geric                         | Ferric                   |
+| Hydragric/ Anthraquic/ Pretic | Endogleyic               |
+| Profundihumic                 | Humic/ Ochric            |
+| Mollic/ Umbric                | Magnesic                 |
+| Acric/ Lixic/ Alic/ Luvic     | Novic                    |
+| Dystric/ Eutric               | Oxyaquic                 |
+|                               | Posic                    |
+|                               | Pyric                    |
+|                               | Raptic                   |
+|                               | Sodic                    |
+|                               | Endostagnic              |
+|                               | Technic/ Kalaic          |
+|                               | Toxic                    |
+|                               | Transportic              |
+
+## Ferralsols {#key-ferralsols .unnumbered}
+
+Other soils having:
+
+1.  a *ferralic horizon* starting ≤ 150 cm from the mineral soil surface; *and*
+2.  no *argic horizon* starting above or at the upper limit of the *ferralic horizon*, unless the *argic horizon* has, in its upper 30 cm or throughout, whichever is shallower, one or more of the following:
+    a.  \< 10% water-dispersible clay; *or*
+    b.  a ΔpH (pH~KCl~ - pH~water~) ≥ 0 (both in 1:1 solution); *or*
+    c.  ≥ 1.4% *soil organic carbon*.
+
+| Principal Qualifiers | Supplementary Qualifiers       |
+|----------------------|--------------------------------|
+| Ferritic             | Arenic/ Clayic/ Loamic/ Siltic |
+| Gibbsic              | Abruptic                       |
+| Rhodic/ Xanthic      | Activic                        |
+| Geric                | Andic                          |
+| Nitic                | Aric                           |
+| Pretic               | Cohesic                        |
+| Gleyic               | Densic                         |
+| Stagnic              | Dystric/ Eutric                |
+| Profundihumic        | Epic/ Endic/ Dorsic            |
+| Mollic/ Umbric       | Ferric                         |
+| Acric/ Lixic         | Fluvic                         |
+| Fractic              | Folic                          |
+| Skeletic             | Gleyic                         |
+| Haplic               | Humic/ Ochric                  |
+|                      | Isopteric                      |
+|                      | Litholinic                     |
+|                      | Novic                          |
+|                      | Oxyaquic                       |
+|                      | Posic                          |
+|                      | Pyric                          |
+|                      | Raptic                         |
+|                      | Saprolithic                    |
+|                      | Solimovic                      |
+|                      | Sombric                        |
+|                      | Stagnic                        |
+|                      | Technic/ Kalaic                |
+|                      | Toxic                          |
+|                      | Transportic                    |
+
+## Chernozems {#key-chernozems .unnumbered}
+
+Other soils having:
+
+1.  a *chernic horizon*; *and*
+2.  starting ≤ 50 cm below the lower limit of the *mollic*[^chapter-04-4] *horizon* and, if present, above a *petrocalcic horizon*, a layer with *protocalcic properties*, ≥ 5 cm thick, or a *calcic horizon*; *and*
+3.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-5] of ≥ 50% from the mineral soil surface to the layer with *protocalcic properties* or to the *calcic horizon*, throughout.
+
+[^chapter-04-4]: Any *chernic horizon* also meets the criteria of a *mollic horizon*. The *mollic horizon* may extend below the *chernic horizon*.
+
+[^chapter-04-5]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+
+| Principal Qualifiers | Supplementary Qualifiers       |
+|----------------------|--------------------------------|
+| Petroduric/ Duric    | Arenic/ Clayic/ Loamic/ Siltic |
+| Petrocalcic          | Andic                          |
+| Leptic               | Aric                           |
+| Hortic               | Densic                         |
+| Gleyic               | Fluvic                         |
+| Vertic               | Fractic                        |
+| Greyzemic            | Humic                          |
+| Luvic                | Novic                          |
+| Calcic               | Oxyaquic                       |
+| Cambic               | Pachic                         |
+| Skeletic             | Pyric                          |
+| Vermic               | Raptic                         |
+| Tonguic              | Salic                          |
+| Haplic               | Sodic                          |
+|                      | Solimovic                      |
+|                      | Sombric                        |
+|                      | Stagnic                        |
+|                      | Technic/ Kalaic                |
+|                      | Tephric                        |
+|                      | Transportic                    |
+|                      | Turbic                         |
+|                      | Vitric                         |
+
+## Kastanozems {#key-kastanozems .unnumbered}
+
+Other soils having:
+
+1.  a *mollic horizon*; *and*
+2.  starting ≤ 70 cm of the mineral soil surface and, if present, above a *petrocalcic horizon*, a layer with *protocalcic properties*, ≥ 5 cm thick, or a *calcic horizon*; *and*
+3.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-6] of ≥ 50% from the mineral soil surface to the layer with *protocalcic properties* or to the *calcic horizon*, throughout.
+
+[^chapter-04-6]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+
+| Principal Qualifiers | Supplementary Qualifiers       |
+|----------------------|--------------------------------|
+| Someric              | Arenic/ Clayic/ Loamic/ Siltic |
+| Petroduric/ Duric    | Andic                          |
+| Petrogypsic          | Anthric                        |
+| Gypsic               | Aric                           |
+| Petrocalcic          | Chromic                        |
+| Leptic               | Densic                         |
+| Hortic/ Terric       | Fractic                        |
+| Gleyic               | Gelic                          |
+| Fluvic               | Humic                          |
+| Vertic               | Laxic                          |
+| Luvic                | Magnesic                       |
+| Calcic               | Novic                          |
+| Cambic/ Brunic       | Oxyaquic                       |
+| Skeletic             | Pachic                         |
+| Tonguic              | Panpaic/ Raptic                |
+| Haplic               | Pyric                          |
+|                      | Salic                          |
+|                      | Sodic                          |
+|                      | Solimovic                      |
+|                      | Sombric                        |
+|                      | Stagnic                        |
+|                      | Technic/ Kalaic                |
+|                      | Tephric                        |
+|                      | Transportic                    |
+|                      | Turbic                         |
+|                      | Vitric                         |
+
+## Phaeozems {#key-phaeozems .unnumbered}
+
+Other soils having:
+
+1.  a *mollic horizon*; *and*
+2.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-7] of ≥ 50% throughout to a depth of 100 cm from the mineral soil surface or to a limiting layer, whichever is shallower.
+
+[^chapter-04-7]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+
+| Principal Qualifiers             | Supplementary Qualifiers       |
+|----------------------------------|--------------------------------|
+| Rendzic                          | Arenic/ Clayic/ Loamic/ Siltic |
+| Chernic/ Someric                 | Abruptic                       |
+| Mulmic                           | Albic                          |
+| Petroduric/ Duric                | Andic                          |
+| Petrocalcic                      | Anthric                        |
+| Endocalcic                       | Aric                           |
+| Leptic                           | Columnic                       |
+| Irragric/ Hortic/ Pretic/ Terric | Densic                         |
+| Gleyic                           | Ferralic/ Sideralic            |
+| Stagnic                          | Folic                          |
+| Fluvic                           | Fractic                        |
+| Vertic                           | Humic                          |
+| Greyzemic                        | Isolatic                       |
+| Glossic/ Retic                   | Laxic                          |
+| Lixic/ Luvic                     | Limonic                        |
+| Cambic/ Brunic                   | Magnesic                       |
+| Skeletic                         | Nechic                         |
+| Vermic                           | Novic                          |
+| Tonguic                          | Oxyaquic                       |
+| Gypsiric                         | Pachic                         |
+| Dolomitic/ Calcaric              | Panpaic/ Raptic                |
+| Haplic                           | Pyric                          |
+|                                  | Relocatic                      |
+|                                  | Rhodic/ Chromic                |
+|                                  | Salic                          |
+|                                  | Sodic                          |
+|                                  | Solimovic                      |
+|                                  | Sombric                        |
+|                                  | Technic/ Kalaic                |
+|                                  | Tephric                        |
+|                                  | Transportic                    |
+|                                  | Turbic                         |
+|                                  | Vitric                         |
+
+## Umbrisols {#key-umbrisols .unnumbered}
+
+Other soils having an *umbric* or *mollic* or *hortic horizon*.
+
+| Principal Qualifiers            | Supplementary Qualifiers       |
+|---------------------------------|--------------------------------|
+| Hortic/ Plaggic/ Pretic/ Terric | Arenic/ Clayic/ Loamic/ Siltic |
+| Chernic/ Mollic/ Someric        | Abruptic                       |
+| Mulmic                          | Albic                          |
+| Fragic                          | Andic                          |
+| Leptic                          | Anthric                        |
+| Gleyic                          | Aric                           |
+| Stagnic                         | Densic                         |
+| Fluvic                          | Drainic                        |
+| Greyzemic                       | Hyperdystric/ Eutric           |
+| Glossic/ Retic                  | Ferralic/ Sideralic            |
+| Acric/ Lixic/ Alic/ Luvic       | Folic                          |
+| Cambic/ Brunic                  | Gelic                          |
+| Skeletic                        | Humic                          |
+| Tonguic                         | Isolatic                       |
+| Endodolomitic/ Endocalcaric     | Laxic                          |
+| Haplic                          | Limonic                        |
+|                                 | Nechic                         |
+|                                 | Novic                          |
+|                                 | Ornithic                       |
+|                                 | Oxyaquic                       |
+|                                 | Pachic                         |
+|                                 | Panpaic/ Raptic                |
+|                                 | Placic                         |
+|                                 | Pyric                          |
+|                                 | Relocatic                      |
+|                                 | Rhodic/ Chromic                |
+|                                 | Solimovic                      |
+|                                 | Sombric                        |
+|                                 | Protospodic                    |
+|                                 | Sulfidic                       |
+|                                 | Technic/ Kalaic                |
+|                                 | Thionic                        |
+|                                 | Toxic                          |
+|                                 | Transportic                    |
+|                                 | Turbic                         |
+|                                 | Vitric                         |
+
+## Durisols {#key-durisols .unnumbered}
+
+Other soils having a *petroduric* or *duric horizon* starting ≤ 100 cm from the mineral soil surface.
+
+| Principal Qualifiers      | Supplementary Qualifiers       |
+|---------------------------|--------------------------------|
+| Petric                    | Arenic/ Clayic/ Loamic/ Siltic |
+| Petrogypsic               | Aeolic                         |
+| Gypsic                    | Aric                           |
+| Petrocalcic               | Biocrustic                     |
+| Calcic                    | Chromic                        |
+| Leptic                    | Cohesic                        |
+| Acric/ Lixic/ Alic/ Luvic | Epic/ Endic                    |
+| Cambic                    | Gleyic                         |
+| Coarsic                   | Humic/ Ochric                  |
+| Fractic                   | Isopteric                      |
+| Skeletic                  | Magnesic                       |
+| Yermic/ Takyric           | Novic                          |
+| Andic                     | Pyric                          |
+| Gypsiric                  | Raptic                         |
+| Calcaric                  | Salic                          |
+| Dystric/ Eutric           | Sideralic                      |
+|                           | Sodic                          |
+|                           | Stagnic                        |
+|                           | Technic/ Kalaic                |
+|                           | Toxic                          |
+|                           | Transportic                    |
+|                           | Vertic                         |
+
+## Gypsisols {#key-gypsisols .unnumbered}
+
+Other soils having:
+
+1.  a *gypsic* or *petrogypsic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
+2.  no *argic horizon* starting above or at the upper limit of the *gypsic* or *petrogypsic horizon*, unless the *argic horizon* contains secondary gypsum or secondary carbonates, throughout.
+
+| Principal Qualifiers | Supplementary Qualifiers       |
+|----------------------|--------------------------------|
+| Petric               | Arenic/ Clayic/ Loamic/ Siltic |
+| Petrocalcic          | Abruptic                       |
+| Calcic               | Aeolic                         |
+| Leptic               | Aric                           |
+| Gleyic               | Biocrustic                     |
+| Stagnic              | Epic/ Endic                    |
+| Lixic/ Luvic         | Fluvic                         |
+| Cambic               | Hypergypsic                    |
+| Coarsic              | Humic/ Ochric                  |
+| Fractic              | Isopteric                      |
+| Skeletic             | Naramic                        |
+| Yermic/ Takyric      | Novic                          |
+| Calcaric             | Panpaic/ Raptic                |
+| Haplic               | Pyric                          |
+|                      | Salic                          |
+|                      | Sodic                          |
+|                      | Technic/ Kalaic                |
+|                      | Toxic                          |
+|                      | Transportic                    |
+|                      | Turbic                         |
+|                      | Vertic                         |
+
+## Calcisols {#key-calcisols .unnumbered}
+
+Other soils having:
+
+1.  a *calcic* or *petrocalcic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
+2.  no *argic horizon* starting above or at the upper limit of the *calcic* or *petrocalcic horizon* unless the *argic horizon* contains secondary carbonates, throughout.
+
+| Principal Qualifiers | Supplementary Qualifiers       |
+|----------------------|--------------------------------|
+| Petric               | Arenic/ Clayic/ Loamic/ Siltic |
+| Leptic               | Abruptic                       |
+| Gleyic               | Aeolic                         |
+| Stagnic              | Aric                           |
+| Lixic/ Luvic         | Biocrustic                     |
+| Cambic               | Hypercalcic                    |
+| Coarsic              | Densic                         |
+| Fractic              | Epic/ Endic                    |
+| Skeletic             | Fluvic                         |
+| Yermic/ Takyric      | Gelic                          |
+| Gypsiric             | Protogypsic                    |
+| Haplic               | Humic/ Ochric                  |
+|                      | Isopteric                      |
+|                      | Magnesic                       |
+|                      | Naramic                        |
+|                      | Novic                          |
+|                      | Panpaic/ Raptic                |
+|                      | Pyric                          |
+|                      | Rhodic/ Chromic                |
+|                      | Salic                          |
+|                      | Sodic                          |
+|                      | Solimovic                      |
+|                      | Technic                        |
+|                      | Toxic/ Kalaic                  |
+|                      | Transportic                    |
+|                      | Turbic                         |
+|                      | Vertic                         |
+
+## Retisols {#key-retisols .unnumbered}
+
+Other soils having an *argic horizon* starting ≤ 100 cm from the mineral soil surface and having *retic properties* at its upper boundary.
+
+| Principal Qualifiers        | Supplementary Qualifiers       |
+|-----------------------------|--------------------------------|
+| Abruptic                    | Arenic/ Clayic/ Loamic/ Siltic |
+| Fragic                      | Aric                           |
+| Glossic                     | Cutanic                        |
+| Leptic                      | Densic                         |
+| Plaggic/ Pretic/ Terric     | Differentic                    |
+| Histic                      | Drainic                        |
+| Gleyic                      | Epic/ Endic                    |
+| Stagnic                     | Folic                          |
+| Stagnic                     | Gelic                          |
+| Sideralic                   | Humic/ Ochric                  |
+| Nudiargic                   | Lamellic                       |
+| Neocambic                   | Nechic                         |
+| Albic                       | Novic                          |
+| Calcic                      | Oxyaquic                       |
+| Skeletic                    | Profondic                      |
+| Endodolomitic/ Endocalcaric | Pyric                          |
+| Dystric/ Eutric             | Raptic                         |
+|                             | Solimovic                      |
+|                             | Protospodic                    |
+|                             | Technic/ Kalaic                |
+|                             | Toxic                          |
+|                             | Transportic                    |
+|                             | Turbic                         |
+
+## Acrisols {#key-acrisols .unnumbered}
+
+Other soils having:
+
+1.  an *argic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
+2.  a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 24 cmol~c~ kg^-1^ clay in some subhorizon of the *argic horizon* within 150 cm of the mineral soil surface; *and*
+3.  exchangeable Al \> exchangeable (Ca+Mg+K+Na)[^chapter-04-8] in half or more of:
+    a.  the depth range between 50 and 100 cm of the mineral soil surface; *or*
+    b.  the lower half of the mineral soil above a limiting layer starting ≤ 100 cm from the mineral soil surface, whichever is shallower.
+
+[^chapter-04-8]: Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+
+| Principal Qualifiers                  | Supplementary Qualifiers       |
+|---------------------------------------|--------------------------------|
+| Abruptic                              | Arenic/ Clayic/ Loamic/ Siltic |
+| Fragic                                | Andic                          |
+| Leptic                                | Aric                           |
+| Hydragric/ Anthraquic/ Pretic/ Terric | Neocambic/ Neobrunic           |
+| Gleyic                                | Cohesic                        |
+| Stagnic                               | Cutanic                        |
+| Ferralic                              | Densic                         |
+| Rhodic/ Chromic/ Xanthic              | Differentic                    |
+| Nudiargic                             | Hyperdystric/ Epieutric        |
+| Lamellic                              | Epic/ Endic                    |
+| Albic                                 | Geric                          |
+| Ferric                                | Gibbsic                        |
+| Skeletic                              | Humic/ Ochric                  |
+| Haplic                                | Magnesic                       |
+|                                       | Nechic                         |
+|                                       | Nitic                          |
+|                                       | Novic                          |
+|                                       | Oxyaquic                       |
+|                                       | Posic                          |
+|                                       | Profondic                      |
+|                                       | Pyric                          |
+|                                       | Raptic                         |
+|                                       | Saprolithic                    |
+|                                       | Sodic                          |
+|                                       | Solimovic                      |
+|                                       | Sombric                        |
+|                                       | Technic/ Kalaic                |
+|                                       | Toxic                          |
+|                                       | Transportic                    |
+|                                       | Vitric                         |
+
+## Lixisols {#key-lixisols .unnumbered}
+
+Other soils having:
+
+1.  an *argic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
+2.  a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 24 cmol~c~ kg-1 clay in some subhorizon of the *argic horizon* within 150 cm of the mineral soil surface.
+
+| Principal Qualifiers                  | Supplementary Qualifiers       |
+|---------------------------------------|--------------------------------|
+| Abruptic                              | Arenic/ Clayic/ Loamic/ Siltic |
+| Fragic                                | Andic                          |
+| Petrocalcic                           | Aric                           |
+| Leptic                                | Neocambic/ Neobrunic           |
+| Hydragric/ Anthraquic/ Pretic/ Terric | Cohesic                        |
+| Gleyic                                | Columnic                       |
+| Stagnic                               | Cutanic                        |
+| Ferralic                              | Densic                         |
+| Rhodic/ Chromic/ Xanthic              | Differentic                    |
+| Nudiargic                             | Epidystric/ Hypereutric        |
+| Lamellic                              | Epic/ Endic                    |
+| Albic                                 | Fractic                        |
+| Ferric                                | Geric                          |
+| Gypsic                                | Gibbsic                        |
+| Calcic                                | Humic/ Ochric                  |
+| Yermic/ Takyric                       | Magnesic                       |
+| Skeletic                              | Nechic                         |
+| Haplic                                | Nitic                          |
+|                                       | Novic                          |
+|                                       | Oxyaquic                       |
+|                                       | Profondic                      |
+|                                       | Pyric                          |
+|                                       | Raptic                         |
+|                                       | Saprolithic                    |
+|                                       | Sodic                          |
+|                                       | Solimovic                      |
+|                                       | Technic/ Kalaic                |
+|                                       | Toxic                          |
+|                                       | Transportic                    |
+|                                       | Vitric                         |
+
+## Alisols {#key-alisols .unnumbered}
+
+Other soils having:
+
+1.  an *argic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
+2.  exchangeable Al \> exchangeable (Ca+Mg+K+Na)[^chapter-04-9] in half or more of:
+    a.  the depth range between 50 and 100 cm of the mineral soil surface; *or*
+    b.  the lower half of the mineral soil above a limiting layer starting ≤ 100 cm from the mineral soil surface whichever is shallower.
+
+[^chapter-04-9]: Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+
+| Principal Qualifiers                           | Supplementary Qualifiers       |
+|-------------------------------------------|-----------------------------|
+| Abruptic                                       | Arenic/ Clayic/ Loamic/ Siltic |
+| Fragic                                         | Andic                          |
+| Leptic                                         | Aric                           |
+| Hydragric/ Anthraquic/ Plaggic/ Pretic/ Terric | Neocambic/ Neobrunic           |
+| Gleyic                                         | Cutanic                        |
+| Stagnic                                        | Densic                         |
+| Vertic                                         | Differentic                    |
+| Rhodic/ Chromic                                | Hyperdystric/ Epieutric        |
+| Nudiargic                                      | Epic/ Endic                    |
+| Lamellic                                       | Fluvic                         |
+| Albic                                          | Folic                          |
+| Ferric                                         | Gelic                          |
+| Skeletic                                       | Humic/ Ochric                  |
+| Haplic                                         | Hyperalic                      |
+|                                                | Magnesic                       |
+|                                                | Nechic                         |
+|                                                | Nitic                          |
+|                                                | Novic                          |
+|                                                | Oxyaquic                       |
+|                                                | Profondic                      |
+|                                                | Pyric                          |
+|                                                | Raptic                         |
+|                                                | Solimovic                      |
+|                                                | Sodic                          |
+|                                                | Protospodic                    |
+|                                                | Technic/ Kalaic                |
+|                                                | Toxic                          |
+|                                                | Transportic                    |
+|                                                | Turbic                         |
+|                                                | Vitric                         |
+
+## Luvisols {#key-luvisols .unnumbered}
+
+Other soils having an *argic horizon* starting ≤ 100 cm from the mineral soil surface.
+
+| Principal Qualifiers                            | Supplementary Qualifiers       |
+|------------------------------------|------------------------------------|
+| Abruptic                                        | Arenic/ Clayic/ Loamic/ Siltic |
+| Fragic                                          | Andic                          |
+| Petrocalcic                                     | Aric                           |
+| Leptic                                          | Neocambic /Neobrunic           |
+| Hydragric/ Anthraquic/ Irragric/ Pretic/ Terric | Columnic                       |
+| Gleyic                                          | Cutanic                        |
+| Stagnic                                         | Densic                         |
+| Vertic                                          | Differentic                    |
+| Rhodic/ Chromic                                 | Epidystric/ Hypereutric        |
+| Nudiargic                                       | Epic/ Endic                    |
+| Lamellic                                        | Escalic                        |
+| Albic                                           | Fluvic                         |
+| Ferric                                          | Fractic                        |
+| Gypsic                                          | Gelic                          |
+| Calcic                                          | Humic/ Ochric                  |
+| Yermic/ Takyric                                 | Magnesic                       |
+| Skeletic                                        | Nechic                         |
+| Dolomitic/ Calcaric                             | Nitic                          |
+| Haplic                                          | Novic                          |
+|                                                 | Oxyaquic                       |
+|                                                 | Profondic                      |
+|                                                 | Pyric                          |
+|                                                 | Raptic                         |
+|                                                 | Sodic                          |
+|                                                 | Solimovic                      |
+|                                                 | Technic/ Kalaic                |
+|                                                 | Toxic                          |
+|                                                 | Transportic                    |
+|                                                 | Turbic                         |
+|                                                 | Vitric                         |
+
+## Cambisols {#key-cambisols .unnumbered}
+
+Other soils having:
+
+1.  a *cambic horizon*
+    a.  a\. starting ≤ 50 cm from the mineral soil surface; *and*
+    b.  having its lower limit ≥ 25 cm from the mineral soil surface; *or*
+2.  an *anthraquic*, *hydragric*, *irragric*, *plaggic*, *pretic* or *terric horizon*; *or*
+3.  a *fragic*, *thionic* or *vertic horizon* starting ≤ 100 cm from the mineral soil surface; *or*
+4.  a *tsitelic horizon* with a texture class of sandy loam or finer, starting ≤ 50 cm from the mineral soil surface; *or*
+5.  one or more layers with *andic* or *vitric properties* with a combined thickness of ≥ 15 cm within 100 cm of the soil surface.
+
+| Principal Qualifiers                                     | Supplementary Qualifiers       |
+|---------------------------------------------|--------------------------|
+| Fragic                                                   | Arenic/ Clayic/ Loamic/ Siltic |
+| Thionic                                                  | Geoabruptic                    |
+| Hydragric/ Anthraquic/ Irragric/ Plaggic/ Pretic/ Terric | Aeolic                         |
+| Tsitelic                                                 | Alcalic                        |
+| Vertic                                                   | Aric                           |
+| Andic                                                    | Biocrustic                     |
+| Vitric                                                   | Protocalcic                    |
+| Leptic                                                   | Carbonic                       |
+| Histic                                                   | Cohesic                        |
+| Gleyic                                                   | Columnic                       |
+| Stagnic                                                  | Densic                         |
+| Solimovic                                                | Drainic                        |
+| Fluvic                                                   | Escalic                        |
+| Sideralic                                                | Ferric                         |
+| Rhodic/ Chromic/ Xanthic                                 | Folic                          |
+| Skeletic                                                 | Fractic                        |
+| Yermic/ Takyric                                          | Gelic                          |
+| Gypsiric                                                 | Gelistagnic                    |
+| Dolomitic/ Calcaric                                      | Protogypsic                    |
+| Dystric/ Eutric                                          | Humic/ Ochric                  |
+|                                                          | Isopteric                      |
+|                                                          | Laxic                          |
+|                                                          | Limonic                        |
+|                                                          | Litholinic                     |
+|                                                          | Magnesic                       |
+|                                                          | Nechic                         |
+|                                                          | Novic                          |
+|                                                          | Ornithic                       |
+|                                                          | Oxyaquic                       |
+|                                                          | Panpaic/ Raptic                |
+|                                                          | Pyric                          |
+|                                                          | Salic                          |
+|                                                          | Saprolithic                    |
+|                                                          | Sodic                          |
+|                                                          | Protospodic                    |
+|                                                          | Sulfidic                       |
+|                                                          | Technic/ Kalaic                |
+|                                                          | Tephric                        |
+|                                                          | Toxic                          |
+|                                                          | Transportic                    |
+|                                                          | Turbic                         |
+
+## Fluvisols {#key-fluvisols .unnumbered}
+
+Other soils having *fluvic material*:
+
+1.  ≥ 25 cm thick and starting ≤ 25 cm from the mineral soil surface; *or*
+2.  from the lower limit of a plough layer, ≤ 40 cm thick, to a depth of ≥ 50 cm from the mineral soil surface.
+
+| Principal Qualifiers                | Supplementary Qualifiers       |
+|-------------------------------------|--------------------------------|
+| Tidalic                             | Arenic/ Clayic/ Loamic/ Siltic |
+| Pantofluvic/ Anofluvic/ Orthofluvic | Geoabruptic                    |
+| Leptic                              | Alcalic                        |
+| Histic                              | Arenicolic                     |
+| Gleyic                              | Aric                           |
+| Stagnic                             | Protocalcic                    |
+| Skeletic                            | Densic                         |
+| Tephric                             | Drainic                        |
+| Yermic/ Takyric                     | Folic                          |
+| Gypsiric                            | Gelic                          |
+| Dolomitic/ Calcaric                 | Humic/ Ochric                  |
+| Dystric/ Eutric                     | Limnic                         |
+|                                     | Limonic                        |
+|                                     | Magnesic                       |
+|                                     | Nechic                         |
+|                                     | Oxyaquic                       |
+|                                     | Panpaic                        |
+|                                     | Placic                         |
+|                                     | Pyric                          |
+|                                     | Salic                          |
+|                                     | Sideralic                      |
+|                                     | Sodic                          |
+|                                     | Sulfidic                       |
+|                                     | Technic/ Kalaic                |
+|                                     | Toxic                          |
+|                                     | Transportic                    |
+|                                     | Turbic                         |
+|                                     | Protovertic                    |
+
+## Arenosols[^chapter-04-10] {#key-arenosols .unnumbered}
+
+[^chapter-04-10]: Arenosols may bury other soils, which can be mentioned behind the Arenosol classification using the word 'over' in between (see Chapter 2.4). Alternatively, buried diagnostic horizons or buried layers with a diagnostic property can be indicated with the Thapto- specifier followed by a qualifier. Arenosols may have diagnostic horizons at depths of \> 100 cm. These can be indicated with the Bathy- specifier followed by a qualifier, e.g. Bathyacric (\> 100 cm), Bathyspodic (\> 200 cm).
+
+Other soils having within 100 cm of the mineral soil surface:
+
+1.  a weighted average texture class of loamy sand or sand; *and*
+2.  layers of finer texture, if present, with a combined thickness of \< 15 cm; *and*
+3.  layers with ≥ 40% (by volume, related to the whole soil) coarse fragments, if present, with a combined thickness of \< 15 cm.
+
+| Principal Qualifiers | Supplementary Qualifiers       |
+|----------------------|--------------------------------|
+| Tidalic              | Geoabruptic                    |
+| Aeolic               | Alcalic                        |
+| Solimovic            | Arenicolic                     |
+| Tephric              | Aric                           |
+| Tsitelic             | Biocrustic                     |
+| Brunic               | Protocalcic                    |
+| Protic               | Carbonic                       |
+| Gleyic               | Cordic                         |
+| Sideralic            | Folic                          |
+| Yermic               | Gelic                          |
+| Transportic          | Protogypsic                    |
+| Relocatic            | Humic/ Ochric                  |
+| Gypsiric             | Hydrophobic                    |
+| Dolomitic/ Calcaric  | Isopteric                      |
+| Dystric/ Eutric      | Lamellic/ Protoargic           |
+|                      | Limonic                        |
+|                      | Nechic                         |
+|                      | Novic                          |
+|                      | Ornithic                       |
+|                      | Oxyaquic                       |
+|                      | Placic                         |
+|                      | Panpaic/ Raptic                |
+|                      | Pyric                          |
+|                      | Rhodic/ Chromic/ Rubic/ Claric |
+|                      | Salic                          |
+|                      | Sodic                          |
+|                      | Bathyspodic                    |
+|                      | Protospodic                    |
+|                      | Stagnic                        |
+|                      | Sulfidic                       |
+|                      | Technic/ Kalaic                |
+|                      | Toxic                          |
+|                      | Turbic                         |
+
+## Regosols {#key-regosols .unnumbered}
+
+Other soils:
+
+| Principal Qualifiers | Supplementary Qualifiers       |
+|----------------------|--------------------------------|
+| Tidalic              | Arenic/ Clayic/ Loamic/ Siltic |
+| Leptic               | Geoabruptic                    |
+| Solimovic            | Alcalic                        |
+| Aeolic               | Aric                           |
+| Tephric              | Biocrustic                     |
+| Brunic               | Protocalcic                    |
+| Protic               | Carbonic                       |
+| Gleyic               | Cordic                         |
+| Stagnic              | Densic                         |
+| Skeletic             | Drainic                        |
+| Vermic               | Escalic                        |
+| Yermic/ Takyric      | Fluvic                         |
+| Transportic          | Folic                          |
+| Relocatic            | Gelic                          |
+| Gypsiric             | Gelistagnic                    |
+| Dolomitic/ Calcaric  | Protogypsic                    |
+| Dystric/ Eutric      | Humic/ Ochric                  |
+|                      | Isolatic                       |
+|                      | Isopteric                      |
+|                      | Magnesic                       |
+|                      | Nechic                         |
+|                      | Ornithic                       |
+|                      | Oxyaquic                       |
+|                      | Panpaic/ Raptic                |
+|                      | Pyric                          |
+|                      | Salic                          |
+|                      | Saprolithic                    |
+|                      | Sodic                          |
+|                      | Technic/ Kalaic                |
+|                      | Toxic                          |
+|                      | Turbic                         |
+|                      | Protovertic                    |
