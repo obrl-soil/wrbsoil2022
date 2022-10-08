@@ -11,7 +11,7 @@ The field guide consists of six consecutive parts:
 5.  Sampling
 6.  References
 
-![Ideal soil scientists](figure_8-1.png)
+![Ideal soil scientists](images/figure_8-1.png)
 
 ## Preparation work and general rules
 
@@ -19,9 +19,9 @@ The field guide consists of six consecutive parts:
 
 ::: {grid}
 ::: {grid-col-4}
-![Pürckhauer auger profile](figure_8-2.png)
+![Pürckhauer auger profile](images/figure_8-2.png)
 
-![Mini-profile](figure_8-3.png)
+![Mini-profile](images/figure_8-3.png)
 :::
 
 ::: {grid-col-8}
@@ -39,13 +39,13 @@ The characteristics that can be described from the soil material in the auger ar
 
 The soil profile should be at least 1 m deep or reach the parent material. On a slope, unless the parent material starts at smaller depth, the profile depth (Figure 8.4) should be 1 m / cos(α). For the decision if the thickness and depth criteria of the WRB are fulfilled and when calculating element stocks (Prietzel & Wiesmeier, 2019), the layer thickness perpendicular to the slope is needed. This is calculated multiplying the vertical thickness by cos(α).
 
-![Correct profile depth when terrain is inclined](figure_8-4.png)
+![Correct profile depth when terrain is inclined](images/figure_8-4.png)
 
 The profile should be 1 m wide. If on a slope, the profile wall must be parallel to the contour lines. The material should be piled up to the left and/or right side of the profile and must not be placed on top side of the profile (the side of the profile wall). Never walk or place tools on the side of the profile wall. It is recommended to collect the soil material on two tarps, topsoil and subsoil separately. When refilling the soil profile later, you should first fill in the subsoil and then the topsoil.
 
 ::: {grid}
 ::: {grid-col-4}
-![Ideal soil profile. Always take the photo perpendicular to the profile wall](figure_8-5.png)
+![Ideal soil profile. Always take the photo perpendicular to the profile wall](images/figure_8-5.png)
 :::
 
 ::: {grid-col-8}
@@ -55,7 +55,7 @@ If you describe a soil profile that has been dug some time ago, the topsoil may 
 :::
 :::
 
-![The setting of the profile in the landscape](figure_8-6.png)
+![The setting of the profile in the landscape](images/figure_8-6.png)
 
 ## General data and description of soil-forming factors
 
@@ -83,19 +83,19 @@ Report the ground surface inclination with respect to the horizontal plane. If t
 
 If the profile lies on a slope, report the compass direction that the slope faces, viewed downslope; e.g., 225°.
 
-![Slope aspect, Schoeneberger et al. (2012), 1-5](figure_8-7.png)
+![Slope aspect, Schoeneberger et al. (2012), 1-5](images/figure_8-7.png)
 
 #### Slope shape
 
 If the profile lies on a slope, report the slope shape in 2 directions: up-/downslope (perpendicular to the elevation contour, i.e. the vertical curvature) and across slope (along the elevation contour, i.e. the horizontal curvature); e.g., *Linear*, *Convex* or *Concave*.
 
-![Slope Shape, Schoeneberger et al. (2012), 1-6](figure_8-8.png)
+![Slope Shape, Schoeneberger et al. (2012), 1-6](images/figure_8-8.png)
 
 #### Position of the soil profile (related to topography)
 
 If the profile lies in an uneven terrain, report the profile position.
 
-![Position of the profile, Schoeneberger et al. (2012), 1-7, modified (basin not included)](figure_8-9.png)
+![Position of the profile, Schoeneberger et al. (2012), 1-7, modified (basin not included)](images/figure_8-9.png)
 
 | Position           | Code |
 |--------------------|------|
@@ -114,81 +114,81 @@ If the profile lies in an uneven terrain, report the profile position.
 
 Report the climate according to Köppen (1936) and the ecozones according to Schultz (2005, adapted). The term 'summer' refers to the season with high solar altitude and the term 'winter' to the season with low solar altitude.
 
-+----------------------------------------------------------------+------------+
-| Climate                                                        | Code       |
-+================================================================+============+
-| Tropical climates                                              | **A**      |
-+----------------------------------------------------------------+------------+
-| Tropical rainforest climate                                    | **Af**     |
-+----------------------------------------------------------------+------------+
-| Tropical savanna climate with dry-winter characteristics       | **Aw**     |
-+----------------------------------------------------------------+------------+
-| Tropical savanna climate with dry-summer characteristics       | **As**     |
-+----------------------------------------------------------------+------------+
-| Tropical monsoon climate                                       | **Am**     |
-+----------------------------------------------------------------+------------+
-| Dry climates                                                   | **B**      |
-+----------------------------------------------------------------+------------+
-| Hot arid climate                                               | **BWh**    |
-+----------------------------------------------------------------+------------+
-| Cold arid climate                                              | **BWc**    |
-+----------------------------------------------------------------+------------+
-| Hot semi-arid climate                                          | **BSh**    |
-+----------------------------------------------------------------+------------+
-| Cold semi-arid climate                                         | **BSc**    |
-+----------------------------------------------------------------+------------+
-| Temperate climates                                             | **C**      |
-+----------------------------------------------------------------+------------+
-| Mediterranean hot summer climate                               | **Csa**    |
-+----------------------------------------------------------------+------------+
-| Mediterranean warm/cool summer climate                         | **Csb**    |
-+----------------------------------------------------------------+------------+
-| Mediterranean cold summer climate                              | **Csc**    |
-+----------------------------------------------------------------+------------+
-| Humid subtropical climate                                      | **Cfa**    |
-+----------------------------------------------------------------+------------+
-| Oceanic climate                                                | **Cfb**    |
-+----------------------------------------------------------------+------------+
-| Subpolar oceanic climate                                       | **Cfc**    |
-+----------------------------------------------------------------+------------+
-| Dry-winter humid subtropical climate                           | **Cwa**    |
-+----------------------------------------------------------------+------------+
-| Dry-winter subtropical highland climate                        | **Cwb**    |
-+----------------------------------------------------------------+------------+
-| Dry-winter subpolar oceanic climate                            | **Cwc**    |
-+----------------------------------------------------------------+------------+
-| Continental climates                                           | **D**      |
-+----------------------------------------------------------------+------------+
-| Hot-summer humid continental climate                           | **Dfa**    |
-+----------------------------------------------------------------+------------+
-| Warm-summer humid continental climate                          | **Dfb**    |
-+----------------------------------------------------------------+------------+
-| Subarctic climate                                              | **Dfc**    |
-+----------------------------------------------------------------+------------+
-| Extremely cold subarctic climate                               | **Dfd**    |
-+----------------------------------------------------------------+------------+
-| Monsoon-influenced hot-summer humid continental climate        | **Dwa**    |
-+----------------------------------------------------------------+------------+
-| Monsoon-influenced warm-summer humid continental climate       | **Dwb**    |
-+----------------------------------------------------------------+------------+
-| Monsoon-influenced subarctic climate                           | **Dwc**    |
-+----------------------------------------------------------------+------------+
-| Monsoon-influenced extremely cold subarctic climate            | **Dwd**    |
-+----------------------------------------------------------------+------------+
-| Mediterranean-influenced hot-summer humid continental climate  | **Dsa**    |
-+----------------------------------------------------------------+------------+
-| Mediterranean-influenced warm-summer humid continental climate | **Dsb**    |
-+----------------------------------------------------------------+------------+
-| Mediterranean-influenced subarctic climate                     | **Dsc**    |
-+----------------------------------------------------------------+------------+
-| Mediterranean-influenced extremely cold subarctic climate      | **Dsd**    |
-+----------------------------------------------------------------+------------+
-| Polar and alpine climates                                      | **E**      |
-+----------------------------------------------------------------+------------+
-| Tundra climate                                                 | **ET**     |
-+----------------------------------------------------------------+------------+
-| Ice cap climate                                                | **EF**     |
-+----------------------------------------------------------------+------------+
++----------------------------------------------------------------+-------------+
+| Climate                                                        | Code        |
++================================================================+=============+
+| Tropical climates                                              | **A**       |
++----------------------------------------------------------------+-------------+
+| Tropical rainforest climate                                    | **Af**      |
++----------------------------------------------------------------+-------------+
+| Tropical savanna climate with dry-winter characteristics       | **Aw**      |
++----------------------------------------------------------------+-------------+
+| Tropical savanna climate with dry-summer characteristics       | **As**      |
++----------------------------------------------------------------+-------------+
+| Tropical monsoon climate                                       | **Am**      |
++----------------------------------------------------------------+-------------+
+| Dry climates                                                   | **B**       |
++----------------------------------------------------------------+-------------+
+| Hot arid climate                                               | **BWh**     |
++----------------------------------------------------------------+-------------+
+| Cold arid climate                                              | **BWc**     |
++----------------------------------------------------------------+-------------+
+| Hot semi-arid climate                                          | **BSh**     |
++----------------------------------------------------------------+-------------+
+| Cold semi-arid climate                                         | **BSc**     |
++----------------------------------------------------------------+-------------+
+| Temperate climates                                             | **C**       |
++----------------------------------------------------------------+-------------+
+| Mediterranean hot summer climate                               | **Csa**     |
++----------------------------------------------------------------+-------------+
+| Mediterranean warm/cool summer climate                         | **Csb**     |
++----------------------------------------------------------------+-------------+
+| Mediterranean cold summer climate                              | **Csc**     |
++----------------------------------------------------------------+-------------+
+| Humid subtropical climate                                      | **Cfa**     |
++----------------------------------------------------------------+-------------+
+| Oceanic climate                                                | **Cfb**     |
++----------------------------------------------------------------+-------------+
+| Subpolar oceanic climate                                       | **Cfc**     |
++----------------------------------------------------------------+-------------+
+| Dry-winter humid subtropical climate                           | **Cwa**     |
++----------------------------------------------------------------+-------------+
+| Dry-winter subtropical highland climate                        | **Cwb**     |
++----------------------------------------------------------------+-------------+
+| Dry-winter subpolar oceanic climate                            | **Cwc**     |
++----------------------------------------------------------------+-------------+
+| Continental climates                                           | **D**       |
++----------------------------------------------------------------+-------------+
+| Hot-summer humid continental climate                           | **Dfa**     |
++----------------------------------------------------------------+-------------+
+| Warm-summer humid continental climate                          | **Dfb**     |
++----------------------------------------------------------------+-------------+
+| Subarctic climate                                              | **Dfc**     |
++----------------------------------------------------------------+-------------+
+| Extremely cold subarctic climate                               | **Dfd**     |
++----------------------------------------------------------------+-------------+
+| Monsoon-influenced hot-summer humid continental climate        | **Dwa**     |
++----------------------------------------------------------------+-------------+
+| Monsoon-influenced warm-summer humid continental climate       | **Dwb**     |
++----------------------------------------------------------------+-------------+
+| Monsoon-influenced subarctic climate                           | **Dwc**     |
++----------------------------------------------------------------+-------------+
+| Monsoon-influenced extremely cold subarctic climate            | **Dwd**     |
++----------------------------------------------------------------+-------------+
+| Mediterranean-influenced hot-summer humid continental climate  | **Dsa**     |
++----------------------------------------------------------------+-------------+
+| Mediterranean-influenced warm-summer humid continental climate | **Dsb**     |
++----------------------------------------------------------------+-------------+
+| Mediterranean-influenced subarctic climate                     | **Dsc**     |
++----------------------------------------------------------------+-------------+
+| Mediterranean-influenced extremely cold subarctic climate      | **Dsd**     |
++----------------------------------------------------------------+-------------+
+| Polar and alpine climates                                      | **E**       |
++----------------------------------------------------------------+-------------+
+| Tundra climate                                                 | **ET**      |
++----------------------------------------------------------------+-------------+
+| Ice cap climate                                                | **EF**      |
++----------------------------------------------------------------+-------------+
 
 : Climate according to Köppen (1936)
 
@@ -210,23 +210,23 @@ Report the climate according to Köppen (1936) and the ecozones according to Sch
 
 Report the season of the description. Vegetation can best be described in the season of full vegetation development.
 
-+------------------------------+---------------------------------------------+-------------+
-| Ecozone                      | Season                                      | Code        |
-+==============================+=============================================+=============+
-| SYR, SWR, MHU, MDR, BOR, POS | Spring                                      | **SP**      |
-+------------------------------+---------------------------------------------+-------------+
-|                              | Summer                                      | **SU**      |
-+------------------------------+---------------------------------------------+-------------+
-|                              | Autumn                                      | **AU**      |
-+------------------------------+---------------------------------------------+-------------+
-|                              | Winter                                      | **WI**      |
-+------------------------------+---------------------------------------------+-------------+
-| TSR                          | Wet season                                  | **WS**      |
-+------------------------------+---------------------------------------------+-------------+
-|                              | Dry season                                  | **DS**      |
-+------------------------------+---------------------------------------------+-------------+
-| TYR, TSD                     | No significant seasonality for plant growth | **NS**      |
-+------------------------------+---------------------------------------------+-------------+
++------------------------------+---------------------------------------------+--------------+
+| Ecozone                      | Season                                      | Code         |
++==============================+=============================================+==============+
+| SYR, SWR, MHU, MDR, BOR, POS | Spring                                      | **SP**       |
++------------------------------+---------------------------------------------+--------------+
+|                              | Summer                                      | **SU**       |
++------------------------------+---------------------------------------------+--------------+
+|                              | Autumn                                      | **AU**       |
++------------------------------+---------------------------------------------+--------------+
+|                              | Winter                                      | **WI**       |
++------------------------------+---------------------------------------------+--------------+
+| TSR                          | Wet season                                  | **WS**       |
++------------------------------+---------------------------------------------+--------------+
+|                              | Dry season                                  | **DS**       |
++------------------------------+---------------------------------------------+--------------+
+| TYR, TSD                     | No significant seasonality for plant growth | **NS**       |
++------------------------------+---------------------------------------------+--------------+
 
 : Season of description
 
@@ -245,21 +245,21 @@ Report the current and past weather conditions.
 
 : Current weather conditions, Schoeneberger et al. (2012), 1-1
 
-+-----------------------------------------------------------------+-----------+
-| Past weather conditions                                         | Code      |
-+=================================================================+===========+
-| No rain in the last month                                       | **NM**    |
-+-----------------------------------------------------------------+-----------+
-| No rain in the last week                                        | **NW**    |
-+-----------------------------------------------------------------+-----------+
-| No rain in the last 24 hours                                    | **ND**    |
-+-----------------------------------------------------------------+-----------+
-| Rain but no heavy rain in the last 24 hours                     | **RD**    |
-+-----------------------------------------------------------------+-----------+
-| Heavy rain for some days or excessive rain in the last 24 hours | **RH**    |
-+-----------------------------------------------------------------+-----------+
-| Extremely rainy or snow melting                                 | **RE**    |
-+-----------------------------------------------------------------+-----------+
++-----------------------------------------------------------------+-------------+
+| Past weather conditions                                         | Code        |
++=================================================================+=============+
+| No rain in the last month                                       | **NM**      |
++-----------------------------------------------------------------+-------------+
+| No rain in the last week                                        | **NW**      |
++-----------------------------------------------------------------+-------------+
+| No rain in the last 24 hours                                    | **ND**      |
++-----------------------------------------------------------------+-------------+
+| Rain but no heavy rain in the last 24 hours                     | **RD**      |
++-----------------------------------------------------------------+-------------+
+| Heavy rain for some days or excessive rain in the last 24 hours | **RH**      |
++-----------------------------------------------------------------+-------------+
+| Extremely rainy or snow melting                                 | **RE**      |
++-----------------------------------------------------------------+-------------+
 
 ### Vegetation and land use
 
@@ -285,75 +285,75 @@ The following strata are relevant.
 
 If the land is not cultivated, report the vegetation type according to Table 8.8, for each stratum separately; if more than one type occurs in the same stratum, report up to three, the dominant one first. If the land is cultivated, report the cultivation type according to Table 8.9; cultivated land may show several strata, but they are not reported separately.
 
-+------------------------------+--------------------------------------------------------------------------+------------+
-| Life form                    | Vegetation type                                                          | Code       |
-+==============================+==========================================================================+============+
-| Aquatic                      | Algae: fresh or brackish                                                 | **AF**     |
-+------------------------------+--------------------------------------------------------------------------+------------+
-| Aquatic                      | Algae: marine                                                            | **AM**     |
-+------------------------------+--------------------------------------------------------------------------+------------+
-| Aquatic                      | Higher aquatic plants (woody or non-woody)                               | **AH**     |
-+------------------------------+--------------------------------------------------------------------------+------------+
-| Surface crusts               | Biological crust (of cyanobacteria, algae, fungi, lichens and/or mosses) | **CR**     |
-+------------------------------+--------------------------------------------------------------------------+------------+
-| Terrestrial non-woody plants | Fungi                                                                    | **NF**     |
-+------------------------------+--------------------------------------------------------------------------+------------+
-| Terrestrial non-woody plants | Lichens                                                                  | **NL**     |
-+------------------------------+--------------------------------------------------------------------------+------------+
-| Terrestrial non-woody plants | Mosses (non-peat)                                                        | **NM**     |
-+------------------------------+--------------------------------------------------------------------------+------------+
-| Terrestrial non-woody plants | Peat                                                                     | **NP**     |
-+------------------------------+--------------------------------------------------------------------------+------------+
-| Terrestrial non-woody plants | Grasses and/or herbs                                                     | **NG**     |
-+------------------------------+--------------------------------------------------------------------------+------------+
-| Terrestrial woody plants     | Heath or dwarf shrubs                                                    | **WH**     |
-+------------------------------+--------------------------------------------------------------------------+------------+
-| Terrestrial woody plants     | Evergreen shrubs                                                         | **WG**     |
-+------------------------------+--------------------------------------------------------------------------+------------+
-| Terrestrial woody plants     | Seasonally green shrubs                                                  | **WS**     |
-+------------------------------+--------------------------------------------------------------------------+------------+
-| Terrestrial woody plants     | Evergreen trees (mainly not planted)                                     | **WE**     |
-+------------------------------+--------------------------------------------------------------------------+------------+
-| Terrestrial woody plants     | Seasonally green trees (mainly not planted)                              | **WT**     |
-+------------------------------+--------------------------------------------------------------------------+------------+
-| Terrestrial woody plants     | Plantation forest, not in rotation with cropland or grassland            | **WP**     |
-+------------------------------+--------------------------------------------------------------------------+------------+
-| Terrestrial woody plants     | Plantation forest, in rotation with cropland or grassland                | **WR**     |
-+------------------------------+--------------------------------------------------------------------------+------------+
-| None (barren)                | Water, rock, or soil surface with \< 0.5% vegetation cover               | **NO**     |
-+------------------------------+--------------------------------------------------------------------------+------------+
++------------------------------+--------------------------------------------------------------------------+-------------+
+| Life form                    | Vegetation type                                                          | Code        |
++==============================+==========================================================================+=============+
+| Aquatic                      | Algae: fresh or brackish                                                 | **AF**      |
++------------------------------+--------------------------------------------------------------------------+-------------+
+| Aquatic                      | Algae: marine                                                            | **AM**      |
++------------------------------+--------------------------------------------------------------------------+-------------+
+| Aquatic                      | Higher aquatic plants (woody or non-woody)                               | **AH**      |
++------------------------------+--------------------------------------------------------------------------+-------------+
+| Surface crusts               | Biological crust (of cyanobacteria, algae, fungi, lichens and/or mosses) | **CR**      |
++------------------------------+--------------------------------------------------------------------------+-------------+
+| Terrestrial non-woody plants | Fungi                                                                    | **NF**      |
++------------------------------+--------------------------------------------------------------------------+-------------+
+| Terrestrial non-woody plants | Lichens                                                                  | **NL**      |
++------------------------------+--------------------------------------------------------------------------+-------------+
+| Terrestrial non-woody plants | Mosses (non-peat)                                                        | **NM**      |
++------------------------------+--------------------------------------------------------------------------+-------------+
+| Terrestrial non-woody plants | Peat                                                                     | **NP**      |
++------------------------------+--------------------------------------------------------------------------+-------------+
+| Terrestrial non-woody plants | Grasses and/or herbs                                                     | **NG**      |
++------------------------------+--------------------------------------------------------------------------+-------------+
+| Terrestrial woody plants     | Heath or dwarf shrubs                                                    | **WH**      |
++------------------------------+--------------------------------------------------------------------------+-------------+
+| Terrestrial woody plants     | Evergreen shrubs                                                         | **WG**      |
++------------------------------+--------------------------------------------------------------------------+-------------+
+| Terrestrial woody plants     | Seasonally green shrubs                                                  | **WS**      |
++------------------------------+--------------------------------------------------------------------------+-------------+
+| Terrestrial woody plants     | Evergreen trees (mainly not planted)                                     | **WE**      |
++------------------------------+--------------------------------------------------------------------------+-------------+
+| Terrestrial woody plants     | Seasonally green trees (mainly not planted)                              | **WT**      |
++------------------------------+--------------------------------------------------------------------------+-------------+
+| Terrestrial woody plants     | Plantation forest, not in rotation with cropland or grassland            | **WP**      |
++------------------------------+--------------------------------------------------------------------------+-------------+
+| Terrestrial woody plants     | Plantation forest, in rotation with cropland or grassland                | **WR**      |
++------------------------------+--------------------------------------------------------------------------+-------------+
+| None (barren)                | Water, rock, or soil surface with \< 0.5% vegetation cover               | **NO**      |
++------------------------------+--------------------------------------------------------------------------+-------------+
 
 : Vegetation type, National Committee on Soil and Terrain (2009), 88-93, modified
 
-+-------------------------------------------------------------------------------+-----------+
-| Cultivation type                                                              | Code      |
-+===============================================================================+===========+
-| Simultaneous agroforestry system with trees and perennial crops               | **ACP**   |
-+-------------------------------------------------------------------------------+-----------+
-| Simultaneous agroforestry system with trees and annual crops                  | **ACA**   |
-+-------------------------------------------------------------------------------+-----------+
-| Simultaneous agroforestry system with trees, perennial and annual crops       | **ACB**   |
-+-------------------------------------------------------------------------------+-----------+
-| Simultaneous agroforestry system with trees and grassland                     | **AGG**   |
-+-------------------------------------------------------------------------------+-----------+
-| Simultaneous agroforestry system with trees, crops and grassland              | **ACG**   |
-+-------------------------------------------------------------------------------+-----------+
-| Pasture on (semi-)natural vegetation                                          | **GNP**   |
-+-------------------------------------------------------------------------------+-----------+
-| Intensively-managed grassland, pastured                                       | **GIP**   |
-+-------------------------------------------------------------------------------+-----------+
-| Intensively-managed grassland, not pastured                                   | **GIN**   |
-+-------------------------------------------------------------------------------+-----------+
-| Perennial crop production (e.g. food, fodder, fuel, fiber, ornamental plants) | **CPP**   |
-+-------------------------------------------------------------------------------+-----------+
-| Annual crop production (e.g. food, fodder, fuel, fiber, ornamental plants)    | **CPA**   |
-+-------------------------------------------------------------------------------+-----------+
-| Fallow, less than 12 months, with spontaneous vegetation                      | **FYO**   |
-+-------------------------------------------------------------------------------+-----------+
-| Fallow, at least 12 months, with spontaneous vegetation                       | **FOL**   |
-+-------------------------------------------------------------------------------+-----------+
-| Fallow, all plants constantly removed (dry farming)                           | **FDF**   |
-+-------------------------------------------------------------------------------+-----------+
++-------------------------------------------------------------------------------+------------+
+| Cultivation type                                                              | Code       |
++===============================================================================+============+
+| Simultaneous agroforestry system with trees and perennial crops               | **ACP**    |
++-------------------------------------------------------------------------------+------------+
+| Simultaneous agroforestry system with trees and annual crops                  | **ACA**    |
++-------------------------------------------------------------------------------+------------+
+| Simultaneous agroforestry system with trees, perennial and annual crops       | **ACB**    |
++-------------------------------------------------------------------------------+------------+
+| Simultaneous agroforestry system with trees and grassland                     | **AGG**    |
++-------------------------------------------------------------------------------+------------+
+| Simultaneous agroforestry system with trees, crops and grassland              | **ACG**    |
++-------------------------------------------------------------------------------+------------+
+| Pasture on (semi-)natural vegetation                                          | **GNP**    |
++-------------------------------------------------------------------------------+------------+
+| Intensively-managed grassland, pastured                                       | **GIP**    |
++-------------------------------------------------------------------------------+------------+
+| Intensively-managed grassland, not pastured                                   | **GIN**    |
++-------------------------------------------------------------------------------+------------+
+| Perennial crop production (e.g. food, fodder, fuel, fiber, ornamental plants) | **CPP**    |
++-------------------------------------------------------------------------------+------------+
+| Annual crop production (e.g. food, fodder, fuel, fiber, ornamental plants)    | **CPA**    |
++-------------------------------------------------------------------------------+------------+
+| Fallow, less than 12 months, with spontaneous vegetation                      | **FYO**    |
++-------------------------------------------------------------------------------+------------+
+| Fallow, at least 12 months, with spontaneous vegetation                       | **FOL**    |
++-------------------------------------------------------------------------------+------------+
+| Fallow, all plants constantly removed (dry farming)                           | **FDF**    |
++-------------------------------------------------------------------------------+------------+
 
 : Cultivation type
 
@@ -505,35 +505,35 @@ Cracks are fissures other than those attributed to soil structure (see Chapter 8
 
 Report the presence of water above the soil surface. For wet cultivation and irrigation, see Chapter 8.2.5. If water of more than one origin occurs above the soil surface, report the dominant one.
 
-+-------------------------------------------------------------------+-----------+
-| Criterion                                                         | Code      |
-+===================================================================+===========+
-| Permanently submerged by seawater (below mean low water springs)  | **MP**    |
-+-------------------------------------------------------------------+-----------+
-| Tidal area (between mean low and mean high water springs)         | **MT**    |
-+-------------------------------------------------------------------+-----------+
-| Occasional storm surges (above mean high water springs)           | **MO**    |
-+-------------------------------------------------------------------+-----------+
-| Permanently submerged by inland water                             | **FP**    |
-+-------------------------------------------------------------------+-----------+
-| Submerged by remote flowing inland water at least once a year     | **FF**    |
-+-------------------------------------------------------------------+-----------+
-| Submerged by remote flowing inland water less than once a year    | **FO**    |
-+-------------------------------------------------------------------+-----------+
-| Submerged by rising local groundwater at least once a year        | **GF**    |
-+-------------------------------------------------------------------+-----------+
-| Submerged by rising local groundwater less than once a year       | **GO**    |
-+-------------------------------------------------------------------+-----------+
-| Submerged by local rainwater at least once a year                 | **RF**    |
-+-------------------------------------------------------------------+-----------+
-| Submerged by local rainwater less than once a year                | **RO**    |
-+-------------------------------------------------------------------+-----------+
-| Submerged by inland water of unknown origin at least once a year  | **UF**    |
-+-------------------------------------------------------------------+-----------+
-| Submerged by inland water of unknown origin less than once a year | **UO**    |
-+-------------------------------------------------------------------+-----------+
-| None of the above                                                 | **NO**    |
-+-------------------------------------------------------------------+-----------+
++-------------------------------------------------------------------+-------------+
+| Criterion                                                         | Code        |
++===================================================================+=============+
+| Permanently submerged by seawater (below mean low water springs)  | **MP**      |
++-------------------------------------------------------------------+-------------+
+| Tidal area (between mean low and mean high water springs)         | **MT**      |
++-------------------------------------------------------------------+-------------+
+| Occasional storm surges (above mean high water springs)           | **MO**      |
++-------------------------------------------------------------------+-------------+
+| Permanently submerged by inland water                             | **FP**      |
++-------------------------------------------------------------------+-------------+
+| Submerged by remote flowing inland water at least once a year     | **FF**      |
++-------------------------------------------------------------------+-------------+
+| Submerged by remote flowing inland water less than once a year    | **FO**      |
++-------------------------------------------------------------------+-------------+
+| Submerged by rising local groundwater at least once a year        | **GF**      |
++-------------------------------------------------------------------+-------------+
+| Submerged by rising local groundwater less than once a year       | **GO**      |
++-------------------------------------------------------------------+-------------+
+| Submerged by local rainwater at least once a year                 | **RF**      |
++-------------------------------------------------------------------+-------------+
+| Submerged by local rainwater less than once a year                | **RO**      |
++-------------------------------------------------------------------+-------------+
+| Submerged by inland water of unknown origin at least once a year  | **UF**      |
++-------------------------------------------------------------------+-------------+
+| Submerged by inland water of unknown origin less than once a year | **UO**      |
++-------------------------------------------------------------------+-------------+
+| None of the above                                                 | **NO**      |
++-------------------------------------------------------------------+-------------+
 
 : Water above the soil surface
 
@@ -554,17 +554,17 @@ Dry soil surfaces may be water-repellent (hydrophobic). Report the water repelle
 
 This paragraph refers to unevenness resulting from soil-forming processes, not associated with erosion, deposition or human activity. Human-made surface unevenness and erosion are reported in the following paragraphs. Deposition is regarded to be a feature of the layers (see Chapter 8.4). Report surface unevenness with an average height difference ≥ 5 cm. Report the type, the average height difference, the average diameter of the elevated areas and the average distance between the height maxima. Give all values in m.
 
-+-------------------------------------------------------------------------+-----------+
-| Criterion                                                               | Code      |
-+=========================================================================+===========+
-| Unevenness caused by permafrost (palsa, pingo, mud boils, thufurs etc.) | **P**     |
-+-------------------------------------------------------------------------+-----------+
-| Unevenness caused by shrink-swell clays (gilgai relief)                 | **G**     |
-+-------------------------------------------------------------------------+-----------+
-| Other                                                                   | **O**     |
-+-------------------------------------------------------------------------+-----------+
-| None                                                                    | **N**     |
-+-------------------------------------------------------------------------+-----------+
++-------------------------------------------------------------------------+-------------+
+| Criterion                                                               | Code        |
++=========================================================================+=============+
+| Unevenness caused by permafrost (palsa, pingo, mud boils, thufurs etc.) | **P**       |
++-------------------------------------------------------------------------+-------------+
+| Unevenness caused by shrink-swell clays (gilgai relief)                 | **G**       |
++-------------------------------------------------------------------------+-------------+
+| Other                                                                   | **O**       |
++-------------------------------------------------------------------------+-------------+
+| None                                                                    | **N**       |
++-------------------------------------------------------------------------+-------------+
 
 : Types of natural surface unevenness
 
@@ -589,7 +589,7 @@ Report up to two types of human-made surface unevenness with an average height d
 
 : Types of human-made surface unevenness
 
-![Human-made surface alterations](figure_8-10.png)
+![Human-made surface alterations](images/figure_8-10.png)
 
 #### Surface unevenness caused by erosion
 
@@ -712,17 +712,17 @@ If a layer consists of two or more different parts that do not form horizontal l
 
 Alluvial strata comprise fluviatile, lacustrine and marine deposits. Tephra strata have a significant amount of pyroclasts. Report the presence of alluvial strata and of tephra strata within the described layer.
 
-+--------------------------------------------------------------------+-----------+
-| Criterion                                                          | Code      |
-+====================================================================+===========+
-| Layer is composed of two or more alluvial strata                   | **A**     |
-+--------------------------------------------------------------------+-----------+
-| Layer is composed of two or more tephra strata                     | **T**     |
-+--------------------------------------------------------------------+-----------+
-| Layer is composed of two or more alluvial strata containing tephra | **B**     |
-+--------------------------------------------------------------------+-----------+
-| Layer is not composed of different strata                          | **N**     |
-+--------------------------------------------------------------------+-----------+
++--------------------------------------------------------------------+-------------+
+| Criterion                                                          | Code        |
++====================================================================+=============+
+| Layer is composed of two or more alluvial strata                   | **A**       |
++--------------------------------------------------------------------+-------------+
+| Layer is composed of two or more tephra strata                     | **T**       |
++--------------------------------------------------------------------+-------------+
+| Layer is composed of two or more alluvial strata containing tephra | **B**       |
++--------------------------------------------------------------------+-------------+
+| Layer is not composed of different strata                          | **N**       |
++--------------------------------------------------------------------+-------------+
 
 : Presence of strata within a layer
 
@@ -732,25 +732,25 @@ Alluvial strata comprise fluviatile, lacustrine and marine deposits. Tephra stra
 
 Report the water saturation.
 
-+-------------------------------------------------------------------------------------------------------------------------------------+---------+
-| Criterion                                                                                                                           | Code    |
-+=====================================================================================================================================+=========+
-| Saturated by seawater for ≥ 30 consecutive days                                                                                     | **MS**  |
-+-------------------------------------------------------------------------------------------------------------------------------------+---------+
-| Saturated by seawater according to tidal changes                                                                                    | **MT**  |
-+-------------------------------------------------------------------------------------------------------------------------------------+---------+
-| Saturated by groundwater or flowing water for ≥ 30 consecutive days with water that has an electrical conductivity of ≥ 4 dS m^-1^  | **GS**  |
-+-------------------------------------------------------------------------------------------------------------------------------------+---------+
-| Saturated by groundwater or flowing water for ≥ 30 consecutive days with water that has an electrical conductivity of \< 4 dS m^-1^ | **GF**  |
-+-------------------------------------------------------------------------------------------------------------------------------------+---------+
-| Saturated by rainwater for ≥ 30 consecutive days                                                                                    | **RA**  |
-+-------------------------------------------------------------------------------------------------------------------------------------+---------+
-| Saturated by water from melted ice for ≥ 30 consecutive days                                                                        | **MI**  |
-+-------------------------------------------------------------------------------------------------------------------------------------+---------+
-| Pure water, covered by floating organic material                                                                                    | **PW**  |
-+-------------------------------------------------------------------------------------------------------------------------------------+---------+
-| None of the above                                                                                                                   | **NO**  |
-+-------------------------------------------------------------------------------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------+----------+
+| Criterion                                                                                                                           | Code     |
++=====================================================================================================================================+==========+
+| Saturated by seawater for ≥ 30 consecutive days                                                                                     | **MS**   |
++-------------------------------------------------------------------------------------------------------------------------------------+----------+
+| Saturated by seawater according to tidal changes                                                                                    | **MT**   |
++-------------------------------------------------------------------------------------------------------------------------------------+----------+
+| Saturated by groundwater or flowing water for ≥ 30 consecutive days with water that has an electrical conductivity of ≥ 4 dS m^-1^  | **GS**   |
++-------------------------------------------------------------------------------------------------------------------------------------+----------+
+| Saturated by groundwater or flowing water for ≥ 30 consecutive days with water that has an electrical conductivity of \< 4 dS m^-1^ | **GF**   |
++-------------------------------------------------------------------------------------------------------------------------------------+----------+
+| Saturated by rainwater for ≥ 30 consecutive days                                                                                    | **RA**   |
++-------------------------------------------------------------------------------------------------------------------------------------+----------+
+| Saturated by water from melted ice for ≥ 30 consecutive days                                                                        | **MI**   |
++-------------------------------------------------------------------------------------------------------------------------------------+----------+
+| Pure water, covered by floating organic material                                                                                    | **PW**   |
++-------------------------------------------------------------------------------------------------------------------------------------+----------+
+| None of the above                                                                                                                   | **NO**   |
++-------------------------------------------------------------------------------------------------------------------------------------+----------+
 
 : Types of water saturation
 
@@ -823,25 +823,25 @@ Report the shape. The characteristic refers to the layer's lower boundary or, if
 
 : Shape of layer boundaries, Schoeneberger et al. (2012), 2-7
 
-![Shape of layer boundaries, Schoeneberger et al. (2012), 2-7, modified](figure_8-11.png)
+![Shape of layer boundaries, Schoeneberger et al. (2012), 2-7, modified](images/figure_8-11.png)
 
 ### Wind deposition (m)
 
 Report any evidence of wind deposition. Use a hand lens (maximum 10x).
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-| Criterion                                                                                                                                                | Code    |
-+==========================================================================================================================================================+=========+
-| Aeroturbation (cross-bedding)                                                                                                                            | CB      |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-| ≥ 10% of the particles of medium sand or coarser are rounded or subangular and have a matt surface                                                       | RH      |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-| ≥ 10% of the particles of medium sand or coarser are rounded or subangular and have a matt surface, but only in in-blown material that has filled cracks | RC      |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-| Other                                                                                                                                                    | OT      |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-| No evidence of wind deposition                                                                                                                           | NO      |
-+----------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------+----------+
+| Criterion                                                                                                                                                | Code     |
++==========================================================================================================================================================+==========+
+| Aeroturbation (cross-bedding)                                                                                                                            | CB       |
++----------------------------------------------------------------------------------------------------------------------------------------------------------+----------+
+| ≥ 10% of the particles of medium sand or coarser are rounded or subangular and have a matt surface                                                       | RH       |
++----------------------------------------------------------------------------------------------------------------------------------------------------------+----------+
+| ≥ 10% of the particles of medium sand or coarser are rounded or subangular and have a matt surface, but only in in-blown material that has filled cracks | RC       |
++----------------------------------------------------------------------------------------------------------------------------------------------------------+----------+
+| Other                                                                                                                                                    | OT       |
++----------------------------------------------------------------------------------------------------------------------------------------------------------+----------+
+| No evidence of wind deposition                                                                                                                           | NO       |
++----------------------------------------------------------------------------------------------------------------------------------------------------------+----------+
 
 : Types of wind deposition
 
@@ -893,23 +893,23 @@ The Table indicates the length of the greatest dimension and the shape.
 
 #### Fragments of broken-up cemented layers
 
-+----------------------------------------------------------------------------------------------------------------------+----------+
-| Cementing agent                                                                                                      | Code     |
-+======================================================================================================================+==========+
-| Secondary carbonates                                                                                                 | **CA**   |
-+----------------------------------------------------------------------------------------------------------------------+----------+
-| Secondary gypsum                                                                                                     | **GY**   |
-+----------------------------------------------------------------------------------------------------------------------+----------+
-| Secondary silica                                                                                                     | **SI**   |
-+----------------------------------------------------------------------------------------------------------------------+----------+
-| Fe oxides, predominantly inside (former) soil aggregates, no significant concentration of organic matter             | **FI**   |
-+----------------------------------------------------------------------------------------------------------------------+----------+
-| Fe oxides, predominantly on the surfaces of (former) soil aggregates, no significant concentration of organic matter | **FO**   |
-+----------------------------------------------------------------------------------------------------------------------+----------+
-| Fe oxides, no relationship to (former) soil aggregates, no significant concentration of organic matter               | **FN**   |
-+----------------------------------------------------------------------------------------------------------------------+----------+
-| Fe oxides in the presence of a significant concentration of organic matter                                           | **FH**   |
-+----------------------------------------------------------------------------------------------------------------------+----------+
++----------------------------------------------------------------------------------------------------------------------+-----------+
+| Cementing agent                                                                                                      | Code      |
++======================================================================================================================+===========+
+| Secondary carbonates                                                                                                 | **CA**    |
++----------------------------------------------------------------------------------------------------------------------+-----------+
+| Secondary gypsum                                                                                                     | **GY**    |
++----------------------------------------------------------------------------------------------------------------------+-----------+
+| Secondary silica                                                                                                     | **SI**    |
++----------------------------------------------------------------------------------------------------------------------+-----------+
+| Fe oxides, predominantly inside (former) soil aggregates, no significant concentration of organic matter             | **FI**    |
++----------------------------------------------------------------------------------------------------------------------+-----------+
+| Fe oxides, predominantly on the surfaces of (former) soil aggregates, no significant concentration of organic matter | **FO**    |
++----------------------------------------------------------------------------------------------------------------------+-----------+
+| Fe oxides, no relationship to (former) soil aggregates, no significant concentration of organic matter               | **FN**    |
++----------------------------------------------------------------------------------------------------------------------+-----------+
+| Fe oxides in the presence of a significant concentration of organic matter                                           | **FH**    |
++----------------------------------------------------------------------------------------------------------------------+-----------+
 
 : Fragments of broken-up cemented layers: cementing agent
 
@@ -917,7 +917,7 @@ The Table indicates the length of the greatest dimension and the shape.
 
 Report the total percentage of the volume (related to the whole soil) occupied by coarse fragments. In addition, report at least one and up to four size and shape classes and report their weathering stage and the percentage of the volume that is occupied by the coarse fragments of the respective class, the dominant one first. Figure 8.12 helps with the estimation of the volume. For fragments of a broken-up cemented layer, report the agent that caused the cementation, where applicable up to two, and the percentage of each group of fragments (by volume, related to the whole soil).
 
-![Charts for estimating percentages of coarse fragments, FAO (2006), Figure 5, modified by B. Repe](figure_8-12.png)
+![Charts for estimating percentages of coarse fragments, FAO (2006), Figure 5, modified by B. Repe](images/figure_8-12.png)
 
 #### Free large pores between coarse fragments
 
@@ -932,75 +932,75 @@ Artefacts are solid or liquid substances that are
 
 #### Type
 
-+--------------------------------------------------------------+------------+
-| Type                                                         | Code       |
-+==============================================================+============+
-| Bitumen (asphalt), continuous                                | **BT**     |
-+--------------------------------------------------------------+------------+
-| Bitumen (asphalt), fragments                                 | **BF**     |
-+--------------------------------------------------------------+------------+
-| Black carbon (e.g. charcoal, partly charred particles, soot) | **BC**     |
-+--------------------------------------------------------------+------------+
-| Boiler slag                                                  | **BS**     |
-+--------------------------------------------------------------+------------+
-| Bottom ash                                                   | **BA**     |
-+--------------------------------------------------------------+------------+
-| Bricks, adobes                                               | **BR**     |
-+--------------------------------------------------------------+------------+
-| Ceramics                                                     | **CE**     |
-+--------------------------------------------------------------+------------+
-| Cloth, carpet                                                | **CL**     |
-+--------------------------------------------------------------+------------+
-| Coal combustion byproducts                                   | **CU**     |
-+--------------------------------------------------------------+------------+
-| Concrete, continuous                                         | **CR**     |
-+--------------------------------------------------------------+------------+
-| Concrete, fragments                                          | **CF**     |
-+--------------------------------------------------------------+------------+
-| Crude oil                                                    | **CO**     |
-+--------------------------------------------------------------+------------+
-| Debitage (stone tool flakes)                                 | **DE**     |
-+--------------------------------------------------------------+------------+
-| Dressed or crushed stones                                    | **DS**     |
-+--------------------------------------------------------------+------------+
-| Fly ash                                                      | **FA**     |
-+--------------------------------------------------------------+------------+
-| Geomembrane, continuous                                      | **GM**     |
-+--------------------------------------------------------------+------------+
-| Geomembrane, fragments                                       | **GF**     |
-+--------------------------------------------------------------+------------+
-| Glass                                                        | **GL**     |
-+--------------------------------------------------------------+------------+
-| Gold coins                                                   | **GC**     |
-+--------------------------------------------------------------+------------+
-| Household waste (undifferentiated)                           | **HW**     |
-+--------------------------------------------------------------+------------+
-| Industrial waste                                             | **IW**     |
-+--------------------------------------------------------------+------------+
-| Lumps of applied lime                                        | **LL**     |
-+--------------------------------------------------------------+------------+
-| Metal                                                        | **ME**     |
-+--------------------------------------------------------------+------------+
-| Mine spoil                                                   | **MS**     |
-+--------------------------------------------------------------+------------+
-| Organic waste                                                | **OW**     |
-+--------------------------------------------------------------+------------+
-| Paper, cardboard                                             | **PA**     |
-+--------------------------------------------------------------+------------+
-| Plasterboard                                                 | **PB**     |
-+--------------------------------------------------------------+------------+
-| Plastic                                                      | **PT**     |
-+--------------------------------------------------------------+------------+
-| Processed oil products                                       | **PO**     |
-+--------------------------------------------------------------+------------+
-| Rubber (tires etc.)                                          | **RU**     |
-+--------------------------------------------------------------+------------+
-| Treated wood                                                 | **TW**     |
-+--------------------------------------------------------------+------------+
-| Other                                                        | **OT**     |
-+--------------------------------------------------------------+------------+
-| None                                                         | **NO**     |
-+--------------------------------------------------------------+------------+
++--------------------------------------------------------------+--------------+
+| Type                                                         | Code         |
++==============================================================+==============+
+| Bitumen (asphalt), continuous                                | **BT**       |
++--------------------------------------------------------------+--------------+
+| Bitumen (asphalt), fragments                                 | **BF**       |
++--------------------------------------------------------------+--------------+
+| Black carbon (e.g. charcoal, partly charred particles, soot) | **BC**       |
++--------------------------------------------------------------+--------------+
+| Boiler slag                                                  | **BS**       |
++--------------------------------------------------------------+--------------+
+| Bottom ash                                                   | **BA**       |
++--------------------------------------------------------------+--------------+
+| Bricks, adobes                                               | **BR**       |
++--------------------------------------------------------------+--------------+
+| Ceramics                                                     | **CE**       |
++--------------------------------------------------------------+--------------+
+| Cloth, carpet                                                | **CL**       |
++--------------------------------------------------------------+--------------+
+| Coal combustion byproducts                                   | **CU**       |
++--------------------------------------------------------------+--------------+
+| Concrete, continuous                                         | **CR**       |
++--------------------------------------------------------------+--------------+
+| Concrete, fragments                                          | **CF**       |
++--------------------------------------------------------------+--------------+
+| Crude oil                                                    | **CO**       |
++--------------------------------------------------------------+--------------+
+| Debitage (stone tool flakes)                                 | **DE**       |
++--------------------------------------------------------------+--------------+
+| Dressed or crushed stones                                    | **DS**       |
++--------------------------------------------------------------+--------------+
+| Fly ash                                                      | **FA**       |
++--------------------------------------------------------------+--------------+
+| Geomembrane, continuous                                      | **GM**       |
++--------------------------------------------------------------+--------------+
+| Geomembrane, fragments                                       | **GF**       |
++--------------------------------------------------------------+--------------+
+| Glass                                                        | **GL**       |
++--------------------------------------------------------------+--------------+
+| Gold coins                                                   | **GC**       |
++--------------------------------------------------------------+--------------+
+| Household waste (undifferentiated)                           | **HW**       |
++--------------------------------------------------------------+--------------+
+| Industrial waste                                             | **IW**       |
++--------------------------------------------------------------+--------------+
+| Lumps of applied lime                                        | **LL**       |
++--------------------------------------------------------------+--------------+
+| Metal                                                        | **ME**       |
++--------------------------------------------------------------+--------------+
+| Mine spoil                                                   | **MS**       |
++--------------------------------------------------------------+--------------+
+| Organic waste                                                | **OW**       |
++--------------------------------------------------------------+--------------+
+| Paper, cardboard                                             | **PA**       |
++--------------------------------------------------------------+--------------+
+| Plasterboard                                                 | **PB**       |
++--------------------------------------------------------------+--------------+
+| Plastic                                                      | **PT**       |
++--------------------------------------------------------------+--------------+
+| Processed oil products                                       | **PO**       |
++--------------------------------------------------------------+--------------+
+| Rubber (tires etc.)                                          | **RU**       |
++--------------------------------------------------------------+--------------+
+| Treated wood                                                 | **TW**       |
++--------------------------------------------------------------+--------------+
+| Other                                                        | **OT**       |
++--------------------------------------------------------------+--------------+
+| None                                                         | **NO**       |
++--------------------------------------------------------------+--------------+
 
 : Examples of artefacts, Schoeneberger et al. (2012), 2-50, modified
 
@@ -1052,7 +1052,7 @@ The human eye and the tactile sense of the fingers can detect particles \> 150-
 
 Report the texture class. Please note that the hand-texturing according to the following flow chart only provides an estimation of the texture. Especially around the limits between the classes, the results might be not absolutely reliable. Beginners should ask experienced soil scientists for help.
 
-![Texture classes, triangle, Blum et al. (2018), Figure 28, modified](figure_8-13.png)
+![Texture classes, triangle, Blum et al. (2018), Figure 28, modified](images/figure_8-13.png)
 
 +------------------------+---------------+----------------+---------------+-------------------------------+
 | Texture class          | \% sand       | \% silt        | \% clay       | Additional criteria           |
@@ -1089,7 +1089,7 @@ Report the texture class. Please note that the hand-texturing according to the f
 
 : Texture classes, Soil Science Division Staff (2017)
 
-![Texture classes, flow chart, ideas adapted from - Natural England Technical Information Note TIN037 (2008) - Thien (1979)](figure_8-14.png)
+![Texture classes, flow chart, ideas adapted from - Natural England Technical Information Note TIN037 (2008) - Thien (1979)](images/figure_8-14.png)
 
 #### Subclasses of the texture classes sand and loamy sand
 
@@ -1131,13 +1131,13 @@ From the second-level structure, take some specimens from each type (if more tha
 
 Figure 8.15 explains some general terms of soil aggregate description.
 
-![General terms of soil aggregate description](figure_8-15.png)
+![General terms of soil aggregate description](images/figure_8-15.png)
 
 ::: {grid}
 ::: {g-col-4}
 Granular
 
-![](table_8-41-01.png)
+![](images/table_8-41-01.png)
 :::
 
 ::: {g-col-8}
@@ -1150,7 +1150,7 @@ Granular
 ::: {g-col-4}
 Subangular blocky
 
-![](table_8-41-02.png)
+![](images/table_8-41-02.png)
 :::
 
 ::: {g-col-8}
@@ -1163,7 +1163,7 @@ Subangular blocky
 ::: {g-col-4}
 Angular blocky
 
-![](table_8-41-03.png)
+![](images/table_8-41-03.png)
 :::
 
 ::: {g-col-8}
@@ -1176,7 +1176,7 @@ Angular blocky
 ::: {g-col-4}
 Lenticular
 
-![](table_8-41-04.png)
+![](images/table_8-41-04.png)
 :::
 
 ::: {g-col-8}
@@ -1189,7 +1189,7 @@ Lenticular
 ::: {g-col-4}
 Wedge-shaped
 
-![](table_8-41-05.png)
+![](images/table_8-41-05.png)
 :::
 
 ::: {g-col-8}
@@ -1203,7 +1203,7 @@ Wedge-shaped
 ::: {g-col-4}
 Prismatic
 
-![](table_8-41-06.png)
+![](images/table_8-41-06.png)
 :::
 
 ::: {g-col-8}
@@ -1215,7 +1215,7 @@ Prismatic
 ::: {g-col-4}
 Columnar
 
-![](table_8-41-07.png)
+![](images/table_8-41-07.png)
 :::
 
 ::: {g-col-8}
@@ -1226,7 +1226,7 @@ Columnar
 ::: {g-col-4}
 Polyhedral
 
-![](table_8-41-08.png)
+![](images/table_8-41-08.png)
 :::
 
 ::: {g-col-8}
@@ -1240,7 +1240,7 @@ Polyhedral
 ::: {g-col-4}
 Flat-edged
 
-![](table_8-41-09.png)
+![](images/table_8-41-09.png)
 :::
 
 ::: {g-col-8}
@@ -1253,7 +1253,7 @@ Flat-edged
 ::: {g-col-4}
 Pseudosand/Pseudosilt
 
-![](table_8-41-10.png)
+![](images/table_8-41-10.png)
 :::
 
 ::: {g-col-8}
@@ -1265,7 +1265,7 @@ Pseudosand/Pseudosilt
 ::: {g-col-4}
 Platy
 
-![](table_8-41-11.png)
+![](images/table_8-41-11.png)
 :::
 
 ::: {g-col-8}
@@ -1276,7 +1276,7 @@ Platy
 ::: {g-col-4}
 Single grain
 
-![](table_8-41-12.png)
+![](images/table_8-41-12.png)
 :::
 
 ::: {g-col-8}
@@ -1286,7 +1286,7 @@ Single grain
 ::: {g-col-4}
 Massive
 
-![](table_8-41-13.png)
+![](images/table_8-41-13.png)
 :::
 
 ::: {g-col-8}
@@ -1296,7 +1296,7 @@ Massive
 ::: {g-col-4}
 Cloddy
 
-![](table_8-41-14.png)
+![](images/table_8-41-14.png)
 :::
 
 ::: {g-col-8}
@@ -1304,45 +1304,45 @@ Cloddy
 :::
 :::
 
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
-| Type                   | Formation                                                                                                                                                            | Code   |
-+========================+======================================================================================================================================================================+========+
-| Granular               | Soil aggregate structure, natural                                                                                                                                    | **GR** |
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
-| Subangular blocky      | Soil aggregate structure, natural                                                                                                                                    | **BS** |
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
-| Angular blocky         | Soil aggregate structure, natural                                                                                                                                    | **BA** |
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
-| Lenticular             | Soil aggregate structure, natural                                                                                                                                    | **LC** |
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
-| Wefge-shaped           | Soil aggregate structure, natural                                                                                                                                    | **WE** |
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
-| Prismatic              | Soil aggregate structure, natural                                                                                                                                    | **PR** |
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
-| Columnar               | Soil aggregate structure, natural                                                                                                                                    | **CO** |
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
-| Polyhedral             | Soil aggregate structure, natural                                                                                                                                    | **PH** |
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
-| Flatedged              | Soil aggregate structure, natural                                                                                                                                    | **FE** |
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
-| Pseudosand/ Pseudosilt | Soil aggregate structure, natural                                                                                                                                    | **PS** |
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
-| Platy                  | Soil aggregate structure, natural or resulting from artificial pressure                                                                                              | **PL** |
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
-| Single grain           | No structural units, rock structure, inherited from the parent material                                                                                              | **SR** |
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
-| Single grain           | No structural units, soil structure, resulting from soil-forming processes, like loss of organic matter and/or oxides and/or clay minerals or loss of stratification | **SS** |
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
-| Massive                | No structural units, rock structure, inherited from the parent material, structure not changing with soil moisture, not or only slightly chemically weathered        | **MR** |
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
-| Massive                | No structural units, rock structure, inherited from the parent material, structure not changing with soil moisture, strongly chemically weathered (e.g. saprolite)   | **MW** |
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
-| Massive                | No structural units, soil structure, present when moist and changing into soil aggregate structure when dry                                                          | **MS** |
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
-| Stratified             | No structural units, rock structure, visible stratification from sedimentation                                                                                       | **ST** |
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
-| Cloddy                 | Artificial structural elements                                                                                                                                       | **CL** |
-+------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+--------+
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Type                   | Formation                                                                                                                                                            | Code    |
++========================+======================================================================================================================================================================+=========+
+| Granular               | Soil aggregate structure, natural                                                                                                                                    | **GR**  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Subangular blocky      | Soil aggregate structure, natural                                                                                                                                    | **BS**  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Angular blocky         | Soil aggregate structure, natural                                                                                                                                    | **BA**  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Lenticular             | Soil aggregate structure, natural                                                                                                                                    | **LC**  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Wefge-shaped           | Soil aggregate structure, natural                                                                                                                                    | **WE**  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Prismatic              | Soil aggregate structure, natural                                                                                                                                    | **PR**  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Columnar               | Soil aggregate structure, natural                                                                                                                                    | **CO**  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Polyhedral             | Soil aggregate structure, natural                                                                                                                                    | **PH**  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Flatedged              | Soil aggregate structure, natural                                                                                                                                    | **FE**  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Pseudosand/ Pseudosilt | Soil aggregate structure, natural                                                                                                                                    | **PS**  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Platy                  | Soil aggregate structure, natural or resulting from artificial pressure                                                                                              | **PL**  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Single grain           | No structural units, rock structure, inherited from the parent material                                                                                              | **SR**  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Single grain           | No structural units, soil structure, resulting from soil-forming processes, like loss of organic matter and/or oxides and/or clay minerals or loss of stratification | **SS**  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Massive                | No structural units, rock structure, inherited from the parent material, structure not changing with soil moisture, not or only slightly chemically weathered        | **MR**  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Massive                | No structural units, rock structure, inherited from the parent material, structure not changing with soil moisture, strongly chemically weathered (e.g. saprolite)   | **MW**  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Massive                | No structural units, soil structure, present when moist and changing into soil aggregate structure when dry                                                          | **MS**  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Stratified             | No structural units, rock structure, visible stratification from sedimentation                                                                                       | **ST**  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| Cloddy                 | Artificial structural elements                                                                                                                                       | **CL**  |
++------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 : Types of structure, formation and codes
 
@@ -1433,7 +1433,7 @@ Soil has air- or water-filled voids, which are:
 
 Tubular and dendritic tubular pores are commonly referred to as **biopores**.
 
-![Type of non-matrix pores, Schoeneberger et al. (2012), 2-74](figure_8-16.png)
+![Type of non-matrix pores, Schoeneberger et al. (2012), 2-74](images/figure_8-16.png)
 
 #### Size and abundance
 
@@ -1484,17 +1484,17 @@ Report persistence and continuity,
 
 #### Continuity
 
-+-----------------------------------------------------------------------------------+-----------+
-| Criterion                                                                         | Code      |
-+===================================================================================+===========+
-| All cracks continue into the underlying layer                                     | **AC**    |
-+-----------------------------------------------------------------------------------+-----------+
-| At least half, but not all of the cracks continue into the underlying layer       | **HC**    |
-+-----------------------------------------------------------------------------------+-----------+
-| At least one, but less than half of the cracks continue into the underlying layer | **SC**    |
-+-----------------------------------------------------------------------------------+-----------+
-| Cracks do not continue into the underlying layer                                  | **NC**    |
-+-----------------------------------------------------------------------------------+-----------+
++-----------------------------------------------------------------------------------+------------+
+| Criterion                                                                         | Code       |
++===================================================================================+============+
+| All cracks continue into the underlying layer                                     | **AC**     |
++-----------------------------------------------------------------------------------+------------+
+| At least half, but not all of the cracks continue into the underlying layer       | **HC**     |
++-----------------------------------------------------------------------------------+------------+
+| At least one, but less than half of the cracks continue into the underlying layer | **SC**     |
++-----------------------------------------------------------------------------------+------------+
+| Cracks do not continue into the underlying layer                                  | **NC**     |
++-----------------------------------------------------------------------------------+------------+
 
 : Continuity of cracks
 
@@ -1509,7 +1509,7 @@ Stress features result from soil aggregates that are pressed against each other 
 -   Pressure faces in % of the surfaces of soil aggregates
 -   Slickensides in % of the surfaces of soil aggregates.
 
-![Type of stress features, Schoeneberger et al. (2012), 2-34](figure_8-17.png)
+![Type of stress features, Schoeneberger et al. (2012), 2-34](images/figure_8-17.png)
 
 ### Concentrations (overview)
 
@@ -1547,7 +1547,7 @@ In general, soil colour can be a property of the four following soil features:
     -   readily soluble salts (see Chapter 8.4.28)
     -   accumulations of organic matter (see Chapter 8.4.36)
 
-![Colour flow chart, Schoeneberger et al. (2012), 2-8, modified](figure_8-18.png)
+![Colour flow chart, Schoeneberger et al. (2012), 2-8, modified](images/figure_8-18.png)
 
 Use the Munsell Color Charts. Take a fresh sample, slightly crush it and observe the colour in the shade (both your eyes and the colour chart in the shade) and not in the twilight. Report hue, value and chroma. The matrix colour is recorded twice, moist and (if possible) dry, the other colours only in the moist state. The moist state corresponds to field capacity, which is obtained with sufficient accuracy by moistening and reading the colour as soon as visible moisture films have disappeared.
 
@@ -1656,23 +1656,23 @@ The term 'oxides', as used here, includes hydroxides and oxide-hydroxides. The t
 |                                                          | Throughout                                                                            | **ORT**    |
 +----------------------------------------------------------+---------------------------------------------------------------------------------------+------------+
 
-+----------------------------------------------------------+------------------------------------------------------------------------+-----------+
-| Location                                                 |                                                                        | Code      |
-+==========================================================+========================================================================+===========+
-| Inner parts                                              | Inside soil aggregates                                                 | RIA       |
-+----------------------------------------------------------+------------------------------------------------------------------------+-----------+
-| Outer parts                                              | Outer parts of soil aggregates                                         | ROA       |
-+----------------------------------------------------------+------------------------------------------------------------------------+-----------+
-|                                                          | Around biopores, surrounding the entire pores                          | ROE       |
-+----------------------------------------------------------+------------------------------------------------------------------------+-----------+
-|                                                          | Around biopores, not surrounding the entire pores                      | RON       |
-+----------------------------------------------------------+------------------------------------------------------------------------+-----------+
-| Random (not associated with aggregate surfaces or pores) | Distributed over the layer, no order visible                           | RRN       |
-+----------------------------------------------------------+------------------------------------------------------------------------+-----------+
-|                                                          | Distributed over the layer, surrounding areas with oximorphic features | RRS       |
-+----------------------------------------------------------+------------------------------------------------------------------------+-----------+
-|                                                          | Throughout                                                             | RRT       |
-+----------------------------------------------------------+------------------------------------------------------------------------+-----------+
++----------------------------------------------------------+------------------------------------------------------------------------+------------+
+| Location                                                 |                                                                        | Code       |
++==========================================================+========================================================================+============+
+| Inner parts                                              | Inside soil aggregates                                                 | RIA        |
++----------------------------------------------------------+------------------------------------------------------------------------+------------+
+| Outer parts                                              | Outer parts of soil aggregates                                         | ROA        |
++----------------------------------------------------------+------------------------------------------------------------------------+------------+
+|                                                          | Around biopores, surrounding the entire pores                          | ROE        |
++----------------------------------------------------------+------------------------------------------------------------------------+------------+
+|                                                          | Around biopores, not surrounding the entire pores                      | RON        |
++----------------------------------------------------------+------------------------------------------------------------------------+------------+
+| Random (not associated with aggregate surfaces or pores) | Distributed over the layer, no order visible                           | RRN        |
++----------------------------------------------------------+------------------------------------------------------------------------+------------+
+|                                                          | Distributed over the layer, surrounding areas with oximorphic features | RRS        |
++----------------------------------------------------------+------------------------------------------------------------------------+------------+
+|                                                          | Throughout                                                             | RRT        |
++----------------------------------------------------------+------------------------------------------------------------------------+------------+
 
 : Location of reductimorphic features
 
@@ -1694,19 +1694,19 @@ The Table indicates the average length of the greatest dimension.
 
 If an intact specimen is not obtainable, the oximorphic feature is not cemented. Otherwise, take out the feature, apply force perpendicular to its greatest dimension, observe the force needed for failure and report the cementation class.
 
-+-----------------------------------------------------------------------------+-----------------------------+------------+
-| Criterion                                                                   | Class                       | Code       |
-+=============================================================================+=============================+============+
-| Intact specimen not obtainable or very slight force between fingers, \< 8 N | Not cemented                | **NC**     |
-+-----------------------------------------------------------------------------+-----------------------------+------------+
-| Slight force between fingers, 8--\< 20 N                                    | Extremely weakly cemented   | **EWC**    |
-+-----------------------------------------------------------------------------+-----------------------------+------------+
-| Moderate force between fingers, 20--\< 40 N                                 | Very weakly cemented        | **VWC**    |
-+-----------------------------------------------------------------------------+-----------------------------+------------+
-| Strong force between fingers, 40--\< 80 N                                   | Weakly cemented             | **WEC**    |
-+-----------------------------------------------------------------------------+-----------------------------+------------+
-| Does not fail when applying force between fingers, ≥ 80 N                   | Moderately or more cemented | **MOC**    |
-+-----------------------------------------------------------------------------+-----------------------------+------------+
++-----------------------------------------------------------------------------+-----------------------------+-------------+
+| Criterion                                                                   | Class                       | Code        |
++=============================================================================+=============================+=============+
+| Intact specimen not obtainable or very slight force between fingers, \< 8 N | Not cemented                | **NC**      |
++-----------------------------------------------------------------------------+-----------------------------+-------------+
+| Slight force between fingers, 8--\< 20 N                                    | Extremely weakly cemented   | **EWC**     |
++-----------------------------------------------------------------------------+-----------------------------+-------------+
+| Moderate force between fingers, 20--\< 40 N                                 | Very weakly cemented        | **VWC**     |
++-----------------------------------------------------------------------------+-----------------------------+-------------+
+| Strong force between fingers, 40--\< 80 N                                   | Weakly cemented             | **WEC**     |
++-----------------------------------------------------------------------------+-----------------------------+-------------+
+| Does not fail when applying force between fingers, ≥ 80 N                   | Moderately or more cemented | **MOC**     |
++-----------------------------------------------------------------------------+-----------------------------+-------------+
 
 : Consistence of oximorphic features, Schoeneberger et al. (2012), 2-63
 
@@ -1784,7 +1784,7 @@ Report the abundance of
 -   clay coatings in % of the surfaces of soil aggregates, coarse fragments and/or biopore walls
 -   clay bridges between sand grains in % of involved sand grains.
 
-![Clay coatings and clay bridges, Schoeneberger et al. (2012), 2-34](figure_8-20.png)
+![Clay coatings and clay bridges, Schoeneberger et al. (2012), 2-34](images/figure_8-20.png)
 
 #### Organic matter coatings and oxide coatings on sand and coarse silt grains
 
@@ -1804,25 +1804,25 @@ For C, report the percentage related to the estimated number of sand grains. For
 
 Ribbon-like accumulations are thin, horizontally continuous accumulations within the matrix of another layer. Report the accumulated substance(s).
 
-+--------------------------------------------------------------+------------+
-| Substance                                                    | Code       |
-+==============================================================+============+
-| Clay minerals                                                | **CC**     |
-+--------------------------------------------------------------+------------+
-| Fe oxides and/or Mn oxides                                   | **OO**     |
-+--------------------------------------------------------------+------------+
-| Organic matter                                               | **HH**     |
-+--------------------------------------------------------------+------------+
-| Clay minerals and Fe oxides and/or Mn oxides                 | **CO**     |
-+--------------------------------------------------------------+------------+
-| Clay minerals and organic matter                             | **CH**     |
-+--------------------------------------------------------------+------------+
-| Fe oxides and/or Mn oxides and organic matter                | **OH**     |
-+--------------------------------------------------------------+------------+
-| Clay minerals, Fe oxides and/or Mn oxides and organic matter | **TO**     |
-+--------------------------------------------------------------+------------+
-| No ribbon-like accumulations                                 | **NO**     |
-+--------------------------------------------------------------+------------+
++--------------------------------------------------------------+--------------+
+| Substance                                                    | Code         |
++==============================================================+==============+
+| Clay minerals                                                | **CC**       |
++--------------------------------------------------------------+--------------+
+| Fe oxides and/or Mn oxides                                   | **OO**       |
++--------------------------------------------------------------+--------------+
+| Organic matter                                               | **HH**       |
++--------------------------------------------------------------+--------------+
+| Clay minerals and Fe oxides and/or Mn oxides                 | **CO**       |
++--------------------------------------------------------------+--------------+
+| Clay minerals and organic matter                             | **CH**       |
++--------------------------------------------------------------+--------------+
+| Fe oxides and/or Mn oxides and organic matter                | **OH**       |
++--------------------------------------------------------------+--------------+
+| Clay minerals, Fe oxides and/or Mn oxides and organic matter | **TO**       |
++--------------------------------------------------------------+--------------+
+| No ribbon-like accumulations                                 | **NO**       |
++--------------------------------------------------------------+--------------+
 
 : Substances of ribbon-like accumulations
 
@@ -1836,19 +1836,19 @@ Take a soil sample, add drops of 1 *M* HCl and observe the reaction. This meth
 
 Report the carbonate content in the soil matrix and report, whether the reaction with HCl is immediate or only after heating.
 
-+-------------------------------------------------------+-----------------------+--------------+-----------+
-| Criterion                                             | Content               | \% (by mass) | Code      |
-+=======================================================+=======================+==============+===========+
-| No visible or audible effervescence                   | Non-calcareous        | 0            | **NC**    |
-+-------------------------------------------------------+-----------------------+--------------+-----------+
-| Audible effervescence but not visible                 | Slightly calcareous   | \> 0--2      | **SL**    |
-+-------------------------------------------------------+-----------------------+--------------+-----------+
-| Visible effervescence                                 | Moderately calcareous | \> 2--10     | **MO**    |
-+-------------------------------------------------------+-----------------------+--------------+-----------+
-| Strong visible effervescence, bubbles form a low foam | Strongly calcareous   | \> 10--25    | **ST**    |
-+-------------------------------------------------------+-----------------------+--------------+-----------+
-| Extremely strong reaction, thick foam forms quickly   | Extremely calcareous  | \> 25        | **EX**    |
-+-------------------------------------------------------+-----------------------+--------------+-----------+
++-------------------------------------------------------+-----------------------+--------------+------------+
+| Criterion                                             | Content               | \% (by mass) | Code       |
++=======================================================+=======================+==============+============+
+| No visible or audible effervescence                   | Non-calcareous        | 0            | **NC**     |
++-------------------------------------------------------+-----------------------+--------------+------------+
+| Audible effervescence but not visible                 | Slightly calcareous   | \> 0--2      | **SL**     |
++-------------------------------------------------------+-----------------------+--------------+------------+
+| Visible effervescence                                 | Moderately calcareous | \> 2--10     | **MO**     |
++-------------------------------------------------------+-----------------------+--------------+------------+
+| Strong visible effervescence, bubbles form a low foam | Strongly calcareous   | \> 10--25    | **ST**     |
++-------------------------------------------------------+-----------------------+--------------+------------+
+| Extremely strong reaction, thick foam forms quickly   | Extremely calcareous  | \> 25        | **EX**     |
++-------------------------------------------------------+-----------------------+--------------+------------+
 
 : Carbonate contents, FAO (2006), Table 38
 
@@ -1863,21 +1863,21 @@ Report the carbonate content in the soil matrix and report, whether the reaction
 
 Report the type of secondary carbonates. If more than one occurs, report up to four, the dominant one first. Report secondary carbonates only if **visible when moist**. Always check with HCl if it is really carbonate. Report the abundance as percentage for each form using Table 8.65 as a reference.
 
-+-------------------------------------------------------------------+-----------+
-| Type                                                              | Code      |
-+===================================================================+===========+
-| Masses (including spheroidal aggregations like white eyes)        | **MA**    |
-+-------------------------------------------------------------------+-----------+
-| Nodules and/or concretions                                        | **NC**    |
-+-------------------------------------------------------------------+-----------+
-| Filaments (including continuous filaments like pseudomycelia)     | **FI**    |
-+-------------------------------------------------------------------+-----------+
-| Coatings on soil aggregate surfaces or biopore walls              | **AS**    |
-+-------------------------------------------------------------------+-----------+
-| Coatings on undersides of coarse fragments and cemented fragments | **UR**    |
-+-------------------------------------------------------------------+-----------+
-| No secondary carbonates                                           | **NO**    |
-+-------------------------------------------------------------------+-----------+
++-------------------------------------------------------------------+-------------+
+| Type                                                              | Code        |
++===================================================================+=============+
+| Masses (including spheroidal aggregations like white eyes)        | **MA**      |
++-------------------------------------------------------------------+-------------+
+| Nodules and/or concretions                                        | **NC**      |
++-------------------------------------------------------------------+-------------+
+| Filaments (including continuous filaments like pseudomycelia)     | **FI**      |
++-------------------------------------------------------------------+-------------+
+| Coatings on soil aggregate surfaces or biopore walls              | **AS**      |
++-------------------------------------------------------------------+-------------+
+| Coatings on undersides of coarse fragments and cemented fragments | **UR**      |
++-------------------------------------------------------------------+-------------+
+| No secondary carbonates                                           | **NO**      |
++-------------------------------------------------------------------+-------------+
 
 : Types of secondary carbonates
 
@@ -1899,20 +1899,20 @@ Report the type of secondary carbonates. If more than one occurs, report up to f
 
 Report the gypsum content in the soil matrix. If readily soluble salts are absent or present in small amounts only, gypsum can be estimated by measuring the electrical conductivity in soil suspensions of different soilwater relations after 30 minutes (in the case of fine-grained gypsum). This method detects primary and secondary gypsum. Note: Higher gypsum contents may be differentiated by abundance of H~2~O-soluble pseudomycelia/crystals and a soil colour with high value and low chroma.
 
-+------------------------------------------------------+------------------------+--------------+-----------+
-| Electrical conductivity (EC)                         | Content                | \% (by mass) | Code      |
-+======================================================+========================+==============+===========+
-| ≤ 1.8 dS m^-1^ in 10 g soil / 25 ml H~2~O or\        | Non-gypsiferous        | 0            | **NG**    |
-| ≤ 0.18 dS m^-1^ in 10 g soil / 250 ml H~2~O          |                        |              |           |
-+------------------------------------------------------+------------------------+--------------+-----------+
-| \> 0.18 - ≤ 1.8 dS m^-1^ in 10 g soil / 250 ml H~2~O | Slightly gypsiferous   | \> 0--5      | **SL**    |
-+------------------------------------------------------+------------------------+--------------+-----------+
-| \> 1.8 dS m^-1^ in 10 g soil / 250 ml H~2~O          | Moderately gypsiferous | \> 5--15     | **MO**    |
-+------------------------------------------------------+------------------------+--------------+-----------+
-|                                                      | Strongly gypsiferous   | \> 15--60    | **ST**    |
-+------------------------------------------------------+------------------------+--------------+-----------+
-|                                                      | Extremely gypsiferous  | \> 60        | **EX**    |
-+------------------------------------------------------+------------------------+--------------+-----------+
++------------------------------------------------------+------------------------+--------------+------------+
+| Electrical conductivity (EC)                         | Content                | \% (by mass) | Code       |
++======================================================+========================+==============+============+
+| ≤ 1.8 dS m^-1^ in 10 g soil / 25 ml H~2~O or\        | Non-gypsiferous        | 0            | **NG**     |
+| ≤ 0.18 dS m^-1^ in 10 g soil / 250 ml H~2~O          |                        |              |            |
++------------------------------------------------------+------------------------+--------------+------------+
+| \> 0.18 - ≤ 1.8 dS m^-1^ in 10 g soil / 250 ml H~2~O | Slightly gypsiferous   | \> 0--5      | **SL**     |
++------------------------------------------------------+------------------------+--------------+------------+
+| \> 1.8 dS m^-1^ in 10 g soil / 250 ml H~2~O          | Moderately gypsiferous | \> 5--15     | **MO**     |
++------------------------------------------------------+------------------------+--------------+------------+
+|                                                      | Strongly gypsiferous   | \> 15--60    | **ST**     |
++------------------------------------------------------+------------------------+--------------+------------+
+|                                                      | Extremely gypsiferous  | \> 60        | **EX**     |
++------------------------------------------------------+------------------------+--------------+------------+
 
 : Gypsum contents in layers with little readily soluble salts, FAO (2006), Table 40
 
@@ -1934,19 +1934,19 @@ Gypsum is soft and can easily be ripped with a knife or broken between thumbnail
 
 Secondary silica (SiO~2~) is off-white and predominantly consisting of opal and microcrystalline forms. It occurs as laminar caps, lenses, (partly) filled interstices, bridges between sand grains, and as coatings at surfaces of soil aggregates, biopore walls, coarse fragments, and cemented fragments. Report the type of secondary silica. If more than one type occurs, report up to two, the dominant one first. Note: Durinodes are often coated with secondary carbonates.
 
-+-----------------------------------------------------------------+-----------+
-| Type                                                            | Code      |
-+=================================================================+===========+
-| Nodules (durinodes)                                             | **DN**    |
-+-----------------------------------------------------------------+-----------+
-| Accumulations within a layer, cemented by secondary silica      | **CH**    |
-+-----------------------------------------------------------------+-----------+
-| Fragments of a layer that has been cemented by secondary silica | **FC**    |
-+-----------------------------------------------------------------+-----------+
-| Other accumulations                                             | **OT**    |
-+-----------------------------------------------------------------+-----------+
-| No secondary silica                                             | **NO**    |
-+-----------------------------------------------------------------+-----------+
++-----------------------------------------------------------------+-------------+
+| Type                                                            | Code        |
++=================================================================+=============+
+| Nodules (durinodes)                                             | **DN**      |
++-----------------------------------------------------------------+-------------+
+| Accumulations within a layer, cemented by secondary silica      | **CH**      |
++-----------------------------------------------------------------+-------------+
+| Fragments of a layer that has been cemented by secondary silica | **FC**      |
++-----------------------------------------------------------------+-------------+
+| Other accumulations                                             | **OT**      |
++-----------------------------------------------------------------+-------------+
+| No secondary silica                                             | **NO**      |
++-----------------------------------------------------------------+-------------+
 
 : Types of secondary silica
 
@@ -1978,37 +1978,37 @@ WC~SE~ is the water content in the saturation extract. It can be estimated in mi
 
 Report the electrical conductivity of the saturation extract in dS m^-1^.
 
-+----------------------+---------+--------------+-----------+--------+--------+--------+
-| Texture class        | \< 0.25 | 0.25--\< 0.5 | 0.5--\< 1 | 1--2   | 2--4   | 4--20  |
-+======================+=========+==============+===========+========+========+========+
-| CS                   | 5       | 6            | 8         | 13     | 21     | 35     |
-+----------------------+---------+--------------+-----------+--------+--------+--------+
-| MS                   | 8       | 9            | 11        | 16     | 24     | 38     |
-+----------------------+---------+--------------+-----------+--------+--------+--------+
-| FS, VFS              | 10      | 11           | 13        | 18     | 26     | 40     |
-+----------------------+---------+--------------+-----------+--------+--------+--------+
-| LS, SL (\< 10% clay) | 14      | 15           | 17        | 22     | 30     | 45     |
-+----------------------+---------+--------------+-----------+--------+--------+--------+
-| SiL (\< 10% clay)    | 17      | 18           | 20        | 25     | 34     | 49     |
-+----------------------+---------+--------------+-----------+--------+--------+--------+
-| Si                   | 19      | 20           | 22        | 27     | 36     | 51     |
-+----------------------+---------+--------------+-----------+--------+--------+--------+
-| SL (≥ 10% clay)      | 22      | 23           | 26        | 31     | 39     | 55     |
-+----------------------+---------+--------------+-----------+--------+--------+--------+
-| L                    | 25      | 26           | 29        | 34     | 42     | 58     |
-+----------------------+---------+--------------+-----------+--------+--------+--------+
-| SiL (≥ 10% clay)     | 28      | 29           | 32        | 37     | 46     | 62     |
-+----------------------+---------+--------------+-----------+--------+--------+--------+
-| SCL                  | 32      | 33           | 36        | 41     | 50     | 67     |
-+----------------------+---------+--------------+-----------+--------+--------+--------+
-| CL, SiCL             | 44      | 46           | 48        | 53     | 63     | 80     |
-+----------------------+---------+--------------+-----------+--------+--------+--------+
-| SC                   | 51      | 53           | 55        | 60     | 70     | 88     |
-+----------------------+---------+--------------+-----------+--------+--------+--------+
-| SiC, C (\< 60% clay) | 63      | 65           | 68        | 73     | 82     | 102    |
-+----------------------+---------+--------------+-----------+--------+--------+--------+
-| C (≥ 60% clay)       | 105     | 107          | 110       | 116    | 126    | 147    |
-+----------------------+---------+--------------+-----------+--------+--------+--------+
++----------------------+---------+--------------+-----------+---------+---------+---------+
+| Texture class        | \< 0.25 | 0.25--\< 0.5 | 0.5--\< 1 | 1--2    | 2--4    | 4--20   |
++======================+=========+==============+===========+=========+=========+=========+
+| CS                   | 5       | 6            | 8         | 13      | 21      | 35      |
++----------------------+---------+--------------+-----------+---------+---------+---------+
+| MS                   | 8       | 9            | 11        | 16      | 24      | 38      |
++----------------------+---------+--------------+-----------+---------+---------+---------+
+| FS, VFS              | 10      | 11           | 13        | 18      | 26      | 40      |
++----------------------+---------+--------------+-----------+---------+---------+---------+
+| LS, SL (\< 10% clay) | 14      | 15           | 17        | 22      | 30      | 45      |
++----------------------+---------+--------------+-----------+---------+---------+---------+
+| SiL (\< 10% clay)    | 17      | 18           | 20        | 25      | 34      | 49      |
++----------------------+---------+--------------+-----------+---------+---------+---------+
+| Si                   | 19      | 20           | 22        | 27      | 36      | 51      |
++----------------------+---------+--------------+-----------+---------+---------+---------+
+| SL (≥ 10% clay)      | 22      | 23           | 26        | 31      | 39      | 55      |
++----------------------+---------+--------------+-----------+---------+---------+---------+
+| L                    | 25      | 26           | 29        | 34      | 42      | 58      |
++----------------------+---------+--------------+-----------+---------+---------+---------+
+| SiL (≥ 10% clay)     | 28      | 29           | 32        | 37      | 46      | 62      |
++----------------------+---------+--------------+-----------+---------+---------+---------+
+| SCL                  | 32      | 33           | 36        | 41      | 50      | 67      |
++----------------------+---------+--------------+-----------+---------+---------+---------+
+| CL, SiCL             | 44      | 46           | 48        | 53      | 63      | 80      |
++----------------------+---------+--------------+-----------+---------+---------+---------+
+| SC                   | 51      | 53           | 55        | 60      | 70      | 88      |
++----------------------+---------+--------------+-----------+---------+---------+---------+
+| SiC, C (\< 60% clay) | 63      | 65           | 68        | 73      | 82      | 102     |
++----------------------+---------+--------------+-----------+---------+---------+---------+
+| C (≥ 60% clay)       | 105     | 107          | 110       | 116     | 126     | 147     |
++----------------------+---------+--------------+-----------+---------+---------+---------+
 
 : Estimation of the water content of the saturation extract of mineral layers, DVWK (1995), FAO (2006), Table 43
 
@@ -2085,25 +2085,25 @@ For checking this feature, different specimens have to be taken, depending on so
 
 e.g. for a 5.6-cm cube \[(2.8/5.6)^2^ x 20 N\] = 5 N → Very friable (moist).
 
-+-------------------------------------------------------------------------------------------------------------+---------------------------+----------+
-| Criterion                                                                                                   | Class                     | Code     |
-+=============================================================================================================+===========================+==========+
-| Intact specimen not obtainable or very slight force between fingers, \< 8 N                                 | Not cemented              | NOC      |
-+-------------------------------------------------------------------------------------------------------------+---------------------------+----------+
-| Slight force between fingers, 8 - \< 20 N                                                                   | Extremely weakly cemented | EWC      |
-+-------------------------------------------------------------------------------------------------------------+---------------------------+----------+
-| Moderate force between fingers, 20 - \< 40 N                                                                | Very weakly cemented      | VWC      |
-+-------------------------------------------------------------------------------------------------------------+---------------------------+----------+
-| Strong force between fingers, 40 - \< 80 N                                                                  | Weakly cemented           | WEC      |
-+-------------------------------------------------------------------------------------------------------------+---------------------------+----------+
-| Moderate force between hands, 80 - \< 160 N                                                                 | Moderately cemented       | MOC      |
-+-------------------------------------------------------------------------------------------------------------+---------------------------+----------+
-| Foot pressure by full body weight, 160 - \< 800 N                                                           | Strongly cemented         | STC      |
-+-------------------------------------------------------------------------------------------------------------+---------------------------+----------+
-| Blow of \< 3 J (3 J = 2 kg dropped 15 cm) and does not fail under foot pressure by full body weight (800 N) | Very strongly cemented    | VSC      |
-+-------------------------------------------------------------------------------------------------------------+---------------------------+----------+
-| low of \< 3 J (3 J = 2 kg dropped 15 cm)                                                                    | Extremely cemented        | EXC      |
-+-------------------------------------------------------------------------------------------------------------+---------------------------+----------+
++-------------------------------------------------------------------------------------------------------------+---------------------------+-----------+
+| Criterion                                                                                                   | Class                     | Code      |
++=============================================================================================================+===========================+===========+
+| Intact specimen not obtainable or very slight force between fingers, \< 8 N                                 | Not cemented              | NOC       |
++-------------------------------------------------------------------------------------------------------------+---------------------------+-----------+
+| Slight force between fingers, 8 - \< 20 N                                                                   | Extremely weakly cemented | EWC       |
++-------------------------------------------------------------------------------------------------------------+---------------------------+-----------+
+| Moderate force between fingers, 20 - \< 40 N                                                                | Very weakly cemented      | VWC       |
++-------------------------------------------------------------------------------------------------------------+---------------------------+-----------+
+| Strong force between fingers, 40 - \< 80 N                                                                  | Weakly cemented           | WEC       |
++-------------------------------------------------------------------------------------------------------------+---------------------------+-----------+
+| Moderate force between hands, 80 - \< 160 N                                                                 | Moderately cemented       | MOC       |
++-------------------------------------------------------------------------------------------------------------+---------------------------+-----------+
+| Foot pressure by full body weight, 160 - \< 800 N                                                           | Strongly cemented         | STC       |
++-------------------------------------------------------------------------------------------------------------+---------------------------+-----------+
+| Blow of \< 3 J (3 J = 2 kg dropped 15 cm) and does not fail under foot pressure by full body weight (800 N) | Very strongly cemented    | VSC       |
++-------------------------------------------------------------------------------------------------------------+---------------------------+-----------+
+| low of \< 3 J (3 J = 2 kg dropped 15 cm)                                                                    | Extremely cemented        | EXC       |
++-------------------------------------------------------------------------------------------------------------+---------------------------+-----------+
 
 : Cementation, Schoeneberger et al. (2012), 2-63
 
@@ -2146,15 +2146,15 @@ Some layers are prone to cementation after repeated drying and wetting. Report t
 
 Report the manner of failure (brittleness). Take a moist specimen, around 3 cm long at all dimensions, press it between thumb and forefinger and observe it when it ruptures.
 
-+-------------------------------------------------------+-----------------+------------+
-| Criterion                                             | Type            | Code       |
-+=======================================================+=================+============+
-| Abruptly (pops or shatters)                           | Brittle         | BR         |
-+-------------------------------------------------------+-----------------+------------+
-| Before compression to one half the original thickness | Semi-deformable | SD         |
-+-------------------------------------------------------+-----------------+------------+
-| After compression to one half the original thickness  | Deformable      | DF         |
-+-------------------------------------------------------+-----------------+------------+
++-------------------------------------------------------+-----------------+-------------+
+| Criterion                                             | Type            | Code        |
++=======================================================+=================+=============+
+| Abruptly (pops or shatters)                           | Brittle         | BR          |
++-------------------------------------------------------+-----------------+-------------+
+| Before compression to one half the original thickness | Semi-deformable | SD          |
++-------------------------------------------------------+-----------------+-------------+
+| After compression to one half the original thickness  | Deformable      | DF          |
++-------------------------------------------------------+-----------------+-------------+
 
 : Types of manner of failure (brittleness), Schoeneberger et al. (2012), 2-65
 
@@ -2162,17 +2162,17 @@ Report the manner of failure (brittleness). Take a moist specimen, around 3 cm 
 
 Plasticity is the degree to which reworked soil can be permanently deformed without rupturing. It is estimated at a water content where the maximum plasticity is expressed (usually moist). Make a roll (wire, sausage) of soil, 4 cm long, roll it to smaller diameters and report the plasticity.
 
-+---------------------------------------------------------------------------------------------------------+--------------------+---------+
-| Criterion                                                                                               | Type               | Code    |
-+=========================================================================================================+====================+=========+
-| Does not form a roll 6 mm in diameter, or if a roll is formed, it cannot support itself if held on end. | Non-plastic        | NP      |
-+---------------------------------------------------------------------------------------------------------+--------------------+---------+
-| 6 mm diameter roll supports itself; 4 mm diameter roll does not.                                        | Slightly plastic   | SP      |
-+---------------------------------------------------------------------------------------------------------+--------------------+---------+
-| 4 mm diameter roll supports itself; 2 mm diameter roll does not.                                        | Moderately plastic | MP      |
-+---------------------------------------------------------------------------------------------------------+--------------------+---------+
-| 2 mm diameter roll supports itself.                                                                     | Very plastic       | VP      |
-+---------------------------------------------------------------------------------------------------------+--------------------+---------+
++---------------------------------------------------------------------------------------------------------+--------------------+----------+
+| Criterion                                                                                               | Type               | Code     |
++=========================================================================================================+====================+==========+
+| Does not form a roll 6 mm in diameter, or if a roll is formed, it cannot support itself if held on end. | Non-plastic        | NP       |
++---------------------------------------------------------------------------------------------------------+--------------------+----------+
+| 6 mm diameter roll supports itself; 4 mm diameter roll does not.                                        | Slightly plastic   | SP       |
++---------------------------------------------------------------------------------------------------------+--------------------+----------+
+| 4 mm diameter roll supports itself; 2 mm diameter roll does not.                                        | Moderately plastic | MP       |
++---------------------------------------------------------------------------------------------------------+--------------------+----------+
+| 2 mm diameter roll supports itself.                                                                     | Very plastic       | VP       |
++---------------------------------------------------------------------------------------------------------+--------------------+----------+
 
 : Types of plasticity, Schoeneberger et al. (2012), 2-66
 
@@ -2269,15 +2269,15 @@ A layer with permafrost has continuously for ≥ 2 consecutive years one of the
 -   massive ice, cementation by ice or readily visible ice crystals, or
 -   a soil temperature of \< 0 °C and insufficient water to form readily visible ice crystals. Report whether a layer has permafrost.
 
-+-----------------------------------------------------------------------------------------+----------+
-| Criterion                                                                               | Code     |
-+=========================================================================================+==========+
-| Massive ice, cementation by ice or readily visible ice crystals                         | I        |
-+-----------------------------------------------------------------------------------------+----------+
-| Soil temperature of \< 0 °C and insufficient water to form readily visible ice crystals | T        |
-+-----------------------------------------------------------------------------------------+----------+
-| No permafrost                                                                           | N        |
-+-----------------------------------------------------------------------------------------+----------+
++-----------------------------------------------------------------------------------------+-----------+
+| Criterion                                                                               | Code      |
++=========================================================================================+===========+
+| Massive ice, cementation by ice or readily visible ice crystals                         | I         |
++-----------------------------------------------------------------------------------------+-----------+
+| Soil temperature of \< 0 °C and insufficient water to form readily visible ice crystals | T         |
++-----------------------------------------------------------------------------------------+-----------+
+| No permafrost                                                                           | N         |
++-----------------------------------------------------------------------------------------+-----------+
 
 : Layers with permafrost
 
@@ -2285,25 +2285,25 @@ A layer with permafrost has continuously for ≥ 2 consecutive years one of the
 
 Estimate the packing density using a knife with a blade approx. 10 cm long.
 
-+-------------------------------------------------------------------------+--------------+----------+
-| Criterion                                                               | Class        | Code     |
-+=========================================================================+==============+==========+
-| Knife penetrates completely even when applying low forces               | Very loose   | VL       |
-+-------------------------------------------------------------------------+--------------+----------+
-| Knife penetrates completely when forces are applied                     | Loose        | LO       |
-+-------------------------------------------------------------------------+--------------+----------+
-| Knife penetrates half when forces are applied                           | Intermediate | IN       |
-+-------------------------------------------------------------------------+--------------+----------+
-| Only the knifepoint penetrates when forces are applied                  | Firm         | FR       |
-+-------------------------------------------------------------------------+--------------+----------+
-| Knife does not (or only a little bit) penetrate when forces are applied | Very firm    | VR       |
-+-------------------------------------------------------------------------+--------------+----------+
++-------------------------------------------------------------------------+--------------+-----------+
+| Criterion                                                               | Class        | Code      |
++=========================================================================+==============+===========+
+| Knife penetrates completely even when applying low forces               | Very loose   | VL        |
++-------------------------------------------------------------------------+--------------+-----------+
+| Knife penetrates completely when forces are applied                     | Loose        | LO        |
++-------------------------------------------------------------------------+--------------+-----------+
+| Knife penetrates half when forces are applied                           | Intermediate | IN        |
++-------------------------------------------------------------------------+--------------+-----------+
+| Only the knifepoint penetrates when forces are applied                  | Firm         | FR        |
++-------------------------------------------------------------------------+--------------+-----------+
+| Knife does not (or only a little bit) penetrate when forces are applied | Very firm    | VR        |
++-------------------------------------------------------------------------+--------------+-----------+
 
 : Packing density
 
 With the following Figure, the bulk density is determined from packing density and soil texture (see Chapter 8.4.9). If C~org~ content is \> 1%, bulk density must be reduced by 0.03 kg dm^-3^ for each 0.5% increment in C~org~ content. Report the bulk density with an accuracy of one decimal.
 
-![Estimation of bulk density from packing density and texture, FAO (2006), Figure 7, modified](figure_8-21.png){fig-align="center"}
+![Estimation of bulk density from packing density and texture, FAO (2006), Figure 7, modified](images/figure_8-21.png){fig-align="center"}
 
 ### Soil organic carbon (C~org~) (m)
 
@@ -2341,19 +2341,19 @@ Caution: The Munsell value is also influenced by parent material, carbonates and
 
 This Chapter refers to accumulations of organic matter in form of discrete bodies. They have usually a lower value than the surrounding material. Report here all accumulations that are natural or that are a side effect of human activities. Additions of artefacts see Chapter 8.4.8 and of human-transported material see Chapter 8.4.39. If black carbon is purposefully made by humans, it is considered to be an artefact. Organic matter accumulations due to animal activity are reported twice, once here and once in Chapter 8.4.38.
 
-+----------------------------------------------------------------------------------------------------------------------+---------+
-| Type                                                                                                                 | Code    |
-+======================================================================================================================+=========+
-| Filled earthworm burrows                                                                                             | BU      |
-+----------------------------------------------------------------------------------------------------------------------+---------+
-| Filled krotowinas                                                                                                    | KR      |
-+----------------------------------------------------------------------------------------------------------------------+---------+
-| Organic matter coatings at surfaces of soil aggregates and biopore walls (no visible other material in the coatings) | CO      |
-+----------------------------------------------------------------------------------------------------------------------+---------+
-| Black carbon (e.g. charcoal, partly charred particles, soot))                                                        | BC      |
-+----------------------------------------------------------------------------------------------------------------------+---------+
-| No visible accumulation of organic matter                                                                            | NO      |
-+----------------------------------------------------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------+----------+
+| Type                                                                                                                 | Code     |
++======================================================================================================================+==========+
+| Filled earthworm burrows                                                                                             | BU       |
++----------------------------------------------------------------------------------------------------------------------+----------+
+| Filled krotowinas                                                                                                    | KR       |
++----------------------------------------------------------------------------------------------------------------------+----------+
+| Organic matter coatings at surfaces of soil aggregates and biopore walls (no visible other material in the coatings) | CO       |
++----------------------------------------------------------------------------------------------------------------------+----------+
+| Black carbon (e.g. charcoal, partly charred particles, soot))                                                        | BC       |
++----------------------------------------------------------------------------------------------------------------------+----------+
+| No visible accumulation of organic matter                                                                            | NO       |
++----------------------------------------------------------------------------------------------------------------------+----------+
 
 : Types of accumulation of organic matter
 
@@ -2416,29 +2416,29 @@ Natural material is any material not meeting the criteria of artefacts (see Chap
 
 Report in-situ alterations. If more than one applies, report up to two, the dominant one first.
 
-+-----------------------------------------------------------------+-----------+
-| Type                                                            | Code      |
-+=================================================================+===========+
-| Ploughing, annually                                             | PA        |
-+-----------------------------------------------------------------+-----------+
-| Ploughing, at least once every 5 years                          | PO        |
-+-----------------------------------------------------------------+-----------+
-| Ploughing in the past, not ploughed since \> 5 years            | PP        |
-+-----------------------------------------------------------------+-----------+
-| Ploughing, unspecified                                          | PU        |
-+-----------------------------------------------------------------+-----------+
-| Remodelled (e.g. single ploughing)                              | RM        |
-+-----------------------------------------------------------------+-----------+
-| Loosening                                                       | LO        |
-+-----------------------------------------------------------------+-----------+
-| Compaction, other than a plough pan                             | CP        |
-+-----------------------------------------------------------------+-----------+
-| Structure deterioration, other than by ploughing or remodelling | SD        |
-+-----------------------------------------------------------------+-----------+
-| Other                                                           | OT        |
-+-----------------------------------------------------------------+-----------+
-| No in-situ alteration                                           | NO        |
-+-----------------------------------------------------------------+-----------+
++-----------------------------------------------------------------+-------------+
+| Type                                                            | Code        |
++=================================================================+=============+
+| Ploughing, annually                                             | PA          |
++-----------------------------------------------------------------+-------------+
+| Ploughing, at least once every 5 years                          | PO          |
++-----------------------------------------------------------------+-------------+
+| Ploughing in the past, not ploughed since \> 5 years            | PP          |
++-----------------------------------------------------------------+-------------+
+| Ploughing, unspecified                                          | PU          |
++-----------------------------------------------------------------+-------------+
+| Remodelled (e.g. single ploughing)                              | RM          |
++-----------------------------------------------------------------+-------------+
+| Loosening                                                       | LO          |
++-----------------------------------------------------------------+-------------+
+| Compaction, other than a plough pan                             | CP          |
++-----------------------------------------------------------------+-------------+
+| Structure deterioration, other than by ploughing or remodelling | SD          |
++-----------------------------------------------------------------+-------------+
+| Other                                                           | OT          |
++-----------------------------------------------------------------+-------------+
+| No in-situ alteration                                           | NO          |
++-----------------------------------------------------------------+-------------+
 
 : In-situ alterations
 
@@ -2446,15 +2446,15 @@ Report in-situ alterations. If more than one applies, report up to two, the domi
 
 Adding or mixing may combine materials richer and poorer in C~org~. A new granular structure may form combining the two. Report, to which extent this process has happened. Use a hand lens.
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-| Criterion                                                                                                                                                    | Code    |
-+==============================================================================================================================================================+=========+
-| New granular structure present throughout the layer                                                                                                          | T       |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-| New granular structure present in places, but in other places the added or mixed materials and the previously present materials lie isolated from each other | P       |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-| No new granular structure present                                                                                                                            | N       |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+
+| Criterion                                                                                                                                                    | Code     |
++==============================================================================================================================================================+==========+
+| New granular structure present throughout the layer                                                                                                          | T        |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+
+| New granular structure present in places, but in other places the added or mixed materials and the previously present materials lie isolated from each other | P        |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+
+| No new granular structure present                                                                                                                            | N        |
++--------------------------------------------------------------------------------------------------------------------------------------------------------------+----------+
 
 : Aggregate formation after addditions or after in-situ alterations
 
@@ -2614,15 +2614,15 @@ This Chapter refers to the transformation of visible plant tissues into visibly 
 
 If an Oa horizon (see Annex 3, Chapter 10.2) is present, report its subdivisions.
 
-+----------------------------------------------------+-------------+-----------+
-| Criterin                                           | Type        | Code      |
-+====================================================+=============+===========+
-| Breaks into longitudinal pieces with sharp edges   | Sharp-edged | SE        |
-+----------------------------------------------------+-------------+-----------+
-| Breaks into longitudinal pieces with unsharp edges | Compact     | CO        |
-+----------------------------------------------------+-------------+-----------+
-| Breaks into crumbly pieces or breaks powdery       | Crumbly     | CR        |
-+----------------------------------------------------+-------------+-----------+
++----------------------------------------------------+-------------+-------------+
+| Criterin                                           | Type        | Code        |
++====================================================+=============+=============+
+| Breaks into longitudinal pieces with sharp edges   | Sharp-edged | SE          |
++----------------------------------------------------+-------------+-------------+
+| Breaks into longitudinal pieces with unsharp edges | Compact     | CO          |
++----------------------------------------------------+-------------+-------------+
+| Breaks into crumbly pieces or breaks powdery       | Crumbly     | CR          |
++----------------------------------------------------+-------------+-------------+
 
 : Subdivisions of the Oa horizon
 
@@ -2670,7 +2670,7 @@ Use a scraper to sample every layer separately and along its entire height and w
 
 At the soil surface, determine an area large enough for the appropriate number of sampling rings (e.g. 3 rings). The area must be adjacent to the profile wall and close to the measuring tape. In this area, remove the organic surface layers and start sampling layer by layer from top to down. The thickness of a mineral layer may be larger or smaller than the height of a sampling ring or it may be equal (Figure 8.22).
 
-![Volumetric sampling](figure_8-22.png)
+![Volumetric sampling](images/figure_8-22.png)
 
 a.  If the thickness of the layer is larger, subtract the height of the sampling ring from the layer thickness and divide the difference by 2. This result equals the thickness of soil material that has to be removed starting from the upper layer boundary.
 b.  If the thickness of the layer is equal, it is very important that the surface is plane.

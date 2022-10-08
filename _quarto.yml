@@ -40,7 +40,7 @@ format:
     number-sections: true
     number-depth: 3
     date-modified: last-modified
-    logo: cover.png
+    logo: images/cover.png
     appendix-style: plain
 
 
