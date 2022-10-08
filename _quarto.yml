@@ -8,6 +8,7 @@ book:
   isbn: 979-8-9862451-1-9
   language: en
   page-navigation: true
+  cover-image: images/cover.png
   chapters:
     - index.qmd
     - foreword.qmd

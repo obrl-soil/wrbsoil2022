@@ -4,10 +4,11 @@ reference-location: margin
 
 # Key to the Reference Soil Groups with lists of principal and supplementary qualifiers
 
-[**Before using the key, please read the 'Rules for naming soils' (Chapter 2).**]{style="color:red"}
+::: callout-important
+Before using the key, please read the ['Rules for naming soils'](chapter-02.qmd#sec-ch02) (Chapter 2)
+:::
 
-## Overview of Key to Reference Soil Groups
-
+## Overview of Key to Reference Soil Groups {.unnumbered}
 |                               |                                 |                                 |                             |                             |
 |---------------|---------------|---------------|---------------|---------------|
 | [Histosols](#key-histosols)   | [Solonchaks](#key-solonchaks)   | [Nitisols](#key-nitisols)       | [Gypsisols](#key-gypsisols) | [Cambisols](#key-cambisols) |
