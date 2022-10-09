@@ -1,14 +1,14 @@
-# Background and basics
+# Background and basics {#sec-bgbs}
 
-## History
+## History {#sec-hist}
 
-### From its beginnings to the third edition 2014/15
+### From its beginnings to the third edition 2014/15 {#sec-hist-beg}
 
 The World Reference Base for Soil Resources (WRB) is based on the Legend [@fao-unesco1974] and the Revised Legend [@fao-unesco-isric1988] of the Soil Map of the World [@fao-unesco1971]. In 1980, the International Society of Soil Science (ISSS, since 2002 the International Union of Soil Sciences, IUSS) formed a Working Group 'International Reference Base for Soil Classification' for further elaboration of a science-based international soil classification system. This Working Group was renamed 'World Reference Base for Soil Resources' in 1992. The Working Group presented the first edition of the WRB in 1998 [@isss-isricfao1998], the second edition in 2006 [@worldre2006] and the third edition in 2014/15 [@iussworkinggroupwrb2015]. In 1998, the ISSS Council endorsed the WRB as its officially recommended terminology to name and classify soils.
 
 A detailed description of the older WRB history is given in the second edition [@worldre2006] and the third edition of the WRB [@iussworkinggroupwrb2015].
 
-### From the third edition 2014 (Update 2015) to the fourth edition 2022
+### From the third edition 2014 (Update 2015) to the fourth edition 2022 {#sect-hist-end}
 
 The third edition of the WRB was presented at the 20th World Congress of Soil Science 2014 in Jeju, Korea. In 2015, an Update was published online, which is the valid WRB from 2015 to 2022: <https://www.fao.org/3/i3794en/I3794en.pdf>.
 
@@ -26,35 +26,28 @@ The field tours associated with the meetings of the IUSS Commission on Soil Clas
 
 Now, after 8 years, a fourth edition has been prepared.
 
-## Major changes in WRB 2022
+## Major changes in WRB 2022 {#sec-mjch}
 
 The major changes are:
 
 -   The contents of the book were rearranged:
-
     -   The former Annex 1 (Descriptions) was deleted. The descriptions were not fully up to date.
-    -   Annex 2 (Laboratory methods) was maintained.
-    -   The former Annex 3 (Codes) is now Chapter 6. This reflects that the codes, if used, are not only recommended but mandatory.
-    -   The former Annex 4 is integrated in the new Annex 1.
-    -   The new Annex 1 is a Field Guide. It replaces the FAO Guidelines [-@un-fao2006]. Compared to the FAO Guidelines, the Annex 1 is more comprehensive for WRB, more precise and more didactical using many illustrations. It gives many definitions of field characteristics that up till now have been nowhere defined in WRB, neither in the WRB itself, nor in the FAO Guidelines. Many of these definitions were taken from the USDA Soil Survey Manual [-@soilsciencedivisionstaff2017] and the NRCS Fieldbook [-@schoeneberger2012], which brings WRB and Soil Taxonomy closer together.
-    -   The new Annex 3 provides brief definitions of layer symbols further developing the definitions of the FAO Guidelines.
-    -   The new Annex 4 explains a soil description sheet that is provided online.
-    -   The new Annex 5 gives a guidance on database set-up. The details are provided online.
-    -   The new Annex 6 gives recommendations for colour symbols for Reference Soil Group maps.
-
--   In Chapter 2.1, General rules and definitions, several definitions have been added for WRB: fine earth, whole soil, litter layer, soil surface, mineral soil surface, soil layer, soil horizon. Some new general rules have been added to make the definitions easier.
-
+    -   [Annex 2](annex-02-analytical-procedures.qmd) (Laboratory methods) was maintained.
+    -   The former Annex 3 (Codes) is now [Chapter 6](chapter-06.qmd). This reflects that the codes, if used, are not only recommended but mandatory.
+    -   The former Annex 4 is integrated in the new [Annex 1](annex-01-field-guide.qmd).
+    -   The new [Annex 1](annex-01-field-guide.qmd) is a Field Guide. It replaces the FAO Guidelines [-@un-fao2006]. Compared to the FAO Guidelines, the Annex 1 is more comprehensive for WRB, more precise and more didactical using many illustrations. It gives many definitions of field characteristics that up till now have been nowhere defined in WRB, neither in the WRB itself, nor in the FAO Guidelines. Many of these definitions were taken from the USDA Soil Survey Manual [-@soilsciencedivisionstaff2017] and the NRCS Fieldbook [-@schoeneberger2012], which brings WRB and Soil Taxonomy closer together.
+    -   The new [Annex 3](annex-03-horizon-layer-designations.qmd) provides brief definitions of layer symbols further developing the definitions of the FAO Guidelines.
+    -   The new [Annex 4](annex-04-soil-description-sheet.qmd) explains a soil description sheet that is provided online.
+    -   The new [Annex 5](annex-05-database-setup.qmd) gives a guidance on database set-up. The details are provided online.
+    -   The new [Annex 6](annex-06-rsg-colors.qmd) gives recommendations for colour symbols for Reference Soil Group maps.
+-   In [Chapter 2.1](chapter-02.qmd#sec-gnrl), General rules and definitions, several definitions have been added for WRB: fine earth, whole soil, litter layer, soil surface, mineral soil surface, soil layer, soil horizon. Some new general rules have been added to make the definitions easier.
 -   All Reference Soil Groups (RSGs) are maintained. There are some changes in the Key: Planosols and Stagnosols are now before Nitisols and Ferralsols. Fluvisols are before Arenosols.
-
 -   The following diagnostics were deleted:
-
     -   fulvic horizon, melanic horizon: belonged to an outdated concept of soil organic matter;
     -   aridic properties: had a non-systematic combination of various characteristics (the wind deposition is now characterized by the aeolic material, see below);
     -   geric properties: can be better expressed as qualifier;
     -   sulfidic material: not needed after introducing the hypersulfidic and the hyposulfidic material in 2014.
-
 -   The following diagnostics were introduced:
-
     -   albic horizon: In the first and the second edition of WRB, the albic horizon was defined. However, it was only defined by colour, and results of soil-forming processes were not required. Therefore, it was changed to albic material in 2014. But this made the definition of the Albic qualifier difficult. Now, the albic horizon was reintroduced, explicitly requiring results of soil-forming processes. The albic material was maintained (just defined by colour) and renamed claric material (see below)
     -   cohesic horizon: Dense subsurface horizon dominated by kaolinite. It is found in tropical regions with seasonal climate and was not considered so far in WRB.
     -   limonic horizon: Accumulation of Fe by capillary rise in groundwater soils. The accumulation is so strong that Fe oxides cause a cementation. It is traditionally referred to as bog iron.
@@ -64,17 +57,13 @@ The major changes are:
     -   aeolic material: Deposited by wind.
     -   mulmic material: Mineral material with a high content of soil organic carbon, derived from organic material. Drainage of organic material causes accelerated decomposition, and eventually the content of soil organic carbon sinks below 20%, which transforms the organic material into mineral material.
     -   organotechnic material: Contains large amounts of organic artefacts and relatively small contents of soil organic carbon in the fine earth.
-
 -   The following diagnostic materials received new names:
-
     -   claric material instead of albic material: After reintroducing the albic horizon, it had to be avoided that a diagnostic material and a diagnostic horizon have the same name. The albic material was therefore renamed in claric material.
     -   solimovic material instead of colluvic material: The word colluvium has very different meanings in different countries. To avoid confusion, the new name solimovic material was coined. It explains that at least parts of the accumulated material underwent soil formation before having been transported.
-
 -   Many criteria in the diagnostics, the key and in the definitions of the qualifiers were sharpened and refined. Special effort was undertaken to make sure that the same features are worded in the same way throughout the text, including the annexes.
-
 -   Some new qualifiers were defined, some existing ones were deleted, and many definitions have been refined.
 
-## The object classified in the WRB
+## The object classified in the WRB {#sec-obcl}
 
 Like many common words, 'soil' has several meanings. In its traditional meaning, soil is the natural medium for the growth of plants, whether or not it has discernible soil horizons [@soilsurveystaff1999].
 
@@ -90,11 +79,11 @@ Although there are good arguments to limit soil survey and mapping to identifiab
 
 The definition includes *continuous rock*, paved urban soils, soils of industrial areas, soils on buildings and other (permanent/stable) constructions, cave soils as well as subaqueous soils. Soils under *continuous rock*, except those that occur in caves, are generally not considered for classification, but in special cases, the WRB may be even used to classify soils under rock, for example for palaeopedological reconstruction of the environment. The use of WRB for paleosols is still in an experimental stage.
 
-## Basic principles
+## Basic principles {#sec-bspr}
 
-### General principles
+### General principles {#sec-bspr-gen}
 
--   The classification of soils is based on soil properties defined in terms of diagnostic horizons, diagnostic properties and diagnostic materials (together called the **diagnostics**), which to the greatest extent possible should be measurable and observable in the field. Table 1.1 provides an overview of the diagnostics used in the WRB.
+-   The classification of soils is based on soil properties defined in terms of diagnostic horizons, diagnostic properties and diagnostic materials (together called the **diagnostics**), which to the greatest extent possible should be measurable and observable in the field. @tbl-tempmark provides an overview of the diagnostics used in the WRB.
 -   The selection of diagnostic characteristics takes into account their relationship with soil-forming processes. An understanding of soil-forming processes contributes to a better characterization of soils but these processes should not, as such, be used as differentiating criteria.
 -   To the extent possible at a high level of generalization, diagnostic features that are of significance for soil management are selected.
 -   Climate parameters are not applied in the classification of soils. It is understood that they should be used for interpretation purposes, in combination with soil properties, but they should not form part of soil definitions. The classification of soils is therefore not subordinated to the availability of climate data. The name of a certain soil will not become obsolete due to global or local climate change.
@@ -114,7 +103,7 @@ The definition includes *continuous rock*, paved urban soils, soils of industria
 **1. Anthropogenic diagnostic horizons (all are mineral)**
 
 | Name               | Simplified Description                                                                                                                                                                                                 |
-|--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | anthraquic horizon | in paddy soils: the layer comprising the puddled layer and the plough pan, both showing a reduced matrix and oxidized root channels                                                                                    |
 | hortic horizon     | dark, high content of organic matter and P, high animal activity, high base saturation; resulting from long-term cultivation, fertilization and application of organic residues                                        |
 | hydragric horizon  | in paddy soils: the layer below the anthraquic horizon showing redoximorphic features and/or an accumulation of Fe and/or Mn                                                                                           |
@@ -123,10 +112,12 @@ The definition includes *continuous rock*, paved urban soils, soils of industria
 | pretic horizon     | dark, at least moderate content of organic matter and P, high contents of exchangeable Ca and Mg, with black carbon; including Amazonian Dark Earths                                                                   |
 | terric horizon     | evidence of addition of substantially different material, at least moderate content of organic matter, high base saturation; resulting from adding mineral material (with or without organic residues) and cultivation |
 
+: {#tbl-tempmark}
+
 **2. Diagnostic horizons that may be organic or mineral**
 
 | Name            | Simplified Description                                            |
-|-----------------|-------------------------------------------------------------------|
+|----------------------|--------------------------------------------------|
 | calcic horizon  | accumulation of secondary carbonates, not continuously cemented   |
 | cryic horizon   | perennially frozen (visible ice or, if not enough water, \< 0 °C) |
 | salic horizon   | high amounts of readily soluble salts                             |
@@ -142,7 +133,7 @@ The definition includes *continuous rock*, paved urban soils, soils of industria
 **4. Surface mineral diagnostic horizons**
 
 | Name            | Simplified Description                                                                                                                                                                                                                |
-|-----------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | chernic horizon | thick, very dark-coloured, high base saturation, moderate to high content of organic matter, well developed soil structure or structural elements created by agricultural practices, high animal activity (special case of the mollic |
 | mollic horizon  | thick, dark-coloured, high base saturation, moderate to high content of organic matter, at least some soil structure or structural elements created by agicultural practices                                                          |
 | umbric horizon  | thick, dark-coloured, low base saturation, moderate to high content of organic matter, at least some soil structure or structural elements created by agricultural practices                                                          |
@@ -150,7 +141,7 @@ The definition includes *continuous rock*, paved urban soils, soils of industria
 **5. Other mineral diagnostic horizons related to the accumulation of substances due to (vertical or lateral) migration processes**
 
 | Name                  | Simplified Description                                                                                                                                                                                                                                                 |
-|-----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | argic horizon         | subsurface layer with distinctly higher clay content than the overlying layer without a lithic discontinuity and/or presence of illuvial clay minerals (with or without a lithic discontinuity)                                                                        |
 | duric horizon         | concretions or nodules, cemented by secondary silica, and/or fragments of a broken-up petroducirc horizon                                                                                                                                                              |
 | ferric horizon        | ≥ 5% reddish to blackish concretions and/or nodules and/or ≥ 15% reddish to blackish coarse masses, with accumulation of Fe (and Mn) oxides                                                                                                                            |
@@ -170,7 +161,7 @@ The definition includes *continuous rock*, paved urban soils, soils of industria
 **6. Other mineral diagnostic horizons**
 
 | Name                | Simplified Description                                                                                                                          |
-|---------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | albic horizon       | light-coloured; loss of coloured substances (e.g. oxides, organic matter) due to soil-forming processes                                         |
 | cambic horizon      | evidence of soil-forming processes; not meeting the criteria of diagnostic horizons that indicate stronger alteration or accumulation processes |
 | cohesic horizon     | massive or subangular blocky structure, root penetration restricted, drainage normally free, rich in kaolinite, poor in organic matter          |
@@ -184,14 +175,14 @@ The definition includes *continuous rock*, paved urban soils, soils of industria
 **7. Diagnostic properties related to surface characteristics**
 
 | Name               | Simplified Description                                                                                             |
-|--------------------|--------------------------------------------------------------------------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | takyric properties | fine-textured surface crust with a platy or massive structure; under arid conditions in periodically flooded soils |
 | yermic properties  | combination of desert features: desert pavement, varnishing, ventifacts, vesicular pores, platy structure          |
 
 **8. Diagnostic properties defining the relationship between two layers**
 
 | Name                       | Simplified Description                                                                                                                                          |
-|----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | abrupt textural difference | very sharp increase in clay content within a limited depth range                                                                                                |
 | albeluvic glossae          | interfingering of coarser-textured and lighter coloured material into an argic horizon forming vertically continuous tongues (special case of retic properties) |
 | lithic discontinuity       | differences in parent material                                                                                                                                  |
@@ -200,7 +191,7 @@ The definition includes *continuous rock*, paved urban soils, soils of industria
 **9. Other diagnostic properties**
 
 | Name                   | Simplified Description                                                                                                                                          |
-|------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | andic properties       | short-range-order minerals and/or organo-metallic complexes                                                                                                     |
 | anthric properties     | applying to soils with mollic or umbric horizons, if the mollic or umbric horizon is created or substantially transformed by humans                             |
 | continuous rock        | consolidated material (excluding cemented pedogenetic horizons)                                                                                                 |
@@ -216,7 +207,7 @@ The definition includes *continuous rock*, paved urban soils, soils of industria
 **10. Diagnostic materials related to the concentration of organic carbon**
 
 | Name                   | Simplified Description                                                                      |
-|------------------------|---------------------------------------------------------------------------------------------|
+|----------------------|--------------------------------------------------|
 | mineral material       | \< 20% soil organic carbon and \< 35% (by volume) organic artefacts                         |
 | mulmic material        | developed from water-saturated organic material after drainage; 8 - 20% soil organic carbon |
 | organic material       | ≥ 20% soil organic carbon                                                                   |
@@ -226,25 +217,25 @@ The definition includes *continuous rock*, paved urban soils, soils of industria
 **11. Diagnostic material related to colour**
 
 | Name            | Simplified Description                                                    |
-|-----------------|---------------------------------------------------------------------------|
+|----------------------|--------------------------------------------------|
 | claric material | light-coloured fine earth, expressed by high Munsell value and low chroma |
 
 **12. Technogenic diagnostic materials**
 
 | Name                  | Simplified Description                                                                                                                        |
-|-----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | artefacts             | created, substantially modified or brought to the surface by humans; no subsequent substantial change of chemical or mineralogical properties |
 | technic hard material | consolidated and relatively continuous material resulting from an industrial process                                                          |
 
 **13. Other diagnostic materials**
 
 | Name                   | Simplified Description                                                                                                                                                                                             |
-|------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------------|---------------------------------------------------|
 | aeolic material        | sedimented by wind                                                                                                                                                                                                 |
-| calcaric material      | ≥ 2% calcium carbonate equivalent, at least partially inherited from the parent material                                                                                                                           |
+| calcaric material      | ≥ 2% calcium carbonate (CaCO~3)~ equivalent, at least partially inherited from the parent material                                                                                                                 |
 | dolomitic material     | ≥ 2% of a mineral that has a ratio CaCO~3~/MgCO~3~ \< 1.5                                                                                                                                                          |
 | fluvic material        | fluviatile, marine or lacustrine deposits with evident stratification                                                                                                                                              |
-| gypsiric material      | ≥ 5% gypsum, at least partially inherited from the parent material                                                                                                                                                 |
+| gypsiric material      | ≥ 5% gypsum (CaSO~4~), at least partially inherited from the parent material                                                                                                                                       |
 | hypersulfidic material | containing sulfides and capable of severe acidification                                                                                                                                                            |
 | hyposulfidic material  | containing sulfides and not capable of severe acidification                                                                                                                                                        |
 | limnic material        | deposited in water by precipitation (possibly with sedimentation), or derived from algae, or derived from aquatic plants with subsequent transport or subsequent modification by aquatic animals or microorganisms |
@@ -252,40 +243,38 @@ The definition includes *continuous rock*, paved urban soils, soils of industria
 | solimovic material     | heterogeneous mixture that has moved down a slope, suspended in water; dominated by material that underwent soil formation at its original place                                                                   |
 | tephric material       | ≥ 30% (by grain count) volcanic glass and related materials                                                                                                                                                        |
 
-### Structure
+### Structure {#sec-bspr-str}
 
 Each RSG of the WRB is provided with a listing of possible principal and supplementary qualifiers, from which the user can construct the second level of the classification. The principal qualifiers are given in a priority sequence. The broad principles that govern the WRB class differentiation are:
 
 -   At the ***First Level*** (RSGs), classes are differentiated mainly according to characteristic soil features produced by primary pedogenic process, except where special soil parent materials are of overriding importance.
 -   At the ***Second Level*** (RSGs with qualifiers), soils are differentiated according to soil features resulting from any secondary soil-forming process that has significantly affected the primary characteristics. In many cases, soil characteristics that have a significant effect on land use are taken into account.
 
-### Evolution of the system
+### Evolution of the system {#sec-bspr-evo}
 
 The Revised Legend of the FAO/UNESCO Soil Map of the World [@fao-unesco-isric1988] was used as a basis for the development of the WRB in order to take advantage of the international soil correlation that had already been conducted through this project and elsewhere. The first edition of the WRB, published in 1998, comprised 30 RSGs; the following editions have 32 RSGs.
 
-## Architecture
+## Architecture {#sec-arch}
 
 The WRB comprises two levels of categorical detail:
 
 1.  the ***First Level*** having 32 Reference Soil Groups (RSGs);
 2.  the ***Second Level***, consisting of the name of the RSG combined with a set of principal and supplementary qualifiers.
 
-### First Level: The Reference Soil Groups
+### First Level: The Reference Soil Groups {#sec-arch-rsg}
 
-Table 1.2 provides an overview of the RSGs and the rationale for the sequence of the RSGs in the WRB Key. The RSGs are allocated to groups on the basis of dominant identifiers, i.e. the soil-forming factors or processes that most clearly condition the soil.
+@tbl-rsgcodes provides an overview of the RSGs and the rationale for the sequence of the RSGs in the WRB Key. The RSGs are allocated to groups on the basis of dominant identifiers, i.e. the soil-forming factors or processes that most clearly condition the soil.
 
-### Second Level: The Reference Soil Groups with their qualifiers
+### Second Level: The Reference Soil Groups with their qualifiers {#sec-arch-qlf}
 
-In the WRB, a distinction is made between **principal qualifiers** and **supplementary qualifiers**. Principal qualifiers are regarded as being most significant for a further characterization of soils of the particular RSG. They are given in a ranked order. Supplementary qualifiers give some further details about the soil. They are not ranked but listed alphabetically (exception: the supplementary qualifiers related to the texture are given first). Chapter 2 gives the rules for the use of qualifiers for naming soils and for creating map legends. Constructing the second level by adding qualifiers to the RSG has several advantages compared with a dichotomic key:
+In the WRB, a distinction is made between **principal qualifiers** and **supplementary qualifiers**. Principal qualifiers are regarded as being most significant for a further characterization of soils of the particular RSG. They are given in a ranked order. Supplementary qualifiers give some further details about the soil. They are not ranked but listed alphabetically (exception: the supplementary qualifiers related to the texture are given first). [Chapter 2](chapter-02.qmd) gives the rules for the use of qualifiers for naming soils and for creating map legends. Constructing the second level by adding qualifiers to the RSG has several advantages compared with a dichotomic key:
 
 -   For every soil, the RSG has the appropriate number of associated qualifiers. Soils with few characteristics have short names; soils with many characteristics (e.g. polygenetic soils) have longer names.
 -   The WRB is capable of indicating most of the soil's properties, which are incorporated into an informative soil name.
 -   The system is robust. Missing data do not necessarily lead to a dramatic error in the classification of a soil. If one qualifier is erroneously added or erroneously omitted based on incomplete data, the rest of the soil name remains correct.
 
-Table 1.2: Simplified guide to the WRB Reference Soil Groups (RSGs) with suggested codes. **This table is not to be used as a key**. For full definitions, please refer to Chapter 3 and the Key (Chapter 4).
-
 |                                                                                                               |     RSG     | Code |
-|---------------------------------------------------------------------------------------------------------------|:-----------:|:----:|
+|------------------------------------|:----------------:|:----------------:|
 | **1. Soils with thick organic layers:**                                                                       |  Histosols  |  HS  |
 | **2. Soils with strong human influence --**                                                                   |             |      |
 | With long and intensive agricultural use:                                                                     | Anthrosols  |  AT  |
@@ -326,14 +315,16 @@ Table 1.2: Simplified guide to the WRB Reference Soil Groups (RSGs) with suggest
 | Sandy:                                                                                                        |  Arenosols  |  AR  |
 | No significant profile development:                                                                           |  Regosols   |  RG  |
 
-## Topsoils
+: Simplified guide to the WRB Reference Soil Groups (RSGs) with suggested codes. **This table is not to be used as a key**. For full definitions, please refer to [Chapter 3](chapter-03.qmd) and the Key ([Chapter 4](chapter-04.qmd)). {#tbl-rsgcodes}
+
+## Topsoils {#sec-tops}
 
 Topsoil characteristics are prone to rapid change with time and are therefore used only in some cases in the WRB. Several suggestions for topsoil classification systems have been made [@broll2006; @fox2010; @graefe2012; @jabiol2013; @zanella2018]. They may be combined with the WRB.
 
-## Subsolum
+## Subsolum {#sec-rego}
 
 A classification scheme for subsolum materials has been proposed by [@juilleret2016; @juilleret2018] that may be combined with the WRB. Subsolum material is any material occurring below the diagnostics of WRB.
 
-## Translation into other languages
+## Translation into other languages {#sec-trns}
 
 Translations into other languages are most welcome. For copyright, please contact IUSS. However, the soil names must not be translated into any other language nor transliterated into another alphabet. Soil names must preserve their grammatical form. The rules for the sequence of qualifiers must be followed in any translation. Names of RSGs and qualifiers start with capital letters.

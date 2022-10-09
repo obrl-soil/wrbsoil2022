@@ -1,6 +1,6 @@
 # The rules for naming soils and creating legends for soil maps {#sec-ch02}
 
-## General rules and definitions
+## General rules and definitions {#sec-gnrl}
 
 The following principles have to be considered for classification in WRB:
 
@@ -219,7 +219,7 @@ A landscape usually shows a variety of soils. For a map unit, they often have to
 ![Soils in a landscape that need to be combined to form a map unit](images/figure_2-2.png){#fig202 fig-alt="Soils in a landscape that need to be combined to form a map unit"}
 
 | Area | Complete soil name                                                                | Result          |
-|------------------|-------------------------------------|------------------|
+|------------------|------------------------------------|------------------|
 | 1    | Haplic Luvisol (Episiltic, Katoclayic, Aric, Cutanic, Differentic, Epic, Ochric)  | dominant soil   |
 | 2    | Eutric Stagnic Leptic Cambisol (Loamic, Humic)                                    | codominant soil |
 | 3    | Albic Stagnic Luvisol (Anosiltic, Endoclayic, Cutanic, Differentic, Endic, Humic) | associated soil |
