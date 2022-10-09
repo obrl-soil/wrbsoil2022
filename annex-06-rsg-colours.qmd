@@ -44,16 +44,5 @@ It is recommended to use colour symbols and alphanumeric codes to allow the map 
 | Technosol (TC)  | 145 | 0   | 157 | #91009D |
 | Umbrisol (UM)   | 115 | 142 | 127 | #738E7F |
 | Vertisol (VR)   | 197 | 0   | 255 | #C500FF |
-|                 |     |     |     |         |
 
 : Colour symbols for RSG maps
-
-#### References
-
-Gardi, C., Angelini, M., Barceló, S., Comerma, J., Cruz Gaistardo, C., Encina Rojas, A., Jones, A., Krasilnikov, P., Mendonça Santos Brefin, M.L., Montanarella, L., Muñiz Ugarte, O., Schad, P., Vara Rodríguez, M.I. & Vargas, R. (eds.). 2014. Atlas de suelos de América Latina y el Caribe, Comisión Europea - Oficina de Publicaciones de la Unión Europea, L-2995 Luxembourg, 176 pp.
-
-Jones, A., Montanarella, L. & Jones, R. (eds.). 2005. Soil Atlas of Europe. European Commission, Publications Office of the European Union, Luxembourg.
-
-Jones, A., Stolbovoy, V., Tarnocai, C., Broll, G., Spaargaren, O. & Montanarella, L. (eds.). 2010. Soil Atlas of the Northern Circumpolar Region. European Commission, Publications Office of the European Union, Luxembourg.
-
-Jones, A., Breuning-Madsen, H., Brossard, M., Dampha, A., Deckers, J., Dewitte, O., Gallali, T., Hallett, S., Jones, R., Kilasara, M., Le Roux, P., Micheli, E., Montanarella, L., Spaargaren, O., Thiombiano, L., Van Ranst, E., Yemefack, M. & Zougmoré, R. (eds.). 2013. Soil Atlas of Africa. European Commission, Publications Office of the European Union, Luxembourg.

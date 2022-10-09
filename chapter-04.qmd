@@ -9,8 +9,9 @@ Before using the key, please read the ['Rules for naming soils'](chapter-02.qmd#
 :::
 
 ## Overview of Key to Reference Soil Groups {.unnumbered}
+
 |                               |                                 |                                 |                             |                             |
-|---------------|---------------|---------------|---------------|---------------|
+|-------------------------------|---------------------------------|---------------------------------|-----------------------------|-----------------------------|
 | [Histosols](#key-histosols)   | [Solonchaks](#key-solonchaks)   | [Nitisols](#key-nitisols)       | [Gypsisols](#key-gypsisols) | [Cambisols](#key-cambisols) |
 | [Anthrosols](#key-anthrosols) | [Gleysols](#key-gleysols)       | [Ferralsols](#key-ferralsols)   | [Calcisols](#key-calcisols) | [Fluvisols](#key-fluvisols) |
 | [Technosols](#key-technosols) | [Andosols](#key-andosols)       | [Chernozems](#key-chernozems)   | [Retisols](#key-retisols)   | [Arenosols](#key-arenosols) |
@@ -76,7 +77,7 @@ Other soils having:
 ### Qualifiers
 
 | Principal Qualifiers                                | Supplementary Qualifiers       |
-|--------------------------------------------|----------------------------|
+|-----------------------------------------------------|--------------------------------|
 | Hydragric/ Irragric/ Hortic/ Plaggic/ Pretic/Terric | Arenic/ Clayic/ Loamic/ Siltic |
 | Gleyic                                              | Glossic/ Retic                 |
 | Stagnic                                             | Acric/ Lixic/ Alic/ Luvic      |
@@ -122,7 +123,7 @@ Technosols may bury other soils, which can be mentioned behind the Technosol cla
 ### Qualifiers
 
 | Principal Qualifiers | Supplementary Qualifiers                              |
-|------------------------------------|------------------------------------|
+|----------------------|-------------------------------------------------------|
 | Ekranic/ Thyric      | Arenic/ Clayic/ Loamic/ Siltic                        |
 | Linic                | Geoabruptic                                           |
 | Urbic                | Alcalic/ Dystric/ Eutric                              |
@@ -180,7 +181,7 @@ Other soils having:
 ### Qualifiers
 
 | Principal Qualifiers                       | Supplementary Qualifiers       |
-|------------------------------------------|------------------------------|
+|--------------------------------------------|--------------------------------|
 | Glacic                                     | Arenic/ Clayic/ Loamic/ Siltic |
 | Turbic                                     | Abruptic                       |
 | Subaquatic/ Tidalic/ Reductaquic/ Oxyaquic | Albic                          |
@@ -413,7 +414,7 @@ Other soils having one or more of the following:
 ### Qualifiers
 
 | Principal Qualifiers                                             | Supplementary Qualifiers       |
-|------------------------------------|------------------------------------|
+|------------------------------------------------------------------|--------------------------------|
 | Thionic                                                          | Acric/ Lixic/ Alic/ Luvic      |
 | Reductic                                                         | Alcalic                        |
 | Subaquatic/ Tidalic                                              | Abruptic                       |
@@ -582,7 +583,7 @@ Other soils having an *abrupt textural difference* ≤ 75 cm from the mineral 
 ### Qualifiers
 
 | Principal Qualifiers                                             | Supplementary Qualifiers       |
-|----------------------------------------------|--------------------------|
+|------------------------------------------------------------------|--------------------------------|
 | Reductic                                                         | Arenic/ Clayic/ Loamic/ Siltic |
 | Thionic                                                          | Alcalic                        |
 | Leptic                                                           | Andic                          |
@@ -631,7 +632,7 @@ Other soils having:
 ### Qualifiers
 
 | Principal Qualifiers                                             | Supplementary Qualifiers       |
-|----------------------------------------------|--------------------------|
+|------------------------------------------------------------------|--------------------------------|
 | Reductic                                                         | Arenic/ Clayic/ Loamic/ Siltic |
 | Thionic                                                          | Endoabruptic                   |
 | Leptic                                                           | Alcalic                        |
@@ -1179,7 +1180,7 @@ Other soils having:
 ### Qualifiers
 
 | Principal Qualifiers                           | Supplementary Qualifiers       |
-|-------------------------------------------|-----------------------------|
+|------------------------------------------------|--------------------------------|
 | Abruptic                                       | Arenic/ Clayic/ Loamic/ Siltic |
 | Fragic                                         | Andic                          |
 | Leptic                                         | Aric                           |
@@ -1220,7 +1221,7 @@ Other soils having an *argic horizon* starting ≤ 100 cm from the mineral soi
 ### Qualifiers
 
 | Principal Qualifiers                            | Supplementary Qualifiers       |
-|------------------------------------|------------------------------------|
+|-------------------------------------------------|--------------------------------|
 | Abruptic                                        | Arenic/ Clayic/ Loamic/ Siltic |
 | Fragic                                          | Andic                          |
 | Petrocalcic                                     | Aric                           |
@@ -1269,7 +1270,7 @@ Other soils having:
 ### Qualifiers
 
 | Principal Qualifiers                                     | Supplementary Qualifiers       |
-|---------------------------------------------|---------------------------|
+|----------------------------------------------------------|--------------------------------|
 | Fragic                                                   | Arenic/ Clayic/ Loamic/ Siltic |
 | Thionic                                                  | Geoabruptic                    |
 | Hydragric/ Anthraquic/ Irragric/ Plaggic/ Pretic/ Terric | Aeolic                         |

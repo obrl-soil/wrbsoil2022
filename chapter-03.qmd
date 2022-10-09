@@ -1,6 +1,8 @@
 # Diagnostic horizons, properties and materials
 
-[**Before using the diagnostic horizons, properties and materials, please read the 'Rules for naming soils' (Chapter 2).**]{style="color:red"}
+::: callout-important
+Before using the diagnostic horizons, properties and materials, please read the ['Rules for naming soils'](chapter-02.qmd#sec-ch02) (Chapter 2)
+:::
 
 Throughout the following text, references to the RSGs defined in Chapter 4 and to the diagnostics listed elsewhere in this Chapter are shown in *italics*.
 
@@ -20,13 +22,10 @@ An albic horizon consists of *mineral material* and
 
 1.  consists of *claric material*;\
     ***and***
-
 2.  one or both of the following:
-
     a.  overlies an *argic*, *natric*, *plinthic* or *spodic horizon*; ***or***
     b.  forms part of a layer with *stagnic properties*;\
         ***and***
-
 3.  has a thickness of ≥ 1 cm.
 
 #### Additional information
@@ -210,46 +209,33 @@ A cambic horizon (from Latin *cambire*, to change) is a subsurface horizon showi
 A cambic horizon consists of *mineral material* and:
 
 1.  has a texture class of
-
     a.  sandy loam or finer; ***or***
     b.  very fine sand or loamy very fine sand;\
         ***and***
-
 2.  has soil aggregate structure in ≥ 50% (by volume);\
     ***and***
-
 3.  shows evidence of soil formation in one or more of the following:
-
     a.  compared to the directly underlying layer, not separated from the cambic horizon by a *lithic discontinuity*, one or more of the following:
-
         i.  if the underlying layer has a Munsell colour hue of 5YR or redder, a hue ≥ 2.5 units yellower, else a hue ≥ 2.5 units redder, all moist and in ≥ 90% of its exposed area; ***or***
         ii. a Munsell colour chroma ≥ 1 unit higher, moist and in ≥ 90% of its exposed area; ***or***
         iii. a clay content ≥ 4% (absolute) higher;\
              ***or***
-
     b.  compared to an overlying mineral layer, ≥ 5 cm thick and not separated from the cambic horizon by a *lithic discontinuity*, one or more of the following:
-
         i.  a Munsell colour hue ≥ 2.5 units redder, moist and in ≥ 90% of its exposed area; ***or***
         ii. a Munsell colour value ≥ 1 unit higher, moist and in ≥ 90% of its exposed area; ***or***
         iii. a Munsell colour chroma ≥ 1 unit higher, moist and in ≥ 90% of its exposed area;\
              ***or***
-
     c.  compared to the directly underlying layer, not showing *gleyic properties* and not forming part of a *calcic* or *gypsic horizon*, evidence of removal of carbonates or gypsum by one or more of the following:
-
         i.  ≥ 5% (absolute) less calcium carbonate equivalent or ≥ 5% (absolute) less gypsum and no *lithic discontinuity* between this underlying layer and the cambic horizon; ***or***
         ii. *protocalcic properties* or *protogypsic properties* in the underlying layer but not in the cambic horizon;\
             ***or***
-
     d.  all of the following:
-
         i.  Fe~dith~ ≥ 0.1%; ***and***
         ii. a ratio between Fe~ox~ and Fe~dith~ of ≥ 0.1; ***and***
         iii. a Munsell colour hue of 2.5YR to 2.5Y and a chroma of \> 3, all moist and in ≥ 90% of its exposed area;\
              ***and***
-
 4.  does not form part of a plough layer, does not form part of an *albic*, *anthraquic*, *argic*, *calcic*, *duric*, *ferralic*, *fragic*, *gypsic*, *hortic*, *hydragric*, *irragric*, *limonic*, *mollic*, *natric*, *nitic*, *petrocalcic*, *petroduric*, *petrogypsic*, *petroplinthic*, *pisoplinthic*, *plaggic*, *plinthic*, *pretic*, *salic*, *sombric*, *spodic*, *umbric*, *terric*, *tsitelic* or *vertic horizon* and does not from part of a layer with *andic properties*;\
     ***and***
-
 5.  has a thickness of ≥ 15 cm.
 
 #### Additional characteristics
@@ -275,19 +261,14 @@ A chernic horizon (from Russian *chorniy*, black) is a relatively thick, well-st
 A chernic horizon is a surface horizon consisting of *mineral material* and has:
 
 1.  ≥ 50% (by volume, weighted average, related to the whole soil) of fine earth and does not consist of *mulmic material*; ***and***
-
 2.  single or in combination, in ≥ 90% (by volume):
-
     a.  granular structure; ***or***
     b.  subangular blocky structure with an average aggregate size of ≤ 2 cm; ***or***
     c.  cloddy structure or other structural elements created by agricultural practices;\
         ***and***
-
 3.  ≥ 1% *soil organic carbon*;\
     ***and***
-
 4.  one of the following:
-
     a.  in ≥ 90% of the exposed area of the entire horizon or of the subhorizons below any plough layer, a Munsell colour value of ≤ 3 moist, and ≤ 5 dry, and a chroma of ≤ 2 moist;\
         ***or***
     b.  all of the following:
@@ -300,13 +281,10 @@ A chernic horizon is a surface horizon consisting of *mineral material* and has:
         ii. in ≥ 90% of the exposed area of the entire horizon or of the subhorizons below any plough layer, a Munsell colour value of ≤ 5 and a chroma of ≤ 2, both moist; ***and***
         iii. ≥ 2.5% *soil organic carbon*;\
              ***and***
-
 5.  if a layer is present that corresponds to the parent material of the chernic horizon and that has a Munsell colour value of ≤ 4, moist, ≥ 1% (absolute) more *soil organic carbon* than this layer;\
     ***and***
-
 6.  a base saturation (by 1 *M* NH~4~OAc, pH 7) of ≥ 50%;\
     ***and***
-
 7.  a thickness of ≥ 30 cm.
 
 #### Field identification
@@ -553,16 +531,11 @@ A gypsic horizon (from Greek *gypsos*, gypsum) is a non-cemented horizon contain
 A gypsic horizon consists of *mineral material* and:
 
 1.  has ≥ 5% gypsum (related to the fine earth plus accumulations of secondary gypsum of any size and any cementation class); ***and***
-
 2.  has one or both of the following:
-
     a.  meets the diagnostic criteria of *protogypsic properties*; ***or***
     b.  a gypsum content of ≥ 5% higher (absolute, related to the fine earth plus accumulations of secondary gypsum of any size and any cementation class) than that of an underlying layer and no *lithic discontinuity* between the two layers; ***and***
-
 3.  has a product of thickness (in centimetres) times gypsum content (percentage, by mass) of ≥ 150; ***and***
-
 4.  does not form part of a *petrogypsic horizon*; ***and***
-
 5.  has a thickness of ≥ 15 cm.
 
 #### Field identification
@@ -596,7 +569,6 @@ A histic horizon (from Greek *histos*, tissue) consists of poorly aerated *organ
 A histic horizon consists of *organic material* and:
 
 1.  is saturated with water for ≥ 30 consecutive days in most years or is drained; ***and***
-
 2.  has a thickness of ≥ 10 cm,
 
 #### Relationships with some other diagnostics
@@ -626,7 +598,7 @@ The hortic horizon is thoroughly mixed. Potsherds and other artefacts are common
 
 #### Additional information
 
-120 mg kg^-1^ P in the Mehlich-3 extract roughly correspond to 43.6 mg kg^-1^ P or 100 mg kg^-1^ P~2~O~5~ in the Olsen extract (Kabała et al., 2018), which was the requirement in former editions of WRB.
+120 mg kg^-1^ P in the Mehlich-3 extract roughly correspond to 43.6 mg kg^-1^ P or 100 mg kg^-1^ P~2~O~5~ in the Olsen extract [@kabala2018], which was the requirement in former editions of WRB.
 
 #### Relationships with some other diagnostics
 
@@ -643,9 +615,7 @@ A hydragric horizon (from Greek *hydor*, water, and Latin *ager*, field) is a su
 A hydragric horizon consists of *mineral material* and:
 
 1.  is overlain by an anthraquic horizon; ***and***
-
 2.  consists of one or more subhorizons and each of them has one or more of the following:
-
     a.  reductimorphic features with a Munsell colour value of ≥ 4 and a chroma of ≤ 2, both moist, around biopore walls; ***or***
     b.  ≥ 15% (by exposed area) oximorphic features that:
         i.  are predominantly inside soil aggregates; ***and***
@@ -654,7 +624,6 @@ A hydragric horizon consists of *mineral material* and:
         i.  are predominantly on biopore walls and, if soil aggregates are present, predominantly on or adjacent to aggregate surfaces; ***and***
         ii. have a Munsell colour hue ≥ 2.5 units redder and a chroma ≥ 1 unit higher, moist, than the surrounding material; ***or***
     d.  Fe~dith~ ≥ 1.5 times and/or Mn~dith~ ≥ 3 times that of the weighted average of the puddled layer of the overlying anthraquic horizon; ***and***
-
 3.  has a thickness of ≥ 10 cm.
 
 #### Field identification
@@ -680,27 +649,18 @@ An irragric horizon (from Latin irrigare, to irrigate, and ager, field) is a min
 An irragric horizon is a surface horizon consisting of *mineral material* and:
 
 1.  has, single or in combination, in ≥ 90% (by volume):
-
     a.  soil aggregate structure; ***or***
     b.  cloddy structure or other structural elements created by agricultural practices; ***and***
-
 2.  has one or both of the following:
-
     a.  a clay content ≥ 10% (relative) and ≥ 3% (absolute) higher than that of the layer directly buried by the irragric horizon; ***or***
     b.  a fine clay content ≥ 10% (relative) and ≥ 3% (absolute) higher than that of the layer directly buried by the irragric horizon; ***and***
-
 3.  has differences in medium sand contents, fine sand contents, very fine sand contents, silt contents, clay contents and carbonate contents of \< 20% (relative) or \< 4% (absolute) between subhorizons; ***and***
-
 4.  has both of the following:
-
     a.  ≥ 0.3% *soil organic carbon*; ***and***
 
     b.  a weighted average of ≥ 0.5% *soil organic carbon*; ***and***
-
 5.  has ≥ 25% (by exposed area, weighted average) of animal pores, coprolites or other traces of soil animal activity; ***and***
-
 6.  shows evidence that the land surface has been raised; ***and***
-
 7.  has a thickness of ≥ 20 cm.
 
 #### Field identification
@@ -800,43 +760,30 @@ A natric horizon (from Arabic *natroon*, salt) is a dense subsurface horizon wit
 A natric horizon consists of *mineral material* and:
 
 1.  has a texture class of loamy sand or finer and ≥ 8% clay; ***and***
-
 2.  one or both of the following:
-
     a.  has an overlying coarser-textured layer with all of the following:
         i.  the coarser-textured layer is not separated from the natric horizon by a *lithic discontinuity*; ***and***
-
         ii. if the coarser-textured layer directly overlies the natric horizon, its lowermost sublayer does not form part of a plough layer; ***and***
-
         iii. if the coarser-textured layer does not directly overlie the natric horizon, the transitional horizon between the coarser-textured layer and the natric horizon has a thickness of ≤ 15 cm; ***and***
-
         iv. if the coarser-textured layer has \< 15% clay, the natric horizon has ≥ 6% (absolute) more clay; ***and***
-
         v.  if the coarser-textured layer has ≥ 15 and \< 50% clay, the ratio of clay in the natric horizon to that of the coarser-textured layer is ≥ 1.4; ***and***
-
         vi. if the coarser-textured layer has ≥ 50% clay, the natric horizon has ≥  20% (absolute) more clay; ***or***
     b.  has evidence of illuvial clay in one or more of the following forms:
         i.  clay bridges connecting ≥ 15% of the sand grains; ***or***
         ii. clay coatings covering ≥ 15% of the surfaces of soil aggregates, coarse fragments and/or biopore walls; ***or***
         iii. in thin sections, oriented clay bodies (pure or interlayered with silt layers) that constitute ≥ 1% of the section and that have not been transported laterally after they had been formed; ***or***
         iv. a ratio of fine clay to total clay in the natric horizon greater by ≥ 1.2 times than the ratio in the overlying coarser-textured layer; ***and***
-
 3.  has one or more of the following:
-
     a.  a columnar or prismatic structure in some part of the horizon; ***or***
     b.  both of the following:
         i.  an angular or subangular blocky structure; ***and***
         ii. penetrations of an overlying coarser-textured layer, in which there are uncoated sand and/or coarse silt grains, extending ≥ 2.5 cm into the natric horizon; ***and***
-
 4.  has one of the following:
-
     a.  an exchangeable Na percentage (ESP) of ≥ 15 throughout the entire natric horizon or its upper 40 cm, whichever is thinner; ***or***
     b.  both of the following,
         i.  more exchangeable Mg plus Na than Ca plus exchange acidity (buffered at pH 8.2) throughout the entire natric horizon or its upper 40 cm, whichever is thinner; ***and***
         ii. an exchangeable Na percentage (ESP) of ≥ 15 in some subhorizon starting ≤ 50 cm below the upper limit of the natric horizon; ***and***
-
 5.  has a thickness of one-tenth or more of the thickness of the overlying *mineral material*, if present, and one of the following:
-
     a.  ≥ 7.5 cm (if composed of lamellae: combined thickness within 50 cm of the upper limit of the uppermost lamella) if the natric horizon has a texture class of sandy loam or finer; ***or***
     b.  ≥ 15 cm (if composed of lamellae: combined thickness within 50 cm of the upper limit of the uppermost lamella).
 
@@ -871,20 +818,14 @@ A nitic horizon (from Latin *nitidus*, shiny) is a clay-rich subsurface horizon.
 A nitic horizon consists of mineral material and:
 
 1.  has ≥ 30% clay; ***and***
-
 2.  has, single or in combination:
-
     a.  moderate to strong angular or subangular blocky structure, breaking into polyhedral or flat-edged second-level structure with pressure faces (shiny surfaces) at ≥ 25% of the surfaces of the soil aggregates of the second-level structure; ***or***
     b.  polyhedral structure with pressure faces (shiny surfaces) at ≥ 25% of the surfaces of the soil aggregates; ***and***
-
 3.  has all of the following:
-
     a.  ≥ 4% Fe~dith~ ('free iron'); ***and***
     b.  ≥ 0.2% Fe~ox~ ('active iron'); ***and***
     c.  a ratio between Fe~ox~ and Fe~dith~ of ≥ 0.05; ***and***
-
 4.  does not form part of a *plinthic horizon*; ***and***
-
 5.  has a thickness of ≥ 30 cm.
 
 #### Field identification
@@ -929,15 +870,10 @@ A petrocalcic horizon (from Greek *petros*, rock, and Latin *calx*, lime) is cem
 A petrocalcic horizon consists of mineral material and:
 
 1.  has very strong effervescence after adding a 1 M HCl solution; and
-
 2.  is cemented, at least partially by secondary carbonates, with a cementation class of at least moderately cemented; ***and***
-
 3.  is continuous to the extent that vertical fractures, if present, have an average horizontal spacing of ≥ 10 cm and occupy \< 20% (by volume, related to the whole soil), ***and***
-
 4.  does not have coarse roots except, if present, along the vertical fractures; ***and***
-
 5.  has a thickness of one of the following
-
     a.  ≥ 1 cm if it is laminar and rests directly on continuous rock; ***or***
     b.  ≥ 10 cm.
 
@@ -966,18 +902,12 @@ A petroduric horizon (from Greek *petros*, rock, and Latin *durus*, hard), also 
 A petroduric horizon consists of mineral material and:
 
 1.  has ≥ 1% (by exposed area, related to the fine earth plus accumulations of secondary silica of any size and any cementation class) accumulation of visible secondary silica; ***and***
-
 2.  both of the following:
-
     a.  when air-dry, \< 50% (by volume) slake in 1 *M* HCl, even after prolonged soaking, ***and***
     b.  when air-dry, ≥ 50% (by volume) slake in hot concentrated KOH or hot concentrated NaOH, at least if alternating with 1 M HCl; and
-
 3.  is cemented, at least partially by secondary silica, with a cementation class of at least weakly cemented, both before and after treatment with acid; ***and***
-
 4.  is continuous to the extent that vertical fractures, if present, have an average horizontal spacing of ≥ 10 cm and occupy \< 20% (by volume, related to the whole soil); ***and***
-
 5.  does not have coarse roots except, if present, along the vertical fractures; ***and***
-
 6.  has a thickness of ≥ 1 cm.
 
 #### Field identification
@@ -1045,11 +975,11 @@ A petroplinthic horizon consists of *mineral material* and:
 
 #### Field identification
 
-Petroplinthic horizons are extremely hard (high penetration resistance) and typically rusty brown to yellowish brown. They are either massive or show an interconnected nodular pattern that encloses material with a lower penetration resistance. They may be fractured. Roots are generally found only in vertical fractures. Penetretation resistance is ≥ 4.5 MPa in ≥ 50% of the volume of the fine earth. From this value upwards, the rupture resistance will not sink upon wetting (see Asiamah, 2000).
+Petroplinthic horizons are extremely hard (high penetration resistance) and typically rusty brown to yellowish brown. They are either massive or show an interconnected nodular pattern that encloses material with a lower penetration resistance. They may be fractured. Roots are generally found only in vertical fractures. Penetration resistance is ≥ 4.5 MPa in ≥ 50% of the volume of the fine earth. From this value upwards, the rupture resistance will not sink upon wetting [see @asiamah2000].
 
 #### Additional information
 
-The ratio between Fe~ox~ and Fe~dith~ has been estimated from data given by Varghese & Byju (1993).
+The ratio between Fe~ox~ and Fe~dith~ has been estimated from data given by Varghese and Byju [-@varghese1993laterite].
 
 #### Relationships with some other diagnostics
 
@@ -1068,12 +998,9 @@ A pisoplinthic horizon (from Latin *pisum*, pea, and Greek *plinthos*, brick) co
 A pisoplinthic horizon consists of mineral material and:
 
 1.  has ≥ 40% of its volume (related to the whole soil) occupied by, single or in combination,
-
     a.  yellowish, reddish and/or blackish concretions and/or nodules; ***or***
     b.  fragments of a broken-up petroplinthic horizon, with a diameter of \> 2 mm and a cementation class of at least moderately cemented; ***and***
-
 2.  does not form part of a petroplinthic horizon; ***and***
-
 3.  has a thickness of ≥ 15 cm.
 
 #### Relationships with some other diagnostics
@@ -1091,21 +1018,14 @@ A plaggic horizon (from Low German *plaggen*, sod) is a black or brown mineral s
 A plaggic horizon is a surface horizon consisting of mineral material and:
 
 1.  has a texture class of sand, loamy sand, sandy loam or loam, or a combination of them; ***and***
-
 2.  one or more of the following:
-
     a.  contains artefacts, but \< 20% (by volume, related to the whole soil); ***or***
     b.  has ≥ 100 mg kg^-1^ P in the Mehlich-3 extract in the upper 20 cm; ***or***
     c.  has in its lower part spade or hook marks, remnants of a plough layer or other evidence of former agricultural activity; ***and***
-
 3.  has a Munsell colour value of ≤ 4 moist, and ≤ 5 dry, and a chroma of ≤ 4 moist; ***and***
-
 4.  has ≥ 0.6% soil organic carbon; ***and***
-
 5.  has a base saturation (by 1 *M* NH~4~OAc, pH 7) of \< 50%, unless the soil has been limed or received mineral fertilizers; ***and***
-
 6.  shows evidence that the land surface has been raised; ***and***
-
 7.  has a thickness of ≥ 20 cm.
 
 #### Field identification
@@ -1114,7 +1034,7 @@ The plaggic horizon has brownish or blackish colours, related to the origin of s
 
 #### Additional information
 
-The texture class is in most cases sand or loamy sand. Sandy loam and loam are rare. The soil organic carbon may include carbon added with the plaggen. 100 mg kg^-1^ P in the Mehlich-3 extract (same value as for pretic horizons) roughly correspond to 143 mg kg^-1^ P or 327 mg kg^-1^ P~2~O~5~ in 1% citric acid (Kabała et al., 2018). Originally, the plaggic horizon has a low base saturation. If limed or fertilized, this criterion is waived.
+The texture class is in most cases sand or loamy sand. Sandy loam and loam are rare. The soil organic carbon may include carbon added with the plaggen. 100 mg kg^-1^ P in the Mehlich-3 extract (same value as for pretic horizons) roughly correspond to 143 mg kg^-1^ P or 327 mg kg^-1^ P~2~O~5~ in 1% citric acid [@kabala2018]. Originally, the plaggic horizon has a low base saturation. If limed or fertilized, this criterion is waived.
 
 #### Relationships with some other diagnostics
 
@@ -1180,7 +1100,7 @@ A pretic horizon is a surface horizon consisting of mineral material and has:
 
 Black carbon is an *artefact* only if it is intentionally manufactured by humans. The minimum *soil organic carbon* content (criterion 2) must be fulfilled without the *artefacts*.
 
-P in the Mehlich-3 extract roughly is the double of the values obtained in the Mehlich-1 extract (Kabała et al., 2018), which was the requirement in the 3^rd^ edition of WRB. Additionally, compared to the 3^rd^ edition, the value was increased from 30 to 50 (Mehlich-1) or from 60 to 100 (Mehlich-3) mg kg^-1^.
+P in the Mehlich-3 extract roughly is the double of the values obtained in the Mehlich-1 extract [@kabala2018], which was the requirement in the 3^rd^ edition of WRB. Additionally, compared to the 3^rd^ edition, the value was increased from 30 to 50 (Mehlich-1) or from 60 to 100 (Mehlich-3) mg kg^-1^.
 
 #### Relationships with some other diagnostics
 
@@ -1197,14 +1117,11 @@ A protovertic horizon (from Greek *proton*, first, and Latin *vertere*, to turn)
 A protovertic horizon consists of mineral material and has:
 
 1.  ≥ 30% clay; ***and***
-
 2.  one or more of the following:
-
     a.  wedge-shaped soil aggregates in ≥ 10% (by volume); ***or***
     b.  slickensides on ≥ 5% of the surfaces of soil aggregates; ***or***
     c.  shrink-swell cracks; ***or***
     d.  a coefficient of linear extensibility (COLE) of ≥ 0.06; ***and***
-
 3.  a thickness of ≥ 15 cm.
 
 #### Field identification
@@ -1263,7 +1180,7 @@ Sombric horizons are found in dark-coloured subsoils, in many cases associated w
 
 #### Additional information
 
-There are two important theories about the genesis of sombric horizons (de Almeida et al., 2015).
+There are two important theories about the genesis of sombric horizons [@almeida2015].
 
 First theory: The higher content of organic matter is illuvial, but neither associated with Al nor with Na. In this case, coatings of organic matter at soil aggregate surfaces and pore walls as well as illuvial organic matter in thin sections are found.
 
@@ -1284,32 +1201,23 @@ A spodic horizon (from Greek *spodos*, wood ash) is a subsurface horizon that co
 A spodic horizon consists of mineral material and:
 
 1.  has a pH (1:1 in water) of \< 5.9, unless the soil has been limed or fertilized; ***and***
-
 2.  has a subhorizon with an Al~ox~ value that is ≥ 1.5 times that of the lowest Al~ox~ value of all the mineral layers above the spodic horizon; ***and***
-
 3.  has in its uppermost 1 cm one or both of the following:
-
     a.  ≥ 0.5% soil organic carbon; ***or***
     b.  a Munsell colour chroma of ≥ 6, moist, in ≥ 90% of its exposed area; ***and***
-
 4.  has one or more subhorizons with the following Munsell colours, moist, in ≥ 90% of their exposed area:
-
     a.  a hue of 5YR or redder; ***or***
     b.  a hue of 7.5YR and a value of ≤ 5; ***or***
     c.  a hue of 10YR and a value and a chroma of ≤ 2; ***or***
     d.  a hue of 10YR and a chroma of ≥ 6; ***or***
     e.  a colour of 10YR 3/1; ***or***
     f.  a hue of N and a value of ≤ 2; ***and***
-
 5.  one or more of the following:
-
     a.  is overlain by claric material that is not separated from the spodic horizon by a lithic discontinuity and that overlies the spodic horizon either directly or above a transitional horizon that has a thickness of one-tenth or less of the overlying claric material; ***or***
     b.  ≥ 10% of the sand grains of the horizon show cracked coatings; ***or***
     c.  has a subhorizon that is cemented with a cementation class of at least weakly cemented in ≥ 50% of its horizontal extension; ***or***
     d.  has a subhorizon with an Al~ox~ + ½Fe~ox~ value of ≥ 0.5% that is ≥ 2 times that of the lowest Al~ox~ + ½Fe~ox~ value of all the mineral layers above the spodic horizon; ***and***
-
 6.  does not form part of a *natric*, *limonic* or *tsitelic horizon*; ***and***
-
 7.  has a thickness of ≥ 2.5 cm.
 
 #### Field identification
@@ -1322,7 +1230,7 @@ There may be a *hortic*, *plaggic*, *terric* or *umbric horizon* above the spodi
 
 Spodic horizons in volcanic materials may exhibit *andic properties* as well. Spodic horizons in other materials may exhibit some characteristics of the andic properties, but normally have a higher bulk density. For classification purposes, the presence of a spodic horizon, unless buried deeper than 50 cm, is given preference over the occurrence of *andic properties*.
 
-Some layers with *andic properties* resemble spodic horizons, if they are covered by relatively young, lightcoloured volcanic ejecta that satisfy the requirements of *claric material*. There is a *lithic discontinuity* in between, which excludes them from being spodic horizons. This can be further proven by the following analyses: The uppermost 2.5 cm of the spodic horizon have a C~py~/OC and a C~f~/C~py~ of ≥ 0.5. C~py~, C~f~ and OC are pyrophosphate-extractable C, fulvic acid C and organic C, respectively (Ito et al., 1991).
+Some layers with *andic properties* resemble spodic horizons, if they are covered by relatively young, light-coloured volcanic ejecta that satisfy the requirements of *claric material*. There is a *lithic discontinuity* in between, which excludes them from being spodic horizons. This can be further proven by the following analyses: The uppermost 2.5 cm of the spodic horizon have a C~py~/OC and a C~f~/C~py~ of ≥ 0.5. C~py~, C~f~ and OC are pyrophosphate-extractable C, fulvic acid C and organic C, respectively [@ito1991].
 
 Similar to many spodic horizons, *sombric horizons* also contain more organic matter than an overlying layer. They can be differentiated from each other by the clay mineralogy. Kaolinite usually dominates in *sombric horizons*, whereas the clay fraction of spodic horizons commonly contains significant amounts of vermiculite and Al-interlayered chlorite.
 
@@ -1339,15 +1247,10 @@ A terric horizon (from Latin *terra*, earth) is a mineral surface horizon that d
 A terric horizon is a surface horizon consisting of mineral material and:
 
 1.  shows evidence of addition of material substantially different from the environment, where it has been placed; ***and***
-
 2.  contains, if any, \< 10% (by volume, related to the whole soil) artefacts; ***and***
-
 3.  has ≥ 0.6% soil organic carbon; ***and***
-
 4.  has a base saturation (by 1 *M* NH~4~OAc, pH 7) of ≥ 50%; ***and***
-
 5.  shows evidence that the land surface has been raised; ***and***
-
 6.  has a thickness of ≥ 20 cm.
 
 #### Field identification
@@ -1430,26 +1333,18 @@ An umbric horizon (from Latin *umbra*, shade) is a relatively thick, dark-colour
 An umbric horizon is a surface horizon consisting of *mineral material* and has:
 
 1.  single or in combination, in ≥ 50% (by volume):
-
     a.  soil aggregate structure with an average aggregate size of ≤ 10 cm; ***or***
     b.  cloddy structure or other structural elements created by agricultural practices; ***and***
-
 2.  ≥ 0.6% soil organic carbon; ***and***
-
 3.  one or both of the following:
-
     a.  in ≥ 90% of the exposed area of the entire horizon or of the subhorizons below any plough layer, a Munsell colour value of ≤ 3 moist, and ≤ 5 dry, and a chroma of ≤ 3 moist; ***or***
     b.  all of the following:
         i.  a texture class of loamy sand or coarser; ***and***
         ii. in ≥ 90% of the exposed area of the entire horizon or of the subhorizons below any plough layer, a Munsell colour value of ≤ 5 and a chroma of ≤ 3, both moist; ***and***
         iii. ≥ 2.5% soil organic carbon;
-
 4.  if a layer is present that corresponds to the parent material of the umbric horizon and that has a Munsell colour value of ≤ 4, moist, ≥ 0.6% (absolute) more *soil organic carbon* than this layer; ***and***
-
 5.  a base saturation (by 1 *M* NH~4~OAc, pH 7) of \< 50% on a weighted average; ***and***
-
 6.  a thickness of one of the following:
-
     a.  ≥ 10 cm if directly overlying *continuous rock*, *technic hard material* or a *cryic*, *petroduric* or *petroplinthic horizon*; ***or***
     b.  ≥ 20 cm.
 
@@ -1476,14 +1371,10 @@ A vertic horizon (from Latin *vertere*, to turn) is a clay-rich subsurface horiz
 A vertic horizon consists of mineral material and has:
 
 1.  ≥ 30% clay; ***and***
-
 2.  one or both of the following:
-
     a.  a\. in ≥ 20% (by volume), wedge-shaped soil aggregates with a longitudinal axis tilted between ≥ 10° and ≤ 60° from the horizontal; ***or***
     b.  slickensides on ≥ 10% of the surfaces of soil aggregates; ***and***
-
 3.  *shrink-swell cracks*; ***and***
-
 4.  a thickness of ≥ 25 cm.
 
 #### Field identification
@@ -1515,19 +1406,13 @@ An abrupt textural difference (from Latin *abruptus*, broken away) is a very sha
 An abrupt textural difference refers to two superimposed layers consisting of *mineral material* with all of the following:
 
 1.  the underlying layer has all of the following:
-
     a.  ≥  15% clay; ***and***
     b.  a thickness of ≥ 7.5 cm; ***and***
-
 2.  the underlying layer starts ≥ 10 cm from the mineral soil surface; ***and***
-
 3.  the underlying layer has, compared to the overlying layer:
-
     a.  at least twice as much clay if the overlying layer has \< 20% clay; ***or***
     b.  ≥ 20% (absolute) more clay if the overlying layer has ≥ 20% clay; ***and***
-
 4.  if the limit between the two layers is not even, the depth of the abrupt textural difference is, where the underlying layer reaches ≥ 50% of the total volume; ***and***
-
 5.  a transitional layer, if present, has a thickness of ≤ 2 cm.
 
 ### Additional information
@@ -1545,11 +1430,8 @@ The term albeluvic glossae (from Latin *albus*, white, and *eluere*, to wash out
 Albeluvic glossae:
 
 1.  refer to an *argic horizon* and, if the *argic horizon* is \< 30 cm thick, also to the underlying layers until 30 cm below the upper limit of the *argic horizon*; ***and***
-
 2.  show *retic properties* in the *argic horizon*; ***and***
-
 3.  have continuous tongues consisting of coarser-textured material, as defined in the *retic properties*, that start at the upper limit of the *argic horizon*, with all of the following:
-
     a)  have a vertical extension of ≥ 30 cm; ***and***
     b)  have a horizontal extension of ≥ 1 cm; ***and***
     c)  occupy ≥ 10 and \< 90% of the exposed area.
@@ -1574,7 +1456,7 @@ Andic properties require:
 
 #### Field identification
 
-Andic properties may be identified using the sodium fluoride field test of Fieldes and Perrott (1966). A pH in NaF of ≥ 9.5 indicates allophane and/or organo-aluminium complexes in carbonate-free soils. The test is indicative for most layers with andic properties, except for those very rich in organic matter. However, the same reaction occurs in *spodic horizons* and in certain acid clays that are rich in Al-interlayered clay minerals.
+Andic properties may be identified using the sodium fluoride field test of Fieldes and Perrott [-@fieldes1966]. A pH in NaF of ≥ 9.5 indicates allophane and/or organo-aluminium complexes in carbonate-free soils. The test is indicative for most layers with andic properties, except for those very rich in organic matter. However, the same reaction occurs in *spodic horizons* and in certain acid clays that are rich in Al-interlayered clay minerals.
 
 Andic layers may exhibit thixotropy, i.e. the soil material changes, under pressure or by rubbing, from a plastic solid into a liquefied stage and back into the solid condition.
 
@@ -1592,7 +1474,7 @@ Uncultivated, organic matter-rich surface layers with silandic properties typica
 
 #### Relationships with some other diagnostics
 
-*Vitric properties* are distinguished from andic properties by a lesser degree of weathering. This is evidenced by the presence of volcanic glasses and usually by a lower amount of short-range-order pedogenic minerals and/or organo-metallic complexes, as characterized by a lower amount of Al~ox~ and Fe~ox~, a higher bulk density, or a lower phosphate retention. The diagnostic criteria of the *vitric* and *andic properties* are adapted after Shoji et al. (1996), Takahashi et al. (2004) and findings of the COST 622 Action.
+*Vitric properties* are distinguished from andic properties by a lesser degree of weathering. This is evidenced by the presence of volcanic glasses and usually by a lower amount of short-range-order pedogenic minerals and/or organo-metallic complexes, as characterized by a lower amount of Al~ox~ and Fe~ox~, a higher bulk density, or a lower phosphate retention. The diagnostic criteria of the *vitric* and *andic properties* are adapted after Shoji et al. [-@shoji1996], Takahashi et al. [-@takahashi2004] and findings of the COST 622 Action [-@costassociation2004].
 
 *Spodic horizons*, which also contain complexes of oxides and organic substances, can exhibit andic properties as well. Andic properties may also be present in *chernic*, *mollic* or *umbric horizons*.
 
@@ -1607,16 +1489,12 @@ Anthric properties (from Greek *anthropos*, human being) refer to human-made *mo
 Anthric properties:
 
 1.  occur in soils with a *mollic* or *umbric horizon*; ***and***
-
 2.  show evidence of human disturbance by one or more of the following:
-
     a.  an abrupt lower boundary at ploughing depth and ≥ 10% of the sand grains not coated by organic matter; ***or***
     b.  an abrupt lower boundary at ploughing depth and evidence of mixing of humus-richer and humus-poorer soil materials by ploughing; ***or***
     c.  lumps of applied lime; ***or***
     d.  ≥ 430 mg kg^-1^ P in the Mehlich-3 extract in the upper 20 cm; ***and***
-
 3.  show \< 5% (by exposed area) of animal pores, coprolites or other traces of soil animal activity in one or both of the following depths:
-
     a.  in the lowermost 5 cm of the *mollic* or *umbric horizon*; ***or***
     b.  in a depth range of 5 cm below the plough layer, if present.
 
@@ -1626,7 +1504,7 @@ Signs of mixing or cultivation, evidence of liming (e.g. remnants of applied lim
 
 #### Additional information
 
-430 mg kg^-1^ P in the Mehlich-3 extract roughly correspond to 654 mg kg^-1^ P or 1500 mg kg^-1^ P~2~O~5~ in 1% citric acid (Kabała et al., 2018), which was the requirement in former editions of WRB. The original idea of the anthric properties is derived from Krogh & Greve (1999).
+430 mg kg^-1^ P in the Mehlich-3 extract roughly correspond to 654 mg kg^-1^ P or 1500 mg kg^-1^ P~2~O~5~ in 1% citric acid [@kabala2018], which was the requirement in former editions of WRB. The original idea of the anthric properties is derived from Krogh & Greve [-@krogh1999].
 
 #### Relationships with some other diagnostics
 
@@ -1649,15 +1527,11 @@ Gleyic properties (from Russian folk name *gley*, wet bluish clay) develop in la
 Gleyic properties refer to *mineral material*, show redoximorphic features and comprise one of the following:
 
 1.  a layer with ≥ 95% (by exposed area) reductimorphic features that have the following Munsell colours, moist:
-
     a.  a hue of N, 10Y, GY, G, BG, B or PB; ***or***
     b.  a hue of 2.5Y or 5Y and a chroma of ≤ 2; ***or***
-
 2.  a layer with \> 5% (by exposed area) oximorphic features that:
-
     a.  are predominantly on biopore walls and, if soil aggregates are present, predominantly on or adjacent to aggregate surfaces; ***and***
     b.  have a Munsell colour hue ≥ 2.5 units redder and a chroma ≥ 1 unit higher, moist, than the surrounding material or than the matrix of the directly underlying layer; ***or***
-
 3.  a combination of two layers: a layer fulfilling diagnostic criterion 2 and a directly underlying layer fulfilling diagnostic criterion 1.
 
 #### Field identification
@@ -1835,10 +1709,8 @@ Sideralic properties (from Greek *sideros*, iron, and Latin *alumen*, alum) refe
 Sideralic properties occur in *mineral material* and require:
 
 1.  one or both of the following:
-
     a.  ≥ 8% clay and a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 24 cmol~c~ kg^-1^ clay; ***or***
     b.  a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 2 cmol~c~ kg^-1^ soil; ***and***
-
 2.  evidence of soil formation as defined in criterion 3 of the *cambic horizon*.
 
 #### Relationships with some other diagnostics
@@ -1856,17 +1728,12 @@ Stagnic properties (from Latin *stagnare*, to flood) form in layers that are, at
 Stagnic properties refer to *mineral material*, show redoximorphic features and comprise one or more of the following:
 
 1.  a layer that comprises reductimorphic features and soil material with the matrix colour and that shows both of the following:
-
     a.  the reductimorphic features are predominantly around biopores and, if soil aggregates are present, predominantly at the outer parts of the aggregates; ***and***
     b.  the reductimorphic features have, compared against the matrix colour, the following Munsell colours, moist: a value ≥ 1 unit higher and a chroma ≥ 1 unit lower;
-
 2.  a layer that comprises oximorphic features and soil material with the matrix colour and that shows both of the following:
-
     a.  the oximorphic features are, if soil aggregates are present, predominantly inside the aggregates; ***and***
     b.  the oximorphic features are black, surrounded by lighter-coloured material, or have, compared against the matrix colour, the following Munsell colours, moist: a hue ≥ 2.5 units redder and a chroma ≥ 1 unit higher; ***or***
-
 3.  a layer that comprises reductimorphic features and oximorphic features (with or without soil material with a matrix colour) and that shows all of the following:
-
     a.  the reductimorphic features are predominantly around biopores and, if soil aggregates are present, predominantly at the outer parts of the aggregates; ***and***
     b.  the oximorphic features are, if soil aggregates are present, prodominantly inside the aggregates; ***and***
     c.  the oximorphic features are black, surrounded by lighter-coloured material, or have, compared against the reductimorphic features, one or more of the following Munsell colours, all moist:
@@ -1874,9 +1741,7 @@ Stagnic properties refer to *mineral material*, show redoximorphic features and 
         ii. a chroma ≥ 4 units higher; ***or***
         iii. a hue ≥ 2.5 units redder and a chroma ≥ 2 units higher; ***or***
         iv. a hue ≥ 2.5 units redder, a value ≥ 1 unit lower and a chroma ≥ 1 unit higher; ***or***
-
 4.  a layer with the colours of claric material in ≥ 95% of its exposed area, which is considered as reductimorphic feature, above an *abrupt textural difference* or above a layer with a bulk density of ≥ 1.5 kg dm^-1^; ***or***
-
 5.  a combination of two layers: a layer with *claric material* in ≥ 95% of its exposed area, which is considered as reductimorphic feature, and a directly underlying layer fulfilling the diagnostic criteria 1, 2 or 3.
 
 #### Field identification
@@ -1939,7 +1804,7 @@ Vitric properties can occur in a surface layer. However, they can also occur und
 
 #### Relationships with some other diagnostics
 
-Vitric properties are, on the one hand, closely linked with *andic properties*, into which they may eventually develop. For some time during this development, a layer may show both the amount of volcanic glasses required for the vitric properties and the characteristics of *andic properties*. On the other hand, layers with vitric properties develop from *tephric material*. The diagnostic criteria of the vitric and *andic properties* are adapted after Shoji et al. (1996), Takahashi et al. (2004) and findings of the COST 622 Action.
+Vitric properties are, on the one hand, closely linked with *andic properties*, into which they may eventually develop. For some time during this development, a layer may show both the amount of volcanic glasses required for the vitric properties and the characteristics of *andic properties*. On the other hand, layers with vitric properties develop from *tephric material*. The diagnostic criteria of the vitric and *andic properties* are adapted after Shoji et al. [-@shoji1996], Takahashi et al. [-@takahashi2004] and findings of the COST 622 Action [-@costassociation2004].
 
 *Chernic*, *mollic* and *umbric horizons* may exhibit vitric properties as well.
 
@@ -2041,12 +1906,9 @@ Claric material (from Latin *clarus*, bright) is light-coloured fine earth.
 Claric material is *mineral material* and:
 
 1.  has in ≥ 90% of its exposed area a Munsell colour, dry, with one or both of the following:
-
     a.  a value of ≥ 7 and a chroma of ≤ 3; ***or***
     b.  a value of ≥ 5 and a chroma of ≤ 2; ***and***
-
 2.  has in ≥ 90% of its exposed area a Munsell colour, moist, with one or more of the following:
-
     a.  a value of ≥ 6 and a chroma of ≤ 4; ***or***
     b.  a value of ≥ 5 and a chroma of ≤ 3; ***or***
     c.  a value of ≥ 4 and a chroma of ≤ 2; ***or***
@@ -2126,11 +1988,8 @@ Hypersulfidic material (from Greek *hyper*, over, and Latin *sulpur*, sulfur) co
 Hypersulfidic material:
 
 1.  has ≥ 0.01% inorganic sulfidic S; ***and***
-
 2.  has a pH (1:1 by mass in water, or in a minimum of water to permit measurement) of ≥ 4; ***and***
-
 3.  when a layer, 2--10 mm thick, is incubated aerobically at field capacity for 8 weeks, the pH drops to \< 4 and one or more of the following:
-
     a.  within these 8 weeks, the total pH decline is ≥ 0.5 pH units; ***or***
     b.  latest after these 8 weeks, the decrease in pH is only ≤ 0.1 pH units over a further period of 14 days; *or*
     c.  latest after these 8 weeks, the pH begins to increase again.
@@ -2185,11 +2044,8 @@ Limnic material (from Greek *limnae*, pool) includes both organic and mineral ma
 *Limnic material* is formed as subaquatic deposits and usually stratified. (After drainage it may occur at the soil surface.) Four types of limnic material can be distinguished:
 
 1.  *Coprogenous earth* or *sedimentary peat*: organic, identifiable through many faecal pellets and peat residues, Munsell colour value of ≤ 4, moist, slightly viscous water suspension, a non-plastic or slightly plastic plasticity type, shrinking upon drying, difficult to rewet after drying, and cracking along horizontal planes.
-
 2.  *Diatomaceous earth*: mainly diatoms (siliceous), identifiable by irreversible changing of the matrix colour (Munsell colour value of 3 to 5 in field moist or wet condition) upon drying as a result of the irreversibly shrinkage of the organic coatings on diatoms (use 440x microscope).
-
 3.  *Marl*: strongly calcareous, identifiable by a Munsell colour value of ≥ 5, moist, and a reaction with 1 *M* HCl. The colour of marl usually does not change irreversibly upon drying.
-
 4.  *Gyttja*: small coprogenic aggregates, consisting of organic matter that has been strongly alterated by microorganisms, and minerals of predominantly clay to silt size, ≥ 0.5% *soil organic carbon*, a Munsell colour hue of 5Y, GY or G, moist, strong shrinkage after drainage and an rH value of ≥ 13.
 
 ### Mineral material
@@ -2285,7 +2141,7 @@ Ornithogenic material has:
 
 #### Additional information
 
-750 mg kg^-1^ P in the Mehlich-3 extract roughly correspond to 1090 mg kg^-1^ P or 2500 mg kg^-1^ P~2~O~5~ in 1% citric acid (Kabała et al., 2018), which was the requirement in former editions of WRB.
+750 mg kg^-1^ P in the Mehlich-3 extract roughly correspond to 1090 mg kg^-1^ P or 2500 mg kg^-1^ P~2~O~5~ in 1% citric acid [@kabala2018], which was the requirement in former editions of WRB.
 
 ### Soil organic carbon
 
@@ -2333,7 +2189,7 @@ Accumulations by rapid mass movements such as in landslides, slumps or tree thro
 
 In agricultural environments, solimovic material has mostly a high base saturation. If not natural, this is the result of liming or fertilization before and/or after having been eroded.
 
-In former editions of WRB, the solimovic material was called colluvic material. However, the traditional use of the word 'colluvium' is so different between countries and national traditions and changed so much over time (Miller & Juilleret, 2020) that it is better to avoid this term and use a new one.
+In former editions of WRB, the solimovic material was called colluvic material. However, the traditional use of the word 'colluvium' is so different between countries and national traditions and changed so much over time [@miller2020] that it is better to avoid this term and use a new one.
 
 #### Relationships with some other diagnostics
 
@@ -2374,12 +2230,11 @@ Tephric material (from Greek *tephra*, pile ash) has many glasses in the fine ea
 Tephric material has:
 
 1.  in the fraction between \> 0.02 and ≤ 2 mm, ≥ 30% (by grain count) volcanic glass, glassy aggregates, other glass-coated primary minerals or glasses resulting from industrial processes; ***and***
-
 2.  no *andic* or *vitric properties*.
 
 #### Additional information
 
-Tephric material refers to the fine earth, but coarse fragments may also be present (including cinders, lapilli, pumice, pumice-like vesicular pyroclasts, blocks and volcanic bombs). The original description of the tephric material is based on Hewitt (1992), the amendment of *artefacts* is adapted from Uzarowicz et al. (2017).
+Tephric material refers to the fine earth, but coarse fragments may also be present (including cinders, lapilli, pumice, pumice-like vesicular pyroclasts, blocks and volcanic bombs). The original description of the tephric material is based on Hewitt [-@hewitt1992], the amendment of *artefacts* is adapted from Uzarowicz et al. [-@uzarowicz2017].
 
 #### Relationships with some other diagnostics
 

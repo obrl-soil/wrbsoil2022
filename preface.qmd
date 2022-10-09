@@ -6,7 +6,7 @@ The fourth edition is the result of another eight years of testing. During inter
 
 The fourth edition has new annexes:
 
--   A new Field Guide, exactly tailored to the needs of WRB, with many definitions of field characteristics, supported by numerous illustrations - it may be used instead of the FAO Guidelines for Soil Description (2006)
+-   A new Field Guide, exactly tailored to the needs of WRB, with many definitions of field characteristics, supported by numerous illustrations - it may be used instead of the FAO Guidelines for Soil Description [@un-fao2006]
 -   Horizon and Layer Designations with master symbols and suffixes
 -   Recommendations for Colour Symbols for Reference Soil Group Maps
 -   A Soil Description Sheet and a Guidance on Database Set-Up to be provided as separate documents for download.

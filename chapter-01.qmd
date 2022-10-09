@@ -4,13 +4,13 @@
 
 ### From its beginnings to the third edition 2014/15
 
-The World Reference Base for Soil Resources (WRB) is based on the Legend (FAO-Unesco, 1974) and the Revised Legend (FAO, 1988) of the Soil Map of the World (FAO-Unesco, 1971-1981). In 1980, the International Society of Soil Science (ISSS, since 2002 the International Union of Soil Sciences, IUSS) formed a Working Group 'International Reference Base for Soil Classification' for further elaboration of a science-based international soil classification system. This Working Group was renamed 'World Reference Base for Soil Resources' in 1992. The Working Group presented the first edition of the WRB in 1998 (FAO, 1998), the second edition in 2006 (IUSS Working Group WRB, 2006) and the third edition in 2014/15 (IUSS Working Group WRB, 2015). In 1998, the ISSS Council endorsed the WRB as its officially recommended terminology to name and classify soils.
+The World Reference Base for Soil Resources (WRB) is based on the Legend [@fao-unesco1974] and the Revised Legend [@fao-unesco-isric1988] of the Soil Map of the World [@fao-unesco1971]. In 1980, the International Society of Soil Science (ISSS, since 2002 the International Union of Soil Sciences, IUSS) formed a Working Group 'International Reference Base for Soil Classification' for further elaboration of a science-based international soil classification system. This Working Group was renamed 'World Reference Base for Soil Resources' in 1992. The Working Group presented the first edition of the WRB in 1998 [@isss-isricfao1998], the second edition in 2006 [@worldre2006] and the third edition in 2014/15 [@iussworkinggroupwrb2015]. In 1998, the ISSS Council endorsed the WRB as its officially recommended terminology to name and classify soils.
 
-A detailed description of the older WRB history is given in the second edition (IUSS Working Group WRB, 2006) and the third edition of the WRB (IUSS Working Group WRB, 2015).
+A detailed description of the older WRB history is given in the second edition [@worldre2006] and the third edition of the WRB [@iussworkinggroupwrb2015].
 
 ### From the third edition 2014 (Update 2015) to the fourth edition 2022
 
-The third edition of the WRB was presented at the 20th World Congress of Soil Science 2014 in Jeju, Korea. In 2015, an Update was published online, which is the valid WRB from 2015 to 2022: https://www.fao.org/3/i3794en/I3794en.pdf.
+The third edition of the WRB was presented at the 20th World Congress of Soil Science 2014 in Jeju, Korea. In 2015, an Update was published online, which is the valid WRB from 2015 to 2022: <https://www.fao.org/3/i3794en/I3794en.pdf>.
 
 The second edition was translated into several languages: Czech, French, Georgian, Polish, Russian, Slovene, and Spanish.
 
@@ -36,7 +36,7 @@ The major changes are:
     -   Annex 2 (Laboratory methods) was maintained.
     -   The former Annex 3 (Codes) is now Chapter 6. This reflects that the codes, if used, are not only recommended but mandatory.
     -   The former Annex 4 is integrated in the new Annex 1.
-    -   The new Annex 1 is a Field Guide. It replaces the FAO Guidelines (2006). Compared to the FAO Guidelines, the Annex 1 is more comprehensive for WRB, more precise and more didactical using many illustrations. It gives many definitions of field characteristics that up till now have been nowhere defined in WRB, neither in the WRB itself, nor in the FAO Guidelines. Many of these definitions were taken from the USDA Soil Survey Manual (2017) and the NRCS Fieldbook (2012), which brings WRB and Soil Taxonomy closer together.
+    -   The new Annex 1 is a Field Guide. It replaces the FAO Guidelines [-@un-fao2006]. Compared to the FAO Guidelines, the Annex 1 is more comprehensive for WRB, more precise and more didactical using many illustrations. It gives many definitions of field characteristics that up till now have been nowhere defined in WRB, neither in the WRB itself, nor in the FAO Guidelines. Many of these definitions were taken from the USDA Soil Survey Manual [-@soilsciencedivisionstaff2017] and the NRCS Fieldbook [-@schoeneberger2012], which brings WRB and Soil Taxonomy closer together.
     -   The new Annex 3 provides brief definitions of layer symbols further developing the definitions of the FAO Guidelines.
     -   The new Annex 4 explains a soil description sheet that is provided online.
     -   The new Annex 5 gives a guidance on database set-up. The details are provided online.
@@ -76,7 +76,7 @@ The major changes are:
 
 ## The object classified in the WRB
 
-Like many common words, 'soil' has several meanings. In its traditional meaning, soil is the natural medium for the growth of plants, whether or not it has discernible soil horizons (Soil Survey Staff, 1999).
+Like many common words, 'soil' has several meanings. In its traditional meaning, soil is the natural medium for the growth of plants, whether or not it has discernible soil horizons [@soilsurveystaff1999].
 
 In the 1998 WRB, soil was defined as:
 
@@ -86,7 +86,7 @@ In the 1998 WRB, soil was defined as:
 > -   The constituents are organized in **structures**, specific for the pedological medium. These structures form the morphological aspect of the soil cover, equivalent to the anatomy of a living being. They result from the history of the soil cover and from its actual dynamics and properties. Study of the structures of the soil cover facilitates perception of the physical, chemical and biological properties; it permits understanding the past and present of the soil and predicting its future.
 > -   The soil is in **constant evolution**, thus giving the soil its fourth dimension, time."
 
-Although there are good arguments to limit soil survey and mapping to identifiable stable soil areas with a certain thickness, the WRB has taken the more comprehensive approach to name any object forming part of the ***epiderm of the earth*** (Sokolov, 1997; Nachtergaele, 2005). This approach has a number of advantages; notably that it allows for addressing environmental problems in a systematic and holistic way and avoids sterile discussion on a universally agreed definition of soil and its required thickness and stability. Therefore, the object classified in the WRB is: *any material within 2 m of the Earth's surface that is in contact with the atmosphere, excluding living organisms, areas with continuous ice not covered by other material, and water bodies deeper than 2 m*. If explicitly stated, the object classified in the WRB includes layers deeper than 2 m. In tidal areas, the depth of 2 m is to be applied at mean low water springs.
+Although there are good arguments to limit soil survey and mapping to identifiable stable soil areas with a certain thickness, the WRB has taken the more comprehensive approach to name any object forming part of the ***epiderm of the earth*** [@sokolov1997; @nachtergaele2005]. This approach has a number of advantages; notably that it allows for addressing environmental problems in a systematic and holistic way and avoids sterile discussion on a universally agreed definition of soil and its required thickness and stability. Therefore, the object classified in the WRB is: *any material within 2 m of the Earth's surface that is in contact with the atmosphere, excluding living organisms, areas with continuous ice not covered by other material, and water bodies deeper than 2 m*. If explicitly stated, the object classified in the WRB includes layers deeper than 2 m. In tidal areas, the depth of 2 m is to be applied at mean low water springs.
 
 The definition includes *continuous rock*, paved urban soils, soils of industrial areas, soils on buildings and other (permanent/stable) constructions, cave soils as well as subaqueous soils. Soils under *continuous rock*, except those that occur in caves, are generally not considered for classification, but in special cases, the WRB may be even used to classify soils under rock, for example for palaeopedological reconstruction of the environment. The use of WRB for paleosols is still in an experimental stage.
 
@@ -125,12 +125,12 @@ The definition includes *continuous rock*, paved urban soils, soils of industria
 
 **2. Diagnostic horizons that may be organic or mineral**
 
-| Name            | Simplified Description                                           |
-|-----------------|------------------------------------------------------------------|
-| calcic horizon  | accumulation of secondary carbonates, not continuously cemented  |
-| cryic horizon   | perennially frozen (visible ice or, if not enough water, \< 0°C) |
-| salic horizon   | high amounts of readily soluble salts                            |
-| thionic horizon | with sulfuric acid and a very low pH value                       |
+| Name            | Simplified Description                                            |
+|-----------------|-------------------------------------------------------------------|
+| calcic horizon  | accumulation of secondary carbonates, not continuously cemented   |
+| cryic horizon   | perennially frozen (visible ice or, if not enough water, \< 0 °C) |
+| salic horizon   | high amounts of readily soluble salts                             |
+| thionic horizon | with sulfuric acid and a very low pH value                        |
 
 **3. Organic diagnostic horizons**
 
@@ -261,7 +261,7 @@ Each RSG of the WRB is provided with a listing of possible principal and supplem
 
 ### Evolution of the system
 
-The Revised Legend of the FAO/UNESCO Soil Map of the World (FAO, 1988) was used as a basis for the development of the WRB in order to take advantage of the international soil correlation that had already been conducted through this project and elsewhere. The first edition of the WRB, published in 1998, comprised 30 RSGs; the following editions have 32 RSGs.
+The Revised Legend of the FAO/UNESCO Soil Map of the World [@fao-unesco-isric1988] was used as a basis for the development of the WRB in order to take advantage of the international soil correlation that had already been conducted through this project and elsewhere. The first edition of the WRB, published in 1998, comprised 30 RSGs; the following editions have 32 RSGs.
 
 ## Architecture
 
@@ -328,11 +328,11 @@ Table 1.2: Simplified guide to the WRB Reference Soil Groups (RSGs) with suggest
 
 ## Topsoils
 
-Topsoil characteristics are prone to rapid change with time and are therefore used only in some cases in the WRB. Several suggestions for topsoil classification systems have been made (Broll et al., 2006; Fox et al., 2010; Graefe et al., 2012; Jabiol et al., 2013, Zanella et al., 2018). They may be combined with the WRB.
+Topsoil characteristics are prone to rapid change with time and are therefore used only in some cases in the WRB. Several suggestions for topsoil classification systems have been made [@broll2006; @fox2010; @graefe2012; @jabiol2013; @zanella2018]. They may be combined with the WRB.
 
 ## Subsolum
 
-A classification scheme for subsolum materials has been proposed by Juilleret et al. (2016, 2018) that may be combined with the WRB. Subsolum material is any material occurring below the diagnostics of WRB.
+A classification scheme for subsolum materials has been proposed by [@juilleret2016; @juilleret2018] that may be combined with the WRB. Subsolum material is any material occurring below the diagnostics of WRB.
 
 ## Translation into other languages
 

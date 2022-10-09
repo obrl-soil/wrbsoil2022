@@ -1,6 +1,8 @@
 # Definitions of qualifiers
 
-[**Before using the qualifiers, please read the 'Rules for naming soils' (Chapter 2).**]{style="color:red"}
+::: callout-important
+Before using the qualifiers, please read the ['Rules for naming soils'](chapter-02.qmd#sec-ch02) (Chapter 2)
+:::
 
 The definitions of the qualifiers for the second-level units relate to RSGs, diagnostic horizons, properties and materials, and to attributes such as colour, chemical conditions, texture, etc. References to the RSGs defined in Chapter 4 and the diagnostics listed in Chapter 3 are shown *in italics*.
 
@@ -127,7 +129,6 @@ and fulfilling the set of diagnostic criteria of the Eutric qualifier.
 (from Latin *calcarius*, containing lime): having *calcaric material*
 
 -   in a layer, ≥ 30 cm thick and within 100 cm of the mineral soil surface, *or*
-
 -   in the major part between the mineral soil surface and a limiting layer starting \< 60 cm from the mineral soil surface;
 
 and not having a *calcic* or a *petrocalcic horizon* starting ≤ 100 cm from the mineral soil surface (2; no subqualifier if a limiting layer starts \< 60 cm from the mineral soil surface).
@@ -557,7 +558,6 @@ see *Abruptic*.
 (from Greek *gypsos*, gypsum): having *gypsiric material*
 
 -   in a layer, ≥ 30 cm thick and within 100 cm of the mineral soil surface, *or*
-
 -   in the major part between the mineral soil surface and a limiting layer starting \< 60 cm from the mineral soil surface;
 
 and not having a *gypsic* or *petrogypsic horizon* starting ≤ 100 cm from the mineral soil surface (2; no subqualifier if a limiting layer starts \< 60 cm from the mineral soil surface).
@@ -1028,7 +1028,7 @@ see *Fluvic*.
 
 (from French *profond*, deep): having an *argic horizon*, in which the clay content does not decrease by ≥ 20% (relative) from its maximum within 150 cm of the mineral soil surface, throughout.
 
-### Protic (pr) 
+### Protic (pr)
 
 (from Greek *proton*, first): showing no soil horizon development, with the exception of a *cryic horizon*, which may be present.
 
@@ -1036,7 +1036,7 @@ see *Fluvic*.
 
 see *Andic*.
 
-### Protoargic (qg) 
+### Protoargic (qg)
 
 (from Greek *proton*, first, and Latin *argilla*, white clay): having an absolute clay increase of ≥ 4% from one layer to the directly underlying layer, within 100 cm of the mineral soil surface (in *Arenosols only*) (2).
 
@@ -1052,31 +1052,31 @@ see *Spodic*.
 
 see *Vertic*.
 
-### Puffic (pu) 
+### Puffic (pu)
 
 (from English *to puff*): having a chemical surface crust formed by readily soluble salts *(in Solonchaks only*).
 
-### Pyric (py) 
+### Pyric (py)
 
 (from Greek *pyr*, fire): having within 100 cm of the soil surface one or more layers with a combined thickness of ≥ 10 cm with ≥ 5% (by exposed area, related to the fine earth plus black carbon of any size) visible black carbon and not forming part of a *pretic horizon* (2).
 
-### Raptic (rp) 
+### Raptic (rp)
 
 (from Latin *raptus*, broken): having a *lithic discontinuity* at some depth ≤ 100 cm from the mineral soil surface, that is not related to *fluvic material* and not to *solimovic material* (1).
 
-### Reductaquic (ra) 
+### Reductaquic (ra)
 
 (from Latin *reductus*, drawn back, and *aqua*, water): having above a *cryic horizon* a layer, ≥ 25 cm thick and starting ≤ 75 cm from the soil surface, that is saturated with water during the thawing period and that has at some time of the year *reducing conditions* (*in Cryosols only*) (2).
 
-### Reductic (rd) 
+### Reductic (rd)
 
 (from Latin *reductus*, drawn back): having *reducing conditions* in ≥ 25% (by volume) within 100 cm of the soil surface, caused by gaseous emissions, e.g. methane or carbon dioxide, or caused by liquid intrusions other than water, e.g. gasoline.
 
-### Reductigleyic (ry) 
+### Reductigleyic (ry)
 
 (Latin *reductus*, drawn back, and Russian folk name *gley*, wet bluish clay): not having, ≥ 40 cm from the mineral soil surface, a layer that meets diagnostic criterion 2 of the *gleyic properties* (*in Gleysols only*).
 
-### Relocatic (rc) 
+### Relocatic (rc)
 
 (from Latin *re*, again, and *locatus*, put): being remodelled in situ or within the immediate vicinity by human activity to a depth of ≥ 100 cm (e.g. by deep ploughing, refilling soil pits or levelling land) and no formation of diagnostic horizons after remodelling, throughout, except a *mollic* or *umbric horizon* (in *Technosols*, Relocatic is redundant, except in combination with the Ekranic, Thyric or Linic qualifier); a destroyed diagnostic subsurface horizon may be added with a hyphen, e.g. Spodi-Relocatic, Spodi-Epirelocatic, however, there are no codes provided for these additions (4: Epi- only).
 
@@ -1084,7 +1084,7 @@ see *Vertic*.
 
 (from Polish *rzendzic*, to grate in contact with a plough blade): having a *mollic horizon* that contains or directly overlies *calcaric material* containing ≥ 40% calcium carbonate equivalent or that directly overlies calcareous rock containing ≥ 40% calcium carbonate equivalent (2: Ano- and Panto- only).
 
-#### Somerirendzic (sr) 
+#### Somerirendzic (sr)
 
 (from Spanish *somero*, superficial): having a *mollic horizon*, \< 20 cm thick, that directly overlies calcareous rock containing ≥ 40% calcium carbonate equivalent.
 
@@ -1100,7 +1100,7 @@ see *Vertic*.
 
 (from Greek *rhodon*, rose): having between 25 and 150 cm of the mineral soil surface a layer, ≥ 30 cm thick, that shows evidence of soil formation as defined in criterion 3 of the cambic horizon and that has, in ≥ 90% of its exposed area, a Munsell colour hue redder than 5YR moist, a value of \< 4 moist, and a value dry, not more than one unit higher than the moist value.
 
-### Rockic (rk) 
+### Rockic (rk)
 
 (from English *rock*): having *organic material* starting at the soil surface that directly overlies *continuous rock* or *technic hard material* (*in Histosols only*) (1: Epi- and Endo- only; referring to the upper limit of the *continuous rock* or *technic hard material*).
 
@@ -1120,7 +1120,7 @@ see *Vertic*.
 
 (from Greek *hyper*, over): having a *salic horizon* with a subhorizon, ≥ 15 cm thick and starting ≤ 100 cm from the soil surface, that has an EC~e~ of ≥ 30 dS m^-1^ at 25 °C (2).
 
-#### Protosalic (qz) 
+#### Protosalic (qz)
 
 (from Greek *proton*, first): having within 100 cm of the soil surface a layer that has an EC~e~ of ≥ 4 dS m^-1^ at 25 °C; and not having a *salic horizon* starting ≤ 100 cm from the soil surface (2).
 
@@ -1137,7 +1137,7 @@ see *Vertic*.
 
 (from Greek *sapros*, rotten, and *lithos*, stone): having a layer, ≥ 30 cm thick and starting ≤ 150 cm from the mineral soil surface, that has rock structure in ≥ 75% (by volume, related to the whole soil) and a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 24 cmol~c~ kg^-1^ clay (2).
 
-### Sideralic (se) 
+### Sideralic (se)
 
 (from Greek *sideros*, iron, and Latin *alumen*, alum): having within 150 cm of the mineral soil surface a layer that has *sideralic properties*; and not having a *ferralic horizon* starting ≤ 150 cm from the mineral soil surface (2).
 
@@ -1166,7 +1166,7 @@ see *Vertic*.
 
 (from Greek *akra*, top): having ≥ 40% of the soil surface covered by fragments that have an average length of their greatest dimension of \> 6 cm (stones, boulders and/or large boulders).
 
-#### Ejectiskeletic (jk) 
+#### Ejectiskeletic (jk)
 
 (from Latin *ejicere*, to throw out): having ≥ 40% (by volume, related to the whole soil) coarse fragments of pyroclastic origin (lapilli, bombs and/or blocks), averaged over a depth of 100 cm from the mineral soil surface or to a limiting layer, whichever is shallower (5).
 
@@ -1197,7 +1197,7 @@ see *Vertic*.
 
 (from French *sombre*, shade): having a *sombric horizon* starting ≤ 150 cm from the mineral soil surface (2).
 
-### Someric (si) 
+### Someric (si)
 
 (from Spanish *somero*, superficial): having a *mollic* or *umbric horizon*, \< 20 cm thick.
 
@@ -1356,7 +1356,6 @@ see *Vertic*.
 (from Greek *organon*, tool): having at the soil surface or below a recently formed organic surface horizon a layer,
 
 -   ≥ 20 cm thick, or
-
 -   with a thickness of ≥ 50% of the entire soil if a limiting layer starts ≤ 40 cm from the soil surface, with *organic material* containing, if any, \< 10% (by volume, related to the whole soil) *artefacts*; and that has been moved from a source area outside the immediate vicinity by intentional human activity, usually with the aid of machinery, and without substantial reworking or displacement by natural forces (2: Ano- and Panto- only).
 
 #### Skeletotransportic (kt)
@@ -1380,7 +1379,7 @@ and that has been moved from a source area outside the immediate vicinity by int
 
 (from Latin *relictus*, left back): having features of cryogenic alteration within 100 cm of the soil surface, caused by frost action in the past (2: only if clearly recognizable as layer).
 
-### Umbric (um) 
+### Umbric (um)
 
 (from Latin *umbra*, shade): having an *umbric horizon* (2: Ano- and Panto- only).
 
@@ -1388,11 +1387,11 @@ and that has been moved from a source area outside the immediate vicinity by int
 
 (from Greek *anthropos*, human being): having an *umbric horizon* and *anthric properties* (2: Ano- and Panto- only).
 
-#### Someriumbric (sw) 
+#### Someriumbric (sw)
 
 (from Spanish *somero*, superficial): having an *umbric horizon*, \< 20 cm thick.
 
-#### Tonguiumbric (tw) 
+#### Tonguiumbric (tw)
 
 (from English *tongue*): having an *umbric horizon* that tongues into an underlying layer (2: Ano- and Panto- only; referring to the *umbric horizon*, not to the tongues).
 

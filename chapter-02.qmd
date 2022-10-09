@@ -12,7 +12,7 @@ The following principles have to be considered for classification in WRB:
 6.  Numerical values obtained in the field or in the laboratory have to be taken as such and **must not be rounded** when compared with the threshold values in the diagnostic criteria.
 7.  The diagnostic criteria must be fulfilled **throughout the specified depth range**, unless stated otherwise. If a diagnostic horizon consists of several subhorizons, the diagnostic criteria (except thickness) must be fulfilled in every subhorizon separately (averages are not calculated), unless stated otherwise.
 8.  The term **limiting layer** used in definitions comprises *continuous rock*, *technic hard material*, *petrocalcic*, *petroduric*, *petrogypsic* and *petroplinthic* horizons and other cemented layers with both of the following: cementation with a class of at least moderately cemented and a continuity to the extent that vertical fractures, if present, have an average horizontal spacing of ≥ 10 cm and occupy \< 20% (by volume, related to the whole soil).
-9.  On a **slope**, the soil is described as a vertical profile. The thickness and depth values are calculated by multiplying the vertically measured values by the cosine of the inclination angle (see Annex 1, Chapter 8.1.2) (Prietzel & Wiesmeier, 2019). This is especially important on steep slopes.
+9.  On a **slope**, the soil is described as a vertical profile. The thickness and depth values are calculated by multiplying the vertically measured values by the cosine of the inclination angle (see Annex 1, Chapter 8.1.2) [@prietzel2019]. This is especially important on steep slopes.
 
 Classification consists of three steps:
 
@@ -28,7 +28,7 @@ For the first level of the WRB classification, the described combination of diag
 
 For the second level of the WRB classification, qualifiers are used. The qualifiers available for use with a particular RSG are listed in the Key, along with the RSG. They are divided into principal and supplementary qualifiers.
 
-The **principal qualifiers** are ranked and given in an order of importance. The rank of the principal qualifiers reflects particular soil chacracteristics or properties strongly influencing the soil's functionality:
+The **principal qualifiers** are ranked and given in an order of importance. The rank of the principal qualifiers reflects particular soil characteristics or properties strongly influencing the soil's functionality:
 
 Examples of subdivisions based on soil characteristics:
 
@@ -219,7 +219,7 @@ A landscape usually shows a variety of soils. For a map unit, they often have to
 ![Soils in a landscape that need to be combined to form a map unit](images/figure_2-2.png){#fig202 fig-alt="Soils in a landscape that need to be combined to form a map unit"}
 
 | Area | Complete soil name                                                                | Result          |
-|-----------------|--------------------------------------|-----------------|
+|------------------|-------------------------------------|------------------|
 | 1    | Haplic Luvisol (Episiltic, Katoclayic, Aric, Cutanic, Differentic, Epic, Ochric)  | dominant soil   |
 | 2    | Eutric Stagnic Leptic Cambisol (Loamic, Humic)                                    | codominant soil |
 | 3    | Albic Stagnic Luvisol (Anosiltic, Endoclayic, Cutanic, Differentic, Endic, Humic) | associated soil |

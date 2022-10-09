@@ -1,6 +1,6 @@
 # Annex 2: Summary of analytical procedures for soil characterization
 
-This annex provides summaries of recommended analytical procedures to be used for soil characterization for the World Reference Base for Soil Resources. Full descriptions can be found in *Procedures for soil analysis* (Van Reeuwijk, 2002) and the USDA *Kellogg Soil Survey Laboratory Methods Manual* (Soil Survey Staff, 2014).
+This annex provides summaries of recommended analytical procedures to be used for soil characterization for the World Reference Base for Soil Resources. Full descriptions can be found in *Procedures for soil analysis* [@procedur2002] and the USDA *Kellogg Soil Survey Laboratory Methods Manual* [@kellogg2014].
 
 ## Sample preparation
 
@@ -14,27 +14,27 @@ Calculation of contents is done on the basis of dry (105 °C) soil mass.
 
 ## Particle-size analysis
 
-The mineral part of the soil is separated into various size fractions and the proportion of these fractions is determined. The determination comprises all material, i.e. including coarse fragments, but the procedure itself is applied to the fine earth (≤ 2 mm) only. The particle-size classes according to ISO 11277:2009 are given in the Table:
+The mineral part of the soil is separated into various size fractions and the proportion of these fractions is determined. The determination comprises all material, i.e. including coarse fragments, but the procedure itself is applied to the fine earth (≤ 2 mm) only. The particle-size classes according to ISO 11277:2009 [@internationalorganizationforstandardization2015] are given in the Table:
 
 | Particle-size class | Diameter of particles |
 |---------------------|-----------------------|
 | Fine earth          | all particles ≤ 2 mm  |
 | Sand                | \> 63 μm - ≤ 2 mm     |
-|  Very coarse sand   | \> 1250 μm - ≤ 2 mm   |
-|  Coarse sand        | \> 630 μm - ≤ 1250 μm |
-|  Medium sand        | \> 200 μm - ≤ 630 μm  |
-|  Fine sand          | \> 125 μm - ≤ 200 μm  |
-|  Very fine sand     | \> 63 μm - \< 125 μm  |
+| Very coarse sand    | \> 1250 μm - ≤ 2 mm   |
+| Coarse sand         | \> 630 μm - ≤ 1250 μm |
+| Medium sand         | \> 200 μm - ≤ 630 μm  |
+| Fine sand           | \> 125 μm - ≤ 200 μm  |
+| Very fine sand      | \> 63 μm - \< 125 μm  |
 | Silt                | \> 2 μm - ≤ 63 μm     |
-|  Coarse silt        | \> 20 μm - ≤ 63 μm    |
-|  Fine silt          | \> 2 μm - ≤ 20 μm     |
+| Coarse silt         | \> 20 μm - ≤ 63 μm    |
+| Fine silt           | \> 2 μm - ≤ 20 μm     |
 | Clay                | ≤ 2 μm                |
-|  Coarse clay        | \> 0.2 μm - ≤ 2 μm    |
-|  Fine clay          | ≤ 0.2 μm              |
+| Coarse clay         | \> 0.2 μm - ≤ 2 μm    |
+| Fine clay           | ≤ 0.2 μm              |
 
 : Particle-size classes
 
-The pre-treatment of the sample is aimed at complete dispersion of the primary particles. Therefore, cementing materials (usually of secondary origin) such as organic matter and calcium carbonate may have to be removed. In some cases, de-ferration also needs to be applied. The amount of cementing material has to be documented. However, depending on the aim of study, it may be fundamentally wrong to remove cementing materials. Thus, all pre-treatments are considered optional. However, for soil characterization purposes, removal of organic matter by H2O2 and of carbonates by HCl is routinely carried out. After this pre-treatment, the sample is shaken with a dispersing agent and sand is separated from clay and silt with a 63-μm sieve. The sand is fractionated by dry sieving; the clay and silt fractions are determined by the pipette method or, alternatively, by the hydrometer method.
+The pre-treatment of the sample is aimed at complete dispersion of the primary particles. Therefore, cementing materials (usually of secondary origin) such as organic matter and calcium carbonate may have to be removed. In some cases, de-ferration also needs to be applied. The amount of cementing material has to be documented. However, depending on the aim of study, it may be fundamentally wrong to remove cementing materials. Thus, all pre-treatments are considered optional. However, for soil characterization purposes, removal of organic matter by H~2~O~2~ and of carbonates by HCl is routinely carried out. After this pre-treatment, the sample is shaken with a dispersing agent and sand is separated from clay and silt with a 63-μm sieve. The sand is fractionated by dry sieving; the clay and silt fractions are determined by the pipette method or, alternatively, by the hydrometer method.
 
 ## Water-dispersible clay
 
@@ -68,7 +68,7 @@ Otherwise, the *Walkley--Black method* is followed. This involves a wet combusti
 
 ## Carbonates
 
-The *rapid titration method* by Piper (also called *acid neutralization method*) is used. The sample is treated with dilute HCl and the residual acid is titrated. The results are referred to as *calcium carbonate equivalent* as the dissolution is not selective for calcite, and other carbonates such as dolomite are dissolved as well.
+The *rapid titration method* by Piper [-@piper1942, also called *acid neutralization method*] is used. The sample is treated with dilute HCl and the residual acid is titrated. The results are referred to as *calcium carbonate equivalent* as the dissolution is not selective for calcite, and other carbonates such as dolomite are dissolved as well.
 
 ***Note:*** Other procedures such as the *Scheibler volumetric method* or the *Bernard calcimeter* may also be used.
 
@@ -106,10 +106,10 @@ The CEC is given in cmolc kg^-1^ soil. The CEC kg^-1^ clay is calculated by divi
 
 ### Saturations at pH 7
 
-The base saturation (BS) refers to the exchangeable base cations and is calculated as: \
+The base saturation (BS) refers to the exchangeable base cations and is calculated as:\
 exchangeable (Ca+Mg+K+Na) x 100 / CEC.
 
-The exchangeable sodium percentage (ESP) is calculated as: \
+The exchangeable sodium percentage (ESP) is calculated as:\
 exchangeable Na x 100 / CEC.
 
 The input data are given in cmol~c~ kg^-1^ and the results in %.
@@ -129,7 +129,7 @@ If the data for the base saturation are not available, the pH~water~ can be used
 Exchangeable ions are given in cmol~c~ kg^-1^. For some soils, the relationship between the sum of exchangeable base cations and exchangeable Al is required. If the data for exchangeable ions are not available, the pHwater can be used instead. If this is also not available, the pHKCl can be used. The correlations between exchangeable ions and pH depend on the amount of organic matter and show an extremely high variance. The following pH values are recommended:
 
 |                | exch base = exch Al |         | exch base \>= 4x exch Al |         | Exch Al \>= 4x Exch base |         |
-|----------------|---------------------|---------|--------------------------|---------|--------------------------|---------|
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | C~org~ (%)     | pH~water~           | pH~KCl~ | pH~water~                | pH~KCl~ | pH~water~                | pH~KCl~ |
 | \< 2           | 4.6                 | 3.8     | 5.5                      | 4.7     | 3.9                      | 3.2     |
 | ≥ 2 to \< 7.5  | 4.9                 | 4.1     | 5.9                      | 5.0     | 4.2                      | 3.4     |
@@ -144,16 +144,16 @@ These analyses comprise:
 -   Fe~dith~, Al~dith~, Mn~dith~: Dithionite-citrate-bicarbonate dissolves:
     -   Fe particularly from Fe(III) oxides, hydroxides and oxide-hydroxides;
     -   Al from Fe oxides, where the Al has substituted the Fe, and Al associated to reducible oxides;
-    -   Mn particularly from Mn(IV) oxides, hydroxides and oxide-hydroxides. \
+    -   Mn particularly from Mn(IV) oxides, hydroxides and oxide-hydroxides.\
         Both the Mehra & Jackson (1958) and the Holmgren (1967) procedures may be used, with membrane filtration (0.45 μm).
 -   Fe~ox~, Al~ox~, Si~ox~, Mn~ox~: Oxalate (0.2 M ammonium oxalate buffered to pH 3 with 0.2 M oxalic acid) dissolves:
     -   Fe from poorly crystalline oxides, hydroxides and oxide-hydroxides (such as ferrihydrite), and partially Fe from goethite, lepidocrocite, maghemite and magnetite, and partially Fe from organic associations;
     -   Al from Fe oxides, where the Al has substituted the Fe, from hydroxy-interlayers of phyllosilicates, and partially Al from short-range ordered aluminosilicates (such as allophane and imogolite), and partially Al from organic associations, and the adsorbed Al;
     -   Si partially from short-range ordered aluminosilicates (such as allophane and imogolite);
-    -   Mn from oxides, hydroxides and oxide-hydroxides (completely). \
-        The procedure according to Blakemore et al. (1987) may be used, with membrane filtration (0.45 μm).
+    -   Mn from oxides, hydroxides and oxide-hydroxides (completely).\
+        The procedure according to Blakemore et al. [-@blakemore1987] may be used, with membrane filtration (0.45 μm).
 
-**Note:** Al~dith~ and Mn~ox~ are not used for definitions in WRB. For further review of methods see Rennert (2019).
+**Note:** Al~dith~ and Mn~ox~ are not used for definitions in WRB. For further review of methods see Rennert [-@rennert2019].
 
 ## Salinity
 
@@ -165,9 +165,9 @@ The determination in the saturation extract is often difficult. Alternatively, t
 
 These analyses comprise:
 
--   *Mehlich-3 method*: Extraction with a solution of 0.2 *M* glacial acetic acid, 0.25 *M* ammonium nitrate, 0.015 *M* ammonium fluoride, 0.013 *M* nitric acid, and 0.001 *M* ethylene diamine tetraacetic acid (EDTA) (Mehlich 1984).
+-   *Mehlich-3 method*: Extraction with a solution of 0.2 *M* glacial acetic acid, 0.25 *M* ammonium nitrate, 0.015 *M* ammonium fluoride, 0.013 *M* nitric acid, and 0.001 *M* ethylene diamine tetraacetic acid (EDTA) [@mehlich1984].
 
--   For phosphate retention, the *Blakemore method* is used. The sample is equilibrated with a phosphate solution at pH 4.6 and the proportion of phosphate withdrawn from solution is determined (Blakemore et al., 1987).
+-   For phosphate retention, the *Blakemore method* is used. The sample is equilibrated with a phosphate solution at pH 4.6 and the proportion of phosphate withdrawn from solution is determined [@blakemore1987].
 
 ## Mineralogical analysis of the sand fraction
 
@@ -185,22 +185,4 @@ There are two methods to analyze the total content of elements: XRD (see Chapter
 
 ## Sulfides
 
-Reduced inorganic S is converted to H~2~S by a hot acidic CrCl~2~ solution. The evolved H~2~S is trapped quantitatively in a Zn acetate solution as solid ZnS. The ZnS is then treated with HCl to release H~2~S into solution, which is quickly titrated with I~2~ solution to the blue-coloured end point indicated by the reaction of I~2~ with starch (Sullivan et al., 2000). Caution: Toxic residues have to be managed carefully.
-
-## References
-
-Blakemore, L.C., Searle, P.L. & Daly, B.K. 1987. Soil Bureau analytical methods. A method for chemical analysis of soils. NZ Soil Bureau Sci. Report 80. DSIRO.
-
-Holmgren, G. 1967. A Rapid Citrate-Dithionite Extractable Iron Procedure. Soil Sci. Soc. Am. J., 31 (2), 210-211.
-
-Mehlich, A. 1984. Mehlich 3 Soil Test Extractant: A Modification of Mehlich 2 Extractant. Comm. Soil Sci. Plant Anal. 15 (12): 1409--1416.
-
-Mehra, O.P. & Jackson, M.L. 1958. Iron Oxide Removal from Soils and Clay by a Dithionite-Citrate System Buffered with Sodium Bicarbonate. Clays and Clay Minerals, 7, 317-327.
-
-Rennert, T. 2019. Wet-chemical extractions to characterise pedogenic Al and Fe species -- a critical review. Soil Research 57, 1--16.
-
-Soil Survey Staff. 2014. Kellogg Soil Survey Laboratory Methods Manual. Soil Survey Investigations Report No. 42, Version 5.0. R. Burt and Soil Survey Staff (ed.). U.S. Department of Agriculture, Natural Resources Conservation Service.
-
-Sullivan, L.A., Bush, R.T. & McConchie, D. 2000. A modified chromium reducible sulfur method for reduced inorganic sulfur: optimum reaction time in acid sulfate soil. Australian Journal of Soil Research, 38, 729-34.
-
-Van Reeuwijk, L.P. 2002. Procedures for soil analysis. 6th Edition. Technical Papers 9. Wageningen, Netherlands, ISRIC -- World Soil Information.
+Reduced inorganic S is converted to H~2~S by a hot acidic CrCl~2~ solution. The evolved H~2~S is trapped quantitatively in a Zn acetate solution as solid ZnS. The ZnS is then treated with HCl to release H~2~S into solution, which is quickly titrated with I~2~ solution to the blue-coloured end point indicated by the reaction of I~2~ with starch [@sullivan2000]. Caution: Toxic residues have to be managed carefully.

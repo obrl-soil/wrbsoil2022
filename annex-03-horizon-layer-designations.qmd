@@ -34,8 +34,8 @@ The word **rock** comprises both consolidated and unconsolidated material. The w
 |         |                                                                                                                                                                                                                                                                                                                                                   |
 |         | Nota bene: If the O is used for organotechnic layers, the suffix u is mandatory.                                                                                                                                                                                                                                                                  |
 +---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| A       | Mineral horizon at the mineral soil surface or buried; \                                                                                                                                                                                                                                                                                          |
-|         | contains organic matter that has at least partly been modified in-situ; \                                                                                                                                                                                                                                                                         |
+| A       | Mineral horizon at the mineral soil surface or buried;\                                                                                                                                                                                                                                                                                           |
+|         | contains organic matter that has at least partly been modified in-situ;\                                                                                                                                                                                                                                                                          |
 |         | soil structure and/or structural elements created by cultivation in ≥ 50% (by volume, related to the fine earth), i.e. rock structure, if present, in \< 50% (by volume); cultivated mineral layers are designated A, even if they belonged to another layer before cultivation.                                                                  |
 +---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | E       | Mineral horizon;\                                                                                                                                                                                                                                                                                                                                 |
@@ -50,8 +50,8 @@ The word **rock** comprises both consolidated and unconsolidated material. The w
 |         |                                                                                                                                                                                                                                                                                                                                                   |
 |         | Nota bene: B horizons may show other accumulations as well.                                                                                                                                                                                                                                                                                       |
 +---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-| C       | Mineral layer; \                                                                                                                                                                                                                                                                                                                                  |
-|         | unconsolidated (can be cut with a spade when moist), or consolidated and more fractured than the R layer; \                                                                                                                                                                                                                                       |
+| C       | Mineral layer;\                                                                                                                                                                                                                                                                                                                                   |
+|         | unconsolidated (can be cut with a spade when moist), or consolidated and more fractured than the R layer;\                                                                                                                                                                                                                                        |
 |         | no soil formation, or soil formation that does not meet the criteria of the A, E, and B horizon.                                                                                                                                                                                                                                                  |
 +---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | R       | Consolidated rock;\                                                                                                                                                                                                                                                                                                                               |
@@ -74,7 +74,7 @@ If not stated otherwise, the descriptions are related to the fine earth (see Cha
 +========+======================================================================================================================================================================================================================================================================================================================================================================+=====================+
 | a      | Organic material in an advanced state of decomposition; after gently rubbing, ≤ one sixth of the volume (related to the fine earth plus all dead plant remnants) consists of recognizable dead plant tissues \[a like **a**dvanced\].                                                                                                                                | H, O                |
 +--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
-| b      | Buried horizon; \                                                                                                                                                                                                                                                                                                                                                    | H, O, A, E, B       |
+| b      | Buried horizon;\                                                                                                                                                                                                                                                                                                                                                     | H, O, A, E, B       |
 |        | first, the horizon has formed, and then, it was buried by mineral material \[b like **b**uried\].                                                                                                                                                                                                                                                                    |                     |
 +--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
 | c      | Concretions or nodules\                                                                                                                                                                                                                                                                                                                                              |                     |
@@ -88,8 +88,8 @@ If not stated otherwise, the descriptions are related to the fine earth (see Cha
 +--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
 | f      | Permafrost \[f like **f**rost\].                                                                                                                                                                                                                                                                                                                                     | H, O, A, E, B, C    |
 +--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
-| g      | Accumulation of Fe and/or Mn oxides (related to the fine earth plus accumulations of Fe and/or Mn oxides of any size and any cementation class) predominantly inside soil aggregates, if present, and loss of these oxides on aggregate surfaces (A, B, and C horizons), \                                                                                           | A, B, C\            |
-|        | or loss of Fe and/or Mn by lateral subsurface flow (pale colours in ≥ 50% of the exposed area; E horizons); \                                                                                                                                                                                                                                                        | \                   |
+| g      | Accumulation of Fe and/or Mn oxides (related to the fine earth plus accumulations of Fe and/or Mn oxides of any size and any cementation class) predominantly inside soil aggregates, if present, and loss of these oxides on aggregate surfaces (A, B, and C horizons),\                                                                                            | A, B, C\            |
+|        | or loss of Fe and/or Mn by lateral subsurface flow (pale colours in ≥ 50% of the exposed area; E horizons);\                                                                                                                                                                                                                                                         | \                   |
 |        | transport in reduced form\                                                                                                                                                                                                                                                                                                                                           | \                   |
 |        | \[g like sta**g**nic\].                                                                                                                                                                                                                                                                                                                                              | \                   |
 |        |                                                                                                                                                                                                                                                                                                                                                                      | E                   |
@@ -122,7 +122,7 @@ If not stated otherwise, the descriptions are related to the fine earth (see Cha
 +--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
 | o      | Residual accumulation of large amounts of pedogenic oxides in strongly weathered horizons \[o like **o**xide\].                                                                                                                                                                                                                                                      | B                   |
 +--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
-| p      | Modification by cultivation (e.g. ploughing); \                                                                                                                                                                                                                                                                                                                      | H, O, A             |
+| p      | Modification by cultivation (e.g. ploughing);\                                                                                                                                                                                                                                                                                                                       | H, O, A             |
 |        | mineral layers are designated A, even if they belonged to another layer before cultivation \[p like **p**lough\].                                                                                                                                                                                                                                                    |                     |
 +--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
 | q      | Accumulation of secondary silica (related to the fine earth plus accumulations of secondary silica of any size and any cementation class) \[q like **q**uartz\].                                                                                                                                                                                                     | A, E, B, C          |
@@ -173,20 +173,13 @@ I and W layers have no suffixes.
 Combination of suffixes:
 
 1.  The c follows the suffix that indicates the substance that forms the concretions or nodules; if this is true for more than one suffix, each one is followed by the c.
-
 2.  The m follows the suffix that indicates the substance that is the cementing agent; if this is true for more than one suffix, each one is followed by the m.
-
 3.  The ρ follows the suffix that indicates the relict features; if this is true for more than one suffix, each one is followed by the ρ.
-
 4.  If two suffixes belong to the same soil-forming process, they follow each other immediately; in the combination of t and n, the t is written first; rules 1, 2 and 3 have to be followed, if applicable. Examples: Btn, Bhs, Bsh, Bhsm, Bsmh.
-
-5.  If in a B horizon the characteristics of the suffixes g, h, k, l, o, q, s, t, v, or y are strongly expressed, the suffix w is not used, even if its characteristics are present; if the characteristics of the mentioned suffixes are weakly expressed and the characteristics of the suffix w are present as well, the suffixes are combined. Examples: Bwt (weak illuvial accumulation of clay minerals; characteristics of w present), Btw (intermediate illuvial accumulation of clay minerals; characteristics of w present), Bt (strong illuvial accumulation of clay minerals; characteristics of w present), \
+5.  If in a B horizon the characteristics of the suffixes g, h, k, l, o, q, s, t, v, or y are strongly expressed, the suffix w is not used, even if its characteristics are present; if the characteristics of the mentioned suffixes are weakly expressed and the characteristics of the suffix w are present as well, the suffixes are combined. Examples: Bwt (weak illuvial accumulation of clay minerals; characteristics of w present), Btw (intermediate illuvial accumulation of clay minerals; characteristics of w present), Bt (strong illuvial accumulation of clay minerals; characteristics of w present),\
     Nota bene: If the characteristics of the B horizon are absent (≥ 50 % rock structure, by volume, related to the fine earth), the horizon is named Ct.
-
 6.  In H and O layers, the i, e or a is written first.
-
 7.  The \@, f and b are written last, if b occurs together with \@ or f (only if other suffixes are present as well): \@b, fb.
-
 8.  Besides that, combinations must be in the sequence of dominance, the dominant one first. Examples: Btng, Btgb, Bkcyc.
 
 ## Transitional layers
@@ -195,8 +188,8 @@ If the characteristics of two or more master layers are superimposed to each oth
 
 If the characteristics of two or more master layers occur in the same depth range, but occupy distinct parts clearly separated from each other, the master symbols are combined with the slash (/), the dominant one first, each one followed by its suffixes.
 
-Examples: \
-E/Bt (interfingering of E material into a Bt horizon), \
+Examples:\
+E/Bt (interfingering of E material into a Bt horizon),\
 C/Bt (Bt horizon forming lamellae within a C layer).
 
 If a suffix applies to two or more master symbols, it is not repeated and follows the first master symbol. Example: AhkBw (not: AhkBwk; not: AhBwk).
@@ -207,168 +200,162 @@ W cannot be combined with other master symbols. H, O, I, and R can only be combi
 
 The sequence of the layers is from top to down with a hyphen in between. Examples see Chapter 10.5.
 
-If lithic discontinuities occur, the strata are indicated by preceding figures, starting with the second stratum. I and W layers are not considered as strata. All layers of the respective stratum are indicated by the figure: \
+If lithic discontinuities occur, the strata are indicated by preceding figures, starting with the second stratum. I and W layers are not considered as strata. All layers of the respective stratum are indicated by the figure:\
 Example: Oi-Oe-Ah-E-2Bt-2C-3R.
 
-If the suffix b occurs, the preceding figure and the suffix b are combined. \
+If the suffix b occurs, the preceding figure and the suffix b are combined.\
 Example: Oi-Oe-Ah-E-Bt-2Ahb-2Eb-2Btb-2C-3R.
 
-If two or more layers with the same designation occur, the letters are followed by figures. The sequence of figures continues across different strata. \
-Examples: \
-Oi-Oe-Oa-Ah-Bw1-Bw2-2Bw3-3Ahb1-3Eb-3Btb-4Ahb2-4C, \
+If two or more layers with the same designation occur, the letters are followed by figures. The sequence of figures continues across different strata.\
+Examples:\
+Oi-Oe-Oa-Ah-Bw1-Bw2-2Bw3-3Ahb1-3Eb-3Btb-4Ahb2-4C,\
 Oi-He-Ha-Cr1-2Heb-2Hab-2Cr2-3Crγ.
 
 ## Examples for layer sequences
 
 This Chapter provides for every RSG examples for layer sequences. These are just examples, and in every RSG other layer sequences occur as well. Some layer sequences occur in more than one RSG.
 
-**Histosols:** \
+**Histosols:**\
 Hi-He-Ha-Haλ-Cr\
-Hi-Hef-Haf-Cf \
-Hi-Haγ-Haβ-Cr \
-Oi-Hid-Hed-He-Ha-Haλ-Cr \
-W-Hiλ-Heλ-Haλ-Cr \
-Oi-W-Hiλ-Heλ-Haλ-Cr \
-Oi-I \
-Oi-Oe-Oa-R \
-Oi-Oe-Ru \
+Hi-Hef-Haf-Cf\
+Hi-Haγ-Haβ-Cr\
+Oi-Hid-Hed-He-Ha-Haλ-Cr\
+W-Hiλ-Heλ-Haλ-Cr\
+Oi-W-Hiλ-Heλ-Haλ-Cr\
+Oi-I\
+Oi-Oe-Oa-R\
+Oi-Oe-Ru\
 Oi-Oe/C-Oa/C-R
 
-**Anthrosols:** \
+**Anthrosols:**\
 Ap-Bw-C\
 Arp-Ardp-Bg-C
 
-**Technosols:** \
-Ahτ-2Bwu-2Cu \
-Ah-2Our-3C \
-Ru-2Cu-3Bw-3C \
+**Technosols:**\
+Ahτ-2Bwu-2Cu\
+Ah-2Our-3C\
+Ru-2Cu-3Bw-3C\
 Ahτ-2Ru
 
-**Cryosols:** \
-Oi-Ah-Bw\@-Bwf-Cf \
+**Cryosols:**\
+Oi-Ah-Bw\@-Bwf-Cf\
 Oi-Oe-Ah-Cf
 
-**Leptosols:** \
-Oi-Oe-Ah-R \
+**Leptosols:**\
+Oi-Oe-Ah-R\
 Oi-Ah-CBw-C
 
-**Solonetz:** \
+**Solonetz:**\
 Ah-E-Btn-C
 
-**Vertisols:** \
+**Vertisols:**\
 Ah-Bw-Bi-C
 
-**Solonchaks:** \
+**Solonchaks:**\
 Ah-Bz-Cz
 
-**Gleysols:** \
-Ah-Bl-Br-Cr \
-Ah-Br-Cr \
-Ah-Bl-C \
-Ah-Cσ \
-He-Cr \
-W-Heλ-Cr \
+**Gleysols:**\
+Ah-Bl-Br-Cr\
+Ah-Br-Cr\
+Ah-Bl-C\
+Ah-Cσ\
+He-Cr\
+W-Heλ-Cr\
 W-Ahr-Cr
 
-**Andosols:** \
-Ah-Bwγ-Cγ \
+**Andosols:**\
+Ah-Bwγ-Cγ\
 Ah-Bwβ-Cγ
 
-**Podzols:** \
-Oi-Oe-Oa-AhE-E-Bhs-Bs-C \
-Oi-Oe-Oa-AhE-E-Bhs-BsC-C \
-Oi-Oe-Oa-AhE-E-Bh-C \
+**Podzols:**\
+Oi-Oe-Oa-AhE-E-Bhs-Bs-C\
+Oi-Oe-Oa-AhE-E-Bhs-BsC-C\
+Oi-Oe-Oa-AhE-E-Bh-C\
 Oi-Oe-Oa-AhE-E-Bs-C
 
-**Plinthosols:** \
-Ah-Eg-Bvg-C \
-Ah-Bv-Bo-C \
-Ah-Bvc-Bo-C \
-Ah-Bvm-Bo-C \
+**Plinthosols:**\
+Ah-Eg-Bvg-C\
+Ah-Bv-Bo-C\
+Ah-Bvc-Bo-C\
+Ah-Bvm-Bo-C\
 Ah-Bvm-Ce-C
 
-**Planosols:** \
-Oi-Oe-Ah-Eg-2Bg-2C \
+**Planosols:**\
+Oi-Oe-Ah-Eg-2Bg-2C\
 Ah-Eg-Btg-C
 
-**Stagnosols:** \
+**Stagnosols:**\
 Ah-Bg-C\
 Oi-Ah-Eg-Btg-C
 
-**Nitisols:** \
+**Nitisols:**\
 Ah-Bo-C
 
-**Ferralsols:** \
-Ah-Bo-C \
+**Ferralsols:**\
+Ah-Bo-C\
 Ah-Bo-Ce-C\
 Ah-Bw-Bo-Ce-C
 
-**Chernozems:** \
-Ah-Ck Ah-Bwk-C \
+**Chernozems:**\
+Ah-Ck Ah-Bwk-C\
 Ah-Bw-Bwk-C
 
-**Kastanozems:** \
-Ah-Ck Ah-Bwk-C \
+**Kastanozems:**\
+Ah-Ck Ah-Bwk-C\
 Ah-Bk-C
 
-**Phaeozems:** \
-Ah-C \
-Ah-Bw-C \
+**Phaeozems:**\
+Ah-C\
+Ah-Bw-C\
 Ah-Bw-Bwk-C\
 Ah-E-Bt-C
 
-**Umbrisols:** \
-Ah-C \
+**Umbrisols:**\
+Ah-C\
 Oi-Ah-Bw-C
 
-**Durisols:** \
-Ah-Bqc-C \
-A-Bqc-C \
-A-Bqm-C \
+**Durisols:**\
+Ah-Bqc-C\
+A-Bqc-C\
+A-Bqm-C\
 A-Bw-Bqm-C\
 A-Bk-Bqm-C
 
-**Gypsisols:** \
+**Gypsisols:**\
 Ah-Cy\
 A-By-C\
 A-Bk-By-C\
 A-By-Bk-C\
 A-Bym-C
 
-**Calcisols:** \
+**Calcisols:**\
 Ah-Ck\
-Ah-Bk-Cα \
-A-Bkc-C \
-A-Bkm-C \
-A-Bw-Bk-Cα \
+Ah-Bk-Cα\
+A-Bkc-C\
+A-Bkm-C\
+A-Bw-Bk-Cα\
 Ah-E-Btk-Bk-C
 
-**Retisols:** \
+**Retisols:**\
 Ah-E-Bt/E-Bt-C
 
-**Acrisols, Lixisols, Alisols, Luvisols:** \
+**Acrisols, Lixisols, Alisols, Luvisols:**\
 Ah-E-Bt-C
 
-**Cambisols:** \
-Ah-Bw-C \
-Oi-Oe-Ah-Bw-C \
+**Cambisols:**\
+Ah-Bw-C\
+Oi-Oe-Ah-Bw-C\
 Ah-Bwφ-C
 
-**Fluvisols:** \
+**Fluvisols:**\
 Ah-C1-2C2-3C3
 
-**Arenosols:** \
-A-C \
+**Arenosols:**\
+A-C\
 Ah-C
 
-**Regosols:** \
-A-C \
-Ah-C \
-Ahτ-C \
+**Regosols:**\
+A-C\
+Ah-C\
+Ahτ-C\
 Ah-Cγ
-
-## References
-
-FAO. 2006. Guidelines for soil description. Prepared by Jahn R, Blume H-P, Asio VB, Spaargaren O, Schad P. 4th ed. FAO, Rome.
-
-Schoeneberger P.J., Wysocki D.A., Benham E.C. & Soil Survey Staff. 2012. Field Book for describing and sampling soils. Version 3.0. Natural Resources Conservation Service, National Soil Survey Center, Lincoln.
