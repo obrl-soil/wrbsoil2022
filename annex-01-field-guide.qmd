@@ -114,81 +114,81 @@ If the profile lies in an uneven terrain, report the profile position.
 
 Report the climate according to Köppen [-@köppen1936] and the ecozones according to Schultz [-@schultz2005, adapted]. The term 'summer' refers to the season with high solar altitude and the term 'winter' to the season with low solar altitude.
 
-+----------------------------------------------------------------+-------------+
-| Climate                                                        | Code        |
-+================================================================+=============+
-| Tropical climates                                              | **A**       |
-+----------------------------------------------------------------+-------------+
-| Tropical rainforest climate                                    | **Af**      |
-+----------------------------------------------------------------+-------------+
-| Tropical savanna climate with dry-winter characteristics       | **Aw**      |
-+----------------------------------------------------------------+-------------+
-| Tropical savanna climate with dry-summer characteristics       | **As**      |
-+----------------------------------------------------------------+-------------+
-| Tropical monsoon climate                                       | **Am**      |
-+----------------------------------------------------------------+-------------+
-| Dry climates                                                   | **B**       |
-+----------------------------------------------------------------+-------------+
-| Hot arid climate                                               | **BWh**     |
-+----------------------------------------------------------------+-------------+
-| Cold arid climate                                              | **BWc**     |
-+----------------------------------------------------------------+-------------+
-| Hot semi-arid climate                                          | **BSh**     |
-+----------------------------------------------------------------+-------------+
-| Cold semi-arid climate                                         | **BSc**     |
-+----------------------------------------------------------------+-------------+
-| Temperate climates                                             | **C**       |
-+----------------------------------------------------------------+-------------+
-| Mediterranean hot summer climate                               | **Csa**     |
-+----------------------------------------------------------------+-------------+
-| Mediterranean warm/cool summer climate                         | **Csb**     |
-+----------------------------------------------------------------+-------------+
-| Mediterranean cold summer climate                              | **Csc**     |
-+----------------------------------------------------------------+-------------+
-| Humid subtropical climate                                      | **Cfa**     |
-+----------------------------------------------------------------+-------------+
-| Oceanic climate                                                | **Cfb**     |
-+----------------------------------------------------------------+-------------+
-| Subpolar oceanic climate                                       | **Cfc**     |
-+----------------------------------------------------------------+-------------+
-| Dry-winter humid subtropical climate                           | **Cwa**     |
-+----------------------------------------------------------------+-------------+
-| Dry-winter subtropical highland climate                        | **Cwb**     |
-+----------------------------------------------------------------+-------------+
-| Dry-winter subpolar oceanic climate                            | **Cwc**     |
-+----------------------------------------------------------------+-------------+
-| Continental climates                                           | **D**       |
-+----------------------------------------------------------------+-------------+
-| Hot-summer humid continental climate                           | **Dfa**     |
-+----------------------------------------------------------------+-------------+
-| Warm-summer humid continental climate                          | **Dfb**     |
-+----------------------------------------------------------------+-------------+
-| Subarctic climate                                              | **Dfc**     |
-+----------------------------------------------------------------+-------------+
-| Extremely cold subarctic climate                               | **Dfd**     |
-+----------------------------------------------------------------+-------------+
-| Monsoon-influenced hot-summer humid continental climate        | **Dwa**     |
-+----------------------------------------------------------------+-------------+
-| Monsoon-influenced warm-summer humid continental climate       | **Dwb**     |
-+----------------------------------------------------------------+-------------+
-| Monsoon-influenced subarctic climate                           | **Dwc**     |
-+----------------------------------------------------------------+-------------+
-| Monsoon-influenced extremely cold subarctic climate            | **Dwd**     |
-+----------------------------------------------------------------+-------------+
-| Mediterranean-influenced hot-summer humid continental climate  | **Dsa**     |
-+----------------------------------------------------------------+-------------+
-| Mediterranean-influenced warm-summer humid continental climate | **Dsb**     |
-+----------------------------------------------------------------+-------------+
-| Mediterranean-influenced subarctic climate                     | **Dsc**     |
-+----------------------------------------------------------------+-------------+
-| Mediterranean-influenced extremely cold subarctic climate      | **Dsd**     |
-+----------------------------------------------------------------+-------------+
-| Polar and alpine climates                                      | **E**       |
-+----------------------------------------------------------------+-------------+
-| Tundra climate                                                 | **ET**      |
-+----------------------------------------------------------------+-------------+
-| Ice cap climate                                                | **EF**      |
-+----------------------------------------------------------------+-------------+
++----------------------------------------------------------------+--------------+
+| Climate                                                        | Code         |
++================================================================+==============+
+| Tropical climates                                              | **A**        |
++----------------------------------------------------------------+--------------+
+| Tropical rainforest climate                                    | **Af**       |
++----------------------------------------------------------------+--------------+
+| Tropical savanna climate with dry-winter characteristics       | **Aw**       |
++----------------------------------------------------------------+--------------+
+| Tropical savanna climate with dry-summer characteristics       | **As**       |
++----------------------------------------------------------------+--------------+
+| Tropical monsoon climate                                       | **Am**       |
++----------------------------------------------------------------+--------------+
+| Dry climates                                                   | **B**        |
++----------------------------------------------------------------+--------------+
+| Hot arid climate                                               | **BWh**      |
++----------------------------------------------------------------+--------------+
+| Cold arid climate                                              | **BWc**      |
++----------------------------------------------------------------+--------------+
+| Hot semi-arid climate                                          | **BSh**      |
++----------------------------------------------------------------+--------------+
+| Cold semi-arid climate                                         | **BSc**      |
++----------------------------------------------------------------+--------------+
+| Temperate climates                                             | **C**        |
++----------------------------------------------------------------+--------------+
+| Mediterranean hot summer climate                               | **Csa**      |
++----------------------------------------------------------------+--------------+
+| Mediterranean warm/cool summer climate                         | **Csb**      |
++----------------------------------------------------------------+--------------+
+| Mediterranean cold summer climate                              | **Csc**      |
++----------------------------------------------------------------+--------------+
+| Humid subtropical climate                                      | **Cfa**      |
++----------------------------------------------------------------+--------------+
+| Oceanic climate                                                | **Cfb**      |
++----------------------------------------------------------------+--------------+
+| Subpolar oceanic climate                                       | **Cfc**      |
++----------------------------------------------------------------+--------------+
+| Dry-winter humid subtropical climate                           | **Cwa**      |
++----------------------------------------------------------------+--------------+
+| Dry-winter subtropical highland climate                        | **Cwb**      |
++----------------------------------------------------------------+--------------+
+| Dry-winter subpolar oceanic climate                            | **Cwc**      |
++----------------------------------------------------------------+--------------+
+| Continental climates                                           | **D**        |
++----------------------------------------------------------------+--------------+
+| Hot-summer humid continental climate                           | **Dfa**      |
++----------------------------------------------------------------+--------------+
+| Warm-summer humid continental climate                          | **Dfb**      |
++----------------------------------------------------------------+--------------+
+| Subarctic climate                                              | **Dfc**      |
++----------------------------------------------------------------+--------------+
+| Extremely cold subarctic climate                               | **Dfd**      |
++----------------------------------------------------------------+--------------+
+| Monsoon-influenced hot-summer humid continental climate        | **Dwa**      |
++----------------------------------------------------------------+--------------+
+| Monsoon-influenced warm-summer humid continental climate       | **Dwb**      |
++----------------------------------------------------------------+--------------+
+| Monsoon-influenced subarctic climate                           | **Dwc**      |
++----------------------------------------------------------------+--------------+
+| Monsoon-influenced extremely cold subarctic climate            | **Dwd**      |
++----------------------------------------------------------------+--------------+
+| Mediterranean-influenced hot-summer humid continental climate  | **Dsa**      |
++----------------------------------------------------------------+--------------+
+| Mediterranean-influenced warm-summer humid continental climate | **Dsb**      |
++----------------------------------------------------------------+--------------+
+| Mediterranean-influenced subarctic climate                     | **Dsc**      |
++----------------------------------------------------------------+--------------+
+| Mediterranean-influenced extremely cold subarctic climate      | **Dsd**      |
++----------------------------------------------------------------+--------------+
+| Polar and alpine climates                                      | **E**        |
++----------------------------------------------------------------+--------------+
+| Tundra climate                                                 | **ET**       |
++----------------------------------------------------------------+--------------+
+| Ice cap climate                                                | **EF**       |
++----------------------------------------------------------------+--------------+
 
 : Climate according to Köppen [-@köppen1936]
 
@@ -245,21 +245,21 @@ Report the current and past weather conditions.
 
 : Current weather conditions, Schoeneberger et al. [-@schoeneberger2012], 1-1
 
-+-----------------------------------------------------------------+-------------+
-| Past weather conditions                                         | Code        |
-+=================================================================+=============+
-| No rain in the last month                                       | **NM**      |
-+-----------------------------------------------------------------+-------------+
-| No rain in the last week                                        | **NW**      |
-+-----------------------------------------------------------------+-------------+
-| No rain in the last 24 hours                                    | **ND**      |
-+-----------------------------------------------------------------+-------------+
-| Rain but no heavy rain in the last 24 hours                     | **RD**      |
-+-----------------------------------------------------------------+-------------+
-| Heavy rain for some days or excessive rain in the last 24 hours | **RH**      |
-+-----------------------------------------------------------------+-------------+
-| Extremely rainy or snow melting                                 | **RE**      |
-+-----------------------------------------------------------------+-------------+
++-----------------------------------------------------------------+--------------+
+| Past weather conditions                                         | Code         |
++=================================================================+==============+
+| No rain in the last month                                       | **NM**       |
++-----------------------------------------------------------------+--------------+
+| No rain in the last week                                        | **NW**       |
++-----------------------------------------------------------------+--------------+
+| No rain in the last 24 hours                                    | **ND**       |
++-----------------------------------------------------------------+--------------+
+| Rain but no heavy rain in the last 24 hours                     | **RD**       |
++-----------------------------------------------------------------+--------------+
+| Heavy rain for some days or excessive rain in the last 24 hours | **RH**       |
++-----------------------------------------------------------------+--------------+
+| Extremely rainy or snow melting                                 | **RE**       |
++-----------------------------------------------------------------+--------------+
 
 ### Vegetation and land use
 
@@ -325,35 +325,35 @@ If the land is not cultivated, report the vegetation type according to Table 8.8
 
 : Vegetation type, National Committee on Soil and Terrain [-@nationalcommitteeonsoilandterrain2009], 88-93, modified
 
-+-------------------------------------------------------------------------------+------------+
-| Cultivation type                                                              | Code       |
-+===============================================================================+============+
-| Simultaneous agroforestry system with trees and perennial crops               | **ACP**    |
-+-------------------------------------------------------------------------------+------------+
-| Simultaneous agroforestry system with trees and annual crops                  | **ACA**    |
-+-------------------------------------------------------------------------------+------------+
-| Simultaneous agroforestry system with trees, perennial and annual crops       | **ACB**    |
-+-------------------------------------------------------------------------------+------------+
-| Simultaneous agroforestry system with trees and grassland                     | **AGG**    |
-+-------------------------------------------------------------------------------+------------+
-| Simultaneous agroforestry system with trees, crops and grassland              | **ACG**    |
-+-------------------------------------------------------------------------------+------------+
-| Pasture on (semi-)natural vegetation                                          | **GNP**    |
-+-------------------------------------------------------------------------------+------------+
-| Intensively-managed grassland, pastured                                       | **GIP**    |
-+-------------------------------------------------------------------------------+------------+
-| Intensively-managed grassland, not pastured                                   | **GIN**    |
-+-------------------------------------------------------------------------------+------------+
-| Perennial crop production (e.g. food, fodder, fuel, fiber, ornamental plants) | **CPP**    |
-+-------------------------------------------------------------------------------+------------+
-| Annual crop production (e.g. food, fodder, fuel, fiber, ornamental plants)    | **CPA**    |
-+-------------------------------------------------------------------------------+------------+
-| Fallow, less than 12 months, with spontaneous vegetation                      | **FYO**    |
-+-------------------------------------------------------------------------------+------------+
-| Fallow, at least 12 months, with spontaneous vegetation                       | **FOL**    |
-+-------------------------------------------------------------------------------+------------+
-| Fallow, all plants constantly removed (dry farming)                           | **FDF**    |
-+-------------------------------------------------------------------------------+------------+
++-------------------------------------------------------------------------------+-------------+
+| Cultivation type                                                              | Code        |
++===============================================================================+=============+
+| Simultaneous agroforestry system with trees and perennial crops               | **ACP**     |
++-------------------------------------------------------------------------------+-------------+
+| Simultaneous agroforestry system with trees and annual crops                  | **ACA**     |
++-------------------------------------------------------------------------------+-------------+
+| Simultaneous agroforestry system with trees, perennial and annual crops       | **ACB**     |
++-------------------------------------------------------------------------------+-------------+
+| Simultaneous agroforestry system with trees and grassland                     | **AGG**     |
++-------------------------------------------------------------------------------+-------------+
+| Simultaneous agroforestry system with trees, crops and grassland              | **ACG**     |
++-------------------------------------------------------------------------------+-------------+
+| Pasture on (semi-)natural vegetation                                          | **GNP**     |
++-------------------------------------------------------------------------------+-------------+
+| Intensively-managed grassland, pastured                                       | **GIP**     |
++-------------------------------------------------------------------------------+-------------+
+| Intensively-managed grassland, not pastured                                   | **GIN**     |
++-------------------------------------------------------------------------------+-------------+
+| Perennial crop production (e.g. food, fodder, fuel, fiber, ornamental plants) | **CPP**     |
++-------------------------------------------------------------------------------+-------------+
+| Annual crop production (e.g. food, fodder, fuel, fiber, ornamental plants)    | **CPA**     |
++-------------------------------------------------------------------------------+-------------+
+| Fallow, less than 12 months, with spontaneous vegetation                      | **FYO**     |
++-------------------------------------------------------------------------------+-------------+
+| Fallow, at least 12 months, with spontaneous vegetation                       | **FOL**     |
++-------------------------------------------------------------------------------+-------------+
+| Fallow, all plants constantly removed (dry farming)                           | **FDF**     |
++-------------------------------------------------------------------------------+-------------+
 
 : Cultivation type
 
@@ -505,35 +505,35 @@ Cracks are fissures other than those attributed to soil structure (see Chapter 8
 
 Report the presence of water above the soil surface. For wet cultivation and irrigation, see Chapter 8.2.5. If water of more than one origin occurs above the soil surface, report the dominant one.
 
-+-------------------------------------------------------------------+-------------+
-| Criterion                                                         | Code        |
-+===================================================================+=============+
-| Permanently submerged by seawater (below mean low water springs)  | **MP**      |
-+-------------------------------------------------------------------+-------------+
-| Tidal area (between mean low and mean high water springs)         | **MT**      |
-+-------------------------------------------------------------------+-------------+
-| Occasional storm surges (above mean high water springs)           | **MO**      |
-+-------------------------------------------------------------------+-------------+
-| Permanently submerged by inland water                             | **FP**      |
-+-------------------------------------------------------------------+-------------+
-| Submerged by remote flowing inland water at least once a year     | **FF**      |
-+-------------------------------------------------------------------+-------------+
-| Submerged by remote flowing inland water less than once a year    | **FO**      |
-+-------------------------------------------------------------------+-------------+
-| Submerged by rising local groundwater at least once a year        | **GF**      |
-+-------------------------------------------------------------------+-------------+
-| Submerged by rising local groundwater less than once a year       | **GO**      |
-+-------------------------------------------------------------------+-------------+
-| Submerged by local rainwater at least once a year                 | **RF**      |
-+-------------------------------------------------------------------+-------------+
-| Submerged by local rainwater less than once a year                | **RO**      |
-+-------------------------------------------------------------------+-------------+
-| Submerged by inland water of unknown origin at least once a year  | **UF**      |
-+-------------------------------------------------------------------+-------------+
-| Submerged by inland water of unknown origin less than once a year | **UO**      |
-+-------------------------------------------------------------------+-------------+
-| None of the above                                                 | **NO**      |
-+-------------------------------------------------------------------+-------------+
++-------------------------------------------------------------------+--------------+
+| Criterion                                                         | Code         |
++===================================================================+==============+
+| Permanently submerged by seawater (below mean low water springs)  | **MP**       |
++-------------------------------------------------------------------+--------------+
+| Tidal area (between mean low and mean high water springs)         | **MT**       |
++-------------------------------------------------------------------+--------------+
+| Occasional storm surges (above mean high water springs)           | **MO**       |
++-------------------------------------------------------------------+--------------+
+| Permanently submerged by inland water                             | **FP**       |
++-------------------------------------------------------------------+--------------+
+| Submerged by remote flowing inland water at least once a year     | **FF**       |
++-------------------------------------------------------------------+--------------+
+| Submerged by remote flowing inland water less than once a year    | **FO**       |
++-------------------------------------------------------------------+--------------+
+| Submerged by rising local groundwater at least once a year        | **GF**       |
++-------------------------------------------------------------------+--------------+
+| Submerged by rising local groundwater less than once a year       | **GO**       |
++-------------------------------------------------------------------+--------------+
+| Submerged by local rainwater at least once a year                 | **RF**       |
++-------------------------------------------------------------------+--------------+
+| Submerged by local rainwater less than once a year                | **RO**       |
++-------------------------------------------------------------------+--------------+
+| Submerged by inland water of unknown origin at least once a year  | **UF**       |
++-------------------------------------------------------------------+--------------+
+| Submerged by inland water of unknown origin less than once a year | **UO**       |
++-------------------------------------------------------------------+--------------+
+| None of the above                                                 | **NO**       |
++-------------------------------------------------------------------+--------------+
 
 : Water above the soil surface
 
@@ -1656,23 +1656,23 @@ The term 'oxides', as used here, includes hydroxides and oxide-hydroxides. The t
 |                                                          | Throughout                                                                            | **ORT**    |
 +----------------------------------------------------------+---------------------------------------------------------------------------------------+------------+
 
-+----------------------------------------------------------+------------------------------------------------------------------------+------------+
-| Location                                                 |                                                                        | Code       |
-+==========================================================+========================================================================+============+
-| Inner parts                                              | Inside soil aggregates                                                 | RIA        |
-+----------------------------------------------------------+------------------------------------------------------------------------+------------+
-| Outer parts                                              | Outer parts of soil aggregates                                         | ROA        |
-+----------------------------------------------------------+------------------------------------------------------------------------+------------+
-|                                                          | Around biopores, surrounding the entire pores                          | ROE        |
-+----------------------------------------------------------+------------------------------------------------------------------------+------------+
-|                                                          | Around biopores, not surrounding the entire pores                      | RON        |
-+----------------------------------------------------------+------------------------------------------------------------------------+------------+
-| Random (not associated with aggregate surfaces or pores) | Distributed over the layer, no order visible                           | RRN        |
-+----------------------------------------------------------+------------------------------------------------------------------------+------------+
-|                                                          | Distributed over the layer, surrounding areas with oximorphic features | RRS        |
-+----------------------------------------------------------+------------------------------------------------------------------------+------------+
-|                                                          | Throughout                                                             | RRT        |
-+----------------------------------------------------------+------------------------------------------------------------------------+------------+
++----------------------------------------------------------+------------------------------------------------------------------------+-------------+
+| Location                                                 |                                                                        | Code        |
++==========================================================+========================================================================+=============+
+| Inner parts                                              | Inside soil aggregates                                                 | RIA         |
++----------------------------------------------------------+------------------------------------------------------------------------+-------------+
+| Outer parts                                              | Outer parts of soil aggregates                                         | ROA         |
++----------------------------------------------------------+------------------------------------------------------------------------+-------------+
+|                                                          | Around biopores, surrounding the entire pores                          | ROE         |
++----------------------------------------------------------+------------------------------------------------------------------------+-------------+
+|                                                          | Around biopores, not surrounding the entire pores                      | RON         |
++----------------------------------------------------------+------------------------------------------------------------------------+-------------+
+| Random (not associated with aggregate surfaces or pores) | Distributed over the layer, no order visible                           | RRN         |
++----------------------------------------------------------+------------------------------------------------------------------------+-------------+
+|                                                          | Distributed over the layer, surrounding areas with oximorphic features | RRS         |
++----------------------------------------------------------+------------------------------------------------------------------------+-------------+
+|                                                          | Throughout                                                             | RRT         |
++----------------------------------------------------------+------------------------------------------------------------------------+-------------+
 
 : Location of reductimorphic features
 
@@ -1773,7 +1773,7 @@ The following Table explains how to estimate the rH value using these field test
 
 A major process of chemical weathering is the formation of Fe oxides (including hydroxides and oxidehydroxides). If the weathering is initial, the Fe oxides may be concentrated in soil parts with easy access to oxygen, e.g. along pores. These parts have a distinctly redder hue or stronger chroma. Report the abundance as percentage of the exposed area.
 
-### Coatings and bridges (m)
+### Coatings and bridges (m) {#sec-a1-coats}
 
 #### Clay coatings and clay bridges
 
@@ -1863,21 +1863,21 @@ Report the carbonate content in the soil matrix and report, whether the reaction
 
 Report the type of secondary carbonates. If more than one occurs, report up to four, the dominant one first. Report secondary carbonates only if **visible when moist**. Always check with HCl if it is really carbonate. Report the abundance as percentage for each form using Table 8.65 as a reference.
 
-+-------------------------------------------------------------------+-------------+
-| Type                                                              | Code        |
-+===================================================================+=============+
-| Masses (including spheroidal aggregations like white eyes)        | **MA**      |
-+-------------------------------------------------------------------+-------------+
-| Nodules and/or concretions                                        | **NC**      |
-+-------------------------------------------------------------------+-------------+
-| Filaments (including continuous filaments like pseudomycelia)     | **FI**      |
-+-------------------------------------------------------------------+-------------+
-| Coatings on soil aggregate surfaces or biopore walls              | **AS**      |
-+-------------------------------------------------------------------+-------------+
-| Coatings on undersides of coarse fragments and cemented fragments | **UR**      |
-+-------------------------------------------------------------------+-------------+
-| No secondary carbonates                                           | **NO**      |
-+-------------------------------------------------------------------+-------------+
++-------------------------------------------------------------------+--------------+
+| Type                                                              | Code         |
++===================================================================+==============+
+| Masses (including spheroidal aggregations like white eyes)        | **MA**       |
++-------------------------------------------------------------------+--------------+
+| Nodules and/or concretions                                        | **NC**       |
++-------------------------------------------------------------------+--------------+
+| Filaments (including continuous filaments like pseudomycelia)     | **FI**       |
++-------------------------------------------------------------------+--------------+
+| Coatings on soil aggregate surfaces or biopore walls              | **AS**       |
++-------------------------------------------------------------------+--------------+
+| Coatings on undersides of coarse fragments and cemented fragments | **UR**       |
++-------------------------------------------------------------------+--------------+
+| No secondary carbonates                                           | **NO**       |
++-------------------------------------------------------------------+--------------+
 
 : Types of secondary carbonates
 
@@ -1934,19 +1934,19 @@ Gypsum is soft and can easily be ripped with a knife or broken between thumbnail
 
 Secondary silica (SiO~2~) is off-white and predominantly consisting of opal and microcrystalline forms. It occurs as laminar caps, lenses, (partly) filled interstices, bridges between sand grains, and as coatings at surfaces of soil aggregates, biopore walls, coarse fragments, and cemented fragments. Report the type of secondary silica. If more than one type occurs, report up to two, the dominant one first. Note: Durinodes are often coated with secondary carbonates.
 
-+-----------------------------------------------------------------+-------------+
-| Type                                                            | Code        |
-+=================================================================+=============+
-| Nodules (durinodes)                                             | **DN**      |
-+-----------------------------------------------------------------+-------------+
-| Accumulations within a layer, cemented by secondary silica      | **CH**      |
-+-----------------------------------------------------------------+-------------+
-| Fragments of a layer that has been cemented by secondary silica | **FC**      |
-+-----------------------------------------------------------------+-------------+
-| Other accumulations                                             | **OT**      |
-+-----------------------------------------------------------------+-------------+
-| No secondary silica                                             | **NO**      |
-+-----------------------------------------------------------------+-------------+
++-----------------------------------------------------------------+--------------+
+| Type                                                            | Code         |
++=================================================================+==============+
+| Nodules (durinodes)                                             | **DN**       |
++-----------------------------------------------------------------+--------------+
+| Accumulations within a layer, cemented by secondary silica      | **CH**       |
++-----------------------------------------------------------------+--------------+
+| Fragments of a layer that has been cemented by secondary silica | **FC**       |
++-----------------------------------------------------------------+--------------+
+| Other accumulations                                             | **OT**       |
++-----------------------------------------------------------------+--------------+
+| No secondary silica                                             | **NO**       |
++-----------------------------------------------------------------+--------------+
 
 : Types of secondary silica
 
@@ -2269,15 +2269,15 @@ A layer with permafrost has continuously for ≥ 2 consecutive years one of the
 -   massive ice, cementation by ice or readily visible ice crystals, or
 -   a soil temperature of \< 0 °C and insufficient water to form readily visible ice crystals. Report whether a layer has permafrost.
 
-+-----------------------------------------------------------------------------------------+-----------+
-| Criterion                                                                               | Code      |
-+=========================================================================================+===========+
-| Massive ice, cementation by ice or readily visible ice crystals                         | I         |
-+-----------------------------------------------------------------------------------------+-----------+
-| Soil temperature of \< 0 °C and insufficient water to form readily visible ice crystals | T         |
-+-----------------------------------------------------------------------------------------+-----------+
-| No permafrost                                                                           | N         |
-+-----------------------------------------------------------------------------------------+-----------+
++-----------------------------------------------------------------------------------------+------------+
+| Criterion                                                                               | Code       |
++=========================================================================================+============+
+| Massive ice, cementation by ice or readily visible ice crystals                         | I          |
++-----------------------------------------------------------------------------------------+------------+
+| Soil temperature of \< 0 °C and insufficient water to form readily visible ice crystals | T          |
++-----------------------------------------------------------------------------------------+------------+
+| No permafrost                                                                           | N          |
++-----------------------------------------------------------------------------------------+------------+
 
 : Layers with permafrost
 
@@ -2341,19 +2341,19 @@ Caution: The Munsell value is also influenced by parent material, carbonates and
 
 This Chapter refers to accumulations of organic matter in form of discrete bodies. They have usually a lower value than the surrounding material. Report here all accumulations that are natural or that are a side effect of human activities. Additions of artefacts see Chapter 8.4.8 and of human-transported material see Chapter 8.4.39. If black carbon is purposefully made by humans, it is considered to be an artefact. Organic matter accumulations due to animal activity are reported twice, once here and once in Chapter 8.4.38.
 
-+----------------------------------------------------------------------------------------------------------------------+----------+
-| Type                                                                                                                 | Code     |
-+======================================================================================================================+==========+
-| Filled earthworm burrows                                                                                             | BU       |
-+----------------------------------------------------------------------------------------------------------------------+----------+
-| Filled krotowinas                                                                                                    | KR       |
-+----------------------------------------------------------------------------------------------------------------------+----------+
-| Organic matter coatings at surfaces of soil aggregates and biopore walls (no visible other material in the coatings) | CO       |
-+----------------------------------------------------------------------------------------------------------------------+----------+
-| Black carbon (e.g. charcoal, partly charred particles, soot))                                                        | BC       |
-+----------------------------------------------------------------------------------------------------------------------+----------+
-| No visible accumulation of organic matter                                                                            | NO       |
-+----------------------------------------------------------------------------------------------------------------------+----------+
++----------------------------------------------------------------------------------------------------------------------+-----------+
+| Type                                                                                                                 | Code      |
++======================================================================================================================+===========+
+| Filled earthworm burrows                                                                                             | BU        |
++----------------------------------------------------------------------------------------------------------------------+-----------+
+| Filled krotowinas                                                                                                    | KR        |
++----------------------------------------------------------------------------------------------------------------------+-----------+
+| Organic matter coatings at surfaces of soil aggregates and biopore walls (no visible other material in the coatings) | CO        |
++----------------------------------------------------------------------------------------------------------------------+-----------+
+| Black carbon (e.g. charcoal, partly charred particles, soot))                                                        | BC        |
++----------------------------------------------------------------------------------------------------------------------+-----------+
+| No visible accumulation of organic matter                                                                            | NO        |
++----------------------------------------------------------------------------------------------------------------------+-----------+
 
 : Types of accumulation of organic matter
 
@@ -2416,29 +2416,29 @@ Natural material is any material not meeting the criteria of artefacts (see Chap
 
 Report in-situ alterations. If more than one applies, report up to two, the dominant one first.
 
-+-----------------------------------------------------------------+-------------+
-| Type                                                            | Code        |
-+=================================================================+=============+
-| Ploughing, annually                                             | PA          |
-+-----------------------------------------------------------------+-------------+
-| Ploughing, at least once every 5 years                          | PO          |
-+-----------------------------------------------------------------+-------------+
-| Ploughing in the past, not ploughed since \> 5 years            | PP          |
-+-----------------------------------------------------------------+-------------+
-| Ploughing, unspecified                                          | PU          |
-+-----------------------------------------------------------------+-------------+
-| Remodelled (e.g. single ploughing)                              | RM          |
-+-----------------------------------------------------------------+-------------+
-| Loosening                                                       | LO          |
-+-----------------------------------------------------------------+-------------+
-| Compaction, other than a plough pan                             | CP          |
-+-----------------------------------------------------------------+-------------+
-| Structure deterioration, other than by ploughing or remodelling | SD          |
-+-----------------------------------------------------------------+-------------+
-| Other                                                           | OT          |
-+-----------------------------------------------------------------+-------------+
-| No in-situ alteration                                           | NO          |
-+-----------------------------------------------------------------+-------------+
++-----------------------------------------------------------------+--------------+
+| Type                                                            | Code         |
++=================================================================+==============+
+| Ploughing, annually                                             | PA           |
++-----------------------------------------------------------------+--------------+
+| Ploughing, at least once every 5 years                          | PO           |
++-----------------------------------------------------------------+--------------+
+| Ploughing in the past, not ploughed since \> 5 years            | PP           |
++-----------------------------------------------------------------+--------------+
+| Ploughing, unspecified                                          | PU           |
++-----------------------------------------------------------------+--------------+
+| Remodelled (e.g. single ploughing)                              | RM           |
++-----------------------------------------------------------------+--------------+
+| Loosening                                                       | LO           |
++-----------------------------------------------------------------+--------------+
+| Compaction, other than a plough pan                             | CP           |
++-----------------------------------------------------------------+--------------+
+| Structure deterioration, other than by ploughing or remodelling | SD           |
++-----------------------------------------------------------------+--------------+
+| Other                                                           | OT           |
++-----------------------------------------------------------------+--------------+
+| No in-situ alteration                                           | NO           |
++-----------------------------------------------------------------+--------------+
 
 : In-situ alterations
 
