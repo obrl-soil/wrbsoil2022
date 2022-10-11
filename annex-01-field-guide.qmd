@@ -1,4 +1,4 @@
-# Field Guide
+# Field Guide {#sec-a1}
 
 This field guide helps describe soils. It provides all field characteristics needed for WRB classification and some other general field characteristics. This field guide is not supposed to be a comprehensive manual. People using this guide must have basic knowledge in soil science and experience in the field. In many soils, some of the listed characteristics are not present. Every characteristic must be reported in the soil description sheet (Annex 4, Chapter 11) using the provided codes.
 
@@ -13,9 +13,9 @@ The field guide consists of six consecutive parts:
 
 ![Ideal soil scientists](images/figure_8-1.png)
 
-## Preparation work and general rules
+## Preparation work and general rules {#sec-a1-prep}
 
-### Exploration of an area of interest with auger and spade
+### Exploration of an area of interest with auger and spade {#sec-a1-expl}
 
 ::: {grid}
 ::: {grid-col-4}
@@ -35,7 +35,7 @@ The characteristics that can be described from the soil material in the auger ar
 :::
 :::
 
-### Preparation of a soil profile
+### Preparation of a soil profile {#sec-a1-dig}
 
 The soil profile should be at least 1 m deep or reach the parent material. On a slope, unless the parent material starts at smaller depth, the profile depth (Figure 8.4) should be 1 m / cos(α). For the decision if the thickness and depth criteria of the WRB are fulfilled and when calculating element stocks [@prietzel2019] the layer thickness perpendicular to the slope is needed. This is calculated multiplying the vertical thickness by cos(α).
 
@@ -391,15 +391,15 @@ Report the techniques that refer to the surrounding area of the soil profile. Te
 
 : Special techniques to enhance site productivity
 
-## Description of surface characteristics
+## Description of surface characteristics {#sec-a1-surf}
 
 Surface characteristics can be detected on the soil surface without looking into a soil profile.
 
-### Soil surface
+### Soil surface {#sec-a1-ssurf}
 
 A **litter layer** is a loose layer that contains \> 90% (by volume, related to the fine earth plus all dead plant remnants) recognizable dead plant tissues (e.g. undecomposed leaves). Dead plant material still connected to living plants (e.g. dead parts of *Sphagnum* mosses) is not regarded to form part of a litter layer. The **soil surface** (0 cm) is by convention the surface of the soil after removing, if present, the litter layer and, if present, below a layer of living plants (e.g. living mosses). The **mineral soil surface** is the upper limit of the uppermost mineral horizon (see Chapter 2.1, General rules, and see Chapter 8.4.4).
 
-### Litter layer
+### Litter layer {#sec-a1-llyr}
 
 Observe an area of 5 m x 5 m with the profile at its centre. Report the average and the maximum thickness of the litter layer in cm (see Chapter 8.3.1). If there is no litter layer, report 0 cm as thickness.
 

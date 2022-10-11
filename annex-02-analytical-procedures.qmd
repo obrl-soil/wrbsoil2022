@@ -1,18 +1,18 @@
-# Annex 2: Summary of analytical procedures for soil characterization
+# Annex 2: Summary of analytical procedures for soil characterization {#sec-a2}
 
 This annex provides summaries of recommended analytical procedures to be used for soil characterization for the World Reference Base for Soil Resources. Full descriptions can be found in *Procedures for soil analysis* [@procedur2002] and the USDA *Kellogg Soil Survey Laboratory Methods Manual* [@kellogg2014].
 
-## Sample preparation
+## Sample preparation {#sec-a2-sprep}
 
 Samples are air-dried or alternatively oven-dried at a maximum of 40 °C. The fine earth is obtained by sieving the dry sample with a 2 mm sieve. Clods not passing through the sieve are crushed (not ground) and sieved again. Coarse fragments and roots not passing through the sieve are treated separately.
 
 In special cases where air-drying causes unacceptable irreversible changes in certain soil properties (e.g. in peat and in soils with *andic properties*), samples are kept and treated in the field-moist state. These samples should be kept under cool conditions and analyzed within a few weeks after sampling.
 
-## Moisture content
+## Moisture content {#sec-a2-moist}
 
 Calculation of contents is done on the basis of dry (105 °C) soil mass.
 
-## Particle-size analysis
+## Particle-size analysis {#sec-a2-psa}
 
 The mineral part of the soil is separated into various size fractions and the proportion of these fractions is determined. The determination comprises all material, i.e. including coarse fragments, but the procedure itself is applied to the fine earth (≤ 2 mm) only. The particle-size classes according to ISO 11277:2009 [@internationalorganizationforstandardization2015] are given in the Table:
 
