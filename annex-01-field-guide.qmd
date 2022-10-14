@@ -1113,7 +1113,7 @@ If the layer belongs to the texture classes sand or loamy sand, report the subcl
 
 : Subclasses of the texture classes sand and loamy sand If the layer belongs to the texture classes sand or loamy sand, report the subclass. The particle-size subclasses of sand are detected by visual estimation of the diameters of the grains or by laboratory analysis. The texture subclasses very fine sand and loamy very fine sand tend to feel floury, whereas all the coarser subclasses feel grainy.
 
-### Structure (m)
+### Structure (m) {#sec-a1-struct}
 
 Structure is the spatial arrangement of soil constituents and pores. If this is, at least partially, the result of soil-forming processes, it is called **soil structure**. Otherwise, it is **rock structure**. Structure refers to the fine earth. Structure is reported for mineral layers. Additionally, structure is reported for drained hydromorphic organic layers.
 
@@ -1402,7 +1402,7 @@ The dimension to be reported is indicated in Table 8.41 by a line.
 
 If wedge-shaped aggregates are present, report the volume (as percentage), occupied by wedge-shaped aggregates tilted between ≥ 10° and ≤ 60° from the horizontal.
 
-### Pores and cracks (overview)
+### Pores and cracks (overview) {#sec-a1-pc}
 
 Soil has air- or water-filled voids, which are:
 
@@ -1502,7 +1502,7 @@ Report persistence and continuity,
 
 Report the average width in mm and the number of cracks. Count the cracks across 1 m horizontally; use the vertical centre of the layer.
 
-### Stress features (m)
+### Stress features (m) {#sec-a1-stress}
 
 Stress features result from soil aggregates that are pressed against each other due to swelling clays. The aggregate surfaces may be shiny. There are two types: Pressure faces do not slide past each other and have no striations, slickensides slide past each other and have striations. Striations develop if sand (or silt) grains are moved with strong pressure along the aggregate surfaces. Stress features do not differ in colour from the matrix (see Chapter 8.4.17). A hand lens (maximum 10x) may be helpful. Report the abundance of
 
@@ -1828,7 +1828,7 @@ Ribbon-like accumulations are thin, horizontally continuous accumulations within
 
 The term 'oxides', as used here, includes hydroxides and oxide-hydroxides. If clay minerals are accumulated, a ribbon-like accumulation is \< 7.5 cm thick, in all other cases \< 2.5 cm. If there are 2 or more ribbon-like accumulations in one layer, report the number of the accumulations and their combined thickness in cm. If clay minerals are accumulated (CC, CO, CH, TO), the ribbon-like accumulations are called **lamellae**.
 
-### Carbonates (o, m)
+### Carbonates (o, m) {#sec-a1-carbs}
 
 Take a soil sample, add drops of 1 *M* HCl and observe the reaction. This method detects primary and secondary calcium carbonates. Contrary to calcium carbonate, dolomite (calcium magnesium carbonate) shows little reaction with cold HCl. To identity dolomite, put some soil material in a spoon, add drops of 1 *M* HCl and heat it with a lighter underneath. If effervescence occurs only after heating, the presence of dolomite is indicated.
 
@@ -1893,7 +1893,7 @@ Report the type of secondary carbonates. If more than one occurs, report up to f
 
 : Reference for estimating the percentage of secondary carbonates
 
-### Gypsum (m)
+### Gypsum (m) {#sec-a1-gypsum}
 
 #### Content
 
@@ -1928,7 +1928,7 @@ Secondary gypsum may be found as
 
 Gypsum is soft and can easily be ripped with a knife or broken between thumbnail and forefinger. Gypsum is very soluble, and when gypsum is found in soils that are not in extremely arid conditions, it can be assumed that it is secondary in almost all cases. Contrary to that, gypsiferous rocks and their fragments are primary. Fibrous gypsum, when occurring along veins within limestones or sandstones is also primary. Report the total abundance (as percentage by exposed area, related to the fine earth plus accumulations of secondary gypsum of any size and any cementation class) of all types of secondary gypsum.
 
-### Secondary silica (m)
+### Secondary silica (m) {#sec-a1-silica}
 
 #### Form
 

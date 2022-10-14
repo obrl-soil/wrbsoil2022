@@ -1,4 +1,4 @@
-# Definitions of qualifiers
+# Definitions of qualifiers {#sec-quals}
 
 ::: callout-important
 Before using the qualifiers, please read the ['Rules for naming soils'](chapter-02.qmd#sec-ch02) (Chapter 2)
@@ -8,15 +8,15 @@ The definitions of the qualifiers for the second-level units relate to RSGs, dia
 
 Usually, only a limited number of combinations will be possible in a soil name; many of the definitions make the qualifiers mutually exclusive.
 
-## General rules
+## General rules {#sec-quals-rules}
 
 1.  **Subqualifiers** (see Chapter 2.3), **which may be used in the soil name instead of the qualifier listed in the Key** (Chapter 4), are found beneath the definition of the respective qualifier (e.g. Protocalcic is found under Calcic). **Subqualifiers, which cannot replace a listed qualifier**, are found in alphabetical order (e.g. Hyperalic).
 
 2.  If a subqualifier (**optional or additional subqualifier**) related to depth requirements can be constructed by the user, **the figure indicates, which rule applies**: (1), (2), (3), (4), (5). If no figure is indicated, these subqualifiers cannot be constructed.
 
-## Definitions
+## Definitions {#sec-quals-defns}
 
-### Abruptic (ap)
+### Abruptic (ap) {#sec-abruptic}
 
 (from Latin *abruptus*, broken away): having an *abrupt textural difference* within 100 cm of the mineral soil surface (1).
 

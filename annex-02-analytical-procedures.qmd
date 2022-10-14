@@ -52,7 +52,7 @@ Two different procedures can be used:
 
 If the sample contains many coarse fragments, the coarse fragments are sieved out after drying and then their mass and volume are determined separately. With that, the bulk density of the fine earth is calculated. The determination of bulk density is very sensitive to natural variability, particularly caused by nonrepresentativeness of the samples (coarse fragments, cementations, cracks, roots, etc.). Therefore, determinations should always be made at least in triplicate.
 
-## Coefficient of linear extensibility (COLE)
+## Coefficient of linear extensibility (COLE) {#sec-a2-cole}
 
 The COLE gives an indication of the reversible shrink--swell capacity of a soil. It is calculated as the ratio of the difference between the moist length and the dry length of a clod to its dry length: (L~m~ - L~d~)/L~d~, in which L~m~ is the length at 33 kPa tension and Ld the length when dry (105 °C).
 
@@ -66,13 +66,13 @@ Many laboratories use auto-analysers (e.g. dry combustion). In these cases, a qu
 
 Otherwise, the *Walkley--Black method* is followed. This involves a wet combustion of the organic matter with a mixture of potassium dichromate and sulfuric acid at about 125 °C. The residual dichromate is titrated against ferrous sulfate. To compensate for incomplete destruction, an empirical correction factor of 1.3 is applied in the calculation of the result.
 
-## Carbonates
+## Carbonates {#sec-a2-carbs}
 
 The *rapid titration method* by Piper [-@piper1942, also called *acid neutralization method*] is used. The sample is treated with dilute HCl and the residual acid is titrated. The results are referred to as *calcium carbonate equivalent* as the dissolution is not selective for calcite, and other carbonates such as dolomite are dissolved as well.
 
 ***Note:*** Other procedures such as the *Scheibler volumetric method* or the *Bernard calcimeter* may also be used.
 
-## Gypsum
+## Gypsum {#sec-a2-gypsum}
 
 Gypsum is dissolved by shaking the sample with water. It is then selectively precipitated from the extract by adding acetone. This precipitate is re-dissolved in water and the Ca concentration is determined as a measure for gypsum. This method also extracts anhydrite.
 
