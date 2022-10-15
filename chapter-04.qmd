@@ -1,9 +1,8 @@
 ---
-pl---
 reference-location: margin
 ---
 
-# Key to the Reference Soil Groups with lists of principal and supplementary qualifiers
+# Key to the Reference Soil Groups with lists of principal and supplementary qualifiers {#sec-key}
 
 ::: callout-important
 Before using the key, please read the ['Rules for naming soils'](chapter-02.qmd#sec-ch02) (Chapter 2)
@@ -25,15 +24,15 @@ Before using the key, please read the ['Rules for naming soils'](chapter-02.qmd#
 
 Soils having one or more of the following:
 
-1.  *organic material* starting ≤ 40 cm from the soil surface and having within 100 cm of the soil surface a combined thickness of:
+1.  [*organic material*](chapter-03.qmd#sec-orgm) starting ≤ 40 cm from the soil surface and having within 100 cm of the soil surface a combined thickness of:
     a.  ≥ 40 cm if \< 25% (by volume, related to the fine earth plus all dead plant remnants) consists of moss fibres; *or*
     b.  ≥ 60 cm; *or*
-2.  *organic material* starting at the soil surface, having a thickness of ≥ 10 cm and directly overlying ice, *continuous rock* or *technic hard material*; *or*
-3.  a layer of coarse fragments that, together with overlying organic material, if present, starts at the soil surface and has a thickness of
-    a.  ≥ 10 cm if overlying *continuous rock* or *technic hard material*; *or*
+2.  [*organic material*](chapter-03.qmd#sec-orgm) starting at the soil surface, having a thickness of ≥ 10 cm and directly overlying ice, [*continuous rock*](chapter-03.qmd#sec-contr) or [*technic hard material*](chapter-03.qmd#sec-techhm); *or*
+3.  a layer of coarse fragments that, together with overlying [*organic material*](chapter-03.qmd#sec-orgm), if present, starts at the soil surface and has a thickness of
+    a.  ≥ 10 cm if overlying [*continuous rock*](chapter-03.qmd#sec-contr) or [*technic hard material*](chapter-03.qmd#sec-techhm); *or*
     b.  ≥ 40 cm;\
         \
-        and the major part of the interstices between the coarse fragments is filled with *organic material* and the remaining interstices, if present, are void.
+        and the major part of the interstices between the coarse fragments is filled with [*organic material*](chapter-03.qmd#sec-orgm) and the remaining interstices, if present, are void.
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -70,15 +69,15 @@ Soils having one or more of the following:
 
 Other soils having:
 
-1.  a *hortic*, *irragric*, *plaggic* or *terric* horizon, ≥ 50 cm thick; *or*
-2.  an *anthraquic horizon* and an underlying *hydragric horizon* with a combined thickness of ≥ 50 cm; *or*
-3.  a *pretic horizon*, the layers of which have a combined thickness of ≥ 50 cm, within 100 cm of the mineral soil surface.
+1.  a [*hortic*](chapter-03.qmd#sec-hortih), [*irragric*](chapter-03.qmd#sec-iragh), [*plaggic*](chapter-03.qmd#sec-plaggh) or [*terric horizon*](chapter-03.qmd#sec-terich), ≥ 50 cm thick; *or*
+2.  an [*anthraquic horizon*](chapter-03.qmd#sec-anthh) and an underlying [*hydragric horizon*](chapter-03.qmd#sec-hydrh) with a combined thickness of ≥ 50 cm; *or*
+3.  a [*pretic horizon*](chapter-03.qmd#sec-preth), the layers of which have a combined thickness of ≥ 50 cm, within 100 cm of the mineral soil surface.
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
 
 | Principal Qualifiers                                | Supplementary Qualifiers       |
-|---------------------------------------------|---------------------------|
+|--------------------------------------------|---------------------------|
 | Hydragric/ Irragric/ Hortic/ Plaggic/ Pretic/Terric | Arenic/ Clayic/ Loamic/ Siltic |
 | Gleyic                                              | Glossic/ Retic                 |
 | Stagnic                                             | Acric/ Lixic/ Alic/ Luvic      |
@@ -110,14 +109,14 @@ Other soils:
 
 1.  with all of the following:
     a.  one or both of the following:
-        i.  having ≥ 20% (by volume, weighted average, related to the whole soil) *artefacts* in the upper 100 cm from the soil surface or to a limiting layer, whichever is shallower; *or*
-        ii. having a layer, ≥ 10 cm thick and starting ≤ 50 cm from the soil surface, with ≥ 80% (by volume, related to the whole soil) artefacts; *and*
-    b.  not having a layer containing *artefacts* that qualifies as an *argic*, *duric*, *ferralic*, *ferric*, *fragic*, *hydragric*, *natric*, *nitic*, *petrocalcic*, *petroduric*, *petrogypsic*, *petroplinthic*, *pisoplinthic*, *plinthic*, *spodic* or *vertic* horizon starting ≤ 100 cm from the soil surface, unless buried; *and*
+        i.  having ≥ 20% (by volume, weighted average, related to the whole soil) [*artefacts*](chapter-03.qmd#sec-artefm) in the upper 100 cm from the soil surface or to a limiting layer, whichever is shallower; *or*
+        ii. having a layer, ≥ 10 cm thick and starting ≤ 50 cm from the soil surface, with ≥ 80% (by volume, related to the whole soil) [*artefacts*](chapter-03.qmd#sec-artefm); *and*
+    b.  not having a layer containing [*artefacts*](chapter-03.qmd#sec-artefm) that qualifies as an [*argic*](chapter-03.qmd#sec-argich), [*duric*](chapter-03.qmd#sec-durich), [*ferralic*](chapter-03.qmd#sec-feralh), [*ferric*](chapter-03.qmd#sec-ferich), [*fragic*](chapter-03.qmd#sec-fragh), [*hydragric*](chapter-03.qmd#sec-hydrh), [*natric*](chapter-03.qmd#sec-natrh), [*nitic*](chapter-03.qmd#sec-nitich), [*petrocalcic*](chapter-03.qmd#sec-petroh), [*petroduric*](chapter-03.qmd#sec-petdh), [*petrogypsic*](chapter-03.qmd#sec-petrgh), [*petroplinthic*](chapter-03.qmd#sec-petplh), [*pisoplinthic*](chapter-03.qmd#sec-pisoph), [*plinthic*](chapter-03.qmd#sec-plinth), [*spodic*](chapter-03.qmd#sec-spodh) or [*vertic horizon*](chapter-03.qmd#sec-verth) starting ≤ 100 cm from the soil surface, unless buried; *and*
     c.  not having a limiting layer, starting ≤ 10 cm from the soil surface; *or*
-2.  having a continuous, very slowly permeable to impermeable, constructed geomembrane of any thickness or *technic hard material* starting ≤ 100 cm from the soil surface.
+2.  having a continuous, very slowly permeable to impermeable, constructed geomembrane of any thickness or [*technic hard material*](chapter-03.qmd#sec-techhm) starting ≤ 100 cm from the soil surface.
 
 ::: callout-note
-Technosols may bury other soils, which can be mentioned behind the Technosol classification using the word 'over' in between (see Chapter 2.4). Alternatively, buried diagnostic horizons or buried layers with a diagnostic property can be indicated with the Thapto- specifier followed by a qualifier. The soil material above a geomembrane or *technic hard material* may also be characterized by qualifiers. If the thickness or depth criteria of these qualifiers are not met, the Supra- specifier can be used (see Chapter 2.3.2).
+Technosols may bury other soils, which can be mentioned behind the Technosol classification using the word 'over' in between (see [Chapter 2.4](chapter-02.qmd#sec-buried)). Alternatively, buried diagnostic horizons or buried layers with a diagnostic property can be indicated with the Thapto- specifier followed by a qualifier. The soil material above a geomembrane or [*technic hard material*](chapter-03.qmd#sec-techhm) may also be characterized by qualifiers. If the thickness or depth criteria of these qualifiers are not met, the Supra- specifier can be used (see [Chapter 2.3.2](chapter-02.qmd#sec-subq-defn)).
 :::
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
@@ -174,15 +173,15 @@ Technosols may bury other soils, which can be mentioned behind the Technosol cla
 
 Other soils having:
 
-1.  a *cryic horizon* starting ≤ 100 cm from the soil surface; *or*
-2.  a *cryic horizon* starting ≤ 200 cm from the soil surface *and*\
+1.  a [*cryic horizon*](chapter-03.qmd#sec-cryich) starting ≤ 100 cm from the soil surface; *or*
+2.  a [*cryic horizon*](chapter-03.qmd#sec-cryich) starting ≤ 200 cm from the soil surface *and*\
     evidence of cryogenic alteration (cryoturbation, frost heave, cryogenic sorting, thermal cracking, ice segregation, patterned ground, etc.) in some layer within 100 cm of the soil surface.
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
 
 | Principal Qualifiers                       | Supplementary Qualifiers       |
-|-----------------------------------------|------------------------------|
+|-----------------------------------------|-------------------------------|
 | Glacic                                     | Arenic/ Clayic/ Loamic/ Siltic |
 | Turbic                                     | Abruptic                       |
 | Subaquatic/ Tidalic/ Reductaquic/ Oxyaquic | Albic                          |
@@ -218,9 +217,9 @@ Other soils having:
 Other soils having:
 
 1.  one of the following:
-    a.  *continuous rock* starting ≤ 25 cm from the soil surface; *or*
-    b.  \< 20% (by volume, related to the whole soil) fine earth[^chapter-04-1], averaged over a depth of 75 cm from the soil surface or to *continuous rock*, whichever is shallower; *and*
-2.  no *chernic*, *duric*, *petrocalcic*, *petroduric*, *petrogypsic*, *petroplinthic*, *pisoplinthic* or *spodic horizon*.
+    a.  [*continuous rock*](chapter-03.qmd#sec-contr) starting ≤ 25 cm from the soil surface; *or*
+    b.  \< 20% (by volume, related to the whole soil) fine earth[^chapter-04-1], averaged over a depth of 75 cm from the soil surface or to [*continuous rock*](chapter-03.qmd#sec-contr), whichever is shallower; *and*
+2.  no [*chernic*](chapter-03.qmd#sec-chernh), [*duric*](chapter-03.qmd#sec-durich), [*petrocalcic*](chapter-03.qmd#sec-petroh), [*petroduric*](chapter-03.qmd#sec-petdh), [*petrogypsic*](chapter-03.qmd#sec-petrgh), [*petroplinthic*](chapter-03.qmd#sec-petplh), [*pisoplinthic*](chapter-03.qmd#sec-pisoph)or [*spodic horizon*](chapter-03.qmd#sec-spodh).
 
 [^chapter-04-1]: The volume not occupied by fine earth is occupied by coarse fragments or pores.
 
@@ -267,7 +266,7 @@ Other soils having:
 
 ## Solonetz {#key-solonetz .unnumbered}
 
-Other soils having a *natric horizon* starting ≤ 100 cm from the mineral soil surface.
+Other soils having a [*natric horizon*](chapter-03.qmd#sec-natrh) starting ≤ 100 cm from the mineral soil surface.
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -307,15 +306,15 @@ Other soils having a *natric horizon* starting ≤ 100 cm from the mineral soi
 
 Other soils having:
 
-1.  a *vertic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
-2.  ≥ 30% clay between the mineral soil surface and the *vertic horizon* throughout; *and*
-3.  *shrink-swell cracks* that start:
+1.  a [*vertic horizon*](chapter-03.qmd#sec-verth) starting ≤ 100 cm from the mineral soil surface; *and*
+2.  ≥ 30% clay between the mineral soil surface and the [*vertic horizon*](chapter-03.qmd#sec-verth) throughout; *and*
+3.  [*shrink-swell cracks*](chapter-03.qmd#sec-shrswc) that start:
     a.  at the mineral soil surface; *or*
     b.  at the base of a plough layer; *or*
     c.  directly below a layer with strong granular structure or strong angular or subangular blocky structure with an aggregate size of ≤ 1 cm (self-mulching surface); *or*
     d.  directly below a surface crust; *and*\
         \
-        extend to the *vertic horizon*.
+        extend to the [*vertic horizon*](chapter-03.qmd#sec-verth).
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -355,8 +354,8 @@ Other soils having:
 
 Other soils having:
 
-1.  a *salic horizon* starting ≤ 50 cm from the soil surface; *and*
-2.  no *thionic horizon* starting ≤ 50 cm from the soil surface; *and*
+1.  a [*salic horizon*](chapter-03.qmd#sec-salich) starting ≤ 50 cm from the soil surface; *and*
+2.  no [*thionic horizon*](chapter-03.qmd#sec-thionh) starting ≤ 50 cm from the soil surface; *and*
 3.  not permanently submerged by water and not located below the line affected by tidal water (i.e. not located below the line of mean high water springs).
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
@@ -402,13 +401,13 @@ Other soils having:
 Other soils having one or more of the following:
 
 1.  a layer, ≥ 25 cm thick and starting ≤ 40 cm from the mineral soil surface, that has
-    a.  *gleyic properties* throughout; *and*
-    b.  *reducing conditions* in some parts of every sublayer; *or*
+    a.  [*gleyic properties*](chapter-03.qmd#sec-gleyicp) throughout; *and*
+    b.  [*reducing conditions*](chapter-03.qmd#sec-reducc) in some parts of every sublayer; *or*
 2.  both of the following:
-    a.  a *mollic* or *umbric horizon*, \> 40 cm thick, that has *reducing conditions* in some parts of every sublayer, from 40 cm below the mineral soil surface to the lower limit of the *mollic* or *umbric horizon*; *and*
-    b.  directly underneath the *mollic/umbric horizon*, a layer, ≥ 10 cm thick, that has its lower limit ≥ 65 cm below the mineral soil surface, and that has:
-        i.  *gleyic properties* throughout; *and*
-        ii. *reducing conditions* in some parts of every sublayer; *or*
+    a.  a [*mollic*](chapter-03.qmd#sec-mollh) or [*umbric horizon*](chapter-03.qmd#sec-umbrich), \> 40 cm thick, that has [*reducing conditions*](chapter-03.qmd#sec-reducc) in some parts of every sublayer, from 40 cm below the mineral soil surface to the lower limit of the [*mollic*](chapter-03.qmd#sec-mollh) or [*umbric horizon*](chapter-03.qmd#sec-umbrich); *and*
+    b.  directly underneath the [*mollic*](chapter-03.qmd#sec-mollh)*/[umbric horizon](chapter-03.qmd#sec-umbrich)*, a layer, ≥ 10 cm thick, that has its lower limit ≥ 65 cm below the mineral soil surface, and that has:
+        i.  [*gleyic properties*](chapter-03.qmd#sec-gleyicp) throughout; *and*
+        ii. [*reducing conditions*](chapter-03.qmd#sec-reducc) in some parts of every sublayer; *or*
 3.  permanent saturation by water starting ≤ 40 cm from the mineral soil surface.
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
@@ -459,13 +458,13 @@ Other soils having one or more of the following:
 
 Other soils having:
 
-1.  one or more layers with *andic* or *vitric properties* with a combined thickness of:
+1.  one or more layers with [*andic*](chapter-03.qmd#sec-andicp) or [*vitric properties*](chapter-03.qmd#sec-vitricp) with a combined thickness of:
     a.  ≥ 30 cm, within 100 cm of the soil surface and starting ≤ 25 cm from the soil surface; *or*
     b.  ≥ 60% of the entire thickness of the soil, if a limiting layer starts \> 25 and ≤ 50 cm from the soil surface; *and*
-2.  no *argic*, *ferralic*, *petroplinthic*, *pisoplinthic*, *plinthic* or *spodic horizon* starting ≤ 100 cm of the soil surface, unless buried deeper than 50 cm from the mineral soil surface.
+2.  no [*argic*](chapter-03.qmd#sec-argich), [*ferralic*](chapter-03.qmd#sec-feralh), [*petroplinthic*](chapter-03.qmd#sec-petplh), [*pisoplinthic*](chapter-03.qmd#sec-pisoph), [*plinthic*](chapter-03.qmd#sec-plinth) or [*spodic horizon*](chapter-03.qmd#sec-spodh) starting ≤ 100 cm of the soil surface, unless buried deeper than 50 cm from the mineral soil surface.
 
 ::: callout-note
-Andosols may bury other soils, which can be mentioned behind the Andosol classification using the word 'over' in between (see Chapter 2.4). Alternatively, buried diagnostic horizons or buried layers with a diagnostic property can be indicated with the Thapto- specifier followed by a qualifier.
+Andosols may bury other soils, which can be mentioned behind the Andosol classification using the word 'over' in between (see [Chapter 2.4](chapter-02.qmd#sec-buried)). Alternatively, buried diagnostic horizons or buried layers with a diagnostic property can be indicated with the Thapto- specifier followed by a qualifier.
 :::
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
@@ -506,7 +505,7 @@ Andosols may bury other soils, which can be mentioned behind the Andosol classif
 
 ## Podzols {#key-podzols .unnumbered}
 
-Other soils having a *spodic horizon* starting ≤ 200 cm from the mineral soil surface.
+Other soils having a [*spodic horizon*](chapter-03.qmd#sec-spodh) starting ≤ 200 cm from the mineral soil surface.
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -541,7 +540,7 @@ Other soils having a *spodic horizon* starting ≤ 200 cm from the mineral soi
 
 ## Plinthosols {#key-plinthosols .unnumbered}
 
-Other soils having a *plinthic*, *pisoplinthic* or *petroplinthic horizon* starting ≤ 100 cm from the mineral soil surface.
+Other soils having a [*plinthic*](chapter-03.qmd#sec-plinth), [*pisoplinthic*](chapter-03.qmd#sec-pisoph) or [*petroplinthic horizon*](chapter-03.qmd#sec-petplh) starting ≤ 100 cm from the mineral soil surface.
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -575,10 +574,10 @@ Other soils having a *plinthic*, *pisoplinthic* or *petroplinthic horizon* start
 
 ## Planosols {#key-planosols .unnumbered}
 
-Other soils having an *abrupt textural difference* ≤ 75 cm from the mineral soil surface and having within the range of 5 cm directly above or below the *abrupt textural difference*:
+Other soils having an [*abrupt textural difference*](chapter-03.qmd#sec-abtxdf) ≤ 75 cm from the mineral soil surface and having within the range of 5 cm directly above or below the [*abrupt textural difference*](chapter-03.qmd#sec-abtxdf):
 
-1.  *stagnic properties*, in which the area of reductimorphic features plus the area of oximorphic features is ≥ 50% (weighted average) of the total area; *and*
-2.  *reducing conditions* for some time during the year in some parts of the soil volume that has the reductimorphic features.
+1.  [*stagnic properties*](chapter-03.qmd#sec-stagnp), in which the area of reductimorphic features plus the area of oximorphic features is ≥ 50% (weighted average) of the total area; *and*
+2.  [*reducing conditions*](chapter-03.qmd#sec-reducc) for some time during the year in some parts of the soil volume that has the reductimorphic features.
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -626,8 +625,8 @@ Other soils having an *abrupt textural difference* ≤ 75 cm from the mineral 
 
 Other soils having:
 
-1.  *stagnic properties*, in which the area of reductimorphic features plus the area of oximorphic features is ≥ one third (weighted average) of the area from the mineral soil surface to a depth of 60 cm or to *continuous rock*, whichever is shallower; *and*
-2.  *reducing conditions* for some time during the year in some parts of the soil volume that has the reductimorphic features within 60 cm from the mineral soil surface or to *continuous rock*, whichever is shallower.
+1.  [*stagnic properties*](chapter-03.qmd#sec-stagnp), in which the area of reductimorphic features plus the area of oximorphic features is ≥ one third (weighted average) of the area from the mineral soil surface to a depth of 60 cm or to [*continuous rock*](chapter-03.qmd#sec-contr), whichever is shallower; *and*
+2.  [*reducing conditions*](chapter-03.qmd#sec-reducc) for some time during the year in some parts of the soil volume that has the reductimorphic features within 60 cm from the mineral soil surface or to [*continuous rock*](chapter-03.qmd#sec-contr), whichever is shallower.
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -676,9 +675,9 @@ Other soils having:
 
 Other soils having:
 
-1.  a *nitic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
-2.  from the mineral soil surface to the *nitic horizon*, a clay content that is at least half of the weighted average clay content of the *nitic horizon*; *and*
-3.  no *vertic horizon* starting above or at the upper limit of the *nitic horizon*.
+1.  a [*nitic horizon*](chapter-03.qmd#sec-nitich) starting ≤ 100 cm from the mineral soil surface; *and*
+2.  from the mineral soil surface to the [*nitic horizon*](chapter-03.qmd#sec-nitich), a clay content that is at least half of the weighted average clay content of the [*nitic horizon*](chapter-03.qmd#sec-nitich); *and*
+3.  no [*vertic horizon*](chapter-03.qmd#sec-verth) starting above or at the upper limit of the [*nitic horizon*](chapter-03.qmd#sec-nitich).
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -709,11 +708,11 @@ Other soils having:
 
 Other soils having:
 
-1.  a *ferralic horizon* starting ≤ 150 cm from the mineral soil surface; *and*
-2.  no *argic horizon* starting above or at the upper limit of the *ferralic horizon*, unless the *argic horizon* has, in its upper 30 cm or throughout, whichever is shallower, one or more of the following:
+1.  a [*ferralic horizon*](chapter-03.qmd#sec-feralh) starting ≤ 150 cm from the mineral soil surface; *and*
+2.  no [*argic horizon*](chapter-03.qmd#sec-argich) starting above or at the upper limit of the [*ferralic horizon*](chapter-03.qmd#sec-feralh), unless the [*argic horizon*](chapter-03.qmd#sec-argich) has, in its upper 30 cm or throughout, whichever is shallower, one or more of the following:
     a.  \< 10% water-dispersible clay; *or*
     b.  a ΔpH (pH~KCl~ - pH~water~) ≥ 0 (both in 1:1 solution); *or*
-    c.  ≥ 1.4% *soil organic carbon*.
+    c.  ≥ 1.4% [*soil organic carbon*](chapter-03.qmd#sec-soc).
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -754,11 +753,11 @@ Other soils having:
 
 Other soils having:
 
-1.  a *chernic horizon*; *and*
-2.  starting ≤ 50 cm below the lower limit of the *mollic*[^chapter-04-2] *horizon* and, if present, above a *petrocalcic horizon*, a layer with *protocalcic properties*, ≥ 5 cm thick, or a *calcic horizon*; *and*
-3.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-3] of ≥ 50% from the mineral soil surface to the layer with *protocalcic properties* or to the *calcic horizon*, throughout.
+1.  a [*chernic horizon*](chapter-03.qmd#sec-chernh); *and*
+2.  starting ≤ 50 cm below the lower limit of the [*mollic horizon*](chapter-03.qmd#sec-mollh)[^chapter-04-2] and, if present, above a [*petrocalcic horizon*](chapter-03.qmd#sec-petroh), a layer with [*protocalcic properties*](chapter-03.qmd#sec-protcp), ≥ 5 cm thick, or a [*calcic horizon*](chapter-03.qmd#sec-calch); *and*
+3.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-3] of ≥ 50% from the mineral soil surface to the layer with [*protocalcic properties*](chapter-03.qmd#sec-protcp) or to the [*calcic horizon*](chapter-03.qmd#sec-calch), throughout.
 
-[^chapter-04-2]: Any *chernic horizon* also meets the criteria of a *mollic horizon*. The *mollic horizon* may extend below the *chernic horizon*.
+[^chapter-04-2]: Any [*chernic horizon*](chapter-03.qmd#sec-chernh) also meets the criteria of a [*mollic horizon*](chapter-03.qmd#sec-mollh). The [*mollic horizon*](chapter-03.qmd#sec-mollh) may extend below the [*chernic horizon*](chapter-03.qmd#sec-chernh).
 
 [^chapter-04-3]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).
 
@@ -795,9 +794,9 @@ Other soils having:
 
 Other soils having:
 
-1.  a *mollic horizon*; *and*
-2.  starting ≤ 70 cm of the mineral soil surface and, if present, above a *petrocalcic horizon*, a layer with *protocalcic properties*, ≥ 5 cm thick, or a *calcic horizon*; *and*
-3.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-4] of ≥ 50% from the mineral soil surface to the layer with *protocalcic properties* or to the *calcic horizon*, throughout.
+1.  a [*mollic horizon*](chapter-03.qmd#sec-mollh); *and*
+2.  starting ≤ 70 cm of the mineral soil surface and, if present, above a [*petrocalcic horizon*](chapter-03.qmd#sec-petroh), a layer with [*protocalcic properties*](chapter-03.qmd#sec-protcp), ≥ 5 cm thick, or a [*calcic horizon*](chapter-03.qmd#sec-calch); *and*
+3.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-4] of ≥ 50% from the mineral soil surface to the layer with [*protocalcic properties*](chapter-03.qmd#sec-protcp) or to the [*calcic horizon*](chapter-03.qmd#sec-calch), throughout.
 
 [^chapter-04-4]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).
 
@@ -838,7 +837,7 @@ Other soils having:
 
 Other soils having:
 
-1.  a *mollic horizon*; *and*
+1.  a [*mollic horizon*](chapter-03.qmd#sec-mollh); *and*
 2.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-5] of ≥ 50% throughout to a depth of 100 cm from the mineral soil surface or to a limiting layer, whichever is shallower.
 
 [^chapter-04-5]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).
@@ -885,7 +884,7 @@ Other soils having:
 
 ## Umbrisols {#key-umbrisols .unnumbered}
 
-Other soils having an *umbric* or *mollic* or *hortic horizon*.
+Other soils having an [*umbric*](chapter-03.qmd#sec-umbrich) or [*mollic*](chapter-03.qmd#sec-mollh)or [*hortic horizon*](chapter-03.qmd#sec-hortih).
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -932,7 +931,7 @@ Other soils having an *umbric* or *mollic* or *hortic horizon*.
 
 ## Durisols {#key-durisols .unnumbered}
 
-Other soils having a *petroduric* or *duric horizon* starting ≤ 100 cm from the mineral soil surface.
+Other soils having a [*petroduric*](chapter-03.qmd#sec-petdh) or [*duric horizon*](chapter-03.qmd#sec-durich) starting ≤ 100 cm from the mineral soil surface.
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -967,8 +966,8 @@ Other soils having a *petroduric* or *duric horizon* starting ≤ 100 cm from 
 
 Other soils having:
 
-1.  a *gypsic* or *petrogypsic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
-2.  no *argic horizon* starting above or at the upper limit of the *gypsic* or *petrogypsic horizon*, unless the *argic horizon* contains secondary gypsum or secondary carbonates, throughout.
+1.  a [*gypsic*](chapter-03.qmd#sec-gypsih) or [*petrogypsic horizon*](chapter-03.qmd#sec-petrgh) starting ≤ 100 cm from the mineral soil surface; *and*
+2.  no [*argic horizon*](chapter-03.qmd#sec-argich) starting above or at the upper limit of the [*gypsic*](chapter-03.qmd#sec-gypsih) or [*petrogypsic horizon*](chapter-03.qmd#sec-petrgh), unless the [*argic horizon*](chapter-03.qmd#sec-argich) contains secondary gypsum or secondary carbonates, throughout.
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -1002,8 +1001,8 @@ Other soils having:
 
 Other soils having:
 
-1.  a *calcic* or *petrocalcic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
-2.  no *argic horizon* starting above or at the upper limit of the *calcic* or *petrocalcic horizon* unless the *argic horizon* contains secondary carbonates, throughout.
+1.  a [*calcic*](chapter-03.qmd#sec-calch) or [*petrocalcic horizon*](chapter-03.qmd#sec-petroh) starting ≤ 100 cm from the mineral soil surface; *and*
+2.  no [*argic horizon*](chapter-03.qmd#sec-argich) starting above or at the upper limit of the [*calcic*](chapter-03.qmd#sec-calch) or [*petrocalcic horizon*](chapter-03.qmd#sec-petroh) unless the [*argic horizon*](chapter-03.qmd#sec-argich) contains secondary carbonates, throughout.
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -1041,7 +1040,7 @@ Other soils having:
 
 ## Retisols {#key-retisols .unnumbered}
 
-Other soils having an *argic horizon* starting ≤ 100 cm from the mineral soil surface and having *retic properties* at its upper boundary.
+Other soils having an [*argic horizon*](chapter-03.qmd#sec-argich) starting ≤ 100 cm from the mineral soil surface and having [*retic properties*](chapter-03.qmd#sec-reticp) at its upper boundary.
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -1077,8 +1076,8 @@ Other soils having an *argic horizon* starting ≤ 100 cm from the mineral soi
 
 Other soils having:
 
-1.  an *argic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
-2.  a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 24 cmol~c~ kg^-1^ clay in some subhorizon of the *argic horizon* within 150 cm of the mineral soil surface; *and*
+1.  an [*argic horizon*](chapter-03.qmd#sec-argich) starting ≤ 100 cm from the mineral soil surface; *and*
+2.  a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 24 cmol~c~ kg^-1^ clay in some subhorizon of the [*argic horizon*](chapter-03.qmd#sec-argich) within 150 cm of the mineral soil surface; *and*
 3.  exchangeable Al \> exchangeable (Ca+Mg+K+Na)[^chapter-04-6] in half or more of:
     a.  the depth range between 50 and 100 cm of the mineral soil surface; *or*
     b.  the lower half of the mineral soil above a limiting layer starting ≤ 100 cm from the mineral soil surface, whichever is shallower.
@@ -1126,8 +1125,8 @@ Other soils having:
 
 Other soils having:
 
-1.  an *argic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
-2.  a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 24 cmol~c~ kg-1 clay in some subhorizon of the *argic horizon* within 150 cm of the mineral soil surface.
+1.  an [*argic horizon*](chapter-03.qmd#sec-argich) starting ≤ 100 cm from the mineral soil surface; *and*
+2.  a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 24 cmol~c~ kg-1 clay in some subhorizon of the [*argic horizon*](chapter-03.qmd#sec-argich) within 150 cm of the mineral soil surface.
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -1170,7 +1169,7 @@ Other soils having:
 
 Other soils having:
 
-1.  an *argic horizon* starting ≤ 100 cm from the mineral soil surface; *and*
+1.  an [*argic horizon*](chapter-03.qmd#sec-argich) starting ≤ 100 cm from the mineral soil surface; *and*
 2.  exchangeable Al \> exchangeable (Ca+Mg+K+Na)[^chapter-04-7] in half or more of:
     a.  the depth range between 50 and 100 cm of the mineral soil surface; *or*
     b.  the lower half of the mineral soil above a limiting layer starting ≤ 100 cm from the mineral soil surface whichever is shallower.
@@ -1216,7 +1215,7 @@ Other soils having:
 
 ## Luvisols {#key-luvisols .unnumbered}
 
-Other soils having an *argic horizon* starting ≤ 100 cm from the mineral soil surface.
+Other soils having an [*argic horizon*](chapter-03.qmd#sec-argich) starting ≤ 100 cm from the mineral soil surface.
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -1259,13 +1258,13 @@ Other soils having an *argic horizon* starting ≤ 100 cm from the mineral soi
 
 Other soils having:
 
-1.  a *cambic horizon*
+1.  a [*cambic horizon*](chapter-03.qmd#sec-cambh)
     a.  a\. starting ≤ 50 cm from the mineral soil surface; *and*
     b.  having its lower limit ≥ 25 cm from the mineral soil surface; *or*
-2.  an *anthraquic*, *hydragric*, *irragric*, *plaggic*, *pretic* or *terric horizon*; *or*
-3.  a *fragic*, *thionic* or *vertic horizon* starting ≤ 100 cm from the mineral soil surface; *or*
-4.  a *tsitelic horizon* with a texture class of sandy loam or finer, starting ≤ 50 cm from the mineral soil surface; *or*
-5.  one or more layers with *andic* or *vitric properties* with a combined thickness of ≥ 15 cm within 100 cm of the soil surface.
+2.  an [*anthraquic*](chapter-03.qmd#sec-anthh), [*hydragric*](chapter-03.qmd#sec-hydrh), [*irragric*](chapter-03.qmd#sec-iragh), [*plaggic*](chapter-03.qmd#sec-plaggh), [*pretic*](chapter-03.qmd#sec-preth) or [*terric horizon*](chapter-03.qmd#sec-terich); *or*
+3.  a [*fragic*](chapter-03.qmd#sec-fragh), [*thionic*](chapter-03.qmd#sec-thionh) or [*vertic horizon*](chapter-03.qmd#sec-verth) starting ≤ 100 cm from the mineral soil surface; *or*
+4.  a [*tsitelic horizon*](chapter-03.qmd#sec-tsith) with a texture class of sandy loam or finer, starting ≤ 50 cm from the mineral soil surface; *or*
+5.  one or more layers with [*andic*](chapter-03.qmd#sec-andicp) or [*vitric properties*](chapter-03.qmd#sec-vitricp) with a combined thickness of ≥ 15 cm within 100 cm of the soil surface.
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -1317,7 +1316,7 @@ Other soils having:
 
 ## Fluvisols {#key-fluvisols .unnumbered}
 
-Other soils having *fluvic material*:
+Other soils having [*fluvic material*](chapter-03.qmd#sec-fluvicm):
 
 1.  ≥ 25 cm thick and starting ≤ 25 cm from the mineral soil surface; *or*
 2.  from the lower limit of a plough layer, ≤ 40 cm thick, to a depth of ≥ 50 cm from the mineral soil surface.
@@ -1366,7 +1365,7 @@ Other soils having within 100 cm of the mineral soil surface:
 3.  layers with ≥ 40% (by volume, related to the whole soil) coarse fragments, if present, with a combined thickness of \< 15 cm.
 
 ::: callout-note
-Arenosols may bury other soils, which can be mentioned behind the Arenosol classification using the word 'over' in between (see Chapter 2.4). Alternatively, buried diagnostic horizons or buried layers with a diagnostic property can be indicated with the Thapto- specifier followed by a qualifier. Arenosols may have diagnostic horizons at depths of \> 100 cm. These can be indicated with the Bathy- specifier followed by a qualifier, e.g. Bathyacric (\> 100 cm), Bathyspodic (\> 200 cm).
+Arenosols may bury other soils, which can be mentioned behind the Arenosol classification using the word 'over' in between (see [Chapter 2.4](chapter-02.qmd#sec-buried)). Alternatively, buried diagnostic horizons or buried layers with a diagnostic property can be indicated with the Thapto- specifier followed by a qualifier. Arenosols may have diagnostic horizons at depths of \> 100 cm. These can be indicated with the Bathy- specifier followed by a qualifier, e.g. Bathyacric (\> 100 cm), Bathyspodic (\> 200 cm).
 :::
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}

@@ -1433,7 +1433,7 @@ Albeluvic glossae are a special case of *retic properties*. In [*retic propertie
 
 #### General description {#sec-andicp-desc}
 
-Andic properties (from Japanese *an*, dark, and *do*, soil) result from moderate weathering of mainly pyroclastic deposits. The presence of short-range-order minerals and/or organo-metallic complexes is characteristic for andic properties. These minerals and complexes are commonly part of the weathering sequence in pyroclastic deposits ([*tephric material*](#sec-tephrm) → [*vitric properties*](#sec-andicp) → andic properties). However, andic properties with organo-metallic complexes may also form in non-pyroclastic silicate-rich materials in cooltemperate and humid climates.
+Andic properties (from Japanese *an*, dark, and *do*, soil) result from moderate weathering of mainly pyroclastic deposits. The presence of short-range-order minerals and/or organo-metallic complexes is characteristic for andic properties. These minerals and complexes are commonly part of the weathering sequence in pyroclastic deposits ([*tephric material*](#sec-tephrm) → [*vitric properties*](#sec-vitricp) → andic properties). However, andic properties with organo-metallic complexes may also form in non-pyroclastic silicate-rich materials in cooltemperate and humid climates.
 
 #### Diagnostic criteria {#sec-andicp-diag}
 
