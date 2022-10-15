@@ -12,15 +12,15 @@ Before using the key, please read the ['Rules for naming soils'](chapter-02.qmd#
 
 |                               |                                 |                                 |                             |                             |
 |---------------|---------------|---------------|---------------|---------------|
-| [Histosols](#key-histosols)   | [Solonchaks](#key-solonchaks)   | [Nitisols](#key-nitisols)       | [Gypsisols](#key-gypsisols) | [Cambisols](#key-cambisols) |
-| [Anthrosols](#key-anthrosols) | [Gleysols](#key-gleysols)       | [Ferralsols](#key-ferralsols)   | [Calcisols](#key-calcisols) | [Fluvisols](#key-fluvisols) |
-| [Technosols](#key-technosols) | [Andosols](#key-andosols)       | [Chernozems](#key-chernozems)   | [Retisols](#key-retisols)   | [Arenosols](#key-arenosols) |
-| [Cryosols](#key-cryosols)     | [Podzols](#key-podzols)         | [Kastanozems](#key-kastanozems) | [Acrisols](#key-acrisols)   | [Regosols](#key-regosols)   |
-| [Leptosols](#key-leptosols)   | [Plinthosols](#key-plinthosols) | [Phaeozems](#key-phaeozems)     | [Lixisols](#key-lixisols)   |                             |
-| [Solonetz](#key-solonetz)     | [Planosols](#key-planosols)     | [Umbrisols](#key-umbrisols)     | [Alisols](#key-alisols)     |                             |
-| [Vertisols](#key-vertisols)   | [Stagnosols](#key-stagnosols)   | [Durisols](#key-durisols)       | [Luvisols](#key-luvisols)   |                             |
+| [Histosols](#sec-key-hs)   | [Solonchaks](#sec-key-sc)   | [Nitisols](#sec-key-nt)       | [Gypsisols](#sec-key-gy) | [Cambisols](#sec-key-cm) |
+| [Anthrosols](#sec-key-at) | [Gleysols](#sec-key-gl)       | [Ferralsols](#sec-key-fr)   | [Calcisols](#sec-key-cl) | [Fluvisols](#sec-key-fl) |
+| [Technosols](#sec-key-tc) | [Andosols](#sec-key-an)       | [Chernozems](#sec-key-ch)   | [Retisols](#sec-key-rt)   | [Arenosols](#sec-key-ar) |
+| [Cryosols](#sec-key-cr)     | [Podzols](#sec-key-pz)         | [Kastanozems](#sec-key-ks) | [Acrisols](#sec-key-ac)   | [Regosols](#sec-key-rg)   |
+| [Leptosols](#sec-key-lp)   | [Plinthosols](#sec-key-pt) | [Phaeozems](#sec-key-ph)     | [Lixisols](#sec-key-lx)   |                             |
+| [Solonetz](#sec-key-sn)     | [Planosols](#sec-key-pl)     | [Umbrisols](#sec-key-um)     | [Alisols](#sec-key-al)     |                             |
+| [Vertisols](#sec-key-vr)   | [Stagnosols](#sec-key-st)   | [Durisols](#sec-key-du)       | [Luvisols](#sec-key-lv)   |                             |
 
-## Histosols {#key-histosols .unnumbered}
+## Histosols {#sec-key-hs .unnumbered}
 
 Soils having one or more of the following:
 
@@ -65,7 +65,7 @@ Soils having one or more of the following:
 |                         | Wapnic                   |
 :::
 
-## Anthrosols {#key-anthrosols .unnumbered}
+## Anthrosols {#sec-key-at .unnumbered}
 
 Other soils having:
 
@@ -103,7 +103,7 @@ Other soils having:
 |                                                     | Vitric                         |
 :::
 
-## Technosols {#key-technosols .unnumbered}
+## Technosols {#sec-key-tc .unnumbered}
 
 Other soils:
 
@@ -169,7 +169,7 @@ Technosols may bury other soils, which can be mentioned behind the Technosol cla
 |                      | Vitric                                                |
 :::
 
-## Cryosols {#key-cryosols .unnumbered}
+## Cryosols {#sec-key-cr .unnumbered}
 
 Other soils having:
 
@@ -212,7 +212,7 @@ Other soils having:
 |                                            | Vitric                         |
 :::
 
-## Leptosols {#key-leptosols .unnumbered}
+## Leptosols {#sec-key-lp .unnumbered}
 
 Other soils having:
 
@@ -264,7 +264,7 @@ Other soils having:
 |                         | Vitric                         |
 :::
 
-## Solonetz {#key-solonetz .unnumbered}
+## Solonetz {#sec-key-sn .unnumbered}
 
 Other soils having a [*natric horizon*](chapter-03.qmd#sec-natrh) starting ≤ 100 cm from the mineral soil surface.
 
@@ -302,7 +302,7 @@ Other soils having a [*natric horizon*](chapter-03.qmd#sec-natrh) starting ≤ 
 |                      | Turbic                         |
 :::
 
-## Vertisols {#key-vertisols .unnumbered}
+## Vertisols {#sec-key-vr .unnumbered}
 
 Other soils having:
 
@@ -350,7 +350,7 @@ Other soils having:
 |                                 | Toxic                      |
 :::
 
-## Solonchaks {#key-solonchaks .unnumbered}
+## Solonchaks {#sec-key-sc .unnumbered}
 
 Other soils having:
 
@@ -396,7 +396,7 @@ Other soils having:
 |                      | Vertic                          |
 :::
 
-## Gleysols {#key-gleysols .unnumbered}
+## Gleysols {#sec-key-gl .unnumbered}
 
 Other soils having one or more of the following:
 
@@ -454,7 +454,7 @@ Other soils having one or more of the following:
 |                                                                  | Vertic                         |
 :::
 
-## Andosols {#key-andosols .unnumbered}
+## Andosols {#sec-key-an .unnumbered}
 
 Other soils having:
 
@@ -503,7 +503,7 @@ Andosols may bury other soils, which can be mentioned behind the Andosol classif
 |                         | Turbic                         |
 :::
 
-## Podzols {#key-podzols .unnumbered}
+## Podzols {#sec-key-pz .unnumbered}
 
 Other soils having a [*spodic horizon*](chapter-03.qmd#sec-spodh) starting ≤ 200 cm from the mineral soil surface.
 
@@ -538,7 +538,7 @@ Other soils having a [*spodic horizon*](chapter-03.qmd#sec-spodh) starting ≤ 
 |                                 | Turbic                   |
 :::
 
-## Plinthosols {#key-plinthosols .unnumbered}
+## Plinthosols {#sec-key-pt .unnumbered}
 
 Other soils having a [*plinthic*](chapter-03.qmd#sec-plinth), [*pisoplinthic*](chapter-03.qmd#sec-pisoph) or [*petroplinthic horizon*](chapter-03.qmd#sec-petplh) starting ≤ 100 cm from the mineral soil surface.
 
@@ -572,7 +572,7 @@ Other soils having a [*plinthic*](chapter-03.qmd#sec-plinth), [*pisoplinthic*](c
 |                      | Transportic                    |
 :::
 
-## Planosols {#key-planosols .unnumbered}
+## Planosols {#sec-key-pl .unnumbered}
 
 Other soils having an [*abrupt textural difference*](chapter-03.qmd#sec-abtxdf) ≤ 75 cm from the mineral soil surface and having within the range of 5 cm directly above or below the [*abrupt textural difference*](chapter-03.qmd#sec-abtxdf):
 
@@ -621,7 +621,7 @@ Other soils having an [*abrupt textural difference*](chapter-03.qmd#sec-abtxdf) 
 |                                                                  | Uterquic                       |
 :::
 
-## Stagnosols {#key-stagnosols .unnumbered}
+## Stagnosols {#sec-key-st .unnumbered}
 
 Other soils having:
 
@@ -671,7 +671,7 @@ Other soils having:
 |                                                                  | Uterquic                       |
 :::
 
-## Nitisols {#key-nitisols .unnumbered}
+## Nitisols {#sec-key-nt .unnumbered}
 
 Other soils having:
 
@@ -704,7 +704,7 @@ Other soils having:
 |                               | Transportic              |
 :::
 
-## Ferralsols {#key-ferralsols .unnumbered}
+## Ferralsols {#sec-key-fr .unnumbered}
 
 Other soils having:
 
@@ -749,7 +749,7 @@ Other soils having:
 |                      | Transportic                    |
 :::
 
-## Chernozems {#key-chernozems .unnumbered}
+## Chernozems {#sec-key-ch .unnumbered}
 
 Other soils having:
 
@@ -790,7 +790,7 @@ Other soils having:
 |                      | Vitric                         |
 :::
 
-## Kastanozems {#key-kastanozems .unnumbered}
+## Kastanozems {#sec-key-ks .unnumbered}
 
 Other soils having:
 
@@ -833,7 +833,7 @@ Other soils having:
 |                      | Vitric                         |
 :::
 
-## Phaeozems {#key-phaeozems .unnumbered}
+## Phaeozems {#sec-key-ph .unnumbered}
 
 Other soils having:
 
@@ -882,7 +882,7 @@ Other soils having:
 |                                  | Vitric                         |
 :::
 
-## Umbrisols {#key-umbrisols .unnumbered}
+## Umbrisols {#sec-key-um .unnumbered}
 
 Other soils having an [*umbric*](chapter-03.qmd#sec-umbrich) or [*mollic*](chapter-03.qmd#sec-mollh)or [*hortic horizon*](chapter-03.qmd#sec-hortih).
 
@@ -929,7 +929,7 @@ Other soils having an [*umbric*](chapter-03.qmd#sec-umbrich) or [*mollic*](chapt
 |                                 | Vitric                         |
 :::
 
-## Durisols {#key-durisols .unnumbered}
+## Durisols {#sec-key-du .unnumbered}
 
 Other soils having a [*petroduric*](chapter-03.qmd#sec-petdh) or [*duric horizon*](chapter-03.qmd#sec-durich) starting ≤ 100 cm from the mineral soil surface.
 
@@ -962,7 +962,7 @@ Other soils having a [*petroduric*](chapter-03.qmd#sec-petdh) or [*duric horizon
 |                           | Vertic                         |
 :::
 
-## Gypsisols {#key-gypsisols .unnumbered}
+## Gypsisols {#sec-key-gy .unnumbered}
 
 Other soils having:
 
@@ -997,7 +997,7 @@ Other soils having:
 |                      | Vertic                         |
 :::
 
-## Calcisols {#key-calcisols .unnumbered}
+## Calcisols {#sec-key-cl .unnumbered}
 
 Other soils having:
 
@@ -1038,7 +1038,7 @@ Other soils having:
 |                      | Vertic                         |
 :::
 
-## Retisols {#key-retisols .unnumbered}
+## Retisols {#sec-key-rt .unnumbered}
 
 Other soils having an [*argic horizon*](chapter-03.qmd#sec-argich) starting ≤ 100 cm from the mineral soil surface and having [*retic properties*](chapter-03.qmd#sec-reticp) at its upper boundary.
 
@@ -1072,7 +1072,7 @@ Other soils having an [*argic horizon*](chapter-03.qmd#sec-argich) starting ≤�
 |                             | Turbic                         |
 :::
 
-## Acrisols {#key-acrisols .unnumbered}
+## Acrisols {#sec-key-ac .unnumbered}
 
 Other soils having:
 
@@ -1121,7 +1121,7 @@ Other soils having:
 |                                       | Vitric                         |
 :::
 
-## Lixisols {#key-lixisols .unnumbered}
+## Lixisols {#sec-key-lx .unnumbered}
 
 Other soils having:
 
@@ -1165,7 +1165,7 @@ Other soils having:
 |                                       | Vitric                         |
 :::
 
-## Alisols {#key-alisols .unnumbered}
+## Alisols {#sec-key-al .unnumbered}
 
 Other soils having:
 
@@ -1213,7 +1213,7 @@ Other soils having:
 |                                                | Vitric                         |
 :::
 
-## Luvisols {#key-luvisols .unnumbered}
+## Luvisols {#sec-key-lv .unnumbered}
 
 Other soils having an [*argic horizon*](chapter-03.qmd#sec-argich) starting ≤ 100 cm from the mineral soil surface.
 
@@ -1254,7 +1254,7 @@ Other soils having an [*argic horizon*](chapter-03.qmd#sec-argich) starting ≤�
 |                                                 | Vitric                         |
 :::
 
-## Cambisols {#key-cambisols .unnumbered}
+## Cambisols {#sec-key-cm .unnumbered}
 
 Other soils having:
 
@@ -1314,7 +1314,7 @@ Other soils having:
 |                                                          | Turbic                         |
 :::
 
-## Fluvisols {#key-fluvisols .unnumbered}
+## Fluvisols {#sec-key-fl .unnumbered}
 
 Other soils having [*fluvic material*](chapter-03.qmd#sec-fluvicm):
 
@@ -1356,7 +1356,7 @@ Other soils having [*fluvic material*](chapter-03.qmd#sec-fluvicm):
 |                                     | Protovertic                    |
 :::
 
-## Arenosols {#key-arenosols .unnumbered}
+## Arenosols {#sec-key-ar .unnumbered}
 
 Other soils having within 100 cm of the mineral soil surface:
 
@@ -1408,7 +1408,7 @@ Arenosols may bury other soils, which can be mentioned behind the Arenosol class
 |                      | Turbic                         |
 :::
 
-## Regosols {#key-regosols .unnumbered}
+## Regosols {#sec-key-rg .unnumbered}
 
 Other soils:
 
