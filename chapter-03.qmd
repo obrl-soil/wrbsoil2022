@@ -14,7 +14,7 @@ Throughout the following text, references to the RSGs defined in [Chapter 4](cha
 
 #### General description {#sec-albich-desc}
 
-An albic horizon (from Latin *albus*, white) is a light-coloured horizon overlying an [*argic*](#sec-argich), [*natric*](#sec-natrh), [*plinthic*](#sec-plinth) or [*spodic horizon*](#sec-spodh) or forming part of a layer with [*stagnic properties*](#sec-stagnp). It has low contents of Fe and Mn (depleted from both oxidized and reduced forms) and of organic matter, and at least one of these substances has previously been present and was lost due to clay migration, podzolization, and/or redox processes caused by water stagnation.
+An albic horizon (from Latin *albus*, white) is a light-coloured horizon overlying an [*argic*](#sec-argich), [*natric*](#sec-natrich), [*plinthic*](#sec-plinth) or [*spodic horizon*](#sec-spodich) or forming part of a layer with [*stagnic properties*](#sec-stagnp). It has low contents of Fe and Mn (depleted from both oxidized and reduced forms) and of organic matter, and at least one of these substances has previously been present and was lost due to clay migration, podzolization, and/or redox processes caused by water stagnation.
 
 #### Diagnostic criteria {#sec-albich-diag}
 
@@ -23,7 +23,7 @@ An albic horizon consists of [*mineral material*](#sec-minm) and
 1.  consists of [*claric material*](#sec-claricm);\
     ***and***
 2.  one or both of the following:
-    a.  overlies an [*argic*](#sec-argich), [*natric*](#sec-natrh), [*plinthic*](#sec-plinth) or [*spodic horizon*](#sec-spodh); ***or***
+    a.  overlies an [*argic*](#sec-argich), [*natric*](#sec-natrich), [*plinthic*](#sec-plinth) or [*spodic horizon*](#sec-spodich); ***or***
     b.  forms part of a layer with [*stagnic properties*](#sec-stagnp);\
         ***and***
 3.  has a thickness of ≥ 1 cm.
@@ -34,7 +34,7 @@ Albic horizons are normally overlain by humus-enriched surface layers but may al
 
 #### Relationships with some other diagnostics {#sec-albich-reln}
 
-While the albic horizon is the result of soil-forming processes, the [*claric material*](#sec-claricm) is only defined by colour criteria, and layers with [*claric material*](#sec-claricm) may or may not have undergone soil-forming processes. The definition of the albic horizon uses the [*argic*](#sec-argich), [*natric*](#sec-natrh), [*plinthic*](#sec-plinth) or [*spodic horizon*](#sec-spodh) or the [*stagnic properties*](#sec-stagnp) as criterion. The definitions of the [*spodic horizon*](#sec-spodh) and of the [retic](#sec-reticp)and [*stagnic properties*](#sec-stagnp), in turn, use the [*claric material*](#sec-claricm) as criterion.
+While the albic horizon is the result of soil-forming processes, the [*claric material*](#sec-claricm) is only defined by colour criteria, and layers with [*claric material*](#sec-claricm) may or may not have undergone soil-forming processes. The definition of the albic horizon uses the [*argic*](#sec-argich), [*natric*](#sec-natrich), [*plinthic*](#sec-plinth) or [*spodic horizon*](#sec-spodich) or the [*stagnic properties*](#sec-stagnp) as criterion. The definitions of the [*spodic horizon*](#sec-spodich) and of the [*retic*](#sec-reticp)and [*stagnic properties*](#sec-stagnp), in turn, use the [*claric material*](#sec-claricm) as criterion.
 
 Many albic horizons that were formed by stagnant water do not show active [*reducing conditions*](#sec-reducc).
 
@@ -113,8 +113,8 @@ An argic horizon consists of [*mineral material*](#sec-minm) and:
         iv. a ratio of fine clay to total clay in the argic horizon greater by ≥ 1.2 times than the ratio in the overlying coarser-textured layer;\
             ***and***
 3.  both of the following:
-    a.  does not form part of a [*natric horizon*](#sec-natrh); ***and***
-    b.  does not form part of a [*spodic horizon*](#sec-spodh), unless illuvial clay is evidenced by one or more of the diagnostic criteria listed under 2.b;\
+    a.  does not form part of a [*natric*](#sec-natrich)[*horizon*](#sec-natrh); ***and***
+    b.  does not form part of a [*spodic horizon*](#sec-spodich), unless illuvial clay is evidenced by one or more of the diagnostic criteria listed under 2.b;\
         ***and***
 4.  has a thickness of one-tenth or more of the thickness of the overlying [*mineral material*](#sec-minm), if present, and one of the following:
     a.  ≥ 7.5 cm (if composed of lamellae: combined thickness within 50 cm of the upper limit of the uppermost lamella) if the argic horizon has a texture class of sandy loam or finer; ***or***
@@ -140,7 +140,7 @@ Argic horizons are normally situated below eluvial horizons i.e. horizons from w
 
 Some argic horizons fulfil all the diagnostic criteria of the [*ferralic horizon*](#sec-feralh). Ferralsols must have a [*ferralic horizon*](#sec-feralh) and may have an argic horizon as well, which may or may not overlap with the [*ferralic horizon*](#sec-feralh); but if an argic horizon is present, it must have in its upper 30 cm: \< 10% water-dispersible clay or a ΔpH (pH~KCl~ - pH~water~) ≥ 0 or ≥ 1.4% [*soil organic carbon*](#sec-soc).
 
-Argic horizons lack the sodium saturation characteristics of the [*natric horizon*](#sec-natrh).
+Argic horizons lack the sodium saturation characteristics of the [*natric*](#sec-natrich)[*horizon*](#sec-natrh).
 
 Argic horizons in freely drained soils of high plateaus and mountains in humid tropical and subtropical regions may occur in association with [*sombric horizons*](#sec-sombrh).
 
@@ -198,13 +198,13 @@ Accumulations of secondary carbonates, not qualifying for a calcic horizon, may 
 
 In dry regions and in the presence of sulfate-bearing soil or groundwater solutions, calcic horizons occur associated with [*gypsic horizons*](#sec-gypsih). Calcic and [*gypsic horizons*](#sec-gypsih) typically (but not always) occupy different positions in the soil profile because gypsum is more soluble than calcium carbonate, and they can normally be distinguished clearly from each other by a difference in crystal morphology. Gypsum crystals tend to be needle-shaped, usually visible to the naked eye, whereas pedogenic calcium carbonate crystals are much finer in size.
 
-### Cambic horizon {#sec-cambh}
+### Cambic horizon {#sec-cambich}
 
-#### General description {#sec-cambh-desc}
+#### General description {#sec-cambich-desc}
 
 A cambic horizon (from Latin *cambire*, to change) is a subsurface horizon showing evidence of soil formation that ranges from weak to relatively strong. The cambic horizon shows soil aggregate structure at least in half of the volume of the fine earth. If the underlying layer has the same parent material, the cambic horizon usually shows higher oxide and/or clay contents than this underlying layer and/or evidence of removal of carbonates and/or gypsum. The soil formation in a cambic horizon can also be established by contrast with one of the overlying mineral horizons that are generally richer in organic matter and therefore have a darker and/or less intense colour.
 
-#### Diagnostic criteria {#sec-cambh-diag}
+#### Diagnostic criteria {#sec-cambich-diag}
 
 A cambic horizon consists of [*mineral material*](#sec-minm) and:
 
@@ -234,17 +234,17 @@ A cambic horizon consists of [*mineral material*](#sec-minm) and:
         ii. a ratio between Fe~ox~ and Fe~dith~ of ≥ 0.1; ***and***
         iii. a Munsell colour hue of 2.5YR to 2.5Y and a chroma of \> 3, all moist and in ≥ 90% of its exposed area;\
              ***and***
-4.  does not form part of a plough layer, does not form part of an [*albic*](#sec-albich), [*anthraquic*](#sec-anthh), [*argic*](#sec-argich), [*calcic*](#sec-calch), [*duric*](#sec-durich), [*ferralic*](#sec-feralh), [*fragic*](#sec-fragh), [*gypsic*](#sec-gypsih), [*hortic*](#sec-hortih), [*hydragric*](#sec-hydrh), [*irragric*](#sec-iragh), [*limonic*](#sec-limnh), [*mollic*](#sec-mollh), [*natric*](#sec-natrh), [*nitic*](#sec-nitich), [*petrocalcic*](#sec-petroh), [*petroduric*](#sec-petdh), [*petrogypsic*](#sec-petrgh), [*petroplinthic*](#sec-petplh), [*pisoplinthic*](#sec-pisoph), [*plaggic*](#sec-plaggh), [*plinthic*](#sec-plinth), [*pretic*](#sec-preth), [*salic*](#sec-salich), [*sombric*](#sec-sombrh), [*spodic*](#sec-spodh), [*umbric*](#sec-umbrich), [*terric*](#sec-terich), [*tsitelic*](#sec-tsith) or [*vertic horizon*](#sec-verth) and does not from part of a layer with [*andic properties*](#sec-andip);\
+4.  does not form part of a plough layer, does not form part of an [*albic*](#sec-albich), [*anthraquic*](#sec-anthh), [*argic*](#sec-argich), [*calcic*](#sec-calch), [*duric*](#sec-durich), [*ferralic*](#sec-feralh), [*fragic*](#sec-fragh), [*gypsic*](#sec-gypsih), [*hortic*](#sec-hortih), [*hydragric*](#sec-hydrh), [*irragric*](#sec-iragh), [*limonic*](#sec-limnh), [*mollic*](#sec-mollh), [*natric*](#sec-natrich), [*nitic*](#sec-nitich), [*petrocalcic*](#sec-petroh), [*petroduric*](#sec-petdh), [*petrogypsic*](#sec-petrgh), [*petroplinthic*](#sec-petplh), [*pisoplinthic*](#sec-pisoph), [*plaggic*](#sec-plaggh), [*plinthic*](#sec-plinth), [*pretic*](#sec-preth), [*salic*](#sec-salich), [*sombric*](#sec-sombrh), [*spodic*](#sec-spodich), [*umbric*](#sec-umbrich), [*terric*](#sec-terich), [*tsitelic*](#sec-tsith) or [*vertic horizon*](#sec-verth) and does not from part of a layer with [*andic properties*](#sec-andip);\
     ***and***
 5.  has a thickness of ≥ 15 cm.
 
-#### Additional characteristics {#sec-cambh-info}
+#### Additional characteristics {#sec-cambich-info}
 
 In many cambic horizons, Fe oxides are formed, which give the horizon a redder hue and a higher chroma. However, if the parent material has much hematite, the formation of goethite in cooler and humid conditions usually makes it yellower.
 
 Dissolution of carbonates or gypsum is a widespread feature of cambic horizons in both humid and semi-arid environments. In many cases, this may be proven by a lesser carbonate or gypsum content compared to the underlying layer. However, in some soils, especially in arid and semi-arid areas, this lesser content is not evident. In these soils, the presence of [protocalcic](#sec-protcp) or [*protogypsic properties*](#sec-protgp) in the underlying layer is a proof that carbonates or gypsum have been dissolved in the horizon above. On the other hand, such accumulations may also be caused by ascending groundwater in soils with [*gleyic properties*](#sec-gleyicp), and [*gleyic properties*](#sec-gleyicp) have to be excluded in the underlying layer for this comparison.
 
-#### Relationships with some other diagnostics {#sec-cambh-reln}
+#### Relationships with some other diagnostics {#sec-cambich-reln}
 
 The cambic horizon can be considered the predecessor of many other diagnostic horizons, all of which have specific properties that are not or only weakly expressed in the cambic horizon -- such as illuvial or residual accumulations, removal of substances other than carbonates or gypsum, accumulation of soluble components, or the development of specific soil structure like wedge-shaped aggregates.
 
@@ -357,7 +357,7 @@ Engineers distinguish between *warm* and *cold* permafrost. *Warm* permafrost ha
 
 #### Relationships with some other diagnostics {#sec-cryich-reln}
 
-Cryic horizons may fulfil the diagnostic criteria of [*histic*](#sec-histih), [*folic*](#sec-folich) or [*spodic horizons*](#sec-spodh) and may occur in association with [*salic*](#sec-salich), [*calcic*](#sec-calch), [*mollic*](#sec-mollh) or [*umbric horizons*](#sec-umbrich). In cold arid regions, [*yermic properties*](#sec-yermicp) may be present.
+Cryic horizons may fulfil the diagnostic criteria of [*histic*](#sec-histih), [*folic*](#sec-folich) or [*spodic horizons*](#sec-spodich) and may occur in association with [*salic*](#sec-salich), [*calcic*](#sec-calch), [*mollic*](#sec-mollh) or [*umbric horizons*](#sec-umbrich). In cold arid regions, [*yermic properties*](#sec-yermicp) may be present.
 
 ### Duric horizon {#sec-durich}
 
@@ -379,7 +379,7 @@ A duric horizon consists of [*mineral material*](#sec-minm) and has:
 
 #### Field identification {#sec-durich-flid}
 
-The identification of secondary silica is described in Annex 1 ([Chapter 8.4.27](annex-02-field-guide.qmd#sec-a1-silica)). The durinodes are usually hard (high penetration resistance). Many durinodes are brittle when moist, both before and after treatment with acid.
+The identification of secondary silica is described in Annex 1 ([Chapter 8.4.27](annex-01-field-guide.qmd#sec-a1-silica)). The durinodes are usually hard (high penetration resistance). Many durinodes are brittle when moist, both before and after treatment with acid.
 
 #### Additional information {#sec-durich-info}
 
@@ -434,7 +434,7 @@ Some [*argic horizons*](#sec-argich) fulfil all the diagnostic criteria of the f
 
 Al~ox~, Fe~ox~, Si~ox~ in ferralic horizons are very low, which sets them apart from the [*nitic horizons*](#sec-nitich) and layers with [*andic*](#sec-andip) or [*vitric properties*](#sec-vitricp).
 
-Some [*cambic horizons*](#sec-cambh) have a low CEC; however, the amount of weatherable minerals or the TRB is too high for a ferralic horizon. Such horizons represent an advanced stage of weathering and a transition to the ferralic horizon.
+Some [*cambic*](#sec-cambich)[*horizons*](#sec-cambh) have a low CEC; however, the amount of weatherable minerals or the TRB is too high for a ferralic horizon. Such horizons represent an advanced stage of weathering and a transition to the ferralic horizon.
 
 Ferralic horizons in freely drained soils of high plateaus and mountains in humid tropical and subtropical regions may occur in association with [*sombric horizons*](#sec-sombrh).
 
@@ -491,7 +491,7 @@ A fragic horizon (from Latin *fragilis*, fragile) is a natural, predominantly no
 A fragic horizon consists of [*mineral material*](#sec-minm) and:
 
 1.  ≥ 60% (by volume) consist, single or in combination, of prismatic, columnar, angular or subangular blocky soil aggregates that are without coarse roots and that have an average horizontal spacing (aggregate centre to aggregate centre) of ≥ 10 cm; ***and***
-2.  shows evidence of soil formation as defined in criterion 3 of the [*cambic horizon*](#sec-cambh), at least on the faces of the soil aggregates; ***and***
+2.  shows evidence of soil formation as defined in criterion 3 of the [*cambic*](#sec-cambich)[*horizon*](#sec-cambh), at least on the faces of the soil aggregates; ***and***
 3.  the soil material in between the soil aggregates and ≥ 50% of the volume of the aggregated soil are not cemented; ***and***
 4.  the non-cemented parts do not cement upon repeated drying and wetting; ***and***
 5.  the non-cemented aggregated parts have a brittle manner of failure and a rupture-resistance class, moist, of at least firm; ***and***
@@ -513,7 +513,7 @@ The fragic horizon has little faunal activity, except occasionally between the a
 
 #### Relationships with some other diagnostics {#sec-fragh-reln}
 
-A fragic horizon may underlie (but not necessarily directly) an [*albic*](#sec-albich), [*cambic*](#sec-cambh), [*spodic*](#sec-spodh) or [*argic horizon*](#sec-argich), unless the soil has been truncated. It can overlap partly or completely with an [*argic horizon*](#sec-argich), and if so, the fragic horizon may show [*retic properties*](#sec-reticp) or [*albeluvic glossae*](#sec-albgl). Many fragic horizons have [*reducing conditions*](#sec-reducc) and [*stagnic properties*](#sec-stagnp).
+A fragic horizon may underlie (but not necessarily directly) an [*albic*](#sec-albich), [*cambic*](#sec-cambich), [*spodic*](#sec-spodich) or [*argic horizon*](#sec-argich), unless the soil has been truncated. It can overlap partly or completely with an [*argic horizon*](#sec-argich), and if so, the fragic horizon may show [*retic properties*](#sec-reticp) or [*albeluvic glossae*](#sec-albgl). Many fragic horizons have [*reducing conditions*](#sec-reducc) and [*stagnic properties*](#sec-stagnp).
 
 Contrary to fragic horizons, [*plinthic horizons*](#sec-plinth) will cement upon repeated drying and wetting. Contrary to fragic horizons, many other root-restricting horizons are cemented.
 
@@ -698,7 +698,7 @@ Limonic horizons show the typical characteristics of layers with [*gleyic proper
 
 #### Relationships with some other diagnostics {#sec-limnh-reln}
 
-Limonic horizons develop in layers with [*gleyic properties*](#sec-gleyicp) and oximorphic features. The process of groundwater ascent may be active or relict. Limonic horizons differ from [*tsitelic horizons*](#sec-tsith), which are noncemented and, if fine-textured, have a low bulk density. Limonic horizons, especially if with Mn oxides, may resemble [*spodic horizons*](#sec-spodh), but typically lack the Al translocation required for [*spodic horizons*](#sec-spodh).
+Limonic horizons develop in layers with [*gleyic properties*](#sec-gleyicp) and oximorphic features. The process of groundwater ascent may be active or relict. Limonic horizons differ from [*tsitelic horizons*](#sec-tsith), which are noncemented and, if fine-textured, have a low bulk density. Limonic horizons, especially if with Mn oxides, may resemble [*spodic horizons*](#sec-spodich), but typically lack the Al translocation required for [*spodic horizons*](#sec-spodich).
 
 ### Mollic horizon {#sec-mollh}
 
@@ -746,13 +746,13 @@ A special type of mollic horizon is the [*chernic horizon*](#sec-chernh). It req
 
 Some [*hortic*](#sec-hortih), [*irragric*](#sec-iragh), [*pretic*](#sec-preth) or [*terric horizons*](#sec-terich) may also qualify as mollic horizons.
 
-### Natric horizon {#sec-natrh}
+### Natric horizon {#sec-natrich}
 
-#### General description {#sec-natrh-desc}
+#### General description {#sec-natrich-desc}
 
 A natric horizon (from Arabic *natroon*, salt) is a dense subsurface horizon with a distinctly higher clay content than in the overlying horizon(s). It has a high content of exchangeable Na and in some cases, a relatively high content of exchangeable Mg.
 
-#### Diagnostic criteria {#sec-natrh-diag}
+#### Diagnostic criteria {#sec-natrich-diag}
 
 A natric horizon consists of [*mineral material*](#sec-minm) and:
 
@@ -784,19 +784,19 @@ A natric horizon consists of [*mineral material*](#sec-minm) and:
     a.  ≥ 7.5 cm (if composed of lamellae: combined thickness within 50 cm of the upper limit of the uppermost lamella) if the natric horizon has a texture class of sandy loam or finer; ***or***
     b.  ≥ 15 cm (if composed of lamellae: combined thickness within 50 cm of the upper limit of the uppermost lamella).
 
-#### Field identification {#sec-natrh-flid}
+#### Field identification {#sec-natrich-flid}
 
 The colour of many natric horizons ranges from brown to black, especially in the upper part, but lighter colours or yellow to red colours may also be found. The structure is usually coarse columnar or coarse prismatic, in places blocky. Rounded tops of the aggregates are characteristic. In many cases, they are covered by a whitish powder coming from the overlying eluvial horizon.
 
 Both colour and structural characteristics depend on the composition of the exchangeable cations and the soluble salt content in the underlying layers. Often, thick and dark-coloured clay coatings occur, especially in the upper part of the horizon. Many natric horizons have poor soil aggregate stability and very low permeability under wet conditions. When dry, the rupture-resistance class of the natric horizon is at least hard. Soil reaction is commonly strongly alkaline with pH~water~ ≥ 8.5.
 
-#### Additional information {#sec-natrh-info}
+#### Additional information {#sec-natrich-info}
 
 Another measure to characterize the natric horizon is the sodium adsorption ratio (SAR), which is ≥ 13. The SAR is calculated from soil solution data (Na^+^, Ca^2+^, Mg^2+^ given in mmol~c~/litre): SAR = Na^+^/\[(Ca^2+^ + Mg^2+^)/2\]^0.5^.
 
 In micromorphological studies, natric horizons have a specific fabric. The low structural stability is shown by a pore system with many vesicles and vughs. Pedofeatures consist of layered silt and clay cappings, coatings and infillings; clay intercalations and fragments of clay coatings in the groundmass, due to partial structure collapse.
 
-#### Relationships with some other diagnostics {#sec-natrh-reln}
+#### Relationships with some other diagnostics {#sec-natrich-reln}
 
 The surface horizon may be rich in organic matter, have a thickness from a few centimetres to \> 25 cm and may be a [*mollic*](#sec-mollh) or [*chernic horizon*](#sec-chernh). An [*albic horizon*](#sec-albich) may be present between the surface and the natric horizon.
 
@@ -835,7 +835,7 @@ In many nitic horizons, the CEC (by 1 *M* NH~4~OAc, pH 7) is \< 36 cmol~c~�
 
 #### Relationships with some other diagnostics {#sec-nitich-reln}
 
-The nitic horizon may be considered as a strongly expressed [*cambic horizon*](#sec-cambh) with specific properties such as a high amount of oxalate-extractable (active) iron. Nitic horizons may show clay coatings and may satisfy the requirements of an [*argic horizon*](#sec-argich), although the clay content in the nitic horizon is not much higher than in the overlying horizon. Its mineralogy (kaolinitic/\[meta\]halloysitic) sets it apart from most [*vertic horizons*](#sec-verth), which have a dominantly smectitic mineralogy and usually occur in climates with a more pronounced dry season. However, nitic horizons may grade laterally into [*vertic horizons*](#sec-verth) in lower landscape positions. The well-expressed soil structure, the high amount of oxalate-extractable iron, and in some cases, the intermediate CEC in nitic horizons set them apart from [*ferralic horizons*](#sec-feralh). Nitic horizons strongly differ from [*cohesic horizons*](#sec-cohesh), which may also be rich in clay. Nitic horizons in freely drained soils of high plateaus and mountains in humid tropical and subtropical regions may occur in association with [*sombric horizons*](#sec-sombrh).
+The nitic horizon may be considered as a strongly expressed [*cambic*](#sec-cambich)[*horizon*](#sec-cambh) with specific properties such as a high amount of oxalate-extractable (active) iron. Nitic horizons may show clay coatings and may satisfy the requirements of an [*argic horizon*](#sec-argich), although the clay content in the nitic horizon is not much higher than in the overlying horizon. Its mineralogy (kaolinitic/\[meta\]halloysitic) sets it apart from most [*vertic horizons*](#sec-verth), which have a dominantly smectitic mineralogy and usually occur in climates with a more pronounced dry season. However, nitic horizons may grade laterally into [*vertic horizons*](#sec-verth) in lower landscape positions. The well-expressed soil structure, the high amount of oxalate-extractable iron, and in some cases, the intermediate CEC in nitic horizons set them apart from [*ferralic horizons*](#sec-feralh). Nitic horizons strongly differ from [*cohesic horizons*](#sec-cohesh), which may also be rich in clay. Nitic horizons in freely drained soils of high plateaus and mountains in humid tropical and subtropical regions may occur in association with [*sombric horizons*](#sec-sombrh).
 
 ### Panpaic horizon {#sec-panph}
 
@@ -909,7 +909,7 @@ A petroduric horizon consists of [*mineral material*](#sec-minm) and:
 
 #### Field identification {#sec-petdh-flid}
 
-The identification of secondary silica is described in Annex 1 ([Chapter 8.4.27](annex-01-field-quide.qmd#sec-a1-silica)). Effervescence after applying 1 *M* HCl may take place but is mostly not as vigorous as in [*petrocalcic horizons*](#sec-petroh), which appear similar. In very dry environments, the petroduric horizons commonly are platy. In less dry environments, vertical fractures are more common. It has usually a high penetration resistance.
+The identification of secondary silica is described in Annex 1 ([Chapter 8.4.27](annex-01-field-guide.qmd#sec-a1-silica)). Effervescence after applying 1 *M* HCl may take place but is mostly not as vigorous as in [*petrocalcic horizons*](#sec-petroh), which appear similar. In very dry environments, the petroduric horizons commonly are platy. In less dry environments, vertical fractures are more common. It has usually a high penetration resistance.
 
 #### Additional information {#sec-petdh-info}
 
@@ -982,7 +982,7 @@ The ratio between Fe~ox~ and Fe~dith~ has been estimated from data given by Varg
 
 Petroplinthic horizons are closely associated with [*plinthic*](#sec-plinth) and [*pisoplinthic horizons*](#sec-pisoph) from which they develop. In some places, [*plinthic horizons*](#sec-plinth) can be traced by following petroplinthic layers that have formed, for example, in road cuts.
 
-The low ratio between Fe~ox~ and Fe~dith~ separates the petroplinthic horizon from cemented [*spodic horizons*](#sec-spodh) (Ortsteinic or Placic qualifiers), which in addition contain mostly a fair amount of organic matter. [*Limonic horizons*](#sec-limnh) also have higher ratios.
+The low ratio between Fe~ox~ and Fe~dith~ separates the petroplinthic horizon from cemented [*spodic horizons*](#sec-spodich) (Ortsteinic or Placic qualifiers), which in addition contain mostly a fair amount of organic matter. [*Limonic horizons*](#sec-limnh) also have higher ratios.
 
 ### Pisoplinthic horizon {#sec-pisoph}
 
@@ -1166,7 +1166,7 @@ A sombric horizon consists of [*mineral material*](#sec-minm) and:
 
 1.  has ≥ 0.2% [*soil organic carbon*](#sec-soc)*;* ***and***
 2.  has a content of [*soil organic carbon*](#sec-soc) ≥ 25% (relative) and ≥ 0.2% (absolute) higher than in the overlying layer; ***and***
-3.  does not have a [*lithic discontinuity*](#sec-lithd) at its upper limit and does not form part of a natric or spodic horizon; ***and***
+3.  does not have a [*lithic discontinuity*](#sec-lithd) at its upper limit and does not form part of a [*natric*](#sec-natrich) or [*spodic horizon*](#sec-spodic); ***and***
 4.  has a thickness of ≥ 10 cm.
 
 #### Field identification {#sec-sombrh-flid}
@@ -1183,15 +1183,15 @@ Second theory: The higher content of organic matter is residual. A moister clima
 
 #### Relationships with some other diagnostics {#sec-sombrh-reln}
 
-Sombric horizons may coincide with [*argic*](#sec-argich), [*cambic*](#sec-cambh), [*ferralic*](#sec-feralh) or [*nitic horizons*](#sec-nitich). Contrary to [*panpaic horizons*](#sec-panph), sombric horizons have no [*lithic discontinuity*](#sec-lithd) at their upper limit. [*Spodic horizons*](#sec-spodh) are differentiated from sombric horizons by their much higher CEC of the clay fraction. The humus-illuvial part of [*natric horizons*](#sec-natrh) has a higher clay content, a high Na saturation and a specific structure, which separates them from sombric horizons.
+Sombric horizons may coincide with [*argic*](#sec-argich), [*cambic*](#sec-cambich), [*ferralic*](#sec-feralh) or [*nitic horizons*](#sec-nitich). Contrary to [*panpaic horizons*](#sec-panph), sombric horizons have no [*lithic discontinuity*](#sec-lithd) at their upper limit. [*Spodic horizons*](#sec-spodich) are differentiated from sombric horizons by their much higher CEC of the clay fraction. The humus-illuvial part of [*natric*](#sec-natrich)[*horizons*](#sec-natrh) has a higher clay content, a high Na saturation and a specific structure, which separates them from sombric horizons.
 
-### Spodic horizon {#sec-spodh}
+### Spodic horizon {#sec-spodich}
 
-#### General description {#sec-spodh-desc}
+#### General description {#sec-spodich-desc}
 
 A spodic horizon (from Greek *spodos*, wood ash) is a subsurface horizon that contains illuvial substances. In most spodic horizons, the appearance of the upper subhorizons is characterized by dark illuvial organic matter and that of the lower subhorizons by intensely coloured illuvial Fe oxides. Some spodic horizons, however, show either little illuviation of Fe or little illuviation of organic matter. In all spodic horizons, illuviated Al can be proven analytically. The illuvial materials are characterized by a high pH-dependent charge, a relatively large surface area and an elevated water retention. An overlying eluvial horizon may intrude with tongues into the spodic horizon.
 
-#### Diagnostic criteria {#sec-spodh-diag}
+#### Diagnostic criteria {#sec-spodich-diag}
 
 A spodic horizon consists of [*mineral material*](#sec-minm) and:
 
@@ -1212,14 +1212,14 @@ A spodic horizon consists of [*mineral material*](#sec-minm) and:
     b.  ≥ 10% of the sand grains of the horizon show cracked coatings; ***or***
     c.  has a subhorizon that is cemented with a cementation class of at least weakly cemented in ≥ 50% of its horizontal extension; ***or***
     d.  has a subhorizon with an Al~ox~ + ½Fe~ox~ value of ≥ 0.5% that is ≥ 2 times that of the lowest Al~ox~ + ½Fe~ox~ value of all the mineral layers above the spodic horizon; ***and***
-6.  does not form part of a [*natric*](#sec-natrh), [*limonic*](#sec-limnh) or [*tsitelic horizon*](#sec-tsith); ***and***
+6.  does not form part of a [*natric*](#sec-natrich), [*limonic*](#sec-limnh) or [*tsitelic horizon*](#sec-tsith); ***and***
 7.  has a thickness of ≥ 2.5 cm.
 
-#### Field identification {#sec-spodh-flid}
+#### Field identification {#sec-spodich-flid}
 
 Many spodic horizons underly [*claric material*](#sec-claricm) and have brownish-black to reddish-brown colours, which often fade downwards. The shape of many spodic horizons is wavy, irregular, or broken. Spodic horizons may be (partially) cemented. Thin and relatively continuous cementations are indicated by the Placic qualifier and thicker and/or less continuous cementations by the Ortsteinic qualifier. Spodic horizons may extend further down in ribbon-like accumulations, which are not included in the calculation of the minimum thickness.
 
-#### Relationships with some other diagnostics {#sec-spodh-reln}
+#### Relationships with some other diagnostics {#sec-spodich-reln}
 
 There may be a [*hortic*](#sec-hortih), [*plaggic*](#sec-plaggh), [*terric*](#sec-terich) or [*umbric horizon*](#sec-umbrich) above the spodic horizon, with or without [*claric material*](#sec-claricm) in between.
 
@@ -1309,7 +1309,7 @@ The accumulation of ferrihydrites causes a homogeneous reddish colour and, if th
 
 #### Relationships with some other diagnostics {#sec-tsith-reln}
 
-Tsitelic horizons may resemble [*spodic horizons*](#sec-spodh) of Rustic Podzols but lack the translocation of Al that is required for [*spodic horizons*](#sec-spodh). If showing low bulk density and thixotropy, they may give the impression of [*andic properties*](#sec-andip), but they have neither a significant amount of allophanes and imogolites nor of Al-humus complexes. Contrary to most horizons with [*andic properties*](#sec-andip), tsitelic horizons show more Fe than Al in the oxalate extract. Layers with oximorphic features caused by [*gleyic properties*](#sec-gleyicp) may also look similar to tsitelic horizons. While in layers with [*gleyic properties*](#sec-gleyicp), the oxides are predominantly found at soil aggregate surfaces, the oxides in tsitelic horizons fill the entire soil matrix homogenously. Tsitelic horizons distinguish well from [*limonic horizons*](#sec-limnh), which are (at least partially) cemented.
+Tsitelic horizons may resemble [*spodic horizons*](#sec-spodich) of Rustic Podzols but lack the translocation of Al that is required for [*spodic horizons*](#sec-spodich). If showing low bulk density and thixotropy, they may give the impression of [*andic properties*](#sec-andip), but they have neither a significant amount of allophanes and imogolites nor of Al-humus complexes. Contrary to most horizons with [*andic properties*](#sec-andip), tsitelic horizons show more Fe than Al in the oxalate extract. Layers with oximorphic features caused by [*gleyic properties*](#sec-gleyicp) may also look similar to tsitelic horizons. While in layers with [*gleyic properties*](#sec-gleyicp), the oxides are predominantly found at soil aggregate surfaces, the oxides in tsitelic horizons fill the entire soil matrix homogenously. Tsitelic horizons distinguish well from [*limonic horizons*](#sec-limnh), which are (at least partially) cemented.
 
 ### Umbric horizon {#sec-umbrich}
 
@@ -1378,7 +1378,7 @@ The coefficient of linear extensibility (COLE, see Annex 2, [Chapter 9.6](annex-
 
 #### Relationships with some other diagnostics {#sec-verth-reln}
 
-Several other diagnostic horizons may also have high clay contents, e.g., the [*argic*](#sec-argich), [*natric*](#sec-natrh) and [*nitic horizon*](#sec-nitich). Most of them lack the characteristics typical for the vertic horizon. However, they may be laterally linked in the landscape with vertic horizons, the latter usually taking up the lowest position. Less pronounced swelling and shrinking of clay minerals leads to a [*protovertic horizon*](#sec-protvh).
+Several other diagnostic horizons may also have high clay contents, e.g., the [*argic*](#sec-argich), [*natric*](#sec-natrich) and [*nitic horizon*](#sec-nitich). Most of them lack the characteristics typical for the vertic horizon. However, they may be laterally linked in the landscape with vertic horizons, the latter usually taking up the lowest position. Less pronounced swelling and shrinking of clay minerals leads to a [*protovertic horizon*](#sec-protvh).
 
 ## Diagnostic properties {#sec-diagp}
 
@@ -1427,7 +1427,7 @@ Albeluvic glossae:
 
 #### Relationships with some other diagnostics {#sec-albgl-reln}
 
-Albeluvic glossae are a special case of *retic properties*. In [*retic properties*](#sec-reticp), the coarser-textured parts may be thinner and are not necessarily vertically continuous. [*Retic properties*](#sec-reticp) may also be present in [*natric horizons*](#sec-natrh) whereas albeluvic glossae are defined only in [*argic horizons*](#sec-argich). The [*argic horizon*](#sec-argich) into which the albeluvic glossae penetrate may also fulfil the diagnostic criteria of a [*fragic horizon*](#sec-fragh). In undisturbed soils, the [*argic horizon*](#sec-argich) with the albeluvic glossae is typically overlain by an [*albic*](#sec-albich) or [*cambic horizon*](#sec-cambh). However, the overlying horizons may be lost due to erosion or ploughing.
+Albeluvic glossae are a special case of *retic properties*. In [*retic properties*](#sec-reticp), the coarser-textured parts may be thinner and are not necessarily vertically continuous. [*Retic properties*](#sec-reticp) may also be present in [*natric*](#sec-natrich)[*horizons*](#sec-natrh) whereas albeluvic glossae are defined only in [*argic horizons*](#sec-argich). The [*argic horizon*](#sec-argich) into which the albeluvic glossae penetrate may also fulfil the diagnostic criteria of a [*fragic horizon*](#sec-fragh). In undisturbed soils, the [*argic horizon*](#sec-argich) with the albeluvic glossae is typically overlain by an [*albic*](#sec-albich) or [*cambic*](#sec-cambich)[*horizon*](#sec-cambh). However, the overlying horizons may be lost due to erosion or ploughing.
 
 ### Andic properties {#sec-andicp}
 
@@ -1445,7 +1445,7 @@ Andic properties require:
 
 #### Field identification {#sec-andicp-flid}
 
-Andic properties may be identified using the sodium fluoride field test of Fieldes and Perrott [-@fieldes1966]. A pH in NaF of ≥ 9.5 indicates allophane and/or organo-aluminium complexes in carbonate-free soils. The test is indicative for most layers with andic properties, except for those very rich in organic matter. However, the same reaction occurs in [*spodic horizons*](#sec-spodh) and in certain acid clays that are rich in Al-interlayered clay minerals.
+Andic properties may be identified using the sodium fluoride field test of Fieldes and Perrott [-@fieldes1966]. A pH in NaF of ≥ 9.5 indicates allophane and/or organo-aluminium complexes in carbonate-free soils. The test is indicative for most layers with andic properties, except for those very rich in organic matter. However, the same reaction occurs in [*spodic horizons*](#sec-spodich) and in certain acid clays that are rich in Al-interlayered clay minerals.
 
 Andic layers may exhibit thixotropy, i.e. the soil material changes, under pressure or by rubbing, from a plastic solid into a liquefied stage and back into the solid condition.
 
@@ -1465,15 +1465,15 @@ Uncultivated, organic matter-rich surface layers with silandic properties typica
 
 [*Vitric properties*](#sec-vitricp) are distinguished from andic properties by a lesser degree of weathering. This is evidenced by the presence of volcanic glasses and usually by a lower amount of short-range-order pedogenic minerals and/or organo-metallic complexes, as characterized by a lower amount of Al~ox~ and Fe~ox~, a higher bulk density, or a lower phosphate retention. The diagnostic criteria of the [*vitric*](#sec-vitricp) and [*andic properties*](#sec-andip) are adapted after Shoji et al. [-@shoji1996], Takahashi et al. [-@takahashi2004] and findings of the COST 622 Action [-@costassociation2004].
 
-[Spodic horizons](#sec-spodh), which also contain complexes of oxides and organic substances, can exhibit andic properties as well. Andic properties may also be present in [*chernic*](#sec-chernh), [*mollic*](#sec-mollh) or [*umbric horizons*](#sec-umbrich).
+[Spodic horizons](#sec-spodich), which also contain complexes of oxides and organic substances, can exhibit andic properties as well. Andic properties may also be present in [*chernic*](#sec-chernh), [*mollic*](#sec-mollh) or [*umbric horizons*](#sec-umbrich).
 
-### Anthric properties {#sec-andip}
+### Anthric properties {#sec-anthricp}
 
-#### General description {#sec-andip-desc}
+#### General description {#sec-anthricp-desc}
 
 Anthric properties (from Greek *anthropos*, human being) refer to human-made [*mollic*](#sec-mollh) or [*umbric horizons*](#sec-umbrich). Some of the *mollic horizons* with anthric properties are natural [*umbric horizons*](#sec-umbrich) transformed into *mollic horizons* by liming and fertilization. Thin, light-coloured or humus-poor mineral topsoil horizons may be transformed into [*umbric*](#sec-umbrich) or even [*mollic horizons*](#sec-mollh) by long-term cultivation (ploughing, liming, fertilization etc.). Another group of artificial [*mollic*](#sec-mollh) or [*umbric horizons*](#sec-umbrich) is created by ploughing organic surface layers into the mineral soil. In all these cases, the soil has very little animal activity, which is especially uncommon for soils with a [*mollic horizon*](#sec-mollh).
 
-#### Diagnostic criteria {#sec-andip-diag}
+#### Diagnostic criteria {#sec-anthricp-diag}
 
 Anthric properties:
 
@@ -1487,15 +1487,15 @@ Anthric properties:
     a.  in the lowermost 5 cm of the [*mollic*](#sec-mollh) or [*umbric horizon*](#sec-umbrich); ***or***
     b.  in a depth range of 5 cm below the plough layer, if present.
 
-#### Field identification {#sec-andip-flid}
+#### Field identification {#sec-anthricp-flid}
 
 Signs of mixing or cultivation, evidence of liming (e.g. remnants of applied lime chunks), the dark colour and the almost complete absence of traces of soil animal activity are the main criteria for recognition. Incorporated humus-richer material may be established with the naked eye, using a 10x hand lens or using thin sections, depending on the degree of fragmentation/dispersion of the humus-richer material. The incorporated humus-richer material is typically weakly bound to the humus-poorer material, which is manifested by uncoated sand grains in a darker matrix throughout the mixed layer.
 
-#### Additional information {#sec-andip-info}
+#### Additional information {#sec-anthricp-info}
 
 430 mg kg^-1^ P in the Mehlich-3 extract roughly correspond to 654 mg kg^-1^ P or 1500 mg kg^-1^ P~2~O~5~ in 1% citric acid [@kabala2018], which was the requirement in former editions of WRB. The original idea of the anthric properties is derived from Krogh & Greve [-@krogh1999].
 
-#### Relationships with some other diagnostics {#sec-andip-reln}
+#### Relationships with some other diagnostics {#sec-anthricp-reln}
 
 Anthric properties are an additional characteristic of some [*mollic*](#sec-mollh) or [*umbric horizons*](#sec-umbrich). [*Chernic horizons*](#sec-chernh) normally show a higher animal activity and do not have anthric properties.
 
@@ -1503,7 +1503,7 @@ Anthric properties are an additional characteristic of some [*mollic*](#sec-moll
 
 #### Diagnostic criteria {#sec-contr-diag}
 
-Continuous rock (from Latin *continuare*, to continue) is consolidated material, exclusive of cemented pedogenic horizons such as [*limonic*](#sec-limnh), [*petrocalcic*](#sec-petroh), [*petroduric*](#sec-petdh), [*petrogypsic*](#sec-petrgh), [*petroplinthic*](#sec-petplh) and [*spodic horizons*](#sec-spodh). Continuous rock is sufficiently consolidated to remain intact when an air-dried specimen, 25--30 mm on one side, is submerged in water for 1 hour. The material is considered continuous only if cracks occupy \< 10% (by volume) of the continuous rock, with no significant displacement of the rock having taken place.
+Continuous rock (from Latin *continuare*, to continue) is consolidated material, exclusive of cemented pedogenic horizons such as [*limonic*](#sec-limnh), [*petrocalcic*](#sec-petroh), [*petroduric*](#sec-petdh), [*petrogypsic*](#sec-petrgh), [*petroplinthic*](#sec-petplh) and [*spodic horizons*](#sec-spodich). Continuous rock is sufficiently consolidated to remain intact when an air-dried specimen, 25--30 mm on one side, is submerged in water for 1 hour. The material is considered continuous only if cracks occupy \< 10% (by volume) of the continuous rock, with no significant displacement of the rock having taken place.
 
 ### Gleyic properties {#sec-gleyicp}
 
@@ -1525,7 +1525,7 @@ Gleyic properties refer to [*mineral material*](#sec-minm), show redoximorphic f
 
 #### Field identification {#sec-gleyicp-flid}
 
-Redoximorphic features are described in Annex 1 ([Chapter 8.4.20](annex-02-field-guide.qmd#sec-a2-redox)).
+Redoximorphic features are described in Annex 1 ([Chapter 8.4.20](annex-01-field-guide.qmd#sec-a1-redox)).
 
 #### Additional information {#sec-gleyicp-info}
 
@@ -1645,30 +1645,30 @@ Reducing conditions (from Latin *reducere*, to draw back) show one or more of th
 
 #### General description {#sec-reticp-desc}
 
-Retic properties (from Latin *rete*, net) describe the interfingering of coarser-textured [*claric material*](#sec-claricm) into a finer-textured [*argic*](#sec-argich) or [*natric horizon*](#sec-natrh). The interfingering coarser-textured [*claric material*](#sec-claricm) is characterized by a partial removal of clay minerals and iron oxides. There may be also coarser-textured [*claric material*](#sec-claricm) falling from the overlying horizon into cracks in the [*argic*](#sec-argich) or [*natric horizon*](#sec-natrh). The coarser-textured [*claric material*](#sec-claricm) is found as vertical, horizontal and inclined interfingerings between soil aggregates.
+Retic properties (from Latin *rete*, net) describe the interfingering of coarser-textured [*claric material*](#sec-claricm) into a finer-textured [*argic*](#sec-argich) or [*natric horizon*](#sec-natrich). The interfingering coarser-textured [*claric material*](#sec-claricm) is characterized by a partial removal of clay minerals and iron oxides. There may be also coarser-textured [*claric material*](#sec-claricm) falling from the overlying horizon into cracks in the [*argic*](#sec-argich) or [*natric horizon*](#sec-natrich). The coarser-textured [*claric material*](#sec-claricm) is found as vertical, horizontal and inclined interfingerings between soil aggregates.
 
 #### Diagnostic criteria {#sec-reticp-diag}
 
 Retic properties refer to a combination of finer-textured parts and coarser-textured parts, both consisting of [*mineral material*](#sec-minm), within the same layer, with all of the following:
 
-1.  the finer-textured parts belong to an [*argic*](#sec-argich) or [*natric horizon*](#sec-natrh); ***and***
+1.  the finer-textured parts belong to an [*argic*](#sec-argich) or [*natric horizon*](#sec-natrich); ***and***
 2.  the coarser-textured parts consist of [*claric material*](#sec-claricm); ***and***
 3.  the finer-textured parts have, compared with the coarser-textured parts, the following Munsell colour, moist:
     a.  a hue ≥ 2.5 units redder: ***or***
     b.  a value ≥ 1 unit lower; ***or***
     c.  a chroma ≥ 1 unit higher; ***and***
-4.  the clay content of the finer-textured parts is higher compared with the coarser-textured parts, as specified for the [*argic*](#sec-argich) or [*natric horizon*](#sec-natrh), criterion 2.a; ***and***
+4.  the clay content of the finer-textured parts is higher compared with the coarser-textured parts, as specified for the [*argic*](#sec-argich) or [*natric horizon*](#sec-natrich), criterion 2.a; ***and***
 5.  the coarser-textured parts are ≥ 0.5 cm wide; ***and***
-6.  the coarser-textured parts start at the upper limit of the [*argic*](#sec-argich) or [*natric horizon*](#sec-natrh); ***and***
+6.  the coarser-textured parts start at the upper limit of the [*argic*](#sec-argich) or [*natric horizon*](#sec-natrich); ***and***
 7.  the coarser-textured parts occupy areas ≥ 10 and \< 90% in both vertical and horizontal sections, within
-    a.  the upper 30 cm of the [*argic*](#sec-argich) or [*natric horizon*](#sec-natrh); ***or***
-    b.  the entire [*argic*](#sec-argich) or [*natric horizon*](#sec-natrh),\
+    a.  the upper 30 cm of the [*argic*](#sec-argich) or [*natric horizon*](#sec-natrich); ***or***
+    b.  the entire [*argic*](#sec-argich) or [*natric horizon*](#sec-natrich),\
         whichever is thinner; ***and***
 8.  do not occur within a plough layer.
 
 #### Relationships with some other diagnostics {#sec-reticp-reln}
 
-Retic properties include the special case of [*albeluvic glossae*](#sec-albgl). The [*argic*](#sec-argich) or [*natric horizons*](#sec-natrh) that exhibit retic properties may also satisfy the requirements of a [*fragic horizon*](#sec-fragh). A layer with retic properties may also show [*stagnic properties*](#sec-stagnp) with or without [*reducing conditions*](#sec-reducc). In undisturbed soils, the [*argic*](#sec-argich) or [*natric horizon*](#sec-natrh) with the retic properties is typically overlain by an [*albic*](#sec-albich) or [*cambic horizon*](#sec-cambh). However, the overlying horizons may be lost due to erosion or ploughing.
+Retic properties include the special case of [*albeluvic glossae*](#sec-albgl). The [*argic*](#sec-argich) or [*natric horizons*](#sec-natrich) that exhibit retic properties may also satisfy the requirements of a [*fragic horizon*](#sec-fragh). A layer with retic properties may also show [*stagnic properties*](#sec-stagnp) with or without [*reducing conditions*](#sec-reducc). In undisturbed soils, the [*argic*](#sec-argich) or [*natric horizon*](#sec-natrich) with the retic properties is typically overlain by an [*albic*](#sec-albich) or [*cambic*](#sec-cambich)[*horizon*](#sec-cambh). However, the overlying horizons may be lost due to erosion or ploughing.
 
 ### Shrink-swell cracks {#sec-shrswc}
 
@@ -1700,7 +1700,7 @@ Sideralic properties occur in [*mineral material*](#sec-minm) and require:
 1.  one or both of the following:
     a.  ≥ 8% clay and a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 24 cmol~c~ kg^-1^ clay; ***or***
     b.  a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 2 cmol~c~ kg^-1^ soil; ***and***
-2.  evidence of soil formation as defined in criterion 3 of the [*cambic horizon*](#sec-cambh).
+2.  evidence of soil formation as defined in criterion 3 of the [*cambic*](#sec-cambich)[*horizon*](#sec-cambh).
 
 #### Relationships with some other diagnostics {#sec-siderp-reln}
 
@@ -1735,7 +1735,7 @@ Stagnic properties refer to [*mineral material*](#sec-minm), show redoximorphic 
 
 #### Field identification {#sec-stagnp-flic}
 
-Redoximorphic features are described in Annex 1 ([Chapter 8.4.20](annex-02-field-guide.qmd#sec-a2-redox)).
+Redoximorphic features are described in Annex 1 ([Chapter 8.4.20](annex-01-field-guide.qmd#sec-a1-redox)).
 
 #### Additional information {#sec-stagnp-info}
 
@@ -1771,7 +1771,7 @@ Takyric properties occur in depressions in arid regions, where surface water, ri
 
 #### Relationships with some other diagnostics {#sec-takyrp-reln}
 
-Takyric properties occur in association with many diagnostic horizons, the most important ones being the [*natric*](#sec-natrh), [*salic*](#sec-salich), [*gypsic*](#sec-gypsih), [*calcic*](#sec-calch) and [*cambic horizons*](#sec-cambh). The low EC and low soluble-salt content of takyric properties set them apart from the [*salic horizon*](#sec-salich).
+Takyric properties occur in association with many diagnostic horizons, the most important ones being the [*natric*](#sec-natrich), [*salic*](#sec-salich), [*gypsic*](#sec-gypsih), [*calcic*](#sec-calch) and [*cambic*](#sec-cambich)[*horizons*](#sec-cambh). The low EC and low soluble-salt content of takyric properties set them apart from the [*salic horizon*](#sec-salich).
 
 ### Vitric properties {#sec-vitricp}
 
@@ -1826,7 +1826,7 @@ If the texture is fine enough, the soil may show a polygonal network of desiccat
 
 #### Relationships with some other diagnostics {#sec-yermicp-reln}
 
-Yermic properties often occur in association with other diagnostics, characteristic for desert environments ([*salic*](#sec-salich), [*duric*](#sec-durich), [*gypsic*](#sec-gypsih), [*calcic*](#sec-calch) and [*cambic horizons*](#sec-cambh)). In very cold deserts (e.g. Antarctica), they may occur associated with [*cryic horizons*](#sec-cryich). Under these conditions, coarse cryoclastic material dominates, and there is little dust to be deflated and deposited by wind. Here, a dense pavement with varnish, ventifacts, aeolian sand layers and accumulations of soluble minerals may occur directly on loose deposits, without vesicular pores.
+Yermic properties often occur in association with other diagnostics, characteristic for desert environments ([*salic*](#sec-salich), [*duric*](#sec-durich), [*gypsic*](#sec-gypsih), [*calcic*](#sec-calch) and [*cambic*](#sec-cambich)[*horizons*](#sec-cambh)). In very cold deserts (e.g. Antarctica), they may occur associated with [*cryic horizons*](#sec-cryich). Under these conditions, coarse cryoclastic material dominates, and there is little dust to be deflated and deposited by wind. Here, a dense pavement with varnish, ventifacts, aeolian sand layers and accumulations of soluble minerals may occur directly on loose deposits, without vesicular pores.
 
 ## Diagnostic materials {#sec-diagm}
 
@@ -1916,7 +1916,7 @@ The presence of coatings around sand and coarse silt grains can be determined us
 
 #### Relationships with some other diagnostics {#sec-claricm-reln}
 
-The claric material is used as a diagnostic criterion in the definition of the [*spodic horizon*](#sec-spodh), the [*retic*](#sec-reticp) and the [*stagnic properties*](#sec-stagnp). A layer with claric material that has lost oxides and/or organic matter due to clay migration, podzolization or due to redox processes caused by stagnant water, forms an [*albic horizon*](#sec-albich).
+The claric material is used as a diagnostic criterion in the definition of the [*spodic horizon*](#sec-spodich), the [*retic*](#sec-reticp) and the [*stagnic properties*](#sec-stagnp). A layer with claric material that has lost oxides and/or organic matter due to clay migration, podzolization or due to redox processes caused by stagnant water, forms an [*albic horizon*](#sec-albich).
 
 ### Dolomitic material {#sec-dolom}
 
@@ -1940,7 +1940,7 @@ Fluvic material is [*mineral material*](#sec-minm) and:
     b.  evidenced by a layer with all of the following:
         i.  ≥ 0.2% [*soil organic carbon*](#sec-soc); ***and***
         ii. a content of [*soil organic carbon*](#sec-soc) ≥ 25% (relative) and ≥ 0.2% (absolute) higher than in the overlying layer; ***and***
-        iii. does not form part of a [*natric*](#sec-natrh) or [*spodic horizon*](#sec-spodh); ***and***
+        iii. does not form part of a [*natric*](#sec-natrich) or [*spodic horizon*](#sec-spodich); ***and***
 3.  has a single grain, a massive, a platy or a weak subangular blocky structure; ***and***
 4.  is not cemented.
 
@@ -2160,7 +2160,7 @@ Solimovic material is [*mineral material*](#sec-minm) and:
     c.  has a Munsell colour chroma of ≥ 3, moist; ***or***
     d.  contains artefacts and/or black carbon of any size; ***or***
     e.  has ≥ 100 mg kg^-1^ P in the Mehlich-3 extract; ***and***
-4.  does not form part of a diagnostic horizon other than a [*cambic*](#sec-cambh), [*chernic*](#sec-chernh), [*mollic*](#sec-mollh) or [*umbric horizon*](#sec-umbrich).
+4.  does not form part of a diagnostic horizon other than a [*cambic*](#sec-cambich), [*chernic*](#sec-chernh), [*mollic*](#sec-mollh) or [*umbric horizon*](#sec-umbrich).
 
 #### Field identification {#sec-solimvm-flid}
 
