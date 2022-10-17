@@ -16,115 +16,115 @@ Usually, only a limited number of combinations will be possible in a soil name; 
 
 ## Definitions {#sec-quals-defns}
 
-### Abruptic (ap) {#sec-ap}
+### Abruptic (ap) {#sec-ap .unnumbered}
 
 (from Latin *abruptus*, broken away): having an [*abrupt textural difference*](chapter-03.qmd#sec-abtxdf) within 100 cm of the mineral soil surface (1).
 
-#### Geoabruptic (go) {#sec-go}
+#### Geoabruptic (go) {#sec-go .unnumbered}
 
 (from Greek *gaia*, earth): having an [*abrupt textural difference*](chapter-03.qmd#sec-abtxdf) within 100 cm of the mineral soil surface that is not associated with the upper limit of an [*argic*](chapter-03.qmd#sec-argich), [*natric*](chapter-03.qmd#sec-natrh) or [*spodic horizon*](chapter-03.qmd#sec-spodh) (1).
 
-### Aceric (ae) {#sec-ae}
+### Aceric (ae) {#sec-ae .unnumbered}
 
 (from Latin *acer*, sharp): having within 100 cm of the soil surface a layer with a pH (1:1 in water) between ≥ 3.5 and \< 5 and jarosite concentrations (in [*Solonchaks*](chapter-04.qmd#sec-key-sc)only) (2).
 
-### Acric (ac) {#sec-ac}
+### Acric (ac) {#sec-ac .unnumbered}
 
 (from Latin *acer*, sharp): having an [*argic horizon*](chapter-03.qmd#sec-argich) starting ≤ 100 cm from the mineral soil surface with a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 24 cmol~c~ kg^-1^ clay in some subhorizon within 150 cm of the mineral soil surface; and having exchangeable Al \> exchangeable (Ca+Mg+K+Na) in half or more of the depth range between 50 and 100 cm of the mineral soil surface or the lower half of the mineral soil above a limiting layer starting ≤ 100 cm from the mineral soil surface, whichever is shallower (2).
 
 **Note:** Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 (Chapter 9.13).
 
-### Acroxic (ao) {#sec-ao}
+### Acroxic (ao) {#sec-ao .unnumbered}
 
 (from Latin *acer*, sharp, and Greek *oxys*, sour): having within 100 cm of the soil surface one or more layers with a combined thickness of ≥ 30 cm, and with \< 2 cmol~c~ kg^-1^ fine earth exchangeable bases (by 1 *M* NH~4~OAc, pH 7) plus exchangeable Al (by 1 *M* KCl, unbuffered) (in [*Andosols*](chapter-04.qmd#sec-key-an) only) (2).
 
-### Activic (at) {#sec-at}
+### Activic (at) {#sec-at .unnumbered}
 
 (from Latin *activus*, busy): having above a ferralic horizon a layer, ≥ 30 cm thick, with a CEC (by 1 *M* NH~4~OAc, pH 7) of ≥ 24 cmol~c~ kg^-1^ clay and \< 0.6% soil organic carbon (in [*Ferralsols*](chapter-04.qmd#sec-key-fr) only) (2).
 
-### Aeolic (ay) {#sec-ay}
+### Aeolic (ay) {#sec-ay .unnumbered}
 
-(from Greek *aiolos*, wind): having *aeolic material* (2: Ano- and Panto- only).
+(from Greek *aiolos*, wind): having [*aeolic material*](chapter-03.qmd#sec-aeolicm) (2: Ano- and Panto- only).
 
-### Albic (ab) {#sec-ab}
+### Albic (ab) {#sec-ab .unnumbered}
 
-(from Latin *albus*, white): having an *albic horizon* starting ≤ 100 cm from the mineral soil surface.
+(from Latin *albus*, white): having an [*albic horizon*](chapter-03.qmd#sec-albich) starting ≤ 100 cm from the mineral soil surface.
 
-### Alcalic (ax) {#sec-ax}
+### Alcalic (ax) {#sec-ax .unnumbered}
 
 (from Arabic *al-qali*, salt-containing ash): having:
 
--   in *Histosols*, a pH (1:1 in water) of ≥ 8.5 in the *organic material* within 50 cm of the soil surface,
+-   in [*Histosols*](chapter-04.qmd#sec-key-hs), a pH (1:1 in water) of ≥ 8.5 in the [*organic material*](chapter-03.qmd#sec-orgm) within 50 cm of the soil surface,
 -   in other soils, a pH (1:1 in water) of ≥ 8.5 in the upper 50 cm of the mineral soil surface or to a limiting layer, whichever is shallower,
 
 and fulfilling the set of diagnostic criteria of the Eutric qualifier.
 
-### Alic (al) {#sec-al}
+### Alic (al) {#sec-al .unnumbered}
 
 (from Latin *alumen*, alum): having an argic horizon starting ≤ 100 cm from the mineral soil surface with a CEC (by 1 *M* NH~4~OAc, pH 7) of ≥ 24 cmol~c~ kg^-1^ clay throughout within 150 cm of the mineral soil surface; and having exchangeable Al \> exchangeable (Ca+Mg+K+Na) in half or more of the depth range between 50 and 100 cm of the mineral soil surface or the lower half of the mineral soil above a limiting layer starting ≤ 100 cm from the mineral soil surface, whichever is shallower (2). Note: Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 (Chapter 9.13).
 
-### Aluandic (aa) {#sec-aa}
+### Aluandic (aa) {#sec-aa .unnumbered}
 
-(from Latin *alumen*, alum, and Japanese *an*, dark, and *do*, soil): having within 100 cm of the soil surface one or more layers with a combined thickness of ≥ 15 cm with andic properties and a Siox content of \< 0.6% (in [*Andosols*](chapter-04.qmd#sec-key-an) only) (2).
+(from Latin *alumen*, alum, and Japanese *an*, dark, and *do*, soil): having within 100 cm of the soil surface one or more layers with a combined thickness of ≥ 15 cm with andic properties and a Si~ox~ content of \< 0.6% (in [*Andosols*](chapter-04.qmd#sec-key-an) only) (2).
 
-### Andic (an) {#sec-an}
+### Andic (an) {#sec-an .unnumbered}
 
-(from Japanese *an*, dark, and *do*, soil): having within 100 cm of the soil surface one or more layers with andic or vitric properties with a combined thickness of ≥ 30 cm (in [*Cambisols*](chapter-04.qmd#sec-key-cm) ≥ 15 cm), of which ≥ 15 cm (in [*Cambisols*](chapter-04.qmd#sec-key-cm) ≥ 7.5 cm) have *andic properties* (2).
+(from Japanese *an*, dark, and *do*, soil): having within 100 cm of the soil surface one or more layers with andic or vitric properties with a combined thickness of ≥ 30 cm (in [*Cambisols*](chapter-04.qmd#sec-key-cm) ≥ 15 cm), of which ≥ 15 cm (in [*Cambisols*](chapter-04.qmd#sec-key-cm) ≥ 7.5 cm) have [*andic properties*](chapter-03.qmd#sec-andicp) (2).
 
-#### Protoandic (qa) {#sec-qa}
+#### Protoandic (qa) {#sec-qa .unnumbered}
 
 (from Greek *proton*, first): having within 100 cm of the soil surface one or more layers with a combined thickness of ≥ 15 cm, and with an Al~ox~ + ½Fe~ox~ value of ≥ 1.2%, a bulk density of ≤ 1.2 kg dm^-3^ and a phosphate retention of ≥ 55%; and not fulfilling the set of diagnostic criteria of the Andic qualifier (2).
 
 **Note:** For bulk density, the volume is determined after an undried soil sample has been desorbed at 33 kPa (no prior drying), and afterwards the weight is determined at 105 °C (see Annex 2, Chapter 9.5).
 
-### Anthraquic (aq) {#sec-aq}
+### Anthraquic (aq) {#sec-aq .unnumbered}
 
-(from Greek *anthropos*, human being, and Latin *aqua*, water): having an *anthraquic horizon* and no *hydragric horizon*.
+(from Greek *anthropos*, human being, and Latin *aqua*, water): having an [*anthraquic horizon*](chapter-03.qmd#sec-anthh) and no [*hydragric horizon*](chapter-03.qmd#sec-hydrh).
 
-### Anthric (ak) {#sec-ak}
+### Anthric (ak) {#sec-ak .unnumbered}
 
-(from Greek *anthropos*, human being): having *anthric properties*.
+(from Greek *anthropos*, human being): having [*anthric properties*](chapter-03.qmd#sec-anthricp).
 
-### Archaic (ah) {#sec-ah}
+### Archaic (ah) {#sec-ah .unnumbered}
 
-(from Greek *archae*, beginning): having a layer, ≥ 20 cm thick and within 100 cm of the soil surface, with ≥ 20% (by volume, weighted average, related to the whole soil) *artefacts* containing ≥ 50% (by volume, weighted average, related to the whole soil) *artefacts* produced by pre-industrial processes, e.g. ceramics, showing traces of production by hand, ceramics that can easily be broken or ceramics containing sand (in [*Technosols*](chapter-04.qmd#sec-key-tc) only) (2).
+(from Greek *archae*, beginning): having a layer, ≥ 20 cm thick and within 100 cm of the soil surface, with ≥ 20% (by volume, weighted average, related to the whole soil) [*artefacts*](chapter-03.qmd#sec-artefm) containing ≥ 50% (by volume, weighted average, related to the whole soil) [*artefacts*](chapter-03.qmd#sec-artefm) produced by pre-industrial processes, e.g. ceramics, showing traces of production by hand, ceramics that can easily be broken or ceramics containing sand (in [*Technosols*](chapter-04.qmd#sec-key-tc) only) (2).
 
-### Arenic (ar) {#sec-ar}
+### Arenic (ar) {#sec-ar .unnumbered}
 
-(from Latin *arena*, sand): consisting of *mineral material* and having, single or in combination, a texture class of sand or loamy sand
+(from Latin *arena*, sand): consisting of [*mineral material*](chapter-03.qmd#sec-minm) and having, single or in combination, a texture class of sand or loamy sand
 
 -   in one or more layers with a combined thickness of ≥ 30 cm, occurring within 100 cm of the mineral soil surface, or
 -   in the major part between the mineral soil surface and a limiting layer starting \> 10 and \< 60 cm from the mineral soil surface\
     (2; no subqualifier if a limiting layer starts \< 60 cm from the mineral soil surface).
 
-### Arenicolic (ad) {#sec-ad}
+### Arenicolic (ad) {#sec-ad .unnumbered}
 
 (related to the worm genus *Arenicola*): having ≥ 50% (by volume, weighted average) of worm holes, casts, or filled animal burrows in a layer, ≥ 20 cm thick and occurring in a tidal area.
 
-### Aric (ai) {#sec-ai}
+### Aric (ai) {#sec-ai .unnumbered}
 
 (from Latin *arare*, to plough): having a layer, ≥ 10 cm thick and starting at the soil surface, that is homogenized by ploughing and that has an abrupt or very abrupt lower boundary (2: Ano- and Panto only).
 
-### Arzic (az) {#sec-az}
+### Arzic (az) {#sec-az .unnumbered}
 
-(from Turkish *arz*, land or earth's crust): saturated by groundwater or flowing water in some layer within 50 cm of the soil surface during some time in most years and containing ≥ 15% gypsum averaged over a depth of 100 cm from the soil surface or to a limiting layer, whichever is shallower (in [Gypsisols](chapter-04.qmd#sec-key-gy) only).
+(from Turkish *arz*, land or earth's crust): saturated by groundwater or flowing water in some layer within 50 cm of the soil surface during some time in most years and containing ≥ 15% gypsum averaged over a depth of 100 cm from the soil surface or to a limiting layer, whichever is shallower (in [*Gypsisols*](chapter-04.qmd#sec-key-gy) only).
 
-### Biocrustic (bc) {#sec-bc}
+### Biocrustic (bc) {#sec-bc .unnumbered}
 
 (from Greek *bios*, life, and Latin *crusta*, crust): having a biological surface crust.
 
-### Brunic (br) {#sec-br}
+### Brunic (br) {#sec-br .unnumbered}
 
-(from Low German *brun*, brown): having a layer, ≥ 15 cm thick and starting ≤ 50 cm from the mineral soil surface, that meets diagnostic criteria 3 and 4 of the *cambic horizon* but fails diagnostic criterion 1 and does not consist of *claric material*.
+(from Low German *brun*, brown): having a layer, ≥ 15 cm thick and starting ≤ 50 cm from the mineral soil surface, that meets diagnostic criteria 3 and 4 of the [*cambic horizon*](chapter-03.qmd#sec-cambich) but fails diagnostic criterion 1 and does not consist of [*claric material*](chapter-03.qmd#sec-claricm).
 
-#### Neobrunic (nb) {#sec-nb}
+#### Neobrunic (nb) {#sec-nb .unnumbered}
 
-(from Greek *neos*, new): having a layer, ≥ 15 cm thick and starting ≤ 50 cm from the mineral soil surface, that meets diagnostic criteria 3 and 4 of the *cambic horizon* but fails diagnostic criterion 1, does not consist of *claric material* and overlies:
+(from Greek *neos*, new): having a layer, ≥ 15 cm thick and starting ≤ 50 cm from the mineral soil surface, that meets diagnostic criteria 3 and 4 of the [*cambic horizon*](chapter-03.qmd#sec-cambich) but fails diagnostic criterion 1, does not consist of [*claric material*](chapter-03.qmd#sec-claricm) and overlies:
 
--   an *albic horizon* that overlies an *argic*, a *natric* or a *spodic horizon*, *or*
--   a layer with *retic properties*.
+-   an [*albic horizon*](chapter-03.qmd#sec-albich) that overlies an [*argic*](chapter-03.qmd#sec-argich), a [*natric*](chapter-03.qmd#sec-natrich) or a [*spodic horizon*](chapter-03.qmd#sec-spodich), *or*
+-   a layer with [*retic properties*](chapter-03.qmd#sec-reticp).
 
-### Calcaric (ca) {#sec-ca}
+### Calcaric (ca) {#sec-ca .unnumbered}
 
 (from Latin *calcarius*, containing lime): having *calcaric material*
 
@@ -133,66 +133,66 @@ and fulfilling the set of diagnostic criteria of the Eutric qualifier.
 
 and not having a *calcic* or a *petrocalcic horizon* starting ≤ 100 cm from the mineral soil surface (2; no subqualifier if a limiting layer starts \< 60 cm from the mineral soil surface).
 
-### Calcic (cc) {#sec-cc}
+### Calcic (cc) {#sec-cc .unnumbered}
 
 (from Latin *calx*, lime): having a *calcic horizon* starting ≤ 100 cm from the mineral soil surface (2).
 
-#### Hypercalcic (jc) {#sec-jc}
+#### Hypercalcic (jc) {#sec-jc .unnumbered}
 
 (from Greek *hyper*, over): having a *calcic horizon* with a calcium carbonate equivalent of ≥ 50% and starting ≤ 100 cm from the mineral soil surface (2).
 
-#### Protocalcic (qc) {#sec-qc}
+#### Protocalcic (qc) {#sec-qc .unnumbered}
 
 (from Greek *proton*, first): having a layer with *protocalcic properties* starting ≤ 100 cm from the mineral soil surface and not having a *calcic* or *petrocalcic horizon* starting ≤ 100 cm from the mineral soil surface (not in [*Chernozems*](chapter-04.qmd#sec-key-ch) and [*Kastanozems*](chapter-04.qmd#sec-key-ks), where *protocalcic properties* are part of the definition) (2).
 
-### Cambic (cm) {#sec-cm}
+### Cambic (cm) {#sec-cm .unnumbered}
 
 (from Latin *cambire*, to change): having a *cambic horizon*, not consisting of *claric material* and starting ≤ 50 cm from the mineral soil surface.
 
-#### Neocambic (nc) {#sec-nc}
+#### Neocambic (nc) {#sec-nc .unnumbered}
 
 (from Greek *neos*, new): having a *cambic horizon*, not consisting of *claric material*, starting ≤ 50 cm from the mineral soil surface and overlying:
 
 -   an *albic horizon* that overlies an *argic*, a *natric* or a *spodic horizon*, *or*
 -   a layer with *retic properties*.
 
-### Capillaric (cp) {#sec-cp}
+### Capillaric (cp) {#sec-cp .unnumbered}
 
 (from Latin *capillus*, hair): having a layer, ≥ 25 cm thick and starting ≤ 75 cm from the mineral soil surface, that has so few macropores that water saturation of capillary pores causes *reducing conditions*.
 
-### Carbic (cb) {#sec-cb}
+### Carbic (cb) {#sec-cb .unnumbered}
 
 (from Latin *carbo*, coal): having a *spodic horizon* that has a Munsell colour value of ≤ 2, moist, throughout ('Humus Podzols'; in [*Podzols*](chapter-04.qmd#sec-key-pz) only).
 
-### Carbonatic (cn) {#sec-cn}
+### Carbonatic (cn) {#sec-cn .unnumbered}
 
 (from Latin *carbo*, coal): having a *salic horizon* with a soil solution (1:1 in water) with a pH of ≥ 8.5 and \[HCO~3~^-^\] \> \[SO~4~^2-^\] \> 2\*\[Cl^-^\] (in [*Solonchaks*](chapter-04.qmd#sec-key-sc) only).
 
-### Carbonic (cx) {#sec-cx}
+### Carbonic (cx) {#sec-cx .unnumbered}
 
 (from Latin *carbo*, coal): having a layer, ≥ 10 cm thick and starting ≤ 100 cm from the soil surface, with ≥ 5% organic carbon that belongs to *artefacts* (2).
 
-### Chernic (ch) {#sec-ch}
+### Chernic (ch) {#sec-ch .unnumbered}
 
 (from Russian *chorniy*, black): having a *chernic horizon* (2: Ano- and Panto- only).
 
-#### Tonguichernic (tc) {#sec-tc}
+#### Tonguichernic (tc) {#sec-tc .unnumbered}
 
 (from English *tongue*): having a *chernic horizon* that tongues into an underlying layer (2: Ano- and Panto- only; referring to the lower limit of the *chernic horizon*).
 
-### Chloridic (cl) {#sec-cl}
+### Chloridic (cl) {#sec-cl .unnumbered}
 
 (from Greek *chloros*, yellow-green): having a *salic horizon* with a soil solution (1:1 in water) with \[Cl^-^\] \> 2\* SO~4~^2-^\] \> 2\*\[HCO~3~^-^\] (in [*Solonchaks*](chapter-04.qmd#sec-key-sc) only).
 
-### Chromic (cr) {#sec-cr}
+### Chromic (cr) {#sec-cr .unnumbered}
 
 (from Greek *chroma*, colour): having between 25 and 150 cm of the mineral soil surface a layer, ≥ 30 cm thick, that shows evidence of soil formation as defined in criterion 3 of the *cambic horizon* and that has, in ≥ 90% of its exposed area, a Munsell colour hue redder than 7.5YR and a chroma of \> 4, both moist.
 
-#### Claric (cq) {#sec-cq}
+#### Claric (cq) {#sec-cq .unnumbered}
 
 (from Latin *clarus*, bright): having between 25 and 100 cm of the mineral soil surface a layer, ≥ 30 cm thick, that consists of *claric material*, and the soil does not meet the set of diagnostic criteria of the Bathyspodic qualifier (in [*Arenosols*](chapter-04.qmd#sec-key-ar) only) (2: except Epi-).
 
-#### Clayic (ce) {#sec-ce}
+#### Clayic (ce) {#sec-ce .unnumbered}
 
 (from English *clay*): consisting of mineral material and having, single or in combination, a texture class of clay, sandy clay or silty clay
 
@@ -201,25 +201,25 @@ and not having a *calcic* or a *petrocalcic horizon* starting ≤ 100 cm from 
 
 (2; no subqualifier if a limiting layer starts \< 60 cm from the mineral soil surface).
 
-#### Coarsic (cs) {#sec-cs}
+#### Coarsic (cs) {#sec-cs .unnumbered}
 
 (from English *coarse*): having \< 20% (by volume, related to the whole soil) fine earth, averaged over a depth of 75 cm from the soil surface or to a limiting layer starting \> 25 cm from the soil surface, whichever is shallower.
 
 **Note:** The volume not occupied by fine earth is occupied by coarse fragments or pores.
 
-### Cohesic (co) {#sec-co}
+### Cohesic (co) {#sec-co .unnumbered}
 
 (from Latin *cohaerere*, to stick together): having a *cohesic horizon* starting ≤ 150 cm from the mineral soil surface (2).
 
-### Columnic (cu) {#sec-cu}
+### Columnic (cu) {#sec-cu .unnumbered}
 
 (from Latin *columna*, column): having a layer, ≥ 15 cm thick and starting ≤ 100 cm from the mineral soil surface, that has a columnar structure (2).
 
-### Cordic (cd) {#sec-cd}
+### Cordic (cd) {#sec-cd .unnumbered}
 
 (from Latin *corda*, string): having two or more ribbon-like accumulations, ≥ 0.5 and \< 2.5 cm thick, that are not cemented, have higher contents of Fe oxides and/or organic matter than the directly overlying and underlying layers, do not meet the set of diagnostic criteria of the Lamellic qualifier and have a combined thickness of ≥ 2.5 cm within 50 cm; the uppermost ribbon-like accumulation starting ≤ 200 cm from the mineral soil surface (2).
 
-### Cryic (cy) {#sec-cy}
+### Cryic (cy) {#sec-cy .unnumbered}
 
 (from Greek *kryos*, cold, ice):
 
@@ -228,19 +228,19 @@ and not having a *calcic* or a *petrocalcic horizon* starting ≤ 100 cm from 
 
 (1; Epi- and Endo- only; referring to the upper limit of the *cryic horizon*).
 
-### Cutanic (ct) {#sec-ct}
+### Cutanic (ct) {#sec-ct .unnumbered}
 
 (from Latin *cutis*, skin): having an *argic* or *natric horizon* that meets diagnostic criterion 2.b of the respective horizon.
 
-### Densic (dn) {#sec-dn}
+### Densic (dn) {#sec-dn .unnumbered}
 
 (from Latin *densus*, dense): having within 50 cm of the mineral soil surface a layer with a bulk density to the extent that roots cannot enter, except along cracks.
 
-### Differentic (df) {#sec-df}
+### Differentic (df) {#sec-df .unnumbered}
 
 (from Latin *differentia*, difference): having an *argic* or *natric horizon* that meets diagnostic criterion 2.a of the respective horizon.
 
-### Dolomitic (do) {#sec-do}
+### Dolomitic (do) {#sec-do .unnumbered}
 
 (from the mineral dolomite, named after the French geoscientist *Déodat de Dolomieu*): having *dolomitic material*
 
@@ -249,26 +249,26 @@ and not having a *calcic* or a *petrocalcic horizon* starting ≤ 100 cm from 
 
 (2; no subqualifier if a limiting layer starts \< 60 cm from the mineral soil surface).
 
-### Dorsic (ds) {#sec-ds}
+### Dorsic (ds) {#sec-ds .unnumbered}
 
 (from Latin *dorsum*, at a lower position):
 
 -   in [*Cryosols*](chapter-04.qmd#sec-key-cr), the *cryic horizon* starting \> 100 cm from the soil surface,
 -   in [*Ferralsols*](chapter-04.qmd#sec-key-fr) and [*Podzols*](chapter-04.qmd#sec-key-pz), the ferralic/spodic horizon starting \> 100 cm from the mineral soil surface.
 
-### Drainic (dr) {#sec-dr}
+### Drainic (dr) {#sec-dr .unnumbered}
 
 (from French *drainer*, to drain): having been artificially drained.
 
-### Duric (du) {#sec-du}
+### Duric (du) {#sec-du .unnumbered}
 
 (from Latin *durus*, hard): having a *duric horizon* starting ≤ 100 cm from the mineral soil surface (2).
 
-#### Hyperduric (ju) {#sec-ju}
+#### Hyperduric (ju) {#sec-ju .unnumbered}
 
 (from Greek *hyper*, over): having a *duric horizon* with ≥ 50% (by volume, related to the whole soil) durinodes or fragments of a broken-up *petroduric horizon* starting ≤ 100 cm from the mineral soil surface (2).
 
-### Dystric (dy) {#sec-dy}
+### Dystric (dy) {#sec-dy .unnumbered}
 
 (from Greek *dys*, bad, and *trophae*, food):
 
@@ -279,7 +279,7 @@ and not having a *calcic* or a *petrocalcic horizon* starting ≤ 100 cm from 
         whichever is shallower,\
         that have exchangeable Al \> exchangeable (Ca+Mg+K+Na) in half or more of their combined thickness (3).
 
-#### Hyperdystric (jd) {#sec-jd}
+#### Hyperdystric (jd) {#sec-jd .unnumbered}
 
 (from Greek *hyper*, over):
 
@@ -292,7 +292,7 @@ and not having a *calcic* or a *petrocalcic horizon* starting ≤ 100 cm from 
         whichever is shallower,\
         that has exchangeable Al \> exchangeable (Ca+Mg+K+Na); and in its major part exchangeable Al \> 4 times the exchangeable (Ca+Mg+K+Na).
 
-#### Orthodystric (od) {#sec-od}
+#### Orthodystric (od) {#sec-od .unnumbered}
 
 (from Greek *orthos*, right):
 
@@ -303,33 +303,33 @@ and not having a *calcic* or a *petrocalcic horizon* starting ≤ 100 cm from 
 
 **Note:** Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 (Chapter 9.13).
 
-### Ekranic (ek) {#sec-ek}
+### Ekranic (ek) {#sec-ek .unnumbered}
 
 (from French *écran*, shield): having *technic hard material* starting ≤ 5 cm from the soil surface (in [*Technosols*](chapter-04.qmd#sec-key-tc) only).
 
-### Endic (ed) {#sec-ed}
+### Endic (ed) {#sec-ed .unnumbered}
 
 (from Greek *endon*, inside):
 
 -   in [*Cryosols*](chapter-04.qmd#sec-key-cr), the *cryic horizon* starting \> 50 and ≤ 100 cm from the soil surface,
 -   in other soils, the uppermost respective diagnostic horizon of the RSG, not meeting the set of diagnostic criteria of the Petric qualifier, starting \> 50 and ≤ 100 cm from the mineral soil surface.
 
-### Entic (et) {#sec-et}
+### Entic (et) {#sec-et .unnumbered}
 
 (from Latin *recens*, young): not having an *albic horizon* above the *spodic horizon* (in [*Podzols*](chapter-04.qmd#sec-key-pz) only).
 
-### Epic (ep) {#sec-ep}
+### Epic (ep) {#sec-ep .unnumbered}
 
 (from Greek *epi*, over):
 
 -   in [*Cryosols*](chapter-04.qmd#sec-key-cr), the *cryic horizon* starting ≤ 50 cm from the soil surface,
 -   in other soils, the uppermost respective diagnostic horizon of the RSG, not meeting the set of diagnostic criteria of the Petric qualifier, starting ≤ 50 cm from the mineral soil surface.
 
-### Escalic (ec) {#sec-ec}
+### Escalic (ec) {#sec-ec .unnumbered}
 
 (from Spanish *escala*, terrace): soil has been truncated and/or locally transported to form human-made terraces.
 
-### Eutric (eu) {#sec-eu}
+### Eutric (eu) {#sec-eu .unnumbered}
 
 (from Greek *eu*, good, and *trophae*, food):
 
@@ -340,7 +340,7 @@ and not having a *calcic* or a *petrocalcic horizon* starting ≤ 100 cm from 
         whichever is shallower,\
         that have exchangeable (Ca+Mg+K+Na) ≥ exchangeable Al in the major part of their combined thickness (3).
 
-#### Hypereutric (je) {#sec-je}
+#### Hypereutric (je) {#sec-je .unnumbered}
 
 (from Greek *hyper*, over):
 
@@ -354,7 +354,7 @@ and not having a *calcic* or a *petrocalcic horizon* starting ≤ 100 cm from 
         whichever is shallower,\
         that has exchangeable (Ca+Mg+K+Na) ≥ exchangeable Al; and in its major part exchangeable (Ca+Mg+K+Na) ≥ 4 times the exchangeable Al.
 
-#### Oligeoeutric (ol) {#sec-ol}
+#### Oligeoeutric (ol) {#sec-ol .unnumbered}
 
 (from Greek *oligos*, few): in soils other than [*Histosols*](chapter-04.qmd#sec-key-hs), having one or more layers consisting of *mineral material*,
 
@@ -364,7 +364,7 @@ and not having a *calcic* or a *petrocalcic horizon* starting ≤ 100 cm from 
     whichever is shallower,\
     that have exchangeable (Ca+Mg+K+Na) ≥ exchangeable Al and exchangeable (Ca+Mg+K+Na) \< 5 cmol~c~ kg^-1^ clay in the major part of their combined thickness (3).
 
-#### Orthoeutric (oe) {#sec-oe}
+#### Orthoeutric (oe) {#sec-oe .unnumbered}
 
 (from Greek *orthos*, right):
 
@@ -379,35 +379,35 @@ and not having a *calcic* or a *petrocalcic horizon* starting ≤ 100 cm from 
 
 **Note:** Oligoeutric has preference over Hypereutric and Orthoeutric.
 
-### Eutrosilic (es) {#sec-es}
+### Eutrosilic (es) {#sec-es .unnumbered}
 
 (from Greek *eu*, good, and *trophae*, food, and Latin *silex*, silicon-containing material): having within 100 cm of the soil surface one or more layers with a combined thickness of ≥ 30 cm with *andic properties* and a sum of exchangeable bases (by 1 *M* NH~4~OAc, pH 7) of ≥ 15 cmol~c~ kg^-1^ fine earth (in [*Andosols*](chapter-04.qmd#sec-key-an) only) (2).
 
-### Evapocrustic (ev) {#sec-ev}
+### Evapocrustic (ev) {#sec-ev .unnumbered}
 
 (from Latin *e*, out, and *vapor*, steam, and *crusta*, crust): having a saline crust, ≤ 2 cm thick, on the soil surface.
 
-### Ferralic (fl) {#sec-fl}
+### Ferralic (fl) {#sec-fl .unnumbered}
 
 (from Latin *ferrum*, iron, and *alumen*, alum): having a *ferralic horizon* starting ≤ 150 cm from the mineral soil surface (2).
 
-### Ferric (fr) {#sec-fr}
+### Ferric (fr) {#sec-fr .unnumbered}
 
 (from Latin *ferrum*, iron): having a *ferric horizon* starting ≤ 100 cm from the mineral soil surface (2).
 
-#### Manganiferric (mf) {#sec-mf}
+#### Manganiferric (mf) {#sec-mf .unnumbered}
 
 (from the chemical element *manganese*): having a *ferric horizon* starting ≤ 100 cm from the mineral soil surface in which ≥ 50% of the oximorphic features are black (2).
 
-### Ferritic (fe) {#sec-fe}
+### Ferritic (fe) {#sec-fe .unnumbered}
 
 (from Latin *ferrum*, iron): having a layer, ≥ 30 cm thick and starting ≤ 100 cm from the mineral soil surface, with ≥ 10% Fe~dith~ and not forming part of a *petroplinthic*, *pisoplinthic* or *plinthic horizon* (2).
 
-#### Hyperferritic (jf) {#sec-jf}
+#### Hyperferritic (jf) {#sec-jf .unnumbered}
 
 (from Greek *hyper*, over): having a layer, ≥ 30 cm thick and starting ≤ 100 cm from the mineral soil surface, with ≥ 30% Fe~dith~ and not forming part of a *petroplinthic*, *pisoplinthic* or *plinthic horizon* (2).
 
-### Fibric (fi) {#sec-fi}
+### Fibric (fi) {#sec-fi .unnumbered}
 
 (from Latin *fibra*, fiber): having *organic material* that, after rubbing, consists of \> two thirds (by volume, related to the fine earth plus all dead plant remnants) of recognizable dead plant tissues in
 
@@ -416,67 +416,67 @@ and not having a *calcic* or a *petrocalcic horizon* starting ≤ 100 cm from 
 
 (in [*Histosols*](chapter-04.qmd#sec-key-hs) only) (2; no subqualifier if no *organic material* is present ≥ 60 cm of the soil surface).
 
-### Floatic (ft) {#sec-ft}
+### Floatic (ft) {#sec-ft .unnumbered}
 
-(from English *to float*): having *organic material* floating on water (in [Histosols](chapter-04.qmd#sec-key-hs) only).
+(from English *to float*): having *organic material* floating on water (in [*Histosols*](chapter-04.qmd#sec-key-hs) only).
 
-### Fluvic (fv) {#sec-fv}
+### Fluvic (fv) {#sec-fv .unnumbered}
 
 (from Latin *fluvius*, river): having *fluvic material*, ≥ 25 cm thick and starting ≤ 75 cm from the mineral soil surface (2).
 
-#### Akrofluvic (kf) {#sec-kf}
+#### Akrofluvic (kf) {#sec-kf .unnumbered}
 
 (from Greek *akra*, top): having *fluvic material* from the mineral soil surface to a depth of ≥ 5 cm, but \< 25 cm thick. (In addition to the Akrofluvic subqualifier, a soil may also have the Amphifluvic, the Katofluvic or the Endofluvic subqualifier).
 
-#### Orthofluvic (of) {#sec-of}
+#### Orthofluvic (of) {#sec-of .unnumbered}
 
 (from Greek *orthos*, right): having *fluvic material*:
 
 -   from the mineral soil surface to a depth of ≥ 5 cm , *and*
 -   ≥ 25 cm thick and starting ≤ 25 cm from the mineral soil surface.
 
-#### Folic (fo) {#sec-fo}
+#### Folic (fo) {#sec-fo .unnumbered}
 
 (from Latin *folium*, leaf): having a *folic horizon* starting at the soil surface.
 
-#### Skeletofolic (ko) {#sec-ko}
+#### Skeletofolic (ko) {#sec-ko .unnumbered}
 
 (from Greek *skeletos*, dried out): having a *folic horizon* with ≥ 40% (by volume, weighted average, related to the whole soil) coarse fragments.
 
-### Fractic (fc) {#sec-fc}
+### Fractic (fc) {#sec-fc .unnumbered}
 
 (from Latin *fractus*, broken): having a layer, ≥ 10 cm thick and starting ≤ 100 cm from the mineral soil surface, consisting of a broken *petrocalcic* or *petrogypsic horizon*, the remnants of which:
 
 -   occupy ≥ 40% (by volume, related to the whole soil), *and*
 -   have an average horizontal length of \< 10 cm and/or occupy \< 80% (by volume, related to the whole soil) (2).
 
-#### Calcifractic (cf) {#sec-cf}
+#### Calcifractic (cf) {#sec-cf .unnumbered}
 
 (from Latin *calx*, lime): having a layer, ≥ 10 cm thick and starting ≤ 100 cm from the mineral soil surface, consisting of a broken *petrocalcic horizon*, the remnants of which:
 
 -   occupy ≥ 40% (by volume, related to the whole soil), *and*
 -   have an average horizontal length of \< 10 cm and/or occupy \< 80% (by volume, related to the whole soil) (2).
 
-#### Gypsofractic (gf) {#sec-gf}
+#### Gypsofractic (gf) {#sec-gf .unnumbered}
 
 (from Greek *gypsos*, gypsum): having a layer, ≥ 10 cm thick and starting ≤ 100 cm from the mineral soil surface, consisting of a broken petrogypsic horizon, the remnants of which:
 
 -   occupy ≥ 40% (by volume, related to the whole soil), *and*
 -   have an average horizontal length of \< 10 cm and/or occupy \< 80% (by volume, related to the whole soil) (2).
 
-### Fragic (fg) {#sec-fg}
+### Fragic (fg) {#sec-fg .unnumbered}
 
 (from Latin *fragilis*, fragile): having a fragic horizon starting ≤ 100 cm from the mineral soil surface (2).
 
-### Garbic (ga) {#sec-ga}
+### Garbic (ga) {#sec-ga .unnumbered}
 
 (from English *garbage*): having a layer, ≥ 20 cm thick and within 100 cm of the soil surface, with ≥ 20% (by volume, weighted average, related to the whole soil) *artefacts*, ≥ 35% (by volume, related to the whole soil) of which contain ≥ 20% organic carbon (e.g. organic waste) (in [*Technosols*](chapter-04.qmd#sec-key-tc) only) (2).
 
-#### Hypergarbic (jb) {#sec-jb}
+#### Hypergarbic (jb) {#sec-jb .unnumbered}
 
 (from Greek *hyper*, over): having a layer, ≥ 50 cm thick and within 100 cm of the soil surface, consisting of *organotechnic material* (in [*Technosols*](chapter-04.qmd#sec-key-tc) only) (2).
 
-#### Gelic (ge) {#sec-ge}
+#### Gelic (ge) {#sec-ge .unnumbered}
 
 (from Latin *gelare*, to freeze):
 
@@ -484,7 +484,7 @@ and not having a *calcic* or a *petrocalcic horizon* starting ≤ 100 cm from 
 -   not having a *cryic horizon* starting ≤ 100 cm from the soil surface, *and*
 -   not having a *cryic horizon* starting ≤ 200 cm from the soil surface with evidence of cryogenic alteration in some layer within 100 cm of the soil surface.
 
-### Gelistagnic (gt) {#sec-gt}
+### Gelistagnic (gt) {#sec-gt .unnumbered}
 
 (from Latin *gelare*, to freeze, and *stagnare*, to flood): having temporary water saturation caused by a frozen layer.
 
@@ -492,67 +492,67 @@ and not having a *calcic* or a *petrocalcic horizon* starting ≤ 100 cm from 
 
 see *Abruptic*.
 
-### Geric (gr) {#sec-gr}
+### Geric (gr) {#sec-gr .unnumbered}
 
 (from Greek *geraios*, old): having between 25 and 100 cm of the mineral soil surface a layer that has a sum of exchangeable bases (by 1 *M* NH~4~OAc, pH 7) plus exchangeable Al (by 1 *M* KCl, unbuffered) of \< 6 cmolc kg^-1^ clay (2).
 
-#### Hypergeric (jq) {#sec-jq}
+#### Hypergeric (jq) {#sec-jq .unnumbered}
 
 (from Greek *hyper*, over): having between 25 and 100 cm of the mineral soil surface a layer that has a sum of exchangeable bases (by 1 *M* NH~4~OAc, pH 7) plus exchangeable Al (by 1 *M* KCl, unbuffered) of \< 1.5 cmolc kg^-1^ clay (2).
 
-### Gibbsic (gi) {#sec-gi}
+### Gibbsic (gi) {#sec-gi .unnumbered}
 
 (from the mineral *gibbsite*, named after the US mineralogist George Gibbs): having a layer, ≥ 30 cm thick and starting ≤ 100 cm from the mineral soil surface, containing ≥ 25 g gibbsite kg^-1^ clay (2).
 
-### Gilgaic (gg) {#sec-gg}
+### Gilgaic (gg) {#sec-gg .unnumbered}
 
 (from Aboriginal Australian *gilgai*, water hole): having at the soil surface microhighs and microlows with a difference in level of ≥ 10 cm, i.e. gilgai microrelief (in [*Vertisols*](chapter-04.qmd#sec-key-vr) only).
 
-### Glacic (gc) {#sec-gc}
+### Glacic (gc) {#sec-gc .unnumbered}
 
 (from Latin *glacies*, ice): having a layer, ≥ 30 cm thick and starting ≤ 100 cm from the soil surface, containing ≥ 75% ice (by volume, related to the whole soil) (2).
 
-### Gleyic (gl) {#sec-gl}
+### Gleyic (gl) {#sec-gl .unnumbered}
 
 (from Russian folk name *gley*, wet bluish clay): having a layer, ≥ 25 cm thick and starting ≤ 75 cm from the mineral soil surface, that has *gleyic properties* throughout and *reducing conditions* in some parts of every sublayer (2).
 
-#### Inclinigleyic (iy) {#sec-iy}
+#### Inclinigleyic (iy) {#sec-iy .unnumbered}
 
 (from Latin *inclinare*, to bow): having a layer, ≥ 25 cm thick and starting ≤ 75 cm from the mineral soil, that has *gleyic properties* throughout and *reducing conditions* in some parts of every sublayer; and having a slope inclination of ≥ 5% and a subsurface water flow for some time during the year (2).
 
-#### Protogleyic (qy) {#sec-qy}
+#### Protogleyic (qy) {#sec-qy .unnumbered}
 
 (from Greek *proton*, first): having a layer, ≥ 10 cm thick and starting ≤ 75 cm from the mineral soil surface, that has *gleyic properties* throughout and *reducing conditions* in some parts of every sublayer (2).
 
-#### Relictigleyic (rl) {#sec-rl}
+#### Relictigleyic (rl) {#sec-rl .unnumbered}
 
 (from Latin *relictus*, left back): having a layer, ≥ 25 cm thick and starting ≤ 75 cm from the mineral soil surface, that meets criterion 2 of the *gleyic properties* throughout and not having *reducing conditions* (2).
 
-### Glossic (gs) {#sec-gs}
+### Glossic (gs) {#sec-gs .unnumbered}
 
 (from Greek *glossa*, tongue): having albeluvic glossae starting ≤ 100 cm from the mineral soil surface.
 
-### Greyzemic (gz) {#sec-gz}
+### Greyzemic (gz) {#sec-gz .unnumbered}
 
 (from English *grey*, and Russian *zemlya*, earth): having uncoated sand and/or coarse silt grains on soil aggregate surfaces in the lower half of a *mollic horizon*.
 
-### Grumic (gm) {#sec-gm}
+### Grumic (gm) {#sec-gm .unnumbered}
 
 (from Latin *grumus*, soil heap): having at the mineral soil surface a layer, ≥ 1 cm thick, with strong granular structure or strong angular or subangular blocky structure with an aggregate size of ≤ 1 cm, i.e. 'self-mulching' (in [*Vertisols*](chapter-04.qmd#sec-key-vr) only).
 
-### Gypsic (gy) {#sec-gy}
+### Gypsic (gy) {#sec-gy .unnumbered}
 
 (from Greek *gypsos*, gypsum): having a gypsic horizon starting ≤ 100 cm from the mineral soil surface (2).
 
-#### Hypergypsic (jg) {#sec-jg}
+#### Hypergypsic (jg) {#sec-jg .unnumbered}
 
 (from Greek *hyper*, over): having a *gypsic horizon* with a gypsum content of ≥ 50% and starting ≤ 100 cm from the mineral soil surface (2).
 
-#### Protogypsic (qq) {#sec-qq}
+#### Protogypsic (qq) {#sec-qq .unnumbered}
 
 (from Greek *proton*, first): having a layer with *protogypsic properties* starting ≤ 100 cm from the mineral soil surface and not having a *gypsic* or *petrogypsic horizon* starting ≤ 100 cm from the mineral soil surface (2).
 
-### Gypsiric (gp) {#sec-gp}
+### Gypsiric (gp) {#sec-gp .unnumbered}
 
 (from Greek *gypsos*, gypsum): having *gypsiric material*
 
@@ -561,18 +561,18 @@ see *Abruptic*.
 
 and not having a *gypsic* or *petrogypsic horizon* starting ≤ 100 cm from the mineral soil surface (2; no subqualifier if a limiting layer starts \< 60 cm from the mineral soil surface).
 
-### Haplic (ha) {#sec-ha}
+### Haplic (ha) {#sec-ha .unnumbered}
 
 (from Greek *haplous*, simple): no other principal qualifier of the respective RSG applies.
 
-### Hemic (hm) {#sec-hm}
+### Hemic (hm) {#sec-hm .unnumbered}
 
 (from Greek *hemisys*, half): having *organic material* that, after rubbing, consists of ≤ two thirds and \> one sixth (by volume, related to the fine earth plus all dead plant remnants) of recognizable dead plant tissues in
 
 -   one or more layers with a combined thickness of ≥ 30 cm within 100 cm of the soil surface, *or*
 -   the weighted average of the entire organic material if the organic material within 100 cm of the soil surface has a combined thickness of \< 60 cm (in [*Histosols*](chapter-04.qmd#sec-key-hs) only) (2; no subqualifier if no organic material is present ≥ 60 cm of the soil surface).
 
-### Histic (hi) {#sec-hi}
+### Histic (hi) {#sec-hi .unnumbered}
 
 (from Greek *histos*, tissue): having a *histic horizon* starting
 
@@ -580,7 +580,7 @@ and not having a *gypsic* or *petrogypsic horizon* starting ≤ 100 cm from th
 -   directly below a layer, \< 40 cm thick, consisting of *mulmic material*, *or*
 -   directly below a layer, \< 40 cm thick, consisting of *organic material*, that is saturated with water for \< 30 consecutive days in most years and is not drained.
 
-#### Skeletohistic (kh) {#sec-kh}
+#### Skeletohistic (kh) {#sec-kh .unnumbered}
 
 (from Greek *skeletos*, dried out): having a *histic horizon* starting
 
@@ -588,114 +588,114 @@ and not having a *gypsic* or *petrogypsic horizon* starting ≤ 100 cm from th
 -   directly below a layer, \< 40 cm thick, consisting of *mulmic material* *or*
 -   directly below a layer, \< 40 cm thick, consisting of *organic material* that is saturated with water for \< 30 consecutive days in most years and is not drained; with ≥ 40% (by volume, weighted average, related to the whole soil) coarse fragments.
 
-### Hortic (ht) {#sec-ht}
+### Hortic (ht) {#sec-ht .unnumbered}
 
 (from Latin *hortus*, garden): having a *hortic horizon* (2: Panto- only).
 
-### Humic (hu) {#sec-hu}
+### Humic (hu) {#sec-hu .unnumbered}
 
 (from Latin *humus*, earth): having ≥ 1% *soil organic carbon* as a weighted average to a depth of 50 cm from the mineral soil surface (if a limiting layer starts within the specified depth, the depth range below that contributes a 0 to the calculation of the weighted average).
 
-#### Hyperhumic (jh) {#sec-jh}
+#### Hyperhumic (jh) {#sec-jh .unnumbered}
 
 (from Greek *hyper*, over): having ≥ 5% soil organic carbon as a weighted average to a depth of 50 cm from the mineral soil surface.
 
-#### Profundihumic (dh) {#sec-dh}
+#### Profundihumic (dh) {#sec-dh .unnumbered}
 
 (from Latin *profundus*, deep): having to a depth of 100 cm from the mineral soil surface ≥ 1.4% *soil organic carbon* as a weighted average and ≥ 1% soil organic carbon throughout.
 
-### Hydragric (hg) {#sec-hg}
+### Hydragric (hg) {#sec-hg .unnumbered}
 
 (from Greek *hydor*, water, and Latin *ager*, field): having an *anthraquic horizon* and a directly underlying *hydragric horizon*, the latter starting ≤ 100 cm from the soil surface.
 
-#### Hyperhydragric (jy) {#sec-jy}
+#### Hyperhydragric (jy) {#sec-jy .unnumbered}
 
 (from Greek *hyper*, over): having an *anthraquic horizon* and a directly underlying *hydragric horizon* with a combined thickness of ≥ 100 cm.
 
-### Hydric (hy) {#sec-hy}
+### Hydric (hy) {#sec-hy .unnumbered}
 
 (from Greek *hydor*, water): having within 100 cm of the soil surface one or more layers with a combined thickness of ≥ 35 cm that have *andic properties* and a water content ≥ 70% (mass of water divided by mass of dry soil) at 1500 kPa tension, measured without previous drying of the sample (in [*Andosols*](chapter-04.qmd#sec-key-an) only) (2).
 
-### Hydrophobic (hf) {#sec-hf}
+### Hydrophobic (hf) {#sec-hf .unnumbered}
 
 (from Greek *hydor*, water, and *phobos*, fear): water-repellent, i.e. water stands on a dry soil surface for ≥ 60 seconds (in [*Arenosols*](chapter-04.qmd#sec-key-ar) only).
 
-### Hyperalic (jl) {#sec-jl}
+### Hyperalic (jl) {#sec-jl .unnumbered}
 
 (from Greek *hyper*, over, and Latin *alumen*, alum): having an *argic horizon*, starting ≤ 100 cm from the mineral soil surface, that has a silt to clay ratio of \< 0.6 and an Al saturation (effective) of ≥ 50%, throughout or to a depth of 50 cm below its upper limit, whichever is thinner (in [*Alisols*](chapter-04.qmd#sec-key-al) only).
 
-### Hyperartefactic (ja) {#sec-ja}
+### Hyperartefactic (ja) {#sec-ja .unnumbered}
 
 (from Greek *hyper*, over, and Latin *ars*, art, and *factus*, made): having ≥ 50% (by volume, weighted average, related to the whole soil) *artefacts* within 100 cm of the soil surface or to a limiting layer, whichever is shallower (in [*Technosols*](chapter-04.qmd#sec-key-tc) only).
 
-### Hypercalcic (jc)
+### Hypercalcic (jc) {.unnumbered}
 
 see *Calcic*.
 
-### Hypereutric (je)
+### Hypereutric (je) {.unnumbered}
 
 see *Eutric*.
 
-### Hypergypsic (jy)
+### Hypergypsic (jy) {.unnumbered}
 
 see *Gypsic*.
 
-### Hypernatric (jn) {#sec-jn
+### Hypernatric (jn) {.unnumbered}
 
 see *Natric*.
 
-### Hyperorganic (jo) {#sec-jo}
+### Hyperorganic (jo) {#sec-jo .unnumbered}
 
 (from Greek *hyper*, over, and *organon*, tool): having organic material ≥ 200 cm thick (in [*Histosols*](chapter-04.qmd#sec-key-hs) only).
 
-### Hypersalic (jz) {#sec-jz}
+### Hypersalic (jz) {.unnumbered}
 
 see *Salic*.
 
-### Hyperspodic (jp) {#sec-jp}
+### Hyperspodic (jp) {.unnumbered}
 
 see *Spodic*.
 
-### Immissic (im) {#sec-im}
+### Immissic (im) {#sec-im .unnumbered}
 
 (from Latin *immissus*, sent inside): having at the soil surface a layer, ≥ 10 cm thick, with ≥ 20% (by volume) sedimented dust, soot or ash that meets the diagnostic criteria of *artefacts* (2: Ano- and Panto- only).
 
-### Inclinic (ic) {#sec-ic}
+### Inclinic (ic) {#sec-ic .unnumbered}
 
 (from Latin *inclinare*, to bow): having
 
 -   a slope inclination of ≥ 5%, *and*
 -   a layer, ≥ 25 cm thick and starting ≤ 75 cm from the mineral soil surface, with *gleyic* or *stagnic properties* and a subsurface water flow for some time during the year.
 
-### Infraandic (ia) {#sec-ia}
+### Infraandic (ia) {#sec-ia .unnumbered}
 
 (from Latin *infra*, below, and Japanese *an*, dark, and *do*, soil): having a layer, ≥ 15 cm thick, that underlies a soil classified with preference according to the 'Rules for naming soils' (Chapter 2.4) and that meets diagnostic criteria 2 and 3 of the *andic properties* and fails diagnostic criterion 1.
 
-### Infraspodic (is) {#sec-is}
+### Infraspodic (is) {#sec-is .unnumbered}
 
 (from Latin *infra*, below, and Greek *spodos*, wood ash): having a layer that underlies a soil classified with preference according to the 'Rules for naming soils' (Chapter 2.4) and that meets diagnostic criteria 3 to 7 of the *spodic horizon* and fails diagnostic criterion 1 or 2 or both.
 
-### Irragric (ir) {#sec-ir}
+### Irragric (ir) {#sec-ir .unnumbered}
 
 (from Latin *irrigare*, to irrigate, and *ager*, field): having an *irragric horizon* (2: Panto- only).
 
-### Isolatic (il) {#sec-il}
+### Isolatic (il) {#sec-il .unnumbered}
 
 (from Italian *isola*, island): having, above *technic hard material*, above a geomembrane or above a continuous layer of *artefacts* starting ≤ 100 cm from the soil surface, soil material containing fine earth without any contact to other soil material containing fine earth (e.g. soils on roofs or in pots).
 
-### Isopteric (ip) {#sec-ip}
+### Isopteric (ip) {#sec-ip .unnumbered}
 
 (related to *Isoptera*, zoologic order of termites): having a layer, ≥ 30 cm thick and starting at the mineral soil surface, that is remodelled by termites, has a bulk density ≤ 1.3 kg dm^-3^ and \< 5% particles ≥ 630 μm (2: Ano- and Panto- only).
 
-### Kalaic (ka) {#sec-ka}
+### Kalaic (ka) {#sec-ka .unnumbered}
 
 (from Tamil *kalai*, art): having a layer, ≥ 10 cm thick and starting ≤ 90 cm from the soil surface, with ≥ 50% (by volume, weighted average, related to the whole soil) *artefacts* (2: Epi-, Endo- and Amphionly).
 
-#### Protokalaic (qk) {#sec-qk}
+#### Protokalaic (qk) {#sec-qk .unnumbered}
 
 (from Greek *proton*, first): having a layer, ≥ 10 cm thick and starting ≤ 90 cm from the soil surface, with ≥ 25% (by volume, weighted average, related to the whole soil) *artefacts* (2: Epi-, Endo- and Amphi- only).
 
-### Lamellic (ll) {#sec-ll}
+### Lamellic (ll) {#sec-ll .unnumbered}
 
 (from Latin *lamella*, metal blade): having two or more lamellae, ≥ 0.5 and \< 7.5 cm thick, that have one or both of the following:
 
@@ -704,59 +704,59 @@ see *Spodic*.
 
 with or without other accumulations, and that have a combined thickness of ≥ 5 cm within 50 cm; the uppermost lamella starting ≤ 100 cm from the mineral soil surface (2).
 
-#### Totilamellic (ta) {#sec-ta}
+#### Totilamellic (ta) {#sec-ta .unnumbered}
 
 (from Latin *totus*, complete): having an *argic horizon* that consists entirely of lamellae starting ≤ 100 cm from the mineral soil surface.
 
-### Lapiadic (ld) {#sec-ld}
+### Lapiadic (ld) {#sec-ld .unnumbered}
 
 (from Latin *lapis*, stone): having at the soil surface *continuous rock* that has dissolution features (rills, grooves), ≥ 20 cm deep and covering ≥ 10 and \< 50% of the surface of the *continuous rock* (in [*Leptosols*](chapter-04.qmd#sec-key-lp) only).
 
-### Laxic (la) {#sec-la}
+### Laxic (la) {#sec-la .unnumbered}
 
 (from Latin *laxus*, slack): having between 25 and 75 cm from the mineral soil surface a mineral soil layer, ≥ 20 cm thick, that has a bulk density of ≤ 0.9 kg dm^-3^.
 
 **Note:** For bulk density, the volume is determined after an undried soil sample has been desorbed at 33 kPa (no prior drying), and afterwards the weight is determined at 105 °C (see Annex 2, Chapter 9.5).
 
-### Leptic (le) {#sec-le}
+### Leptic (le) {#sec-le .unnumbered}
 
 (from Greek *leptos*, thin): having continuous rock starting ≤ 100 cm from the soil surface (1: Epi- and Endo- only).
 
-### Lignic (lg) {#sec-lg}
+### Lignic (lg) {#sec-lg .unnumbered}
 
 (from Latin *lignum*, wood): having inclusions of intact wood fragments that make up ≥ 25% of the soil volume (related to the fine earth plus all dead plant remnants), within 50 cm from the soil surface.
 
-### Limnic (lm) {#sec-lm}
+### Limnic (lm) {#sec-lm .unnumbered}
 
 (from Greek *limnae*, pool): having one or more layers with *limnic material* with a combined thickness of ≥ 10 cm within 100 cm of the soil surface (2).
 
-### Limonic (ln) {#sec-ln}
+### Limonic (ln) {#sec-ln .unnumbered}
 
 (from Greek *leimon*, meadow): having a *limonic horizon*, starting ≤ 100 cm from the soil surface (2).
 
-### Linic (lc) {#sec-lc}
+### Linic (lc) {#sec-lc .unnumbered}
 
 (from Latin *linea*, line): having a continuous, very slowly permeable to impermeable constructed geomembrane of any thickness starting ≤ 100 cm from the soil surface (1).
 
-### Lithic (li) {#sec-li}
+### Lithic (li) {#sec-li .unnumbered}
 
 (from Greek *lithos*, stone): having *continuous rock* starting ≤ 10 cm from the soil surface (in [*Leptosols*](chapter-04.qmd#sec-key-lp) only).
 
-#### Nudilithic (nt) {#sec-nt}
+#### Nudilithic (nt) {#sec-nt .unnumbered}
 
 (from Latin *nudus*, naked): having *continuous rock* at the soil surface (in [*Leptosols*](chapter-04.qmd#sec-key-lp) only).
 
-### Litholinic (lh) {#sec-lh}
+### Litholinic (lh) {#sec-lh .unnumbered}
 
 (from Greek *lithos*, stone, and Latin *linea*, line): having a layer, ≥ 2 and ≤ 20 cm thick and starting ≤ 150 cm from the mineral soil surface, that has ≥ 40% (by volume, related to the whole soil) coarse fragments and in the layers above and below \< 10% (by volume, related to the whole soil) coarse fragments (*stone line*) (1, referring to the upper limit of the layer).
 
-### Lixic (lx) {#sec-lx}
+### Lixic (lx) {#sec-lx .unnumbered}
 
 (from Latin *lixivia*, washed-out substances): having an *argic horizon* starting ≤ 100 cm from the mineral soil surface with a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 24 cmol~c~ kg^-1^ clay in some subhorizon within 150 cm of the mineral soil surface; and having exchangeable Al ≤ exchangeable (Ca+Mg+K+Na) in half or more of the depth range between 50 and 100 cm of the mineral soil surface or the lower half of the mineral soil above a limiting layer starting ≤ 100 cm from the mineral soil surface, whichever is shallower (2).
 
 **Note:** Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 (Chapter 9.13).
 
-### Loamic (lo) {#sec-lo}
+### Loamic (lo) {#sec-lo .unnumbered}
 
 (from English *loam*): consisting of *mineral material* and having, single or in combination, a texture class of loam, sandy loam, clay loam, sandy clay loam or silty clay loam
 
@@ -765,13 +765,13 @@ with or without other accumulations, and that have a combined thickness of ≥ 
 
 (2; no subqualifier if a limiting layer starts \< 60 cm from the mineral soil surface).
 
-### Luvic (lv) {#sec-lv}
+### Luvic (lv) {#sec-lv .unnumbered}
 
 (from Latin *eluere*, to wash): having an *argic horizon* starting ≤ 100 cm from the mineral soil surface with a CEC (by 1 *M* NH~4~OAc, pH 7) of ≥ 24 cmol~c~ kg^-1^ clay throughout within 150 cm of the mineral soil surface; and having exchangeable Al ≤ exchangeable (Ca+Mg+K+Na) in half or more of the depth range between 50 and 100 cm of the mineral soil surface or the lower half of the mineral soil above a limiting layer starting ≤ 100 cm from the mineral soil surface, whichever is shallower (2).
 
 **Note:** Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 (Chapter 9.13).
 
-### Magnesic (mg) {#sec-mg}
+### Magnesic (mg) {#sec-mg .unnumbered}
 
 (from the chemical element *magnesium*): having an exchangeable Ca to Mg ratio of \< 1
 
@@ -780,7 +780,7 @@ with or without other accumulations, and that have a combined thickness of ≥ 
 
 (2; no subqualifier if a limiting layer starts \< 60 cm from the mineral soil surface).
 
-#### Hypermagnesic (jm) {#sec-jm}
+#### Hypermagnesic (jm) {#sec-jm .unnumbered}
 
 (from Greek *hyper*, over): having an exchangeable Ca to Mg ratio of \< 0.1
 
@@ -789,7 +789,7 @@ with or without other accumulations, and that have a combined thickness of ≥ 
 
 (2; no subqualifier if a limiting layer starts \< 60 cm from the mineral soil surface).
 
-### Mawic (mw) {#sec-mw}
+### Mawic (mw) {#sec-mw .unnumbered}
 
 (from Kiswahili *mawe*, stones): having a layer of coarse fragments that, together with overlying *organic material*, if present, starts at the soil surface and has a thickness of
 
@@ -798,50 +798,50 @@ with or without other accumulations, and that have a combined thickness of ≥ 
 
 and the major part of the interstices between the coarse fragments is filled with *organic material* and the remaining interstices, if present, are void (in [*Histosols*](chapter-04.qmd#sec-key-hs) only) (1: Epi- and Endo- only; referring to the upper limit of the layer of coarse fragments).
 
-### Mazic (mz) {#sec-mz}
+### Mazic (mz) {#sec-mz .unnumbered}
 
 (from Spanish *maza*, cudgel): having a massive structure and a rupture-resistance class of at least hard in the upper 20 cm of the mineral soil (in [*Vertisols*](chapter-04.qmd#sec-key-vr) only).
 
-### Mineralic (mi) {#sec-mi}
+### Mineralic (mi) {#sec-mi .unnumbered}
 
 (from Celtic *mine*, mineral): having, within 100 cm of the soil surface, one or more layers of *mineral material*, not consisting of *mulmic material*, with a combined thickness of ≥ 20 cm, above or in between layers of *organic material* (in [*Histosols*](chapter-04.qmd#sec-key-hs) only) (2: Epi-, Endo-, Amphi- and Poly- only).
 
-#### Akromineralic (km) {#sec-km}
+#### Akromineralic (km) {#sec-km .unnumbered}
 
 (from Greek *akra*, top): having mineral material, ≥ 10 cm thick, not consisting of *mulmic material* and starting at the soil surface, but the layers of *mineral material*, not consisting of *mulmic material*, above or in between layers of *organic material* have a combined thickness of \< 20 cm (in [*Histosols*](chapter-04.qmd#sec-key-hs) only).
 
-#### Orthomineralic (oi) {#sec-oi}
+#### Orthomineralic (oi) {#sec-oi .unnumbered}
 
 (from Greek *orthos*, right): having:
 
 -   *mineral material*, ≥ 10 cm thick, not consisting of *mulmic material* and starting at the soil surface, *and*
 -   within 100 cm of the soil surface, one or more layers of *mineral material*, not consisting of *mulmic material*, with a combined thickness of ≥ 20 cm, above or in between layers of *organic material* (in [*Histosols*](chapter-04.qmd#sec-key-hs) only) (2: Epi-, Endo-, Amphi- and Poly- only).
 
-### Mochipic (mc) {#sec-mc}
+### Mochipic (mc) {#sec-mc .unnumbered}
 
 (from Nahuatl *mochipa*, always): having a layer with *stagnic properties*, ≥ 25 cm thick and within 100 cm of the mineral soil surface, that is water-saturated for ≥ 300 cumulative days in most years.
 
-### Mollic (mo) {#sec-mo}
+### Mollic (mo) {#sec-mo .unnumbered}
 
 (from Latin *mollis*, soft): having a *mollic horizon* (2: Ano- and Panto- only).
 
-#### Anthromollic (am) {#sec-am}
+#### Anthromollic (am) {#sec-am .unnumbered}
 
 (from Greek *anthropos*, human being): having a *mollic horizon* and *anthric properties* (2: Ano- and Panto- only).
 
-#### Somerimollic (sm) {#sec-sm}
+#### Somerimollic (sm) {#sec-sm .unnumbered}
 
 (from Spanish *somero*, superficial): having a *mollic horizon*, \< 20 cm thick.
 
-#### Tonguimollic (tm) {#sec-tm}
+#### Tonguimollic (tm) {#sec-tm .unnumbered}
 
 (from English *tongue*): having a *mollic horizon* that tongues into an underlying layer (2: Ano- and Panto- only; referring to the *mollic horizon*, not to the tongues).
 
-### Mulmic (mm) {#sec-mm}
+### Mulmic (mm) {#sec-mm .unnumbered}
 
 (from German *mulm*, powdery detritus): having a layer, ≥ 10 cm thick, consisting of *mulmic material* and starting at the mineral soil surface.
 
-### Murshic (mh) {#sec-mh}
+### Murshic (mh) {#sec-mh .unnumbered}
 
 (from Polish *mursz*, decay): having a drained *histic horizon*, ≥ 20 cm thick, and starting
 
@@ -858,272 +858,272 @@ and having a bulk density of ≥ 0.2 kg dm^-3^ and one or both of the followi
 
 **Note:** For bulk density, the volume is determined after an undried soil sample has been desorbed at 33 kPa (no prior drying), and afterwards the weight is determined at 105 °C (see Annex 2, Chapter 9.5).
 
-### Muusic (mu) {#sec-mu}
+### Muusic (mu) {#sec-mu .unnumbered}
 
 (from Sakha *muus*, ice): having *organic material* starting at the soil surface that directly overlies ice (in [*Histosols*](chapter-04.qmd#sec-key-hs) only) (1: Epi- and Endo- only; referring to the upper limit of the ice).
 
-### Naramic (nr) {#sec-nr}
+### Naramic (nr) {#sec-nr .unnumbered}
 
 (from Hindi, *naram*, soft):
 
 -   in *Gypsisols*: having a *gypsic horizon* above a *petrogypsic horizon* that starts ≤ 100 cm from the mineral soil surface (2).
 -   in *Calcisols*: having a *calcic horizon* above a *petrocalcic horizon* that starts ≤ 100 cm from the mineral soil surface (2).
 
-### Natric (na) {#sec-na}
+### Natric (na) {#sec-na .unnumbered}
 
 (from Arabic *natroon*, salt): having a *natric horizon* starting ≤ 100 cm from the mineral soil surface (2).
 
-#### Hypernatric (jn) {#sec-jn}
+#### Hypernatric (jn) {#sec-jn .unnumbered}
 
 (from Greek *hyper*, over): having a *natric horizon* with an exchangeable Na percentage (ESP) of ≥ 15 throughout the entire natric horizon or within its upper 40 cm, whichever is thinner.
 
-#### Nudinatric (nn) {#sec-nn}
+#### Nudinatric (nn) {#sec-nn .unnumbered}
 
 (from Latin *nudus*, naked): having a *natric horizon* starting at the mineral soil surface.
 
-### Nechic (ne) {#sec-ne}
+### Nechic (ne) {#sec-ne .unnumbered}
 
 (from Amharic *nech*, white): having a pH~water~ of \< 5 and uncoated mineral grains of sand and/or coarse silt size in a darker matrix somewhere within 5 cm of the mineral soil surface and no *spodic horizon* starting ≤ 200 cm from the mineral soil surface.
 
-### Neocambic (nc)
+### Neocambic (nc) {.unnumbered}
 
 see *Cambic*.
 
-### Nitic (ni) {#sec-ni}
+### Nitic (ni) {#sec-ni .unnumbered}
 
 (from Latin *nitidus*, shiny): having a *nitic horizon* starting ≤ 100 cm from the mineral soil surface. (2)
 
-### Novic (nv) {#sec-nv}
+### Novic (nv) {#sec-nv .unnumbered}
 
 (from Latin *novus*, new): having a layer, ≥ 5 and \< 50 cm thick, overlying a buried soil that is classified with preference according to the 'Rules for naming soils' (Chapter 2.4).
 
-#### Areninovic (aj) {#sec-aj}
+#### Areninovic (aj) {#sec-aj .unnumbered}
 
 (from Latin *arena*, sand): having a layer, ≥ 5 and \< 50 cm thick, that has, single or in combination, a texture class of sand or loamy sand in its major part, overlying a buried soil that is classified with preference according to the 'Rules for naming soils' (Chapter 2.4).
 
-#### Clayinovic (cj) {#sec-cj}
+#### Clayinovic (cj) {#sec-cj .unnumbered}
 
 (from English *clay*): having a layer, ≥ 5 and \< 50 cm thick, that has, single or in combination, a texture class of clay, sandy clay or silty clay in its major part, overlying a buried soil that is classified with preference according to the 'Rules for naming soils' (Chapter 2.4).
 
-#### Loaminovic (lj) {#sec-lj}
+#### Loaminovic (lj) {#sec-lj .unnumbered}
 
 (from English *loam*): having a layer, ≥ 5 and \< 50 cm thick, that has, single or in combination, a texture class of loam, sandy loam, clay loam, sandy clay loam or silty clay loam in its major part, overlying a buried soil that is classified with preference according to the 'Rules for naming soils' (Chapter 2.4).
 
-#### Siltinovic (sj) {#sec-sj}
+#### Siltinovic (sj) {#sec-sj .unnumbered}
 
 (from English *silt*): having a layer, ≥ 5 and \< 50 cm thick, that has, single or in combination, a texture class of silt or silt loam in its major part, overlying a buried soil that is classified with preference according to the 'Rules for naming soils' (Chapter 2.4).
 
 Combinations possible to indicate the deposited material (see Chapter 2.4).
 
-### Nudiargic (ng) {#sec-ng}
+### Nudiargic (ng) {#sec-ng .unnumbered}
 
 (from Latin *nudus*, naked, and *argilla*, white clay): having an *argic horizon* starting at the mineral soil surface.
 
-### Nudilithic (nt)
+### Nudilithic (nt) {.unnumbered}
 
 see *Lithic*.
 
-### Nudinatric (nn)
+### Nudinatric (nn) {.unnumbered}
 
 see *Natric*.
 
-### Ochric (oh) {#sec-oh}
+### Ochric (oh) {#sec-oh .unnumbered}
 
 (from Greek *ochros*, pale): having ≥ 0.2% *soil organic carbon* (weighted average) in the upper 10 cm of the mineral soil; and not having a *mollic* or *umbric horizon* and not meeting the set of diagnostic criteria of the Humic qualifier.
 
-### Ombric (om) {#sec-om}
+### Ombric (om) {#sec-om .unnumbered}
 
 (from Greek *ombros*, rain): having a *histic horizon*, the upper ≥ 20 cm or at least the upper half of which, whichever is shallower, are saturated predominantly with rainwater (in [*Histosols*](chapter-04.qmd#sec-key-hs) only).
 
-### Ornithic (oc) {#sec-oc}
+### Ornithic (oc) {#sec-oc .unnumbered}
 
 (from Greek *ornis*, bird): having a layer, ≥ 15 cm thick, with *ornithogenic material* starting ≤ 50 cm from the soil surface (2).
 
-### Orthofluvic (of)
+### Orthofluvic (of) {.unnumbered}
 
 see *Fluvic*.
 
-### Ortsteinic (os) {#sec-os}
+### Ortsteinic (os) {#sec-os .unnumbered}
 
 (from Old Saxonian *arut*, hard): having a *spodic horizon* that has a subhorizon that is cemented ('ortstein') with a cementation class of at least moderately cemented in ≥ 50% of its horizontal extension and that does not meet the set of diagnostic criteria of the Placic qualifier (in [*Podzols*](chapter-04.qmd#sec-key-pz) only).
 
-### Oxyaquic (oa) {#sec-oa}
+### Oxyaquic (oa) {#sec-oa .unnumbered}
 
 (from Greek *oxys*, sour, and Latin *aqua*, water): having a layer, ≥ 25 cm thick and starting ≤ 75 cm from the mineral soil surface, that is saturated with water during a period of ≥ 20 consecutive days; and not having *gleyic properties* and not having *stagnic properties* in any layer within 100 cm of the mineral soil surface (2).
 
-### Oxygleyic (oy) {#sec-oy}
+### Oxygleyic (oy) {#sec-oy .unnumbered}
 
 (from Greek oxys, *sour*, and Russian folk name *gley*, wet bluish clay): not having, within 100 cm of the mineral soil surface, a layer that meets diagnostic criterion 1 of the *gleyic properties* (in [*Gleysols*](chapter-04.qmd#sec-key-gl) only).
 
-### Pachic (ph) {#sec-ph}
+### Pachic (ph) {#sec-ph .unnumbered}
 
 (from Greek *pachys*, thick): having a *chernic*, *mollic* or *umbric horizon* ≥ 50 cm thick.
 
-### Panpaic (pb) {#sec-pb}
+### Panpaic (pb) {#sec-pb .unnumbered}
 
 (from Quechua *p'anpay*, to bury): having a *panpaic horizon* starting ≤ 100 cm from the mineral soil surface (1, referring to the upper limit of the *panpaic horizon*).
 
-### Pellic (pe) {#sec-pe}
+### Pellic (pe) {#sec-pe .unnumbered}
 
 (from Greek *pellos*, dusty): having in the upper 30 cm of the mineral soil a Munsell colour value of ≤ 3 and a chroma of ≤ 2, both moist (in [*Vertisols*](chapter-04.qmd#sec-key-vr) only).
 
-### Pelocrustic (p) {#sec-p}
+### Pelocrustic (p) {#sec-p .unnumbered}
 
 (from Greek *pelos*, clay, and Latin *crusta*, crust): having a permanent physical surface crust with ≥ 30% clay (in [*Vertisols*](chapter-04.qmd#sec-key-vr) only).
 
-### Petric (pt) {#sec-pt}
+### Petric (pt) {#sec-pt .unnumbered}
 
 (from Greek *petros*, rock): having the cemented diagnostic horizon of the respective RSG, starting ≤ 100 cm from the mineral soil surface (1: Epi- and Endo- only).
 
-#### Nudipetric (np) {#sec-np}
+#### Nudipetric (np) {#sec-np .unnumbered}
 
 (from Latin *nudus*, naked): having the cemented diagnostic horizon of the respective RSG, starting at the mineral soil surface.
 
-### Petrocalcic (pc) {#sec-pc}
+### Petrocalcic (pc) {#sec-pc .unnumbered}
 
 (from Greek *petros*, rock, and Latin *calx*, lime): having a *petrocalcic horizon* starting ≤ 100 cm from the mineral soil surface (2).
 
-### Petroduric (pd) {#sec-pd}
+### Petroduric (pd) {#sec-pd .unnumbered}
 
 (from Greek *petros*, rock, and Latin *durus*, hard): having a *petroduric horizon* starting ≤ 100 cm from the mineral soil surface (2).
 
-### Petrogypsic (pg) {#sec-pg}
+### Petrogypsic (pg) {#sec-pg .unnumbered}
 
 (from Greek *petros*, rock, and *gypsos*, gypsum): having a *petrogypsic horizon* starting ≤ 100 cm from the mineral soil surface (2).
 
-### Petroplinthic (pp) {#sec-pp}
+### Petroplinthic (pp) {#sec-pp .unnumbered}
 
 (from Greek *petros*, rock, and *plinthos*, brick): having a *petroplinthic horizon* starting ≤ 100 cm from the mineral soil surface (2).
 
-### Petrosalic (ps) {#sec-ps}
+### Petrosalic (ps) {#sec-ps .unnumbered}
 
 (from Greek *petros*, rock, and Latin *sal*, salt): having a layer, ≥ 10 cm thick and within 100 cm of the mineral soil surface, which is cemented by salts more soluble than gypsum (2).
 
-### Pisoplinthic (px) {#sec-px}
+### Pisoplinthic (px) {#sec-px .unnumbered}
 
 (from Latin *pisum*, pea, and Greek *plinthos*, brick): having a *pisoplinthic horizon* starting ≤ 100 cm from the mineral soil surface (2).
 
-### Placic (pi) {#sec-pi}
+### Placic (pi) {#sec-pi .unnumbered}
 
 (from Greek *plax*, flat stone): having a layer, ≥ 0.1 and \< 2.5 cm thick and within 100 cm of the mineral soil surface, that is cemented, with a cementation class of at least weakly cemented, by Fe oxides, with or without other cementing agents, and is continuous to the extent that vertical fractures, if present, have an average horizontal spacing of ≥ 10 cm and occupy \< 20% (by volume, related to the whole soil) (2: Epi-, Endo- and Amphi- only).
 
-### Plaggic (pa) {#sec-pa}
+### Plaggic (pa) {#sec-pa .unnumbered}
 
 (from Low German *plaggen*, sod): having a *plaggic horizon* (2: Panto- only).
 
-### Plinthic (pl) {#sec-pl}
+### Plinthic (pl) {#sec-pl .unnumbered}
 
 (from Greek *plinthos*, brick): having a *plinthic horizon* starting ≤ 100 cm from the mineral soil surface (2).
 
-### Posic (po) {#sec-po}
+### Posic (po) {#sec-po .unnumbered}
 
 (from Latin *positivus*, given): having layer, ≥ 30 cm thick and starting ≤ 100 cm from the mineral soil surface, that has a zero or positive charge (pH~KCl~ - pH~water~ ≥ 0, both in 1:1 solution) (2).
 
-### Pretic (pk) {#sec-pk}
+### Pretic (pk) {#sec-pk .unnumbered}
 
 (from Portuguese *preto*, black): having a *pretic horizon* (2: Panto- only).
 
-### Profondic (pn) {#sec-pn}
+### Profondic (pn) {#sec-pn .unnumbered}
 
 (from French *profond*, deep): having an *argic horizon*, in which the clay content does not decrease by ≥ 20% (relative) from its maximum within 150 cm of the mineral soil surface, throughout.
 
-### Protic (pr) {#sec-pr}
+### Protic (pr) {#sec-pr .unnumbered}
 
 (from Greek *proton*, first): showing no soil horizon development, with the exception of a *cryic horizon*, which may be present.
 
-### Protoandic (qa)
+### Protoandic (qa) {.unnumbered}
 
 see *Andic*.
 
-### Protoargic (qg) {#sec-qg}
+### Protoargic (qg) {#sec-qg .unnumbered}
 
 (from Greek *proton*, first, and Latin *argilla*, white clay): having an absolute clay increase of ≥ 4% from one layer to the directly underlying layer, within 100 cm of the mineral soil surface (in [*Arenosols*](chapter-04.qmd#sec-key-ar) only) (2).
 
-### Protocalcic (qc)
+### Protocalcic (qc) {.unnumbered}
 
 see *Calcic*.
 
-### Protospodic (qp) {#sec-qp}
+### Protospodic (qp) {.unnumbered}
 
 see *Spodic*.
 
-### Protovertic (qv) {#sec-qv}
+### Protovertic (qv) {.unnumbered}
 
 see *Vertic*.
 
-### Puffic (pu) {#sec-pu}
+### Puffic (pu) {#sec-pu .unnumbered}
 
 (from English *to puff*): having a chemical surface crust formed by readily soluble salts *(*in [*Solonchaks*](chapter-04.qmd#sec-key-sc) only).
 
-### Pyric (py) {#sec-py}
+### Pyric (py) {#sec-py .unnumbered}
 
 (from Greek *pyr*, fire): having within 100 cm of the soil surface one or more layers with a combined thickness of ≥ 10 cm with ≥ 5% (by exposed area, related to the fine earth plus black carbon of any size) visible black carbon and not forming part of a *pretic horizon* (2).
 
-### Raptic (rp) {#sec-rp}
+### Raptic (rp) {#sec-rp .unnumbered}
 
 (from Latin *raptus*, broken): having a *lithic discontinuity* at some depth ≤ 100 cm from the mineral soil surface, that is not related to *fluvic material* and not to *solimovic material* (1).
 
-### Reductaquic (ra) {#sec-ra}
+### Reductaquic (ra) {#sec-ra .unnumbered}
 
 (from Latin *reductus*, drawn back, and *aqua*, water): having above a *cryic horizon* a layer, ≥ 25 cm thick and starting ≤ 75 cm from the soil surface, that is saturated with water during the thawing period and that has at some time of the year *reducing conditions* (in [*Cryosols*](chapter-04.qmd#sec-key-cr) only) (2).
 
-### Reductic (rd) {#sec-rd}
+### Reductic (rd) {#sec-rd .unnumbered}
 
 (from Latin *reductus*, drawn back): having *reducing conditions* in ≥ 25% (by volume) within 100 cm of the soil surface, caused by gaseous emissions, e.g. methane or carbon dioxide, or caused by liquid intrusions other than water, e.g. gasoline.
 
-### Reductigleyic (ry) {#sec-ry}
+### Reductigleyic (ry) {#sec-ry .unnumbered}
 
 (Latin *reductus*, drawn back, and Russian folk name *gley*, wet bluish clay): not having, ≥ 40 cm from the mineral soil surface, a layer that meets diagnostic criterion 2 of the *gleyic properties* (in [*Gleysols*](chapter-04.qmd#sec-key-gl) only).
 
-### Relocatic (rc) {#sec-rc}
+### Relocatic (rc) {#sec-rc .unnumbered}
 
 (from Latin *re*, again, and *locatus*, put): being remodelled in situ or within the immediate vicinity by human activity to a depth of ≥ 100 cm (e.g. by deep ploughing, refilling soil pits or levelling land) and no formation of diagnostic horizons after remodelling, throughout, except a *mollic* or *umbric horizon* (in *Technosols*, Relocatic is redundant, except in combination with the Ekranic, Thyric or Linic qualifier); a destroyed diagnostic subsurface horizon may be added with a hyphen, e.g. Spodi-Relocatic, Spodi-Epirelocatic, however, there are no codes provided for these additions (4: Epi- only).
 
-### Rendzic (rz) {#sec-rz}
+### Rendzic (rz) {#sec-rz .unnumbered}
 
 (from Polish *rzendzic*, to grate in contact with a plough blade): having a *mollic horizon* that contains or directly overlies *calcaric material* containing ≥ 40% calcium carbonate equivalent or that directly overlies calcareous rock containing ≥ 40% calcium carbonate equivalent (2: Ano- and Panto- only).
 
-#### Somerirendzic (sr) {#sec-sr}
+#### Somerirendzic (sr) {#sec-sr .unnumbered}
 
 (from Spanish *somero*, superficial): having a *mollic horizon*, \< 20 cm thick, that directly overlies calcareous rock containing ≥ 40% calcium carbonate equivalent.
 
-### Retic (rt) {#sec-rt} {#sec-rt}
+### Retic (rt) {#sec-rt .unnumbered}
 
 (from Latin *rete*, net): having retic properties starting ≤ 100 cm from the mineral soil surface.
 
-### Rheic (rh) {#sec-rh} {#sec-rh}
+### Rheic (rh) {#sec-rh .unnumbered}
 
 (from Greek *rhein*, to flow): having a *histic horizon*, in which groundwater or flowing water ascends to \< 20 cm of the soil surface or reaches the *histic horizon*'s upper half, whichever is shallower (in [*Histosols*](chapter-04.qmd#sec-key-hs) only).
 
-### Rhodic (ro) {#sec-ro} {#sec-ro}
+### Rhodic (ro) {#sec-ro .unnumbered}
 
 (from Greek *rhodon*, rose): having between 25 and 150 cm of the mineral soil surface a layer, ≥ 30 cm thick, that shows evidence of soil formation as defined in criterion 3 of the cambic horizon and that has, in ≥ 90% of its exposed area, a Munsell colour hue redder than 5YR moist, a value of \< 4 moist, and a value dry, not more than one unit higher than the moist value.
 
-### Rockic (rk) {#sec-rk}
+### Rockic (rk) {#sec-rk .unnumbered}
 
 (from English *rock*): having *organic material* starting at the soil surface that directly overlies *continuous rock* or *technic hard material* (in [*Histosols*](chapter-04.qmd#sec-key-hs) only) (1: Epi- and Endo- only; referring to the upper limit of the *continuous rock* or *technic hard material*).
 
-### Rubic (ru) {#sec-ru}
+### Rubic (ru) {#sec-ru .unnumbered}
 
 (from Latin *ruber*, red): having between 25 and 100 cm of the mineral soil surface a layer, ≥ 30 cm thick, that does not consist of *claric material* and that has, in ≥ 90% of its exposed area, a Munsell colour hue redder than 10YR and/or a chroma of ≥ 5, both moist (in [*Arenosols*](chapter-04.qmd#sec-key-ar) only).
 
-### Rustic (rs) {#sec-rs}
+### Rustic (rs) {#sec-rs .unnumbered}
 
 (from English *rust*): having a *spodic horizon* that has a Munsell colour chroma of ≥ 6, moist, throughout ('Iron Podzols'; in [*Podzols*](chapter-04.qmd#sec-key-pz) only).
 
-### Salic (sz) {#sec-sz}
+### Salic (sz) {#sec-sz .unnumbered}
 
 (from Latin *sal*, salt): having a salic horizon starting ≤ 100 cm from the soil surface (2).
 
-#### Hypersalic (jz)
+#### Hypersalic (jz) {#sec-jz .unnumbered}
 
 (from Greek *hyper*, over): having a *salic horizon* with a subhorizon, ≥ 15 cm thick and starting ≤ 100 cm from the soil surface, that has an EC~e~ of ≥ 30 dS m^-1^ at 25 °C (2).
 
-#### Protosalic (qz) {#sec-qz}
+#### Protosalic (qz) {#sec-qz .unnumbered}
 
 (from Greek *proton*, first): having within 100 cm of the soil surface a layer that has an EC~e~ of ≥ 4 dS m^-1^ at 25 °C; and not having a *salic horizon* starting ≤ 100 cm from the soil surface (2).
 
-### Sapric (sa) {#sec-sa}
+### Sapric (sa) {#sec-sa .unnumbered}
 
 (from Greek *sapros*, rotten): having *organic material* that, after rubbing, consists of ≤ one sixth (by volume, related to the fine earth plus all dead plant remnants) of recognizable dead plant tissues in
 
@@ -1132,23 +1132,23 @@ see *Vertic*.
 
 (in [*Histosols*](chapter-04.qmd#sec-key-hs) only) (2; no subqualifier if no *organic material* is present ≥ 60 cm of the soil surface).
 
-### Saprolithic (sh) {#sec-sh}
+### Saprolithic (sh) {#sec-sh .unnumbered}
 
 (from Greek *sapros*, rotten, and *lithos*, stone): having a layer, ≥ 30 cm thick and starting ≤ 150 cm from the mineral soil surface, that has rock structure in ≥ 75% (by volume, related to the whole soil) and a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 24 cmol~c~ kg^-1^ clay (2).
 
-### Sideralic (se) {#sec-se}
+### Sideralic (se) {#sec-se .unnumbered}
 
 (from Greek *sideros*, iron, and Latin *alumen*, alum): having within 150 cm of the mineral soil surface a layer that has *sideralic properties*; and not having a *ferralic horizon* starting ≤ 150 cm from the mineral soil surface (2).
 
-#### Hypersideralic (jr) {#sec-jr}
+#### Hypersideralic (jr) {#sec-jr .unnumbered}
 
 (from Greek *hyper*, over): having within 150 cm of the mineral soil surface a layer that has *sideralic properties* and a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 16 cmol~c~ kg^-1^ clay; and not having a *ferralic horizon* starting ≤ 150 cm from the mineral soil surface (2).
 
-### Silandic (sn) {#sec-sn}
+### Silandic (sn) {#sec-sn .unnumbered}
 
 (from Latin *silex*, silicon-containing material, and Japanese *an*, dark, and *do*, soil): having within 100 cm of the soil surface one or more layers with a combined thickness of ≥ 15 cm with *andic properties* and a Si~ox~ content of ≥ 0.6% (in [*Andosols*](chapter-04.qmd#sec-key-an) only) (2).
 
-### Siltic (sl) {#sec-sl}
+### Siltic (sl) {#sec-sl .unnumbered}
 
 (from English *silt*): consisting of *mineral material* and having, single or in combination, a texture class of silt or silt loam
 
@@ -1157,81 +1157,81 @@ see *Vertic*.
 
 (2; no subqualifier if a limiting layer starts \< 60 cm from the mineral soil surface).
 
-### Skeletic (sk) {#sec-sk}
+### Skeletic (sk) {#sec-sk .unnumbered}
 
 (from Greek *skeletos*, dried out): having ≥ 40% (by volume, related to the whole soil) coarse fragments averaged over a depth of 100 cm from the mineral soil surface or to a limiting layer, whichever is shallower (5).
 
-#### Akroskeletic (kk) {#sec-kk}
+#### Akroskeletic (kk) {#sec-kk .unnumbered}
 
 (from Greek *akra*, top): having ≥ 40% of the soil surface covered by fragments that have an average length of their greatest dimension of \> 6 cm (stones, boulders and/or large boulders).
 
-#### Ejectiskeletic (jk) {#sec-jk}
+#### Ejectiskeletic (jk) {#sec-jk .unnumbered}
 
 (from Latin *ejicere*, to throw out): having ≥ 40% (by volume, related to the whole soil) coarse fragments of pyroclastic origin (lapilli, bombs and/or blocks), averaged over a depth of 100 cm from the mineral soil surface or to a limiting layer, whichever is shallower (5).
 
-#### Orthoskeletic (ok) {#sec-ok}
+#### Orthoskeletic (ok) {#sec-ok .unnumbered}
 
 (from Greek *orthos*, right): having:
 
 -   ≥ 40% of the soil surface covered by fragments that have an average length of their greatest dimension of \> 6 cm (stones, boulders and/or large boulders), *and*
 -   ≥ 40% (by volume, related to the whole soil) coarse fragments averaged over a depth of 100 cm from the mineral soil surface or to a limiting layer, whichever is shallower (5).
 
-### Sodic (so) {#sec-so}
+### Sodic (so) {#sec-so .unnumbered}
 
 (from Arabic *suda*, headache - referring to the headache-alleviating properties of sodium carbonate): having a layer, ≥ 20 cm thick and starting ≤ 100 cm from the mineral soil surface, that has ≥ 15% Na plus Mg and ≥ 6% Na on the exchange complex; and not having a *natric horizon* starting ≤ 100 cm from the soil surface (2).
 
-#### Argisodic (as) {#sec-as}
+#### Argisodic (as) {#sec-as .unnumbered}
 
 (from Latin *argilla*, white clay): having an argic horizon, starting ≤ 100 cm from the mineral soil surface, that has ≥ 15% Na plus Mg and ≥ 6% Na on the exchange complex throughout the argic horizon or within its upper 40 cm, whichever is thinner (2).
 
-#### Protosodic (qs) {#sec-qs}
+#### Protosodic (qs) {#sec-qs .unnumbered}
 
 (from Greek *proton*, first): having a layer, ≥ 20 cm thick and starting ≤ 100 cm from the mineral soil surface, that has ≥ 6% Na on the exchange complex; and not having a natric horizon starting ≤ 100 cm from the soil surface (2).
 
-### Solimovic (sv) {#sec-sv}
+### Solimovic (sv) {#sec-sv .unnumbered}
 
 (from Latin *solum*, soil, and *movere*, to move): having *solimovic material*, ≥ 20 cm thick and starting at the mineral soil surface (2: Ano- and Panto- only).
 
-### Sombric (sb) {#sec-sb}
+### Sombric (sb) {#sec-sb .unnumbered}
 
 (from French *sombre*, shade): having a *sombric horizon* starting ≤ 150 cm from the mineral soil surface (2).
 
-### Someric (si) {#sec-si}
+### Someric (si) {#sec-si .unnumbered}
 
 (from Spanish *somero*, superficial): having a *mollic* or *umbric horizon*, \< 20 cm thick.
 
-### Spodic (sd) {#sec-sd}
+### Spodic (sd) {#sec-sd .unnumbered}
 
 (from Greek *spodos*, wood ash): having a *spodic horizon* starting ≤ 200 cm from the mineral soil surface (2).
 
-#### Hyperspodic (jp)
+#### Hyperspodic (jp) {sec-jp .unnumbered}
 
 (from Greek *hyper*, over): having a *spodic horizon*, ≥ 100 cm thick and starting ≤ 200 cm from the mineral soil surface.
 
-#### Nudispodic (ns) {#sec-ns}
+#### Nudispodic (ns) {#sec-ns .unnumbered}
 
 (from Latin *nudus*, naked, and Greek *spodos*, wood ash): having layer, starting at the mineral soil surface, that fulfils the criteria of the *spodic horizon*, except criterion 2.
 
-#### Protospodic (qp)
+#### Protospodic (qp) {#sec-qp .unnumbered}
 
 (from Greek *proton*, first): having a layer, starting ≤ 100 cm from the mineral soil surface, that has an Al~ox~ value that is ≥ 1.5 times that of the lowest Al~ox~ value of all the mineral layers above; and not having a spodic horizon starting ≤ 200 cm from the mineral soil surface (2).
 
-### Spolic (sp) {#sec-sp}
+### Spolic (sp) {#sec-sp .unnumbered}
 
 (from Latin *spoliare*, to exploit): having a layer, ≥ 20 cm thick and within 100 cm of the soil surface, with ≥ 20% (by volume, weighted average, related to the whole soil) *artefacts*, ≥ 35% (by volume, weighted average, related to the whole soil) of which consist of industrial products (e.g. mine spoil, dredgings, slag, ash, rubble, etc.) (in [*Technosols*](chapter-04.qmd#sec-key-tc) only) (2).
 
-#### Hyperspolic (jj) {#sec-jj}
+#### Hyperspolic (jj) {#sec-jj .unnumbered}
 
 (from Greek *hyper*, over): having a layer, ≥ 50 cm thick and within 100 cm of the soil surface, with ≥ 35% (by volume, weighted average, related to the whole soil) artefacts consisting of industrial products (in Technosols only) (2).
 
-### Stagnic (st) {#sec-st}
+### Stagnic (st) {#sec-st .unnumbered}
 
 (from Latin *stagnare*, to flood): having a layer, ≥ 25 cm thick and starting ≤ 75 cm from the mineral soil surface, that does not form part of a hydragric horizon and that has:
 
 -   stagnic properties in which the area of reductimorphic features plus the area of oximorphic features is ≥ 25% (weighted average) of the layer's total area, and
 -   reducing conditions for some time during the year in some parts of the layer's volume that has the reductimorphic features (2).
 
-#### Inclinistagnic (iw) {#sec-iw}
+#### Inclinistagnic (iw) {#sec-iw .unnumbered}
 
 (from Latin *inclinare*, to bow): having a layer, ≥ 25 cm thick and starting ≤ 75 cm from the mineral soil surface, that does not form part of a *hydragric horizon* and that has:
 
@@ -1239,125 +1239,125 @@ see *Vertic*.
 -   *reducing conditions* for some time during the year in some parts of the layer's volume that has the reductimorphic features,
 -   a slope inclination of ≥ 5% and a subsurface water flow for some time during the year (2).
 
-#### Protostagnic (qw) {#sec-qw}
+#### Protostagnic (qw) {#sec-qw .unnumbered}
 
 (from Greek *proton*, first): having a layer, ≥ 25 cm thick and starting ≤ 75 cm from the mineral soil surface, that does not form part of a *hydragric horizon* and that has:
 
 -   *stagnic properties* in which the area of reductimorphic features plus the area of oximorphic features is ≥ 10% and \< 25% (weighted average) of the layer's total area, and
 -   *reducing conditions* for some time during the year in some parts of the layer's volume that has the reductimorphic features (2).
 
-#### Relictistagnic (rw) {#sec-rw}
+#### Relictistagnic (rw) {#sec-rw .unnumbered}
 
 (from Latin *relictus*, left back): having a layer, ≥ 25 cm thick and starting ≤ 75 cm from the mineral soil surface, that has:
 
 -   *stagnic properties* in which the area of oximorphic features is ≥ 10% (weighted average) of the layer's total area, and
 -   no *reducing conditions* (2).
 
-### Subaquatic (sq) {#sec-sq}
+### Subaquatic (sq) {#sec-sq .unnumbered}
 
 (from Latin *sub*, under, and *aqua*, water): being permanently submerged by water not deeper than 200 cm.
 
-### Sulfatic (su) {#sec-su}
+### Sulfatic (su) {#sec-su .unnumbered}
 
 (from Latin *sulpur*, sulfur): having a *salic horizon* with a soil solution (1:1 in water) with \[SO~4~^2-^\] \> 2\*\[HCO~3~^-^\] \> 2\*\[Cl^-^\] (in [*Solonchaks*](chapter-04.qmd#sec-key-sc) only).
 
-### Sulfidic (sf) {#sec-sf}
+### Sulfidic (sf) {#sec-sf .unnumbered}
 
 (from Latin *sulpur*, sulfur): having *hypersulfidic* or *hyposulfidic material*, ≥ 15 cm thick and starting ≤ 100 cm from the soil surface (2).
 
-#### Hypersulfidic (js) {#sec-js}
+#### Hypersulfidic (js) {#sec-js .unnumbered}
 
 (from Greek *hyper*, over): having *hypersulfidic material*, ≥ 15 cm thick and starting ≤ 100 cm from the soil surface (2).
 
-#### Hyposulfidic (ws) {#sec-ws}
+#### Hyposulfidic (ws) {#sec-ws .unnumbered}
 
 (from Greek *hypo*, under): having *hyposulfidic material*, ≥ 15 cm thick and starting ≤ 100 cm from the soil surface (2).
 
-### Takyric (ty) {#sec-ty}
+### Takyric (ty) {#sec-ty .unnumbered}
 
 (from Turkic languages *takyr*, barren land): having *takyric properties*.
 
-### Technic (te) {#sec-te}
+### Technic (te) {#sec-te .unnumbered}
 
 (from Greek *technae*, art): having ≥ 10% (by volume, weighted average, related to the whole soil) artefacts in the upper 100 cm from the soil surface or to a limiting layer, whichever is shallower (5).
 
-#### Hypertechnic (jt) {#sec-jt}
+#### Hypertechnic (jt) {#sec-jt .unnumbered}
 
 (from Greek *hyper*, over): having ≥ 20% (by volume, weighted average, related to the whole soil) *artefacts* in the upper 100 cm from the soil surface or to a limiting layer, whichever is shallower (5).
 
-#### Prototechnic (qt) {#sec-qt}
+#### Prototechnic (qt) {#sec-qt .unnumbered}
 
 (from Greek *proton*, first): having ≥ 5% (by volume, weighted average, related to the whole soil) *artefacts* in the upper 100 cm from the soil surface or to a limiting layer, whichever is shallower (5).
 
-### Tephric (tf) {#sec-tf}
+### Tephric (tf) {#sec-tf .unnumbered}
 
 (from Greek *tephra*, pile ash): having within 100 cm of the soil surface one or more layers with *tephric material* with a combined thickness of ≥ 30 cm (2).
 
-#### Prototephric (qf) {#sec-qf}
+#### Prototephric (qf) {#sec-qf .unnumbered}
 
 (from Greek *proton*, first): having within 100 cm of the soil surface one or more layers with *tephric material* with a combined thickness of ≥ 10 cm (2).
 
-#### Technotephric (tt) {#sec-tt}
+#### Technotephric (tt) {#sec-tt .unnumbered}
 
 (from Greek *technae*, art): having within 100 cm of the soil surface one or more layers with *tephric material*, consisting predominantly of *artefacts*, with a combined thickness of ≥ 30 cm (2).
 
-### Terric (tr) {#sec-tr}
+### Terric (tr) {#sec-tr .unnumbered}
 
 (from Latin *terra*, earth): having a *terric horizon* (2: Panto- only).
 
-### Thionic (ti) {#sec-ti}
+### Thionic (ti) {#sec-ti .unnumbered}
 
 (from Greek *theion*, sulfur): having a *thionic horizon* starting ≤ 100 cm from the soil surface (2).
 
-#### Hyperthionic (ji) {#sec-ji}
+#### Hyperthionic (ji) {#sec-ji .unnumbered}
 
 (from Greek *hyper*, over): having a *thionic horizon* starting ≤ 100 cm from the soil surface and having a pH (1:1 in water) of \< 3.5 (2).
 
-#### Hypothionic (wi) {#sec-wi}
+#### Hypothionic (wi) {#sec-wi .unnumbered}
 
 (from Greek *hypo*, under): having a *thionic horizon* starting ≤ 100 cm from the soil surface and having a pH (1:1 in water) of ≥ 3.5 and \< 4 (2).
 
-### Thixotropic (tp) {#sec-tp}
+### Thixotropic (tp) {#sec-tp .unnumbered}
 
 (from Greek *thixis*, contact, and *tropae*, reversion): having in some layer, within 50 cm of the soil surface, material that changes, under pressure or by rubbing, from a plastic solid into a liquefied stage and back into a solid condition.
 
-### Thyric (th) {#sec-th}
+### Thyric (th) {#sec-th .unnumbered}
 
 (from Greek *thyreos*, shield): having *technic hard material* starting within \> 5 and ≤ 100 cm from the soil surface (1: Epi- and Endo- only).
 
-### Tidalic (td) {#sec-td}
+### Tidalic (td) {#sec-td .unnumbered}
 
 (from English *tide*): affected by tidal water, i.e. located between the line of mean high water springs and the line of mean low water springs.
 
-### Tonguic (to) {#sec-to}
+### Tonguic (to) {#sec-to .unnumbered}
 
 (from English *tongue*): showing tonguing of a *chernic*, *mollic* or *umbric horizon* into an underlying layer.
 
-### Toxic (tx) {#sec-tx}
+### Toxic (tx) {#sec-tx .unnumbered}
 
 (from Greek *toxon*, bow, referring to arrow poison): having in some layer, within 50 cm of the soil surface, toxic concentrations of organic or inorganic substances other than ions of Al, Fe, Na, Ca and Mg, or having radioactivity dangerous to humans.
 
-#### Radiotoxic (rx) {#sec-rx}
+#### Radiotoxic (rx) {#sec-rx .unnumbered}
 
 (from Latin *radius*, ray): having radioactivity, dangerous to humans.
 
 **Note:** The definition of limit values is the task of governments and not the task of WRB.
 
-### Transportic (tn) {#sec-tn}
+### Transportic (tn) {#sec-tn .unnumbered}
 
 (from Latin *transportare*, to transport): having at the soil surface or below a recently formed organic surface horizon a layer,
 
 -   ≥ 20 cm thick, or
 -   with a thickness of ≥ 50% of the entire soil if a limiting layer starts ≤ 40 cm from the soil surface, with soil material containing, if any, \< 10% (by volume, related to the whole soil) *artefacts*; and that has been moved from a source area outside the immediate vicinity by intentional human activity, usually with the aid of machinery, and without substantial reworking or displacement by natural forces (2: Ano- and Panto- only).
 
-#### Organotransportic (ot) {#sec-ot}
+#### Organotransportic (ot) {#sec-ot .unnumbered}
 
 (from Greek *organon*, tool): having at the soil surface or below a recently formed organic surface horizon a layer,
 
 -   ≥ 20 cm thick, or
 -   with a thickness of ≥ 50% of the entire soil if a limiting layer starts ≤ 40 cm from the soil surface, with *organic material* containing, if any, \< 10% (by volume, related to the whole soil) *artefacts*; and that has been moved from a source area outside the immediate vicinity by intentional human activity, usually with the aid of machinery, and without substantial reworking or displacement by natural forces (2: Ano- and Panto- only).
 
-#### Skeletotransportic (kt) {#sec-kt}
+#### Skeletotransportic (kt) {#sec-kt .unnumbered}
 
 (from Greek skeletos, dried out): having at the soil surface or below a recently formed organic surface horizon a layer,
 
@@ -1366,80 +1366,80 @@ see *Vertic*.
 
 and that has been moved from a source area outside the immediate vicinity by intentional human activity, usually with the aid of machinery, and without substantial reworking or displacement by natural forces (2: Ano- and Panto- only).
 
-### Tsitelic (ts) {#sec-ts}
+### Tsitelic (ts) {#sec-ts .unnumbered}
 
 (from Georgian *tsiteli*, red): having a *tsitelic horizon* starting ≤ 50 cm from the mineral soil surface.
 
-### Turbic (tu) {#sec-tu}
+### Turbic (tu) {#sec-tu .unnumbered}
 
 (from Latin *turbare*, to disturb): having features of cryogenic alteration (cryoturbation, mixed material, disrupted soil horizons, involutions, organic intrusions, frost heave, separation of coarse from fine materials, cracks, patterned ground etc.) in some layer within 100 cm of the soil surface and above a *cryic horizon* or above a seasonally frozen layer (2: only if clearly recognizable as a layer).
 
-#### Relictiturbic (rb) {#sec-rb}
+#### Relictiturbic (rb) {#sec-rb .unnumbered}
 
 (from Latin *relictus*, left back): having features of cryogenic alteration within 100 cm of the soil surface, caused by frost action in the past (2: only if clearly recognizable as layer).
 
-### Umbric (um) {#sec-um}
+### Umbric (um) {#sec-um .unnumbered}
 
 (from Latin *umbra*, shade): having an *umbric horizon* (2: Ano- and Panto- only).
 
-#### Anthroumbric (aw) {#sec-aw}
+#### Anthroumbric (aw) {#sec-aw .unnumbered}
 
 (from Greek *anthropos*, human being): having an *umbric horizon* and *anthric properties* (2: Ano- and Panto- only).
 
-#### Someriumbric (sw) {#sec-sw}
+#### Someriumbric (sw) {#sec-sw .unnumbered}
 
 (from Spanish *somero*, superficial): having an *umbric horizon*, \< 20 cm thick.
 
-#### Tonguiumbric (tw) {#sec-tw}
+#### Tonguiumbric (tw) {#sec-tw .unnumbered}
 
 (from English *tongue*): having an *umbric horizon* that tongues into an underlying layer (2: Ano- and Panto- only; referring to the *umbric horizon*, not to the tongues).
 
-### Urbic (ub) {#sec-ub}
+### Urbic (ub) {#sec-ub .unnumbered}
 
 (from Latin *urbs*, city): having a layer, ≥ 20 cm thick and within 100 cm of the soil surface, with ≥ 20% (by volume, weighted average, related to the whole soil) *artefacts*, ≥ 35% (by volume, weighted average, related to the whole soil) of which consist of rubble and refuse of human settlements (in [*Technosols*](chapter-04.qmd#sec-key-tc) only) (2).
 
-#### Hyperurbic (jx) {#sec-jx}
+#### Hyperurbic (jx) {#sec-jx .unnumbered}
 
 (from Greek *hyper*, over): having a layer, ≥ 50 cm thick and within 100 cm of the soil surface, with ≥ 35% (by volume, weighted average, related to the whole soil) *artefacts* consisting of rubble and refuse of human settlements (in [*Technosols*](chapter-04.qmd#sec-key-tc) only) (2).
 
-### Uterquic (uq) {#sec-uq}
+### Uterquic (uq) {#sec-uq .unnumbered}
 
 (from Latin *uterque*, both): having a layer
 
 -   with dominant *gleyic properties* and some parts with *stagnic properties*, starting ≤ 75 cm from the mineral soil surface (in [*Gleysols*](chapter-04.qmd#sec-key-gl) only) (2).
 -   with dominant *stagnic properties* and some parts with *gleyic properties*, starting ≤ 75 cm from the mineral soil surface (in [*Planosols*](chapter-04.qmd#sec-key-pl) and [*Stagnosols*](chapter-04.qmd#sec-key-st) only) (2).
 
-### Vermic (vm) {#sec-vm}
+### Vermic (vm) {#sec-vm .unnumbered}
 
 (from Latin *vermis*, worm): having ≥ 50% (by volume, weighted average) of worm holes, casts, or filled animal burrows in the upper 100 cm of the mineral soil or to a limiting layer, whichever is shallower.
 
-### Vertic (vr) {#sec-vr}
+### Vertic (vr) {#sec-vr .unnumbered}
 
 (from Latin *vertere*, to turn): having a *vertic horizon* starting ≤ 100 cm from the mineral soil surface (2).
 
-#### Protovertic (qv)
+#### Protovertic (qv) {#sec-qv .unnumbered}
 
 (from Greek *proton*, first): having a *protovertic horizon* starting ≤ 100 cm from the mineral soil surface; and not having a *vertic horizon* starting ≤ 100 cm from the mineral soil surface (2).
 
-### Vitric (vi) {#sec-vi}
+### Vitric (vi) {#sec-vi .unnumbered}
 
 (from Latin *vitrum*, glass): having within 100 cm of the soil surface
 
 -   in *Andosols*, one or more layers with *vitric properties* with a combined thickness of ≥ 30 cm. (2).
 -   in other soils, one or more layers with *andic* or *vitric properties* with a combined thickness of ≥ 30 cm (in [*Cambisols*](chapter-04.qmd#sec-key-cm) ≥ 15 cm), of which ≥ 15  cm (in [*Cambisols*](chapter-04.qmd#sec-key-cm) ≥ 7.5 cm) have *vitric properties* (2).
 
-### Wapnic (wa) {#sec-wa}
+### Wapnic (wa) {#sec-wa .unnumbered}
 
 (from Polish *wapno*, lime): having a *calcic horizon* within *organic material*, starting ≤ 100 cm from the soil surface (2).
 
-### Xanthic (xa) {#sec-xa}
+### Xanthic (xa) {#sec-xa .unnumbered}
 
 (from Greek *xanthos*, yellow): having a *ferralic horizon* that has in a subhorizon, ≥ 30 cm thick and starting ≤ 75 cm from the upper limit of the *ferralic horizon*, in ≥ 90% of its exposed area, a Munsell colour hue of 7.5YR or yellower, a value of ≥ 4 and a chroma of ≥ 5, all moist.
 
-### Yermic (ye) {#sec-ye}
+### Yermic (ye) {#sec-ye .unnumbered}
 
 (from Spanish *yermo*, desert): having *yermic properties*, including a desert pavement.
 
-#### Nudiyermic (ny) {#sec-ny}
+#### Nudiyermic (ny) {#sec-ny .unnumbered}
 
 (from Latin *nudus*, naked): having *yermic properties* without a desert pavement.
