@@ -22,7 +22,6 @@ book:
     - chapter-05.qmd
     - chapter-06.qmd
     - chapter-07.qmd
-  appendices:
     - annex-01-field-guide.qmd
     - annex-02-analytical-procedures.qmd
     - annex-03-horizon-layer-designations.qmd
@@ -42,7 +41,7 @@ format:
     number-depth: 3
     date-modified: last-modified
     logo: images/cover.png
-    appendix-style: plain
+    appendix-style: none
 
 
 editor: visual
