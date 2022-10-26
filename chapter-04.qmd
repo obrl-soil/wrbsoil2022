@@ -10,15 +10,15 @@ Before using the key, please read the ['Rules for naming soils'](chapter-02.qmd#
 
 ## Overview of Key to Reference Soil Groups {.unnumbered}
 
-|                               |                                 |                                 |                             |                             |
+|                           |                            |                            |                          |                          |
 |---------------|---------------|---------------|---------------|---------------|
-| [Histosols](#sec-key-hs)   | [Solonchaks](#sec-key-sc)   | [Nitisols](#sec-key-nt)       | [Gypsisols](#sec-key-gy) | [Cambisols](#sec-key-cm) |
-| [Anthrosols](#sec-key-at) | [Gleysols](#sec-key-gl)       | [Ferralsols](#sec-key-fr)   | [Calcisols](#sec-key-cl) | [Fluvisols](#sec-key-fl) |
-| [Technosols](#sec-key-tc) | [Andosols](#sec-key-an)       | [Chernozems](#sec-key-ch)   | [Retisols](#sec-key-rt)   | [Arenosols](#sec-key-ar) |
-| [Cryosols](#sec-key-cr)     | [Podzols](#sec-key-pz)         | [Kastanozems](#sec-key-ks) | [Acrisols](#sec-key-ac)   | [Regosols](#sec-key-rg)   |
-| [Leptosols](#sec-key-lp)   | [Plinthosols](#sec-key-pt) | [Phaeozems](#sec-key-ph)     | [Lixisols](#sec-key-lx)   |                             |
-| [Solonetz](#sec-key-sn)     | [Planosols](#sec-key-pl)     | [Umbrisols](#sec-key-um)     | [Alisols](#sec-key-al)     |                             |
-| [Vertisols](#sec-key-vr)   | [Stagnosols](#sec-key-st)   | [Durisols](#sec-key-du)       | [Luvisols](#sec-key-lv)   |                             |
+| [Histosols](#sec-key-hs)  | [Solonchaks](#sec-key-sc)  | [Nitisols](#sec-key-nt)    | [Gypsisols](#sec-key-gy) | [Cambisols](#sec-key-cm) |
+| [Anthrosols](#sec-key-at) | [Gleysols](#sec-key-gl)    | [Ferralsols](#sec-key-fr)  | [Calcisols](#sec-key-cl) | [Fluvisols](#sec-key-fl) |
+| [Technosols](#sec-key-tc) | [Andosols](#sec-key-an)    | [Chernozems](#sec-key-ch)  | [Retisols](#sec-key-rt)  | [Arenosols](#sec-key-ar) |
+| [Cryosols](#sec-key-cr)   | [Podzols](#sec-key-pz)     | [Kastanozems](#sec-key-ks) | [Acrisols](#sec-key-ac)  | [Regosols](#sec-key-rg)  |
+| [Leptosols](#sec-key-lp)  | [Plinthosols](#sec-key-pt) | [Phaeozems](#sec-key-ph)   | [Lixisols](#sec-key-lx)  |                          |
+| [Solonetz](#sec-key-sn)   | [Planosols](#sec-key-pl)   | [Umbrisols](#sec-key-um)   | [Alisols](#sec-key-al)   |                          |
+| [Vertisols](#sec-key-vr)  | [Stagnosols](#sec-key-st)  | [Durisols](#sec-key-du)    | [Luvisols](#sec-key-lv)  |                          |
 
 ## Histosols {#sec-key-hs .unnumbered}
 
@@ -77,7 +77,7 @@ Other soils having:
 ### Qualifiers
 
 | Principal Qualifiers                                | Supplementary Qualifiers       |
-|--------------------------------------------|---------------------------|
+|--------------------------------------------|----------------------------|
 | Hydragric/ Irragric/ Hortic/ Plaggic/ Pretic/Terric | Arenic/ Clayic/ Loamic/ Siltic |
 | Gleyic                                              | Glossic/ Retic                 |
 | Stagnic                                             | Acric/ Lixic/ Alic/ Luvic      |
@@ -111,7 +111,7 @@ Other soils:
     a.  one or both of the following:
         i.  having ≥ 20% (by volume, weighted average, related to the whole soil) [*artefacts*](chapter-03.qmd#sec-artefm) in the upper 100 cm from the soil surface or to a limiting layer, whichever is shallower; *or*
         ii. having a layer, ≥ 10 cm thick and starting ≤ 50 cm from the soil surface, with ≥ 80% (by volume, related to the whole soil) [*artefacts*](chapter-03.qmd#sec-artefm); *and*
-    b.  not having a layer containing [*artefacts*](chapter-03.qmd#sec-artefm) that qualifies as an [*argic*](chapter-03.qmd#sec-argich), [*duric*](chapter-03.qmd#sec-durich), [*ferralic*](chapter-03.qmd#sec-feralh), [*ferric*](chapter-03.qmd#sec-ferich), [*fragic*](chapter-03.qmd#sec-fragh), [*hydragric*](chapter-03.qmd#sec-hydrh), [*natric*](chapter-03.qmd#sec-natrh), [*nitic*](chapter-03.qmd#sec-nitich), [*petrocalcic*](chapter-03.qmd#sec-petroh), [*petroduric*](chapter-03.qmd#sec-petdh), [*petrogypsic*](chapter-03.qmd#sec-petrgh), [*petroplinthic*](chapter-03.qmd#sec-petplh), [*pisoplinthic*](chapter-03.qmd#sec-pisoph), [*plinthic*](chapter-03.qmd#sec-plinth), [*spodic*](chapter-03.qmd#sec-spodh) or [*vertic horizon*](chapter-03.qmd#sec-verth) starting ≤ 100 cm from the soil surface, unless buried; *and*
+    b.  not having a layer containing [*artefacts*](chapter-03.qmd#sec-artefm) that qualifies as an [*argic*](chapter-03.qmd#sec-argich), [*duric*](chapter-03.qmd#sec-durich), [*ferralic*](chapter-03.qmd#sec-feralh), [*ferric*](chapter-03.qmd#sec-ferich), [*fragic*](chapter-03.qmd#sec-fragh), [*hydragric*](chapter-03.qmd#sec-hydrh), [*natric*](chapter-03.qmd#sec-natrich), [*nitic*](chapter-03.qmd#sec-nitich), [*petrocalcic*](chapter-03.qmd#sec-petroh), [*petroduric*](chapter-03.qmd#sec-petdh), [*petrogypsic*](chapter-03.qmd#sec-petrgh), [*petroplinthic*](chapter-03.qmd#sec-petplh), [*pisoplinthic*](chapter-03.qmd#sec-pisoph), [*plinthic*](chapter-03.qmd#sec-plinth), [*spodic*](chapter-03.qmd#sec-spodh) or [*vertic horizon*](chapter-03.qmd#sec-verth) starting ≤ 100 cm from the soil surface, unless buried; *and*
     c.  not having a limiting layer, starting ≤ 10 cm from the soil surface; *or*
 2.  having a continuous, very slowly permeable to impermeable, constructed geomembrane of any thickness or [*technic hard material*](chapter-03.qmd#sec-techhm) starting ≤ 100 cm from the soil surface.
 
@@ -123,7 +123,7 @@ Technosols may bury other soils, which can be mentioned behind the Technosol cla
 ### Qualifiers
 
 | Principal Qualifiers | Supplementary Qualifiers                              |
-|---------------------|---------------------------------------------------|
+|-----------------------|-------------------------------------------------|
 | Ekranic/ Thyric      | Arenic/ Clayic/ Loamic/ Siltic                        |
 | Linic                | Geoabruptic                                           |
 | Urbic                | Alcalic/ Dystric/ Eutric                              |
@@ -266,7 +266,7 @@ Other soils having:
 
 ## Solonetz {#sec-key-sn .unnumbered}
 
-Other soils having a [*natric horizon*](chapter-03.qmd#sec-natrh) starting ≤ 100 cm from the mineral soil surface.
+Other soils having a [*natric horizon*](chapter-03.qmd#sec-natrich) starting ≤ 100 cm from the mineral soil surface.
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -414,7 +414,7 @@ Other soils having one or more of the following:
 ### Qualifiers
 
 | Principal Qualifiers                                             | Supplementary Qualifiers       |
-|------------------------------------------------|------------------------|
+|-----------------------------------------------|-------------------------|
 | Thionic                                                          | Acric/ Lixic/ Alic/ Luvic      |
 | Reductic                                                         | Alcalic                        |
 | Subaquatic/ Tidalic                                              | Abruptic                       |
@@ -583,7 +583,7 @@ Other soils having an [*abrupt textural difference*](chapter-03.qmd#sec-abtxdf) 
 ### Qualifiers
 
 | Principal Qualifiers                                             | Supplementary Qualifiers       |
-|------------------------------------------------|------------------------|
+|-----------------------------------------------|-------------------------|
 | Reductic                                                         | Arenic/ Clayic/ Loamic/ Siltic |
 | Thionic                                                          | Alcalic                        |
 | Leptic                                                           | Andic                          |
@@ -632,7 +632,7 @@ Other soils having:
 ### Qualifiers
 
 | Principal Qualifiers                                             | Supplementary Qualifiers       |
-|------------------------------------------------|------------------------|
+|-----------------------------------------------|-------------------------|
 | Reductic                                                         | Arenic/ Clayic/ Loamic/ Siltic |
 | Thionic                                                          | Endoabruptic                   |
 | Leptic                                                           | Alcalic                        |
