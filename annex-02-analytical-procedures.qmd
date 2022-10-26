@@ -40,7 +40,7 @@ The pre-treatment of the sample is aimed at complete dispersion of the primary p
 
 This is the clay content found when the sample is dispersed with water without any pre-treatment to remove cementing compounds and without use of a dispersing agent. The proportion of water-dispersible clay to total clay can be used as a structure stability indicator.
 
-## Bulk density
+## Bulk density {#sec-a2-bd}
 
 Density is defined as mass per unit volume. Soil bulk density is the ratio of the mass of solids to the total or bulk volume and is given at dry state. This total volume includes the volume of both solids and pore space. The volume and therefore the bulk density changes with swelling and shrinking, which is related to the water content. For that reason, the water status of the sample prior to drying must be specified.
 
@@ -96,7 +96,7 @@ Exchangeable Al is released upon exchange by an unbuffered 1 *M* KCl solution.
 
 Exchange acidity is extracted by a barium chloride-triethanolamine solution, buffered at pH 8.2. The extract is back-titrated with HCl.
 
-## Calculations of CEC and exchangeable cations
+## Calculations of CEC and exchangeable cations {#sec-a2-cec}
 
 These calculations are usually only provided for mineral material.
 

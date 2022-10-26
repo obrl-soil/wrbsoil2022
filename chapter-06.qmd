@@ -16,7 +16,7 @@
 ## Qualifiers
 
 |               |        |                |        |                 |        |                |        |
-|---------------|--------|----------------|--------|-----------------|--------|----------------|--------|
+|---------|---------|---------|---------|---------|---------|---------|---------|
 | Abruptic      | **ap** | Carbonic       | **cx** | Fluvic          | **fv** | Hypergarbic    | **jb** |
 | Aceric        | **ae** | Chernic        | **ch** | Folic           | **fo** | Hypergeric     | **jq** |
 | Acric         | **ac** | Claric         | **cq** | Fractic         | **fc** | Hypergypsic    | **jg** |
@@ -52,8 +52,9 @@
 | Carbic        | **cb** | Fibric         | **fi** | Hypereutric     | **je** | Lignic         | **lg** |
 | Carbonatic    | **cn** | Floatic        | **ft** | Hyperferritic   | **jf** | Limnic         | **lm** |
 
+|                   |        |                |        |                    |        |               |        |
+|---------|---------|---------|---------|---------|---------|---------|---------|
 | Limonic           | **ln** | Orthoeutric    | **oe** | Prototephric       | **qf** | Someriumbric  | **sw** |
-|-------------------|--------|----------------|--------|--------------------|--------|---------------|--------|
 | Linic             | **lc** | Orthofluvic    | **of** | Protovertic        | **qv** | Spodic        | **sd** |
 | Lithic            | **li** | Orthomineralic | **oi** | Puffic             | **pu** | Spolic        | **sp** |
 | Litholinic        | **lh** | Orthoskeletic  | **ok** | Pyric              | **py** | Stagnic       | **st** |
@@ -102,7 +103,7 @@
 ## Combinations with the Novic qualifier
 
 |             |         |                 |         |              |         |                  |         |
-|-------------|---------|-----------------|---------|--------------|---------|------------------|---------|
+|---------|---------|---------|---------|---------|---------|---------|---------|
 | Aeoli-Novic | **nva** | Solimovic-Novic | **nvs** | Tephri-Novic | **nvv** | Transporti-Novic | **nvp** |
 | Fluvi-Novic | **nvf** | Techni-Novic    | **nvt** |              |         |                  |         |
 
