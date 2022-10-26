@@ -18,7 +18,7 @@ Classification consists of three steps:
 
 ### Step one -- detecting diagnostic horizons, properties and materials (for short: diagnostics) {#sec-stp1}
 
-Describe the soil applying the Field Guide in [Annex 1](annex-01-field-guide.qmd) (Chapter 8). It is useful that you already in the field compile a list of the possible diagnostic horizons, properties and materials observed (see [Chapter 3](chapter-03.qmd)). Conduct the relevant analyses according to [Annex 2](annex-02-analytical-procedures.qmd) (Chapter 9). Then, decide on the presence of diagnostics. **For the decision, only the diagnostic criteria are relevant** - neither the name of the diagnostic, nor any other description. A layer may fulfil the criteria of more than one diagnostic horizon, property or material, which are then regarded as overlapping or coinciding.
+Describe the soil applying the Field Guide in Annex 1 ([Chapter 8](annex-01-field-guide.qmd)). It is useful that you already in the field compile a list of the possible diagnostic horizons, properties and materials observed (see [Chapter 3](chapter-03.qmd)). Conduct the relevant analyses according to Annex 2 ([Chapter 9](annex-02-analytical-procedures.qmd)). Then, decide on the presence of diagnostics. **For the decision, only the diagnostic criteria are relevant** - neither the name of the diagnostic, nor any other description. A layer may fulfil the criteria of more than one diagnostic horizon, property or material, which are then regarded as overlapping or coinciding.
 
 ### Step two -- allocating the soil to a Reference Soil Group {#sec-stp2}
 
@@ -64,8 +64,9 @@ For naming a soil at the second level, all the principal and supplementary quali
 
 A soil developed from loess with high-activity clays has a marked clay increase at 60 cm depth, clay coatings in the clay-rich horizon, no stratification, and a field pH value around 6 in the depth from 50 to 100 cm. The clay-poor upper soil is subdivided into a darker upper and a light-coloured lower horizon. The clay-rich horizon has a limited amount of oximorphic features with intensive colours inside the soil aggregates and reducing conditions in some parts during springtime. The following conclusions can be drawn (for subqualifiers see [Chapter 2.3](#sec-subq)):
 
+|     |                                                                                                                            |                                                                      |
+|-------------|---------------------------------------|--------------------|
 | a\. | clay increase without [*lithic discontinuity*](chapter-03.qmd#sec-lithd) and/or with clay coatings                         | --\> [*argic horizon*](chapter-03.qmd#sec-argich)                    |
-|-----------------|--------------------------------------|-----------------|
 | b\. | [*argic horizon*](chapter-03.qmd#sec-argich) with high CEC and more base cations than Al (inferred by pH 6)                | --\> [Luvisol](chapter-04.qmd#sec-key-lv)                            |
 | c\. | light colour in the eluvial horizon                                                                                        | --\> [Albic](chapter-05.qmd#sec-ab) qualifier                        |
 | d\. | some oximorphic features inside aggregates                                                                                 | --\> [*stagnic properties*](chapter-03.qmd#sec-stagnp)               |
@@ -176,7 +177,7 @@ A buried soil is a soil covered by younger deposits. Where a soil is buried, the
     Techni-Novic (nvt)\
     Tephri-Novic (nvv)\
     Transporti-Novic. (nvp)\
-    In addition, according to Chapter 5, the texture may also be added, e.g., Aeoli-Siltinovic (sja).
+    In addition, according to [Chapter 5](chapter-05.qmd), the texture may also be added, e.g., Aeoli-Siltinovic (sja).
 
 ## Guidelines for creating legends for soil maps {#sec-legends}
 
@@ -211,7 +212,7 @@ A landscape usually shows a variety of soils. For a map unit, they often have to
 ![Soils in a landscape that need to be combined to form a map unit](images/figure_2-2.png){#fig-two-mapunits fig-alt="Soils in a landscape that need to be combined to form a map unit"}
 
 | Area | Complete soil name                                                                | Result          |
-|----------------|----------------------------------------|----------------|
+|------------|------------------------------------------------|------------|
 | 1    | Haplic Luvisol (Episiltic, Katoclayic, Aric, Cutanic, Differentic, Epic, Ochric)  | dominant soil   |
 | 2    | Eutric Stagnic Leptic Cambisol (Loamic, Humic)                                    | codominant soil |
 | 3    | Albic Stagnic Luvisol (Anosiltic, Endoclayic, Cutanic, Differentic, Endic, Humic) | associated soil |
@@ -222,7 +223,7 @@ A landscape usually shows a variety of soils. For a map unit, they often have to
 : Detection of dominant, codominant and associated soils {#tbl-cdsoils}
 
 | Map scale level | Dominant soil   | Codominant soil          | Associated soil        |
-|------------------|------------------|--------------------|------------------|
+|-----------------|-----------------|---------------------|-------------------|
 | First           | Luvisols        | Cambisols                |                        |
 | Second          | Haplic Luvisols | Leptic Cambisols         | Stagnic Luvisols       |
 | Third           | Haplic Luvisols | Stagnic Leptic Cambisols | Albic Stagnic Luvisols |
