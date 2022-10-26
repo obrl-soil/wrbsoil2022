@@ -22,7 +22,7 @@ Since 2014, several WRB field workshops were organized to test the third edition
 2019: Mongolia\
 2022: Iceland
 
-The field tours associated with the meetings of the IUSS Commission on Soil Classification in South Africa (2016) and Mexico (2022) were additional tests of the third edition and also the tours offered with the 21st World Congress of Soil Science 2018 in Brazil.
+The field tours associated with the meetings of the IUSS Commission on Soil Classification in South Africa (2016) and Mexico (2022) were additional tests of the third edition and also the tours offered with the 21^st^ World Congress of Soil Science 2018 in Brazil.
 
 Now, after 8 years, a fourth edition has been prepared.
 
@@ -44,9 +44,9 @@ The major changes are:
 -   All Reference Soil Groups (RSGs) are maintained. There are some changes in the Key: [Planosols](chapter-04.qmd#sec-key-pl) and [Stagnosols](chapter-04.qmd#sec-key-st) are now before [Nitisols](chapter-04.qmd#sec-key-nt) and [Ferralsols](chapter-04.qmd#sec-key-fr). [Fluvisols](chapter-04.qmd#sec-key-fl) are before [Arenosols](chapter-04.qmd#sec-key-ar).
 -   The following diagnostics were deleted:
     -   fulvic horizon, melanic horizon: belonged to an outdated concept of soil organic matter;
-    -   aridic properties: had a non-systematic combination of various characteristics (the wind deposition is now characterized by the aeolic material, see below);
+    -   aridic properties: had a non-systematic combination of various characteristics (the wind deposition is now characterized by the [aeolic material](chapter-03.qmd#sec-aeolicm), see below);
     -   geric properties: can be better expressed as qualifier;
-    -   sulfidic material: not needed after introducing the hypersulfidic and the hyposulfidic material in 2014.
+    -   sulfidic material: not needed after introducing the [hypersulfidic](chapter-03.qmd#sec-hypersm) and the [hyposulfidic material](chapter-03.qmd#sec-hyposm) in 2014.
 -   The following diagnostics were introduced:
     -   [albic horizon](chapter-03.qmd#sec-albich): In the first and the second edition of WRB, the albic horizon was defined. However, it was only defined by colour, and results of soil-forming processes were not required. Therefore, it was changed to albic material in 2014. But this made the definition of the Albic qualifier difficult. Now, the albic horizon was reintroduced, explicitly requiring results of soil-forming processes. The albic material was maintained (just defined by colour) and renamed claric material (see below)
     -   [cohesic horizon](chapter-03.qmd#sec-cohesich): Dense subsurface horizon dominated by kaolinite. It is found in tropical regions with seasonal climate and was not considered so far in WRB.
@@ -81,7 +81,7 @@ The definition includes [*continuous rock*](chapter-03.qmd#sec-crockp), paved ur
 
 ## Basic principles {#sec-bspr}
 
-### General principles {#sec-bspr-gen}
+### General principles {#sec-bspr-gen .unnumbered}
 
 -   The classification of soils is based on soil properties defined in terms of [diagnostic horizons](chapter-03.qmd#sec-diagh), [diagnostic properties](chapter-03.qmd#sec-diagp) and [diagnostic materials](chapter-03.qmd#sec-diagm) (together called the **diagnostics**), which to the greatest extent possible should be measurable and observable in the field. @tbl-tempmark provides an overview of the diagnostics used in the WRB.
 -   The selection of diagnostic characteristics takes into account their relationship with soil-forming processes. An understanding of soil-forming processes contributes to a better characterization of soils but these processes should not, as such, be used as differentiating criteria.
@@ -103,7 +103,7 @@ The definition includes [*continuous rock*](chapter-03.qmd#sec-crockp), paved ur
 **1. Anthropogenic diagnostic horizons (all are mineral)**
 
 | Name               | Simplified Description                                                                                                                                                                                                 |
-|----------------|--------------------------------------------------------|
+|-------------|-----------------------------------------------------------|
 | anthraquic horizon | in paddy soils: the layer comprising the puddled layer and the plough pan, both showing a reduced matrix and oxidized root channels                                                                                    |
 | hortic horizon     | dark, high content of organic matter and P, high animal activity, high base saturation; resulting from long-term cultivation, fertilization and application of organic residues                                        |
 | hydragric horizon  | in paddy soils: the layer below the anthraquic horizon showing redoximorphic features and/or an accumulation of Fe and/or Mn                                                                                           |
@@ -117,7 +117,7 @@ The definition includes [*continuous rock*](chapter-03.qmd#sec-crockp), paved ur
 **2. Diagnostic horizons that may be organic or mineral**
 
 | Name            | Simplified Description                                            |
-|------------------|------------------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | calcic horizon  | accumulation of secondary carbonates, not continuously cemented   |
 | cryic horizon   | perennially frozen (visible ice or, if not enough water, \< 0 °C) |
 | salic horizon   | high amounts of readily soluble salts                             |
@@ -133,17 +133,17 @@ The definition includes [*continuous rock*](chapter-03.qmd#sec-crockp), paved ur
 **4. Surface mineral diagnostic horizons**
 
 | Name            | Simplified Description                                                                                                                                                                                                                |
-|----------------|--------------------------------------------------------|
+|------------|-----------------------------------------------------------|
 | chernic horizon | thick, very dark-coloured, high base saturation, moderate to high content of organic matter, well developed soil structure or structural elements created by agricultural practices, high animal activity (special case of the mollic |
-| mollic horizon  | thick, dark-coloured, high base saturation, moderate to high content of organic matter, at least some soil structure or structural elements created by agicultural practices                                                          |
+| mollic horizon  | thick, dark-coloured, high base saturation, moderate to high content of organic matter, at least some soil structure or structural elements created by agricultural practices                                                         |
 | umbric horizon  | thick, dark-coloured, low base saturation, moderate to high content of organic matter, at least some soil structure or structural elements created by agricultural practices                                                          |
 
 **5. Other mineral diagnostic horizons related to the accumulation of substances due to (vertical or lateral) migration processes**
 
 | Name                  | Simplified Description                                                                                                                                                                                                                                                 |
-|----------------|--------------------------------------------------------|
+|-------------|-----------------------------------------------------------|
 | argic horizon         | subsurface layer with distinctly higher clay content than the overlying layer without a lithic discontinuity and/or presence of illuvial clay minerals (with or without a lithic discontinuity)                                                                        |
-| duric horizon         | concretions or nodules, cemented by secondary silica, and/or fragments of a broken-up petroducirc horizon                                                                                                                                                              |
+| duric horizon         | concretions or nodules, cemented by secondary silica, and/or fragments of a broken-up petroduric horizon                                                                                                                                                               |
 | ferric horizon        | ≥ 5% reddish to blackish concretions and/or nodules and/or ≥ 15% reddish to blackish coarse masses, with accumulation of Fe (and Mn) oxides                                                                                                                            |
 | gypsic horizon        | accumulation of secondary gypsum, not continuously cemented                                                                                                                                                                                                            |
 | limonic horizon       | accumulation of Fe and/or Mn oxides in a layer that has or had gleyic properties; at least partially cemented                                                                                                                                                          |
@@ -161,7 +161,7 @@ The definition includes [*continuous rock*](chapter-03.qmd#sec-crockp), paved ur
 **6. Other mineral diagnostic horizons**
 
 | Name                | Simplified Description                                                                                                                          |
-|-----------------|-------------------------------------------------------|
+|--------------|---------------------------------------------------------|
 | albic horizon       | light-coloured; loss of coloured substances (e.g. oxides, organic matter) due to soil-forming processes                                         |
 | cambic horizon      | evidence of soil-forming processes; not meeting the criteria of diagnostic horizons that indicate stronger alteration or accumulation processes |
 | cohesic horizon     | massive or subangular blocky structure, root penetration restricted, drainage normally free, rich in kaolinite, poor in organic matter          |
@@ -175,14 +175,14 @@ The definition includes [*continuous rock*](chapter-03.qmd#sec-crockp), paved ur
 **7. Diagnostic properties related to surface characteristics**
 
 | Name               | Simplified Description                                                                                             |
-|-----------------|-------------------------------------------------------|
+|---------------|---------------------------------------------------------|
 | takyric properties | fine-textured surface crust with a platy or massive structure; under arid conditions in periodically flooded soils |
 | yermic properties  | combination of desert features: desert pavement, varnishing, ventifacts, vesicular pores, platy structure          |
 
 **8. Diagnostic properties defining the relationship between two layers**
 
 | Name                       | Simplified Description                                                                                                                                          |
-|-----------------|-------------------------------------------------------|
+|---------------|---------------------------------------------------------|
 | abrupt textural difference | very sharp increase in clay content within a limited depth range                                                                                                |
 | albeluvic glossae          | interfingering of coarser-textured and lighter coloured material into an argic horizon forming vertically continuous tongues (special case of retic properties) |
 | lithic discontinuity       | differences in parent material                                                                                                                                  |
@@ -191,7 +191,7 @@ The definition includes [*continuous rock*](chapter-03.qmd#sec-crockp), paved ur
 **9. Other diagnostic properties**
 
 | Name                   | Simplified Description                                                                                                                                          |
-|-----------------|-------------------------------------------------------|
+|---------------|---------------------------------------------------------|
 | andic properties       | short-range-order minerals and/or organo-metallic complexes                                                                                                     |
 | anthric properties     | applying to soils with mollic or umbric horizons, if the mollic or umbric horizon is created or substantially transformed by humans                             |
 | continuous rock        | consolidated material (excluding cemented pedogenetic horizons)                                                                                                 |
@@ -207,7 +207,7 @@ The definition includes [*continuous rock*](chapter-03.qmd#sec-crockp), paved ur
 **10. Diagnostic materials related to the concentration of organic carbon**
 
 | Name                   | Simplified Description                                                                      |
-|------------------|------------------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | mineral material       | \< 20% soil organic carbon and \< 35% (by volume) organic artefacts                         |
 | mulmic material        | developed from water-saturated organic material after drainage; 8 - 20% soil organic carbon |
 | organic material       | ≥ 20% soil organic carbon                                                                   |
@@ -217,31 +217,30 @@ The definition includes [*continuous rock*](chapter-03.qmd#sec-crockp), paved ur
 **11. Diagnostic material related to colour**
 
 | Name            | Simplified Description                                                    |
-|------------------|------------------------------------------------------|
+|----------------|-------------------------------------------------------|
 | claric material | light-coloured fine earth, expressed by high Munsell value and low chroma |
 
 **12. Technogenic diagnostic materials**
 
 | Name                  | Simplified Description                                                                                                                        |
-|-----------------|-------------------------------------------------------|
+|---------------|---------------------------------------------------------|
 | artefacts             | created, substantially modified or brought to the surface by humans; no subsequent substantial change of chemical or mineralogical properties |
 | technic hard material | consolidated and relatively continuous material resulting from an industrial process                                                          |
 
 **13. Other diagnostic materials**
 
-| Name                   | Simplified Description                                                                                                                                                                                             |
-|-----------------|-------------------------------------------------------|
-| aeolic material        | sedimented by wind                                                                                                                                                                                                 |
-| calcaric material      | ≥ 2% calcium carbonate (CaCO~3)~ equivalent, at least partially inherited from the parent material                                                                                                                 |
-| dolomitic material     | ≥ 2% of a mineral that has a ratio CaCO~3~/MgCO~3~ \< 1.5                                                                                                                                                          |
-| fluvic material        | fluviatile, marine or lacustrine deposits with evident stratification                                                                                                                                              |
-| gypsiric material      | ≥ 5% gypsum (CaSO~4~), at least partially inherited from the parent material                                                                                                                                       |
-| hypersulfidic material | containing sulfides and capable of severe acidification                                                                                                                                                            |
-| hyposulfidic material  | containing sulfides and not capable of severe acidification                                                                                                                                                        |
-| limnic material        | deposited in water by precipitation (possibly with sedimentation), or derived from algae, or derived from aquatic plants with subsequent transport or subsequent modification by aquatic animals or microorganisms |
-| ornithogenic material  | excrements or remnants of birds or bird activity                                                                                                                                                                   |
-| solimovic material     | heterogeneous mixture that has moved down a slope, suspended in water; dominated by material that underwent soil formation at its original place                                                                   |
-| tephric material       | ≥ 30% (by grain count) volcanic glass and related materials                                                                                                                                                        |
+| Name                   | Simplified Description                                                                                                                                                                                              ||--------------|----------------------------------------------------------|
+| aeolic material        | sedimented by wind                                                                                                                                                                                                  |
+| calcaric material      | ≥ 2% calcium carbonate (CaCO~3)~ equivalent, at least partially inherited from the parent material                                                                                                                  |
+| dolomitic material     | ≥ 2% of a mineral that has a ratio CaCO~3~/MgCO~3~ \< 1.5                                                                                                                                                           |
+| fluvic material        | fluviatile, marine or lacustrine deposits with evident stratification                                                                                                                                               |
+| gypsiric material      | ≥ 5% gypsum (CaSO~4~), at least partially inherited from the parent material                                                                                                                                        |
+| hypersulfidic material | containing sulfides and capable of severe acidification                                                                                                                                                             |
+| hyposulfidic material  | containing sulfides and not capable of severe acidification                                                                                                                                                         |
+| limnic material        | deposited in water by precipitation (possibly with sedimentation), or derived from algae, or derived from aquatic plants with subsequent transport or subsequent modification by aquatic animals or micro-organisms |
+| ornithogenic material  | excrements or remnants of birds or bird activity                                                                                                                                                                    |
+| solimovic material     | heterogeneous mixture that has moved down a slope, suspended in water; dominated by material that underwent soil formation at its original place                                                                    |
+| tephric material       | ≥ 30% (by grain count) volcanic glass and related materials                                                                                                                                                         |
 
 ### Structure {#sec-bspr-str}
 
@@ -274,7 +273,7 @@ In the WRB, a distinction is made between **principal qualifiers** and **supplem
 -   The system is robust. Missing data do not necessarily lead to a dramatic error in the classification of a soil. If one qualifier is erroneously added or erroneously omitted based on incomplete data, the rest of the soil name remains correct.
 
 |                                                                                                               |     RSG     | Code |
-|---------------------------------------------|:------------:|:------------:|
+|---------------------------------------------------|:--------:|:--------:|
 | **1. Soils with thick organic layers:**                                                                       |  Histosols  |  HS  |
 | **2. Soils with strong human influence --**                                                                   |             |      |
 | With long and intensive agricultural use:                                                                     | Anthrosols  |  AT  |
