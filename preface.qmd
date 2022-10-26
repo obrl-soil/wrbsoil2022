@@ -1,6 +1,6 @@
 # Preface {.unnumbered}
 
-The first edition of the World Reference Base for Soil Resources (WRB) was published in 1998, the second in 2006 and the third in 2014. In 2022, at the 22nd World Congress of Soil Science in Glasgow, we present the fourth edition.
+The first edition of the World Reference Base for Soil Resources (WRB) was published in 1998, the second in 2006 and the third in 2014. In 2022, at the 22^nd^ World Congress of Soil Science in Glasgow, we present the fourth edition.
 
 The fourth edition is the result of another eight years of testing. During international field workshops, we classified numerous soil profiles and developed ideas for improvement. Establishing algorithms for automated classification helped overcome inconsistencies. The 32 Reference Soil Groups were maintained but soil characteristics, not reflected or properly defined up till now in the WRB, had to be taken into account. Many criteria in the diagnostics, the key and in the definitions of the qualifiers were sharpened and refined. Special effort was made to ensure consistency; that the same features are worded in the same way throughout the text, including the annexes.
 
