@@ -122,7 +122,7 @@ An argic horizon consists of [*mineral material*](#sec-minm) and:
 
 #### Field identification {#sec-argich-flid}
 
-Textural differentiation and the evidence of clay illuviation are the main features of argic horizons. The recognition of clay coatings and clay bridges is explained in Annex 1 ([Chapter 8.4.23](annex-01-field-guide.qmd#sec-a1-coats)).
+Textural differentiation and the evidence of clay illuviation are the main features of argic horizons. The recognition of clay coatings and clay bridges is explained in Annex 1 ([Chapter 8.4.23](annex-01-field-guide.qmd#sec-a1-8423)).
 
 In shrink-swell soils, clay coatings at soil aggregate surfaces are easily confused with pressure faces (stress cutans). Pressure faces do not differ in colour from the original aggregate and do not occur on coarse fragments and biopore walls.
 
@@ -169,9 +169,9 @@ A calcic horizon:
 
 #### Field identification {#sec-calch-flid}
 
-Calcium carbonate can be identified in the field using 1 *M* hydrochloric acid (HCl) solution. The degree of effervescence is an indication of its amount (see Annex 1, [Chapter 8.4.25](annex-01-field-guide.qmd#sec-a1-carbs)).
+Calcium carbonate can be identified in the field using 1 *M* hydrochloric acid (HCl) solution. The degree of effervescence is an indication of its amount (see Annex 1, [Chapter 8.4.25](annex-01-field-guide.qmd#sec-a1-8425)).
 
-Secondary carbonates are visible as usually discrete permanent accumulations (see Annex 1, [Chapter 8.4.25](annex-01-field-guide.qmd#sec-a1-carbs)). In the calcic horizon, they are predominantly non-cemented or less than moderately cemented. However, discontinuous accumulations, which are moderately or more cemented, may also occur.
+Secondary carbonates are visible as usually discrete permanent accumulations (see Annex 1, [Chapter 8.4.25](annex-01-field-guide.qmd#sec-a1-8425)). In the calcic horizon, they are predominantly non-cemented or less than moderately cemented. However, discontinuous accumulations, which are moderately or more cemented, may also occur.
 
 Other possible indications of a calcic horizon are:
 
@@ -182,7 +182,7 @@ When sampling, please make sure that the sample includes the accumulations of se
 
 #### Additional information {#sec-calch-info}
 
-The determination of carbonates in the laboratory (Annex 2, [Chapter 9.9](annex-02-analytical-procedures.qmd#sec-a2-carbs)) uses an acid and measures the evolved CO~2~. It may stem from various carbonates, but the carbonate content is calculated as if it were only from calcium carbonate. This is called the **calcium carbonate equivalent**.
+The determination of carbonates in the laboratory (Annex 2, [Chapter 9.9](annex-02-analytical-procedures.qmd#sec-a2-99)) uses an acid and measures the evolved CO~2~. It may stem from various carbonates, but the carbonate content is calculated as if it were only from calcium carbonate. This is called the **calcium carbonate equivalent**.
 
 Determination of the amount of calcium carbonate (by mass) and the changes of calcium carbonate content within the soil profile are the main analytical criteria for establishing the presence of a calcic horizon. [*Lithic discontinuities*](#sec-lithd) and any change of water permeability may favour the formation of secondary carbonates. Determination of pH~water~ enables distinction between accumulations with a basic (*calcic*) character (pH 8-8.7) due to the dominance of CaCO~3~, and those with an ultrabasic (*non-calcic*) character (pH \> 8.7) because of the presence of Na~2~CO~3~ and/or MgCO~3~.
 
@@ -379,7 +379,7 @@ A duric horizon consists of [*mineral material*](#sec-minm) and has:
 
 #### Field identification {#sec-durich-flid}
 
-The identification of secondary silica is described in Annex 1 ([Chapter 8.4.27](annex-01-field-guide.qmd#sec-a1-silica)). The durinodes are usually hard (high penetration resistance). Many durinodes are brittle when moist, both before and after treatment with acid.
+The identification of secondary silica is described in Annex 1 ([Chapter 8.4.27](annex-01-field-guide.qmd#sec-a1-8427)). The durinodes are usually hard (high penetration resistance). Many durinodes are brittle when moist, both before and after treatment with acid.
 
 #### Additional information {#sec-durich-info}
 
@@ -536,13 +536,13 @@ A gypsic horizon consists of [*mineral material*](#sec-minm) and:
 
 #### Field identification {#sec-gypsih-flid}
 
-How to recognize secondary gypsum is described in Annex 1 ([Chapter 8.4.26](annex-01-field-guide.qmd#sec-a1-gypsum)). The accumulation may be in distinct form or flour-like. The latter gives the gypsic horizon a massive structure.
+How to recognize secondary gypsum is described in Annex 1 ([Chapter 8.4.26](annex-01-field-guide.qmd#sec-a1-8426)). The accumulation may be in distinct form or flour-like. The latter gives the gypsic horizon a massive structure.
 
 Gypsum crystals may be visually mistaken for quartz. Gypsum is soft and can easily be scratched with a knife or broken between thumbnail and forefinger. Quartz is hard and cannot be broken except by hammering.
 
 #### Additional information {#sec-gypsih-info}
 
-The recommended procedure to determine gypsum in the laboratory (Annex 2, [Chapter 9.10](annex-02-analytical-procedures.qmd#sec-a2-gypsum)) also extracts anhydrite, which is considered to be mainly primary.
+The recommended procedure to determine gypsum in the laboratory (Annex 2, [Chapter 9.10](annex-02-analytical-procedures.qmd#sec-a2-910)) also extracts anhydrite, which is considered to be mainly primary.
 
 Thin section analysis is helpful to establish the presence of secondary gypsum, as individual gypsic pedofeatures or as generalized accumulations in the groundmass.
 
@@ -833,7 +833,7 @@ In many nitic horizons, the CEC (by 1 *M* NH~4~OAc, pH 7) is \< 36 cmol~c~�
 
 #### Relationships with some other diagnostics {#sec-nitich-reln}
 
-The nitic horizon may be considered as a strongly expressed [*cambic*](#sec-cambich)[*horizon*](#sec-cambh) with specific properties such as a high amount of oxalate-extractable (active) iron. Nitic horizons may show clay coatings and may satisfy the requirements of an [*argic horizon*](#sec-argich), although the clay content in the nitic horizon is not much higher than in the overlying horizon. Its mineralogy (kaolinitic/\[meta\]halloysitic) sets it apart from most [*vertic horizons*](#sec-verth), which have a dominantly smectitic mineralogy and usually occur in climates with a more pronounced dry season. However, nitic horizons may grade laterally into [*vertic horizons*](#sec-verth) in lower landscape positions. The well-expressed soil structure, the high amount of oxalate-extractable iron, and in some cases, the intermediate CEC in nitic horizons set them apart from [*ferralic horizons*](#sec-feralh). Nitic horizons strongly differ from [*cohesic horizons*](#sec-cohesich), which may also be rich in clay. Nitic horizons in freely drained soils of high plateaus and mountains in humid tropical and subtropical regions may occur in association with [*sombric horizons*](#sec-sombrh).
+The nitic horizon may be considered as a strongly expressed [*cambic horizon*](#sec-cambich) with specific properties such as a high amount of oxalate-extractable (active) iron. Nitic horizons may show clay coatings and may satisfy the requirements of an [*argic horizon*](#sec-argich), although the clay content in the nitic horizon is not much higher than in the overlying horizon. Its mineralogy (kaolinitic/\[meta\]halloysitic) sets it apart from most [*vertic horizons*](#sec-verth), which have a dominantly smectitic mineralogy and usually occur in climates with a more pronounced dry season. However, nitic horizons may grade laterally into [*vertic horizons*](#sec-verth) in lower landscape positions. The well-expressed soil structure, the high amount of oxalate-extractable iron, and in some cases, the intermediate CEC in nitic horizons set them apart from [*ferralic horizons*](#sec-feralh). Nitic horizons strongly differ from [*cohesic horizons*](#sec-cohesich), which may also be rich in clay. Nitic horizons in freely drained soils of high plateaus and mountains in humid tropical and subtropical regions may occur in association with [*sombric horizons*](#sec-sombrh).
 
 ### Panpaic horizon {#sec-panpaich}
 
@@ -907,7 +907,7 @@ A petroduric horizon consists of [*mineral material*](#sec-minm) and:
 
 #### Field identification {#sec-pdurich-flid}
 
-The identification of secondary silica is described in Annex 1 ([Chapter 8.4.27](annex-01-field-guide.qmd#sec-a1-silica)). Effervescence after applying 1 *M* HCl may take place but is mostly not as vigorous as in [*petrocalcic*](#sec-pcalch)[*horizons*](#sec-petroh), which appear similar. In very dry environments, the petroduric horizons commonly are platy. In less dry environments, vertical fractures are more common. It has usually a high penetration resistance.
+The identification of secondary silica is described in Annex 1 ([Chapter 8.4.27](annex-01-field-guide.qmd#sec-a1-8427)). Effervescence after applying 1 *M* HCl may take place but is mostly not as vigorous as in [*petrocalcic horizons*](#sec-pcalch), which appear similar. In very dry environments, the petroduric horizons commonly are platy. In less dry environments, vertical fractures are more common. It has usually a high penetration resistance.
 
 #### Additional information {#sec-pdurich-info}
 
@@ -936,11 +936,11 @@ A petrogypsic horizon consists of [*mineral material*](#sec-minm) and:
 
 #### Field identification {#sec-pgypsich-flid}
 
-Petrogypsic horizons are cemented, whitish and composed predominantly of gypsum. Old petrogypsic horizons may be capped by a thin, laminar layer of newly precipitated gypsum. How to recognize secondary gypsum is described in Annex 1 ([Chapter 8.4.26](annex-01-field-guide.qmd#sec-a1-gypsum)).
+Petrogypsic horizons are cemented, whitish and composed predominantly of gypsum. Old petrogypsic horizons may be capped by a thin, laminar layer of newly precipitated gypsum. How to recognize secondary gypsum is described in Annex 1 ([Chapter 8.4.26](annex-01-field-guide.qmd#sec-a1-8426)).
 
 #### Additional information {#sec-pgypsich-info}
 
-The recommended procedure to determine gypsum in the laboratory (Annex 2, [Chapter 9.10](annex-02-analytical-procedures.qmd#sec-a2-gypsum)) also extracts anhydrite, which is considered to be mainly primary.
+The recommended procedure to determine gypsum in the laboratory (Annex 2, [Chapter 9.10](annex-02-analytical-procedures.qmd#sec-a2-910)) also extracts anhydrite, which is considered to be mainly primary.
 
 In thin sections, the petrogypsic horizon shows a a groundmass composed of interlocked gypsum crystals with a hypidiotopic or xenotopic fabric, mixed with varying amounts of detrital material.
 
@@ -1121,7 +1121,7 @@ A protovertic horizon consists of [*mineral material*](#sec-minm) and has:
 
 #### Field identification {#sec-protvh-flid}
 
-Wedge-shaped soil aggregates and slickensides (see Annex 1, Chapter [8.4.10](annex-01-field-guide.qmd#sec-a1-struct) and [8.4.14](annex-01-field-guide.qmd#sec-a1-stress)) may not be immediately evident if the soil is moist. A decision about their presence can sometimes only be made after the soil has dried out. Wedge-shaped aggregates may be a second-level structure of larger angular blocky or prismatic elements, which should be carefully examined to see if wedge-shaped aggregates are present.
+Wedge-shaped soil aggregates and slickensides (see Annex 1, [Chapter 8.4.10](annex-01-field-guide.qmd#sec-a1-8410) and [8.4.14](annex-01-field-guide.qmd#sec-a1-8414)) may not be immediately evident if the soil is moist. A decision about their presence can sometimes only be made after the soil has dried out. Wedge-shaped aggregates may be a second-level structure of larger angular blocky or prismatic elements, which should be carefully examined to see if wedge-shaped aggregates are present.
 
 #### Relationships with some other diagnostics {#sec-protvh-reln}
 
@@ -1368,11 +1368,11 @@ A vertic horizon consists of [*mineral material*](#sec-minm) and has:
 
 Vertic horizons are clay-rich and, when dry, often have a rupture-resistance class of at least hard. Polished, shiny surfaces with striations (slickensides), often at sharp angles, are distinctive.
 
-Wedge-shaped soil aggregates and slickensides (see Annex 1, Chapter [8.4.10](annex-01-field-guide.qmd#sec-a1-struct) and [8.4.14](annex-01-field-guide.qmd#sec-a1-stress)) may not be immediately evident if the soil is moist. A decision about their presence can sometimes only be made after the soil has dried out. Wedge-shaped aggregates may be a second-level structure of larger angular blocky or prismatic elements, which should be carefully examined to see if wedge-shaped aggregates are present.
+Wedge-shaped soil aggregates and slickensides (see Annex 1, [Chapter 8.4.10](annex-01-field-guide.qmd#sec-a1-8410) and [8.4.14](annex-01-field-guide.qmd#sec-a1-8414)) may not be immediately evident if the soil is moist. A decision about their presence can sometimes only be made after the soil has dried out. Wedge-shaped aggregates may be a second-level structure of larger angular blocky or prismatic elements, which should be carefully examined to see if wedge-shaped aggregates are present.
 
 #### Additional information {#sec-verth-info}
 
-The coefficient of linear extensibility (COLE, see Annex 2, [Chapter 9.6](annex-02-analytical-procedures.qmd#sec-a2-cole)) is usually ≥ 0.06.
+The coefficient of linear extensibility (COLE, see Annex 2, [Chapter 9.6](annex-02-analytical-procedures.qmd#sec-a2-96)) is usually ≥ 0.06.
 
 #### Relationships with some other diagnostics {#sec-verth-reln}
 
@@ -1523,7 +1523,7 @@ Gleyic properties refer to [*mineral material*](#sec-minm), show redoximorphic f
 
 #### Field identification {#sec-gleyicp-flid}
 
-Redoximorphic features are described in Annex 1 ([Chapter 8.4.20](annex-01-field-guide.qmd#sec-a1-redox)).
+Redoximorphic features are described in Annex 1 ([Chapter 8.4.20](annex-01-field-guide.qmd#sec-a1-8420)).
 
 #### Additional information {#sec-gleyicp-info}
 
@@ -1598,7 +1598,7 @@ Protocalcic properties refer to accumulations of secondary carbonates, visible w
 
 #### Field identification {#sec-protcp-flid}
 
-The identification of secondary carbonates is described in Annex 1 ([Chapter 8.4.25](annex-01-field-guide.qmd#sec-a1-carbs)).
+The identification of secondary carbonates is described in Annex 1 ([Chapter 8.4.25](annex-01-field-guide.qmd#sec-a1-8425)).
 
 #### Additional information {#sec-protcp-info}
 
@@ -1620,7 +1620,7 @@ Protogypsic properties refer to visible accumulations of secondary gypsum that o
 
 #### Field identification {#sec-protgp-flid}
 
-The identification of secondary gypsum is described in Annex 1 ([Chapter 8.4.26](annex-01-field-guide.qmd#sec-a1-gypsum)).
+The identification of secondary gypsum is described in Annex 1 ([Chapter 8.4.26](annex-01-field-guide.qmd#sec-a1-8426)).
 
 #### Relationships with some other diagnostics {#sec-protgp-reln}
 
@@ -1733,7 +1733,7 @@ Stagnic properties refer to [*mineral material*](#sec-minm), show redoximorphic 
 
 #### Field identification {#sec-stagnp-flic}
 
-Redoximorphic features are described in Annex 1 ([Chapter 8.4.20](annex-01-field-guide.qmd#sec-a1-redox)).
+Redoximorphic features are described in Annex 1 ([Chapter 8.4.20](annex-01-field-guide.qmd#sec-a1-8420)).
 
 #### Additional information {#sec-stagnp-info}
 
@@ -1815,12 +1815,12 @@ Yermic properties occur in [*mineral material*](#sec-minm) and have one or both 
 #### Field identification {#sec-yermicp-flic}
 
 The features of the yermic properties are described in Annex 1:\
-desert pavement ([Chapter 8.3.4](annex-01-field-guide.qmd#sec-a1-scf))\
-desert varnish and ventifacts ([Chapter 8.3.5](annex-01-field-guide.qmd#sec-a1-desert))\
-platy structure ([Chapter 8.4.10](annex-01-field-guide.qmd#sec-a1-struct))\
-vesicular pores ([Chapter 8.4.12](annex-01-field-guide.qmd#sec-a1-pores)) - to be diagnostic, the vesicular pores must be present in the abundance class 'many'.
+desert pavement ([Chapter 8.3.4](annex-01-field-guide.qmd#sec-a1-834))\
+desert varnish and ventifacts ([Chapter 8.3.5](annex-01-field-guide.qmd#sec-a1-835))\
+platy structure ([Chapter 8.4.10](annex-01-field-guide.qmd#sec-a1-8410))\
+vesicular pores ([Chapter 8.4.12](annex-01-field-guide.qmd#sec-a1-8412)) - to be diagnostic, the vesicular pores must be present in the abundance class 'many'.
 
-If the texture is fine enough, the soil may show a polygonal network of desiccation cracks ([Chapter 8.4.13](annex-01-field-guide.qmd#sec-a1-cracks)), often filled with in-blown material, that extend into greater depths. In cold deserts, larger coarse fragments at the soil surface are often shattered by frost.
+If the texture is fine enough, the soil may show a polygonal network of desiccation cracks ([Chapter 8.4.13](annex-01-field-guide.qmd#sec-a1-8413)), often filled with in-blown material, that extend into greater depths. In cold deserts, larger coarse fragments at the soil surface are often shattered by frost.
 
 #### Relationships with some other diagnostics {#sec-yermicp-reln}
 
@@ -2026,7 +2026,7 @@ Limnic material (from Greek *limnae*, pool) includes both organic and [*mineral 
 3.  derived from aquatic plants and subsequently transported; ***or***
 4.  derived from aquatic plants and subsequently modified by aquatic animals and/or microorganisms.
 
-#### Field identification {#sec-limnicm-flid}
+#### Field identification
 
 [*Limnic material*](#sec-limnicm) is formed as subaquatic deposits and usually stratified. (After drainage it may occur at the soil surface.) Four types of limnic material can be distinguished:
 
@@ -2072,7 +2072,7 @@ Mulmic material is [*mineral material*](#sec-minm) that has developed from water
 
 #### General description {#sec-orgm-desc}
 
-Organic material (from Greek *organon*, tool) has large amounts of organic matter in the fine earth and/or contains many dead thin plant remnants. It may show different stages of decomposition. If still connected to living plants (e.g. *Sphagnum* mosses), it may even be completely undecomposed. If derived from fallen organic residues, it is decomposed to at least the extent that it is not loose and/or that recognizable dead plant tissues comprise ≤ 90% of the volume (related to the fine earth plus all dead plant remnants). Fallen organic residues with \> 90% recognizable dead plant tissues and still loose are called litter layer (see [Chapter 2.1](chapter-02.qmd#sec-gnrl), General rules, and Annex 1, [Chapters 8.3.1](annex-01-field-guide.qmd#sec-a1-ssurf) and [8.3.2](annex-01-field-guide.qmd#sec-a1-llyr)) and are not considered for classification in WRB. (Litter layers are temporally and spatially extremely variable in thickness). On the other hand, decomposition may be advanced until no recognizable dead plant tissues remain, and a homogeneous organic soil mass results. Organic material accumulates under both wet and dry conditions. The mineral component of the fine earth has a limited influence on soil properties.
+Organic material (from Greek *organon*, tool) has large amounts of organic matter in the fine earth and/or contains many dead thin plant remnants. It may show different stages of decomposition. If still connected to living plants (e.g. *Sphagnum* mosses), it may even be completely undecomposed. If derived from fallen organic residues, it is decomposed to at least the extent that it is not loose and/or that recognizable dead plant tissues comprise ≤ 90% of the volume (related to the fine earth plus all dead plant remnants). Fallen organic residues with \> 90% recognizable dead plant tissues and still loose are called litter layer (see [Chapter 2.1](chapter-02.qmd#sec-gnrl), General rules, and Annex 1, [Chapters 8.3.1](annex-01-field-guide.qmd#sec-a1-831) and [8.3.2](annex-01-field-guide.qmd#sec-a1-832)) and are not considered for classification in WRB. (Litter layers are temporally and spatially extremely variable in thickness). On the other hand, decomposition may be advanced until no recognizable dead plant tissues remain, and a homogeneous organic soil mass results. Organic material accumulates under both wet and dry conditions. The mineral component of the fine earth has a limited influence on soil properties.
 
 #### Diagnostic criteria {#sec-orgm-diag}
 
