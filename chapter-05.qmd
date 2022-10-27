@@ -61,7 +61,7 @@ and fulfilling the set of diagnostic criteria of the [Eutric](#sec-eu) qualifier
 
 ### Alic (al) {#sec-al .unnumbered}
 
-(from Latin *alumen*, alum): having an [*argic horizon*](chapter-03.qmd#sec-argich) starting ≤ 100 cm from the mineral soil surface with a CEC (by 1 *M* NH~4~OAc, pH 7) of ≥ 24 cmol~c~ kg^-1^ clay throughout within 150 cm of the mineral soil surface; and having exchangeable Al \> exchangeable (Ca+Mg+K+Na) in half or more of the depth range between 50 and 100 cm of the mineral soil surface or the lower half of the mineral soil above a limiting layer starting ≤ 100 cm from the mineral soil surface, whichever is shallower (2). Note: Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 ([Chapter 9.13](annex-02-analytical-procedures.qmd#sec-a2-cec)).
+(from Latin *alumen*, alum): having an [*argic horizon*](chapter-03.qmd#sec-argich) starting ≤ 100 cm from the mineral soil surface with a CEC (by 1 *M* NH~4~OAc, pH 7) of ≥ 24 cmol~c~ kg^-1^ clay throughout within 150 cm of the mineral soil surface; and having exchangeable Al \> exchangeable (Ca+Mg+K+Na) in half or more of the depth range between 50 and 100 cm of the mineral soil surface or the lower half of the mineral soil above a limiting layer starting ≤ 100 cm from the mineral soil surface, whichever is shallower (2). Note: Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 ([Chapter 9.13](annex-02-analytical-procedures.qmd#sec-a2-913)).
 
 ### Aluandic (aa) {#sec-aa .unnumbered}
 
@@ -75,7 +75,7 @@ and fulfilling the set of diagnostic criteria of the [Eutric](#sec-eu) qualifier
 
 (from Greek *proton*, first): having within 100 cm of the soil surface one or more layers with a combined thickness of ≥ 15 cm, and with an Al~ox~ + ½Fe~ox~ value of ≥ 1.2%, a bulk density of ≤ 1.2 kg dm^-3^ and a phosphate retention of ≥ 55%; and not fulfilling the set of diagnostic criteria of the [Andic qualifier](s#sec-an) (2).
 
-**Note:** For bulk density, the volume is determined after an undried soil sample has been desorbed at 33 kPa (no prior drying), and afterwards the weight is determined at 105 °C (see Annex 2, [Chapter 9.5](annex-02-analytical-procedures.qmd#sec-a2-bd)).
+**Note:** For bulk density, the volume is determined after an undried soil sample has been desorbed at 33 kPa (no prior drying), and afterwards the weight is determined at 105 °C (see Annex 2, [Chapter 9.5](annex-02-analytical-procedures.qmd#sec-a2-95)).
 
 ### Anthraquic (aq) {#sec-aq .unnumbered}
 
@@ -856,7 +856,7 @@ and having a bulk density of ≥ 0.2 kg dm^-3^ and one or both of the followi
 
 (in [*Histosols*](chapter-04.qmd#sec-key-hs) only) (2).
 
-**Note:** For bulk density, the volume is determined after an undried soil sample has been desorbed at 33 kPa (no prior drying), and afterwards the weight is determined at 105 °C (see Annex 2, [Chapter 9.5](annex-02-analytical-procedures.qmd#sec-a2-bd)).
+**Note:** For bulk density, the volume is determined after an undried soil sample has been desorbed at 33 kPa (no prior drying), and afterwards the weight is determined at 105 °C (see Annex 2, [Chapter 9.5](annex-02-analytical-procedures.qmd#sec-a2-95)).
 
 ### Muusic (mu) {#sec-mu .unnumbered}
 
