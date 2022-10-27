@@ -38,6 +38,7 @@ format:
     citations-hover: true
     footnotes-hover: true
     number-sections: true
+    number-depth: 3
     date-modified: last-modified
     logo: images/cover.png
     appendix-style: none

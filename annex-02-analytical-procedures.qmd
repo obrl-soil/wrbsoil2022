@@ -2,17 +2,17 @@
 
 This annex provides summaries of recommended analytical procedures to be used for soil characterization for the World Reference Base for Soil Resources. Full descriptions can be found in *Procedures for soil analysis* [@procedur2002] and the USDA *Kellogg Soil Survey Laboratory Methods Manual* [@kellogg2014].
 
-## Sample preparation {#sec-a2-sprep}
+## Sample preparation {#sec-a2-91}
 
 Samples are air-dried or alternatively oven-dried at a maximum of 40 °C. The fine earth is obtained by sieving the dry sample with a 2 mm sieve. Clods not passing through the sieve are crushed (not ground) and sieved again. Coarse fragments and roots not passing through the sieve are treated separately.
 
-In special cases where air-drying causes unacceptable irreversible changes in certain soil properties (e.g. in peat and in soils with *andic properties*), samples are kept and treated in the field-moist state. These samples should be kept under cool conditions and analyzed within a few weeks after sampling.
+In special cases where air-drying causes unacceptable irreversible changes in certain soil properties (e.g. in peat and in soils with [*andic properties*](chapter-03.qmd#sec-andicp)), samples are kept and treated in the field-moist state. These samples should be kept under cool conditions and analyzed within a few weeks after sampling.
 
-## Moisture content {#sec-a2-moist}
+## Moisture content {#sec-a2-92}
 
 Calculation of contents is done on the basis of dry (105 °C) soil mass.
 
-## Particle-size analysis {#sec-a2-psa}
+## Particle-size analysis {#sec-a2-93}
 
 The mineral part of the soil is separated into various size fractions and the proportion of these fractions is determined. The determination comprises all material, i.e. including coarse fragments, but the procedure itself is applied to the fine earth (≤ 2 mm) only. The particle-size classes according to ISO 11277:2009 [@internationalorganizationforstandardization2015] are given in the Table:
 
@@ -32,15 +32,15 @@ The mineral part of the soil is separated into various size fractions and the pr
 | Coarse clay         | \> 0.2 μm - ≤ 2 μm    |
 | Fine clay           | ≤ 0.2 μm              |
 
-: Particle-size classes
+: Particle-size classes {#tbl-a2-91}
 
 The pre-treatment of the sample is aimed at complete dispersion of the primary particles. Therefore, cementing materials (usually of secondary origin) such as organic matter and calcium carbonate may have to be removed. In some cases, de-ferration also needs to be applied. The amount of cementing material has to be documented. However, depending on the aim of study, it may be fundamentally wrong to remove cementing materials. Thus, all pre-treatments are considered optional. However, for soil characterization purposes, removal of organic matter by H~2~O~2~ and of carbonates by HCl is routinely carried out. After this pre-treatment, the sample is shaken with a dispersing agent and sand is separated from clay and silt with a 63-μm sieve. The sand is fractionated by dry sieving; the clay and silt fractions are determined by the pipette method or, alternatively, by the hydrometer method.
 
-## Water-dispersible clay
+## Water-dispersible clay {#sec-a2-94}
 
 This is the clay content found when the sample is dispersed with water without any pre-treatment to remove cementing compounds and without use of a dispersing agent. The proportion of water-dispersible clay to total clay can be used as a structure stability indicator.
 
-## Bulk density {#sec-a2-bd}
+## Bulk density {#sec-a2-95}
 
 Density is defined as mass per unit volume. Soil bulk density is the ratio of the mass of solids to the total or bulk volume and is given at dry state. This total volume includes the volume of both solids and pore space. The volume and therefore the bulk density changes with swelling and shrinking, which is related to the water content. For that reason, the water status of the sample prior to drying must be specified.
 
@@ -50,33 +50,33 @@ Two different procedures can be used:
 
 -   *Coated clods.* Field-occurring clods are coated with plastic lacquer (e.g. Saran dissolved in methyl ethyl ketone) to allow underwater determination. This gives the volume of the clod. The moist sample mass is recorded. This may be the field-moist state or the state after equilibrating the clod at a specified water tension. The sample is then dried at 105 °C and weighed again. The bulk density is the ratio of dry mass to volume (related to the determined water content and/or the specified water tension).
 
-If the sample contains many coarse fragments, the coarse fragments are sieved out after drying and then their mass and volume are determined separately. With that, the bulk density of the fine earth is calculated. The determination of bulk density is very sensitive to natural variability, particularly caused by nonrepresentativeness of the samples (coarse fragments, cementations, cracks, roots, etc.). Therefore, determinations should always be made at least in triplicate.
+If the sample contains many coarse fragments, the coarse fragments are sieved out after drying and then their mass and volume are determined separately. With that, the bulk density of the fine earth is calculated. The determination of bulk density is very sensitive to natural variability, particularly caused by non-representativeness of the samples (coarse fragments, cementations, cracks, roots, etc.). Therefore, determinations should always be made at least in triplicate.
 
-## Coefficient of linear extensibility (COLE) {#sec-a2-cole}
+## Coefficient of linear extensibility (COLE) {#sec-a2-96}
 
 The COLE gives an indication of the reversible shrink--swell capacity of a soil. It is calculated as the ratio of the difference between the moist length and the dry length of a clod to its dry length: (L~m~ - L~d~)/L~d~, in which L~m~ is the length at 33 kPa tension and Ld the length when dry (105 °C).
 
-## pH
+## pH {#sec-a2-97}
 
 The pH of the soil is measured potentiometrically in the supernatant suspension of a soil:liquid mixture. If not stated otherwise, soil:liquid are in a ratio of 1:5 (volume:volume) (according to ISO standards). The liquid is either distilled water (pHwater) or a 1 *M* KCl solution (pH~KCl~). However, in some definitions, a 1:1 soil:water ratio is used.
 
-## Organic carbon
+## Organic carbon {#sec-a2-98}
 
-Many laboratories use auto-analysers (e.g. dry combustion). In these cases, a qualitative test for carbonates on effervescence with HCl is recommended, and if applicable, a correction for inorganic C (see Chapter 9.9) is required.
+Many laboratories use auto-analysers (e.g. dry combustion). In these cases, a qualitative test for carbonates on effervescence with HCl is recommended, and if applicable, a correction for inorganic C (see [Chapter 9.9](#sec-a2-99)) is required.
 
 Otherwise, the *Walkley--Black method* is followed. This involves a wet combustion of the organic matter with a mixture of potassium dichromate and sulfuric acid at about 125 °C. The residual dichromate is titrated against ferrous sulfate. To compensate for incomplete destruction, an empirical correction factor of 1.3 is applied in the calculation of the result.
 
-## Carbonates {#sec-a2-carbs}
+## Carbonates {#sec-a2-99}
 
 The *rapid titration method* by Piper [-@piper1942, also called *acid neutralization method*] is used. The sample is treated with dilute HCl and the residual acid is titrated. The results are referred to as *calcium carbonate equivalent* as the dissolution is not selective for calcite, and other carbonates such as dolomite are dissolved as well.
 
 ***Note:*** Other procedures such as the *Scheibler volumetric method* or the *Bernard calcimeter* may also be used.
 
-## Gypsum {#sec-a2-gypsum}
+## Gypsum {#sec-a2-910}
 
 Gypsum is dissolved by shaking the sample with water. It is then selectively precipitated from the extract by adding acetone. This precipitate is re-dissolved in water and the Ca concentration is determined as a measure for gypsum. This method also extracts anhydrite.
 
-## Cation exchange capacity (CEC) and exchangeable base cations
+## Cation exchange capacity (CEC) and exchangeable base cations {#sec-a2-911}
 
 The ammonium acetate pH 7 method is used. In saline soils, the readily soluble salts have to be washed out before starting the procedure. The sample is percolated with ammonium acetate (pH 7) and the base cations are measured in the percolate. The sample is subsequently percolated with sodium acetate (pH 7), the excess salt is then removed and the adsorbed Na exchanged by percolation with ammonium acetate (pH 7). The Na in this percolate is a measure for the CEC.
 
@@ -90,21 +90,21 @@ Percolation in tubes may be replaced by shaking in flasks. Each extraction must 
 
 **Note 3:** The base saturation of saline, calcareous and gypseous soils can be considered to be 100%.
 
-## Exchangeable aluminium and exchange acidity
+## Exchangeable aluminium and exchange acidity {#sec-a2-912}
 
 Exchangeable Al is released upon exchange by an unbuffered 1 *M* KCl solution.
 
 Exchange acidity is extracted by a barium chloride-triethanolamine solution, buffered at pH 8.2. The extract is back-titrated with HCl.
 
-## Calculations of CEC and exchangeable cations {#sec-a2-cec}
+## Calculations of CEC and exchangeable cations {#sec-a2-913}
 
 These calculations are usually only provided for mineral material.
 
-### CEC
+### CEC {#sec-a2-913-a}
 
 The CEC is given in cmolc kg^-1^ soil. The CEC kg^-1^ clay is calculated by dividing the CEC kg^-1^ soil by the clay content. Principally, this is only correct if, before doing that, the CEC kg^-1^ soil attributed to the organic matter is subtracted. But we do not have a reliable method to detect the contribution of the organic matter to the CEC. Therefore, it is recommended to do the calculation as if all the CEC were provided by clay. If the organic matter content is low, the error is negligible.
 
-### Saturations at pH 7
+### Saturations at pH 7 {#sec-a2-913-b}
 
 The base saturation (BS) refers to the exchangeable base cations and is calculated as:\
 exchangeable (Ca+Mg+K+Na) x 100 / CEC.
@@ -122,9 +122,9 @@ If the data for the base saturation are not available, the pH~water~ can be used
 | ≥ 2 to \< 7.5  | 5.3       | 4.5     |
 | ≥ 7.5 to \< 20 | 5.7       | 5.0     |
 
-: pH values corresponding to a base saturation of 50%
+: pH values corresponding to a base saturation of 50% {#tbl-a2-92}
 
-### Relationships between cations
+### Relationships between cations {#sec-a2-913-c}
 
 Exchangeable ions are given in cmol~c~ kg^-1^. For some soils, the relationship between the sum of exchangeable base cations and exchangeable Al is required. If the data for exchangeable ions are not available, the pH~water~ can be used instead. If this is also not available, the pH~KCl~ can be used. The correlations between exchangeable ions and pH depend on the amount of organic matter and show an extremely high variance. The following pH values are recommended:
 
@@ -135,9 +135,9 @@ Exchangeable ions are given in cmol~c~ kg^-1^. For some soils, the relationship 
 | ≥ 2 to \< 7.5  | 4.9                 | 4.1     | 5.9                      | 5.0     | 4.2                      | 3.4     |
 | ≥ 7.5 to \< 20 | 5.4                 | 4.6     | 6.3                      | 5.5     | 4.5                      | 3.7     |
 
-: pH values corresponding to relationships between cations
+: pH values corresponding to relationships between cations {#tbl-a2-92}
 
-## Extractable iron, aluminium, manganese and silicon
+## Extractable iron, aluminium, manganese and silicon {#sec-a2-914}
 
 These analyses comprise:
 
@@ -145,7 +145,7 @@ These analyses comprise:
     -   Fe particularly from Fe(III) oxides, hydroxides and oxide-hydroxides;
     -   Al from Fe oxides, where the Al has substituted the Fe, and Al associated to reducible oxides;
     -   Mn particularly from Mn(IV) oxides, hydroxides and oxide-hydroxides.\
-        Both the Mehra & Jackson (1958) and the Holmgren (1967) procedures may be used, with membrane filtration (0.45 μm).
+        Both the Mehra and Jackson [-@mehra1960] and the Holmgren [-@holmgren1967] procedures may be used, with membrane filtration (0.45 μm).
 -   Fe~ox~, Al~ox~, Si~ox~, Mn~ox~: Oxalate (0.2 M ammonium oxalate buffered to pH 3 with 0.2 M oxalic acid) dissolves:
     -   Fe from poorly crystalline oxides, hydroxides and oxide-hydroxides (such as ferrihydrite), and partially Fe from goethite, lepidocrocite, maghemite and magnetite, and partially Fe from organic associations;
     -   Al from Fe oxides, where the Al has substituted the Fe, from hydroxy-interlayers of phyllosilicates, and partially Al from short-range ordered aluminosilicates (such as allophane and imogolite), and partially Al from organic associations, and the adsorbed Al;
@@ -155,34 +155,33 @@ These analyses comprise:
 
 **Note:** Al~dith~ and Mn~ox~ are not used for definitions in WRB. For further review of methods see Rennert [-@rennert2019].
 
-## Salinity
+## Salinity {#sec-a2-915}
 
 Attributes associated with salinity in soils are determined in the saturation extract. The attributes include: pH, electrical conductivity (EC~e~), sodium adsorption ratio (SAR) and the cations and anions of the dissolved salts. These include Ca, Mg, Na, K, carbonate and bicarbonate, chloride, nitrate and sulfate. The SAR and the exchangeable sodium percentage (ESP) may be estimated from the concentrations of the dissolved cations.
 
-The determination in the saturation extract is often difficult. Alternatively, the conductivity and the cations and anions may be detected in a 1:2.5 solution and recalculated to the saturation extract (see Chapter 8.4.28).
+The determination in the saturation extract is often difficult. Alternatively, the conductivity and the cations and anions may be detected in a 1:2.5 solution and recalculated to the saturation extract (see [Chapter 8.4.28](annex-01-field-guide.qmd#sec-a1-8428)).
 
-## Phosphate and phosphate retention
+## Phosphate and phosphate retention {#sec-a2-916}
 
 These analyses comprise:
 
 -   *Mehlich-3 method*: Extraction with a solution of 0.2 *M* glacial acetic acid, 0.25 *M* ammonium nitrate, 0.015 *M* ammonium fluoride, 0.013 *M* nitric acid, and 0.001 *M* ethylene diamine tetraacetic acid (EDTA) [@mehlich1984].
-
 -   For phosphate retention, the *Blakemore method* is used. The sample is equilibrated with a phosphate solution at pH 4.6 and the proportion of phosphate withdrawn from solution is determined [@blakemore1987].
 
-## Mineralogical analysis of the sand fraction
+## Mineralogical analysis of the sand fraction {#sec-a2-917}
 
 After removal of cementing and coating materials, the sand is separated from the clay and silt by wet sieving. From the sand, the fraction 63--420 μm is separated by dry sieving. This fraction is divided into a heavy fraction and a *light* fraction with the aid of a high-density liquid: a solution of sodium polytungstate with a specific density of 2.85 kg dm^-3^. Of the *heavy fraction*, a microscopic slide is made; the *light fraction* is stained selectively for microscopic identification of feldspars and quartz. The analysis requires a petrographic microscope.
 
 Volcanic glass can usually be recognized as isotropic grains with vesicles.
 
-## X-ray diffractometry
+## X-ray diffractometry {#sec-a2-918}
 
 X-ray diffraction (XRD) can be used to analyze (1) the powder of the fine earth or (2) the clay fraction separated from soil.
 
-## Total reserve of bases
+## Total reserve of bases {#sec-a2-919}
 
-There are two methods to analyze the total content of elements: XRD (see Chapter 9.18) and an extract with HF and HClO~4~. The obtained values for Ca, Mg, K and Na are used to calculate the total reserve of bases.
+There are two methods to analyze the total content of elements: XRD (see [Chapter 9.18](#sec-a2-918)) and an extract with HF and HClO~4~. The obtained values for Ca, Mg, K and Na are used to calculate the total reserve of bases.
 
-## Sulfides
+## Sulfides {#sec-a2-920}
 
 Reduced inorganic S is converted to H~2~S by a hot acidic CrCl~2~ solution. The evolved H~2~S is trapped quantitatively in a Zn acetate solution as solid ZnS. The ZnS is then treated with HCl to release H~2~S into solution, which is quickly titrated with I~2~ solution to the blue-coloured end point indicated by the reaction of I~2~ with starch [@sullivan2000]. Caution: Toxic residues have to be managed carefully.
