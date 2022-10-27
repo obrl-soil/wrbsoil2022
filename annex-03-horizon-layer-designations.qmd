@@ -18,7 +18,7 @@ The designation consists of a capital letter (master symbol), which in most case
 
 The word **rock** comprises both consolidated and unconsolidated material. The word **oxides**, in the following, includes oxides, hydroxides and oxide-hydroxides.
 
-## Master symbols
+## Master symbols {#sec-a3-1}
 
 +---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | Symbol  | Criteria                                                                                                                                                                                                                                                                                                                                          |
@@ -65,7 +65,7 @@ The word **rock** comprises both consolidated and unconsolidated material. The w
 
 : Master symbols
 
-## Suffixes
+## Suffixes {#sec-a3-2}
 
 If not stated otherwise, the descriptions are related to the fine earth (see Chapter 2.1).
 
@@ -182,7 +182,7 @@ Combination of suffixes:
 7.  The \@, f and b are written last, if b occurs together with \@ or f (only if other suffixes are present as well): \@b, fb.
 8.  Besides that, combinations must be in the sequence of dominance, the dominant one first. Examples: Btng, Btgb, Bkcyc.
 
-## Transitional layers
+## Transitional layers {#sec-a3-3}
 
 If the characteristics of two or more master layers are superimposed to each other, the master symbols are combined without anything in between, the dominant one first, each one followed by its suffixes. Examples: AhBw, BwAh, AhE, EAh, EBg, BgE, BwC, CBw, BsC, CBs.
 
@@ -196,7 +196,7 @@ If a suffix applies to two or more master symbols, it is not repeated and follow
 
 W cannot be combined with other master symbols. H, O, I, and R can only be combined using the slash.
 
-## Layer sequences
+## Layer sequences {#sec-a3-4}
 
 The sequence of the layers is from top to down with a hyphen in between. Examples see Chapter 10.5.
 
@@ -211,7 +211,7 @@ Examples:\
 Oi-Oe-Oa-Ah-Bw1-Bw2-2Bw3-3Ahb1-3Eb-3Btb-4Ahb2-4C,\
 Oi-He-Ha-Cr1-2Heb-2Hab-2Cr2-3Crγ.
 
-## Examples for layer sequences
+## Examples for layer sequences {#sec-a3-5}
 
 This Chapter provides for every RSG examples for layer sequences. These are just examples, and in every RSG other layer sequences occur as well. Some layer sequences occur in more than one RSG.
 
