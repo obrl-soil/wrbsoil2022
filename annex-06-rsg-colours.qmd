@@ -2,7 +2,7 @@
 
 This annex provides suggestions for colours in maps showing the RSGs. The suggestions follow roughly the colour choices in the atlases edited by the Joint Research Centre of the European Commission.
 
-The guidelines for creating map legends are given in Chapter 2.5. A map unit consists of
+The guidelines for creating map legends are given in [Chapter 2.5](chapter-02.qmd#sec-legends). A map unit consists of
 
 -   a dominant soil only
 -   a dominant soil plus a codominant soil and/or one or more associated soils
@@ -12,37 +12,37 @@ It is recommended to use colour symbols and alphanumeric codes to allow the map 
 
 | RSG             | R   | G   | B   | RGB Hex |
 |-----------------|-----|-----|-----|---------|
-| Acrisol (AC)    | 247 | 152 | 4   | #F79804 |
-| Alisol (AL)     | 255 | 255 | 190 | #FFFFBE |
-| Andosol (AN)    | 254 | 0   | 0   | #FE0000 |
-| Anthrosol (AT)  | 207 | 152 | 4   | #CF9804 |
-| Arenosol (AR)   | 245 | 212 | 161 | #F5D4A1 |
-| Calcisol (CL)   | 254 | 244 | 0   | #FEF400 |
-| Cambisol (CM)   | 254 | 190 | 0   | #FEBE00 |
-| Chernozem (CH)  | 145 | 77  | 53  | #914D35 |
-| Cryosol (CR)    | 75  | 61  | 172 | #4B3DAC |
-| Durisol (DU)    | 239 | 228 | 190 | #EFE4BE |
-| Ferralsol (FR)  | 255 | 135 | 33  | #FF8721 |
-| Fluvisol (FL)   | 0   | 254 | 253 | #00FEFD |
-| Gleysol (GL)    | 128 | 131 | 217 | #8083D9 |
-| Gypsisol (GY)   | 254 | 246 | 164 | #FEF6A4 |
-| Histosol (HS)   | 112 | 107 | 102 | #706B66 |
-| Kastanozem (KS) | 202 | 147 | 127 | #CA937F |
-| Leptosol (LP)   | 209 | 209 | 209 | #D1D1D1 |
-| Lixisol (LX)    | 255 | 190 | 190 | #FFBEBE |
-| Luvisol (LV)    | 250 | 132 | 132 | #FA8484 |
-| Nitisol (NT)    | 255 | 167 | 127 | #FFA77F |
-| Phaeozem (PH)   | 189 | 100 | 70  | #BD6446 |
-| Planosol (PL)   | 247 | 125 | 58  | #F77D3A |
-| Plinthosol (PT) | 115 | 0   | 0   | #730000 |
-| Podzol (PZ)     | 12  | 217 | 0   | #0CD900 |
-| Regosol (RG)    | 254 | 227 | 164 | #FEE3A4 |
-| Retisol (RT)    | 254 | 194 | 194 | #FEC2C2 |
-| Solonchak (SC)  | 254 | 0   | 250 | #FE00FA |
-| Solonetz (SN)   | 249 | 194 | 254 | #F9C2FE |
-| Stagnosol (ST)  | 64  | 192 | 233 | #40C0E9 |
-| Technosol (TC)  | 145 | 0   | 157 | #91009D |
-| Umbrisol (UM)   | 115 | 142 | 127 | #738E7F |
-| Vertisol (VR)   | 197 | 0   | 255 | #C500FF |
+| [Acrisol](chapter-04.qmd#sec-key-ac) (AC)    | 247 | 152 | 4   | <span style="color: transparent; text-shadow: 0 0 0 #F79804;">&#x1f534;</span> #F79804 |
+| [Alisol](chapter-04.qmd#sec-key-al) (AL)     | 255 | 255 | 190 | <span style="color: transparent; text-shadow: 0 0 0 #FFFFBE;">&#x1f534;</span> #FFFFBE |
+| [Andosol](chapter-04.qmd#sec-key-an) (AN)    | 254 | 0   | 0   | <span style="color: transparent; text-shadow: 0 0 0 #FE0000;">&#x1f534;</span> #FE0000 |
+| [Anthrosol](chapter-04.qmd#sec-key-at) (AT)  | 207 | 152 | 4   | <span style="color: transparent; text-shadow: 0 0 0 #CF9804;">&#x1f534;</span> #CF9804 |
+| [Arenosol](chapter-04.qmd#sec-key-ar) (AR)   | 245 | 212 | 161 | <span style="color: transparent; text-shadow: 0 0 0 #F5D4A1;">&#x1f534;</span> #F5D4A1 |
+| [Calcisol](chapter-04.qmd#sec-key-cl) (CL)   | 254 | 244 | 0   | <span style="color: transparent; text-shadow: 0 0 0 #FEF400;">&#x1f534;</span> #FEF400 |
+| [Cambisol](chapter-04.qmd#sec-key-cm) (CM)   | 254 | 190 | 0   | <span style="color: transparent; text-shadow: 0 0 0 #FEBE00;">&#x1f534;</span> #FEBE00 |
+| [Chernozem](chapter-04.qmd#sec-key-ch) (CH)  | 145 | 77  | 53  | <span style="color: transparent; text-shadow: 0 0 0 #914D35;">&#x1f534;</span> #914D35 |
+| [Cryosol](chapter-04.qmd#sec-key-cr) (CR)    | 75  | 61  | 172 | <span style="color: transparent; text-shadow: 0 0 0 #4B3DAC;">&#x1f534;</span> #4B3DAC |
+| [Durisol](chapter-04.qmd#sec-key-du) (DU)    | 239 | 228 | 190 | <span style="color: transparent; text-shadow: 0 0 0 #EFE4BE;">&#x1f534;</span> #EFE4BE |
+| [Ferralsol](chapter-04.qmd#sec-key-fr) (FR)  | 255 | 135 | 33  | <span style="color: transparent; text-shadow: 0 0 0 #FF8721;">&#x1f534;</span> #FF8721 |
+| [Fluvisol](chapter-04.qmd#sec-key-fl) (FL)   | 0   | 254 | 253 | <span style="color: transparent; text-shadow: 0 0 0 #00FEFD;">&#x1f534;</span> #00FEFD |
+| [Gleysol](chapter-04.qmd#sec-key-gl) (GL)    | 128 | 131 | 217 | <span style="color: transparent; text-shadow: 0 0 0 #8083D9;">&#x1f534;</span> #8083D9 |
+| [Gypsisol](chapter-04.qmd#sec-key-gy) (GY)   | 254 | 246 | 164 | <span style="color: transparent; text-shadow: 0 0 0 #FEF6A4;">&#x1f534;</span> #FEF6A4 |
+| [Histosol](chapter-04.qmd#sec-key-hs) (HS)   | 112 | 107 | 102 | <span style="color: transparent; text-shadow: 0 0 0 #706B66;">&#x1f534;</span> #706B66 |
+| [Kastanozem](chapter-04.qmd#sec-key-ks) (KS) | 202 | 147 | 127 | <span style="color: transparent; text-shadow: 0 0 0 #CA937F;">&#x1f534;</span> #CA937F |
+| [Leptosol](chapter-04.qmd#sec-key-lp) (LP)   | 209 | 209 | 209 | <span style="color: transparent; text-shadow: 0 0 0 #D1D1D1;">&#x1f534;</span> #D1D1D1 |
+| [Lixisol](chapter-04.qmd#sec-key-lx) (LX)    | 255 | 190 | 190 | <span style="color: transparent; text-shadow: 0 0 0 #FFBEBE;">&#x1f534;</span> #FFBEBE |
+| [Luvisol](chapter-04.qmd#sec-key-lv) (LV)    | 250 | 132 | 132 | <span style="color: transparent; text-shadow: 0 0 0 #FA8484;">&#x1f534;</span> #FA8484 |
+| [Nitisol](chapter-04.qmd#sec-key-nt) (NT)    | 255 | 167 | 127 | <span style="color: transparent; text-shadow: 0 0 0 #FFA77F;">&#x1f534;</span> #FFA77F |
+| [Phaeozem](chapter-04.qmd#sec-key-ph) (PH)   | 189 | 100 | 70  | <span style="color: transparent; text-shadow: 0 0 0 #BD6446;">&#x1f534;</span> #BD6446 |
+| [Planosol](chapter-04.qmd#sec-key-pl) (PL)   | 247 | 125 | 58  | <span style="color: transparent; text-shadow: 0 0 0 #F77D3A;">&#x1f534;</span> #F77D3A |
+| [Plinthosol](chapter-04.qmd#sec-key-pt) (PT) | 115 | 0   | 0   | <span style="color: transparent; text-shadow: 0 0 0 #730000;">&#x1f534;</span> #730000 |
+| [Podzol](chapter-04.qmd#sec-key-pz) (PZ)     | 12  | 217 | 0   | <span style="color: transparent; text-shadow: 0 0 0 #0CD900;">&#x1f534;</span> #0CD900 |
+| [Regosol](chapter-04.qmd#sec-key-rg) (RG)    | 254 | 227 | 164 | <span style="color: transparent; text-shadow: 0 0 0 #FEE3A4;">&#x1f534;</span> #FEE3A4 |
+| [Retisol](chapter-04.qmd#sec-key-rt) (RT)    | 254 | 194 | 194 | <span style="color: transparent; text-shadow: 0 0 0 #FEC2C2;">&#x1f534;</span> #FEC2C2 |
+| [Solonchak](chapter-04.qmd#sec-key-sc) (SC)  | 254 | 0   | 250 | <span style="color: transparent; text-shadow: 0 0 0 #FE00FA;">&#x1f534;</span> #FE00FA |
+| [Solonetz](chapter-04.qmd#sec-key-sn) (SN)   | 249 | 194 | 254 | <span style="color: transparent; text-shadow: 0 0 0 #F9C2FE;">&#x1f534;</span> #F9C2FE |
+| [Stagnosol](chapter-04.qmd#sec-key-st) (ST)  | 64  | 192 | 233 | <span style="color: transparent; text-shadow: 0 0 0 #40C0E9;">&#x1f534;</span> #40C0E9 |
+| [Technosol](chapter-04.qmd#sec-key-tc) (TC)  | 145 | 0   | 157 | <span style="color: transparent; text-shadow: 0 0 0 #91009D;">&#x1f534;</span> #91009D |
+| [Umbrisol](chapter-04.qmd#sec-key-um) (UM)   | 115 | 142 | 127 | <span style="color: transparent; text-shadow: 0 0 0 #738E7F;">&#x1f534;</span> #738E7F |
+| [Vertisol](chapter-04.qmd#sec-key-vr) (VR)   | 197 | 0   | 255 | <span style="color: transparent; text-shadow: 0 0 0 #C500FF;">&#x1f534;</span> #C500FF |
 
-: Colour symbols for RSG maps
+: Colour symbols for RSG maps {#tbl-a6-131}
