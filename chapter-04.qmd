@@ -123,7 +123,7 @@ Technosols may bury other soils, which can be mentioned behind the Technosol cla
 ### Qualifiers
 
 | Principal Qualifiers | Supplementary Qualifiers                              |
-|-----------------------|-------------------------------------------------|
+|------------------------|------------------------------------------------|
 | Ekranic/ Thyric      | Arenic/ Clayic/ Loamic/ Siltic                        |
 | Linic                | Geoabruptic                                           |
 | Urbic                | Alcalic/ Dystric/ Eutric                              |
@@ -759,7 +759,7 @@ Other soils having:
 
 [^chapter-04-2]: Any [*chernic horizon*](chapter-03.qmd#sec-chernh) also meets the criteria of a [*mollic horizon*](chapter-03.qmd#sec-mollh). The [*mollic horizon*](chapter-03.qmd#sec-mollh) may extend below the [*chernic horizon*](chapter-03.qmd#sec-chernh).
 
-[^chapter-04-3]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+[^chapter-04-3]: If the data for base saturation are not available, pH values may be used according to Annex 2 ([Chapter 9.13](annex-02-analytical-procedures.qmd#sec-a2-913)).
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -798,7 +798,7 @@ Other soils having:
 2.  starting ≤ 70 cm of the mineral soil surface and, if present, above a [*petrocalcic horizon*](chapter-03.qmd#sec-petroh), a layer with [*protocalcic properties*](chapter-03.qmd#sec-protcp), ≥ 5 cm thick, or a [*calcic horizon*](chapter-03.qmd#sec-calch); *and*
 3.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-4] of ≥ 50% from the mineral soil surface to the layer with [*protocalcic properties*](chapter-03.qmd#sec-protcp) or to the [*calcic horizon*](chapter-03.qmd#sec-calch), throughout.
 
-[^chapter-04-4]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+[^chapter-04-4]: If the data for base saturation are not available, pH values may be used according to Annex 2 ([Chapter 9.13](annex-02-analytical-procedures.qmd#sec-a2-913)).
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -840,7 +840,7 @@ Other soils having:
 1.  a [*mollic horizon*](chapter-03.qmd#sec-mollh); *and*
 2.  a base saturation (by 1 *M* NH~4~OAc, pH 7)[^chapter-04-5] of ≥ 50% throughout to a depth of 100 cm from the mineral soil surface or to a limiting layer, whichever is shallower.
 
-[^chapter-04-5]: If the data for base saturation are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+[^chapter-04-5]: If the data for base saturation are not available, pH values may be used according to Annex 2 ([Chapter 9.13](annex-02-analytical-procedures.qmd#sec-a2-913)).
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -1082,7 +1082,7 @@ Other soils having:
     a.  the depth range between 50 and 100 cm of the mineral soil surface; *or*
     b.  the lower half of the mineral soil above a limiting layer starting ≤ 100 cm from the mineral soil surface, whichever is shallower.
 
-[^chapter-04-6]: Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+[^chapter-04-6]: Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 ([Chapter 9.13](annex-02-analytical-procedures.qmd#sec-a2-913)).
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
@@ -1174,7 +1174,7 @@ Other soils having:
     a.  the depth range between 50 and 100 cm of the mineral soil surface; *or*
     b.  the lower half of the mineral soil above a limiting layer starting ≤ 100 cm from the mineral soil surface whichever is shallower.
 
-[^chapter-04-7]: Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 (Chapter 9.13).
+[^chapter-04-7]: Exchangeable cations are given in cmol~c~ kg^-1^. If these data are not available, pH values may be used according to Annex 2 ([Chapter 9.13](annex-02-analytical-procedures.qmd#sec-a2-913)).
 
 ::: {.callout-note collapse="true" appearance="minimal" icon="false"}
 ### Qualifiers
