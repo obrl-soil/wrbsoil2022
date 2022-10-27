@@ -1,14 +1,14 @@
-# Annex 3: Horizon and layer designations
+# Annex 3: Horizon and layer designations {#sec-a3}
 
-This annex provides the horizon and layer symbols for soil description. The designations are based on field characteristics (Annex 1, Chapter 8) and laboratory characteristics (Annex 2, Chapter 9). In some cases, the processes that have led to these characteristics, may no longer be active. **Only brief descriptions are given here, which are not intended to be definitions as in the diagnostics of the WRB**. In most cases, no quantitative criteria are given.
+This annex provides the horizon and layer symbols for soil description. The designations are based on field characteristics (Annex 1, [Chapter 8](annex-01-field-guide.qmd)) and laboratory characteristics (Annex 2, [Chapter 9](annex-02-analytical-procedures.qmd)). In some cases, the processes that have led to these characteristics, may no longer be active. **Only brief descriptions are given here, which are not intended to be definitions as in the diagnostics of the WRB**. In most cases, no quantitative criteria are given.
 
-A **soil layer** is a zone in the soil, approximately parallel to the soil surface, with properties different from layers above and/or below it. If at least one of these properties is the result of soil-forming processes, the layer is called a **soil horizon**. In the following, the term layer is used to indicate the possibility that soilforming processes did not occur. A **stratum** (see Chapter 10.4) is the result of geological processes and may comprise more than one layer.
+A **soil layer** is a zone in the soil, approximately parallel to the soil surface, with properties different from layers above and/or below it. If at least one of these properties is the result of soil-forming processes, the layer is called a **soil horizon**. In the following, the term layer is used to indicate the possibility that soil-forming processes did not occur. A **stratum** (see [Chapter 10.4](#sec-a3-4)) is the result of geological processes and may comprise more than one layer.
 
-A **litter layer** is a loose layer that contains \> 90% (by volume, related to the fine earth plus all dead plant remmants) recognizable dead plant tissues (e.g. undecomposed leaves). Dead plant material still connected to living plants (e.g. dead parts of *Sphagnum* mosses) is not regarded to form part of a litter layer. The **soil surface** (0 cm) is by convention the surface of the soil after removing, if present, the litter layer and, if present, below a layer of living plants (e.g. living mosses). The **mineral soil surface** is the upper limit of the uppermost mineral horizon (see Chapter 2.1, General rules, and Annex 1, Chapters 8.3.1 and 8.3.2).
+A **litter layer** is a loose layer that contains \> 90% (by volume, related to the fine earth plus all dead plant remnants) recognizable dead plant tissues (e.g. undecomposed leaves). Dead plant material still connected to living plants (e.g. dead parts of *Sphagnum* mosses) is not regarded to form part of a litter layer. The **soil surface** (0 cm) is by convention the surface of the soil after removing, if present, the litter layer and, if present, below a layer of living plants (e.g. living mosses). The **mineral soil surface** is the upper limit of the uppermost mineral horizon (see [Chapter 2.1, General rules](chapter-02.qmd#sec-gnrl), and Annex 1, [Chapters 8.3.1](annex-01-field-guide.qmd#sec-a1-831) and [8.3.2](annex-01-field-guide.qmd#sec-a1-832)).
 
-The **fine earth** comprises the soil constituents ≤ 2 mm. The **whole soil** comprises fine earth, coarse fragments, artefacts and dead plant remnants of any size. These rules also apply to cemented layers (see Chapter 2.1, General rules, and Annex 1, Chapters 8.3.1 and 8.3.2).
+The **fine earth** comprises the soil constituents ≤ 2 mm. The **whole soil** comprises fine earth, coarse fragments, artefacts and dead plant remnants of any size. These rules also apply to cemented layers (see [Chapter 2.1, General rules](chapter-02.qmd#sec-gnrl), and Annex 1, [Chapters 8.3.1](annex-01-field-guide.qmd#sec-a1-831) and [8.3.2](annex-01-field-guide.qmd#sec-a1-832)).
 
-We distinguish the following layers (see Chapter 3.3):
+We distinguish the following layers (see [Chapter 3.3](chapter-03.qmd#sec-diagm)):
 
 -   Organic layers consist of organic material.
 -   Organotechnic layers consist of organotechnic material.
@@ -63,11 +63,11 @@ The word **rock** comprises both consolidated and unconsolidated material. The w
 | W       | Permanent water above the soil surface or between layers, may be seasonally frozen.                                                                                                                                                                                                                                                               |
 +---------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-: Master symbols
+: Master symbols {#tbl-a3-101}
 
 ## Suffixes {#sec-a3-2}
 
-If not stated otherwise, the descriptions are related to the fine earth (see Chapter 2.1).
+If not stated otherwise, the descriptions are related to the fine earth (see [Chapter 2.1](chapter-02.qmd#sec-gnrl)).
 
 +--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
 | Symbol | Criteria                                                                                                                                                                                                                                                                                                                                                             | Combination with    |
@@ -166,7 +166,7 @@ If not stated otherwise, the descriptions are related to the fine earth (see Cha
 | φ      | Accumulation of Fe and/or Mn in reduced form by lateral subsurface flow with subsequent oxidation (related to the fine earth plus accumulations of Fe and/or Mn oxides of any size and any cementation class) \[φ like **f**low\].                                                                                                                                   | A, B, C             |
 +--------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------------------+
 
-: Suffixes
+: Suffixes {#tbl-a3-102}
 
 I and W layers have no suffixes.
 
@@ -198,7 +198,7 @@ W cannot be combined with other master symbols. H, O, I, and R can only be combi
 
 ## Layer sequences {#sec-a3-4}
 
-The sequence of the layers is from top to down with a hyphen in between. Examples see Chapter 10.5.
+The sequence of the layers is from top to down with a hyphen in between. Examples see [Chapter 10.5](#sec-a3-5).
 
 If lithic discontinuities occur, the strata are indicated by preceding figures, starting with the second stratum. I and W layers are not considered as strata. All layers of the respective stratum are indicated by the figure:\
 Example: Oi-Oe-Ah-E-2Bt-2C-3R.
