@@ -1,4 +1,4 @@
-# Annex 1: Field Guide {#sec-a1}
+# Annex 1: Field Guide {#sec-a1 .unnumbered}
 
 This field guide helps describe soils. It provides all field characteristics needed for WRB classification and some other general field characteristics. This field guide is not supposed to be a comprehensive manual. People using this guide must have basic knowledge in soil science and experience in the field. In many soils, some of the listed characteristics are not present. Every characteristic must be reported in the soil description sheet (Annex 4, [Chapter 11](annex-04-soil-description-sheet.qmd)) using the provided codes.
 
@@ -1308,8 +1308,6 @@ Cloddy
 :::
 :::
 
-: Types of structure, descriptions, [-@schoeneberger2012], 2-53, FAO (2006), Table 49, National Committee on Soil and Terrain (2009), 171-181, modified {#tbl-a1-841}
-
 +------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 | Type                   | Formation                                                                                                                                                            | Code    |
 +========================+======================================================================================================================================================================+=========+
@@ -1349,6 +1347,8 @@ Cloddy
 +------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
 | Cloddy                 | Artificial structural elements                                                                                                                                       | **CL**  |
 +------------------------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+
+: Types of structure, descriptions, [-@schoeneberger2012], 2-53, FAO (2006), Table 49, National Committee on Soil and Terrain (2009), 171-181, modified {#tbl-a1-841}
 
 : Types of structure, formation and codes {#tbl-a1-842}
 
@@ -1664,9 +1664,7 @@ The term 'oxides', as used here, includes hydroxides and oxide-hydroxides. The t
 
 : Location of some reductimorphic features {#tbl-a1-855}
 
-
 ![Location of some oximorphic features](images/figure_8-19.png) {#fig-a1-819}
-
 
 +----------------------------------------------------------+------------------------------------------------------------------------+-------------+
 | Location                                                 |                                                                        | Code        |
@@ -2695,3 +2693,4 @@ To take out the rings, penetrate the soil with a spatula just beneath the ring a
 If you want to do further physical analyses, transfer the ring to the laboratory. If the layer thickness is smaller than the height of the ring (case c), fill up the volume with a resin. If you just want to determine the soil mass, you may empty the soil material from the ring into the designated bag and reuse the ring.
 
 To determine the soil mass of a sample of a certain volume, you may also use coated clods (see Annex 2, [Chapter 9.5](annex-02-analytical-procedures.qmd#sec-2-bd)).
+

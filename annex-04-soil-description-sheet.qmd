@@ -1,4 +1,4 @@
-# Annex 4: Soil description sheet
+# Annex 4: Soil description sheet {#sec-a4 .unnumbered}
 
 The soil description sheet is provided as an open source excel file on the WRB homepage. For cells coloured in brown, a code is required. For cells coloured in green, figures or free text are required. The excel file representing the whole Annexes 1 ([Chapter 8](annex-01-field-guide.qmd)) and 3 ([Chapter 10](annex-03-horizon-layer-designations.qmd)) is relatively long. With the help of excel macros, you can change it into a short version (explained in the excel file).
 

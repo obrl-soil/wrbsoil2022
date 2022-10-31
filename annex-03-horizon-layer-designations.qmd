@@ -1,5 +1,4 @@
-# Annex 3: Horizon and layer designations {#sec-a3}
-
+# Annex 3: Horizon and layer designations {#sec-a3 .unnumbered}
 This annex provides the horizon and layer symbols for soil description. The designations are based on field characteristics (Annex 1, [Chapter 8](annex-01-field-guide.qmd)) and laboratory characteristics (Annex 2, [Chapter 9](annex-02-analytical-procedures.qmd)). In some cases, the processes that have led to these characteristics, may no longer be active. **Only brief descriptions are given here, which are not intended to be definitions as in the diagnostics of the WRB**. In most cases, no quantitative criteria are given.
 
 A **soil layer** is a zone in the soil, approximately parallel to the soil surface, with properties different from layers above and/or below it. If at least one of these properties is the result of soil-forming processes, the layer is called a **soil horizon**. In the following, the term layer is used to indicate the possibility that soil-forming processes did not occur. A **stratum** (see [Chapter 10.4](#sec-a3-4)) is the result of geological processes and may comprise more than one layer.

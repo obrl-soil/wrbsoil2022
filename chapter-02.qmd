@@ -5,14 +5,14 @@
 The following principles have to be considered for classification in WRB:
 
 1.  All data refer to the fine earth, unless stated otherwise. The **fine earth** comprises the soil constituents ≤ 2 mm. The **whole soil** comprises fine earth, coarse fragments, artefacts and dead plant remnants of any size. These rules also apply to cemented layers.
-2.  All data are given **by mass** (dried at 105° C, see [Annex 2, Chapter 9.2](annex-02-analytical-procedures.qmd#sec-a2-moist)), unless stated otherwise.
-3.  A **litter layer** is a loose layer that contains \> 90% (by volume, related to the fine earth plus all dead plant remnants) recognizable dead plant tissues (e.g. undecomposed leaves). Dead plant material still connected to living plants (e.g. dead parts of *Sphagnum* mosses) is not regarded to form part of a litter layer. The **soil surface** (0 cm) is by convention the surface of the soil after removing, if present, the litter layer and, if present, below a layer of living plants (e.g. living mosses). The **mineral soil surface** is the upper limit of the uppermost mineral horizon (see [Annex 1](annex-01-field-guide.qmd), [Chapters 8.3.1](annex-01-field-guide.qmd#sec-a1-ssurf) and [8.3.2](annex-01-field-guide.qmd#sec-a1-llyr)).
+2.  All data are given **by mass** (dried at 105° C, see [Annex 2, Chapter 9.2](annex-02-analytical-procedures.qmd#sec-a2-92)), unless stated otherwise.
+3.  A **litter layer** is a loose layer that contains \> 90% (by volume, related to the fine earth plus all dead plant remnants) recognizable dead plant tissues (e.g. undecomposed leaves). Dead plant material still connected to living plants (e.g. dead parts of *Sphagnum* mosses) is not regarded to form part of a litter layer. The **soil surface** (0 cm) is by convention the surface of the soil after removing, if present, the litter layer and, if present, below a layer of living plants (e.g. living mosses). The **mineral soil surface** is the upper limit of the uppermost mineral horizon (see [Annex 1](annex-01-field-guide.qmd), [Chapters 8.3.1](annex-01-field-guide.qmd#sec-a1-831) and [8.3.2](annex-01-field-guide.qmd#sec-a1-832)).
 4.  A **soil layer** is a zone in the soil, approximately parallel to the soil surface, with properties different from layers above and/or below it. If at least one of these properties is the result of soil-forming processes, the layer is called a **soil horizon**. In the diagnostic criteria, the term 'horizon' is mainly used for the defined diagnostic horizons. The other layers are mainly called 'layer' to make sure that the criteria apply, even if they were not regarded to be soil horizons.
 5.  If a criterion is worded as a conditional clause (if...) and the condition (**if-clause**) is not true, the criterion is ignored.
 6.  Numerical values obtained in the field or in the laboratory have to be taken as such and **must not be rounded** when compared with the threshold values in the diagnostic criteria.
 7.  The diagnostic criteria must be fulfilled **throughout the specified depth range**, unless stated otherwise. If a diagnostic horizon consists of several subhorizons, the diagnostic criteria (except thickness) must be fulfilled in every subhorizon separately (averages are not calculated), unless stated otherwise.
 8.  The term **limiting layer** used in definitions comprises [*continuous rock*](chapter-03.qmd#sec-crockp), [*technic hard material*](chapter-03.qmd#sec-techhm), [*petrocalcic*](chapter-03.qmd#sec-pcalch), [*petroduric*](chapter-03.qmd#sec-pdurich), [*petrogypsic*](chapter-03.qmd#secp-gypsich) and [*petroplinthic horizons*](chapter-03.qmd#sec-pplinthich) and other cemented layers with both of the following: cementation with a class of at least moderately cemented and a continuity to the extent that vertical fractures, if present, have an average horizontal spacing of ≥ 10 cm and occupy \< 20% (by volume, related to the whole soil).
-9.  On a **slope**, the soil is described as a vertical profile. The thickness and depth values are calculated by multiplying the vertically measured values by the cosine of the inclination angle (see [Annex 1, Chapter 8.1.2](annex-01-field-guide.qmd#sec-a1-dig)) [@prietzel2019]. This is especially important on steep slopes.
+9.  On a **slope**, the soil is described as a vertical profile. The thickness and depth values are calculated by multiplying the vertically measured values by the cosine of the inclination angle (see [Annex 1, Chapter 8.1.2](annex-01-field-guide.qmd#sec-a1-812)) [@prietzel2019]. This is especially important on steep slopes.
 
 Classification consists of three steps:
 
@@ -65,7 +65,7 @@ For naming a soil at the second level, all the principal and supplementary quali
 A soil developed from loess with high-activity clays has a marked clay increase at 60 cm depth, clay coatings in the clay-rich horizon, no stratification, and a field pH value around 6 in the depth from 50 to 100 cm. The clay-poor upper soil is subdivided into a darker upper and a light-coloured lower horizon. The clay-rich horizon has a limited amount of oximorphic features with intensive colours inside the soil aggregates and reducing conditions in some parts during springtime. The following conclusions can be drawn (for subqualifiers see [Chapter 2.3](#sec-subq)):
 
 |     |                                                                                                                            |                                                                      |
-|-------------|---------------------------------------|--------------------|
+|-----|----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
 | a\. | clay increase without [*lithic discontinuity*](chapter-03.qmd#sec-lithd) and/or with clay coatings                         | --\> [*argic horizon*](chapter-03.qmd#sec-argich)                    |
 | b\. | [*argic horizon*](chapter-03.qmd#sec-argich) with high CEC and more base cations than Al (inferred by pH 6)                | --\> [Luvisol](chapter-04.qmd#sec-key-lv)                            |
 | c\. | light colour in the eluvial horizon                                                                                        | --\> [Albic](chapter-05.qmd#sec-ab) qualifier                        |
@@ -212,7 +212,7 @@ A landscape usually shows a variety of soils. For a map unit, they often have to
 ![Soils in a landscape that need to be combined to form a map unit](images/figure_2-2.png){#fig-two-mapunits fig-alt="Soils in a landscape that need to be combined to form a map unit"}
 
 | Area | Complete soil name                                                                | Result          |
-|------------|------------------------------------------------|------------|
+|------|-----------------------------------------------------------------------------------|-----------------|
 | 1    | Haplic Luvisol (Episiltic, Katoclayic, Aric, Cutanic, Differentic, Epic, Ochric)  | dominant soil   |
 | 2    | Eutric Stagnic Leptic Cambisol (Loamic, Humic)                                    | codominant soil |
 | 3    | Albic Stagnic Luvisol (Anosiltic, Endoclayic, Cutanic, Differentic, Endic, Humic) | associated soil |
@@ -223,7 +223,7 @@ A landscape usually shows a variety of soils. For a map unit, they often have to
 : Detection of dominant, codominant and associated soils {#tbl-cdsoils}
 
 | Map scale level | Dominant soil   | Codominant soil          | Associated soil        |
-|-----------------|-----------------|---------------------|-------------------|
+|-----------------|-----------------|--------------------------|------------------------|
 | First           | Luvisols        | Cambisols                |                        |
 | Second          | Haplic Luvisols | Leptic Cambisols         | Stagnic Luvisols       |
 | Third           | Haplic Luvisols | Stagnic Leptic Cambisols | Albic Stagnic Luvisols |
