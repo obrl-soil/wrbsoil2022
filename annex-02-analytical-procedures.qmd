@@ -1,4 +1,4 @@
-# Annex 2: Summary of analytical procedures for soil characterization {#sec-a2 .unnumbered}
+# Annex 2: Summary of analytical procedures for soil characterization {#sec-a2}
 
 This annex provides summaries of recommended analytical procedures to be used for soil characterization for the World Reference Base for Soil Resources. Full descriptions can be found in *Procedures for soil analysis* [@procedur2002] and the USDA *Kellogg Soil Survey Laboratory Methods Manual* [@kellogg2014].
 

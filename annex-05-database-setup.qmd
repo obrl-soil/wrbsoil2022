@@ -1,4 +1,4 @@
-# Annex 5: Guidance on database set-up {#sec-a5 .unnumbered}
+# Annex 5: Guidance on database set-up {#sec-a5}
 
 Setting up a database for soil description and classification according to WRB is not a simple task due to often conflicting requirements regarding issues like
 

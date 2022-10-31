@@ -1,4 +1,4 @@
-# Annex 1: Field Guide {#sec-a1 .unnumbered}
+# Annex 1: Field Guide {#sec-a1}
 
 This field guide helps describe soils. It provides all field characteristics needed for WRB classification and some other general field characteristics. This field guide is not supposed to be a comprehensive manual. People using this guide must have basic knowledge in soil science and experience in the field. In many soils, some of the listed characteristics are not present. Every characteristic must be reported in the soil description sheet (Annex 4, [Chapter 11](annex-04-soil-description-sheet.qmd)) using the provided codes.
 
