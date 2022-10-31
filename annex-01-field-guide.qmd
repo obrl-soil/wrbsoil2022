@@ -1540,7 +1540,7 @@ The following definitions apply to concentrations, e.g., redox concentrations or
 In general, soil colour can be a property of the four following soil features:
 
 -   Matrix (see [Chapter 8.4.17](#sec-a1-8417) and [Chapter 8.4.18](#sec-a1-8418))
--   Lithogenic mottles (see [Chapter 8.4.19](#sec-a1-8419))
+-   Lithogenic variegates (see [Chapter 8.4.19](#sec-a1-8419))
 -   Redoximorphic features, resulting from redox processes (see [Chapter 8.4.20](#sec-a1-8420))
 -   Non-redoximorphic features, resulting from other pedogenic processes:
     -   initial weathering (see [Chapter 8.4.22](#sec-a1-8422))
@@ -1575,13 +1575,13 @@ For the coarser-textured parts, report in addition the following characteristics
 
 In the middle of the layer, prepare a horizontal surface, 50 cm x 50 cm, and report the percentage (by horizontal area covered) of the coarser-textured parts.
 
-### Lithogenic mottles (m) {#fig-a1-8419}
+### Lithogenic variegates (m) {#fig-a1-8419}
 
 Report colour, size, and abundance. If more than one colour occurs, report up to three, the dominant one first, and give size and abundance for each colour separately.
 
 #### Colour {#fig-a1-8419-c}
 
-Report the colour according to the Munsell Color Charts. Write 'None' if there are no lithogenic mottles.
+Report the colour according to the Munsell Color Charts. Write 'None' if there are no lithogenic variegates.
 
 #### Size {#fig-a1-8419-s}
 
@@ -1594,7 +1594,7 @@ The Table indicates the average length of the greatest dimension.
 | \> 6--20  | Medium     | **M** |
 | \> 20     | Coarse     | **C** |
 
-: Size of lithogenic mottles, FAO [-@un-fao2006], Table 33 {#tbl-a1-852}
+: Size of lithogenic variegates, FAO [-@un-fao2006], Table 33 {#tbl-a1-852}
 
 #### Abundance (by exposed area) {#fig-a1-8419-a}
 
@@ -1724,7 +1724,7 @@ If an intact specimen is not obtainable, the oximorphic feature is not cemented.
 
 Report the total abundance of the parts with oximorphic features and the total abundance of the parts with reductimorphic features, both for inner, outer and random locations, separately. Report them as percentage of the exposed area.
 
-#### Abundance of cemented oximorphic features (by volume) {#sec-a1-8420-av}
+#### Abundance of cemented oximorphic features (by volume, related to the whole soil) {#sec-a1-8420-av}
 
 This paragraph refers to cemented oximorphic features with a cementation class of at least moderately cemented and a diameter of \> 2 mm. They comprise concretions and nodules (see above) and fragments of a broken-up layer that has been cemented by Fe oxides. Report the abundance.
 
@@ -2499,7 +2499,7 @@ Report the parent material. Use the help of a geological map.
 +-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
 |                                   |                            |          | Pyroxenite                                                     | IU2      |
 +-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Ilmenite, magnetite, ironstone, serpentine                     | IU3      |
+|                                   |                            |          | Serpentinite                                                   | IU3      |
 +-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
 |                                   | Pyroclastic                | IP       | Tuff, tuffite                                                  | IP1      |
 +-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
@@ -2513,11 +2513,11 @@ Report the parent material. Use the help of a geological map.
 +-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
 |                                   |                            |          | Gneiss, migmatite                                              | MF2      |
 +-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Slate, phyllite (politic rocks)                                | MF3      |
+|                                   |                            |          | Slate, phyllite (pelitic rocks)                                | MF3      |
 +-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
 |                                   |                            |          | Schist                                                         | MF4      |
 +-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Mafic metamorphic          | MM       | Slate, phyllite (politic rocks)                                | MM1      |
+|                                   | Mafic metamorphic          | MM       | Slate, phyllite (pelitic rocks)                                | MM1      |
 +-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
 |                                   |                            |          | (Green)schist                                                  | MM2      |
 +-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
@@ -2693,4 +2693,3 @@ To take out the rings, penetrate the soil with a spatula just beneath the ring a
 If you want to do further physical analyses, transfer the ring to the laboratory. If the layer thickness is smaller than the height of the ring (case c), fill up the volume with a resin. If you just want to determine the soil mass, you may empty the soil material from the ring into the designated bag and reuse the ring.
 
 To determine the soil mass of a sample of a certain volume, you may also use coated clods (see Annex 2, [Chapter 9.5](annex-02-analytical-procedures.qmd#sec-2-bd)).
-

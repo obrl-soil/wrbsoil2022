@@ -186,7 +186,7 @@ and not having a [*calcic*](chapter-03.qmd#sec-calch) or a [*petrocalcic horizon
 
 ### Chromic (cr) {#sec-cr .unnumbered}
 
-(from Greek *chroma*, colour): having between 25 and 150 cm of the mineral soil surface a layer, ≥ 30 cm thick, that shows evidence of soil formation as defined in criterion 3 of the [*cambic horizon*](chapter-03.qmd#sec-cambich) and that has, in ≥ 90% of its exposed area, a Munsell colour hue redder than 7.5YR and a chroma of \> 4, both moist.
+(from Greek *chroma*, colour): having between 25 and 150 cm of the mineral soil surface a layer, ≥ 30 cm thick, that shows evidence of soil formation as defined in criterion 3 of the [*cambic horizon*](chapter-03.qmd#sec-cambich) and that has, in ≥ 90% of its exposed area, a Munsell colour hue redder than 7.5YR and a chroma of \> 4, both moist, and that does not meet the set of diagnostic criteria of the [Rhodic](#sec-ro) qualifier.
 
 #### Claric (cq) {#sec-cq .unnumbered}
 
@@ -411,10 +411,10 @@ and not having a [*calcic*](chapter-03.qmd#sec-calch) or a [*petrocalcic horizon
 
 (from Latin *fibra*, fiber): having [*organic material*](chapter-03.qmd#sec-orgm) that, after rubbing, consists of \> two thirds (by volume, related to the fine earth plus all dead plant remnants) of recognizable dead plant tissues in
 
--   one or more layers with a combined thickness of ≥ 30 cm within 100 cm of the soil surface, or
--   the weighted average of the entire [*organic material*](chapter-03.qmd#sec-orgm) if the [*organic material*](chapter-03.qmd#sec-orgm) within 100 cm of the soil surface has a combined thickness of \< 60 cm
+-   one or more layers with a combined thickness of ≥ 30 cm within 100 cm of the soil surface (2; no subqualifier if no [*organic material*](chapter-03.qmd#sec-orgm) is present ≥ 60 cm of the soil surface), or
+-   the weighted average of the entire [*organic material*](chapter-03.qmd#sec-orgm) within 100 cm of the soil surface.
 
-(in [*Histosols*](chapter-04.qmd#sec-key-hs) only) (2; no subqualifier if no [*organic material*](chapter-03.qmd#sec-orgm) is present ≥ 60 cm of the soil surface).
+(in [*Histosols*](chapter-04.qmd#sec-key-hs) only).
 
 ### Floatic (ft) {#sec-ft .unnumbered}
 
@@ -494,15 +494,15 @@ see *Abruptic*.
 
 ### Geric (gr) {#sec-gr .unnumbered}
 
-(from Greek *geraios*, old): having between 25 and 100 cm of the mineral soil surface a layer that has a sum of exchangeable bases (by 1 *M* NH~4~OAc, pH 7) plus exchangeable Al (by 1 *M* KCl, unbuffered) of \< 6 cmolc kg^-1^ clay (2).
+(from Greek *geraios*, old): having within 100 cm of the mineral soil surface a layer that has a sum of exchangeable bases (by 1 *M* NH~4~OAc, pH 7) plus exchangeable Al (by 1 *M* KCl, unbuffered) of \< 6 cmolc kg^-1^ clay (2).
 
 #### Hypergeric (jq) {#sec-jq .unnumbered}
 
-(from Greek *hyper*, over): having between 25 and 100 cm of the mineral soil surface a layer that has a sum of exchangeable bases (by 1 *M* NH~4~OAc, pH 7) plus exchangeable Al (by 1 *M* KCl, unbuffered) of \< 1.5 cmolc kg^-1^ clay (2).
+(from Greek *hyper*, over): having within 100 cm of the mineral soil surface a layer that has a sum of exchangeable bases (by 1 *M* NH~4~OAc, pH 7) plus exchangeable Al (by 1 *M* KCl, unbuffered) of \< 1.5 cmolc kg^-1^ clay (2).
 
 ### Gibbsic (gi) {#sec-gi .unnumbered}
 
-(from the mineral *gibbsite*, named after the US mineralogist George Gibbs): having a layer, ≥ 30 cm thick and starting ≤ 100 cm from the mineral soil surface, containing ≥ 25 g gibbsite kg^-1^ clay (2).
+(from the mineral *gibbsite*, named after the US mineralogist George Gibbs): having a layer, ≥ 30 cm thick and starting ≤ 100 cm from the mineral soil surface, containing ≥ 25% gibbsite in the clay fraction (2).
 
 ### Gilgaic (gg) {#sec-gg .unnumbered}
 
@@ -569,8 +569,10 @@ and not having a [*gypsic*](chapter-03.qmd#sec-gypsih) or [*petrogypsic horizon*
 
 (from Greek *hemisys*, half): having [*organic material*](chapter-03.qmd#sec-orgm) that, after rubbing, consists of ≤ two thirds and \> one sixth (by volume, related to the fine earth plus all dead plant remnants) of recognizable dead plant tissues in
 
--   one or more layers with a combined thickness of ≥ 30 cm within 100 cm of the soil surface, *or*
--   the weighted average of the entire organic material if the organic material within 100 cm of the soil surface has a combined thickness of \< 60 cm (in [*Histosols*](chapter-04.qmd#sec-key-hs) only) (2; no subqualifier if no [*organic material*](chapter-03.qmd#sec-orgm) is present ≥ 60 cm of the soil surface).
+-   one or more layers with a combined thickness of ≥ 30 cm within 100 cm of the soil surface (2; no subqualifier if no [*organic material*](chapter-03.qmd#sec-orgm) is present ≥ 60 cm of the soil surface), *or*
+-   the weighted average of the entire organic material within 100 cm of the soil surface.
+
+(in [*Histosols*](chapter-04.qmd#sec-key-hs) only)
 
 ### Histic (hi) {#sec-hi .unnumbered}
 
@@ -1061,7 +1063,7 @@ see [*Vertic*](#sec-vr).
 
 ### Raptic (rp) {#sec-rp .unnumbered}
 
-(from Latin *raptus*, broken): having a [*lithic discontinuity*](chapter-03.qmd#sec-lithd) at some depth ≤ 100 cm from the mineral soil surface, that is not related to [*fluvic material*](chapter-03.qmd#sec-fluvicm) and not to [*solimovic material*](chapter-03.qmd#sec-solimvm) (1).
+(from Latin *raptus*, broken): having a [*lithic discontinuity*](chapter-03.qmd#sec-lithd) at some depth ≤ 100 cm from the mineral soil surface, that is not related to [*aeolic*](chapter-03.qmd#sec-aeolicm), [*fluvic*](chapter-03.qmd#sec-fluvicm), [*solimovic*](chapter-03.qmd#sec-solimvm) or [*tephric material*](chapter-03.qmd#sec-tephrm)*.* (1).
 
 ### Reductaquic (ra) {#sec-ra .unnumbered}
 
@@ -1105,7 +1107,7 @@ see [*Vertic*](#sec-vr).
 
 ### Rubic (ru) {#sec-ru .unnumbered}
 
-(from Latin *ruber*, red): having between 25 and 100 cm of the mineral soil surface a layer, ≥ 30 cm thick, that does not consist of [*claric material*](chapter-03.qmd#sec-claricm) and that has, in ≥ 90% of its exposed area, a Munsell colour hue redder than 10YR and/or a chroma of ≥ 5, both moist (in [*Arenosols*](chapter-04.qmd#sec-key-ar) only).
+(from Latin *ruber*, red): having between 25 and 100 cm of the mineral soil surface a layer, ≥ 30 cm thick, that does not consist of [*claric material*](chapter-03.qmd#sec-claricm) and that has, in ≥ 90% of its exposed area, a Munsell colour hue redder than 10YR and/or a chroma of ≥ 5, both moist (in [*Arenosols*](chapter-04.qmd#sec-key-ar) only) (2: except Epi-).
 
 ### Rustic (rs) {#sec-rs .unnumbered}
 
@@ -1127,10 +1129,10 @@ see [*Vertic*](#sec-vr).
 
 (from Greek *sapros*, rotten): having [*organic material*](chapter-03.qmd#sec-orgm) that, after rubbing, consists of ≤ one sixth (by volume, related to the fine earth plus all dead plant remnants) of recognizable dead plant tissues in
 
--   one or more layers with a combined thickness of ≥ 30 cm within 100 cm of the soil surface, or
--   the weighted average of the entire [*organic material*](chapter-03.qmd#sec-orgm) if the organic material within 100 cm of the soil surface has a combined thickness of \< 60 cm
+-   one or more layers with a combined thickness of ≥ 30 cm within 100 cm of the soil surface (2; no subqualifier if no organic material is present ≥ 60 cm of the soil surface), or
+-   the weighted average of the entire [*organic material*](chapter-03.qmd#sec-orgm) 100 cm of the soil surface.
 
-(in [*Histosols*](chapter-04.qmd#sec-key-hs) only) (2; no subqualifier if no [*organic material*](chapter-03.qmd#sec-orgm) is present ≥ 60 cm of the soil surface).
+(in [*Histosols*](chapter-04.qmd#sec-key-hs) only)
 
 ### Saprolithic (sh) {#sec-sh .unnumbered}
 
@@ -1142,7 +1144,7 @@ see [*Vertic*](#sec-vr).
 
 #### Hypersideralic (jr) {#sec-jr .unnumbered}
 
-(from Greek *hyper*, over): having within 150 cm of the mineral soil surface a layer that has [*sideralic properties*](chapter-03.qmd#sec-siderp) and a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 16 cmol~c~ kg^-1^ clay; and not having a [*ferralic horizon*](chapter-03.qmd#sec-feralh) starting ≤ 150 cm from the mineral soil surface (2).
+(from Greek *hyper*, over): having within 150 cm of the mineral soil surface a layer that has ≥ 8% clay, has a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 16 cmol~c~ kg^-1^ clay and shows evidence of soil formation as defined in criterion 3 of the [*cambic horizon*](chapter-03.qmd#sec-cambich); and not having a [*ferralic horizon*](chapter-03.qmd#sec-feralh) starting ≤ 150 cm from the mineral soil surface (2).
 
 ### Silandic (sn) {#sec-sn .unnumbered}
 

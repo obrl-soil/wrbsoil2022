@@ -1939,8 +1939,10 @@ Fluvic material is [*mineral material*](#sec-minm) and:
         i.  ≥ 0.2% [*soil organic carbon*](#sec-soc); ***and***
         ii. a content of [*soil organic carbon*](#sec-soc) ≥ 25% (relative) and ≥ 0.2% (absolute) higher than in the overlying layer; ***and***
         iii. does not form part of a [*natric*](#sec-natrich) or [*spodic horizon*](#sec-spodich); ***and***
-3.  has a single grain, a massive, a platy or a weak subangular blocky structure; ***and***
-4.  is not cemented.
+3.  one or both of the following:
+    a.  has a single grain, a massive, a platy or a weak subangular blocky structure; ***or***
+
+    b.  has a granular or a subangular blocky structure and meets diagnostic criteria 2.b.
 
 #### Field identification {#sec-fluvicm-flid}
 

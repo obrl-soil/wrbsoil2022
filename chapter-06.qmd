@@ -115,42 +115,42 @@ At the first level of classification, the code of the RSG stands alone.
 
 At the second level, the code starts with the RSG,\
 followed by a '-',\
-followed by the principal qualifiers according to the list from top to bottom, with a '.' between them, followed by a '-',\
-followed by the supplementary qualifiers with a '.' between them:
+followed by the principal qualifiers, if several ones apply, with a '.' between them, according to the list from top to bottom,\
+if applicable, followed by a '-',\
+followed by the supplementary qualifiers related to texture, if several ones apply, with a '.' between them, in the sequence from the top to the bottom of the profile,\
+if applicable, followed by a '-',\
+followed by the other supplementary qualifiers, if several ones apply, with a '.' in between them, in alphabetical order of the qualifier names (not in alphabetical order of their codes), \
+if applicable, followed by a '-',\
+followed by qualifiers that are not in the list for the particular RSG.
 
--   first, if applicable, the qualifiers related to the texture, if several ones apply, in the sequence from the top to the bottom of the profile,
--   then, all others in alphabetical order of the qualifier names (not in alphabetical order of their codes), if applicable, followed by a '-',\
-    followed by qualifiers that are not in the list for the particular RSG.
+Subqualifiers (qualifiers combined with specifiers) are placed in the order of the qualifiers as if they were used without the specifier. Exception: If used with a principal qualifier, the Proto-, Bathy- and Thapto- subqualifiers must shift to the supplementary qualifiers,
 
-Subqualifiers (qualifiers combined with specifiers) are placed in the order of the qualifiers as if they were used without the specifier. Exceptions:
-
--   if used with a principal qualifier, the Proto-, Bathy- and Thapto- subqualifiers must shift to the supplementary qualifiers,
--   the list of supplementary qualifiers starts, if applicable, with the qualifiers related to the texture (see above). If one group of qualifiers is empty, the '-' is still included, if one of the following groups is not empty.
+If one group of qualifiers is empty, the '-' is still included, if one of the following groups is not empty.
 
 The resulting scheme is as follows:\
-RSG{-}\[PQ1\[.PQ2\]etc\]{-}\[TQ1\[.TQ2\]etc\]\[SQ1\[.SQ2\]etc\]{-}\[NQ1\[.NQ2\]etc\]
+RSG{-}\[PQ1\[.PQ2\]etc\]{-}\[TQ1\[.TQ2\]etc\]{-}\[SQ1\[.SQ2\]etc\]{-}\[NQ1\[.NQ2\]etc\]
 
 With: PQ = principal qualifier, with or without added specifiers, TQ = supplementary qualifier related to texture, with or without added specifiers, SQ = other supplementary qualifier, with or without added specifiers, NQ = qualifier not listed for the particular RSG, with or without added specifiers; etc = further qualifiers can be added in the same way if necessary; elements in \[\] are listed if they apply; elements in {} are necessary if elements follow.
 
 ### Examples of the use of the codes for naming soils
 
 Albic Stagnic Luvisol (Episiltic, Endoclayic, Cutanic, Differentic, Ochric):\
-LV-st.ab-slp.cen.ct.df.oh
+LV-st.ab-slp.cen-ct.df.oh
 
 Hemic Folic Endorockic Histosol (Dystric):\
 HS-rkn.fo.hm-dy
 
 Haplic Ferralsol (Pantoloamic, Dystric, Humic, Bathypetroplinthic, Posic):\
-FR-ha-loe.dy.hu.ppd.po
+FR-ha-loe-dy.hu.ppd.po
 
 Calcaric Skeletic Pantofluvic Fluvisol (Pantoarenic, Ochric):\
-FL-fve.sk.ca-are.oh
+FL-fve.sk.ca-are-oh
 
 Dystric Umbric Aluandic Andosol (Pantosiltic, Thaptohistic, Hyperhumic):\
-AN-aa.um.dy-sle.hib.jh
+AN-aa.um.dy-sle-hib.jh
 
 Isolatic Ekranic Technosol (Supraarenic, Supracalcaric):\
-TC-ek.il-ars.cas
+TC-ek.il-ars-cas
 
 Dystric Arenosol (Bathyspodic):\
 AR-dy-sdd
