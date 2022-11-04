@@ -1,3 +1,9 @@
+---
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
 # The rules for naming soils and creating legends for soil maps {#sec-ch02}
 
 ## General rules and definitions {#sec-gnrl}
@@ -65,7 +71,7 @@ For naming a soil at the second level, all the principal and supplementary quali
 A soil developed from loess with high-activity clays has a marked clay increase at 60 cm depth, clay coatings in the clay-rich horizon, no stratification, and a field pH value around 6 in the depth from 50 to 100 cm. The clay-poor upper soil is subdivided into a darker upper and a light-coloured lower horizon. The clay-rich horizon has a limited amount of oximorphic features with intensive colours inside the soil aggregates and reducing conditions in some parts during springtime. The following conclusions can be drawn (for subqualifiers see [Chapter 2.3](#sec-subq)):
 
 |     |                                                                                                                            |                                                                      |
-|-----------------|-------------------------------------|-------------------|
+|------------------|------------------------------------|-------------------|
 | a\. | clay increase without [*lithic discontinuity*](chapter-03.qmd#sec-lithd) and/or with clay coatings                         | --\> [*argic horizon*](chapter-03.qmd#sec-argich)                    |
 | b\. | [*argic horizon*](chapter-03.qmd#sec-argich) with high CEC and more base cations than Al (inferred by pH 6)                | --\> [Luvisol](chapter-04.qmd#sec-key-lv)                            |
 | c\. | light colour in the eluvial horizon                                                                                        | --\> [Albic](chapter-05.qmd#sec-ab) qualifier                        |
@@ -206,28 +212,74 @@ The following guidelines apply:
 
 #### Example for creating a map unit in WRB {#sec-legends-ex}
 
-A landscape usually shows a variety of soils. For a map unit, they often have to be combined. The principles are shown in @fig-two-mapunits and in @tbl-cdsoils and @tbl-mapscales.
+A landscape usually shows a variety of soils. For a map unit, they often have to be combined. The principles are shown in @fig-two-mapunits and in @tbl-twoone and @tbl-twotwo.
 
 ![Soils in a landscape that need to be combined to form a map unit](images/figure_2-2.png){#fig-two-mapunits fig-alt="Soils in a landscape that need to be combined to form a map unit"}
 
-| Area | Complete soil name                                                                | Result          |
-|---------------|-------------------------------------------|---------------|
-| 1    | Haplic Luvisol (Episiltic, Katoclayic, Aric, Cutanic, Differentic, Epic, Ochric)  | dominant soil   |
-| 2    | Eutric Stagnic Leptic Cambisol (Loamic, Humic)                                    | codominant soil |
-| 3    | Albic Stagnic Luvisol (Anosiltic, Endoclayic, Cutanic, Differentic, Endic, Humic) | associated soil |
-| 4    | Thyric Technosol (Loamic, Calcaric, Skeletic)                                     | ignored         |
-| 5    | Eutric Luvic Stagnosol (Episiltic, Katoclayic, Humic)                             | ignored         |
-| 6    | Hortic Anthrosol (Loamic, Eutric)                                                 | ignored         |
+```{r}
+#| echo: false
+#| message: false
+#| results: hold
+#| label: tbl-twoone
+#| tbl-cap: Detection of dominant, codominant and associated soils.
+#| tbl-colwidths: [10, 70, 20]  
 
-: Detection of dominant, codominant and associated soils {#tbl-cdsoils}
+library(dplyr)
+library(purrr)
+library(glue)
+library(gt)
+library(tibble)
 
-| Map scale level | Dominant soil   | Codominant soil          | Associated soil        |
-|-----------------|-----------------|--------------------|------------------|
-| First           | Luvisols        | Cambisols                |                        |
-| Second          | Haplic Luvisols | Leptic Cambisols         | Stagnic Luvisols       |
-| Third           | Haplic Luvisols | Stagnic Leptic Cambisols | Albic Stagnic Luvisols |
+table_twoone_body <- tribble(
+  ~Area, ~CSN, ~Result,
+  1, 'Haplic Luvisol (Episiltic, Katoclayic, Aric, Cutanic, Differentic, Epic, Ochric)', 'dominant soil',
+  2, 'Eutric Stagnic Leptic Cambisol (Loamic, Humic)', 'codominant soil',
+  3, 'Albic Stagnic Luvisol (Anosiltic, Endoclayic, Cutanic, Differentic, Endic, Humic)', 'associated soil',
+  4, 'Thyric Technosol (Loamic, Calcaric, Skeletic)', 'ignored',
+  5, 'Eutric Luvic Stagnosol (Episiltic, Katoclayic, Humic)', 'ignored',
+  6, 'Hortic Anthrosol (Loamic, Eutric)', 'ignored'
+)
 
-: Denomination of the map unit depending on the scale level {#tbl-mapscales}
+tbl21 <- gt(table_twoone_body) |>
+  cols_label(CSN = 'Complete soil name') |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  )
+
+tbl21
+
+```
+
+```{r}
+#| echo: false
+#| message: false
+#| results: hold
+#| label: tbl-twotwo
+#| tbl-cap: Denomination of the map unit depending on the scale level.
+
+
+table_twotwo_body <- tribble(
+  ~Mscale, ~dsoil, ~cdsoil, ~asoil,
+  'First', 'Luvisols', 'Cambisols', NA,
+  'Second', 'Haplic Luvisols', 'Leptic Cambisols', 'Stagnic Luvisols',
+  'Third', 'Haplic Luvisols', 'Stagnic Leptic Cambisols', 'Albic Stagnic Luvisols')
+
+tbl22 <- gt(table_twotwo_body) |>
+  cols_label(Mscale = 'Map scale level',
+             dsoil  = 'Dominant soil',
+             cdsoil = 'Codominant soil',
+             asoil  = 'Associated soil') |>
+  sub_missing(missing_text = '') |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  )
+
+tbl22
+```
 
 #### Examples for map units in WRB {#sec-legend-exs}
 
