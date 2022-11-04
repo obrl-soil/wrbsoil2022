@@ -121,7 +121,7 @@ library(tibble)
 table_oneone_body <-
   tribble(~diag_type, ~name, ~desc, ~qmd_url,
           1, 'anthraquic horizon', 'in paddy soils: the layer comprising the puddled layer and the plough pan, both showing a reduced matrix and oxidized root channels', 'anthh',
-          1, 'hortic horizon', 'dark, high content of organic matter and P, high animal activity, high base saturation; resulting from long-term cultivation, fertilization and application of organic residues', 'horith',
+          1, 'hortic horizon', 'dark, high content of organic matter and P, high animal activity, high base saturation; resulting from long-term cultivation, fertilization and application of organic residues', 'hortih',
           1, 'hydragric horizon', 'in paddy soils: the layer below the anthraquic horizon showing redoximorphic features and/or an accumulation of Fe and/or Mn', 'hydrh',
           1, 'irragric horizon', 'uniformly textured, at least moderate content of organic matter, high animal activity; gradually built up by sediment-rich irrigation water', 'iragh',
           1, 'plaggic horizon', 'dark, at least moderate content of organic matter, sandy or loamy; resulting from application of sods and excrements', 'plaggh',
@@ -257,7 +257,7 @@ The WRB comprises two levels of categorical detail:
 
 ### First Level: The Reference Soil Groups {#sec-arch-rsg}
 
-@tbl-rsgcodes provides an overview of the RSGs and the rationale for the sequence of the RSGs in the WRB Key. The RSGs are allocated to groups on the basis of dominant identifiers, i.e. the soil-forming factors or processes that most clearly condition the soil.
+@tbl-onetwo provides an overview of the RSGs and the rationale for the sequence of the RSGs in the WRB Key. The RSGs are allocated to groups on the basis of dominant identifiers, i.e. the soil-forming factors or processes that most clearly condition the soil.
 
 ### Second Level: The Reference Soil Groups with their qualifiers {#sec-arch-qlf}
 
@@ -267,50 +267,82 @@ In the WRB, a distinction is made between **principal qualifiers** and **supplem
 -   The WRB is capable of indicating most of the soil's properties, which are incorporated into an informative soil name.
 -   The system is robust. Missing data do not necessarily lead to a dramatic error in the classification of a soil. If one qualifier is erroneously added or erroneously omitted based on incomplete data, the rest of the soil name remains correct.
 
-|                                                                                                               |     RSG     | Code |
-|-----------------------------------------|:--------------:|:--------------:|
-| **1. Soils with thick organic layers:**                                                                       |  Histosols  |  HS  |
-| **2. Soils with strong human influence --**                                                                   |             |      |
-| With long and intensive agricultural use:                                                                     | Anthrosols  |  AT  |
-| Containing significant amounts of artefacts:                                                                  | Technosols  |  TC  |
-| **3. Soils with limitations to root growth --**                                                               |             |      |
-| Permafrost-affected:                                                                                          |  Cryosols   |  CR  |
-| Thin or with many coarse fragments:                                                                           |  Leptosols  |  LP  |
-| With a high content of exchangeable Na:                                                                       |  Solonetz   |  SN  |
-| Alternating wet-dry conditions, shrink-swell clays:                                                           |  Vertisols  |  VR  |
-| High concentration of soluble salts:                                                                          | Solonchaks  |  SC  |
-| **4. Soils distinguished by Fe/Al chemistry --**                                                              |             |      |
-| Groundwater-affected, underwater and in tidal areas:                                                          |  Gleysols   |  GL  |
-| Allophanes and/or Al-humus complexes:                                                                         |  Andosols   |  AN  |
-| Subsoil accumulation of humus and/or oxides:                                                                  |   Podzols   |  PZ  |
-| Accumulation and redistribution of Fe:                                                                        | Plinthosols |  PT  |
-| Stagnant water, abrupt textural difference:                                                                   |  Planosols  |  PL  |
-| Stagnant water, structural difference and/or moderate textural difference:                                    | Stagnosols  |  ST  |
-| Low-activity clays, P fixation, many Fe oxides, strongly structured:                                          |  Nitisols   |  NT  |
-| Dominance of kaolinite and oxides:                                                                            | Ferralsols  |  FR  |
-| **5. Pronounced accumulation of organic matter in the mineral topsoil --**                                    |             |      |
-| Very dark topsoil, secondary carbonates:                                                                      | Chernozems  |  CH  |
-| Dark topsoil, secondary carbonates:                                                                           | Kastanozems |  KS  |
-| Dark topsoil, no secondary carbonates (unless very deep), high base status:                                   |  Phaeozems  |  PH  |
-| Dark topsoil, low base status:                                                                                |  Umbrisols  |  UM  |
-| **6. Accumulation of moderately soluble salts or non-saline substances --**                                   |             |      |
-| Accumulation of, and cementation by, secondary silica:                                                        |  Durisols   |  DU  |
-| Accumulation of secondary gypsum:                                                                             |  Gypsisols  |  GY  |
-| Accumulation of secondary carbonates:                                                                         |  Calcisols  |  CL  |
-| **7. Soils with clay-enriched subsoil --**                                                                    |             |      |
-| Interfingering of coarser-textured, lighter coloured material into a finer-textured, stronger coloured layer: |  Retisols   |  RT  |
-| Low-activity clays, low base status:                                                                          |  Acrisols   |  AC  |
-| Low-activity clays, high base status:                                                                         |  Lixisols   |  LX  |
-| High-activity clays, low base status:                                                                         |   Alisols   |  AL  |
-| High-activity clays, high base status:                                                                        |  Luvisols   |  LV  |
-| **8. Soils with little or no profile differentiation --**                                                     |             |      |
-| Moderately developed:                                                                                         |  Cambisols  |  CM  |
-| Stratified fluviatile, marine or lacustrine sediments:                                                        |  Fluvisols  |  FL  |
-| Sandy:                                                                                                        |  Arenosols  |  AR  |
-| No significant profile development:                                                                           |  Regosols   |  RG  |
+```{r}
+#| echo: false
+#| message: false
+#| results: hold
+#| label: tbl-onetwo
+#| tbl-cap: "Simplified guide to the WRB Reference Soil Groups (RSGs) with suggested codes. **This table is not to be used as a key**. For full definitions, please refer to[Chapter 3](chapter-03.qmd) and the Key ([Chapter 4](chapter-04.qmd))."
+#| tbl-colwidths: [70,20, 10]  
 
-: Simplified guide to the WRB Reference Soil Groups (RSGs) with suggested codes. **This table is not to be used as a key**.\
-For full definitions, please refer to [Chapter 3](chapter-03.qmd) and the Key ([Chapter 4](chapter-04.qmd)). {#tbl-rsgcodes}
+table_onetwo_body <- tribble(
+  ~Name, ~RSG, ~Code,
+  '1. Soils with thick organic layers:', 'Histosols', 'HS',
+  '2. Soils with strong human influence –', NA, NA,
+  'With long and intensive agricultural use:', 'Anthrosols', 'AT',
+  'Containing significant amounts of artefacts:', 'Technosols', 'TC',
+  '3. Soils with limitations to root growth –', NA, NA,
+  'Permafrost-affected:', 'Cryosols', 'CR',
+  'Thin or with many coarse fragments:', 'Leptosols', 'LP',
+  'With a high content of exchangeable Na:', 'Solonetz', 'SN',
+  'Alternating wet-dry conditions, shrink-swell clays:', 'Vertisols', 'VR',
+  'High concentration of soluble salts:', 'Solonchaks', 'SC',
+  '4. Soils distinguished by Fe/Al chemistry –', NA, NA,
+  'Groundwater-affected, underwater and in tidal areas:', 'Gleysols', 'GL',
+  'Allophanes and/or Al-humus complexes:', 'Andosols', 'AN',
+  'Subsoil accumulation of humus and/or oxides:', 'Podzols', 'PZ',
+  'Accumulation and redistribution of Fe:', 'Plinthosols', 'PT',
+  'Stagnant water, abrupt textural difference:', 'Planosols', 'PL',
+  'Stagnant water, structural difference and/or moderate textural difference:', 'Stagnosols', 'ST',
+  'Low-activity clays, P fixation, many Fe oxides, strongly structured:', 'Nitisols', 'NT',
+  'Dominance of kaolinite and oxides:', 'Ferralsols', 'FR',
+  '5. Pronounced accumulation of organic matter in the mineral topsoil –', NA, NA,
+  'Very dark topsoil, secondary carbonates:', 'Chernozems', 'CH',
+  'Dark topsoil, secondary carbonates:', 'Kastanozems', 'KS',
+  'Dark topsoil, no secondary carbonates (unless very deep), high base status:', 'Phaeozems', 'PH',
+  'Dark topsoil, low base status:', 'Umbrisols', 'UM',
+  '6. Accumulation of moderately soluble salts or non-saline substances –', NA, NA,
+  'Accumulation of, and cementation by, secondary silica:', 'Durisols', 'DU',
+  'Accumulation of secondary gypsum:', 'Gypsisols', 'GY',
+  'Accumulation of secondary carbonates:', 'Calcisols', 'CL',
+  '7. Soils with clay-enriched subsoil –', NA, NA,
+  'Interfingering of coarser-textured, lighter coloured material into a finer-textured, stronger coloured layer:', 'Retisols', 'RT',
+  'Low-activity clays, low base status:', 'Acrisols', 'AC',
+  'Low-activity clays, high base status:', 'Lixisols', 'LX',
+  'High-activity clays, low base status:', 'Alisols', 'AL',
+  'High-activity clays, high base status:', 'Luvisols', 'LV',
+  '8. Soils with little or no profile differentiation –', NA, NA,
+  'Moderately developed:', 'Cambisols', 'CM',
+  'Stratified fluviatile, marine or lacustrine sediments:', 'Fluvisols', 'FL',
+  'Sandy:', 'Arenosols', 'AR',
+  'No significant profile development:', 'Regosols', 'RG'
+)
+
+tb2 <- table_onetwo_body |>
+  dplyr::mutate(
+    cl = tolower(Code),
+    link_nm = glue::glue("[{Code}](chapter-04.qmd#sec-key-{cl})", .na = NULL),
+                link_nm = purrr::map(link_nm, gt::md)) |>
+  dplyr::select(-cl, -Code,) |>
+  dplyr::select(Name, RSG, link_nm) |>
+  dplyr::rename(Code = link_nm) |>
+  gt(groupname_col = 'grp_name') |>
+  cols_label(Name = '') |>
+  tab_style(style     = cell_borders(sides = 'all', style = 'hidden'),
+            locations = list(cells_body(), cells_stub()) ) |>
+  tab_style(style = cell_text(align = 'left'), locations = cells_body()) |>
+  tab_style(style = cell_text(weight = 'bold'), 
+            locations = cells_body(columns = Name, 
+                                   rows    = c(1, 2, 5, 11, 20, 25, 29, 35))) |>
+  sub_missing(missing_text = '') |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  )
+
+tb2
+```
 
 ## Topsoils {#sec-tops}
 
