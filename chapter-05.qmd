@@ -188,11 +188,11 @@ and not having a [*calcic*](chapter-03.qmd#sec-calch) or a [*petrocalcic horizon
 
 (from Greek *chroma*, colour): having between 25 and 150 cm of the mineral soil surface a layer, ≥ 30 cm thick, that shows evidence of soil formation as defined in criterion 3 of the [*cambic horizon*](chapter-03.qmd#sec-cambich) and that has, in ≥ 90% of its exposed area, a Munsell colour hue redder than 7.5YR and a chroma of \> 4, both moist, and that does not meet the set of diagnostic criteria of the [Rhodic](#sec-ro) qualifier.
 
-#### Claric (cq) {#sec-cq .unnumbered}
+### Claric (cq) {#sec-cq .unnumbered}
 
 (from Latin *clarus*, bright): having between 25 and 100 cm of the mineral soil surface a layer, ≥ 30 cm thick, that consists of [*claric material*](chapter-03.qmd#sec-claricm), and the soil does not meet the set of diagnostic criteria of the Bathyspodic qualifier (in [*Arenosols*](chapter-04.qmd#sec-key-ar) only) (2: except Epi-).
 
-#### Clayic (ce) {#sec-ce .unnumbered}
+### Clayic (ce) {#sec-ce .unnumbered}
 
 (from English *clay*): consisting of mineral material and having, single or in combination, a texture class of clay, sandy clay or silty clay
 
@@ -201,7 +201,7 @@ and not having a [*calcic*](chapter-03.qmd#sec-calch) or a [*petrocalcic horizon
 
 (2; no subqualifier if a limiting layer starts \< 60 cm from the mineral soil surface).
 
-#### Coarsic (cs) {#sec-cs .unnumbered}
+### Coarsic (cs) {#sec-cs .unnumbered}
 
 (from English *coarse*): having \< 20% (by volume, related to the whole soil) fine earth, averaged over a depth of 75 cm from the soil surface or to a limiting layer starting \> 25 cm from the soil surface, whichever is shallower.
 
