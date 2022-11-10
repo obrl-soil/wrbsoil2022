@@ -476,7 +476,7 @@ and not having a [*calcic*](chapter-03.qmd#sec-calch) or a [*petrocalcic horizon
 
 (from Greek *hyper*, over): having a layer, ≥ 50 cm thick and within 100 cm of the soil surface, consisting of [*organotechnic material*](chapter-03.qmd#sec-orgtechm) (in [*Technosols*](chapter-04.qmd#sec-key-tc) only) (2).
 
-#### Gelic (ge) {#sec-ge .unnumbered}
+### Gelic (ge) {#sec-ge .unnumbered}
 
 (from Latin *gelare*, to freeze):
 
