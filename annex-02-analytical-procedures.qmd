@@ -129,7 +129,7 @@ If the data for the base saturation are not available, the pH~water~ can be used
 Exchangeable ions are given in cmol~c~ kg^-1^. For some soils, the relationship between the sum of exchangeable base cations and exchangeable Al is required. If the data for exchangeable ions are not available, the pH~water~ can be used instead. If this is also not available, the pH~KCl~ can be used. The correlations between exchangeable ions and pH depend on the amount of organic matter and show an extremely high variance. The following pH values are recommended:
 
 |                | exch base = exch Al |         | exch base \>= 4x exch Al |         | Exch Al \>= 4x Exch base |         |
-|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|----------------|---------------------|---------|--------------------------|---------|--------------------------|---------|
 | C~org~ (%)     | pH~water~           | pH~KCl~ | pH~water~                | pH~KCl~ | pH~water~                | pH~KCl~ |
 | \< 2           | 4.6                 | 3.8     | 5.5                      | 4.7     | 3.9                      | 3.2     |
 | ≥ 2 to \< 7.5  | 4.9                 | 4.1     | 5.9                      | 5.0     | 4.2                      | 3.4     |
