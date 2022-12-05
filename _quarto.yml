@@ -42,6 +42,7 @@ format:
     date-modified: last-modified
     logo: images/cover.png
     appendix-style: none
+    css: styles.css
 
 
 editor: visual
@@ -51,8 +52,9 @@ knitr:
   opts_chunk:
     comment: "#>"
     collapse: true
-    out.width: '85%'
     fig.align: 'center'
     echo: false
+    message: false
+    warning: false
     fig.show: 'hold'
     results: 'hold'
