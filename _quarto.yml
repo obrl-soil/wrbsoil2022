@@ -30,7 +30,6 @@ book:
     - annex-05-database-setup.qmd
     - annex-06-rsg-colours.qmd
 
-
 bibliography: references.bib
 
 format:

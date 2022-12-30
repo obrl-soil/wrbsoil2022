@@ -124,10 +124,9 @@ tbl_a181 <- gt(tbl_a181_dat) |>
     table.align = 'left'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2))
-  
+            locations = cells_body(columns = 2)) 
+
 tbl_a181
-  
 ```
 
 ### Climate and weather {#sec-a1-824}
@@ -1058,14 +1057,9 @@ tbl_a1827 <- gt(tbl_a1827_dat) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |>
   text_transform(
-    locations = cells_body(
-      columns = c(Criterion), rows = c(3,4)
-    ),
-    fn = function(x){
-      text <- str_extract(x, "[^-1^]+")
-      glue::glue("{text}<sup>-1</sup>")
-    }
-  )
+    locations = cells_body(columns = c(Criterion), rows = c(3,4)),
+    fn = \(x){ str_replace(x, '\\^-1\\^', '<sup>-1</sup>')})
+
 tbl_a1827
 ```
 
@@ -1615,178 +1609,38 @@ From the second-level structure, take some specimens from each type (if more tha
 
 ![General terms of soil aggregate description](images/figure_8-15.png){#fig-a1-815}
 
-::: {grid}
-::: {g-col-4}
-Granular
+```{r}
+#| label: tbl-a1841
+#| tbl-cap: Types of structure, descriptions, Schoeneberger et al, (2012), 2-53, FAO (2006), Table 49, National Committee on Soil and Terrain (2009), 171-181, modified
+#| tbl-colwidths: [20, 20, 60] 
 
-![](images/table_8-41-01.png)
-:::
+tbl_a1841_dat <- tribble(
+  ~Type, ~Image, ~Details,
+  'Granular', 'images/table_8-41-01.png', '- Spheroidal; - biogenic; many visible pores; - bounded by curved or very irregular faces; - limited accommodation to the faces of surrounding aggregates',
+  'Subangular blocky', 'images/table_8-41-02.png', '- Bounded by undulating rough faces; - number of faces variable;- many vertices rounded; - limited accommodation to the faces of surrounding aggregates',
+  'Angular blocky', 'images/table_8-41-03.png', '- Bounded by relatively flat smooth, roughly equal faces; - number of faces variable; - most vertices angular; - usually much accommodation to the faces of surrounding aggregates',
+  'Lenticular', 'images/table_8-41-04.png', '- Bounded by curved faces; - overlapping, lens-shaped aggregates generally parallel to the soil surface that are thick at the centre and taper toward the edges; - usually much accommodation to the faces of surrounding aggregates; - (formed by active or relict frost processes)',
+  'Wedge-shaped', 'images/table_8-41-05.png', '- Bounded by flat faces; - interlocking wedges or lenses that terminate in pronounced angular vertices; - ends of vertices may be missing; - much accommodation to the faces of surrounding aggregates (typical for first-level or second-level structure in vertic horizons)',
+  'Prismatic', 'images/table_8-41-06.png', '- Bounded by relatively flat faces; - vertically elongated units with angular vertices and flat tops; - much accommodation to the faces of surrounding aggregates',
+  'Columnar', 'images/table_8-41-07.png' , '- Bounded by relatively flat faces; - vertically elongated units with angular to rounded vertices and rounded (domed) tops',
+  'Polyhedral', 'images/table_8-41-08.png', '- Bounded by relatively flat smooth, unequal faces; - more than six faces; most vertices angular; - usually much accommodation to the faces of surrounding aggregates; - re-entrant angles between adjoining faces (typical for second-level structure in nitic horizons)',
+  'Flat-edged', 'images/table_8-41-09.png', '- Bounded by curved faces; - lens-shaped aggregates that are thick at the centre and taper toward the edges; - limited accommodation to the faces of surrounding aggregates - (typical for second-level structure in nitic horizons)',
+  'Pseudosand/ Pseudosilt', 'images/table_8-41-10.png', '- Spheroidal units of sand and silt size, composed of kaolinite-oxide complexes; - the complexes may be interconnected to each other; - hand-texturing according to Chapter 8.4.9 first yields the impression of a dominance of sand and silt and after prolonged squeezing proves the dominance of clay',
+  'Platy', 'images/table_8-41-11.png', '- Bounded by relatively flat horizontal faces; - much accommodation to the faces of surrounding aggregates',
+  'Single grain', 'images/table_8-41-12.png', '- Entirely non-coherent, e.g., loose sand',
+  'Massive', 'images/table_8-41-13.png', '- Material is a coherent mass (not necessarily cemented)',
+  'Cloddy', 'images/table_8-41-14.png' ,'- Artificial clods created by disturbance; e.g., ploughing')
 
-::: {g-col-8}
--   Spheroidal;
--   biogenic; many visible pores;
--   bounded by curved or very irregular faces;
--   limited accommodation to the faces of surrounding aggregates
-:::
-
-::: {g-col-4}
-Subangular blocky
-
-![](images/table_8-41-02.png)
-:::
-
-::: {g-col-8}
--   Bounded by undulating rough faces;
--   number of faces variable;
--   many vertices rounded;
--   limited accommodation to the faces of surrounding aggregates
-:::
-
-::: {g-col-4}
-Angular blocky
-
-![](images/table_8-41-03.png)
-:::
-
-::: {g-col-8}
--   Bounded by relatively flat smooth, roughly equal faces;
--   number of faces variable;
--   most vertices angular;
--   usually much accommodation to the faces of surrounding aggregates
-:::
-
-::: {g-col-4}
-Lenticular
-
-![](images/table_8-41-04.png)
-:::
-
-::: {g-col-8}
--   Bounded by curved faces;
--   overlapping, lens-shaped aggregates generally parallel to the soil surface that are thick at the centre and taper toward the edges;
--   usually much accommodation to the faces of surrounding aggregates;
--   (formed by active or relict frost processes)
-:::
-
-::: {g-col-4}
-Wedge-shaped
-
-![](images/table_8-41-05.png)
-:::
-
-::: {g-col-8}
--   Bounded by flat faces;
--   interlocking wedges or lenses that terminate in pronounced angular vertices;
--   ends of vertices may be missing;
--   much accommodation to the faces of surrounding aggregates
--   (typical for first-level or second-level structure in vertic horizons)
-:::
-
-::: {g-col-4}
-Prismatic
-
-![](images/table_8-41-06.png)
-:::
-
-::: {g-col-8}
--   Bounded by relatively flat faces;
--   vertically elongated units with angular vertices and flat tops;
--   much accommodation to the faces of surrounding aggregates
-:::
-
-::: {g-col-4}
-Columnar
-
-![](images/table_8-41-07.png)
-:::
-
-::: {g-col-8}
--   Bounded by relatively flat faces;
--   vertically elongated units with angular to rounded vertices and rounded (domed) tops
-:::
-
-::: {g-col-4}
-Polyhedral
-
-![](images/table_8-41-08.png)
-:::
-
-::: {g-col-8}
--   Bounded by relatively flat smooth, unequal faces;
--   more than six faces; most vertices angular;
--   usually much accommodation to the faces of surrounding aggregates;
--   re-entrant angles between adjoining faces
--   (typical for second-level structure in nitic horizons)
-:::
-
-::: {g-col-4}
-Flat-edged
-
-![](images/table_8-41-09.png)
-:::
-
-::: {g-col-8}
--   Bounded by curved faces;
--   lens-shaped aggregates that are thick at the centre and taper toward the edges;
--   limited accommodation to the faces of surrounding aggregates
--   (typical for second-level structure in nitic horizons)
-:::
-
-::: {g-col-4}
-Pseudosand/Pseudosilt
-
-![](images/table_8-41-10.png)
-:::
-
-::: {g-col-8}
--   Spheroidal units of sand and silt size, composed of kaolinite-oxide complexes;
--   the complexes may be interconnected to each other;
--   hand-texturing according to Chapter 8.4.9 first yields the impression of a dominance of sand and silt and after prolonged squeezing proves the dominance of clay
-:::
-
-::: {g-col-4}
-Platy
-
-![](images/table_8-41-11.png)
-:::
-
-::: {g-col-8}
--   Bounded by relatively flat horizontal faces;
--   much accommodation to the faces of surrounding aggregates
-:::
-
-::: {g-col-4}
-Single grain
-
-![](images/table_8-41-12.png)
-:::
-
-::: {g-col-8}
--   Entirely non-coherent, e.g., loose sand
-:::
-
-::: {g-col-4}
-Massive
-
-![](images/table_8-41-13.png)
-:::
-
-::: {g-col-8}
--   Material is a coherent mass (not necessarily cemented)
-:::
-
-::: {g-col-4}
-Cloddy
-
-![](images/table_8-41-14.png)
-:::
-
-::: {g-col-8}
--   Artificial clods created by disturbance; e.g., ploughing
-:::
-:::
-
-: Types of structure, descriptions, Schoeneberger et al, (2012), 2-53, FAO (2006), Table 49, National Committee on Soil and Terrain (2009), 171-181, modified {#tbl-a1841} <!--# TODO this needs to be tableified properly once I figure out how to do images and merged rows with gt -->
+tbl_a1841 <- gt(tbl_a1841_dat) |>
+  tab_options(column_labels.hidden = TRUE) |>
+  text_transform(locations = cells_body(columns = Image),
+                 fn = \(x) { local_image(filename = x,
+                                         height = 80) }) |> 
+  text_transform(locations = cells_body(columns = Details),
+                 fn = \(x) { str_replace_all(x, '- ', '<li>')  })
+  
+tbl_a1841
+```
 
 ```{r}
 #| label: tbl-a1842
@@ -1883,7 +1737,7 @@ tbl_a1844
 
 #### Size {#sec-a1-8410-s}
 
-The dimension to be reported is indicated in @tbl-a1841 by a line.
+The dimension to be reported is indicated in Table 8.41 by a line.
 
 ```{r}
 #| label: tbl-a1845
@@ -1993,16 +1847,9 @@ tbl_a1847 <- gt(tbl_a1847_dat) |>
   cols_label(Diam = 'Diameter (mm)',
              Area = 'Soil area to be assessed',
              Size = 'Size Class') |>
-  # https://stackoverflow.com/questions/69239911/subscripts-and-superscripts-in-body-of-gt-table-r
-   text_transform(
-    locations = cells_body(
-      columns = c(Area)
-    ),
-    fn = function(x){
-      text <- str_extract(x, "[^2^]+")
-      glue::glue("{text}<sup>2</sup>")
-    }
-  )
+  text_transform(
+    locations = cells_body(columns = c(Area)),
+    fn = \(x){ str_replace(x, "\\^2\\^", '<sup>2</sup>') })
   
 tbl_a1847
 ```
@@ -2306,19 +2153,19 @@ tbl_a1854
 #| tbl-colwidths: [20, 60, 20] 
 
 tbl_a1855_dat <- tribble(
-  ~Loc_01, ~Loc_02, ~Code,
+  ~Location, ~Loc_02, ~Code,
 'Inner parts', 'Inside soil aggregates: masses' ,'OIM',
-'Inner parts', 'Inside soil aggregates: concretions', 'OIC',
-'Inner parts', 'Inside soil aggregates: modules', 'OIN',
-'Inner parts', 'Inside soil aggregates: both concretions and/or nodules (not possible to distinguish)', 'OIB', 
+'', 'Inside soil aggregates: concretions', 'OIC',
+'', 'Inside soil aggregates: modules', 'OIN',
+'', 'Inside soil aggregates: both concretions and/or nodules (not possible to distinguish)', 'OIB', 
 'Outer parts', 'On surfaces of soil aggregates', 'OOA',
-'Outer parts', 'Adjacent to surfaces of soil aggregates, infused into the matrix (hypocoats)', 'OOH',
-'Outer parts', 'On biopore walls, lining the entire wall surface', 'OOE',
-'Outer parts', 'On biopore walls, not lining the entire wall surface', 'OON',
-'Outer parts', 'Adjacent to biopores, infused into the matrix (hypocoats)', 'OOI',
+'', 'Adjacent to surfaces of soil aggregates, infused into the matrix (hypocoats)', 'OOH',
+'', 'On biopore walls, lining the entire wall surface', 'OOE',
+'', 'On biopore walls, not lining the entire wall surface', 'OON',
+'', 'Adjacent to biopores, infused into the matrix (hypocoats)', 'OOI',
 'Random (not associated with aggregate surfaces or pores)', 'Distributed over the layer, no order visible', 'ORN',
-'Random (not associated with aggregate surfaces or pores)', 'Distributed over the layer, surrounding areas with reductimorphic features',  'ORS',
-'Random (not associated with aggregate surfaces or pores)','Throughout', 'ORT'
+'', 'Distributed over the layer, surrounding areas with reductimorphic features',  'ORS',
+'','Throughout', 'ORT'
   )
 
 tbl_a1855 <- gt(tbl_a1855_dat) |>
@@ -2329,73 +2176,103 @@ tbl_a1855 <- gt(tbl_a1855_dat) |>
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
-  tab_spanner(label = 'Location',
-              columns = c(Loc_01, Loc_02),
-              replace = FALSE, id = 'span1') |>
-  tab_spanner(label = 'Code',
-              columns = c(Code),
-              replace = FALSE, id = 'span2') |>
-  tab_options(column_labels.hidden = TRUE)
-  
-  
+  cols_label(Loc_02 = '')
+
 tbl_a1855
 ```
 
 ![Location of some oximorphic features](images/figure_8-19.png){#fig-a1-819}
 
-+----------------------------------------------------------+------------------------------------------------------------------------+-----------+
-| Location                                                 |                                                                        | Code      |
-+==========================================================+========================================================================+===========+
-| Inner parts                                              | Inside soil aggregates                                                 | **RIA**   |
-+----------------------------------------------------------+------------------------------------------------------------------------+-----------+
-| Outer parts                                              | Outer parts of soil aggregates                                         | **ROA**   |
-+----------------------------------------------------------+------------------------------------------------------------------------+-----------+
-|                                                          | Around biopores, surrounding the entire pores                          | **ROE**   |
-+----------------------------------------------------------+------------------------------------------------------------------------+-----------+
-|                                                          | Around biopores, not surrounding the entire pores                      | **RON**   |
-+----------------------------------------------------------+------------------------------------------------------------------------+-----------+
-| Random (not associated with aggregate surfaces or pores) | Distributed over the layer, no order visible                           | **RRN**   |
-+----------------------------------------------------------+------------------------------------------------------------------------+-----------+
-|                                                          | Distributed over the layer, surrounding areas with oximorphic features | **RRS**   |
-+----------------------------------------------------------+------------------------------------------------------------------------+-----------+
-|                                                          | Throughout                                                             | **RRT**   |
-+----------------------------------------------------------+------------------------------------------------------------------------+-----------+
+```{r}
+#| label: tbl-a1856
+#| tbl-cap: Location of reductimorphic features
+#| tbl-colwidths: [20, 60, 20] 
 
-: Location of reductimorphic features {#tbl-a1-856}
+tbl_a1856_dat <- tribble(
+  ~Location, ~Loc_02, ~Code,
+'Inner parts', 'Inside soil aggregates' ,'RIA',
+'Outer parts', 'Outer parts of soil aggregates', 'ROA',
+'', 'Around biopores, surrounding the entire pores', 'ROE',
+'', 'Around biopores, not surrounding the entire pores', 'RON',
+'Random (not associated with aggregate surfaces or pores)', 'Distributed over the layer, no order visible', 'RRN',
+'', 'Distributed over the layer, surrounding areas with oximorphic features',  'RRS',
+'','Throughout', 'RRT'
+  )
+
+tbl_a1856 <- gt(tbl_a1856_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 3)) |> 
+  cols_label(Loc_02 = '')
+
+tbl_a1856
+```
 
 #### Size of oximorphic features (\*) {#sec-a1-8420-z}
 
 The Table indicates the average length of the greatest dimension.
 
-| Size (mm)  | Size class  | Code   |
-|------------|-------------|--------|
-| ≤ 2        | Very fine   | **VF** |
-| \> 2 - 6   | Fine        | **FI** |
-| \> 6 - 20  | Medium      | **ME** |
-| \> 20 - 60 | Coarse      | **CO** |
-| \> 60      | Very coarse | **VC** |
+```{r}
+#| label: tbl-a1857
+#| tbl-cap: Size of oximorphic features, FAO (2006), Table 33
+#| tbl-colwidths: [40, 40, 20] 
 
-: Size of oximorphic features, FAO [-@un-fao2006], Table 33 {#tbl-a1-857}
+tbl_a1857_dat <- tribble(
+  ~Size, ~Size_Class, ~Code,
+'≤ 2', 'Very fine', 'VF',
+'> 2 - 6',   'Fine',        'FI',
+'> 6 - 20',  'Medium',      'ME',
+'> 20 - 60', 'Coarse',      'CO',
+'> 60',      'Very coarse', 'VC'
+  )
+
+tbl_a1857 <- gt(tbl_a1857_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 3)) |> 
+  cols_label(Size = 'Size (mm)',
+             Size_Class = 'Size Class')
+
+tbl_a1857
+```
 
 #### Cementation class of oximorphic features (\*)
 
 If an intact specimen is not obtainable, the oximorphic feature is not cemented. Otherwise, take out the feature, apply force perpendicular to its greatest dimension, observe the force needed for failure and report the cementation class.
 
-+-----------------------------------------------------------------------------+-----------------------------+------------+
-| Criterion                                                                   | Class                       | Code       |
-+=============================================================================+=============================+============+
-| Intact specimen not obtainable or very slight force between fingers, \< 8 N | Not cemented                | **NC**     |
-+-----------------------------------------------------------------------------+-----------------------------+------------+
-| Slight force between fingers, 8--\< 20 N                                    | Extremely weakly cemented   | **EWC**    |
-+-----------------------------------------------------------------------------+-----------------------------+------------+
-| Moderate force between fingers, 20--\< 40 N                                 | Very weakly cemented        | **VWC**    |
-+-----------------------------------------------------------------------------+-----------------------------+------------+
-| Strong force between fingers, 40--\< 80 N                                   | Weakly cemented             | **WEC**    |
-+-----------------------------------------------------------------------------+-----------------------------+------------+
-| Does not fail when applying force between fingers, ≥ 80 N                   | Moderately or more cemented | **MOC**    |
-+-----------------------------------------------------------------------------+-----------------------------+------------+
+```{r}
+#| label: tbl-a1858
+#| tbl-cap: Consistence of oximorphic features, Schoeneberger et al. (2012), 2-63
+#| tbl-colwidths: [60, 30, 10] 
 
-: Consistence of oximorphic features, Schoeneberger et al. [-@schoeneberger2012], 2-63 {#tbl-a1-858}
+tbl_a1858_dat <- tribble(
+  ~Criterion, ~Class, ~Code,
+'Intact specimen not obtainable or very slight force between fingers, < 8 N', 'Not cemented',                'NC',
+'Slight force between fingers, 8 - < 20 N',                                   'Extremely weakly cemented',   'EWC',
+'Moderate force between fingers, 20 - < 40 N',                                 'Very weakly cemented',        'VWC',
+'Strong force between fingers, 40 - < 80 N',                                   'Weakly cemented',             'WEC',
+'Does not fail when applying force between fingers, ≥ 80 N',                  'Moderately or more cemented', 'MOC'
+  )
+
+tbl_a1858 <- gt(tbl_a1858_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 3)) 
+
+tbl_a1858
+```
 
 #### Abundance (by exposed area) {#sec-a1-8420-aa}
 
@@ -2434,27 +2311,44 @@ The following field tests are available to prove reducing conditions:
 
 The following Table explains how to estimate the rH value using these field tests and the observed redoximorphic features (see [Chapter 8.4.20](#sec-a1-8420)). Report the rH range. Note that oximorphic features may be relic. Reductimorphic features may also be relic, if Fe and Mn have been removed in reduced form leaving behind a layer virtually free of Fe and Mn.
 
-+----------------------------------------------------------------------------------------------------------+------------------------------------------------+-------------+----------+
-| Criterion                                                                                                | Processes                                      | rH value    | Code     |
-+==========================================================================================================+================================================+=============+==========+
-| No redoximorphic features                                                                                | Strongly aerated                               | \> 33       | **R6**   |
-+----------------------------------------------------------------------------------------------------------+------------------------------------------------+-------------+----------+
-|                                                                                                          | Denitrification                                | 29--33      | **R6**   |
-+----------------------------------------------------------------------------------------------------------+------------------------------------------------+-------------+----------+
-| Oximorphic features of Mn; temporally no free oxygen present                                             | Redox reactions of Mn                          | temporally\ | **R5**   |
-|                                                                                                          |                                                | 20--29      |          |
-+----------------------------------------------------------------------------------------------------------+------------------------------------------------+-------------+----------+
-| Oximorphic features of Fe                                                                                | Redox reactions of Fe                          | temporally\ | **R4**   |
-|                                                                                                          |                                                | \< 20       |          |
-+----------------------------------------------------------------------------------------------------------+------------------------------------------------+-------------+----------+
-| Blue-green to grey colour, Fe^2+^ ions always present (reduced areas show a positive α,α-dipyridyl test) | Formation of Fe^2+^/Fe^3+^ oxides (green rust) | 13--20      | **R3**   |
-+----------------------------------------------------------------------------------------------------------+------------------------------------------------+-------------+----------+
-| Black colour due to metal sulfides (spraying with a 10% HCl solution causes the formation of H~2~S)      | Sulfide formation                              | 10--13      | **R2**   |
-+----------------------------------------------------------------------------------------------------------+------------------------------------------------+-------------+----------+
-| Flammable methane present                                                                                | Methane formation                              | \< 10       | **R1**   |
-+----------------------------------------------------------------------------------------------------------+------------------------------------------------+-------------+----------+
+```{r}
+#| label: tbl-a1859
+#| tbl-cap: Ranges of rH values and related soil processes as derived from redoximorphic features and from field tests of reducing conditions, Blume et al. (2010), page 24, FAO (2006), Table 36, modified
+#| tbl-colwidths: [40, 30, 20, 10] 
 
-: Ranges of rH values and related soil processes as derived from redoximorphic features and from field tests of reducing conditions, Blume et al. [-@blume2010], page 24, FAO [-@un-fao2006], Table 36, modified {#tbl-a1-859}
+tbl_a1859_dat <- tribble(
+  ~Criterion, ~Processes, ~rH_value, ~Code,
+'No redoximorphic features', 'Strongly aerated', '> 33', 'R6',
+'',  'Denitrification', '29 - 33', 'R6',
+'Oximorphic features of Mn; temporally no free oxygen present', 'Redox reactions of Mn', 'temporally 20 - 29', 'R5',
+'Oximorphic features of Fe', 'Redox reactions of Fe', 'temporally < 20', 'R4',
+'Blue-green to grey colour, Fe^2+^ ions always present (reduced areas show a positive α,α-dipyridyl test)', 'Formation of Fe^2+^/Fe^3+^ oxides (green rust)', '13 - 20', 'R3',
+'Black colour due to metal sulfides (spraying with a 10% HCl solution causes the formation of H~2~S)', 'Sulfide formation', '10 - 13', 'R2',
+'Flammable methane present', 'Methane formation', '< 10', 'R1')
+
+tbl_a1859 <- gt(tbl_a1859_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 4)) |> 
+  cols_label(rH_value = 'rH value (V)') |> 
+  # i really don't care for this :/
+  text_transform(
+    locations = cells_body(columns = c(Criterion, Processes)),
+    fn = \(x){ str_replace(x, "\\^2\\+\\^", '<sup>2</sup>')}) |> 
+  text_transform(
+    locations = cells_body(
+      columns = c(Processes)),
+    fn = \(x){ str_replace(x, "\\^3\\+\\^", '<sup>3</sup>')}) |> 
+  text_transform(
+    locations = cells_body(columns = c(Criterion)),
+    fn = \(x){ str_replace(x, "~2~", '<sub>2</sub>')}) 
+  
+tbl_a1859
+```
 
 ### Initial weathering (m) {#sec-a1-8422}
 
@@ -2477,13 +2371,28 @@ Report the abundance of
 
 Sand and coarse silt grains are mostly coated by organic matter and/or oxides. In certain layers, these coatings may be cracked. In other layers, these coatings may be missing.
 
-| Criterion                                             | Code  |
-|-------------------------------------------------------|-------|
-| Cracked coatings on sand grains                       | **C** |
-| Uncoated sand and/or coarse silt grains               | **U** |
-| All sand and coarse silt grains coated without cracks | **A** |
+```{r}
+#| label: tbl-a1860
+#| tbl-cap: Organic matter coatings and oxide coatings on sand and/or coarse silt grains 
+#| tbl-colwidths: [80, 20] 
 
-: Organic matter coatings and oxide coatings on sand and/or coarse silt grains {#tbl-a1-860}
+tbl_a1860_dat <- tribble(
+  ~Criterion,  ~Code,
+ 'Cracked coatings on sand grains',                       'C',
+ 'Uncoated sand and/or coarse silt grains',               'U',
+ 'All sand and coarse silt grains coated without cracks', 'A')
+
+tbl_a1860 <- gt(tbl_a1860_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2)) 
+  
+tbl_a1860
+```
 
 For C, report the percentage related to the estimated number of sand grains. For U, report the percentage related to the estimated number of sand and coarse silt grains.
 
@@ -2491,27 +2400,34 @@ For C, report the percentage related to the estimated number of sand grains. For
 
 Ribbon-like accumulations are thin, horizontally continuous accumulations within the matrix of another layer. Report the accumulated substance(s).
 
-+--------------------------------------------------------------+------------+
-| Substance                                                    | Code       |
-+==============================================================+============+
-| Clay minerals                                                | **CC**     |
-+--------------------------------------------------------------+------------+
-| Fe oxides and/or Mn oxides                                   | **OO**     |
-+--------------------------------------------------------------+------------+
-| Organic matter                                               | **HH**     |
-+--------------------------------------------------------------+------------+
-| Clay minerals and Fe oxides and/or Mn oxides                 | **CO**     |
-+--------------------------------------------------------------+------------+
-| Clay minerals and organic matter                             | **CH**     |
-+--------------------------------------------------------------+------------+
-| Fe oxides and/or Mn oxides and organic matter                | **OH**     |
-+--------------------------------------------------------------+------------+
-| Clay minerals, Fe oxides and/or Mn oxides and organic matter | **TO**     |
-+--------------------------------------------------------------+------------+
-| No ribbon-like accumulations                                 | **NO**     |
-+--------------------------------------------------------------+------------+
+```{r}
+#| label: tbl-a1861
+#| tbl-cap: Substances of ribbon-like accumulations
+#| tbl-colwidths: [80, 20] 
 
-: Substances of ribbon-like accumulations {#tbl-a1-861}
+tbl_a1861_dat <- tribble(
+  ~Criterion,  ~Code,
+'Clay minerals',                                                'CC',
+'Fe oxides and/or Mn oxides',                                   'OO',
+'Organic matter',                                               'HH',
+'Clay minerals and Fe oxides and/or Mn oxides',                 'CO',
+'Clay minerals and organic matter',                             'CH',
+'Fe oxides and/or Mn oxides and organic matter',                'OH',
+'Clay minerals, Fe oxides and/or Mn oxides and organic matter', 'TO',
+'No ribbon-like accumulations',                                 'NO'
+  )
+
+tbl_a1861 <- gt(tbl_a1861_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2)) 
+  
+tbl_a1861
+```
 
 The term 'oxides', as used here, includes hydroxides and oxide-hydroxides. If clay minerals are accumulated, a ribbon-like accumulation is \< 7.5 cm thick, in all other cases \< 2.5 cm. If there are 2 or more ribbon-like accumulations in one layer, report the number of the accumulations and their combined thickness in cm. If clay minerals are accumulated (CC, CO, CH, TO), the ribbon-like accumulations are called **lamellae**.
 
@@ -2523,62 +2439,110 @@ Take a soil sample, add drops of 1 *M* HCl and observe the reaction. This meth
 
 Report the carbonate content in the soil matrix and report, whether the reaction with HCl is immediate or only after heating.
 
-+-------------------------------------------------------+-----------------------+--------------+-----------+
-| Criterion                                             | Content               | \% (by mass) | Code      |
-+=======================================================+=======================+==============+===========+
-| No visible or audible effervescence                   | Non-calcareous        | 0            | **NC**    |
-+-------------------------------------------------------+-----------------------+--------------+-----------+
-| Audible effervescence but not visible                 | Slightly calcareous   | \> 0 - 2     | **SL**    |
-+-------------------------------------------------------+-----------------------+--------------+-----------+
-| Visible effervescence                                 | Moderately calcareous | \> 2 - 10    | **MO**    |
-+-------------------------------------------------------+-----------------------+--------------+-----------+
-| Strong visible effervescence, bubbles form a low foam | Strongly calcareous   | \> 10 - 25   | **ST**    |
-+-------------------------------------------------------+-----------------------+--------------+-----------+
-| Extremely strong reaction, thick foam forms quickly   | Extremely calcareous  | \> 25        | **EX**    |
-+-------------------------------------------------------+-----------------------+--------------+-----------+
+```{r}
+#| label: tbl-a1862
+#| tbl-cap: Carbonate contents, FAO (2006), Table 38
+#| tbl-colwidths: [40, 30, 20, 10] 
 
-: Carbonate contents, FAO [-@un-fao2006], Table 38 {#tbl-a1-862}
+tbl_a1862_dat <- tribble(
+  ~Criterion,  ~Content, ~pc_by_m, ~Code,
+'No visible or audible effervescence',                   'Non-calcareous',        '0',         'NC',
+'Audible effervescence but not visible',                 'Slightly calcareous',   '> 0 - 2',   'SL',
+'Visible effervescence',                                 'Moderately calcareous', '> 2 - 10',  'MO',
+'Strong visible effervescence, bubbles form a low foam', 'Strongly calcareous',   '> 10 - 25', 'ST',
+'Extremely strong reaction, thick foam forms quickly',   'Extremely calcareous',  '> 25',      'EX'
+  )
 
-| Criterion                                | Code  |
-|------------------------------------------|-------|
-| Reaction with 1 M HCl immediate          | **I** |
-| Reaction with 1 M HCl only after heating | **H** |
+tbl_a1862 <- gt(tbl_a1862_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 4)) |> 
+    cols_label(pc_by_m = '% (by mass)')
+  
+tbl_a1862
+```
 
-: Retarded reaction with HCl {#tbl-a1-863}
+```{r}
+#| label: tbl-a1863
+#| tbl-cap: Retarded reaction with HCl
+#| tbl-colwidths: [40, 30, 20, 10] 
+
+tbl_a1863_dat <- tribble(
+  ~Criterion,   ~Code,
+'Reaction with 1 M HCl immediate',          'I',
+'Reaction with 1 M HCl only after heating', 'H'
+  )
+
+tbl_a1863 <- gt(tbl_a1863_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2)) 
+  
+tbl_a1863
+```
 
 #### Secondary carbonates {#sec-a1-8425-2}
 
-Report the type of secondary carbonates. If more than one occurs, report up to four, the dominant one first. Report secondary carbonates only if **visible when moist**. Always check with HCl if it is really carbonate. Report the abundance as percentage for each form using @tbl-a1-865 as a reference.
+Report the type of secondary carbonates. If more than one occurs, report up to four, the dominant one first. Report secondary carbonates only if **visible when moist**. Always check with HCl if it is really carbonate. Report the abundance as percentage for each form using @tbl-a1865 as a reference.
 
-+-------------------------------------------------------------------+-----------+
-| Type                                                              | Code      |
-+===================================================================+===========+
-| Masses (including spheroidal aggregations like white eyes)        | **MA**    |
-+-------------------------------------------------------------------+-----------+
-| Nodules and/or concretions                                        | **NC**    |
-+-------------------------------------------------------------------+-----------+
-| Filaments (including continuous filaments like pseudomycelia)     | **FI**    |
-+-------------------------------------------------------------------+-----------+
-| Coatings on soil aggregate surfaces or biopore walls              | **AS**    |
-+-------------------------------------------------------------------+-----------+
-| Coatings on undersides of coarse fragments and cemented fragments | **UR**    |
-+-------------------------------------------------------------------+-----------+
-| No secondary carbonates                                           | **NO**    |
-+-------------------------------------------------------------------+-----------+
+```{r}
+#| label: tbl-a1864
+#| tbl-cap: Types of secondary carbonates
+#| tbl-colwidths: [80, 20] 
 
-: Types of secondary carbonates {#tbl-a1-864}
+tbl_a1864_dat <- tribble(
+  ~Type,   ~Code,
+'Masses (including spheroidal aggregations like white eyes)',        'MA',
+'Nodules and/or concretions',                                        'NC',
+'Filaments (including continuous filaments like pseudomycelia)',     'FI',
+'Coatings on soil aggregate surfaces or biopore walls',              'AS',
+'Coatings on undersides of coarse fragments and cemented fragments', 'UR',
+'No secondary carbonates',                                           'NO'
+  )
 
-+----------------+---------------------------------------------------------------------------------------------------------------------------+
-| Code           | Reference for estimating the percentage                                                                                   |
-+================+===========================================================================================================================+
-| **MA, NC, FI** | Exposed area (related to the fine earth plus accumulations of secondary carbonates of any size and any cementation class) |
-+----------------+---------------------------------------------------------------------------------------------------------------------------+
-| **AS**         | Soil aggregate and biopore wall surfaces                                                                                  |
-+----------------+---------------------------------------------------------------------------------------------------------------------------+
-| **UR**         | Underside surfaces                                                                                                        |
-+----------------+---------------------------------------------------------------------------------------------------------------------------+
+tbl_a1864 <- gt(tbl_a1864_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2)) 
+  
+tbl_a1864
+```
 
-: Reference for estimating the percentage of secondary carbonates {#tbl-a1-865}
+```{r}
+#| label: tbl-a1865
+#| tbl-cap: Reference for estimating the percentage of secondary carbonates
+#| tbl-colwidths: [30,70] 
+
+tbl_a1865_dat <- tribble(
+  ~Code,   ~Reference,
+'MA, NC, FI', 'Exposed area (related to the fine earth plus accumulations of secondary carbonates of any size and any cementation class)',
+'AS', 'Soil aggregate and biopore wall surfaces',
+'UR', 'Underside surfaces')
+
+tbl_a1865 <- gt(tbl_a1865_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 1)) |> 
+  cols_label(Reference = 'Reference for estimating the percentage')
+  
+tbl_a1865
+```
 
 ### Gypsum (m) {#sec-a1-8426}
 
@@ -2586,22 +2550,41 @@ Report the type of secondary carbonates. If more than one occurs, report up to f
 
 Report the gypsum content in the soil matrix. If readily soluble salts are absent or present in small amounts only, gypsum can be estimated by measuring the electrical conductivity in soil suspensions of different soil-water relations after 30 minutes (in the case of fine-grained gypsum). This method detects primary and secondary gypsum. Note: Higher gypsum contents may be differentiated by abundance of H~2~O-soluble pseudomycelia/crystals and a soil colour with high value and low chroma.
 
-+------------------------------------------------------+------------------------+--------------+---------+
-| Electrical conductivity (EC)                         | Content                | \% (by mass) | Code    |
-+======================================================+========================+==============+=========+
-| ≤ 1.8 dS m^-1^ in 10 g soil / 25 ml H~2~O or\        | Non-gypsiferous        | 0            | **NG**  |
-| ≤ 0.18 dS m^-1^ in 10 g soil / 250 ml H~2~O          |                        |              |         |
-+------------------------------------------------------+------------------------+--------------+---------+
-| \> 0.18 - ≤ 1.8 dS m^-1^ in 10 g soil / 250 ml H~2~O | Slightly gypsiferous   | \> 0 - 5     | **SL**  |
-+------------------------------------------------------+------------------------+--------------+---------+
-| \> 1.8 dS m^-1^ in 10 g soil / 250 ml H~2~O          | Moderately gypsiferous | \> 5 - 15    | **MO**  |
-+------------------------------------------------------+------------------------+--------------+---------+
-|                                                      | Strongly gypsiferous   | \> 15 - 60   | **ST**  |
-+------------------------------------------------------+------------------------+--------------+---------+
-|                                                      | Extremely gypsiferous  | \> 60        | **EX**  |
-+------------------------------------------------------+------------------------+--------------+---------+
+```{r}
+#| label: tbl-a1866
+#| tbl-cap: Gypsum contents in layers with little readily soluble salts, FAO (2006), Table 40 
+#| tbl-colwidths: [50, 20, 20, 10] 
 
-: Gypsum contents in layers with little readily soluble salts, FAO [-@un-fao2006], Table 40 {#tbl-a1-866}
+tbl_a1866_dat <- tribble(
+  ~EC, ~Content, ~pc_by_m, ~Code,
+'≤ 1.8 dS m^-1^ in 10 g soil / 25 ml H~2~O or \n ≤ 0.18 dS m^-1^ in 10 g soil / 250 ml H~2~O', 'Non-gypsiferous', '0', 'NG',
+'> 0.18 - ≤ 1.8 dS m^-1^ in 10 g soil / 250 ml H~2~O', 'Slightly gypsiferous', '> 0 - 5', 'SL',
+'> 1.8 dS m^-1^ in 10 g soil / 250 ml H~2~O', 'Moderately gypsiferous', '> 5 - 15', 'MO',
+'> 1.8 dS m^-1^ in 10 g soil / 250 ml H~2~O', 'Strongly gypsiferous', '> 15 - 60', 'ST',
+'> 1.8 dS m^-1^ in 10 g soil / 250 ml H~2~O', 'Extremely gypsiferous', '> 60', 'EX')
+
+tbl_a1866 <- gt(tbl_a1866_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 4)) |> 
+  cols_label(EC = 'Electrical conductivity (EC)',
+             pc_by_m = '% (by mass)') |> 
+  text_transform(
+    locations = cells_body(columns = c(EC, Content)),
+    fn = \(x){ str_replace_all(x, "\\^-1\\^", '<sup>-1</sup>')})  |> 
+  text_transform(
+    locations = cells_body(columns = c(EC, Content)),
+    fn = \(x){ str_replace_all(x, "~2~", '<sub>2</sub>')})  |> 
+  text_transform(
+    locations = cells_body(columns = c(EC)),
+    fn = \(x){ str_replace(x, "\\\n", '<br />')}) 
+  
+tbl_a1866
+```
 
 #### Secondary gypsum {#sec-a1-8426-2}
 
@@ -2621,35 +2604,62 @@ Gypsum is soft and can easily be ripped with a knife or broken between thumbnail
 
 Secondary silica (SiO~2~) is off-white and predominantly consisting of opal and microcrystalline forms. It occurs as laminar caps, lenses, (partly) filled interstices, bridges between sand grains, and as coatings at surfaces of soil aggregates, biopore walls, coarse fragments, and cemented fragments. Report the type of secondary silica. If more than one type occurs, report up to two, the dominant one first. Note: Durinodes are often coated with secondary carbonates.
 
-+-----------------------------------------------------------------+-----------+
-| Type                                                            | Code      |
-+=================================================================+===========+
-| Nodules (durinodes)                                             | **DN**    |
-+-----------------------------------------------------------------+-----------+
-| Accumulations within a layer, cemented by secondary silica      | **CH**    |
-+-----------------------------------------------------------------+-----------+
-| Fragments of a layer that has been cemented by secondary silica | **FC**    |
-+-----------------------------------------------------------------+-----------+
-| Other accumulations                                             | **OT**    |
-+-----------------------------------------------------------------+-----------+
-| No secondary silica                                             | **NO**    |
-+-----------------------------------------------------------------+-----------+
+```{r}
+#| label: tbl-a1867
+#| tbl-cap: Types of secondary silica
+#| tbl-colwidths: [80, 20] 
 
-: Types of secondary silica {#tbl-a1-867}
+tbl_a1867_dat <- tribble(
+  ~Type,   ~Code,
+'Nodules (durinodes)',                                             'DN',
+'Accumulations within a layer, cemented by secondary silica',      'CH',
+'Fragments of a layer that has been cemented by secondary silica', 'FC',
+'Other accumulations',                                             'OT',
+'No secondary silica',                                             'NO')
+
+tbl_a1867 <- gt(tbl_a1867_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2)) 
+  
+tbl_a1867
+```
 
 #### Size {#sec-a1-8427-s}
 
 If a layer shows durinodes and/or fragments of a layer that has been cemented by secondary silica, report their size. The Table indicates the average length of the greatest dimension.
 
-| Size (cm)  | Size class  | Code   |
-|------------|-------------|--------|
-| ≤ 0.5      | Very fine   | **VF** |
-| \> 0.5 - 1 | Fine        | **FI** |
-| \> 1 - 2   | Medium      | **ME** |
-| \> 2 - 6   | Coarse      | **CO** |
-| \> 6       | Very coarse | **VC** |
+```{r}
+#| label: tbl-a1868
+#| tbl-cap: Size of durinodes and fragments of a layer that has been cemented by secondary silica
+#| tbl-colwidths: [40, 40, 20] 
 
-: Size of durinodes and fragments of a layer that has been cemented by secondary silica {#tbl-a1-868}
+tbl_a1868_dat <- tribble(
+  ~Size, ~Size_class,  ~Code,
+'≤ 0.5',     'Very fine',   'VF',
+'> 0.5 - 1', 'Fine',        'FI',
+'> 1 - 2',   'Medium',      'ME',
+'> 2 - 6',   'Coarse',      'CO',
+'> 6',       'Very coarse', 'VC'
+  )
+
+tbl_a1868 <- gt(tbl_a1868_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 3)) |> 
+  cols_label(Size = 'Size (cm)',
+             Size_class = 'Size class')
+  
+tbl_a1868
+```
 
 #### Abundance {#sec-a1-8427-a}
 
@@ -2665,56 +2675,74 @@ WC~SE~ is the water content in the saturation extract. It can be estimated in mi
 
 Report the electrical conductivity of the saturation extract in dS m^-1^.
 
-+----------------------+---------+---------------+------------+--------+--------+--------+
-| Texture class        | \< 0.25 | 0.25 - \< 0.5 | 0.5 - \< 1 | 1 - 2  | 2 - 4  | 4 - 20 |
-+======================+=========+===============+============+========+========+========+
-| CS                   | 5       | 6             | 8          | 13     | 21     | 35     |
-+----------------------+---------+---------------+------------+--------+--------+--------+
-| MS                   | 8       | 9             | 11         | 16     | 24     | 38     |
-+----------------------+---------+---------------+------------+--------+--------+--------+
-| FS, VFS              | 10      | 11            | 13         | 18     | 26     | 40     |
-+----------------------+---------+---------------+------------+--------+--------+--------+
-| LS, SL (\< 10% clay) | 14      | 15            | 17         | 22     | 30     | 45     |
-+----------------------+---------+---------------+------------+--------+--------+--------+
-| SiL (\< 10% clay)    | 17      | 18            | 20         | 25     | 34     | 49     |
-+----------------------+---------+---------------+------------+--------+--------+--------+
-| Si                   | 19      | 20            | 22         | 27     | 36     | 51     |
-+----------------------+---------+---------------+------------+--------+--------+--------+
-| SL (≥ 10% clay)      | 22      | 23            | 26         | 31     | 39     | 55     |
-+----------------------+---------+---------------+------------+--------+--------+--------+
-| L                    | 25      | 26            | 29         | 34     | 42     | 58     |
-+----------------------+---------+---------------+------------+--------+--------+--------+
-| SiL (≥ 10% clay)     | 28      | 29            | 32         | 37     | 46     | 62     |
-+----------------------+---------+---------------+------------+--------+--------+--------+
-| SCL                  | 32      | 33            | 36         | 41     | 50     | 67     |
-+----------------------+---------+---------------+------------+--------+--------+--------+
-| CL, SiCL             | 44      | 46            | 48         | 53     | 63     | 80     |
-+----------------------+---------+---------------+------------+--------+--------+--------+
-| SC                   | 51      | 53            | 55         | 60     | 70     | 88     |
-+----------------------+---------+---------------+------------+--------+--------+--------+
-| SiC, C (\< 60% clay) | 63      | 65            | 68         | 73     | 82     | 102    |
-+----------------------+---------+---------------+------------+--------+--------+--------+
-| C (≥ 60% clay)       | 105     | 107           | 110        | 116    | 126    | 147    |
-+----------------------+---------+---------------+------------+--------+--------+--------+
+```{r}
+#| label: tbl-a1869
+#| tbl-cap: Estimation of the water content of the saturation extract of mineral layers, DVWK (1995), FAO (2006), Table 43
+#| tbl-colwidths: [28, 12, 12, 12, 12, 12, 12] 
 
-: Estimation of the water content of the saturation extract of mineral layers, DVWK [-@bodenkun1995], FAO [-@un-fao2006], Table 43 {#tbl-a1-869}
+tbl_a1869_dat <- tribble(
+  ~Texture_class,       ~c1, ~c2, ~c3, ~c4, ~c5,  ~c6,
+'CS',                     5,   6,   8,  13,  21,   35,
+'MS',                     8,   9,  11,  16,  24,   38,
+'FS, VFS',               10,  11,  13,  18,  26,   40,
+'LS, SL (< 10% clay)',   14,  15,  17,  22,  30,   45,
+'SiL (< 10% clay)',      17,  18,  20,  25,  34,   49,
+'Si',                    19,  20,  22,  27,  36,   51,
+'SL (≥ 10% clay)',       22,  23,  26,  31,  39,   55,
+'L',                     25,  26,  29,  34,  42,   58,
+'SiL (≥ 10% clay)',      28,  29,  32,  37,  46,   62,
+'SCL',                   32,  33,  36,  41,  50,   67,
+'CL, SiCL',              44,  46,  48,  53,  63,   80,
+'SC',                    51,  53,  55,  60,  70,   88,
+'SiC, C (< 60% clay)',   63,  65,  68,  73,  82,  102,
+'C (≥ 60% clay)',       105, 107, 110, 116, 126,  147)
 
-+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| Degree of decomposition\                                                                                            | Water content of the saturation extract (WC~SE~) (g water / 100 g soil) |
-| (by volume, related to the fine earth plus all dead plant remnants)                                                 |                                                                         |
-+=====================================================================================================================+=========================================================================+
-| The organic material consists only of recognizable dead plant tissues                                               | 80                                                                      |
-+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| After rubbing, \> three fourths, but not all, of the organic material consist of recognizable dead plant tissues    | 120                                                                     |
-+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| After rubbing, ≤ three fourths and \> two thirds of the organic material consist of recognizable dead plant tissues | 170                                                                     |
-+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| After rubbing, ≤ two thirds and \> one sixth of the organic material consist of recognizable dead plant tissues     | 240                                                                     |
-+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| After rubbing, ≤ one sixth of the organic material consists of recognizable dead plant tissues                      | 300                                                                     |
-+---------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+tbl_a1869 <- gt(tbl_a1869_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 1)) |> 
+  cols_label(Texture_class = 'Texture class',
+             c1 = '< 0.25',
+             c2 = '0.25 - < 0.5',
+             c3 = '0.5 - < 1',
+             c4 = '1 - < 2',
+             c5 = '2 - < 4',
+             c6 = '4 - < 20') |> 
+  tab_spanner(columns = c(c1,c2,c3,c4,c5,c6),
+              label = html('Water content of the saturation extract (WC<sub>SE</sub>) (g water / 100 g soil) by C<sub>org</sub> content (%)'),
+              level = 1, id = 'span1')  
+  
+tbl_a1869
+```
 
-: Estimation of the water content of the saturation extract of organic layers, DVWK [-@bodenkun1995], FAO [-@un-fao2006], Table 43 {#tbl-a1-870}
+```{r}
+#| label: tbl-a1870
+#| tbl-cap:  Estimation of the water content of the saturation extract of organic layers, DVWK (1995), FAO (2006), Table 43
+#| tbl-colwidths: [70, 30] 
+
+tbl_a1870_dat <- tribble(
+  ~decomp, ~water_c,
+'The organic material consists only of recognizable dead plant tissues', 80,
+'After rubbing, > three fourths, but not all, of the organic material consist of recognizable dead plant tissues', 120,
+'After rubbing, ≤ three fourths and > two thirds of the organic material consist of recognizable dead plant tissues', 170,
+'After rubbing, ≤ two thirds and > one sixth of the organic material consist of recognizable dead plant tissues', 240,
+'After rubbing, ≤ one sixth of the organic material consists of recognizable dead plant tissues', 300)
+
+tbl_a1870 <- gt(tbl_a1870_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  cols_label(decomp = html('Degree of decomposition<br />(by volume, related to the fine earth plus all dead plant remnants)'),
+             water_c = html('Water content of the saturation extract (WC<sub>SE</sub>) (g water / 100 g soil)'))
+  
+tbl_a1870
+```
 
 ### Field pH (o, m) {#sec-a1-8429}
 
@@ -2726,16 +2754,35 @@ Mix soil and distilled water in a 1:1 ratio (volume:volume) and stir the mixture
 
 #### Potentiometric method {#sec-a1-8429-p}
 
-@tbl-a1-871 shows common solutions and mixing ratios. Mix air-dry soil with the solution thoroughly. Allow the mixture to settle until a supernatant forms. Measure the pH value with a pH electrode, ideally with the help of a tripod. Wait until the measured value is steady. Report the measured value together with the code indicating solution and mixing ratio.
+@tbl-a1871 shows common solutions and mixing ratios. Mix air-dry soil with the solution thoroughly. Allow the mixture to settle until a supernatant forms. Measure the pH value with a pH electrode, ideally with the help of a tripod. Wait until the measured value is steady. Report the measured value together with the code indicating solution and mixing ratio.
 
-| Solution                | Mixing ratio (volume:volume) | Code    |
-|-------------------------|------------------------------|---------|
-| Distilled water (H~2~O) | 1:1                          | **W11** |
-| Distilled water (H~2~O) | 1:5                          | **W15** |
-| CaCl~2~, 0.01 M         | 1:5                          | **C15** |
-| KCl, 1 M                | 1:5                          | **K15** |
+```{r}
+#| label: tbl-a1871
+#| tbl-cap: Potentiometric pH measurement
+#| tbl-colwidths: [40, 40, 20] 
 
-: Potentiometric pH measurement {#tbl-a1-871}
+tbl_a1871_dat <- tribble(
+  ~Solution, ~m_ratio,  ~Code,
+'Distilled water (H~2~O)', '1:1', 'W11',
+'Distilled water (H~2~O)', '1:5', 'W15',
+'CaCl~2~, 0.01 M',         '1:5', 'C15',
+'KCl, 1 M',                '1:5', 'K15')
+
+tbl_a1871 <- gt(tbl_a1871_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 3)) |> 
+  cols_label(m_ratio = html('Mixing ratio<br />(volume:volume)')) |> 
+  text_transform(
+    locations = cells_body(columns = Solution),
+    fn = \(x) { str_replace(x, '~2~', '<sub>2</sub>') })
+  
+tbl_a1871
+```
 
 ### Consistence (m) {#sec-a1-8430}
 
@@ -2749,119 +2796,189 @@ For checking cementation, different specimens have to be taken, depending on soi
 
 Report the cementing agents. If more than one is present, report up to three, the dominant one first. The term 'oxides', as used here, includes hydroxides and oxide-hydroxides.
 
-| Cementing agent         | Code   |
-|-------------------------|--------|
-| Carbonates              | **CA** |
-| Gypsum                  | **GY** |
-| Readily soluble salts   | **RS** |
-| Silica                  | **SI** |
-| Organic matter          | **OM** |
-| Fe oxides               | **FE** |
-| Mn oxides               | **MN** |
-| Al                      | **AL** |
-| Ice, \< 75% (by volume) | **IA** |
-| Ice, \< 75% (by volume) | **IM** |
+```{r}
+#| label: tbl-a1872
+#| tbl-cap: Cementing agents, Schoeneberger et al. (2012), 2-64
+#| tbl-colwidths: [40, 40, 20] 
 
-: Cementing agents, Schoeneberger et al. [-@schoeneberger2012], 2-64 {#tbl-a1-872}
+tbl_a1872_dat <- tribble(
+  ~Cementing_agent,  ~Code,
+'Carbonates',              'CA',
+'Gypsum',                  'GY',
+'Readily soluble salts',   'RS',
+'Silica',                  'SI',
+'Organic matter',          'OM',
+'Fe oxides',               'FE',
+'Mn oxides',               'MN',
+'Al',                      'AL',
+'Ice, < 75% (by volume)',  'IA',
+'Ice, < 75% (by volume)',  'IM'
+  )
+
+tbl_a1872 <- gt(tbl_a1872_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2)) |> 
+  cols_label(Cementing_agent = 'Cementing agent') 
+  
+tbl_a1872
+```
 
 #### Cementation (cemented soil) and rupture resistance (non-cemented soil) {#sec-a1-8430-r}
 
-For checking this feature, different specimens have to be taken, depending on soil characteristics. For checking surface crusts and platy aggregates, take a specimen that is approximately 1 to 1.5 cm long by 0.5 cm thick (or the thickness of occurrence, if \< 0.5 cm thick) and apply force perpendicular to its greatest dimension. In all other cases, take a specimen, around 2.6 to 3 cm long at all dimensions, and apply force. Observe the force needed for failure and report the cementation class (cemented soil) or the rupture resistance class (non-cemented soil). The rupture resistance has to be detected in moist soil and, if possible, also in dry soil. If specimens of the required size are not obtainable, use the following equation to calculate the stress at failure (@tbl-a1-873 and @tbl-a1-874) [@schoeneberger2012]:
+For checking this feature, different specimens have to be taken, depending on soil characteristics. For checking surface crusts and platy aggregates, take a specimen that is approximately 1 to 1.5 cm long by 0.5 cm thick (or the thickness of occurrence, if \< 0.5 cm thick) and apply force perpendicular to its greatest dimension. In all other cases, take a specimen, around 2.6 to 3 cm long at all dimensions, and apply force. Observe the force needed for failure and report the cementation class (cemented soil) or the rupture resistance class (non-cemented soil). The rupture resistance has to be detected in moist soil and, if possible, also in dry soil. If specimens of the required size are not obtainable, use the following equation to calculate the stress at failure (@tbl-a1873 and @tbl-a1874) [@schoeneberger2012]:
 
 (2.8 cm/cube length cm)^2^ x (estimated stress (N) at failure)
 
 e.g. for a 5.6-cm cube \[(2.8/5.6)^2^ x 20 N\] = 5 N → Very friable (moist).
 
-+-------------------------------------------------------------------------------------------------------------+---------------------------+----------+
-| Criterion                                                                                                   | Class                     | Code     |
-+=============================================================================================================+===========================+==========+
-| Intact specimen not obtainable or very slight force between fingers, \< 8 N                                 | Not cemented              | **NOC**  |
-+-------------------------------------------------------------------------------------------------------------+---------------------------+----------+
-| Slight force between fingers, 8 - \< 20 N                                                                   | Extremely weakly cemented | **EWC**  |
-+-------------------------------------------------------------------------------------------------------------+---------------------------+----------+
-| Moderate force between fingers, 20 - \< 40 N                                                                | Very weakly cemented      | **VWC**  |
-+-------------------------------------------------------------------------------------------------------------+---------------------------+----------+
-| Strong force between fingers, 40 - \< 80 N                                                                  | Weakly cemented           | **WEC**  |
-+-------------------------------------------------------------------------------------------------------------+---------------------------+----------+
-| Moderate force between hands, 80 - \< 160 N                                                                 | Moderately cemented       | **MOC**  |
-+-------------------------------------------------------------------------------------------------------------+---------------------------+----------+
-| Foot pressure by full body weight, 160 - \< 800 N                                                           | Strongly cemented         | **STC**  |
-+-------------------------------------------------------------------------------------------------------------+---------------------------+----------+
-| Blow of \< 3 J (3 J = 2 kg dropped 15 cm) and does not fail under foot pressure by full body weight (800 N) | Very strongly cemented    | **VSC**  |
-+-------------------------------------------------------------------------------------------------------------+---------------------------+----------+
-| low of \< 3 J (3 J = 2 kg dropped 15 cm)                                                                    | Extremely cemented        | **EXC**  |
-+-------------------------------------------------------------------------------------------------------------+---------------------------+----------+
+```{r}
+#| label: tbl-a1873
+#| tbl-cap: Cementation, Schoeneberger et al. (2012), 2-63
+#| tbl-colwidths: [60, 30, 10] 
 
-: Cementation, Schoeneberger et al. [-@schoeneberger2012], 2-63 {#tbl-a1-873}
+tbl_a1873_dat <- tribble(
+  ~Criterion, ~Class,  ~Code,
+'Intact specimen not obtainable or very slight force between fingers, < 8 N', 'Not cemented', 'NOC',
+'Slight force between fingers, 8 - < 20 N', 'Extremely weakly cemented', 'EWC', 
+'Moderate force between fingers, 20 - < 40 N', 'Very weakly cemented', 'VWC',
+'Strong force between fingers, 40 - < 80 N', 'Weakly cemented', 'WEC', 
+'Moderate force between hands, 80 - < 160 N', 'Moderately cemented', 'MOC',
+'Foot pressure by full body weight, 160 - < 800 N', 'Strongly cemented', 'STC',
+'Blow of < 3 J (3 J = 2 kg dropped 15 cm) and does not fail under foot pressure by full body weight (800 N)', 'Very strongly cemented', 'VSC',
+'low of < 3 J (3 J = 2 kg dropped 15 cm)', 'Extremely cemented', 'EXC')
 
-+-------------------------------------------------------------------------------------------------------------+--------------------------+--------------------------+------------------------+------------------------+
-| Criterion                                                                                                   | Moist rupture resistance | Moist rupture resistance | Dry rupture resistance | Dry rupture resistance |
-+=============================================================================================================+==========================+==========================+========================+========================+
-| Intact specimen not obtainable                                                                              | Loose                    | **LO**                   | Loose                  | **LO**                 |
-+-------------------------------------------------------------------------------------------------------------+--------------------------+--------------------------+------------------------+------------------------+
-| Very slight force between fingers, \< 8 N                                                                   | Very friable             | **VF**                   | Soft                   | **SO**                 |
-+-------------------------------------------------------------------------------------------------------------+--------------------------+--------------------------+------------------------+------------------------+
-| Very slight force between fingers, \< 8 N                                                                   | Friable                  | **FR**                   | Slightly hard          | **SH**                 |
-+-------------------------------------------------------------------------------------------------------------+--------------------------+--------------------------+------------------------+------------------------+
-| Moderate force between fingers, 20 - \< 40 N                                                                | Firm                     | **FI**                   | Moderately hard        | **MH**                 |
-+-------------------------------------------------------------------------------------------------------------+--------------------------+--------------------------+------------------------+------------------------+
-| Strong force between fingers, 40 - \< 80 N                                                                  | Very firm                | **VI**                   | Hard                   | **HA**                 |
-+-------------------------------------------------------------------------------------------------------------+--------------------------+--------------------------+------------------------+------------------------+
-| Moderate force between hands, 80 - \< 160 N                                                                 | Extremely firm           | **EI**                   | Very hard              | **VH**                 |
-+-------------------------------------------------------------------------------------------------------------+--------------------------+--------------------------+------------------------+------------------------+
-| Foot pressure by full body weight, 160 - \< 800 N                                                           | Slightly rigid           | **SR**                   | Extremely hard         | **EH**                 |
-+-------------------------------------------------------------------------------------------------------------+--------------------------+--------------------------+------------------------+------------------------+
-| Blow of \< 3 J (3 J = 2 kg dropped 15 cm) and does not fail under foot pressure by full body weight (800 N) | Rigid                    | **RI**                   | Rigid                  | **RI**                 |
-+-------------------------------------------------------------------------------------------------------------+--------------------------+--------------------------+------------------------+------------------------+
-| Blow of \< 3 J (3 J = 2 kg dropped 15 cm)                                                                   | Very rigid               | **VR**                   | Very rigid             | **VR**                 |
-+-------------------------------------------------------------------------------------------------------------+--------------------------+--------------------------+------------------------+------------------------+
+tbl_a1873 <- gt(tbl_a1873_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 3)) 
+  
+tbl_a1873
+```
 
-: Rupture resistance, non-cemented soil, Schoeneberger et al. [-@schoeneberger2012], 2-63 {#tbl-a1-874}
+```{r}
+#| label: tbl-a1874
+#| tbl-cap: Rupture resistance, non-cemented soil, Schoeneberger et al. (2012), 2-63 
+#| tbl-colwidths: [40, 15, 15, 15, 15] 
+
+tbl_a1874_dat <- tribble(
+  ~Criterion, ~Class_m,  ~Code_m,  ~Class_d,  ~Code_d,
+'Intact specimen not obtainable', 'Loose', 'LO', 'Loose', 'LO',
+'Very slight force between fingers, < 8 N', 'Very Friable', 'VF', 'Soft', 'SO',
+'',  'Friable', 'FR', 'Slightly hard', 'SH',
+'Moderate force between fingers, 20 - < 40 N', 'Firm', 'FI', 'Moderately hard', 'MH',
+'Strong force between fingers, 40 - < 80 N', 'Very firm', 'VI', 'Hard', 'HA',
+'Moderate force between hands, 80 - < 160 N', 'Extremely firm', 'EI', 'Very hard', 'VH',
+'Foot pressure by full body weight, 160 - < 800 N', 'Slightly rigid', 'SR', 'Extremely hard', 'EH',
+'Blow of < 3 J (3 J = 2 kg dropped 15 cm) and does not fail under foot pressure by full body weight (800 N)', 'Rigid', 'RI', 'Rigid', 'RI',
+'Blow of < 3 J (3 J = 2 kg dropped 15 cm)',  'Very rigid', 'VR', 'Very rigid', 'VR')
+
+tbl_a1874 <- gt(tbl_a1874_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = c(3, 5))) |> 
+  tab_spanner(label = 'Moist rupture resistance',
+              id = 'spm',
+              columns = c(Class_m, Code_m)) |> 
+  tab_spanner(label = 'Dry rupture resistance',
+              id = 'spd',
+              columns = c(Class_d, Code_d)) |> 
+  cols_label(Class_m = 'Class',
+             Class_d = 'Class',
+             Code_m = 'Code',
+             Code_d = 'Code')
+
+tbl_a1874
+```
 
 #### Susceptibility for cementation (non-cemented soil) {#sec-a1-8430-s}
 
 Some layers are prone to cementation after repeated drying and wetting. Report the susceptibility.
 
-| Criterion                                        | Code   |
-|--------------------------------------------------|--------|
-| Cementation after repeated drying and wetting    | **CW** |
-| No cementation after repeated drying and wetting | **NO** |
+```{r}
+#| label: tbl-a1875
+#| tbl-cap: Susceptibility for cementation 
+#| tbl-colwidths: [80, 20] 
 
-: Susceptibility for cementation {#tbl-a1-875}
+tbl_a1875_dat <- tribble(
+  ~Criterion, ~Code,
+'Cementation after repeated drying and wetting', 'CW',
+'No cementation after repeated drying and wetting', 'NO')
+
+tbl_a1875 <- gt(tbl_a1875_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = c(2))) 
+
+tbl_a1875
+```
 
 #### Manner of failure (non-cemented to weakly cemented soil) {#sec-a1-8430-f}
 
 Report the manner of failure (brittleness). Take a moist specimen, around 3 cm long at all dimensions, press it between thumb and forefinger and observe it when it ruptures.
 
-+-------------------------------------------------------+-----------------+------------+
-| Criterion                                             | Type            | Code       |
-+=======================================================+=================+============+
-| Abruptly (pops or shatters)                           | Brittle         | **BR**     |
-+-------------------------------------------------------+-----------------+------------+
-| Before compression to one half the original thickness | Semi-deformable | **SD**     |
-+-------------------------------------------------------+-----------------+------------+
-| After compression to one half the original thickness  | Deformable      | **DF**     |
-+-------------------------------------------------------+-----------------+------------+
+```{r}
+#| label: tbl-a1876
+#| tbl-cap: Types of manner of failure (brittleness), Schoeneberger et al. (2012), 2-65
+#| tbl-colwidths: [70, 20, 10] 
 
-: Types of manner of failure (brittleness), Schoeneberger et al. [-@schoeneberger2012], 2-65 {#tbl-a1-876}
+tbl_a1876_dat <- tribble(
+  ~Criterion, ~Type, ~Code,
+'Abruptly (pops or shatters)', 'Brittle', 'BR',
+'Before compression to one half the original thickness', 'Semi-deformable', 'SD',
+'After compression to one half the original thickness', 'Deformable', 'DF')
+
+tbl_a1876 <- gt(tbl_a1876_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = c(3))) 
+
+tbl_a1876
+```
 
 #### Plasticity (non-cemented soil) {#sec-a1-8430-l}
 
 Plasticity is the degree to which reworked soil can be permanently deformed without rupturing. It is estimated at a water content where the maximum plasticity is expressed (usually moist). Make a roll (wire, sausage) of soil, 4 cm long, roll it to smaller diameters and report the plasticity.
 
-+---------------------------------------------------------------------------------------------------------+--------------------+---------+
-| Criterion                                                                                               | Type               | Code    |
-+=========================================================================================================+====================+=========+
-| Does not form a roll 6 mm in diameter, or if a roll is formed, it cannot support itself if held on end. | Non-plastic        | **NP**  |
-+---------------------------------------------------------------------------------------------------------+--------------------+---------+
-| 6 mm diameter roll supports itself; 4 mm diameter roll does not.                                        | Slightly plastic   | **SP**  |
-+---------------------------------------------------------------------------------------------------------+--------------------+---------+
-| 4 mm diameter roll supports itself; 2 mm diameter roll does not.                                        | Moderately plastic | **MP**  |
-+---------------------------------------------------------------------------------------------------------+--------------------+---------+
-| 2 mm diameter roll supports itself.                                                                     | Very plastic       | **VP**  |
-+---------------------------------------------------------------------------------------------------------+--------------------+---------+
+```{r}
+#| label: tbl-a1877
+#| tbl-cap: Types of plasticity, Schoeneberger et al. (2012), 2-66
+#| tbl-colwidths: [70, 20, 10] 
 
-: Types of plasticity, Schoeneberger et al. [-@schoeneberger2012], 2-66 {#tbl-a1-877}
+tbl_a1877_dat <- tribble(
+  ~Criterion, ~Type, ~Code,
+'Does not form a roll 6 mm in diameter, or if a roll is formed, it cannot support itself if held on end.', 'Non-plastic', 'NP',
+'6 mm diameter roll supports itself; 4 mm diameter roll does not.', 'Slightly plastic',
+'SP',
+'4 mm diameter roll supports itself; 2 mm diameter roll does not.', 'Moderately plastic', 'MP',
+'2 mm diameter roll supports itself.', 'Very plastic', 'VP')
+
+tbl_a1877 <- gt(tbl_a1877_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = c(3))) 
+
+tbl_a1877
+```
 
 #### Penetration resistance
 
@@ -2873,22 +2990,36 @@ A crust is a thin layer of soil constituents bound together into a horizontal ma
 
 Report the sealing agent. If more than one is present, report up to three, the dominant one first.
 
-| Type                               | Code   |
-|------------------------------------|--------|
-| Physical, permanent                | **PP** |
-| Physical, only when dry            | **PD** |
-| Chemical, by carbonates            | **CC** |
-| Chemical, by gypsum                | **CG** |
-| Chemical, by readily soluble salts | **CR** |
-| Chemical, by silica                | **CS** |
-| Biological, by cyanobacteria       | **BC** |
-| Biological, by algae               | **BA** |
-| Biological, by fungi               | **BF** |
-| Biological, by lichens             | **BL** |
-| Biological, by mosses              | **BM** |
-| No crust present                   | **NO** |
+```{r}
+#| label: tbl-a1878
+#| tbl-cap: Sealing agent of surface crusts
+#| tbl-colwidths: [80, 20] 
 
-: Sealing agent of surface crusts {#tbl-a1-878}
+tbl_a1878_dat <- tribble(
+ ~Type, ~Code,
+'Physical, permanent',                'PP',
+'Physical, only when dry',            'PD',
+'Chemical, by carbonates',            'CC',
+'Chemical, by gypsum',                'CG',
+'Chemical, by readily soluble salts', 'CR',
+'Chemical, by silica',                'CS',
+'Biological, by cyanobacteria',       'BC',
+'Biological, by algae',               'BA',
+'Biological, by fungi',               'BF',
+'Biological, by lichens',             'BL',
+'Biological, by mosses',              'BM',
+'No crust present',                   'NO')
+
+tbl_a1878 <- gt(tbl_a1878_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = c(2))) 
+
+tbl_a1878
+```
 
 ### Continuity of hard materials and cemented layers (m) {#sec-a1-8432}
 
@@ -2900,14 +3031,30 @@ Continuous rock, technic hard material and cemented layers may have fractures, w
 
 Report the percentage of the particles in the sand and coarse silt fraction (\> 20 μm - ≤ 2 mm) that consist of volcanic glasses. Use a hand lens or microscope.
 
-| \% of particles | Abundance class | Code  |
-|-----------------|-----------------|-------|
-| 0               | None            | **N** |
-| \> 0 - 5        | Few             | **F** |
-| \> 5 - 30       | Common          | **C** |
-| \> 30           | Many            | **M** |
+```{r}
+#| label: tbl-a1879
+#| tbl-cap: Abundance of particles in the sand and coarse silt fraction that consist of volcanic glasses
+#| tbl-colwidths: [40, 40, 20] 
 
-: Abundance of particles in the sand and coarse silt fraction that consist of volcanic glasses {#tbl-a1-879}
+tbl_a1879_dat <- tribble(
+ ~Particles, ~Abundance_class, ~Code,
+'0',        'None',   'N',
+'> 0 - 5',  'Few',    'F',
+'> 5 - 30', 'Common', 'C',
+'> 30',     'Many',   'M')
+
+tbl_a1879 <- gt(tbl_a1879_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = c(3))) |> 
+  cols_label(Particles = '% of Particles',
+             Abundance_class = 'Abundance class')
+
+tbl_a1879
+```
 
 If the percentage is around a limit value, take a soil sample, gain the sand and coarse silt fraction by sieving, lay the particles on a sheet, and count the glass particles and the non-glass particles.
 
@@ -2921,14 +3068,28 @@ NaF test according to Fieldes and Perrott [-@fieldes1966], after FAO [-@un-fao20
 
 Report the results.
 
-| Criterion                        | Code   |
-|----------------------------------|--------|
-| Positive NaF test                | **NF** |
-| Thixotropy                       | **TH** |
-| Positive NaF test and Thixotropy | **NT** |
-| None of the above                | **NO** |
+```{r}
+#| label: tbl-a1880
+#| tbl-cap: Thixotropy and NaF field test
+#| tbl-colwidths: [80, 20] 
 
-: Thixotropy and NaF field test {#tbl-a1-880}
+tbl_a1880_dat <- tribble(
+ ~Criterion, ~Code,
+'Positive NaF test',                'NF',
+'Thixotropy',                       'TH',
+'Positive NaF test and Thixotropy', 'NT',
+'None of the above',                'NO')
+
+tbl_a1880 <- gt(tbl_a1880_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2))
+
+tbl_a1880
+```
 
 ### Permafrost features (o, m) {#sec-a1-8434}
 
@@ -2936,18 +3097,32 @@ Report the results.
 
 Estimate the total percentage (by exposed area, related to the whole soil) affected by cryogenic alteration. Report up to three features, the dominant one first, and report the percentage for each feature separately.
 
-| Feature                                         | Code   |
-|-------------------------------------------------|--------|
-| Ice wedge                                       | **IW** |
-| Ice lens                                        | **IL** |
-| Disrupted lower layer boundary                  | **DB** |
-| Organic involutions in a mineral layer          | **OI** |
-| Mineral involutions in an organic layer         | **MI** |
-| Separation of coarse material and fine material | **CF** |
-| Other                                           | **OT** |
-| None                                            | **NO** |
+```{r}
+#| label: tbl-a1881
+#| tbl-cap: Cryogenic alteration
+#| tbl-colwidths: [80, 20] 
 
-: Cryogenic alteration {#tbl-a1-881}
+tbl_a1881_dat <- tribble(
+ ~Criterion, ~Code,
+'Ice wedge',                                       'IW',
+'Ice lens',                                        'IL',
+'Disrupted lower layer boundary',                  'DB',
+'Organic involutions in a mineral layer',          'OI',
+'Mineral involutions in an organic layer',         'MI',
+'Separation of coarse material and fine material', 'CF',
+'Other',                                           'OT',
+'None',                                            'NO')
+
+tbl_a1881 <- gt(tbl_a1881_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2))
+
+tbl_a1881
+```
 
 #### Layers with permafrost {#sec-a1-8434-p}
 
@@ -2956,37 +3131,55 @@ A layer with permafrost has continuously for ≥ 2 consecutive years one of the
 -   massive ice, cementation by ice or readily visible ice crystals, or
 -   a soil temperature of \< 0 °C and insufficient water to form readily visible ice crystals. Report whether a layer has permafrost.
 
-+-----------------------------------------------------------------------------------------+----------+
-| Criterion                                                                               | Code     |
-+=========================================================================================+==========+
-| Massive ice, cementation by ice or readily visible ice crystals                         | **I**    |
-+-----------------------------------------------------------------------------------------+----------+
-| Soil temperature of \< 0 °C and insufficient water to form readily visible ice crystals | **T**    |
-+-----------------------------------------------------------------------------------------+----------+
-| No permafrost                                                                           | **N**    |
-+-----------------------------------------------------------------------------------------+----------+
+```{r}
+#| label: tbl-a1882
+#| tbl-cap: Layers with permafrost
+#| tbl-colwidths: [80, 20] 
 
-: Layers with permafrost {#tbl-a1-882}
+tbl_a1882_dat <- tribble(
+ ~Criterion, ~Code,
+'Massive ice, cementation by ice or readily visible ice crystals', 'I',
+'Soil temperature of < 0 °C and insufficient water to form readily visible ice crystals', 'T',
+'No permafrost', 'N')
+
+tbl_a1882 <- gt(tbl_a1882_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2))
+
+tbl_a1882
+```
 
 ### Bulk density (m) (\*) {#sec-a1-8435}
 
 Estimate the packing density using a knife with a blade approx. 10 cm long.
 
-+-------------------------------------------------------------------------+--------------+----------+
-| Criterion                                                               | Class        | Code     |
-+=========================================================================+==============+==========+
-| Knife penetrates completely even when applying low forces               | Very loose   | **VL**   |
-+-------------------------------------------------------------------------+--------------+----------+
-| Knife penetrates completely when forces are applied                     | Loose        | **LO**   |
-+-------------------------------------------------------------------------+--------------+----------+
-| Knife penetrates half when forces are applied                           | Intermediate | **IN**   |
-+-------------------------------------------------------------------------+--------------+----------+
-| Only the knifepoint penetrates when forces are applied                  | Firm         | **FR**   |
-+-------------------------------------------------------------------------+--------------+----------+
-| Knife does not (or only a little bit) penetrate when forces are applied | Very firm    | **VR**   |
-+-------------------------------------------------------------------------+--------------+----------+
+```{r}
+#| label: tbl-a1883
+#| tbl-cap: Packing density
+#| tbl-colwidths: [80, 20] 
 
-: Packing density {#tbl-a1-883}
+tbl_a1883_dat <- tribble(
+ ~Criterion, ~Class, ~Code,
+'Knife penetrates completely even when applying low forces', 'Very loose', 'VL',
+'Knife penetrates completely when forces are applied', 'Loose', 'LO',
+'Knife penetrates half when forces are applied', 'Intermediate', 'IN',
+'Only the knifepoint penetrates when forces are applied', 'Firm', 'FR',
+'Knife does not (or only a little bit) penetrate when forces are applied', 'Very firm', 'VR')
+
+tbl_a1883 <- gt(tbl_a1883_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 3))
+
+tbl_a1883
+```
 
 With the following Figure, the bulk density is determined from packing density and soil texture (see [Chapter 8.4.9](#sec-a1-849)). If C~org~ content is \> 1%, bulk density must be reduced by 0.03 kg dm^-3^ for each 0.5% increment in C~org~ content. Report the bulk density with an accuracy of one decimal.
 
@@ -3000,49 +3193,66 @@ Report the estimated organic carbon content. It is based on the Munsell value, m
 
 Caution: The Munsell value is also influenced by parent material, carbonates and redox conditions.
 
-+---------------+--------------+-----------------+------------------------------------------+
-| Munsell value | OC% (S)      | OC% (LS, SL, L) | OC% (SiL, Si, SiCL, CL, SCL, SC, SiC, C) |
-+===============+==============+=================+==========================================+
-| ≥ 6           | \< 0.2       | \< 0.2          | \< 0.2                                   |
-+---------------+--------------+-----------------+------------------------------------------+
-| 5.5           | \< 0.2       | \< 0.2          | 0.2 - \< 0.5                             |
-+---------------+--------------+-----------------+------------------------------------------+
-| 5             | 0.2 - \< 0.5 | 0.2 - \< 0.5    | 0.2 - \< 0.5                             |
-+---------------+--------------+-----------------+------------------------------------------+
-| 45            | 0.2 - \< 0.5 | 0.2 - \< 0.5    | 0.2 - \< 0.5                             |
-+---------------+--------------+-----------------+------------------------------------------+
-| 4             | 0.2 - \< 0.5 | 0.2 - \< 0.5    | 0.2 - \< 1.0                             |
-+---------------+--------------+-----------------+------------------------------------------+
-| 3.5           | 0.2 - \< 1.0 | 0.5 - \< 1.0    | 0.5 - \< 2.5                             |
-+---------------+--------------+-----------------+------------------------------------------+
-| 3             | 0.5 - \< 2.5 | 1.0 - \< 2.5    | 1.0 - \< 5.0                             |
-+---------------+--------------+-----------------+------------------------------------------+
-| 2.5           | 1.0 - \< 5.0 | ≥ 2.5           | ≥ 2.5                                    |
-+---------------+--------------+-----------------+------------------------------------------+
-| ≤ 2           | ≥ 2.5        |                 |                                          |
-+---------------+--------------+-----------------+------------------------------------------+
+```{r}
+#| label: tbl-a1884
+#| tbl-cap: Estimation of organic carbon contents in a moist sample, Blume et al. (2010), modified
+#| tbl-colwidths: [25, 25, 25, 25] 
 
-: Estimation of organic carbon contents in a moist sample, Blume et al. [-@blume2010], modified {#tbl-a1-884}
+tbl_a1884_dat <- tribble(
+ ~Munsell_value, ~t1, ~t2, ~t3,
+'≥ 6',           '< 0.2',        '< 0.2',       '< 0.2',      
+'5.5',           '< 0.2',        '< 0.2',       '0.2 - < 0.5',
+'5',             '0.2 - < 0.5',  '0.2 - < 0.5', '0.2 - < 0.5',
+'4.5',           '0.2 - < 0.5',  '0.2 - < 0.5', '0.2 - < 0.5',
+'4',             '0.2 - < 0.5',  '0.2 - < 0.5', '0.2 - < 1.0',
+'3.5',           '0.2 - < 1.0',  '0.5 - < 1.0', '0.5 - < 2.5',
+'3',             '0.5 - < 2.5',  '1.0 - < 2.5', '1.0 - < 5.0',
+'2.5',           '1.0 - < 5.0',  '≥ 2.5',       ' ≥ 2.5',     
+'≤ 2',           '≥ 2.5',    '', '')        
+
+tbl_a1884 <- gt(tbl_a1884_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |> 
+  tab_spanner(label = 'Organic carbon content (%), depending on soil texture class',
+              id = 'span1',
+              columns = c(t1, t2, t3)) |> 
+  cols_label(Munsell_value = 'Munsell value',
+             t1 = 'S', 
+             t2 = 'LS, SL, L', 
+             t3 = 'SiL, Si, SiCL, CL, SCL, SC, SiC, C')
+
+tbl_a1884
+```
 
 #### Natural accumulations of organic matter {#sec-a1-8436-n}
 
 This Chapter refers to accumulations of organic matter in form of discrete bodies. They have usually a lower value than the surrounding material. Report here all accumulations that are natural or that are a side effect of human activities. Additions of artefacts see [Chapter 8.4.8](#sec-a1-848) and of human-transported material see [Chapter 8.4.39](#sec-a1-8439). If black carbon is purposefully made by humans, it is considered to be an artefact. Organic matter accumulations due to animal activity are reported twice, once here and once in [Chapter 8.4.38](#sec-a1-8438).
 
-+----------------------------------------------------------------------------------------------------------------------+---------+
-| Type                                                                                                                 | Code    |
-+======================================================================================================================+=========+
-| Filled earthworm burrows                                                                                             | **BU**  |
-+----------------------------------------------------------------------------------------------------------------------+---------+
-| Filled krotowinas                                                                                                    | **KR**  |
-+----------------------------------------------------------------------------------------------------------------------+---------+
-| Organic matter coatings at surfaces of soil aggregates and biopore walls (no visible other material in the coatings) | **CO**  |
-+----------------------------------------------------------------------------------------------------------------------+---------+
-| Black carbon (e.g. charcoal, partly charred particles, soot))                                                        | **BC**  |
-+----------------------------------------------------------------------------------------------------------------------+---------+
-| No visible accumulation of organic matter                                                                            | **NO**  |
-+----------------------------------------------------------------------------------------------------------------------+---------+
+```{r}
+#| label: tbl-a1885
+#| tbl-cap: Types of accumulation of organic matter
+#| tbl-colwidths: [80, 20] 
 
-: Types of accumulation of organic matter {#tbl-a1-885}
+tbl_a1885_dat <- tribble(
+ ~Type, ~Code,
+'Filled earthworm burrows',                                                                                            'BU',
+'Filled krotowinas',                                                                                                   'KR',
+'Organic matter coatings at surfaces of soil aggregates and biopore walls (no visible other material in the coatings)','CO',
+'Black carbon (e.g. charcoal, partly charred particles, soot))',                                                       'BC',
+'No visible accumulation of organic matter',                                                                           'NO')
+
+tbl_a1885 <- gt(tbl_a1885_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2))
+
+tbl_a1885
+```
 
 Report up to three types, the dominant one first, and report the percentage (by exposed area) for each type separately. Black carbon has to be additionally reported as percentage of the exposed area (related to the fine earth plus black carbon of any size).
 
@@ -3050,39 +3260,73 @@ Report up to three types, the dominant one first, and report the percentage (by 
 
 Count the number of roots per dm^2^, separately for the two diameter classes, and report the abundance classes.
 
-| Number ≤ 2 mm | Number \> 2 mm | Abundance class | Code  |
-|---------------|----------------|-----------------|-------|
-| 0             | 0              | None            | **N** |
-| 1 - 5         | 1 - 2          | Very few        | **V** |
-| 6 - 10        | 3 - 5          | Few             | **F** |
-| 11 - 20       | 6 - 10         | Common          | **C** |
-| 21 - 50       | 11 - 20        | Many            | **M** |
-| \> 50         | \> 20          | Abundanct       | **A** |
+```{r}
+#| label: tbl-a1886
+#| tbl-cap: Abundance of roots, FAO (2006), Table 80
+#| tbl-colwidths: [30, 30, 30, 10] 
 
-: Abundance of roots, FAO [-@un-fao2006], Table 80 {#tbl-a1-886}
+tbl_a1886_dat <- tribble(
+ ~lt2, ~gt2, ~Abundance_class, ~Code,
+'0',       '0',       'None',      'N',
+'1 - 5',   '1 - 2',   'Very few',  'V',
+'6 - 10',  '3 - 5',   'Few',       'F',
+'11 - 20', '6 - 10',  'Common',    'C',
+'21 - 50', '11 - 20', 'Many',      'M',
+'> 50',    '> 20',    'Abundance', 'A')        
+
+tbl_a1886 <- gt(tbl_a1886_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |> 
+  cols_label(lt2 = 'Number ≤ 2 mm',
+             gt2 = 'Number > 2 mm', 
+             Abundance_class = 'Abundance class') |> 
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 4))
+
+tbl_a1886
+```
 
 ### Results of animal activity (o, m) {#sec-a1-8438}
 
 Report the animal activity that has visibly changed the features of the layer. If applicable, report up to 5 types, the dominant one first. Report the percentage (by exposed area), separately for mammal activity, bird activity, worm activity, insect activity and unspecified activity.
 
-| Type                                           | Code   |
-|------------------------------------------------|--------|
-| Mammal activity                                |        |
-| Open large burrows                             | **MO** |
-| Infilled large burrows (krotovinas)            | **MI** |
-| Bird activity                                  |        |
-| Bones, feathers, sorted gravel of similar size | **BA** |
-| Worm activity                                  |        |
-| Earthworm channels                             | **WE** |
-| Worm casts                                     | **WC** |
-| Insect activity                                |        |
-| Termite channels and nests                     | **IT** |
-| Ant channels and nests                         | **IA** |
-| Other insect activity                          | **IO** |
-| Burrows (unspecified)                          | **BU** |
-| No visible results of animal activity          | **NO** |
+```{r}
+#| label: tbl-a1887
+#| tbl-cap: Types of animal activity, FAO (2006), Table 82, modified
+#| tbl-colwidths: [80, 20] 
 
-: Types of animal activity, FAO [-@un-fao2006], Table 82, modified {#tbl-a1-887}
+tbl_a1887_dat <- tribble(
+ ~Type, ~Code,
+'Mammal activity',                                '',
+'Open large burrows',                             'MO',
+'Infilled large burrows (krotovinas)',            'MI',
+'Bird activity',                                  '',
+'Bones, feathers, sorted gravel of similar size', 'BA',
+'Worm activity',                                  '',
+'Earthworm channels',                             'WE',
+'Worm casts',                                     'WC',
+'Insect activity',                                '',
+'Termite channels and nests',                     'IT',
+'Ant channels and nests',                         'IA',
+'Other insect activity',                          'IO',
+'Burrows (unspecified)',                          'BU',
+'No visible results of animal activity',          'NO')        
+
+tbl_a1887 <- gt(tbl_a1887_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |> 
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2)) |> 
+  tab_style(style = list(cell_text(indent = 12)),
+            locations = cells_body(rows = c(2,3,5,7,8,10:14), 
+                                   columns = 1))
+
+tbl_a1887
+```
 
 ### Human alterations (o, m) {#sec-a1-8439}
 
@@ -3090,204 +3334,182 @@ Report the animal activity that has visibly changed the features of the layer. I
 
 Natural material is any material not meeting the criteria of artefacts (see Chapter 8.4.8). Report the percentage (by volume, related to the whole soil), which may range from very little up to 100%, for each addition separately. If more than one occurs, report up to three, the dominant one first. For mineral additions ≤ 2 mm, report additionally, if possible, the texture class (see Chapter 8.4.9), the carbonate content (see Chapter 8.4.25) and the C~org~ content (see Chapter 8.4.36).
 
-| Material         | Code   |
-|------------------|--------|
-| Organic          | **OR** |
-| Mineral, \> 2 mm | **ML** |
-| Mineral, ≤ 2 mm  | **MS** |
-| No additions     | **NO** |
+```{r}
+#| label: tbl-a1888
+#| tbl-cap: Artificial additions of natural material
+#| tbl-colwidths: [80, 20] 
 
-: Artificial additions of natural material {#tbl-a1-888}
+tbl_a1888_dat <- tribble(
+ ~Material, ~Code,
+'Organic',         'OR',
+'Mineral, > 2 mm', 'ML',
+'Mineral, ≤ 2 mm', 'MS',
+'No additions',    'NO')
+
+tbl_a1888 <- gt(tbl_a1888_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2))
+
+tbl_a1888
+```
 
 #### In-situ alterations {#sec-a1-8439-i}
 
 Report in-situ alterations. If more than one applies, report up to two, the dominant one first.
 
-+-----------------------------------------------------------------+-----------+
-| Type                                                            | Code      |
-+=================================================================+===========+
-| Ploughing, annually                                             | **PA**    |
-+-----------------------------------------------------------------+-----------+
-| Ploughing, at least once every 5 years                          | **PO**    |
-+-----------------------------------------------------------------+-----------+
-| Ploughing in the past, not ploughed since \> 5 years            | **PP**    |
-+-----------------------------------------------------------------+-----------+
-| Ploughing, unspecified                                          | **PU**    |
-+-----------------------------------------------------------------+-----------+
-| Remodelled (e.g. single ploughing)                              | **RM**    |
-+-----------------------------------------------------------------+-----------+
-| Loosening                                                       | **LO**    |
-+-----------------------------------------------------------------+-----------+
-| Compaction, other than a plough pan                             | **CP**    |
-+-----------------------------------------------------------------+-----------+
-| Structure deterioration, other than by ploughing or remodelling | **SD**    |
-+-----------------------------------------------------------------+-----------+
-| Other                                                           | **OT**    |
-+-----------------------------------------------------------------+-----------+
-| No in-situ alteration                                           | **NO**    |
-+-----------------------------------------------------------------+-----------+
+```{r}
+#| label: tbl-a1889
+#| tbl-cap: In-situ alterations
+#| tbl-colwidths: [80, 20] 
 
-: In-situ alterations {#tbl-a1-889}
+tbl_a1889_dat <- tribble(
+ ~Type, ~Code,
+'Ploughing, annually',                                             'PA',
+'Ploughing, at least once every 5 years',                          'PO',
+'Ploughing in the past, not ploughed since > 5 years',             'PP',
+'Ploughing, unspecified',                                          'PU',
+'Remodelled (e.g. single ploughing)',                              'RM',
+'Loosening',                                                       'LO',
+'Compaction, other than a plough pan',                             'CP',
+'Structure deterioration, other than by ploughing or remodelling', 'SD',
+'Other',                                                           'OT',
+'No in-situ alteration',                                           'NO')
+
+tbl_a1889 <- gt(tbl_a1889_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2))
+
+tbl_a1889
+```
 
 #### Soil aggregate formation after additions or after in-situ alterations {#sec-a1-8439-f}
 
 Adding or mixing may combine materials richer and poorer in C~org~. A new granular structure may form combining the two. Report, to which extent this process has happened. Use a hand lens.
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-| Criterion                                                                                                                                                    | Code    |
-+==============================================================================================================================================================+=========+
-| New granular structure present throughout the layer                                                                                                          | **T**   |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-| New granular structure present in places, but in other places the added or mixed materials and the previously present materials lie isolated from each other | **P**   |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-| No new granular structure present                                                                                                                            | **N**   |
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+```{r}
+#| label: tbl-a1890
+#| tbl-cap: Aggregate formation after additions or after *in-situ* alterations
+#| tbl-colwidths: [80, 20] 
 
-: Aggregate formation after additions or after *in-situ* alterations {#tbl-a1-890}
+tbl_a1890_dat <- tribble(
+ ~Criterion, ~Code,
+'New granular structure present throughout the layer', 'T',
+'New granular structure present in places, but in other places the added or mixed materials and the previously present materials lie isolated from each other', 'P',
+'No new granular structure present', 'N')
+
+tbl_a1890 <- gt(tbl_a1890_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2))
+
+tbl_a1890
+```
 
 ### Parent material (m) {#fig-a1-8440}
 
 Report the parent material. Use the help of a geological map.
 
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-| Major class                       | Group                      | Code     | Type                                                           | Code     |
-+===================================+============================+==========+================================================================+==========+
-| Igneous Rock                      | Felsic igneous             | **IF**   | Granite                                                        | **IF1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Quartz-diorite                                                 | **IF2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Grano-diorite                                                  | **IF3**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Diorite                                                        | **IF4**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Rhyolite                                                       | **IF5**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Intermediate igneous       | **II**   | Andesite, trachyte, phonolite                                  | **II1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Diorite-syenite                                                | **II2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Mafic igneous              | **IM**   | Gabbro                                                         | **IM1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Basalt                                                         | **IM2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Dolerite                                                       | **IM3**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Ultramafic igneous         | **IU**   | Peridotite                                                     | **IU1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Pyroxenite                                                     | **IU2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Serpentinite                                                   | **IU3**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Pyroclastic                | **IP**   | Tuff, tuffite                                                  | **IP1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Volcanic scoria/breccia                                        | **IP2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Volcanic ash                                                   | **IP3**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Ignimbrite                                                     | **IP4**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-| Metamorphic rock                  | Felsic metamorphic         | **MF**   | Quartzite                                                      | **MF1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Gneiss, migmatite                                              | **MF2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Slate, phyllite (pelitic rocks)                                | **MF3**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Schist                                                         | **MF4**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Mafic metamorphic          | **MM**   | Slate, phyllite (pelitic rocks)                                | **MM1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | (Green)schist                                                  | **MM2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Gneiss rich in Fe-Mg minerals                                  | **MM3**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Metamorphic limestone (marble)                                 | **MM4**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Amphibolite                                                    | **MM5**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Eclogite                                                       | **MM6**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Ultramafic metamorphic     | **MU**   | Serpentinite, greenstone                                       | **MU1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-| Sedimentary rock (consolidated)   | Clastic sediments          | **SC**   | Conglomerate, breccia                                          | **SC1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Sandstone, greywacke, arkose                                   | **SC2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Silt-, mud-, claystone                                         | **SC3**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Shale                                                          | **SC4**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Ironstone                                                      | **SC5**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Carbonatic, organic        | **SO**   | Limestone, other carbonate rock                                | **SO1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Marl and other mixtures                                        | **SO2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Coals, bitumen and related rocks                               | **SO3**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Evaporites                 | **SE**   | Anhydrite, gypsum                                              | **SE1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Halite                                                         | **SE2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-| Sedimentary rock (unconsolidated) | Weathered residuum         | **UR**   | Bauxite, laterite                                              | **UR1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Fluvial                    | **UF**   | Sand and gravel                                                | **UF1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Clay, silt and loam                                            | **UF2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Lacustrine                 | **UL**   | Sand                                                           | **UL1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Silt and clay, \< 20% CaCO~3~ equivalent, little or no diatoms | **UL2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Silt and clay, \< 20% CaCO~3~ equivalent, many diatoms         | **UL3**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Silt and clay, ≥ 20% CaCO~3~ equivalent (marl)                 | **UL4**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Marine, estuarine          | **UM**   | Sand                                                           | **UM1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Clay and silt                                                  | **UM2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Colluvial                  | **UC**   | Slope deposits                                                 | **UC1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Lahar                                                          | **UC2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Deposit of soil material                                       | **UC3**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Aeolian                    | **UE**   | Loess                                                          | **UE1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Sand                                                           | **UE2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Glacial                    | **UG**   | Moraine                                                        | **UG1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Glacio-fluvial sand                                            | **UG2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Glacio-fluvial gravel                                          | **UG3**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Cryogenic                  | **UK**   | Periglacial rock debris                                        | **UK1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Periglacial solifluction layer                                 | **UK2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Organic                    | **UO**   | Rainwater-fed peat (bog)                                       | **UO1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Groundwater-fed peat (fen)                                     | **UO2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Lacustrine (organic limnic sediments)                          | **UO3**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Anthropogenic/ technogenic | **UA**   | Redeposited natural material                                   | **UA1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Industrial/artisanal deposits                                  | **UA2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   | Unspecified deposits       | **UU**   | Clay                                                           | **UU1**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Loam and silt                                                  | **UU2**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Sand                                                           | **UU3**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Gravelly sand                                                  | **UU4**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
-|                                   |                            |          | Gravel, broken rock                                            | **UU5**  |
-+-----------------------------------+----------------------------+----------+----------------------------------------------------------------+----------+
+```{r}
+#| label: tbl-a1891
+#| tbl-cap:  Types of parent material, FAO (2006), Table 12, modified
+#| tbl-colwidths: [25, 25, 10, 30, 10] 
 
-: Types of parent material, FAO [-@un-fao2006], Table 12, modified {#tbl-a1-891}
+tbl_a1891_dat <- tribble(
+ ~Major_class, ~Group, ~Code, ~Type, ~Code_2,
+'Igneous Rock', 'Felsic igneous', 'IF', 'Granite', 'IF1',
+'', '', '', 'Quartz-diorite', 'IF2',
+'', '', '', 'Grano-diorite',  'IF3',
+'', '', '', 'Diorite',        'IF4',
+'', '', '', 'Rhyolite',       'IF5',
+'', 'Intermediate igneous', 'II', 'Andesite, trachyte, phonolite', 'II1',
+'', '', '', 'Diorite-syenite', 'II2',
+'', 'Mafic igneous', 'IM', 'Gabbro', 'IM1',
+'', '', '', 'Basalt', 'IM2',
+'', '', '', 'Dolerite', 'IM3',
+'', 'Ultramafic igneous', 'IU', 'Peridotite', 'IU1',
+'', '', '', 'Pyroxenite', 'IU2',
+'', '', '', 'Ilmenite, magnetite, ironstone, serpentinite', 'IU3',
+'', 'Pyroclastic', 'IP', 'Tuff, tuffite', 'IP1',
+'', '', '', 'Volcanic scoria/breccia', 'IP2',
+'', '', '', 'Volcanic ash', 'IP3',
+'', '', '', 'Ignimbrite', 'IP4',
+'Metamorphic rock', 'Felsic metamorphic', 'MF', 'Quartzite', 'MF1',
+'', '', '', 'Gneiss, migmatite', 'MF2', 
+'', '', '', 'Slate, phyllite (pelitic rocks)', 'MF3',
+'', '', '', 'Schist', 'MF4',
+'', 'Mafic metamorphic', 'MM', 'Slate, phyllite (pelitic rocks', 'MM1',
+'', '', '', '(Green)schist', 'MM2',
+'', '', '', 'Gneiss rich in Fe-Mg minerals', 'MM3',
+'', '', '', 'Metamorphic limestone (marble)', 'MM4',
+'', '', '', 'Amphibolite', 'MM5',
+'', '', '', 'Eclogit', 'MM6', 
+'', 'Ultramafic metamorphic', 'MU', 'Serpentinite, greenstone', 'MU1',
+'Sedimentary rock (consolidated)', 'Clastic sediments', 'SC', 'Conglomerate, breccia', 'SC1',
+'', '', '', 'Sandstone, greywacke, arkose', 'SC2',
+'', '', '', 'Silt-, mud-, claystone', 'SC3',
+'', '', '', 'Shale', 'SC4',
+'', '', '', 'Ironstone', 'SC5',
+'', 'Carbonatic, organic', 'SO', 'Limestone, other carbonate rock', 'SO1',
+'', '', '', 'Marl and other mixtures', 'SO2',
+'', '', '', 'Coals, bitumen and related rocks', 'SO3', 
+'', 'Evaporites', 'SE', 'Anhydrite, gypsum', 'SE1',
+'', '', '', 'Halite', 'SE2',
+'Sedimentary rock (unconsolidated)', 'Weathered residuum', 'UR', 'Bauxite, laterite', 'UR1',
+'', 'Fluvial', 'UF', 'Sand and gravel', 'UF1',
+'', '', '', 'Clay, silt and loam', 'UF2',
+'', 'Lacustrine', 'UL', 'Sand', 'UL1',
+'', '', '', 'Silt and clay, < 20% CaCO~3~ equivalent, little or no diatoms', 'UL2',
+'', '', '', 'Silt and clay, < 20% CaCO~3~ equivalent, many diatoms', 'UL3',
+'', '', '', 'Silt and clay, ≥ 20% CaCO~3~ equivalent (marl)', 'UL4',
+'', 'Marine, estuarine', 'UM', 'Sand', 'UM1',
+'', '', '', 'Clay and silt', 'UM2',
+'', 'Colluvial', 'UC', 'Slope deposits', 'UC1',
+'', '', '', 'Lahar', 'UC2',
+'', '', '', 'Deposit of soil material', 'UC3',
+'', 'Aeolian', 'UE', 'Loess', 'UE1',
+'', '', '', 'Sand', 'UE2',
+'', 'Glacial', 'UG', 'Moraine', 'UG1',
+'', '', '', 'Glacio-fluvial sand', 'UG2',
+'', '', '', 'Glacio-fluvial gravel', 'UG3',
+'', 'Cryogenic', 'UK', 'Periglacial rock debris', 'UK1',
+'', '', '', 'Periglacial solifluction layer', 'UK2',
+'', 'Organic', 'UO', 'Rainwater-fed peat (bog)', 'UO1',
+'', '', '', 'Groundwater-fed peat (fen)', 'UO2',
+'', '', '', 'Lacustrine (organic limnic sediments)', 'UO3',
+'', 'Anthropogenic/ technogenic', 'UA', 'Redeposited natural material', 'UA1',
+'', '', '', 'Industrial/artisanal deposits', 'UA2',
+'', 'Unspecified deposits', 'UU', 'Clay', 'UU1', 
+'', '', '', 'Loam and silt', 'UU2',
+'', '', '', 'Sand', 'UU3',
+'', '', '', 'Gravelly sand', 'UU4',
+'', '', '', 'Gravel, broken rock', 'UU5')
+
+tbl_a1891 <- gt(tbl_a1891_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = c(3,5))) |> 
+  cols_label(Major_class = 'Major class',
+             Code_2 = 'Code') |> 
+  text_transform(
+    locations = cells_body(columns = c(Type)),
+    fn = \(x){ str_replace(x, "~3~", '<sub>3</sub>') })  
+
+tbl_a1891
+```
 
 If the type is unknown, just report the group. Note: the old terms 'acid' and 'basic' rocks were replaced by 'felsic' and 'mafic'.
 
@@ -3301,30 +3523,55 @@ This Chapter refers to the transformation of visible plant tissues into visibly 
 
 If an Oa horizon (see Annex 3, [Chapter 10.2](annex-03-horizon-layer-designations.qmd#sec-a3-2)) is present, report its subdivisions.
 
-+----------------------------------------------------+-------------+-----------+
-| Criterion                                          | Type        | Code      |
-+====================================================+=============+===========+
-| Breaks into longitudinal pieces with sharp edges   | Sharp-edged | **SE**    |
-+----------------------------------------------------+-------------+-----------+
-| Breaks into longitudinal pieces with unsharp edges | Compact     | **CO**    |
-+----------------------------------------------------+-------------+-----------+
-| Breaks into crumbly pieces or breaks powdery       | Crumbly     | **CR**    |
-+----------------------------------------------------+-------------+-----------+
+```{r}
+#| label: tbl-a1892
+#| tbl-cap: Subdivisions of the Oa horizon
+#| tbl-colwidths: [60, 20, 20] 
 
-: Subdivisions of the Oa horizon {#tbl-a1-892}
+tbl_a1892_dat <- tribble(
+  ~Criterion, ~Type, ~Code,
+  'Breaks into longitudinal pieces with sharp edges',   'Sharp-edged', 'SE',
+  'Breaks into longitudinal pieces with unsharp edges', 'Compact',     'CO',
+  'Breaks into crumbly pieces or breaks powdery',       'Crumbly',     'CR')
+
+tbl_a1892 <- gt(tbl_a1892_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 3))
+
+tbl_a1892
+```
 
 #### Dead natural plant remnants {#sec-a1-8441-n}
 
 This Chapter refers to dead natural plant remnants of any length and a diameter ≥ 5 mm. For treated plant remnants, see artefacts (see [Chapter 8.4.8](#sec-a1-848)). Report up to two types of plant remnants, the dominant one first, and give the percentage (by volume, related to the fine earth plus all dead plant remnants) for each type separately.
 
-| Type of plant remnants | Code  |
-|------------------------|-------|
-| Wood                   | **W** |
-| Moss fibres            | **S** |
-| Other plants           | **O** |
-| No dead plant remnants | **N** |
+```{r}
+#| label: tbl-a1893
+#| tbl-cap: Dead remnants of specific plants
+#| tbl-colwidths: [80, 20] 
 
-: Dead remnants of specific plants {#tbl-a1-893}
+tbl_a1893_dat <- tribble(
+  ~Type, ~Code,
+'Wood',                   'W',
+'Moss fibres',            'S',
+'Other plants',           'O',
+'No dead plant remnants', 'N')
+
+tbl_a1893 <- gt(tbl_a1893_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left') |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2)) |> 
+  cols_label(Type = 'Type of plant remnants')
+
+tbl_a1893
+```
 
 ## Sampling {#sec-a1-85}
 
