@@ -479,7 +479,7 @@ Surface characteristics can be detected on the soil surface without looking into
 
 ### Soil surface {#fig-a1-831}
 
-A **litter layer** is a loose layer that contains \> 90% (by volume, related to the fine earth plus all dead plant remnants) recognizable dead plant tissues (e.g. undecomposed leaves). Dead plant material still connected to living plants (e.g. dead parts of *Sphagnum* mosses) is not regarded to form part of a litter layer. The **soil surface** (0 cm) is by convention the surface of the soil after removing, if present, the litter layer and, if present, below a layer of living plants (e.g. living mosses). The **mineral soil surface** is the upper limit of the uppermost mineral horizon (see [Chapter 2.1](chapter-02.qmd#sec-gnrl), General rules, and see [Chapter 8.4.4](#sec-a1-844)).
+A **litter layer** is a loose layer that contains \> 90% (by volume, related to the fine earth plus all dead plant residues) recognizable dead plant tissues (e.g. undecomposed leaves). Dead plant material still connected to living plants (e.g. dead parts of *Sphagnum* mosses) is not regarded to form part of a litter layer. The **soil surface** (0 cm) is by convention the surface of the soil after removing, if present, the litter layer and, if present, below a layer of living plants (e.g. living mosses). The **mineral soil surface** is the upper limit of the uppermost mineral horizon (see [Chapter 2.1](chapter-02.qmd#sec-gnrl), General rules, and see [Chapter 8.4.4](#sec-a1-844)).
 
 ### Litter layer {#sec-a1-832}
 
@@ -981,7 +981,7 @@ A soil layer is identified by certain observable characteristics. Among these ch
 -   C~org~ content
 -   Human alterations
 
-Wherever you observe a major difference in at least one of these characteristics, set a layer boundary. Whenever a layer is too thick (e.g. \> 30 cm), it may be wise to subdivide it into two or more layers of more or less equal thickness for description. In certain soils, it may also be wise to add additional layer limits at depths, which you may need to check for the presence or absence of a diagnostic horizon (e.g. 20 cm to check mollic or umbric horizons). Alluvial sediments and tephra layers may be finely stratified. It may be appropriate to combine several such strata to one layer for description. In all other cases, different geological strata must not be combined to one layer.
+Wherever you observe a major difference in at least one of these characteristics, set a layer boundary. Whenever a layer is too thick (e.g. \> 30 cm), it may be wise to subdivide it into two or more layers of more or less equal thickness for description. In certain soils, it may also be wise to add additional layer limits at depths, which you may need to check for the presence or absence of a diagnostic horizon (e.g. 20 cm to check [*mollic*](chapter-03.qmd#sec-mollh) or [*umbric horizons*](chapter-03.qmd#sec-umbrich)). Alluvial sediments and tephra layers may be finely stratified. It may be appropriate to combine several such strata to one layer for description. In all other cases, different geological strata must not be combined to one layer.
 
 In the following headings, the (o), the (m), and the (o, m) indicate, whether the described characteristic has to be reported in organic or in mineral layers or in both (see [Chapter 8.4.4](#sec-a1-844)). For organotechnic layers, the user decides, which characteristics have to be described. The asterisk (\*) informs that the characteristic can also be reported in a *Pürckhauer* auger.
 
@@ -989,14 +989,14 @@ The layers are numbered consecutively from the soil surface (see [Chapter 8.3.1]
 
 The following principles have to be considered for description (see General rules, [Chapter 2.1](chapter-02.qmd#sec-gnrl)):
 
-1.  All data refer to the fine earth, unless stated otherwise. The fine earth comprises the soil constituents ≤ 2 mm. The whole soil comprises fine earth, coarse fragments, artefacts and dead plant remnants of any size. These rules also apply to cemented layers.
-2.  All data are given by mass, unless stated otherwise.
+1.  All data refer to the fine earth, unless stated otherwise. The fine earth comprises the soil constituents ≤ 2 mm. The **whole soil** comprises fine earth, coarse fragments, [*artefacts*](chapter-03.qmd#sec-artefm), cemented parts, and dead plant residues of any size.
+2.  All data are given **by mass**, unless stated otherwise.
 
 ### Homogeneity of the layer (o, m) {#sec-a1-842}
 
 #### Layer consisting of different parts {#sec-a1-842-p}
 
-If a layer consists of two or more different parts that do not form horizontal layers but can easily be distinguished, describe them separately. Use separate lines in the Soil Description Sheet (Annex 4, [Chapter 11](annex-04-soil-description-sheet.qmd)) and report the percentage (by exposed area, related to the whole soil) of each part. Examples are layers with retic properties (see [Chapter 8.4.18](#sec-a1-8418)), with cryogenic alteration (see [Chapter 8.4.34](#sec-a1-8434)) or with remodelling by single ploughing (see [Chapter 8.4.39](#sec-a1-8439)). The separation is not recommended, if there is just a wavy boundary (as typical, e.g., for chernic horizons or for eluvial horizons in Podzols, see [Chapter 8.4.5](#sec-a1-845)) or if there are just some additions of materials (see [Chapter 8.4.39](#sec-a1-8439)).
+If a layer consists of two or more different parts that do not form horizontal layers but can easily be distinguished, describe them separately. Use separate lines in the Soil Description Sheet (Annex 4, [Chapter 11](annex-04-soil-description-sheet.qmd)) and report the percentage (by exposed area, related to the whole soil) of each part. Examples are layers with [*retic properties*](chapter-03.qmd#sec-reticp) (see [Chapter 8.4.18](#sec-a1-8418)), with cryogenic alteration (see [Chapter 8.4.34](#sec-a1-8434)) or with remodelling by single ploughing (see [Chapter 8.4.39](#sec-a1-8439)). The separation is not recommended, if there is just a wavy boundary (as typical, e.g., for [*chernic horizons*](chapter-03.qmd#sec-chernh) or for eluvial horizons in Podzols, see [Chapter 8.4.5](#sec-a1-845)) or if there are just some additions of materials (see [Chapter 8.4.39](#sec-a1-8439)).
 
 #### Layer composed of several strata of alluvial sediments or of tephra {#sec-a1-842-s}
 
@@ -1220,9 +1220,9 @@ tbl_a1832 <- gt(tbl_a1832_dat) |>
 tbl_a1832
 ```
 
-### Coarse fragments (o, m) {#sec-a1-847}
+### Coarse fragments and remnants of broken-up cemented layers (o, m) {#sec-a1-847}
 
-A coarse fragment is a mineral particle \> 2 mm in its equivalent diameter (see [Chapter 8.4.9](#sec-a1-849)). The subdivision of coarse fragments (0.6 to 60 cm) is according to their greatest dimension. This Chapter refers to natural coarse fragments. Artefacts are described in [Chapter 8.4.8](#sec-a1-848). Fragments of broken-up cemented layers are reported here together with the coarse fragments. In addition, the cementing agent has to be reported (see [Chapters 8.4.30](#sec-a1-8430) and [8.4.32](#sec-a1-8432)) (the term 'oxides' includes hydroxides and oxide-hydroxides).
+This Chapter refers to natural coarse fragments and to remnants of broken-up cemented layers. [*Artefacts*](chapter-03.qmd#sec-artefm) are described in [Chapter 8.4.8](#sec-a1-848). A coarse fragment is a mineral particle, derived from the parent material, \> 2 mm in its equivalent diameter (see [Chapter 8.4.9](#sec-a1-849)). Remnants of broken-up cemented layers may be of any size but are only reported here if they have an equivalent diameter \> 2 mm. The subdivisions (0.6 to 60 cm) are according to their greatest dimension.
 
 #### Size and shape {#sec-a1-847-s}
 
@@ -1230,7 +1230,7 @@ The Table indicates the length of the greatest dimension and the shape.
 
 ```{r}
 #| label: tbl-a1833
-#| tbl-cap: Size and shape classes of coarse fragments, FAO (2006), Tables 27 and 28
+#| tbl-cap: Size and shape classes of coarse fragments and of remnants of broken-up cemented layers, FAO (2006), Tables 27 and 28
 #| tbl-colwidths: [20, 40, 40, 20] 
 
 tbl_a1833_dat <- tribble(
@@ -1253,7 +1253,7 @@ NA_character_,         NA_character_,       'Rounded and angular', 'BB',
        '> 60',      'Large Boulders',       'Rounded',             'LR',
 NA_character_,         NA_character_,       'Angular',             'LA',
 NA_character_,         NA_character_,       'Rounded and angular', 'LB',
-NA_character_, 'No coarse fragments',               NA_character_, 'NO')
+NA_character_, 'None',               NA_character_, 'NO')
 
 tbl_a1833 <- gt(tbl_a1833_dat) |>
   tab_options(
@@ -1270,7 +1270,7 @@ tbl_a1833 <- gt(tbl_a1833_dat) |>
 tbl_a1833
 ```
 
-#### Weathering stage {#sec-a1-847-w}
+#### Weathering stage (coarse fragments) and cementing agent (remnants of broken-up cemented layers) {#sec-a1-847-w}
 
 ```{r}
 #| label: tbl-a1834
@@ -1296,11 +1296,9 @@ tbl_a1834 <- gt(tbl_a1834_dat) |>
 tbl_a1834
 ```
 
-#### Fragments of broken-up cemented layers {#sec-a1-847-f}
-
 ```{r}
 #| label: tbl-a1835
-#| tbl-cap: "Fragments of broken-up cemented layers: cementing agent" 
+#| tbl-cap: "Remnants of broken-up cemented layers: cementing agent" 
 #| tbl-colwidths: [80, 20] 
 
 tbl_a1835_dat <- tribble(
@@ -1328,17 +1326,17 @@ tbl_a1835
 
 #### Abundance (by volume) {#sec-a1-847-a}
 
-Report the total percentage of the volume (related to the whole soil) occupied by coarse fragments. In addition, report at least one and up to four size and shape classes and report their weathering stage and the percentage of the volume that is occupied by the coarse fragments of the respective class, the dominant one first. @fig-a1-812 helps with the estimation of the volume. For fragments of a broken-up cemented layer, report the agent that caused the cementation, where applicable up to two, and the percentage of each group of fragments (by volume, related to the whole soil).
+Report the total percentage of the volume occupied by coarse fragments. In addition, report at least one and up to four size and shape classes and report their weathering stage and the percentage of the volume that is occupied by the coarse fragments of the respective class, the dominant one first. Report the total percentage of the volume occupied by remnants of broken-up cemented layers, report the agent that caused the cementation, where applicable up to two, and the percentage of the volume that is occupied by the remnants of each cementation, the dominant one first (see [Chapters 8.4.30](#sec-a1-8430) and [8.4.32](#sec-a1-8432)). All volumes are related to the whole soil. @fig-a1-812 helps with the estimation of the volume.
 
-![Charts for estimating percentages of coarse fragments, FAO , Figure 5, modified by B. Repe](images/figure_8-12.png){#fig-a1-812}
+![Charts for estimating percentages of coarse fragments and of remnants of broken-up cemented layers, FAO , Figure 5, modified by B. Repe](images/figure_8-12.png){#fig-a1-812}
 
-#### Free large pores between coarse fragments {#sec-a1-847-p}
+#### Free large pores (interstices) between coarse fragments {#sec-a1-847-p}
 
 Between coarse fragments, large pores may exist that are visible with the naked eye and do not contain soil material. Report the total percentage (by volume, related to the whole soil).
 
 ### Artefacts (o, m) {#sec-a1-848}
 
-Artefacts are solid or liquid substances that are
+[*Artefacts*](chapter-03.qmd#sec-artefm) are solid or liquid substances that are
 
 -   created or substantially modified by humans as part of an industrial or artisanal manufacturing process, or
 -   brought to the surface by human activity from a depth, where they were not influenced by surface processes, and deposited in an environment, where they do not commonly occur.
@@ -1402,7 +1400,7 @@ Note: If not purposefully made by humans, black carbon is considered to be natur
 
 #### Size {#sec-a1-848-s}
 
-The Table indicates the average length of the greatest dimension of solid artefacts.
+The Table indicates the average length of the greatest dimension of solid [*artefacts*](chapter-03.qmd#sec-artefm).
 
 ```{r}
 #| label: tbl-a1837
@@ -1435,7 +1433,7 @@ tbl_a1837
 
 #### Abundance (by volume) {#sec-a1-848-a}
 
-Report the total percentage of the volume (related to the whole soil) occupied by solid artefacts. In addition, report at least one and up to five types and size classes and the percentage of the volume that is occupied by the respective type and size class, the dominant one first. @fig-a1-812 helps with the estimation of the volume. Black carbon has to be additionally reported as percentage of the exposed area (related to the fine earth plus black carbon of any size).
+Report the total percentage of the volume (related to the whole soil) occupied by solid [*artefacts*](chapter-03.qmd#sec-artefm). In addition, report at least one and up to five types and size classes and the percentage of the volume that is occupied by the respective type and size class, the dominant one first. @fig-a1-812 helps with the estimation of the volume. Black carbon has to be additionally reported as percentage of the exposed area (related to the fine earth plus black carbon of any size).
 
 ### Soil texture (m) (\*) {#sec-a1-849}
 
@@ -1737,7 +1735,7 @@ tbl_a1844
 
 #### Size {#sec-a1-8410-s}
 
-The dimension to be reported is indicated in Table 8.41 by a line.
+The dimension to be reported is indicated in @tbl-a1841 by a line.
 
 ```{r}
 #| label: tbl-a1845
@@ -2021,7 +2019,7 @@ flowchart TD
   q3 -.->|No|r4[Non-redoximorphic features]
 ```
 
-Use the Munsell Color Charts. Take a fresh sample, slightly crush it and observe the colour in the shade (both your eyes and the colour chart in the shade) and not in the twilight. Report hue, value and chroma. The matrix colour is recorded twice, moist and (if possible) dry, the other colours only in the moist state. The moist state corresponds to field capacity, which is obtained with sufficient accuracy by moistening and reading the colour as soon as visible moisture films have disappeared.
+Use the Munsell Color Charts. Take a fresh sample, slightly crush it and observe the colour in the shade (both your eyes and the colour chart in the shade) and not in the twilight. Report hue, value and chroma. The matrix colour and the colour of reductimorphic features are recorded twice, moist and (if possible) dry, the other colours only in the moist state. The moist state corresponds to field capacity, which is obtained with sufficient accuracy by moistening and reading the colour as soon as visible moisture films have disappeared.
 
 ### Matrix colour (m) (\*) {#sec-a1-8417}
 
@@ -2037,13 +2035,13 @@ For the coarser-textured parts, report in addition the following characteristics
 
 -   the percentage (by exposed area) occupied by coarser-textured parts of any orientation (vertical, horizontal, inclined) having a width of ≥ 0.5 cm
 -   the percentage (by exposed area) occupied by continuous vertical tongues of coarser-textured parts with a horizontal extension of ≥ 1 cm (if these tongues are absent, report 0%)
--   the depth range, where these tongues cover ≥ 10% of the exposed area (if they extend across serveral layers, the length is only reported in the description of that layer, where they start at the layer's upper limit).
+-   the depth range in cm, where these tongues cover ≥ 10% of the exposed area (if they extend across serveral layers, the length is only reported in the description of that layer, where they start at the layer's upper limit).
 
 In the middle of the layer, prepare a horizontal surface, 50 cm x 50 cm, and report the percentage (by horizontal area covered) of the coarser-textured parts.
 
 ### Lithogenic variegates (m) {#fig-a1-8419}
 
-Report colour, size, and abundance. If more than one colour occurs, report up to three, the dominant one first, and give size and abundance for each colour separately.
+Report colour, size class, and abundance. If more than one colour occurs, report up to three, the dominant one first, and give size class and abundance for each colour separately.
 
 #### Colour {#fig-a1-8419-c}
 
@@ -2087,7 +2085,7 @@ Report the percentage of abundance.
 
 Redoximorphic features (oximorphic features plus reductimorphic features) are the result of redox processes. Oximorphic features show the accumulation of substances in oxidized state and usually a redder hue, a higher chroma and a lower value than the surrounding material, while reductimorphic features show the opposite characteristics. Soil parts showing reductimorphic features may either contain substances in reduced state or may have lost them.
 
-Report substance, location, size (up to two, the dominant one first), cementation class and abundance for each colour separately, for up to three colours, the dominant one first. Substance for oximorphic features is always reported, for reductimorphic features only in some cases. Size is only reported for oximorphic features inside soil aggregates. Cementation is only reported for oximorphic features. The abundance is reported as percentage of the exposed area.
+Report substance, location, size class (up to two, the dominant one first), cementation class and abundance for each colour separately, for up to three colours, the dominant one first. Substance for oximorphic features is always reported, for reductimorphic features only in some cases. Size class is only reported for oximorphic features inside soil aggregates. Cementation is only reported for oximorphic features. The abundance is reported as percentage of the exposed area.
 
 #### Colour (\*) {#sec-a1-8420-c}
 
@@ -2131,7 +2129,7 @@ The term 'oxides', as used here, includes hydroxides and oxide-hydroxides. The t
 tbl_a1854_dat <- tribble(
   ~Substance, ~Code,
  'Fe sulfides', 'FS',
- 'No visible accumulation', 'NA')
+ 'No visible accumulation', 'NV')
 
 tbl_a1854 <- gt(tbl_a1854_dat) |>
   tab_options(
@@ -2276,11 +2274,11 @@ tbl_a1858
 
 #### Abundance (by exposed area) {#sec-a1-8420-aa}
 
-Report the total abundance of the parts with oximorphic features and the total abundance of the parts with reductimorphic features, both for inner, outer and random locations, separately. Report them as percentage of the exposed area.
+Report the total abundance of the parts with oximorphic features and the total abundance of the parts with reductimorphic features, both for inner, outer and random locations, separately. Report them as percentage of the exposed area (related to the fine earth plus oximorphic features of any size and any cementation class).
 
 #### Abundance of cemented oximorphic features (by volume, related to the whole soil) {#sec-a1-8420-av}
 
-This paragraph refers to cemented oximorphic features with a cementation class of at least moderately cemented and a diameter of \> 2 mm. They comprise concretions and nodules (see above) and fragments of a broken-up layer that has been cemented by Fe oxides. Report the abundance.
+This paragraph refers to cemented oximorphic features with a cementation class of at least moderately cemented and a diameter of \> 2 mm. They comprise concretions and nodules (see above) and remnants of a broken-up layer that has been cemented by Fe oxides. Report the abundance as percentage by volume (related to the whole soil).
 
 ### Redox potential and reducing conditions (o, m) {#sec-a1-8421}
 
@@ -2500,11 +2498,11 @@ Report the type of secondary carbonates. If more than one occurs, report up to f
 
 tbl_a1864_dat <- tribble(
   ~Type,   ~Code,
-'Masses (including spheroidal aggregations like white eyes)',        'MA',
+'Masses (including spheroidal aggregations like white eyes (byeloglaska))',        'MA',
 'Nodules and/or concretions',                                        'NC',
 'Filaments (including continuous filaments like pseudomycelia)',     'FI',
 'Coatings on soil aggregate surfaces or biopore walls',              'AS',
-'Coatings on undersides of coarse fragments and cemented fragments', 'UR',
+'Coatings on undersides of coarse fragments and of remnants of broken-up cemented layers', 'UR',
 'No secondary carbonates',                                           'NO'
   )
 
@@ -2592,7 +2590,7 @@ Secondary gypsum may be found as
 
 -   filaments (vermiform gypsum, pseudomycelia)
 -   gypsum crystal intergrowths or nodules (roses)
--   pendants (normally fibrous) below coarse fragments or cemented fragments
+-   pendants (normally fibrous) below coarse fragments and below remnants of broken-up cemented layers
 -   fibrous aggregates
 -   flour-like gypsum.
 
@@ -2602,7 +2600,7 @@ Gypsum is soft and can easily be ripped with a knife or broken between thumbnail
 
 #### Form {#sec-a1-8427-f}
 
-Secondary silica (SiO~2~) is off-white and predominantly consisting of opal and microcrystalline forms. It occurs as laminar caps, lenses, (partly) filled interstices, bridges between sand grains, and as coatings at surfaces of soil aggregates, biopore walls, coarse fragments, and cemented fragments. Report the type of secondary silica. If more than one type occurs, report up to two, the dominant one first. Note: Durinodes are often coated with secondary carbonates.
+Secondary silica (SiO~2~) is off-white and predominantly consisting of opal and microcrystalline forms. It occurs as laminar caps, lenses, (partly) filled interstices, bridges between sand grains, and as coatings at surfaces of soil aggregates, biopore walls, coarse fragments, and remnants of broken-up cemented layers. Report the type of secondary silica. If more than one type occurs, report up to two, the dominant one first. Note: Durinodes are often coated with secondary carbonates.
 
 ```{r}
 #| label: tbl-a1867
@@ -2613,7 +2611,7 @@ tbl_a1867_dat <- tribble(
   ~Type,   ~Code,
 'Nodules (durinodes)',                                             'DN',
 'Accumulations within a layer, cemented by secondary silica',      'CH',
-'Fragments of a layer that has been cemented by secondary silica', 'FC',
+'Remnants of a layer that has been cemented by secondary silica', 'FC',
 'Other accumulations',                                             'OT',
 'No secondary silica',                                             'NO')
 
@@ -2631,11 +2629,11 @@ tbl_a1867
 
 #### Size {#sec-a1-8427-s}
 
-If a layer shows durinodes and/or fragments of a layer that has been cemented by secondary silica, report their size. The Table indicates the average length of the greatest dimension.
+If a layer shows durinodes and/or remnants of a layer that has been cemented by secondary silica, report their size class. The Table indicates the average length of the greatest dimension.
 
 ```{r}
 #| label: tbl-a1868
-#| tbl-cap: Size of durinodes and fragments of a layer that has been cemented by secondary silica
+#| tbl-cap: Size of durinodes and remnants of a layer that has been cemented by secondary silica
 #| tbl-colwidths: [40, 40, 20] 
 
 tbl_a1868_dat <- tribble(
@@ -2663,7 +2661,7 @@ tbl_a1868
 
 #### Abundance {#sec-a1-8427-a}
 
-Report the total percentage (by exposed area) of secondary silica. For a cemented layer, this percentage refers to the fine earth plus accumulations of secondary silica of any size and any cementation class. For durinodes and fragments of a cemented layer, this percentage comprises the secondary silica visible at their surfaces. If a layer shows durinodes and/or fragments of a cemented layer, report in addition the percentage (by volume) of those durinodes and fragments that have a diameter ≥ 1 cm.
+Report the total percentage (by exposed area) of secondary silica. For a cemented layer, this percentage refers to the fine earth plus accumulations of secondary silica of any size and any cementation class. For durinodes and remnants of a cemented layer, this percentage comprises the secondary silica visible at their surfaces. If a layer shows durinodes and/or remnants of a cemented layer, report in addition the percentage (by volume) of those durinodes and remnants that have a diameter ≥ 1 cm.
 
 ### Readily soluble salts (o, m) {#sec-a1-8428}
 
@@ -2738,7 +2736,7 @@ tbl_a1870 <- gt(tbl_a1870_dat) |>
     heading.title.font.weight     = 'bold',
     table.align = 'left'
   ) |>
-  cols_label(decomp = html('Degree of decomposition<br />(by volume, related to the fine earth plus all dead plant remnants)'),
+  cols_label(decomp = html('Degree of decomposition<br />(by volume, related to the fine earth plus all dead plant residues)'),
              water_c = html('Water content of the saturation extract (WC<sub>SE</sub>) (g water / 100 g soil)'))
   
 tbl_a1870
@@ -2850,7 +2848,7 @@ tbl_a1873_dat <- tribble(
 'Moderate force between hands, 80 - < 160 N', 'Moderately cemented', 'MOC',
 'Foot pressure by full body weight, 160 - < 800 N', 'Strongly cemented', 'STC',
 'Blow of < 3 J (3 J = 2 kg dropped 15 cm) and does not fail under foot pressure by full body weight (800 N)', 'Very strongly cemented', 'VSC',
-'low of < 3 J (3 J = 2 kg dropped 15 cm)', 'Extremely cemented', 'EXC')
+'low of < 3 J (3 J = 2 kg dropped 15 cm)', 'Extremely strongly cemented', 'EXC')
 
 tbl_a1873 <- gt(tbl_a1873_dat) |>
   tab_options(
@@ -3023,7 +3021,7 @@ tbl_a1878
 
 ### Continuity of hard materials and cemented layers (m) {#sec-a1-8432}
 
-Continuous rock, technic hard material and cemented layers may have fractures, which are filled by non-cemented soil material. Report the average distance between the fractures in cm and the total percentage (by volume, related to the whole soil) that is occupied by the fractures. This has also to be reported, if the hard or cemented material starts at the soil surface. If the layer is broken up, the fragments are reported with the coarse fragments (see [Chapter 8.4.7](#sec-a1-847)).
+Continuous rock, technic hard material and cemented layers may have fractures, which are filled by non-cemented soil material. Report the total percentage (by volume, related to the whole soil) that is occupied by the fractures and the average distance between the fractures in cm. This has also to be reported, if the hard or cemented material starts at the soil surface. If a cemented layer is not only fractured but broken up, the remnants are reported with the coarse fragments (see [Chapter 8.4.7](#sec-a1-847)).
 
 ### Volcanic glasses and andic characteristics (o, m) {#sec-a1-8433}
 
@@ -3060,11 +3058,11 @@ If the percentage is around a limit value, take a soil sample, gain the sand and
 
 #### Andic characteristics {#sec-a1-8433-a}
 
-Andic properties are defined by laboratory data. In the field, one can recognize a low bulk density, a dark colour and a high organic matter content. In addition, there are two specific field tests indicative of andic properties.
+[*Andic properties*](chapter-03.qmd#sec-andicp) are defined by laboratory data. In the field, one can recognize a low bulk density, a dark colour and a high organic matter content. In addition, there are two specific field tests indicative of [*andic properties*](chapter-03.qmd#sec-andicp).
 
-Thixotropy: Layers with andic properties show a high variable charge allowing the absorption of much water that can easily be driven out by shaking but will be absorbed again, after a while. Procedure: Take a soil sample and make a sphere of about 2.5 cm in diameter. Wait until any moisture films have disappeared. Place the sphere in cupped hands and shake it. If moisture films appear at the surface of the sphere, the soil shows thixotropy. After a while, the moisture films will disappear again.
+Thixotropy: Layers with [*andic properties*](chapter-03.qmd#sec-andicp) show a high variable charge allowing the absorption of much water that can easily be driven out by shaking but will be absorbed again, after a while. Procedure: Take a soil sample and make a sphere of about 2.5 cm in diameter. Wait until any moisture films have disappeared. Place the sphere in cupped hands and shake it. If moisture films appear at the surface of the sphere, the soil shows thixotropy. After a while, the moisture films will disappear again.
 
-NaF test according to Fieldes and Perrott [-@fieldes1966], after FAO [-@un-fao2006]: A pH~NaF~ of \> 9.5 indicates the presence of abundant allophanes and imogolites and/or organo-aluminium complexes. Aluminium sorbs F^-^ ions while releasing OH^-^ ions. The test is indicative for most layers with andic properties, except for those very rich in organic matter. However, the same reaction occurs in spodic horizons and in acidic clayey soils that are rich in aluminium-interlayered clay minerals; soils with free carbonates also react. Before applying the NaF test, check the soil pH in water or KCl (the NaF test is not suitable for alkaline soils) and the presence of free carbonates (using the HCl test). Procedure: Place a small amount of soil on a filter paper previously soaked in phenolphthalein and add some drops of 1 M NaF (adjusted to pH 7.5). A positive reaction is indicated by a fast change to an intense red colour. Alternatively, measure the pH of a suspension of 1 g soil in 50 ml 1 M NaF (adjusted to pH 7.5) after waiting 2 minutes. A pH of \> 9.5 is an indication of andic properties.
+NaF test according to Fieldes and Perrott [-@fieldes1966], after FAO [-@un-fao2006]: A pH~NaF~ of \> 9.5 indicates the presence of abundant allophanes and imogolites and/or organo-aluminium complexes. Aluminium sorbs F^-^ ions while releasing OH^-^ ions. The test is indicative for most layers with [*andic properties*](chapter-03.qmd#sec-andicp), except for those very rich in organic matter. However, the same reaction occurs in [*spodic horizons*](chapter-03.qmd#sec-spodich) and in acidic clayey soils that are rich in aluminium-interlayered clay minerals; soils with free carbonates also react. Before applying the NaF test, check the soil pH in water or KCl (the NaF test is not suitable for alkaline soils) and the presence of free carbonates (using the HCl test). Procedure: Place a small amount of soil on a filter paper previously soaked in phenolphthalein and add some drops of 1 M NaF (adjusted to pH 7.5). A positive reaction is indicated by a fast change to an intense red colour. Alternatively, measure the pH of a suspension of 1 g soil in 50 ml 1 M NaF (adjusted to pH 7.5) after waiting 2 minutes. A pH of \> 9.5 is an indication of [*andic properties*](chapter-03.qmd#sec-andicp).
 
 Report the results.
 
@@ -3228,7 +3226,7 @@ tbl_a1884
 
 #### Natural accumulations of organic matter {#sec-a1-8436-n}
 
-This Chapter refers to accumulations of organic matter in form of discrete bodies. They have usually a lower value than the surrounding material. Report here all accumulations that are natural or that are a side effect of human activities. Additions of artefacts see [Chapter 8.4.8](#sec-a1-848) and of human-transported material see [Chapter 8.4.39](#sec-a1-8439). If black carbon is purposefully made by humans, it is considered to be an artefact. Organic matter accumulations due to animal activity are reported twice, once here and once in [Chapter 8.4.38](#sec-a1-8438).
+This Chapter refers to accumulations of organic matter in form of discrete bodies. They have usually a lower value than the surrounding material. Report here all accumulations that are natural or that are a side effect of human activities. For additions of [*artefacts*](chapter-03.qmd#sec-artefm) see [Chapter 8.4.8](#sec-a1-848) and of human-transported material see [Chapter 8.4.39](#sec-a1-8439). If black carbon is purposefully made by humans, it is considered to be an artefact. Organic matter accumulations due to animal activity are reported twice, once here and once in [Chapter 8.4.38](#sec-a1-8438).
 
 ```{r}
 #| label: tbl-a1885
@@ -3332,7 +3330,7 @@ tbl_a1887
 
 #### Additions of human-transported natural material {#sec-a1-8439-a}
 
-Natural material is any material not meeting the criteria of artefacts (see Chapter 8.4.8). Report the percentage (by volume, related to the whole soil), which may range from very little up to 100%, for each addition separately. If more than one occurs, report up to three, the dominant one first. For mineral additions ≤ 2 mm, report additionally, if possible, the texture class (see Chapter 8.4.9), the carbonate content (see Chapter 8.4.25) and the C~org~ content (see Chapter 8.4.36).
+Natural material is any material not meeting the criteria of [*artefacts*](chapter-03.qmd#sec-artefm) (see Chapter 8.4.8). Report the percentage (by volume, related to the whole soil), which may range from very little up to 100%, for each addition separately. If more than one occurs, report up to three, the dominant one first. For mineral additions ≤ 2 mm, report additionally, if possible, the texture class (see Chapter 8.4.9), the carbonate content (see Chapter 8.4.25) and the C~org~ content (see Chapter 8.4.36).
 
 ```{r}
 #| label: tbl-a1888
@@ -3513,11 +3511,11 @@ tbl_a1891
 
 If the type is unknown, just report the group. Note: the old terms 'acid' and 'basic' rocks were replaced by 'felsic' and 'mafic'.
 
-### Degree of decomposition in organic layers and presence of dead plant remnants (o) (\*) {#sec-a1-8441}
+### Degree of decomposition in organic layers and presence of dead plant residues (o) (\*) {#sec-a1-8441}
 
 #### Degree of decomposition {#sec-a1-8441-d}
 
-This Chapter refers to the transformation of visible plant tissues into visibly homogeneous organic matter. Rub the soil material and report the percentage of visible plant tissues (by volume, related to the fine earth plus all dead plant remnants).
+This Chapter refers to the transformation of visible plant tissues into visibly homogeneous organic matter. Rub the soil material and report the percentage of visible plant tissues (by volume, related to the fine earth plus all dead plant residues).
 
 #### Subdivisions of the Oa horizon {#sec-a1-8441-s}
 
@@ -3545,13 +3543,13 @@ tbl_a1892 <- gt(tbl_a1892_dat) |>
 tbl_a1892
 ```
 
-#### Dead natural plant remnants {#sec-a1-8441-n}
+#### Dead natural plant residues {#sec-a1-8441-n}
 
-This Chapter refers to dead natural plant remnants of any length and a diameter ≥ 5 mm. For treated plant remnants, see artefacts (see [Chapter 8.4.8](#sec-a1-848)). Report up to two types of plant remnants, the dominant one first, and give the percentage (by volume, related to the fine earth plus all dead plant remnants) for each type separately.
+This Chapter refers to dead natural plant residues of any length and a diameter ≥ 5 mm. For treated plant residues, see [*artefacts*](chapter-03.qmd#sec-artefm) (see [Chapter 8.4.8](#sec-a1-848)). Report up to two types of plant remnants, the dominant one first, and give the percentage (by volume, related to the fine earth plus all dead plant residues) for each type separately.
 
 ```{r}
 #| label: tbl-a1893
-#| tbl-cap: Dead remnants of specific plants
+#| tbl-cap: Dead residues of specific plants
 #| tbl-colwidths: [80, 20] 
 
 tbl_a1893_dat <- tribble(
@@ -3559,7 +3557,7 @@ tbl_a1893_dat <- tribble(
 'Wood',                   'W',
 'Moss fibres',            'S',
 'Other plants',           'O',
-'No dead plant remnants', 'N')
+'No dead plant residues', 'N')
 
 tbl_a1893 <- gt(tbl_a1893_dat) |>
   tab_options(
@@ -3568,7 +3566,7 @@ tbl_a1893 <- gt(tbl_a1893_dat) |>
     table.align = 'left') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |> 
-  cols_label(Type = 'Type of plant remnants')
+  cols_label(Type = 'Type of plant residues')
 
 tbl_a1893
 ```
@@ -3592,9 +3590,11 @@ Example: *Gombori Pass 1 - V - 0-10 cm - Ah.*
 
 Make sure to seal the bags after filling in the sample.
 
-### Sampling of terrestrial organic surface layers {#sec-a1-852}
+### Sampling of organic layers {#sec-a1-852}
 
-For the terrestrial organic surface layers, use a quadratic steel frame, for instance with 30 cm side length. Use a rubber hammer to drive the frame through the organic surface layers and a few centimetres into the mineral soil. The frame must enter the soil evenly, do not drive in one side first and then the other. Collect the organic surface material manually, sample the litter layer and the O horizons separately. Be very careful to sample all organic surface material but no mineral soil.
+Generally, the fine earth plus all dead plant residues are sampled. For the decision if a layer consists of organic material, the organic carbon is measured in a sample containing the fine earth plus the dead plant residues of any length and a diameter ≤ 5 mm (excluding [*artefacts*](chapter-03.qmd#sec-artefm)).
+
+For sampling the terrestrial organic surface layers, use a quadratic steel frame, for instance with 30 cm side length. Use a rubber hammer to drive the frame through the organic surface layers and a few centimetres into the mineral soil. The frame must enter the soil evenly, do not drive in one side first and then the other. Collect the organic surface material manually, sample the litter layer and every O horizon separately. Be very careful to sample all organic surface layers but no mineral layers.
 
 ### Conventional sampling of mineral layers {#sec-a1-853}
 

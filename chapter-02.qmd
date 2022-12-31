@@ -10,9 +10,9 @@ editor_options:
 
 The following principles have to be considered for classification in WRB:
 
-1.  All data refer to the fine earth, unless stated otherwise. The **fine earth** comprises the soil constituents ≤ 2 mm. The **whole soil** comprises fine earth, coarse fragments, artefacts and dead plant remnants of any size. These rules also apply to cemented layers.
+1.  All data refer to the fine earth, unless stated otherwise. The **fine earth** comprises the soil constituents ≤ 2 mm. The **whole soil** comprises fine earth, coarse fragments, [*artefacts*](chapter-03.qmd#sec-artefm), cemented parts and dead plant residues of any size.
 2.  All data are given **by mass** (dried at 105° C, see [Annex 2, Chapter 9.2](annex-02-analytical-procedures.qmd#sec-a2-92)), unless stated otherwise.
-3.  A **litter layer** is a loose layer that contains \> 90% (by volume, related to the fine earth plus all dead plant remnants) recognizable dead plant tissues (e.g. undecomposed leaves). Dead plant material still connected to living plants (e.g. dead parts of *Sphagnum* mosses) is not regarded to form part of a litter layer. The **soil surface** (0 cm) is by convention the surface of the soil after removing, if present, the litter layer and, if present, below a layer of living plants (e.g. living mosses). The **mineral soil surface** is the upper limit of the uppermost layer consisting of [*mineral material*](chapter-03.qmd#sec-minm) (see [Chapter 3.3.11](chapter-03.qmd#sec-minm) and [Annex 1](annex-01-field-guide.qmd), [Chapter 8.3.1](annex-01-field-guide.qmd#sec-a1-831)).
+3.  A **litter layer** is a loose layer that contains \> 90% (by volume, related to the fine earth plus all dead plant residues) recognizable dead plant tissues (e.g. undecomposed leaves). Dead plant material still connected to living plants (e.g. dead parts of *Sphagnum* mosses) is not regarded to form part of a litter layer. The **soil surface** (0 cm) is by convention the surface of the soil after removing, if present, the litter layer and, if present, below a layer of living plants (e.g. living mosses). The **mineral soil surface** is the upper limit of the uppermost layer consisting of [*mineral material*](chapter-03.qmd#sec-minm) (see [Chapter 3.3.11](chapter-03.qmd#sec-minm) and [Annex 1](annex-01-field-guide.qmd), [Chapter 8.3.1](annex-01-field-guide.qmd#sec-a1-831)).
 4.  A **soil layer** is a zone in the soil, approximately parallel to the soil surface, with properties different from layers above and/or below it. If at least one of these properties is the result of soil-forming processes, the layer is called a **soil horizon**. In the diagnostic criteria, the term 'horizon' is mainly used for the defined diagnostic horizons. The other layers are mainly called 'layer' to make sure that the criteria apply, even if they were not regarded to be soil horizons.
 5.  If a criterion is worded as a conditional clause (if...) and the condition (**if-clause**) is not true, the criterion is ignored.
 6.  Numerical values obtained in the field or in the laboratory have to be taken as such and **must not be rounded** when compared with the threshold values in the diagnostic criteria.
@@ -36,7 +36,7 @@ For the second level of the WRB classification, qualifiers are used. The qualifi
 
 The **principal qualifiers** are ranked and given in an order of importance. The rank of the principal qualifiers reflects particular soil characteristics or properties strongly influencing the soil's functionality:
 
-Examples of subdivisions based on soil characteristics:
+Examples of principal qualifiers indicating subdivisions of the RSG based on soil characteristics:
 
 -   [Vitric](chapter-05.qmd#sec-vi), [Aluandic](chapter-05.qmd#sec-aa) and [Silandic](chapter-05.qmd#sec-sn) for [Andosols](chapter-04.qmd#sec-key-an)
 -   [Carbic](chapter-05.qmd#sec-cb) and [Rustic](chapter-05.qmd#sec-rs) for [Podzols](chapter-04.qmd#sec-key-pz)
@@ -70,23 +70,34 @@ For naming a soil at the second level, all the principal and supplementary quali
 
 A soil developed from loess with high-activity clays has a marked clay increase at 60 cm depth, clay coatings in the clay-rich horizon, no stratification, and a field pH value around 6 in the depth from 50 to 100 cm. The clay-poor upper soil is subdivided into a darker upper and a light-coloured lower horizon. The clay-rich horizon has a limited amount of oximorphic features with intensive colours inside the soil aggregates and reducing conditions in some parts during springtime. The following conclusions can be drawn (for subqualifiers see [Chapter 2.3](#sec-subq)):
 
-|     |                                                                                                                            |                                                                      |
-|-----|----------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------|
-| a\. | clay increase without [*lithic discontinuity*](chapter-03.qmd#sec-lithd) and/or with clay coatings                         | --\> [*argic horizon*](chapter-03.qmd#sec-argich)                    |
-| b\. | [*argic horizon*](chapter-03.qmd#sec-argich) with high CEC and more base cations than Al (inferred by pH 6)                | --\> [Luvisol](chapter-04.qmd#sec-key-lv)                            |
-| c\. | light colour in the eluvial horizon                                                                                        | --\> [Albic](chapter-05.qmd#sec-ab) qualifier                        |
-| d\. | some oximorphic features inside aggregates                                                                                 | --\> [*stagnic properties*](chapter-03.qmd#sec-stagnp)               |
-| e\. | [*stagnic properties*](chapter-03.qmd#sec-stagnp) and [*reducing conditions*](chapter-03.qmd#sec-reducc) starting at 60 cm | --\> [Endo](#sec-endo)[stagnic](chapter-03.qmd#sec-stagnp) qualifier |
-| f\. | clay coatings                                                                                                              | --\> [Cutanic](chapter-05.qmd#sec-ct) qualifier                      |
-| g\. | clay increase without [*lithic discontinuity*](chapter-03.qmd#sec-lithd)                                                   | --\> [Differentic](chapter-05.qmd#sec-df) qualifier                  |
++-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| a\. | clay increase without [*lithic discontinuity*](chapter-03.qmd#sec-lithd) and/or with clay coatings                         | --\> [*argic horizon*](chapter-03.qmd#sec-argich)                       |
++-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| b\. | [*argic horizon*](chapter-03.qmd#sec-argich) with high CEC, more exchangeable base cations than Al (inferred by pH 6)      | --\> [Luvisol](chapter-04.qmd#sec-key-lv)                               |
++-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| c\. | light colour in the eluvial horizon                                                                                        | --\> [*claric material*](chapter-03.qmd#sec-claricm)                    |
++-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| d\. | [*claric material*](chapter-03.qmd#sec-claricm) above the [*argic horizon*](chapter-03.qmd#sec-argich)                     | *--\>* [*albic horizon*](chapter-03.qmd#sec-albich)*\                   |
+|     |                                                                                                                            | --\>* [Albic](chapter-05.qmd#sec-ab) qualifier                          |
++-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| e\. | some oximorphic features inside aggregates                                                                                 | --\> [*stagnic properties*](chapter-03.qmd#sec-stagnp)                  |
++-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| f\. | [*stagnic properties*](chapter-03.qmd#sec-stagnp) and [*reducing conditions*](chapter-03.qmd#sec-reducc) starting at 60 cm | --\> [Endo](#sec-endo)[stagnic](chapter-03.qmd#sec-stagnp) subqualifier |
++-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| g\. | clay coatings                                                                                                              | --\> [Cutanic](chapter-05.qmd#sec-ct) qualifier                         |
++-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| h\. | clay increase without [*lithic discontinuity*](chapter-03.qmd#sec-lithd)                                                   | --\> [Differentic](chapter-05.qmd#sec-df) qualifier                     |
++-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| i\. | argic horizon starting \> 50 cm and ≤ 100 cm                                                                               | --\> [Endic](chapter-05.qmd#sec-ed) qualifier                           |
++-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
 
 The **field classification** is Albic Endostagnic Luvisol (Cutanic, Differentic).
 
 #### Laboratory analyses {#sec-nmex-ans}
 
-The laboratory analyses confirm a high CEC kg^-1^ clay in the [*argic horizon*](chapter-03.qmd#sec-argich) and a high base saturation in the depth from 50 - 100 cm. They further detect the texture class of silty clay loam with 30% clay ([Siltic](chapter-05.qmd#sec-sl) qualifier) from 0 - 60 cm (Ano- specifier) and of silty clay with 45% clay ([Clayic](chapter-05.qmd#sec-ce) qualifier) from 60 - 100 cm (Endo- specifier). The organic carbon content in the topsoil is intermediate ([Ochric](chapter-05.qmd#sec-oh) qualifier).
+The laboratory analyses confirm a high CEC kg^-1^ clay in the [*argic horizon*](chapter-03.qmd#sec-argich) and a high base saturation in the depth from 50 - 100 cm. They further detect the texture class of silty clay loam with 30% clay ([Loamic](chapter-05.qmd#sec-lo) qualifier) from 0 - 60 cm (Ano- specifier) and of silty clay with 45% clay ([Clayic](chapter-05.qmd#sec-ce) qualifier) from 60 - 100 cm (Endo- specifier). The organic carbon content in the topsoil is intermediate ([Ochric](chapter-05.qmd#sec-oh) qualifier).
 
-The **final classification** is Albic Endostagnic Luvisol (Anosiltic, Endoclayic, Cutanic, Differentic, Ochric).
+The **final classification** is Albic Endostagnic Luvisol (Anoloamic, Endoclayic, Cutanic, Differentic, Endic, Ochric).
 
 ## Subqualifiers {#sec-subq}
 
@@ -134,7 +145,7 @@ Depending on the particular qualifier and the particular soil characteristics, d
 
 **Qualifiers that are mutually exclusive may occur in the same soil at different depths**. In this case, they can be used both, each one with the respective specifier. If the specifiers are used with principal qualifiers, the qualifier referring to the upper layer is placed closer to the name of the RSG. If the specifiers are used with supplementary qualifiers related to the texture, the qualifiers are placed in the sequence from the top to the bottom of the profile. The sequence of the other supplementary qualifiers is according to the alphabetical position of the qualifier, not the subqualifier.
 
-![Specifiers to construct optional subqualifiers related to depth requirements and referring to a particular layer (Bathy- not illustrated), modified by S. Dondeyne](images/figure_2-1.png){#fig201 fig-alt="Specifiers to construct optional subqualifiers related to depth requirements and referring to a particular layer (Bathy- not illustrated), modified by S. Dondeyne"}
+![Specifiers to construct optional subqualifiers related to depth requirements and referring to a particular layer (Bathy- and Poly- not illustrated, hatching and colours just for better readability), modified by S. Dondeyne](images/figure_2-1.png){#fig-two-one fig-alt="Specifiers to construct optional subqualifiers related to depth requirements and referring to a particular layer (Bathy- and Poly- not illustrated, hatching and colours just for better readability), modified by S. Dondeyne"}
 
 -   If a qualifier refers to the **major part of a certain depth range or to half or more of a certain depth range** ([Dystric](chapter-05.qmd#sec-dy) and [Eutric](chapter-05.qmd#sec-eu), only), **additional subqualifiers** can be constructed with the following specifiers:
     -   **Epi-** (from Greek *epi*, over): the characteristic is present in the major part (or half or more of the part) between the specified upper limit and 50 cm of the (mineral) soil surface and is absent in the major part (or half or more of the part) between the specified upper limit and 100 cm of the (mineral) soil surface or between the specified upper limit and a limiting layer starting \> 50 cm from the mineral soil surface, whichever is shallower.
@@ -157,7 +168,7 @@ Note: Specifiers conveying redundant information are not added. For example: Ske
 
 If a diagnostic horizon or a layer with a diagnostic property belongs to a buried soil (see [Chapter 2.4](#sec-buried)), the **Thapto-** (from Greek *thaptein*, to bury) specifier can be used to construct **optional or additional subqualifiers**. If used with a principal qualifier, the Thapto- subqualifier **must shift to the supplementary qualifiers** and be placed within the list of the supplementary qualifiers according to the alphabetical position of the qualifier, not the subqualifier.
 
-For soils with a limiting layer, a geomembrane or a continuous layer of *artefacts*, **additional subqualifiers** with the **Supra-** (from Latin *supra*, above) specifier can be constructed to describe the soil material above, if the thickness or depth requirements of a qualifier or of its respective diagnostics are not fulfilled, but all other criteria are fulfilled throughout in the soil material above (e.g. [Ekranic](chapter-05.qmd#sec-ek) [Technosol](chapter-04.qmd#sec-key-tc) (Suprafolic)). If the Supra- specifier is used, the Epi- specifier is not used.
+For soils with a limiting layer, a geomembrane or a continuous layer of *artefacts*, **additional subqualifiers** with the **Supra-** (from Latin *supra*, above) specifier can be constructed to describe the soil material above, if the thickness or depth requirements of a qualifier or of its respective diagnostics are not fulfilled, but all other criteria are fulfilled throughout in the soil material above (e.g. [Ekranic](chapter-05.qmd#sec-ek) [Technosol](chapter-04.qmd#sec-key-tc) (Suprafolic)).
 
 ### Subqualifiers with a given definition {#sec-subq-defn}
 
@@ -194,7 +205,7 @@ The following guidelines apply:
     -   two or three codominant soils
     -   two or three codominant soils plus one or more associated soils.\
         \
-        Dominant soils represent ≥ 50% of the soil cover, codominant soils ≥ 25 and \< 50% of the soil cover. Associated soils represent ≥ 5 and \< 25% of the soil cover or are of high relevance in the landscape ecology. The other soils should be ignored in the denomination of the map unit.\
+        Dominant soils represent ≥ 50% of the soil cover, codominant soils ≥ 25 and \< 50% of the soil cover. Associated soils represent ≥ 5 and \< 25% of the soil cover or are of high relevance in the landscape. The other soils should be ignored in the denomination of the map unit.\
         \
         If codominant or associated soils are indicated, the words 'dominant:', 'codominant:' and 'associated:' are written before the name of the soil; the soils are separated by semicolons.
 2.  The number of qualifiers specified below refers to the dominant soil. For codominant or associated soils, fewer numbers of qualifiers (or even no qualifier) may be appropriate.
@@ -203,7 +214,7 @@ The following guidelines apply:
     b.  For next larger map scales, the RSG plus the first applicable principal qualifier are used.
     c.  For next larger map scales, the RSG plus the first two applicable principal qualifiers are used.\
         \
-        It is not possible to give general numbers for these scales, because this depends very much on the homogeneity or heterogeneity of the landscape. In landscapes of intermediate homogeneity, very small scales would be smaller than 1 :  10 000 000, the next larger scales smaller than 1 : 5 000 000 and the next larger scales smaller than 1 : 1 000 000.
+        It is not possible to give general figures for these scales, because this depends very much on the homogeneity or heterogeneity of the landscape. In landscapes of intermediate homogeneity, very small scales would be smaller than 1 :  10 000 000, the next larger scales smaller than 1 : 5 000 000 and the next larger scales smaller than 1 : 1 000 000.
 4.  If there are fewer qualifiers applicable than described above, the lesser number is used.
 5.  Depending on the purpose of the map or according to national traditions, at any scale level, further qualifiers may be added as **elective qualifiers**. These may be principal qualifiers from further down the list and not already used in the soil name, or they may be supplementary qualifiers. They are placed using the above-mentioned rules for supplementary qualifiers. If two or more elective qualifiers are used, the following rules apply:
     a.  the principal qualifiers are placed first, and of them, the first applicable qualifier is placed first, and

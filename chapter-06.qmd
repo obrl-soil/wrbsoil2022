@@ -2,95 +2,366 @@
 
 ## Reference Soil Groups
 
-|           |        |            |        |            |        |           |        |
-|-----------|--------|------------|--------|------------|--------|-----------|--------|
-| Acrisol   | **AC** | Chernozem  | **CH** | Leptosol   | **LP** | Regosol   | **RG** |
-| Alisol    | **AL** | Durisol    | **DU** | Lixisol    | **LX** | Retisol   | **RT** |
-| Andosol   | **AN** | Ferralsol  | **FR** | Luvisol    | **LV** | Solonchak | **SC** |
-| Anthrosol | **AT** | Fluvisol   | **FL** | Nitisol    | **NT** | Solonetz  | **SN** |
-| Arenosol  | **AR** | Gleysol    | **GL** | Phaeozem   | **PH** | Stagnosol | **ST** |
-| Calcisol  | **CL** | Gypsisol   | **GY** | Planosol   | **PL** | Technosol | **TC** |
-| Cambisol  | **CM** | Histosol   | **HS** | Plinthosol | **PT** | Umbrisol  | **UM** |
-| Cryosol   | **CR** | Kastanozem | **KS** | Podzol     | **PZ** | Vertisol  | **VR** |
+```{r}
+#| label: tbl-a291
+
+library(dplyr)
+library(purrr)
+library(glue)
+library(stringr)
+library(gt)
+library(tibble)
+
+# NB wrap to multicolumns when that functionality becomes available
+tbl_a291_dat <- tribble(
+        ~Name, ~Code,
+    'Acrisol',  'AC',
+     'Alisol',  'AL',
+    'Andosol',  'AN',
+  'Anthrosol',  'AT',
+   'Arenosol',  'AR',
+   'Calcisol',  'CL',
+   'Cambisol',  'CM',
+    'Cryosol',  'CR',
+  'Chernozem',  'CH',
+    'Durisol',  'DU',
+  'Ferralsol',  'FR',
+   'Fluvisol',  'FL',
+    'Gleysol',  'GL',
+   'Gypsisol',  'GY',
+   'Histosol',  'HS',
+ 'Kastanozem',  'KS',
+   'Leptosol',  'LP',
+    'Lixisol',  'LX',
+    'Luvisol',  'LV',
+    'Nitisol',  'NT',
+   'Phaeozem',  'PH',
+   'Planosol',  'PL',
+ 'Plinthosol',  'PT',
+     'Podzol',  'PZ',
+    'Regosol',  'RG',
+    'Retisol',  'RT',
+  'Solonchak',  'SC',
+   'Solonetz',  'SN',
+  'Stagnosol',  'ST',
+  'Technosol',  'TC',
+   'Umbrisol',  'UM',
+   'Vertisol',  'VR')
+
+tbl_a291 <- gt(tbl_a291_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2)) 
+
+tbl_a291
+```
 
 ## Qualifiers
 
-|               |        |                |        |                 |        |                |        |
-|---------|---------|---------|---------|---------|---------|---------|---------|
-| Abruptic      | **ap** | Carbonic       | **cx** | Fluvic          | **fv** | Hypergarbic    | **jb** |
-| Aceric        | **ae** | Chernic        | **ch** | Folic           | **fo** | Hypergeric     | **jq** |
-| Acric         | **ac** | Claric         | **cq** | Fractic         | **fc** | Hypergypsic    | **jg** |
-| Acroxic       | **ao** | Chloridic      | **cl** | Fragic          | **fg** | Hyperhumic     | **jh** |
-| Activic       | **at** | Chromic        | **cr** | Garbic          | **ga** | Hyperhydragric | **jy** |
-| Aeolic        | **ay** | Clayic         | **ce** | Gelic           | **ge** | Hypermagnesic  | **jm** |
-| Akrofluvic    | **kf** | Clayinovic     | **cj** | Gelistagnic     | **gt** | Hypernatric    | **jn** |
-| Akromineralic | **km** | Coarsic        | **cs** | Geoabruptic     | **go** | Hyperorganic   | **jo** |
-| Akroskeletic  | **kk** | Cohesic        | **co** | Geric           | **gr** | Hypersalic     | **jz** |
-| Albic         | **ab** | Columnic       | **cu** | Gibbsic         | **gi** | Hypersideralic | **jr** |
-| Alcalic       | **ax** | Cordic         | **cd** | Gilgaic         | **gg** | Hyperspodic    | **jp** |
-| Alic          | **al** | Cryic          | **cy** | Glacic          | **gc** | Hyperspolic    | **jj** |
-| Aluandic      | **aa** | Cutanic        | **ct** | Gleyic          | **gl** | Hypersulfidic  | **js** |
-| Andic         | **an** | Densic         | **dn** | Glossic         | **gs** | Hypertechnic   | **jt** |
-| Anthraquic    | **aq** | Differentic    | **df** | Greyzemic       | **gz** | Hyperthionic   | **ji** |
-| Anthric       | **ak** | Dolomitic      | **do** | Grumic          | **gm** | Hyperurbic     | **jx** |
-| Anthromollic  | **am** | Dorsic         | **ds** | Gypsic          | **gy** | Hyposulfidic   | **ws** |
-| Anthroumbric  | **aw** | Drainic        | **dr** | Gypsifractic    | **gf** | Hypothionic    | **wi** |
-| Archaic       | **ah** | Duric          | **du** | Gypsiric        | **gp** | Immissic       | **im** |
-| Arenic        | **ar** | Dystric        | **dy** | Haplic          | **ha** | Inclinic       | **ic** |
-| Arenicolic    | **ad** | Ejectiskeletic | **jk** | Hemic           | **hm** | Inclinigleyic  | **iy** |
-| Areninovic    | **aj** | Ekranic        | **ek** | Histic          | **hi** | Inclinistagnic | **iw** |
-| Argisodic     | **as** | Endic          | **ed** | Hortic          | **ht** | Infraandic     | **ia** |
-| Aric          | **ai** | Entic          | **et** | Humic           | **hu** | Infraspodic    | **ia** |
-| Arzic         | **az** | Epic           | **ep** | Hydragric       | **hg** | Irragric       | **ir** |
-| Biocrustic    | **bc** | Escalic        | **ec** | Hydric          | **hy** | Isolatic       | **il** |
-| Brunic        | **br** | Eutric         | **eu** | Hydrophobic     | **hf** | Isopteric      | **ip** |
-| Calcaric      | **ca** | Eutrosilic     | **es** | Hyperalic       | **jl** | Kalaic         | **ka** |
-| Calcic        | **cc** | Evapocrustic   | **ev** | Hyperartefactic | **ja** | Lamellic       | **ll** |
-| Calcifractic  | **cf** | Ferralic       | **fl** | Hypercalcic     | **jc** | Lapiadic       | **ld** |
-| Cambic        | **cm** | Ferric         | **fr** | Hyperduric      | **ju** | Laxic          | **la** |
-| Capillaric    | **cp** | Ferritic       | **fe** | Hyperdystric    | **jd** | Leptic         | **le** |
-| Carbic        | **cb** | Fibric         | **fi** | Hypereutric     | **je** | Lignic         | **lg** |
-| Carbonatic    | **cn** | Floatic        | **ft** | Hyperferritic   | **jf** | Limnic         | **lm** |
+```{r}
+#| label: tbl-a292
 
-|                   |        |                |        |                    |        |               |        |
-|---------|---------|---------|---------|---------|---------|---------|---------|
-| Limonic           | **ln** | Orthoeutric    | **oe** | Prototephric       | **qf** | Someriumbric  | **sw** |
-| Linic             | **lc** | Orthofluvic    | **of** | Protovertic        | **qv** | Spodic        | **sd** |
-| Lithic            | **li** | Orthomineralic | **oi** | Puffic             | **pu** | Spolic        | **sp** |
-| Litholinic        | **lh** | Orthoskeletic  | **ok** | Pyric              | **py** | Stagnic       | **st** |
-| Lixic             | **lx** | Ortsteinic     | **os** | Radiotoxic         | **rx** | Subaquatic    | **sq** |
-| Loamic            | **lo** | Oxyaquic       | **oa** | Raptic             | **rp** | Sulfatic      | **su** |
-| Loaminovic        | **lj** | Oxygleyic      | **oy** | Reductaquic        | **ra** | Sulfidic      | **sf** |
-| Luvic             | **lv** | Pachic         | **ph** | Reductic           | **rd** | Takyric       | **ty** |
-| Magnesic          | **mg** | Panpaic        | **pb** | Reductigleyic      | **ry** | Technic       | **te** |
-| Manganiferric     | **mf** | Pellic         | **pe** | Relictigleyic      | **rl** | Technotephric | **tt** |
-| Mawic             | **mw** | Pelocrustic    | **pq** | Relictistagnic     | **rw** | Tephric       | **tf** |
-| Mazic             | **mz** | Petric         | **pt** | Relictiturbic      | **rb** | Terric        | **tr** |
-| Mineralic         | **mi** | Petrocalcic    | **pc** | Relocatic          | **rc** | Thionic       | **ti** |
-| Mochipic          | **mc** | Petroduric     | **pd** | Rendzic            | **rz** | Thixotropic   | **tp** |
-| Mollic            | **mo** | Petrogypsic    | **pg** | Retic              | **rt** | Thyric        | **th** |
-| Mulmic            | **mm** | Petroplinthic  | **pp** | Rheic              | **rh** | Tidalic       | **td** |
-| Murshic           | **mh** | Petrosalic     | **ps** | Rhodic             | **ro** | Tonguic       | **to** |
-| Muusic            | **mu** | Pisoplinthic   | **px** | Rockic             | **rk** | Tonguichernic | **tc** |
-| Naramic           | **nr** | Placic         | **pi** | Rubic              | **ru** | Tonguimollic  | **tm** |
-| Natric            | **na** | Plaggic        | **pa** | Rustic             | **rs** | Tonguiumbric  | **tw** |
-| Nechic            | **ne** | Plinthic       | **pl** | Salic              | **sz** | Totilamellic  | **ta** |
-| Neobrunic         | **nb** | Posic          | **po** | Sapric             | **sa** | Toxic         | **tx** |
-| Neocambic         | **nc** | Pretic         | **pk** | Saporlithic        | **sh** | Transportic   | **tn** |
-| Nitic             | **ni** | Profondic      | **pn** | Sideralic          | **se** | Tsitelic      | **ts** |
-| Novic             | **nv** | Profundihumic  | **dh** | Silandic           | **sn** | Turbic        | **tu** |
-| Nudiargic         | **ng** | Protic         | **pr** | Siltic             | **sl** | Umbric        | **um** |
-| Nudilithic        | **nt** | Protoandic     | **qa** | Siltinovic         | **sj** | Urbic         | **ub** |
-| Nudinatric        | **nn** | Protoargic     | **qg** | Skeletic           | **sk** | Uterquic      | **uq** |
-| Nudipetric        | **np** | Protocalcic    | **qc** | Skeletofolic       | **ko** | Vermic        | **vm** |
-| Nudispodic        | **ns** | Protogleyic    | **qy** | Skeletohistic      | **kh** | Vertic        | **vr** |
-| Nudiyermic        | **ny** | Protogypsic    | **qq** | Skeletotransportic | **kt** | Vitric        | **vi** |
-| Ochric            | **oh** | Protokalaic    | **qk** | Sodic              | **so** | Wapnic        | **wa** |
-| Oligoeutric       | **ol** | Protosalic     | **qz** | Solimovic          | **sv** | Xanthic       | **xa** |
-| Ombric            | **om** | Protosodic     | **qs** | Sombric            | **sb** | Yermic        | **ye** |
-| Organotransportic | **ot** | Protospodic    | **qp** | Someric            | **si** |               |        |
-| Ornithic          | **oc** | Protostagnic   | **qw** | Somerimollic       | **sm** |               |        |
-| Orthodystric      | **od** | Prototechnic   | **qt** | Somerirendzic      | **sr** |               |        |
+tbl_a292_dat <- tribble(
+                ~Name, ~Code,
+           'Abruptic',  'ap',
+             'Aceric',  'ae',
+              'Acric',  'ac',
+            'Acroxic',  'ao',
+            'Activic',  'at',
+             'Aeolic',  'ay',
+         'Akrofluvic',  'kf',
+      'Akromineralic',  'km',
+       'Akroskeletic',  'kk',
+              'Albic',  'ab',
+            'Alcalic',  'ax',
+               'Alic',  'al',
+           'Aluandic',  'aa',
+              'Andic',  'an',
+         'Anthraquic',  'aq',
+            'Anthric',  'ak',
+       'Anthromollic',  'am',
+       'Anthroumbric',  'aw',
+            'Archaic',  'ah',
+             'Arenic',  'ar',
+         'Arenicolic',  'ad',
+         'Areninovic',  'aj',
+          'Argisodic',  'as',
+               'Aric',  'ai',
+              'Arzic',  'az',
+         'Biocrustic',  'bc',
+             'Brunic',  'br',
+              'Bryic',  'by',
+           'Calcaric',  'ca',
+             'Calcic',  'cc',
+       'Calcifractic',  'cf',
+             'Cambic',  'cm',
+         'Capillaric',  'cp',
+             'Carbic',  'cb',
+         'Carbonatic',  'cn',
+           'Carbonic',  'cx',
+            'Chernic',  'ch',
+             'Claric',  'cq',
+          'Chloridic',  'cl',
+            'Chromic',  'cr',
+             'Clayic',  'ce',
+         'Clayinovic',  'cj',
+            'Coarsic',  'cs',
+            'Cohesic',  'co',
+           'Columnic',  'cu',
+             'Cordic',  'cd',
+              'Cryic',  'cy',
+            'Cutanic',  'ct',
+             'Densic',  'dn',
+        'Differentic',  'df',
+          'Dolomitic',  'do',
+             'Dorsic',  'ds',
+            'Drainic',  'dr',
+              'Duric',  'du',
+            'Dystric',  'dy',
+     'Ejectiskeletic',  'jk',
+            'Ekranic',  'ek',
+              'Endic',  'ed',
+              'Entic',  'et',
+               'Epic',  'ep',
+            'Escalic',  'ec',
+             'Eutric',  'eu',
+         'Eutrosilic',  'es',
+       'Evapocrustic',  'ev',
+           'Ferralic',  'fl',
+             'Ferric',  'fr',
+           'Ferritic',  'fe',
+             'Fibric',  'fi',
+            'Floatic',  'ft',
+             'Fluvic',  'fv',
+              'Folic',  'fo',
+            'Fractic',  'fc',
+     'Fractiskeletic',  'fk',
+             'Fragic',  'fg',
+             'Garbic',  'ga',
+              'Gelic',  'ge',
+        'Gelistagnic',  'gt',
+        'Geoabruptic',  'go',
+              'Geric',  'gr',
+            'Gibbsic',  'gi',
+            'Gilgaic',  'gg',
+             'Glacic',  'gc',
+             'Gleyic',  'gl',
+            'Glossic',  'gs',
+          'Greyzemic',  'gz',
+             'Grumic',  'gm',
+             'Gypsic',  'gy',
+       'Gypsifractic',  'gf',
+           'Gypsiric',  'gp',
+             'Haplic',  'ha',
+              'Hemic',  'hm',
+             'Histic',  'hi',
+             'Hortic',  'ht',
+              'Humic',  'hu',
+          'Hydragric',  'hg',
+             'Hydric',  'hy',
+        'Hydrophobic',  'hf',
+          'Hyperalic',  'jl',
+    'Hyperartefactic',  'ja',
+        'Hypercalcic',  'jc',
+         'Hyperduric',  'ju',
+       'Hyperdystric',  'jd',
+        'Hypereutric',  'je',
+      'Hyperferritic',  'jf',
+        'Hypergarbic',  'jb',
+         'Hypergeric',  'jq',
+        'Hypergypsic',  'jg',
+         'Hyperhumic',  'jh',
+     'Hyperhydragric',  'jy',
+      'Hypermagnesic',  'jm',
+        'Hypernatric',  'jn',
+       'Hyperorganic',  'jo',
+         'Hypersalic',  'jz',
+     'Hypersideralic',  'jr',
+        'Hyperspodic',  'jp',
+        'Hyperspolic',  'jj',
+      'Hypersulfidic',  'js',
+       'Hypertechnic',  'jt',
+       'Hyperthionic',  'ji',
+         'Hyperurbic',  'jx',
+       'Hyposulfidic',  'ws',
+        'Hypothionic',  'wi',
+           'Immissic',  'im',
+           'Inclinic',  'ic',
+      'Inclinigleyic',  'iy',
+     'Inclinistagnic',  'iw',
+         'Infraandic',  'ia',
+        'Infraspodic',  'ia',
+           'Irragric',  'ir',
+           'Isolatic',  'il',
+          'Isopteric',  'ip',
+             'Kalaic',  'ka',
+           'Lamellic',  'll',
+           'Lapiadic',  'ld',
+              'Laxic',  'la',
+             'Leptic',  'le',
+             'Lignic',  'lg',
+             'Limnic',  'lm',
+            'Limonic',  'ln',
+              'Linic',  'lc',
+             'Lithic',  'li',
+         'Litholinic',  'lh',
+              'Lixic',  'lx',
+             'Loamic',  'lo',
+         'Loaminovic',  'lj',
+              'Luvic',  'lv',
+           'Magnesic',  'mg',
+      'Manganiferric',  'mf',
+              'Mawic',  'mw',
+              'Mazic',  'mz',
+          'Mineralic',  'mi',
+           'Mochipic',  'mc',
+             'Mollic',  'mo',
+             'Mulmic',  'mm',
+            'Murshic',  'mh',
+             'Muusic',  'mu',
+            'Naramic',  'nr',
+             'Natric',  'na',
+             'Nechic',  'ne',
+          'Neobrunic',  'nb',
+          'Neocambic',  'nc',
+              'Nitic',  'ni',
+              'Novic',  'nv',
+          'Nudiargic',  'ng',
+         'Nudilithic',  'nt',
+         'Nudinatric',  'nn',
+         'Nudipetric',  'np',
+         'Nudispodic',  'ns',
+         'Nudiyermic',  'ny',
+             'Ochric',  'oh',
+        'Oligoeutric',  'ol',
+             'Ombric',  'om',
+  'Organotransportic',  'ot',
+           'Ornithic',  'oc',
+       'Orthodystric',  'od',
+        'Orthoeutric',  'oe',
+        'Orthofluvic',  'of',
+     'Orthomineralic',  'oi',
+      'Orthoskeletic',  'ok',
+         'Ortsteinic',  'os',
+           'Oxyaquic',  'oa',
+          'Oxygleyic',  'oy',
+             'Pachic',  'ph',
+            'Panpaic',  'pb',
+             'Pellic',  'pe',
+        'Pelocrustic',  'pq',
+             'Petric',  'pt',
+        'Petrocalcic',  'pc',
+         'Petroduric',  'pd',
+        'Petrogypsic',  'pg',
+      'Petroplinthic',  'pp',
+         'Petrosalic',  'ps',
+       'Pisoplinthic',  'px',
+             'Placic',  'pi',
+            'Plaggic',  'pa',
+           'Plinthic',  'pl',
+              'Posic',  'po',
+             'Pretic',  'pk',
+          'Profondic',  'pn',
+      'Profundihumic',  'dh',
+             'Protic',  'pr',
+         'Protoandic',  'qa',
+         'Protoargic',  'qg',
+        'Protocalcic',  'qc',
+        'Protogleyic',  'qy',
+        'Protogypsic',  'qq',
+        'Protokalaic',  'qk',
+         'Protosalic',  'qz',
+         'Protosodic',  'qs',
+        'Protospodic',  'qp',
+       'Protostagnic',  'qw',
+       'Prototechnic',  'qt',
+       'Prototephric',  'qf',
+        'Protovertic',  'qv',
+             'Puffic',  'pu', 
+              'Pyric',  'py', 
+         'Radiotoxic',  'rx', 
+             'Raptic',  'rp', 
+        'Reductaquic',  'ra', 
+           'Reductic',  'rd', 
+      'Reductigleyic',  'ry',
+      'Relictigleyic',  'rl', 
+     'Relictistagnic',  'rw',
+      'Relictiturbic',  'rb', 
+          'Relocatic',  'rc', 
+            'Rendzic',  'rz', 
+              'Retic',  'rt', 
+              'Rheic',  'rh', 
+             'Rhodic',  'ro', 
+             'Rockic',  'rk', 
+              'Rubic',  'ru', 
+             'Rustic',  'rs', 
+              'Salic',  'sz', 
+             'Sapric',  'sa', 
+        'Saporlithic',  'sh', 
+          'Sideralic',  'se', 
+           'Silandic',  'sn', 
+             'Siltic',  'sl', 
+         'Siltinovic',  'sj', 
+           'Skeletic',  'sk', 
+       'Skeletofolic',  'ko', 
+      'Skeletohistic',  'kh',
+ 'Skeletotransportic',  'kt', 
+              'Sodic',  'so', 
+          'Solimovic',  'sv', 
+            'Sombric',  'sb', 
+            'Someric',  'si', 
+       'Somerimollic',  'sm', 
+      'Somerirendzic',  'sr', 
+       'Someriumbric',  'sw',
+             'Spodic',  'sd',
+             'Spolic',  'sp',
+            'Stagnic',  'st',
+         'Subaquatic',  'sq',
+           'Sulfatic',  'su',
+           'Sulfidic',  'sf',
+            'Takyric',  'ty',
+            'Technic',  'te',
+      'Technotephric',  'tt',
+            'Tephric',  'tf',
+             'Terric',  'tr',
+            'Thionic',  'ti',
+        'Thixotropic',  'tp',
+             'Thyric',  'th',
+            'Tidalic',  'td',
+            'Tonguic',  'to',
+      'Tonguichernic',  'tc',
+       'Tonguimollic',  'tm',
+       'Tonguiumbric',  'tw',
+       'Totilamellic',  'ta',
+              'Toxic',  'tx',
+        'Transportic',  'tn',
+           'Tsitelic',  'ts',
+             'Turbic',  'tu',
+             'Umbric',  'um',
+              'Urbic',  'ub',
+           'Uterquic',  'uq',
+             'Vermic',  'vm',
+             'Vertic',  'vr',
+             'Vitric',  'vi',
+             'Wapnic',  'wa',
+            'Xanthic',  'xa',
+             'Yermic',  'ye')
+
+tbl_a292 <- gt(tbl_a292_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2)) 
+
+tbl_a292
+```
 
 ## Specifiers
 
@@ -119,7 +390,7 @@ followed by the principal qualifiers, if several ones apply, with a '.' between 
 if applicable, followed by a '-',\
 followed by the supplementary qualifiers related to texture, if several ones apply, with a '.' between them, in the sequence from the top to the bottom of the profile,\
 if applicable, followed by a '-',\
-followed by the other supplementary qualifiers, if several ones apply, with a '.' in between them, in alphabetical order of the qualifier names (not in alphabetical order of their codes), \
+followed by the other supplementary qualifiers, if several ones apply, with a '.' in between them, in alphabetical order of the qualifier names (not in alphabetical order of their codes),\
 if applicable, followed by a '-',\
 followed by qualifiers that are not in the list for the particular RSG.
 
@@ -134,14 +405,14 @@ With: PQ = principal qualifier, with or without added specifiers, TQ = supplemen
 
 ### Examples of the use of the codes for naming soils
 
-Albic Stagnic Luvisol (Episiltic, Endoclayic, Cutanic, Differentic, Ochric):\
-LV-st.ab-slp.cen-ct.df.oh
+Albic Stagnic Luvisol (Episiltic, Katoclayic, Bathysiltic, Cutanic, Differentic, Epic, Ochric):\
+LV-st.ab-slp.cek.sld-ct.df.ep.oh
 
 Hemic Folic Endorockic Histosol (Dystric):\
 HS-rkn.fo.hm-dy
 
-Haplic Ferralsol (Pantoloamic, Dystric, Humic, Bathypetroplinthic, Posic):\
-FR-ha-loe-dy.hu.ppd.po
+Haplic Ferralsol (Pantoloamic, Dystric, Endic, Humic, Bathypetroplinthic, Posic):\
+FR-ha-loe-dy.ed.hu.ppd.po
 
 Calcaric Skeletic Pantofluvic Fluvisol (Pantoarenic, Ochric):\
 FL-fve.sk.ca-are-oh
@@ -177,7 +448,7 @@ With: PQ = principal qualifier, EQ = elective qualifier; etc = further qualifier
 
 ### Examples of the use of the codes for creating map legends
 
-Umbric Geric Xanthic Ferralsols (Clayic, Dystric, Humic):\
+Umbric Geric Xanthic Ferralsols (Clayic, Dystric, Endic, Humic):\
 first scale level: FR\
 second scale level: FR-xa\
 third scale level: FR-xa.gr

@@ -99,7 +99,7 @@ and fulfilling the set of diagnostic criteria of the [Eutric](#sec-eu) qualifier
 
 ### Arenicolic (ad) {#sec-ad .unnumbered}
 
-(related to the worm genus *Arenicola*): having ≥ 50% (by volume, weighted average) of worm holes, casts, or filled animal burrows in a layer, ≥ 20 cm thick and occurring in a tidal area.
+(related to the worm genus *Arenicola*): having ≥ 50% (by volume, weighted average) of worm holes, worm casts, or filled animal burrows in a layer, ≥ 20 cm thick and occurring in a tidal area.
 
 ### Aric (ai) {#sec-ai .unnumbered}
 
@@ -123,6 +123,10 @@ and fulfilling the set of diagnostic criteria of the [Eutric](#sec-eu) qualifier
 
 -   an [*albic horizon*](chapter-03.qmd#sec-albich) that overlies an [*argic*](chapter-03.qmd#sec-argich), a [*natric*](chapter-03.qmd#sec-natrich) or a [*spodic horizon*](chapter-03.qmd#sec-spodich), *or*
 -   a layer with [*retic properties*](chapter-03.qmd#sec-reticp).
+
+### Bryic (by) {#sec-by .unnumbered}
+
+(from Greek *bryon*, moss): ≥ 75% (by volume, related to the fine earth plus all dead plant residues) of the [*organic material*](chapter-03.qmd#sec-orgm){style="font-size: 11pt;"} within 100 cm of the soil surface consists of moss fibres.
 
 ### Calcaric (ca) {#sec-ca .unnumbered}
 
@@ -203,9 +207,9 @@ and not having a [*calcic*](chapter-03.qmd#sec-calch) or a [*petrocalcic horizon
 
 ### Coarsic (cs) {#sec-cs .unnumbered}
 
-(from English *coarse*): having \< 20% (by volume, related to the whole soil) fine earth, averaged over a depth of 75 cm from the soil surface or to a limiting layer starting \> 25 cm from the soil surface, whichever is shallower.
+(from English *coarse*): having \< 20% (by volume, related to the whole soil) fine earth plus dead plant residues of any size, averaged over a depth of 75 cm from the soil surface or to a limiting layer starting \> 25 cm from the soil surface, whichever is shallower.
 
-**Note:** The volume not occupied by fine earth is occupied by coarse fragments or pores.
+**Note:** The volume occupied neither by fine earth not by dead plant residues is occupied by coarse fragments, remnants of broken-up cemented layers \> 2 mm, [*artefacts*](chapter-03.qmd#sec-artefm) \> 2 mm, or interstices.
 
 ### Cohesic (co) {#sec-co .unnumbered}
 
@@ -266,7 +270,7 @@ and not having a [*calcic*](chapter-03.qmd#sec-calch) or a [*petrocalcic horizon
 
 #### Hyperduric (ju) {#sec-ju .unnumbered}
 
-(from Greek *hyper*, over): having a [*duric horizon*](chapter-03.qmd#sec-durich) with ≥ 50% (by volume, related to the whole soil) durinodes or fragments of a broken-up [*petroduric horizon*](chapter-03.qmd#sec-pdurich) starting ≤ 100 cm from the mineral soil surface (2).
+(from Greek *hyper*, over): having a [*duric horizon*](chapter-03.qmd#sec-durich) with ≥ 50% (by volume, related to the whole soil) durinodes or remnants of a broken-up [*petroduric horizon*](chapter-03.qmd#sec-pdurich) starting ≤ 100 cm from the mineral soil surface (2).
 
 ### Dystric (dy) {#sec-dy .unnumbered}
 
@@ -409,7 +413,7 @@ and not having a [*calcic*](chapter-03.qmd#sec-calch) or a [*petrocalcic horizon
 
 ### Fibric (fi) {#sec-fi .unnumbered}
 
-(from Latin *fibra*, fiber): having [*organic material*](chapter-03.qmd#sec-orgm) that, after rubbing, consists of \> two thirds (by volume, related to the fine earth plus all dead plant remnants) of recognizable dead plant tissues in
+(from Latin *fibra*, fiber): having [*organic material*](chapter-03.qmd#sec-orgm) that, after rubbing, consists of \> two thirds (by volume, related to the fine earth plus all dead plant residues) of recognizable dead plant tissues in
 
 -   one or more layers with a combined thickness of ≥ 30 cm within 100 cm of the soil surface (2; no subqualifier if no [*organic material*](chapter-03.qmd#sec-orgm) is present ≥ 60 cm of the soil surface), or
 -   the weighted average of the entire [*organic material*](chapter-03.qmd#sec-orgm) within 100 cm of the soil surface.
@@ -445,21 +449,21 @@ and not having a [*calcic*](chapter-03.qmd#sec-calch) or a [*petrocalcic horizon
 
 ### Fractic (fc) {#sec-fc .unnumbered}
 
-(from Latin *fractus*, broken): having a layer, ≥ 10 cm thick and starting ≤ 100 cm from the mineral soil surface, consisting of a broken [*petrocalcic*](chapter-03.qmd#sec-pcalch) or [*petrogypsic horizon*](chapter-03.qmd#sec-pgypsich), the remnants of which:
+(from Latin *fractus*, broken): having a layer, ≥ 10 cm thick and starting ≤ 100 cm from the mineral soil surface, consisting of a broken-up [*petrocalcic*](chapter-03.qmd#sec-pcalch) or [*petrogypsic horizon*](chapter-03.qmd#sec-pgypsich), the remnants of which:
 
 -   occupy ≥ 40% (by volume, related to the whole soil), *and*
 -   have an average horizontal length of \< 10 cm and/or occupy \< 80% (by volume, related to the whole soil) (2).
 
 #### Calcifractic (cf) {#sec-cf .unnumbered}
 
-(from Latin *calx*, lime): having a layer, ≥ 10 cm thick and starting ≤ 100 cm from the mineral soil surface, consisting of a broken [*petrocalcic horizon*](chapter-03.qmd#sec-pcalch), the remnants of which:
+(from Latin *calx*, lime): having a layer, ≥ 10 cm thick and starting ≤ 100 cm from the mineral soil surface, consisting of a broken-up [*petrocalcic horizon*](chapter-03.qmd#sec-pcalch), the remnants of which:
 
 -   occupy ≥ 40% (by volume, related to the whole soil), *and*
 -   have an average horizontal length of \< 10 cm and/or occupy \< 80% (by volume, related to the whole soil) (2).
 
 #### Gypsofractic (gf) {#sec-gf .unnumbered}
 
-(from Greek *gypsos*, gypsum): having a layer, ≥ 10 cm thick and starting ≤ 100 cm from the mineral soil surface, consisting of a broken [*petrogypsic horizon*](chapter-03.qmd#sec-pgypsich), the remnants of which:
+(from Greek *gypsos*, gypsum): having a layer, ≥ 10 cm thick and starting ≤ 100 cm from the mineral soil surface, consisting of a broken-up [*petrogypsic horizon*](chapter-03.qmd#sec-pgypsich), the remnants of which:
 
 -   occupy ≥ 40% (by volume, related to the whole soil), *and*
 -   have an average horizontal length of \< 10 cm and/or occupy \< 80% (by volume, related to the whole soil) (2).
@@ -567,7 +571,7 @@ and not having a [*gypsic*](chapter-03.qmd#sec-gypsih) or [*petrogypsic horizon*
 
 ### Hemic (hm) {#sec-hm .unnumbered}
 
-(from Greek *hemisys*, half): having [*organic material*](chapter-03.qmd#sec-orgm) that, after rubbing, consists of ≤ two thirds and \> one sixth (by volume, related to the fine earth plus all dead plant remnants) of recognizable dead plant tissues in
+(from Greek *hemisys*, half): having [*organic material*](chapter-03.qmd#sec-orgm) that, after rubbing, consists of ≤ two thirds and \> one sixth (by volume, related to the fine earth plus all dead plant residues) of recognizable dead plant tissues in
 
 -   one or more layers with a combined thickness of ≥ 30 cm within 100 cm of the soil surface (2; no subqualifier if no [*organic material*](chapter-03.qmd#sec-orgm) is present ≥ 60 cm of the soil surface), *or*
 -   the weighted average of the entire organic material within 100 cm of the soil surface.
@@ -726,7 +730,7 @@ with or without other accumulations, and that have a combined thickness of ≥ 
 
 ### Lignic (lg) {#sec-lg .unnumbered}
 
-(from Latin *lignum*, wood): having inclusions of intact wood fragments that make up ≥ 25% of the soil volume (related to the fine earth plus all dead plant remnants), within 50 cm from the soil surface.
+(from Latin *lignum*, wood): having inclusions of intact wood fragments that make up ≥ 25% of the soil volume (related to the fine earth plus all dead plant residues), within 50 cm from the soil surface.
 
 ### Limnic (lm) {#sec-lm .unnumbered}
 
@@ -886,6 +890,10 @@ and having a bulk density of ≥ 0.2 kg dm^-3^ and one or both of the followi
 ### Nechic (ne) {#sec-ne .unnumbered}
 
 (from Amharic *nech*, white): having a pH~water~ of \< 5 and uncoated mineral grains of sand and/or coarse silt size in a darker matrix somewhere within 5 cm of the mineral soil surface and no [*spodic horizon*](chapter-03.qmd#sec-spodich) starting ≤ 200 cm from the mineral soil surface.
+
+### Neobrunic (nb) {.unnumbered}
+
+see [*Brunic*](#sec-br).
 
 ### Neocambic (nc) {.unnumbered}
 
@@ -1055,7 +1063,7 @@ see [*Vertic*](#sec-vr).
 
 ### Puffic (pu) {#sec-pu .unnumbered}
 
-(from English *to puff*): having a chemical surface crust formed by readily soluble salts *(*in [*Solonchaks*](chapter-04.qmd#sec-key-sc) only).
+(from English *to puff*): having a chemical surface crust formed by readily soluble salts.
 
 ### Pyric (py) {#sec-py .unnumbered}
 
@@ -1127,7 +1135,7 @@ see [*Vertic*](#sec-vr).
 
 ### Sapric (sa) {#sec-sa .unnumbered}
 
-(from Greek *sapros*, rotten): having [*organic material*](chapter-03.qmd#sec-orgm) that, after rubbing, consists of ≤ one sixth (by volume, related to the fine earth plus all dead plant remnants) of recognizable dead plant tissues in
+(from Greek *sapros*, rotten): having [*organic material*](chapter-03.qmd#sec-orgm) that, after rubbing, consists of ≤ one sixth (by volume, related to the fine earth plus all dead plant residues) of recognizable dead plant tissues in
 
 -   one or more layers with a combined thickness of ≥ 30 cm within 100 cm of the soil surface (2; no subqualifier if no organic material is present ≥ 60 cm of the soil surface), or
 -   the weighted average of the entire [*organic material*](chapter-03.qmd#sec-orgm) 100 cm of the soil surface.
@@ -1171,6 +1179,10 @@ see [*Vertic*](#sec-vr).
 
 (from Latin *ejicere*, to throw out): having ≥ 40% (by volume, related to the whole soil) coarse fragments of pyroclastic origin (lapilli, bombs and/or blocks), averaged over a depth of 100 cm from the mineral soil surface or to a limiting layer, whichever is shallower (5).
 
+#### Fractiskeletic (fk)  {#sec-fk .unnumbered}
+
+(from Latin *fractus*, broken): having ≥ 40% (by volume, related to the whole soil) coarse fragments plus remnants of a broken-up cemented layer, \> 2 mm, averaged over a depth of 100 cm from the mineral soil surface or to a limiting layer, whichever is shallower; and not fulfilling the set of criteria of the [Duric](sec-du), [Fractic](#sec-fc), [Pisoplinthic](#sec-px) and [Skeletic](#sec-sk) qualifier (5).
+
 #### Orthoskeletic (ok) {#sec-ok .unnumbered}
 
 (from Greek *orthos*, right): having:
@@ -1188,7 +1200,7 @@ see [*Vertic*](#sec-vr).
 
 #### Protosodic (qs) {#sec-qs .unnumbered}
 
-(from Greek *proton*, first): having a layer, ≥ 20 cm thick and starting ≤ 100 cm from the mineral soil surface, that has ≥ 6% Na on the exchange complex; and not having a [*natric horizon*](chapter-03.qmd#sec-natrich) starting ≤ 100 cm from the soil surface (2).
+(from Greek *proton*, first): having a layer, ≥ 20 cm thick and starting ≤ 100 cm from the mineral soil surface, that has ≥ 6% Na and \< 15% Na plus Mg on the exchange complex; and not having a [*natric horizon*](chapter-03.qmd#sec-natrich) starting ≤ 100 cm from the soil surface (2).
 
 ### Solimovic (sv) {#sec-sv .unnumbered}
 
@@ -1230,14 +1242,14 @@ see [*Vertic*](#sec-vr).
 
 (from Latin *stagnare*, to flood): having a layer, ≥ 25 cm thick and starting ≤ 75 cm from the mineral soil surface, that does not form part of a [hydragric horizon](chapter-03.qmd#sec-hydrh) and that has:
 
--   stagnic properties in which the area of reductimorphic features plus the area of oximorphic features is ≥ 25% (weighted average) of the layer's total area, and
+-   stagnic properties in which the area of reductimorphic features plus the area of oximorphic features is ≥ 25% (weighted average, related to the fine earth plus oximorphic features of any size and any cementation class) of the layer's total area, and
 -   reducing conditions for some time during the year in some parts of the layer's volume that has the reductimorphic features (2).
 
 #### Inclinistagnic (iw) {#sec-iw .unnumbered}
 
 (from Latin *inclinare*, to bow): having a layer, ≥ 25 cm thick and starting ≤ 75 cm from the mineral soil surface, that does not form part of a [*hydragric horizon*](chapter-03.qmd#sec-hydrh) and that has:
 
--   [*stagnic properties*](chapter-03.qmd#sec-stagnp) in which the area of reductimorphic features plus the area of oximorphic features is ≥ 25% (weighted average) of the layer's total area, *and*
+-   [*stagnic properties*](chapter-03.qmd#sec-stagnp) in which the area of reductimorphic features plus the area of oximorphic features is ≥ 25% (weighted average, related to the fine earth plus oximorphic features of any size and any cementation class) of the layer's total area, *and*
 -   [*reducing conditions*](chapter-03.qmd#sec-reducc) for some time during the year in some parts of the layer's volume that has the reductimorphic features,
 -   a slope inclination of ≥ 5% and a subsurface water flow for some time during the year (2).
 
@@ -1245,14 +1257,14 @@ see [*Vertic*](#sec-vr).
 
 (from Greek *proton*, first): having a layer, ≥ 25 cm thick and starting ≤ 75 cm from the mineral soil surface, that does not form part of a [*hydragric horizon*](chapter-03.qmd#sec-hydrh) and that has:
 
--   [*stagnic properties*](chapter-03.qmd#sec-stagnp) in which the area of reductimorphic features plus the area of oximorphic features is ≥ 10% and \< 25% (weighted average) of the layer's total area, and
+-   [*stagnic properties*](chapter-03.qmd#sec-stagnp) in which the area of reductimorphic features plus the area of oximorphic features is ≥ 10% and \< 25% (weighted average, related to the fine earth plus oximorphic features of any size and any cementation class) of the layer's total area, and
 -   [*reducing conditions*](chapter-03.qmd#sec-reducc) for some time during the year in some parts of the layer's volume that has the reductimorphic features (2).
 
 #### Relictistagnic (rw) {#sec-rw .unnumbered}
 
 (from Latin *relictus*, left back): having a layer, ≥ 25 cm thick and starting ≤ 75 cm from the mineral soil surface, that has:
 
--   [*stagnic properties*](chapter-03.qmd#sec-stagnp) in which the area of oximorphic features is ≥ 10% (weighted average) of the layer's total area, and
+-   [*stagnic properties*](chapter-03.qmd#sec-stagnp) in which the area of oximorphic features is ≥ 10% (weighted average, related to the fine earth plus oximorphic features of any size and any cementation class) of the layer's total area, and
 -   no [*reducing conditions*](chapter-03.qmd#sec-reducc) (2).
 
 ### Subaquatic (sq) {#sec-sq .unnumbered}

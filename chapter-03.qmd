@@ -59,7 +59,7 @@ An anthraquic horizon is a surface horizon consisting of [*mineral material*](#s
             ***and***
     b.  a bulk density higher by ≥ 10% (relative) than that of the puddled layer;\
         ***and***
-    c.  oximorphic features, in ≥ 5% of its exposed area, that:
+    c.  oximorphic features, in ≥ 5% of its exposed area (related to the fine earth plus oximorphic features of any size and any cementation class), that:
         i.  are predominantly on biopore walls and, if soil aggregates are present, predominantly on or adjacent to aggregate surfaces; ***and***
         ii. have a Munsell colour hue ≥ 2.5 units redder and a chroma ≥ 1 unit higher, moist, than the surrounding material;\
             ***and***
@@ -260,7 +260,7 @@ A chernic horizon (from Russian *chorniy*, black) is a relatively thick, well-st
 
 A chernic horizon is a surface horizon consisting of [*mineral material*](#sec-minm) and has:
 
-1.  ≥ 50% (by volume, weighted average, related to the whole soil) of fine earth and does not consist of [*mulmic material*](#sec-mulmicm); ***and***
+1.  ≥ 50% (by volume, weighted average, related to the whole soil) fine earth and does not consist of [*mulmic material*](#sec-mulmicm); ***and***
 2.  single or in combination, in ≥ 90% (by volume):
     a.  granular structure; ***or***
     b.  subangular blocky structure with an average aggregate size of ≤ 2 cm; ***or***
@@ -363,13 +363,13 @@ Cryic horizons may fulfil the diagnostic criteria of [*histic*](#sec-histih), [*
 
 #### General description {#sec-durich-desc}
 
-A duric horizon (from Latin *durus*, hard) is a subsurface horizon showing nodules or concretions (durinodes), cemented by silica (SiO~2~), presumably in the form of opal and microcrystalline silica. Many durinodes have carbonate coatings. It may also contain fragments of a broken-up [*petroduric horizon*](#sec-pdurich).
+A duric horizon (from Latin *durus*, hard) is a subsurface horizon showing nodules or concretions (durinodes), cemented by silica (SiO~2~), presumably in the form of opal and microcrystalline silica. Many durinodes have carbonate coatings. It may also contain remnants of a broken-up [*petroduric horizon*](#sec-pdurich).
 
 #### Diagnostic criteria {#sec-durich-diag}
 
 A duric horizon consists of [*mineral material*](#sec-minm) and has:
 
-1.  ≥ 10% (by volume, related to the whole soil) of nodules or concretions (durinodes) and/or of fragments of a broken-up [*petroduric horizon*](#sec-pdurich) with all of the following:
+1.  ≥ 10% (by volume, related to the whole soil) of nodules or concretions (durinodes) and/or of remnants of a broken-up [*petroduric horizon*](#sec-pdurich) with all of the following:
     a.  have ≥ 1% (by exposed area of the nodules or concretions) accumulation of visible secondary silica; ***and***
     b.  when air-dry, \< 50% (by volume) slake in 1 *M* HCl, even after prolonged soaking, ***and***
     c.  when air-dry, ≥ 50% (by volume) slake in hot concentrated KOH or hot concentrated NaOH, at least if alternating with 1 M HCl; ***and***
@@ -402,7 +402,7 @@ A ferralic horizon (from Latin *ferrum*, iron, and *alumen*, alum) is a subsurfa
 A ferralic horizon consists of [*mineral material*](#sec-minm) and:
 
 1.  has a texture class of sandy loam or finer and ≥ 8% clay; and
-2.  has \< 80% (by volume, related to the whole soil) coarse fragments, [*pisoplinthic*](#sec-pisoph) concretions or nodules or remnants of a [*petroplinthic horizon*](#sec-pplinthich); and
+2.  has \< 80% (by volume, related to the whole soil) coarse fragments, [*pisoplinthic*](#sec-pisoph) concretions or nodules or remnants of a broken-up [*petroplinthic horizon*](#sec-pplinthich), \> 2 mm; and
 3.  has a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 16 cmol~c~ kg^-1^ clay; and
 4.  has \< 10% (by grain count) easily weatherable minerals in the 0.05--0.2 mm fraction; and
 5.  does not have [*andic*](#sec-andip) or [*vitric properties*](#sec-vitricp); and
@@ -590,7 +590,7 @@ A hortic horizon is a surface horizon consisting of [*mineral material*](#sec-mi
 
 #### Field identification {#sec-hortih-flid}
 
-The hortic horizon is thoroughly mixed. Potsherds and other artefacts are common, although often abraded. Tillage marks or evidence of mixing of the soil can be present.
+The hortic horizon is thoroughly mixed. Potsherds and other [*artefacts*](#sec-artefm) are common, although often abraded. Tillage marks or evidence of mixing of the soil can be present.
 
 #### Additional information {#sec-hortih-info}
 
@@ -613,10 +613,10 @@ A hydragric horizon consists of [*mineral material*](#sec-minm) and:
 1.  is overlain by an anthraquic horizon; ***and***
 2.  consists of one or more subhorizons and each of them has one or more of the following:
     a.  reductimorphic features with a Munsell colour value of ≥ 4 and a chroma of ≤ 2, both moist, around biopore walls; ***or***
-    b.  ≥ 15% (by exposed area) oximorphic features that:
+    b.  ≥ 15% (by exposed area, related to the fine earth plus oximorphic features of any size and any cementation class) oximorphic features that:
         i.  are predominantly inside soil aggregates; ***and***
         ii. have a Munsell colour hue ≥ 2.5 units redder and a chroma ≥ 1 unit higher, moist, than the surrounding material; ***or***
-    c.  ≥ 15% (by exposed area) oximorphic features that:
+    c.  ≥ 15% (by exposed area, related to the fine earth plus oximorphic features of any size and any cementation class) oximorphic features that:
         i.  are predominantly on biopore walls and, if soil aggregates are present, predominantly on or adjacent to aggregate surfaces; ***and***
         ii. have a Munsell colour hue ≥ 2.5 units redder and a chroma ≥ 1 unit higher, moist, than the surrounding material; ***or***
     d.  Fe~dith~ ≥ 1.5 times and/or Mn~dith~ ≥ 3 times that of the weighted average of the puddled layer of the overlying anthraquic horizon; ***and***
@@ -677,7 +677,7 @@ A limonic horizon (from Greek *leimon*, meadow) develops in layers with [*gleyic
 
 A limonic horizon:
 
-1.  has ≥ 50% (by exposed area) oximorphic features that are
+1.  has ≥ 50% (by exposed area, related to the fine earth plus oximorphic features of any size and any cementation class) oximorphic features that are
     a.  black, surrounded by lighter-coloured material, ***or***
     b.  have a Munsell colour hue ≥ 2.5 units redder and a chroma ≥ 1 unit higher, moist, than the surrounding material ***or***
     c.  have a Munsell colour hue ≥ 2.5 units redder and a chroma ≥ 1 unit higher, moist, than the matrix of the directly underlying layer; ***and***
@@ -686,8 +686,8 @@ A limonic horizon:
     b.  underlain by a layer with ≥ 95% (by exposed area) reductimorphic features that have the following Munsell colours, moist:
         i.  a hue of N, 10Y, GY, G, BG, B or PB; ***or***
         ii. a hue of 2.5Y or 5Y and a chroma of ≤ 2; ***and***
-3.  is cemented with a cementation class of at least moderately cemented in ≥ 25% (by volume); ***and***
-4.  has ≥ 2.5% Fe~dith~ + Mn~dith~, including both the cemented and the non-cemented parts; ***and***
+3.  is cemented with a cementation class of at least moderately cemented in ≥ 25% (by volume, related to the fine earth plus oximorphic features of any size and any cementation class); ***and***
+4.  has ≥ 2.5% Fe~dith~ + Mn~dith~ (related to the fine earth plus oximorphic features of any size and any cementation class); ***and***
 5.  has a thickness of ≥ 2.5 cm.
 
 #### Field identification {#sec-limonich-flid}
@@ -915,7 +915,7 @@ If both silica and carbonates are present as cementing agents, the petroduric ho
 
 #### Relationships with some other diagnostics {#sec-pdurich-reln}
 
-In arid climates, petroduric horizons may occur in association with [*petrocalcic horizons*](#sec-pcalch), into which they may grade laterally, and/or occur in conjunction with [*calcic*](#sec-calch) or [*gypsic horizons*](#sec-gypsih). Fragments of a petroduric horizon or durinodes constitute a [*duric horizon*](#sec-durich). Petroduric horizons may develop from volcanic ashes and may be overlain by layers with [*andic*](#sec-andicp) or [*vitric properties*](#sec-vitricp).
+In arid climates, petroduric horizons may occur in association with [*petrocalcic horizons*](#sec-pcalch), into which they may grade laterally, and/or occur in conjunction with [*calcic*](#sec-calch) or [*gypsic horizons*](#sec-gypsih). Remnants of a petroduric horizon or durinodes constitute a [*duric horizon*](#sec-durich). Petroduric horizons may develop from volcanic ashes and may be overlain by layers with [*andic*](#sec-andicp) or [*vitric properties*](#sec-vitricp).
 
 ### Petrogypsic horizon {#sec-pgypsich}
 
@@ -960,7 +960,7 @@ A petroplinthic horizon consists of [*mineral material*](#sec-minm) and:
 
 1.  consists of oximorphic features inside (former) soil aggregates that are at least partially interconnected and have a reddish, yellowish and/or blackish colour; ***and***
 2.  has one or both of the following:
-    a.  ≥ 2.5% Fe~dith~ in the fine earth; ***or***
+    a.  ≥ 2.5% Fe~dith~ (related to the fine earth plus oximorphic features of any size and any cementation class); ***or***
     b.  ≥ 10% Fe~dith~ in the oximorphic features; ***and***
 3.  has a ratio between Fe~ox~ and Fe~dith~ of \< 0.1 in the fine earth or in the oximorphic features; ***and***
 4.  is cemented with a cementation class of at least strongly cemented; ***and***
@@ -986,7 +986,7 @@ The low ratio between Fe~ox~ and Fe~dith~ separates the petroplinthic horizon fr
 
 #### General description {#sec-pisoph-desc}
 
-A pisoplinthic horizon (from Latin *pisum*, pea, and Greek *plinthos*, brick) contains a large amount of concretions and/or nodules that are at least moderately cemented by Fe (and in some cases also by Mn) (*hydr*-)*oxides*. It may also contain fragments of a broken-up [*petroplinthic horizon*](#sec-pplinthich).
+A pisoplinthic horizon (from Latin *pisum*, pea, and Greek *plinthos*, brick) contains a large amount of concretions and/or nodules that are at least moderately cemented by Fe (and in some cases also by Mn) (*hydr*-)*oxides*. It may also contain remnants of a broken-up [*petroplinthic horizon*](#sec-pplinthich).
 
 #### Diagnostic criteria {#sec-pisoph-diag}
 
@@ -994,7 +994,7 @@ A pisoplinthic horizon consists of [*mineral material*](#sec-minm) and:
 
 1.  has ≥ 40% of its volume (related to the whole soil) occupied by, single or in combination,
     a.  yellowish, reddish and/or blackish concretions and/or nodules; ***or***
-    b.  fragments of a broken-up [*petroplinthic horizon*](#sec-pplinthich), with a diameter of \> 2 mm and a cementation class of at least moderately cemented; ***and***
+    b.  remnants of a broken-up [*petroplinthic horizon*](#sec-pplinthich), with a diameter of \> 2 mm and a cementation class of at least moderately cemented; ***and***
 2.  does not form part of a [*petroplinthic horizon*](#sec-pplinthich); ***and***
 3.  has a thickness of ≥ 15 cm.
 
@@ -1045,9 +1045,9 @@ A plinthic horizon (from Greek *plinthos*, brick) is a subsurface horizon that i
 
 A plinthic horizon consists of [*mineral material*](#sec-minm) and:
 
-1.  has in ≥ 15% of its exposed area (related to the fine earth plus accumulations of oxides of any size and any cementation class) oximorphic features inside (former) soil aggregates that are black or have a redder hue and a higher chroma than the surrounding material; ***and***
+1.  has in ≥ 15% of its exposed area (related to the fine earth plus oximorphic features of any size and any cementation class) oximorphic features inside (former) soil aggregates that are black or have a redder hue and a higher chroma than the surrounding material; ***and***
 2.  one or more of the following:
-    a.  has ≥ 2.5% Fe~dith~ in the fine earth; ***or***
+    a.  has ≥ 2.5% Fe~dith~ (related to the fine earth plus oximorphic features of any size and any cementation class); ***or***
     b.  has ≥ 10% Fe~dith~ in the oximorphic features; ***or***
     c.  changes irreversibly to a continuously cemented horizon with a cementation class of at least strongly cemented after repeated drying and wetting; ***and***
 3.  has a ratio between Fe~ox~ and Fe~dith~ of \< 0.1 in the fine earth or in the oximorphic features; ***and***
@@ -1072,7 +1072,7 @@ If the oximorphic features do not reach 15% of the exposed area, it may be a [*f
 
 #### General description {#sec-preth-desc}
 
-A pretic horizon (from Portuguese *preto*, black) is a mineral surface horizon that results from human activities with the addition of black carbon, especially charcoal. It is characterized by its dark colour, usually the presence of artefacts (ceramic fragments, lithic instruments, bone or shell tools etc.) and high contents of organic carbon, phosphorus, calcium, magnesium and micronutrients (mainly zinc and manganese), usually contrasting with natural soils in the surrounding area. It contains remnants of black carbon, which may be recognized visually or by chemical analyses.
+A pretic horizon (from Portuguese *preto*, black) is a mineral surface horizon that results from human activities with the addition of black carbon, especially charcoal. It is characterized by its dark colour, usually the presence of [*artefacts*](#sec-artefm) (ceramic fragments, lithic instruments, bone or shell tools etc.) and high contents of organic carbon, phosphorus, calcium, magnesium and micronutrients (mainly zinc and manganese), usually contrasting with natural soils in the surrounding area. It contains remnants of black carbon, which may be recognized visually or by chemical analyses.
 
 Pretic horizons are for example widespread in the Amazon Basin, where they are the result of pre-Columbian activities and have persisted over many centuries despite the prevailing humid tropical conditions generally causing high organic matter mineralization rates. These soils with a pretic horizon are known as 'Terra Preta de Indio' or 'Amazonian Dark Earths'. They generally have high organic carbon stocks. Many of them are dominated by low-activity clays.
 
@@ -1516,7 +1516,7 @@ Gleyic properties refer to [*mineral material*](#sec-minm), show redoximorphic f
 1.  a layer with ≥ 95% (by exposed area) reductimorphic features that have the following Munsell colours, moist:
     a.  a hue of N, 10Y, GY, G, BG, B or PB; ***or***
     b.  a hue of 2.5Y or 5Y and a chroma of ≤ 2; ***or***
-2.  a layer with \> 5% (by exposed area) oximorphic features that:
+2.  a layer with \> 5% (by exposed area, related to the fine earth plus oximorphic features of any size and any cementation class) oximorphic features that:
     a.  are predominantly on biopore walls and, if soil aggregates are present, predominantly on or adjacent to aggregate surfaces; ***and***
     b.  have a Munsell colour hue ≥ 2.5 units redder and a chroma ≥ 1 unit higher, moist, than the surrounding material or than the matrix of the directly underlying layer; ***or***
 3.  a combination of two layers: a layer fulfilling diagnostic criterion 2 and a directly underlying layer fulfilling diagnostic criterion 1.
@@ -1594,7 +1594,7 @@ Protocalcic properties refer to accumulations of secondary carbonates, visible w
 
 1.  occupy ≥ 5% of the exposed area (related to the fine earth plus accumulations of secondary carbonates of any size and any cementation class) with masses, nodules, concretions or filaments; ***or***
 2.  cover ≥ 10% of the surfaces of soil aggregates or biopore walls; ***or***
-3.  cover ≥ 10% of the underside surfaces of coarse fragments or of fragments of a cemented horizon.
+3.  cover ≥ 10% of the underside surfaces of coarse fragments or of remnants of a cemented horizon.
 
 #### Field identification {#sec-protcp-flid}
 
@@ -1806,8 +1806,8 @@ Yermic properties (from Spanish *yermo*, desert) are found on the mineral soil s
 Yermic properties occur in [*mineral material*](#sec-minm) and have one or both of the following:
 
 1.  coarse surface fragments covering ≥ 20% of the soil surface (desert pavement), underlain by a soil layer with an abundance of coarse fragments half or less the abundance of coarse surface fragments, and one or more of the following:
-    a.  ≥ 10% of the coarse fragments, \> 2 cm (greatest dimension), are varnished; ***or***
-    b.  ≥ 10% of the coarse fragments, \> 2 cm (greatest dimension), are wind-shaped (ventifacts, windkanters); ***or***
+    a.  ≥ 10% of the coarse surface fragments, \> 2 cm (greatest dimension), are varnished; ***or***
+    b.  ≥ 10% of the coarse surface fragments, \> 2 cm (greatest dimension), are wind-shaped (ventifacts, windkanters); ***or***
     c.  a surface layer, ≥ 1 cm thick, with a platy structure; ***or***
     d.  a surface layer, ≥ 1 cm thick, with many vesicular pores; ***or***
 2.  a surface layer, not compacted by human activity, ≥ 1 cm thick, with a platy structure and many vesicular pores.
@@ -1935,14 +1935,14 @@ Fluvic material is [*mineral material*](#sec-minm) and:
 1.  is of fluviatile, marine or lacustrine origin; ***and***
 2.  has strata that are one or both of the following:
     a.  obvious (including stratification tilted by cryogenic alteration) in ≥ 25% (by volume, related to the whole soil) over a specified depth; ***or***
-    b.  evidenced by a layer with all of the following:
+    b.  evidenced by two or more layers with all of the following:
         i.  ≥ 0.2% [*soil organic carbon*](#sec-soc); ***and***
-        ii. a content of [*soil organic carbon*](#sec-soc) ≥ 25% (relative) and ≥ 0.2% (absolute) higher than in the overlying layer; ***and***
+        ii. a content of [*soil organic carbon*](#sec-soc) ≥ 25% (relative) and ≥ 0.2% (absolute) higher than in the directly overlying layer; ***and***
         iii. does not form part of a [*natric*](#sec-natrich) or [*spodic horizon*](#sec-spodich); ***and***
 3.  one or both of the following:
     a.  has a single grain, a massive, a platy or a weak subangular blocky structure; ***or***
 
-    b.  has a granular or a subangular blocky structure and meets diagnostic criteria 2.b.
+    b.  has a granular or a subangular blocky structure in a layer that meets diagnostic criteria 2.b.
 
 #### Field identification {#sec-fluvicm-flid}
 
@@ -2047,7 +2047,7 @@ In mineral material (from Celtic *mine*, mineral), the properties of the fine ea
 
 Mineral material has
 
-1.  \< 20% [*soil organic carbon*](#sec-soc) (related to the fine earth plus the dead plant remnants of any length and a diameter ≤ 5 mm); ***and***
+1.  \< 20% [*soil organic carbon*](#sec-soc) (related to the fine earth plus the dead plant residues of any length and a diameter ≤ 5 mm); ***and***
 2.  \< 35% (by volume, related to the whole soil) artefacts containing ≥ 20% organic carbon.
 
 #### Relationships with some other diagnostics {#sec-minm-reln}
@@ -2074,15 +2074,15 @@ Mulmic material is [*mineral material*](#sec-minm) that has developed from water
 
 #### General description {#sec-orgm-desc}
 
-Organic material (from Greek *organon*, tool) has large amounts of organic matter in the fine earth and/or contains many dead thin plant remnants. It may show different stages of decomposition. If still connected to living plants (e.g. *Sphagnum* mosses), it may even be completely undecomposed. If derived from fallen organic residues, it is decomposed to at least the extent that it is not loose and/or that recognizable dead plant tissues comprise ≤ 90% of the volume (related to the fine earth plus all dead plant remnants). Fallen organic residues with \> 90% recognizable dead plant tissues and still loose are called litter layer (see [Chapter 2.1](chapter-02.qmd#sec-gnrl), General rules, and Annex 1, [Chapters 8.3.1](annex-01-field-guide.qmd#sec-a1-831) and [8.3.2](annex-01-field-guide.qmd#sec-a1-832)) and are not considered for classification in WRB. (Litter layers are temporally and spatially extremely variable in thickness). On the other hand, decomposition may be advanced until no recognizable dead plant tissues remain, and a homogeneous organic soil mass results. Organic material accumulates under both wet and dry conditions. The mineral component of the fine earth has a limited influence on soil properties.
+Organic material (from Greek *organon*, tool) has large amounts of organic matter in the fine earth and/or contains many dead thin plant residues. It may show different stages of decomposition. If still connected to living plants (e.g. *Sphagnum* mosses), it may even be completely undecomposed. If derived from fallen organic residues, it is decomposed to at least the extent that it is not loose and/or that recognizable dead plant tissues comprise ≤ 90% of the volume (related to the fine earth plus all dead plant residues). Fallen organic residues with \> 90% recognizable dead plant tissues and still loose are called litter layer (see [Chapter 2.1](chapter-02.qmd#sec-gnrl), General rules, and Annex 1, [Chapters 8.3.1](annex-01-field-guide.qmd#sec-a1-831) and [8.3.2](annex-01-field-guide.qmd#sec-a1-832)) and are not considered for classification in WRB. (Litter layers are temporally and spatially extremely variable in thickness). On the other hand, decomposition may be advanced until no recognizable dead plant tissues remain, and a homogeneous organic soil mass results. Organic material accumulates under both wet and dry conditions. The mineral component of the fine earth has a limited influence on soil properties.
 
 #### Diagnostic criteria {#sec-orgm-diag}
 
 Organic material
 
-1.  has ≥ 20% [*soil organic carbon*](#sec-soc) (related to the fine earth plus the dead plant remnants of any length and a diameter ≤ 5 mm); ***and***
+1.  has ≥ 20% [*soil organic carbon*](#sec-soc) (related to the fine earth plus the dead plant residues of any length and a diameter ≤ 5 mm); ***and***
 2.  one or more of the following
-    a.  contains ≤ 90% (by volume, related to the fine earth plus all dead plant remnants) recognizable dead plant tissues ***or***
+    a.  contains ≤ 90% (by volume, related to the fine earth plus all dead plant residues) recognizable dead plant tissues ***or***
     b.  is not loose; ***or***
     c.  consists of dead plant material still connected to living plants.
 
@@ -2105,7 +2105,7 @@ Organotechnic material (from Greek *organon*, tool, and *technae*, art) contains
 Organotechnic material has
 
 1.  ≥ 35% (by volume, related to the whole soil) [*artefacts*](#sec-artefm) containing ≥ 20% organic carbon; ***and***
-2.  \< 20% [*soil organic carbon*](#sec-soc) (related to the fine earth plus the dead plant remnants of any length and a diameter ≤ 5 mm).
+2.  \< 20% [*soil organic carbon*](#sec-soc) (related to the fine earth plus the dead plant residues of any length and a diameter ≤ 5 mm).
 
 #### Additional information {#sec-orgtechm-info}
 

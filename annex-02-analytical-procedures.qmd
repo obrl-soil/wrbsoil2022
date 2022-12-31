@@ -24,7 +24,7 @@ The mineral part of the soil is separated into various size fractions and the pr
 | Coarse sand         | \> 630 μm - ≤ 1250 μm |
 | Medium sand         | \> 200 μm - ≤ 630 μm  |
 | Fine sand           | \> 125 μm - ≤ 200 μm  |
-| Very fine sand      | \> 63 μm - \< 125 μm  |
+| Very fine sand      | \> 63 μm - ≤ 125 μm   |
 | Silt                | \> 2 μm - ≤ 63 μm     |
 | Coarse silt         | \> 20 μm - ≤ 63 μm    |
 | Fine silt           | \> 2 μm - ≤ 20 μm     |
@@ -129,7 +129,7 @@ If the data for the base saturation are not available, the pH~water~ can be used
 Exchangeable ions are given in cmol~c~ kg^-1^. For some soils, the relationship between the sum of exchangeable base cations and exchangeable Al is required. If the data for exchangeable ions are not available, the pH~water~ can be used instead. If this is also not available, the pH~KCl~ can be used. The correlations between exchangeable ions and pH depend on the amount of organic matter and show an extremely high variance. The following pH values are recommended:
 
 |                | exch base = exch Al |         | exch base \>= 4x exch Al |         | Exch Al \>= 4x Exch base |         |
-|----------------|---------------------|---------|--------------------------|---------|--------------------------|---------|
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
 | C~org~ (%)     | pH~water~           | pH~KCl~ | pH~water~                | pH~KCl~ | pH~water~                | pH~KCl~ |
 | \< 2           | 4.6                 | 3.8     | 5.5                      | 4.7     | 3.9                      | 3.2     |
 | ≥ 2 to \< 7.5  | 4.9                 | 4.1     | 5.9                      | 5.0     | 4.2                      | 3.4     |
@@ -170,7 +170,7 @@ These analyses comprise:
 
 ## Mineralogical analysis of the sand fraction {#sec-a2-917}
 
-After removal of cementing and coating materials, the sand is separated from the clay and silt by wet sieving. From the sand, the fraction 63--420 μm is separated by dry sieving. This fraction is divided into a heavy fraction and a *light* fraction with the aid of a high-density liquid: a solution of sodium polytungstate with a specific density of 2.85 kg dm^-3^. Of the *heavy fraction*, a microscopic slide is made; the *light fraction* is stained selectively for microscopic identification of feldspars and quartz. The analysis requires a petrographic microscope.
+After removal of cementing and coating materials, the sand is separated from the clay and silt by wet sieving. From the sand, the fraction 63--420 μm is separated by dry sieving. This fraction is divided into a *heavy fraction* and a *light fraction* with the aid of a high-density liquid: a solution of sodium polytungstate with a specific density of 2.85 kg dm^-3^. Of the *heavy fraction*, a microscopic slide is made; the *light fraction* is stained selectively for microscopic identification of feldspars and quartz. The analysis requires a petrographic microscope.
 
 Volcanic glass can usually be recognized as isotropic grains with vesicles.
 
