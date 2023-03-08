@@ -126,7 +126,8 @@ tbl_a181 <- gt(tbl_a181_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -188,7 +189,8 @@ tbl_a182 <- gt(tbl_a182_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |>
@@ -220,7 +222,8 @@ tbl_a183 <- gt(tbl_a183_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2))
@@ -252,7 +255,8 @@ tbl_a184 <- gt(tbl_a184_dat, rowname_col = 'Ecozone') |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   sub_missing(missing_text = '') |>
   tab_style(style = list(cell_text(weight = 'bold')),
@@ -284,7 +288,8 @@ tbl_a185 <- gt(tbl_a185_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |>
@@ -311,7 +316,8 @@ tbl_a186 <- gt(tbl_a186_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |>
@@ -343,7 +349,8 @@ tbl_a187 <- gt(tbl_a187_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) 
@@ -384,7 +391,8 @@ tbl_a188 <- gt(tbl_a188_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   sub_missing(missing_text = '') |>
   tab_style(style = list(cell_text(weight = 'bold')),
@@ -420,7 +428,8 @@ tbl_a189 <- gt(tbl_a189_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |>
@@ -470,7 +479,8 @@ tbl_a1810 <- gt(tbl_a1810_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -517,7 +527,8 @@ tbl_a1811 <- gt(tbl_a1811_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
@@ -555,7 +566,8 @@ tbl_a1812 <- gt(tbl_a1812_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -591,7 +603,8 @@ tbl_a1813 <- gt(tbl_a1813_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
@@ -623,7 +636,8 @@ tbl_a1814 <- gt(tbl_a1814_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
@@ -649,7 +663,8 @@ tbl_a1815 <- gt(tbl_a1815_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |>
@@ -674,7 +689,8 @@ tbl_a1816 <- gt(tbl_a1816_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -711,7 +727,8 @@ tbl_a1817 <- gt(tbl_a1817_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -737,7 +754,8 @@ tbl_a1818 <- gt(tbl_a1818_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -767,7 +785,8 @@ tbl_a1819 <- gt(tbl_a1819_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -803,7 +822,8 @@ tbl_a1820 <- gt(tbl_a1820_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -841,7 +861,8 @@ tbl_a1821 <- gt(tbl_a1821_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |>
@@ -868,7 +889,8 @@ tbl_a1822 <- gt(tbl_a1822_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) 
@@ -892,7 +914,8 @@ tbl_a1823 <- gt(tbl_a1823_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -920,7 +943,8 @@ tbl_a1824 <- gt(tbl_a1824_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -951,7 +975,8 @@ tbl_a1825 <- gt(tbl_a1825_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -1022,8 +1047,9 @@ tbl_a1826_dat <- tribble(
 tbl_a1826 <- gt(tbl_a1826_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -1056,8 +1082,9 @@ tbl_a1827_dat <- tribble(
 tbl_a1827 <- gt(tbl_a1827_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |>
@@ -1088,8 +1115,9 @@ tbl_a1828_dat <- tribble(
 tbl_a1828 <- gt(tbl_a1828_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 4)) |>
@@ -1124,8 +1152,9 @@ tbl_a1829_dat <- tribble(
 tbl_a1829 <- gt(tbl_a1829_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -1155,8 +1184,9 @@ tbl_a1830_dat <- tribble(
 tbl_a1830 <- gt(tbl_a1830_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 4)) |>
@@ -1185,8 +1215,9 @@ tbl_a1831_dat <- tribble(
 tbl_a1831 <- gt(tbl_a1831_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) 
@@ -1216,8 +1247,9 @@ tbl_a1832_dat <- tribble(
 tbl_a1832 <- gt(tbl_a1832_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -1263,8 +1295,9 @@ NA_character_, 'None',               NA_character_, 'NO')
 tbl_a1833 <- gt(tbl_a1833_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 4)) |>
@@ -1291,8 +1324,9 @@ tbl_a1834_dat <- tribble(
 tbl_a1834 <- gt(tbl_a1834_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
@@ -1319,8 +1353,9 @@ tbl_a1835_dat <- tribble(
 tbl_a1835 <- gt(tbl_a1835_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |>
@@ -1392,8 +1427,9 @@ tbl_a1836_dat <- tribble(
 tbl_a1836 <- gt(tbl_a1836_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -1425,8 +1461,9 @@ tbl_a1837_dat <- tribble(
 tbl_a1837 <- gt(tbl_a1837_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
@@ -1464,8 +1501,9 @@ tbl_a1838_dat <- tribble(
 tbl_a1838 <- gt(tbl_a1838_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   cols_label(PS_Class = 'Particle-size class',
              Diameter = 'Diameter of particles')
@@ -1510,8 +1548,9 @@ NA_character_, '> 43 - ≤ 52', '≥ 41 to < 50', '< 7', NA_character_,
 tbl_a1839 <- gt(tbl_a1839_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 1)) |>
@@ -1556,8 +1595,9 @@ tbl_a1840_dat <- tribble(
 tbl_a1840 <- gt(tbl_a1840_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   cols_label(vcs = '% very coarse and coarse sand',
              ms = '% medium sand',
@@ -1635,7 +1675,8 @@ tbl_a1841_dat <- tribble(
   'Cloddy', 'images/table_8-41-14.png' ,'- Artificial clods created by disturbance; e.g., ploughing')
 
 tbl_a1841 <- gt(tbl_a1841_dat) |>
-  tab_options(column_labels.hidden = TRUE) |>
+  tab_options(column_labels.hidden = TRUE,
+              table.width = '100%') |>
   text_transform(locations = cells_body(columns = Image),
                  fn = \(x) { local_image(filename = x,
                                          height = 80) }) |> 
@@ -1675,8 +1716,9 @@ tbl_a1842_dat <- tribble(
 tbl_a1842 <- gt(tbl_a1842_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3))
@@ -1701,8 +1743,9 @@ tbl_a1843_dat <- tribble(
 tbl_a1843 <- gt(tbl_a1843_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3))
@@ -1729,8 +1772,9 @@ tbl_a1844_dat <- tribble(
 tbl_a1844 <- gt(tbl_a1844_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2))
@@ -1809,8 +1853,9 @@ tbl_a1846_dat <- tribble(
 tbl_a1846 <- gt(tbl_a1846_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
@@ -1842,8 +1887,9 @@ tbl_a1847_dat <- tribble(
 tbl_a1847 <- gt(tbl_a1847_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 4)) |>
@@ -1872,8 +1918,9 @@ tbl_a1848_dat <- tribble(
 tbl_a1848 <- gt(tbl_a1848_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
@@ -1914,8 +1961,9 @@ tbl_a1849_dat <- tribble(
 tbl_a1849 <- gt(tbl_a1849_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -1940,8 +1988,9 @@ tbl_a1850_dat <- tribble(
 tbl_a1850 <- gt(tbl_a1850_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -1981,8 +2030,9 @@ tbl_a1851_dat <- tribble(
 tbl_a1851 <- gt(tbl_a1851_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -2071,8 +2121,9 @@ tbl_a1852_dat <- tribble(
 tbl_a1852 <- gt(tbl_a1852_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
@@ -2115,8 +2166,9 @@ tbl_a1853_dat <- tribble(
 tbl_a1853 <- gt(tbl_a1853_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -2139,8 +2191,9 @@ tbl_a1854_dat <- tribble(
 tbl_a1854 <- gt(tbl_a1854_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -2174,8 +2227,9 @@ tbl_a1855_dat <- tribble(
 tbl_a1855 <- gt(tbl_a1855_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
@@ -2205,8 +2259,9 @@ tbl_a1856_dat <- tribble(
 tbl_a1856 <- gt(tbl_a1856_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |> 
@@ -2236,8 +2291,9 @@ tbl_a1857_dat <- tribble(
 tbl_a1857 <- gt(tbl_a1857_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |> 
@@ -2268,8 +2324,9 @@ tbl_a1858_dat <- tribble(
 tbl_a1858 <- gt(tbl_a1858_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) 
@@ -2332,8 +2389,9 @@ tbl_a1859_dat <- tribble(
 tbl_a1859 <- gt(tbl_a1859_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 4)) |> 
@@ -2388,8 +2446,9 @@ tbl_a1860_dat <- tribble(
 tbl_a1860 <- gt(tbl_a1860_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -2423,8 +2482,9 @@ tbl_a1861_dat <- tribble(
 tbl_a1861 <- gt(tbl_a1861_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -2459,8 +2519,9 @@ tbl_a1862_dat <- tribble(
 tbl_a1862 <- gt(tbl_a1862_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 4)) |> 
@@ -2483,8 +2544,9 @@ tbl_a1863_dat <- tribble(
 tbl_a1863 <- gt(tbl_a1863_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -2514,8 +2576,9 @@ tbl_a1864_dat <- tribble(
 tbl_a1864 <- gt(tbl_a1864_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -2537,8 +2600,9 @@ tbl_a1865_dat <- tribble(
 tbl_a1865 <- gt(tbl_a1865_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 1)) |> 
@@ -2569,8 +2633,9 @@ tbl_a1866_dat <- tribble(
 tbl_a1866 <- gt(tbl_a1866_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 4)) |> 
@@ -2623,8 +2688,9 @@ tbl_a1867_dat <- tribble(
 tbl_a1867 <- gt(tbl_a1867_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
@@ -2653,8 +2719,9 @@ tbl_a1868_dat <- tribble(
 tbl_a1868 <- gt(tbl_a1868_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |> 
@@ -2703,8 +2770,9 @@ tbl_a1869_dat <- tribble(
 tbl_a1869 <- gt(tbl_a1869_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 1)) |> 
@@ -2738,8 +2806,9 @@ tbl_a1870_dat <- tribble(
 tbl_a1870 <- gt(tbl_a1870_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   cols_label(decomp = html('Degree of decomposition<br />(by volume, related to the fine earth plus all dead plant residues)'),
              water_c = html('Water content of the saturation extract (WC<sub>SE</sub>) (g water / 100 g soil)'))
@@ -2774,8 +2843,9 @@ tbl_a1871_dat <- tribble(
 tbl_a1871 <- gt(tbl_a1871_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
-    table.align = 'left'
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |> 
@@ -2822,7 +2892,8 @@ tbl_a1872 <- gt(tbl_a1872_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left'
+    table.align = 'left',
+    table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |> 
@@ -2859,7 +2930,8 @@ tbl_a1873 <- gt(tbl_a1873_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |>
+    table.align = 'left',
+    table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) 
   
@@ -2887,7 +2959,8 @@ tbl_a1874 <- gt(tbl_a1874_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |>
+    table.align = 'left',
+    table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = c(3, 5))) |> 
   tab_spanner(label = 'Moist rupture resistance',
@@ -2922,7 +2995,8 @@ tbl_a1875 <- gt(tbl_a1875_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |>
+    table.align = 'left',
+    table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = c(2))) 
 
@@ -2948,7 +3022,8 @@ tbl_a1876 <- gt(tbl_a1876_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |>
+    table.align = 'left',
+    table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = c(3))) 
 
@@ -2976,7 +3051,8 @@ tbl_a1877 <- gt(tbl_a1877_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |>
+    table.align = 'left',
+    table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = c(3))) 
 
@@ -3017,7 +3093,8 @@ tbl_a1878 <- gt(tbl_a1878_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |>
+    table.align = 'left',
+    table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = c(2))) 
 
@@ -3050,7 +3127,8 @@ tbl_a1879 <- gt(tbl_a1879_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |>
+    table.align = 'left',
+    table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = c(3))) |> 
   cols_label(Particles = '% of Particles',
@@ -3087,7 +3165,8 @@ tbl_a1880 <- gt(tbl_a1880_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |>
+    table.align = 'left',
+    table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2))
 
@@ -3120,7 +3199,8 @@ tbl_a1881 <- gt(tbl_a1881_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |>
+    table.align = 'left',
+    table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2))
 
@@ -3149,7 +3229,8 @@ tbl_a1882 <- gt(tbl_a1882_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |>
+    table.align = 'left',
+    table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2))
 
@@ -3177,7 +3258,8 @@ tbl_a1883 <- gt(tbl_a1883_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |>
+    table.align = 'left',
+    table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3))
 
@@ -3217,7 +3299,8 @@ tbl_a1884 <- gt(tbl_a1884_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |> 
+    table.align = 'left',
+    table.width = '100%') |> 
   tab_spanner(label = 'Organic carbon content (%), depending on soil texture class',
               id = 'span1',
               columns = c(t1, t2, t3)) |> 
@@ -3250,7 +3333,8 @@ tbl_a1885 <- gt(tbl_a1885_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |>
+    table.align = 'left',
+    table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2))
 
@@ -3281,7 +3365,8 @@ tbl_a1886 <- gt(tbl_a1886_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |> 
+    table.align = 'left',
+    table.width = '100%') |> 
   cols_label(lt2 = 'Number ≤ 2 mm',
              gt2 = 'Number > 2 mm', 
              Abundance_class = 'Abundance class') |> 
@@ -3321,7 +3406,8 @@ tbl_a1887 <- gt(tbl_a1887_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |> 
+    table.align = 'left',
+    table.width = '100%') |> 
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |> 
   tab_style(style = list(cell_text(indent = 12)),
@@ -3353,7 +3439,8 @@ tbl_a1888 <- gt(tbl_a1888_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |>
+    table.align = 'left',
+    table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2))
 
@@ -3386,7 +3473,8 @@ tbl_a1889 <- gt(tbl_a1889_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |>
+    table.align = 'left',
+    table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2))
 
@@ -3412,7 +3500,8 @@ tbl_a1890 <- gt(tbl_a1890_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |>
+    table.align = 'left',
+    table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2))
 
@@ -3502,7 +3591,8 @@ tbl_a1891 <- gt(tbl_a1891_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |>
+    table.align = 'left',
+    table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = c(3,5))) |> 
   cols_label(Major_class = 'Major class',
@@ -3541,7 +3631,8 @@ tbl_a1892 <- gt(tbl_a1892_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |>
+    table.align = 'left',
+    table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3))
 
@@ -3568,7 +3659,8 @@ tbl_a1893 <- gt(tbl_a1893_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight = 'bold',
-    table.align = 'left') |>
+    table.align = 'left',
+    table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |> 
   cols_label(Type = 'Type of plant residues')
@@ -3622,3 +3714,4 @@ To take out the rings, penetrate the soil with a spatula just beneath the ring a
 If you want to do further physical analyses, transfer the ring to the laboratory. If the layer thickness is smaller than the height of the ring (case c), fill up the volume with a resin. If you just want to determine the soil mass, you may empty the soil material from the ring into the designated bag and reuse the ring.
 
 To determine the soil mass of a sample of a certain volume, you may also use coated clods (see Annex 2, [Chapter 9.5](annex-02-analytical-procedures.qmd#sec-2-bd)).
+
