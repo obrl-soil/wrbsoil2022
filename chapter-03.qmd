@@ -406,7 +406,7 @@ A ferralic horizon consists of [*mineral material*](#sec-minm) and:
 3.  has a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 16 cmol~c~ kg^-1^ clay; and
 4.  has \< 10% (by grain count) easily weatherable minerals in the 0.05--0.2 mm fraction; and
 5.  does not have [*andic*](#sec-andip) or [*vitric properties*](#sec-vitricp); and
-6.  6\. has a thickness of ≥ 30 cm.
+6.  has a thickness of ≥ 30 cm.
 
 #### Field identification {#sec-feralh-flid}
 
@@ -422,7 +422,7 @@ Indicators of clay illuviation such as clay coatings are generally absent or rar
 
 As an alternative to the weatherable minerals requirement, a total reserve of bases (TRB = exchangeable plus mineral calcium \[Ca\], magnesium \[Mg\], potassium \[K\] and sodium \[Na\]) of \< 25 cmol~c~ kg^-1^ soil may be indicative.
 
-Ferralic horizons normally have \< 10% water-dispersible clay. Occasionally they may have more waterdispersible clay, but if so, they have a ΔpH (pH~KCl~ - pH~water~) ≥ 0 or a relatively high content of organic carbon.
+Ferralic horizons normally have \< 10% water-dispersible clay. Occasionally they may have more water-dispersible clay, but if so, they have a ΔpH (pH~KCl~ - pH~water~) ≥ 0 or a relatively high content of organic carbon.
 
 Examples of easily weatherable minerals are all 2:1 phyllosilicates, chlorites, sepiolites, palygorskites, allophanes, 1:1 trioctahedral phyllosilicates (serpentines), feldspars, feldspathoids, ferromagnesian minerals, glass, zeolites, dolomite and apatite. The intent of the term weatherable minerals is to include those minerals that are unstable in humid climates compared with other minerals, such as quartz and 1:1 clay minerals, but that are more resistant to weathering than calcite @soilsurveystaff1999.
 
@@ -1298,7 +1298,7 @@ A tsitelic horizon consists of [*mineral material*](#sec-minm) and
 3.  has Al~ox~ \< Fe~ox~; ***and***
 4.  has a Munsell colour chroma of ≥ 4, moist; ***and***
 5.  does not show reductimorphic features; ***and***
-6.  does not form part of a [*limonic horizon*](#sec-limnh); ***and***
+6.  does not form part of a [*limonic horizon*](#sec-limonich); ***and***
 7.  has a thickness of ≥ 5 cm.
 
 #### Field identification {#sec-tsitelich-flid}

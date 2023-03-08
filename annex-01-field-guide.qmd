@@ -1,5 +1,17 @@
 # Annex 1: Field Guide {#sec-a1}
 
+```{r}
+#| echo: false
+
+library(dplyr)
+library(purrr)
+library(glue)
+library(stringr)
+library(gt)
+library(gtExtras)
+library(tibble)
+```
+
 This field guide helps describe soils. It provides all field characteristics needed for WRB classification and some other general field characteristics. This field guide is not supposed to be a comprehensive manual. People using this guide must have basic knowledge in soil science and experience in the field. In many soils, some of the listed characteristics are not present. Every characteristic must be reported in the soil description sheet (Annex 4, [Chapter 11](annex-04-soil-description-sheet.qmd)) using the provided codes.
 
 The field guide consists of six consecutive parts:
@@ -97,13 +109,6 @@ If the profile lies in an uneven terrain, report the profile position.
 #| label: tbl-a181
 #| tbl-cap: Position of the profile, Schoeneberger et al. (2012), 1-7, modified
 #| tbl-colwidths: [80, 20] 
-
-library(dplyr)
-library(purrr)
-library(glue)
-library(stringr)
-library(gt)
-library(tibble)
 
 tbl_a181_dat <- tribble(
   ~Position, ~Code,
@@ -2154,7 +2159,7 @@ tbl_a1855_dat <- tribble(
   ~Location, ~Loc_02, ~Code,
 'Inner parts', 'Inside soil aggregates: masses' ,'OIM',
 '', 'Inside soil aggregates: concretions', 'OIC',
-'', 'Inside soil aggregates: modules', 'OIN',
+'', 'Inside soil aggregates: nodules', 'OIN',
 '', 'Inside soil aggregates: both concretions and/or nodules (not possible to distinguish)', 'OIB', 
 'Outer parts', 'On surfaces of soil aggregates', 'OOA',
 '', 'Adjacent to surfaces of soil aggregates, infused into the matrix (hypocoats)', 'OOH',
@@ -2870,7 +2875,7 @@ tbl_a1874_dat <- tribble(
   ~Criterion, ~Class_m,  ~Code_m,  ~Class_d,  ~Code_d,
 'Intact specimen not obtainable', 'Loose', 'LO', 'Loose', 'LO',
 'Very slight force between fingers, < 8 N', 'Very Friable', 'VF', 'Soft', 'SO',
-'',  'Friable', 'FR', 'Slightly hard', 'SH',
+'Slight force between fingers, 8 - < 20 N',  'Friable', 'FR', 'Slightly hard', 'SH',
 'Moderate force between fingers, 20 - < 40 N', 'Firm', 'FI', 'Moderately hard', 'MH',
 'Strong force between fingers, 40 - < 80 N', 'Very firm', 'VI', 'Hard', 'HA',
 'Moderate force between hands, 80 - < 160 N', 'Extremely firm', 'EI', 'Very hard', 'VH',

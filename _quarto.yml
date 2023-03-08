@@ -44,7 +44,6 @@ format:
     appendix-style: none
     css: styles.css
 
-
 editor: visual
 
 # global knitr options

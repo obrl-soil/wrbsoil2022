@@ -363,7 +363,6 @@ and not having a [*calcic*](chapter-03.qmd#sec-calch) or a [*petrocalcic horizon
 (from Greek *oligos*, few): in soils other than [*Histosols*](chapter-04.qmd#sec-key-hs), having one or more layers consisting of [*mineral material*](chapter-03.qmd#sec-minm),
 
 -   between 20 and 100 cm of the mineral soil surface, or
-
 -   between 20 cm of the mineral soil surface and a limiting layer starting \> 25 cm from the mineral soil surface,\
     whichever is shallower,\
     that have exchangeable (Ca+Mg+K+Na) ≥ exchangeable Al and exchangeable (Ca+Mg+K+Na) \< 5 cmol~c~ kg^-1^ clay in the major part of their combined thickness (3).
@@ -612,7 +611,7 @@ and not having a [*gypsic*](chapter-03.qmd#sec-gypsih) or [*petrogypsic horizon*
 
 ### Hydragric (hg) {#sec-hg .unnumbered}
 
-(from Greek *hydor*, water, and Latin *ager*, field): having an [*anthraquic horizon*](chapter-03.qmd#sec-anthh) and a directly underlying [*hydragric horizon*](chapter-03.qmd#sec-hydrh), the latter starting ≤ 100 cm from the soil surface.
+(from Greek *hydro*, water, and Latin *ager*, field): having an [*anthraquic horizon*](chapter-03.qmd#sec-anthh) and a directly underlying [*hydragric horizon*](chapter-03.qmd#sec-hydrh), the latter starting ≤ 100 cm from the soil surface.
 
 #### Hyperhydragric (jy) {#sec-jy .unnumbered}
 
@@ -963,7 +962,7 @@ see [*Fluvic*](#sec-fv).
 
 ### Oxygleyic (oy) {#sec-oy .unnumbered}
 
-(from Greek oxys, *sour*, and Russian folk name *gley*, wet bluish clay): not having, within 100 cm of the mineral soil surface, a layer that meets diagnostic criterion 1 of the [*gleyic properties*](chapter-03.qmd#sec-gleyicp) (in [*Gleysols*](chapter-04.qmd#sec-key-gl) only).
+(from Greek *oxys*, sour, and Russian folk name *gley*, wet bluish clay): not having, within 100 cm of the mineral soil surface, a layer that meets diagnostic criterion 1 of the [*gleyic properties*](chapter-03.qmd#sec-gleyicp) (in [*Gleysols*](chapter-04.qmd#sec-key-gl) only).
 
 ### Pachic (ph) {#sec-ph .unnumbered}
 
@@ -1179,7 +1178,7 @@ see [*Vertic*](#sec-vr).
 
 (from Latin *ejicere*, to throw out): having ≥ 40% (by volume, related to the whole soil) coarse fragments of pyroclastic origin (lapilli, bombs and/or blocks), averaged over a depth of 100 cm from the mineral soil surface or to a limiting layer, whichever is shallower (5).
 
-#### Fractiskeletic (fk)  {#sec-fk .unnumbered}
+#### Fractiskeletic (fk) {#sec-fk .unnumbered}
 
 (from Latin *fractus*, broken): having ≥ 40% (by volume, related to the whole soil) coarse fragments plus remnants of a broken-up cemented layer, \> 2 mm, averaged over a depth of 100 cm from the mineral soil surface or to a limiting layer, whichever is shallower; and not fulfilling the set of criteria of the [Duric](sec-du), [Fractic](#sec-fc), [Pisoplinthic](#sec-px) and [Skeletic](#sec-sk) qualifier (5).
 
