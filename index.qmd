@@ -11,11 +11,12 @@ IUSS Working Group WRB. 2022. World Reference Base for Soil Resources. Internati
 \
 \
 
-ISBN 979-8-9862451-1-9 First published: 22 July 2022. Update with minor corrections: 20 November 2022
+ISBN 979-8-9862451-1-9
+
+First published: 22 July 2022. Update with minor corrections: 18 December 2022
 
 Copyright: International Union of Soil Sciences®, Vienna, Austria.\
-This is an open access document under the terms of the Creative Commons Attribution License, which\
-permits use, distribution and reproduction in any medium, provided the original work is properly cited.
+This is an open access document under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.
 
 Cover by Stefaan Dondeyne\
 From left to right: Rhodic Ferritic Nitisol (Brazil) \[photo: Sérgio Shimizu\]\
@@ -25,4 +26,4 @@ Eutric Glossic Stagnosol (Belgium) \[photo: Stefaan Dondeyne\]
 
 ------------------------------------------------------------------------
 
-This is a Quarto version of the [original PDF publication](https://www3.ls.tum.de/boku/wrb-working-group/documents/wrb-2022/). This version incorporates the [published errata](https://www3.ls.tum.de/boku/wrb-working-group/documents/wrb-2022/wrb-2022-errata/) to 2022-11-20.
+This is a Quarto version of the [original PDF publication](https://www3.ls.tum.de/boku/wrb-working-group/documents/wrb-2022/). This version incorporates the [published errata](https://www3.ls.tum.de/boku/wrb-working-group/documents/wrb-2022/wrb-2022-errata/) to 2022-12-18.

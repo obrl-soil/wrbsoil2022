@@ -56,7 +56,7 @@ Qualifiers that are mutually exclusive may apply to the same soil at different d
 
 **Qualifiers conveying redundant information are not added**. This is a general rule and applies even if the slash is not used. For example, [Eutric](chapter-05.qmd#sec-eu) is not added if the [Calcaric](chapter-05.qmd#sec-ca) qualifier applies.
 
-**If qualifiers apply but are not in the list for the particular RSG**, they should be added last as supplementary qualifiers.
+**If qualifiers apply but are not in the list for the particular RSG**, they should be added last as supplementary qualifiers. This is mainly relevant for polygenetic soils.
 
 The names of the RSGs and the (sub)qualifiers must start with a capital letter.
 
@@ -70,26 +70,26 @@ For naming a soil at the second level, all the principal and supplementary quali
 
 A soil developed from loess with high-activity clays has a marked clay increase at 60 cm depth, clay coatings in the clay-rich horizon, no stratification, and a field pH value around 6 in the depth from 50 to 100 cm. The clay-poor upper soil is subdivided into a darker upper and a light-coloured lower horizon. The clay-rich horizon has a limited amount of oximorphic features with intensive colours inside the soil aggregates and reducing conditions in some parts during springtime. The following conclusions can be drawn (for subqualifiers see [Chapter 2.3](#sec-subq)):
 
-+-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| a\. | clay increase without [*lithic discontinuity*](chapter-03.qmd#sec-lithd) and/or with clay coatings                         | --\> [*argic horizon*](chapter-03.qmd#sec-argich)                       |
-+-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| b\. | [*argic horizon*](chapter-03.qmd#sec-argich) with high CEC, more exchangeable base cations than Al (inferred by pH 6)      | --\> [Luvisol](chapter-04.qmd#sec-key-lv)                               |
-+-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| c\. | light colour in the eluvial horizon                                                                                        | --\> [*claric material*](chapter-03.qmd#sec-claricm)                    |
-+-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| d\. | [*claric material*](chapter-03.qmd#sec-claricm) above the [*argic horizon*](chapter-03.qmd#sec-argich)                     | *--\>* [*albic horizon*](chapter-03.qmd#sec-albich)*\                   |
-|     |                                                                                                                            | --\>* [Albic](chapter-05.qmd#sec-ab) qualifier                          |
-+-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| e\. | some oximorphic features inside aggregates                                                                                 | --\> [*stagnic properties*](chapter-03.qmd#sec-stagnp)                  |
-+-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| f\. | [*stagnic properties*](chapter-03.qmd#sec-stagnp) and [*reducing conditions*](chapter-03.qmd#sec-reducc) starting at 60 cm | --\> [Endo](#sec-endo)[stagnic](chapter-03.qmd#sec-stagnp) subqualifier |
-+-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| g\. | clay coatings                                                                                                              | --\> [Cutanic](chapter-05.qmd#sec-ct) qualifier                         |
-+-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| h\. | clay increase without [*lithic discontinuity*](chapter-03.qmd#sec-lithd)                                                   | --\> [Differentic](chapter-05.qmd#sec-df) qualifier                     |
-+-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| i\. | argic horizon starting \> 50 cm and ≤ 100 cm                                                                               | --\> [Endic](chapter-05.qmd#sec-ed) qualifier                           |
-+-----+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
++-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| a\.       | clay increase without [*lithic discontinuity*](chapter-03.qmd#sec-lithd) and/or with clay coatings                         | --\> [*argic horizon*](chapter-03.qmd#sec-argich)                       |
++-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| b\.       | [*argic horizon*](chapter-03.qmd#sec-argich) with high CEC, more exchangeable base cations than Al (inferred by pH 6)      | --\> [Luvisol](chapter-04.qmd#sec-key-lv)                               |
++-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| c\.       | light colour in the eluvial horizon                                                                                        | --\> [*claric material*](chapter-03.qmd#sec-claricm)                    |
++-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| d\.       | [*claric material*](chapter-03.qmd#sec-claricm) above the [*argic horizon*](chapter-03.qmd#sec-argich)                     | *--\>* [*albic horizon*](chapter-03.qmd#sec-albich)*\                   |
+|           |                                                                                                                            | --\>* [Albic](chapter-05.qmd#sec-ab) qualifier                          |
++-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| e\.       | some oximorphic features inside aggregates                                                                                 | --\> [*stagnic properties*](chapter-03.qmd#sec-stagnp)                  |
++-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| f\.       | [*stagnic properties*](chapter-03.qmd#sec-stagnp) and [*reducing conditions*](chapter-03.qmd#sec-reducc) starting at 60 cm | --\> [Endo](#sec-endo)[stagnic](chapter-03.qmd#sec-stagnp) subqualifier |
++-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| g\.       | clay coatings                                                                                                              | --\> [Cutanic](chapter-05.qmd#sec-ct) qualifier                         |
++-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| h\.       | clay increase without [*lithic discontinuity*](chapter-03.qmd#sec-lithd)                                                   | --\> [Differentic](chapter-05.qmd#sec-df) qualifier                     |
++-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| i\.       | argic horizon starting \> 50 cm and ≤ 100 cm                                                                               | --\> [Endic](chapter-05.qmd#sec-ed) qualifier                           |
++-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
 
 The **field classification** is Albic Endostagnic Luvisol (Cutanic, Differentic).
 
@@ -180,7 +180,7 @@ If of one qualifier, two or more subqualifiers with a given definition apply (e.
 
 A buried soil is a soil covered by younger deposits. Where a soil is buried, the following rules apply:
 
-1.  The overlying material and the buried soil are classified as one soil if both together qualify as a [Histosol](chapter-04.qmd#sec-key-hs), [Anthrosol](chapter-04.qmd#sec-key-at), [Technosol](chapter-04.qmd#sec-key-tc), [Cryosol](chapter-04.qmd#sec-key-cr), [Leptosol](chapter-04.qmd#sec-key-lp), [Vertisol](chapter-04.qmd#sec-key-vr), [Gleysol](chapter-04.qmd#sec-key-gl), [Andosol](chapter-04.qmd#sec-key-an), [Planosol](chapter-04.qmd#sec-key-pl), [Stagnosol](chapter-04.qmd#sec-key-st), [Arenosol](chapter-04.qmd#sec-key-ar), [Fluvisol](chapter-04.qmd#sec-key-fl) or [Regosol](chapter-04.qmd#sec-key-rg).
+1.  The overlying material and the buried soil are classified as one soil if both together qualify as a [Histosol](chapter-04.qmd#sec-key-hs), [Anthrosol](chapter-04.qmd#sec-key-at), [Technosol](chapter-04.qmd#sec-key-tc), [Cryosol](chapter-04.qmd#sec-key-cr), [Leptosol](chapter-04.qmd#sec-key-lp), [Vertisol](chapter-04.qmd#sec-key-vr), [Gleysol](chapter-04.qmd#sec-key-gl), [Andosol](chapter-04.qmd#sec-key-an), [Planosol](chapter-04.qmd#sec-key-pl), [Stagnosol](chapter-04.qmd#sec-key-st), [Fluvisol](chapter-04.qmd#sec-key-fl){style="font-size: 11pt;"}, [Arenosol](chapter-04.qmd#sec-key-ar), or [Regosol](chapter-04.qmd#sec-key-rg).
 2.  Otherwise, the overlying material is classified with preference if it is ≥ 50 cm thick or if the overlying material, if it stood alone, satisfies the requirements of a RSG other than a [Regosol](chapter-04.qmd#sec-key-rg). For depth requirements in the overlying material, the lower limit of the overlying material is regarded as if it were the upper limit of [*continuous rock*](chapter-03.qmd#sec-crockp).
 3.  In all other cases, the buried soil is classified with preference. For depth requirements in the buried soil, the upper limit of the buried soil is regarded as its soil surface.
 4.  If the overlying soil is classified with preference, there are two options to consider the underlying soil:
@@ -205,7 +205,7 @@ The following guidelines apply:
     -   two or three codominant soils
     -   two or three codominant soils plus one or more associated soils.\
         \
-        Dominant soils represent ≥ 50% of the soil cover, codominant soils ≥ 25 and \< 50% of the soil cover. Associated soils represent ≥ 5 and \< 25% of the soil cover or are of high relevance in the landscape. The other soils should be ignored in the denomination of the map unit.\
+        Dominant soils represent ≥ 50% of the soil cover, codominant soils ≥ 25 and \< 50% of the soil cover. Associated soils represent ≥ 5 and \< 25% of the soil cover or are of high relevance in the landscape. Further soils should be ignored in the denomination of the map unit.\
         \
         If codominant or associated soils are indicated, the words 'dominant:', 'codominant:' and 'associated:' are written before the name of the soil; the soils are separated by semicolons.
 2.  The number of qualifiers specified below refers to the dominant soil. For codominant or associated soils, fewer numbers of qualifiers (or even no qualifier) may be appropriate.

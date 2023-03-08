@@ -112,9 +112,9 @@ Other soils:
 1.  with all of the following:
     a.  one or both of the following:
         i.  having ≥ 20% (by volume, weighted average, related to the whole soil) [*artefacts*](chapter-03.qmd#sec-artefm) in the upper 100 cm from the soil surface or to a limiting layer, whichever is shallower; *or*
-        ii. having a layer, ≥ 10 cm thick and starting ≤ 50 cm from the soil surface, with ≥ 80% (by volume, related to the whole soil) [*artefacts*](chapter-03.qmd#sec-artefm); *and*
+        ii. having a layer, ≥ 10 cm thick and starting ≤ 50 cm from the soil surface, with ≥ 80% (by volume, weighted average, related to the whole soil) [*artefacts*](chapter-03.qmd#sec-artefm); *and*
     b.  not having a layer containing [*artefacts*](chapter-03.qmd#sec-artefm) that qualifies as an [*argic*](chapter-03.qmd#sec-argich), [*duric*](chapter-03.qmd#sec-durich), [*ferralic*](chapter-03.qmd#sec-feralh), [*ferric*](chapter-03.qmd#sec-ferich), [*fragic*](chapter-03.qmd#sec-fragh), [*hydragric*](chapter-03.qmd#sec-hydrh), [*natric*](chapter-03.qmd#sec-natrich), [*nitic*](chapter-03.qmd#sec-nitich), [*petrocalcic*](chapter-03.qmd#sec-petroh), [*petroduric*](chapter-03.qmd#sec-petdh), [*petrogypsic*](chapter-03.qmd#sec-petrgh), [*petroplinthic*](chapter-03.qmd#sec-petplh), [*pisoplinthic*](chapter-03.qmd#sec-pisoph), [*plinthic*](chapter-03.qmd#sec-plinth), [*spodic*](chapter-03.qmd#sec-spodh) or [*vertic horizon*](chapter-03.qmd#sec-verth) starting ≤ 100 cm from the soil surface, unless buried; *and*
-    c.  not having a limiting layer, starting ≤ 10 cm from the soil surface; *or*
+    c.  not having a limiting layer, unless consisting of [*artefacts*](chapter-03.qmd#sec-artefm), starting ≤ 10 cm from the soil surface; *or*
 2.  having a continuous, very slowly permeable to impermeable, constructed geomembrane of any thickness or [*technic hard material*](chapter-03.qmd#sec-techhm) starting ≤ 100 cm from the soil surface.
 
 ::: callout-note
@@ -125,7 +125,7 @@ Technosols may bury other soils, which can be mentioned behind the Technosol cla
 ### Qualifiers
 
 | Principal Qualifiers                                                    | Supplementary Qualifiers                                                                                                                                                                                              |
-|---------------------|---------------------------------------------------|
+|----------------------|--------------------------------------------------|
 | [Ekranic](chapter-05.qmd#sec-ek) \| [Thyric](chapter-05.qmd#sec-th)     | [Arenic](chapter-05.qmd#sec-ar) \| [Clayic](chapter-05.qmd#sec-ce) \| [Loamic](chapter-05.qmd#sec-lo) \| [Siltic](chapter-05.qmd#sec-sl)                                                                              |
 | [Linic](chapter-05.qmd#sec-lc)                                          | [Geoabruptic](chapter-05.qmd#sec-go)                                                                                                                                                                                  |
 | [Urbic](chapter-05.qmd#sec-ub)                                          | [Alcalic](chapter-05.qmd#sec-ax) \| [Dystric](chapter-05.qmd#sec-dy) \| [Eutric](chapter-05.qmd#sec-eu)                                                                                                               |
@@ -152,6 +152,7 @@ Technosols may bury other soils, which can be mentioned behind the Technosol cla
 |                                                                         | [Lignic](chapter-05.qmd#sec-lg)                                                                                                                                                                                       |
 |                                                                         | [Limnic](chapter-05.qmd#sec-lm)                                                                                                                                                                                       |
 |                                                                         | [Magnesic](chapter-05.qmd#sec-mg)                                                                                                                                                                                     |
+|                                                                         | [Mahic](chapter-05.qmd#sec-ma)                                                                                                                                                                                        |
 |                                                                         | [Novic](chapter-05.qmd#sec-nv)                                                                                                                                                                                        |
 |                                                                         | [Oxyaquic](chapter-05.qmd#sec-oa)                                                                                                                                                                                     |
 |                                                                         | [Panpaic](chapter-05.qmd#sec-pb) \| [Raptic](chapter-05.qmd#sec-rp)                                                                                                                                                   |
@@ -230,7 +231,7 @@ Other soils having:
 ### Qualifiers
 
 | Principal Qualifiers                                                                                   | Supplementary Qualifiers                                                                                                                 |
-|------------------------------------|-----------------------------------------|
+|----------------------------------|--------------------------------------|
 | [Nudilithic](chapter-05.qmd#sec-nt) \| [Lithic](chapter-05.qmd#sec-li)                                 | [Arenic](chapter-05.qmd#sec-ar) \| [Clayic](chapter-05.qmd#sec-ce) \| [Loamic](chapter-05.qmd#sec-lo) \| [Siltic](chapter-05.qmd#sec-sl) |
 | [Coarsic](chapter-05.qmd#sec-cs)                                                                       | [Aeolic](chapter-05.qmd#sec-ay)                                                                                                          |
 | [Skeletic](chapter-05.qmd#sec-sk)                                                                      | [Aric](chapter-05.qmd#sec-ai)                                                                                                            |
@@ -274,7 +275,7 @@ Other soils having a [*natric horizon*](chapter-03.qmd#sec-natrich) starting ≤
 ### Qualifiers
 
 | Principal Qualifiers                                                | Supplementary Qualifiers                                                                                                                 |
-|-------------------------|----------------------------------------------|
+|--------------------------|----------------------------------------------|
 | [Abruptic](chapter-05.qmd#sec-ap)                                   | [Arenic](chapter-05.qmd#sec-ar) \| [Clayic](chapter-05.qmd#sec-ce) \| [Loamic](chapter-05.qmd#sec-lo) \| [Siltic](chapter-05.qmd#sec-sl) |
 | [Gleyic](chapter-05.qmd#sec-gl)                                     | [Aeolic](chapter-05.qmd#sec-ay)                                                                                                          |
 | [Stagnic](chapter-05.qmd#sec-st)                                    | [Biocrustic](chapter-05.qmd#sec-bc)                                                                                                      |
@@ -363,7 +364,7 @@ Other soils:
 ### Qualifiers
 
 | Principal Qualifiers                                                | Supplementary Qualifiers                                                                                                                 |
-|-------------------------|----------------------------------------------|
+|--------------------------|----------------------------------------------|
 | [Petrosalic](chapter-05.qmd#sec-ps)                                 | [Arenic](chapter-05.qmd#sec-ar) \| [Clayic](chapter-05.qmd#sec-ce) \| [Loamic](chapter-05.qmd#sec-lo) \| [Siltic](chapter-05.qmd#sec-sl) |
 | [Gleyic](chapter-05.qmd#sec-gl)                                     | [Aceric](chapter-05.qmd#sec-ae)                                                                                                          |
 | [Stagnic](chapter-05.qmd#sec-st)                                    | [Aeolic](chapter-05.qmd#sec-ay)                                                                                                          |
@@ -525,9 +526,10 @@ Other soils having a [*spodic horizon*](chapter-03.qmd#sec-spodh) starting ≤ 
 | [Stagnic](chapter-05.qmd#sec-st)                                                                                                          | [Folic](chapter-05.qmd#sec-fo)                                                                        |
 | [Anthromollic](chapter-05.qmd#sec-am) \| [Umbric](chapter-05.qmd#sec-um)                                                                  | [Fragic](chapter-05.qmd#sec-fg)                                                                       |
 | [Glossic](chapter-05.qmd#sec-gs) \| [Retic](chapter-05.qmd#sec-rt)                                                                        | [Gelic](chapter-05.qmd#sec-ge)                                                                        |
-| [Acric](chapter-05.qmd#sec-ac) \| [Alic](chapter-05.qmd#sec-al)                                                                           | [Novic](chapter-05.qmd#sec-nv)                                                                        |
-| [Coarsic](chapter-05.qmd#sec-cs)                                                                                                          | [Ornithic](chapter-05.qmd#sec-oc)                                                                     |
-| [Skeletic](chapter-05.qmd#sec-sk)                                                                                                         | [Oxyaquic](chapter-05.qmd#sec-oa)                                                                     |
+| [Acric](chapter-05.qmd#sec-ac) \| [Alic](chapter-05.qmd#sec-al)                                                                           | [Limonic](chapter-05.qmd#sec-ln)                                                                      |
+| [Coarsic](chapter-05.qmd#sec-cs)                                                                                                          | [Novic](chapter-05.qmd#sec-nv)                                                                        |
+| [Skeletic](chapter-05.qmd#sec-sk)                                                                                                         | [Ornithic](chapter-05.qmd#sec-oc)                                                                     |
+|                                                                                                                                           | [Oxyaquic](chapter-05.qmd#sec-oa)                                                                     |
 |                                                                                                                                           | [Placic](chapter-05.qmd#sec-pi)                                                                       |
 |                                                                                                                                           | [Pyric](chapter-05.qmd#sec-py)                                                                        |
 |                                                                                                                                           | [Raptic](chapter-05.qmd#sec-rp)                                                                       |
@@ -547,7 +549,7 @@ Other soils having a [*plinthic*](chapter-03.qmd#sec-plinth), [*pisoplinthic*](c
 ### Qualifiers
 
 | Principal Qualifiers                                               | Supplementary Qualifiers                                                                                                                 |
-|-------------------------|-----------------------------------------------|
+|-------------------------|----------------------------------------------|
 | [Petric](chapter-05.qmd#sec-pt)                                    | [Arenic](chapter-05.qmd#sec-ar) \| [Clayic](chapter-05.qmd#sec-ce) \| [Loamic](chapter-05.qmd#sec-lo) \| [Siltic](chapter-05.qmd#sec-sl) |
 | [Pisoplinthic](chapter-05.qmd#sec-px)                              | [Abruptic](chapter-05.qmd#sec-ap)                                                                                                        |
 | [Gibbsic](chapter-05.qmd#sec-gi)                                   | [Acric](chapter-05.qmd#sec-ac) \| [Lixic](chapter-05.qmd#sec-lx)                                                                         |
@@ -683,7 +685,7 @@ Other soils having:
 ### Qualifiers
 
 | Principal Qualifiers                                                                                                                | Supplementary Qualifiers                                            |
-|----------------------------------------------|--------------------------|
+|---------------------------------------------|--------------------------|
 | [Ferralic](chapter-05.qmd#sec-fl) \| [Sideralic](chapter-05.qmd#sec-se)                                                             | [Andic](chapter-05.qmd#sec-an)                                      |
 | [Ferritic](chapter-05.qmd#sec-fe)                                                                                                   | [Aric](chapter-05.qmd#sec-ai)                                       |
 | [Leptic](chapter-05.qmd#sec-le)                                                                                                     | [Densic](chapter-05.qmd#sec-dn)                                     |
@@ -718,7 +720,7 @@ Other soils having:
 ### Qualifiers
 
 | Principal Qualifiers                                                | Supplementary Qualifiers                                                                                                                 |
-|-------------------------|----------------------------------------------|
+|--------------------------|----------------------------------------------|
 | [Ferritic](chapter-05.qmd#sec-fe)                                   | [Arenic](chapter-05.qmd#sec-ar) \| [Clayic](chapter-05.qmd#sec-ce) \| [Loamic](chapter-05.qmd#sec-lo) \| [Siltic](chapter-05.qmd#sec-sl) |
 | [Gibbsic](chapter-05.qmd#sec-gi)                                    | [Abruptic](chapter-05.qmd#sec-ap)                                                                                                        |
 | [Rhodic](chapter-05.qmd#sec-ro) \| [Xanthic](chapter-05.qmd#sec-xa) | [Activic](chapter-05.qmd#sec-at)                                                                                                         |
@@ -763,7 +765,7 @@ Other soils having:
 ### Qualifiers
 
 | Principal Qualifiers                                                  | Supplementary Qualifiers                                                                                                                 |
-|--------------------------|----------------------------------------------|
+|--------------------------|---------------------------------------------|
 | [Petroduric](chapter-05.qmd#sec-pd) \| [Duric](chapter-05.qmd#sec-du) | [Arenic](chapter-05.qmd#sec-ar) \| [Clayic](chapter-05.qmd#sec-ce) \| [Loamic](chapter-05.qmd#sec-lo) \| [Siltic](chapter-05.qmd#sec-sl) |
 | [Petrocalcic](chapter-05.qmd#sec-pc)                                  | [Andic](chapter-05.qmd#sec-an)                                                                                                           |
 | [Leptic](chapter-05.qmd#sec-le)                                       | [Aric](chapter-05.qmd#sec-ai)                                                                                                            |
@@ -802,7 +804,7 @@ Other soils having:
 ### Qualifiers
 
 | Principal Qualifiers                                                  | Supplementary Qualifiers                                                                                                                 |
-|--------------------------|----------------------------------------------|
+|--------------------------|---------------------------------------------|
 | [Someric](chapter-05.qmd#sec-si)                                      | [Arenic](chapter-05.qmd#sec-ar) \| [Clayic](chapter-05.qmd#sec-ce) \| [Loamic](chapter-05.qmd#sec-lo) \| [Siltic](chapter-05.qmd#sec-sl) |
 | [Petroduric](chapter-05.qmd#sec-pd) \| [Duric](chapter-05.qmd#sec-du) | [Andic](chapter-05.qmd#sec-an)                                                                                                           |
 | [Petrogypsic](chapter-05.qmd#sec-pg)                                  | [Anthric](chapter-05.qmd#sec-ak)                                                                                                         |
@@ -971,7 +973,7 @@ Other soils having:
 ### Qualifiers
 
 | Principal Qualifiers                                                | Supplementary Qualifiers                                                                                                                 |
-|-------------------------|----------------------------------------------|
+|--------------------------|----------------------------------------------|
 | [Petric](chapter-05.qmd#sec-pt)                                     | [Arenic](chapter-05.qmd#sec-ar) \| [Clayic](chapter-05.qmd#sec-ce) \| [Loamic](chapter-05.qmd#sec-lo) \| [Siltic](chapter-05.qmd#sec-sl) |
 | [Petrocalcic](chapter-05.qmd#sec-pc)                                | [Abruptic](chapter-05.qmd#sec-ap)                                                                                                        |
 | [Calcic](chapter-05.qmd#sec-cc)                                     | [Aeolic](chapter-05.qmd#sec-ay)                                                                                                          |
@@ -1006,7 +1008,7 @@ Other soils having:
 ### Qualifiers
 
 | Principal Qualifiers                                                | Supplementary Qualifiers                                                                                                                 |
-|-------------------------|----------------------------------------------|
+|--------------------------|----------------------------------------------|
 | [Petric](chapter-05.qmd#sec-pt)                                     | [Arenic](chapter-05.qmd#sec-ar) \| [Clayic](chapter-05.qmd#sec-ce) \| [Loamic](chapter-05.qmd#sec-lo) \| [Siltic](chapter-05.qmd#sec-sl) |
 | [Leptic](chapter-05.qmd#sec-le)                                     | [Abruptic](chapter-05.qmd#sec-ap)                                                                                                        |
 | [Gleyic](chapter-05.qmd#sec-gl)                                     | [Aeolic](chapter-05.qmd#sec-ay)                                                                                                          |
@@ -1370,7 +1372,7 @@ Arenosols may bury other soils, which can be mentioned behind the Arenosol class
 ### Qualifiers
 
 | Principal Qualifiers                                                    | Supplementary Qualifiers                                                                                                                 |
-|----------------------------------------|----------------------------------------------|
+|----------------------------------|--------------------------------------|
 | [Tidalic](chapter-05.qmd#sec-td)                                        | [Geoabruptic](chapter-05.qmd#sec-go)                                                                                                     |
 | [Aeolic](chapter-05.qmd#sec-ay)                                         | [Alcalic](chapter-05.qmd#sec-ax)                                                                                                         |
 | [Solimovic](chapter-05.qmd#sec-sv)                                      | [Arenicolic](chapter-05.qmd#sec-ad)                                                                                                      |
@@ -1415,7 +1417,7 @@ Other soils:
 ### Qualifiers
 
 | Principal Qualifiers                                                    | Supplementary Qualifiers                                                                                                                 |
-|--------------------------|----------------------------------------------|
+|--------------------------|---------------------------------------------|
 | [Tidalic](chapter-05.qmd#sec-td)                                        | [Arenic](chapter-05.qmd#sec-ar) \| [Clayic](chapter-05.qmd#sec-ce) \| [Loamic](chapter-05.qmd#sec-lo) \| [Siltic](chapter-05.qmd#sec-sl) |
 | [Leptic](chapter-05.qmd#sec-le)                                         | [Geoabruptic](chapter-05.qmd#sec-go)                                                                                                     |
 | [Solimovic](chapter-05.qmd#sec-sv)                                      | [Alcalic](chapter-05.qmd#sec-ax)                                                                                                         |

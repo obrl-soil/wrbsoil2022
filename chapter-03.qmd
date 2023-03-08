@@ -299,7 +299,7 @@ The chernic horizon is a special case of the [*mollic horizon*](#sec-mollh) with
 
 #### General description {#sec-cohesich-desc}
 
-A cohesic horizon (from Latin *cohaerere*, to stick together) is a subsurface horizon with a massive structure or a subangular blocky structure. It is poor in organic matter and iron oxides, normally contains quartz, and the clay fraction is dominated by kaolinite. It is typical for old landscapes of the tropics with a seasonal climate.
+A cohesic horizon (from Latin *cohaerere*, to stick together) is a subsurface horizon with a massive structure or a weak subangular blocky structure. It is poor in organic matter and iron oxides, normally contains quartz, and the clay fraction is dominated by kaolinite. It is typical for old landscapes of the tropics with a seasonal climate.
 
 #### Diagnostic criteria {#sec-cohesich-diag}
 
@@ -308,7 +308,7 @@ A cohesic horizon consists of [*mineral material*](#sec-minm) and:
 1.  has \< 0.5% [*soil organic carbon*](#sec-soc); ***and***
 2.  has ≥ 15% clay; ***and***
 3.  has a CEC (by 1 *M* NH~4~OAc, pH 7) of \< 24 cmol~c~ kg^-1^ clay; ***and***
-4.  has, single or in combination, a massive structure or a subangular blocky structure; ***and***
+4.  has, single or in combination, a massive structure or a weak subangular blocky structure; ***and***
 5.  is not cemented; ***and***
 6.  has, when dry, a rupture-resistance class of at least hard; ***and***
 7.  has a thickness of ≥ 10 cm.
@@ -696,7 +696,7 @@ Limonic horizons show the typical characteristics of layers with [*gleyic proper
 
 #### Relationships with some other diagnostics {#sec-limnh-reln}
 
-Limonic horizons develop in layers with [*gleyic properties*](#sec-gleyicp) and oximorphic features. The process of groundwater ascent may be active or relict. Limonic horizons differ from [*tsitelic horizons*](#sec-tsitelich), which are non-cemented and, if fine-textured, have a low bulk density. Limonic horizons, especially if with Mn oxides, may resemble [*spodic horizons*](#sec-spodich), but typically lack the Al translocation required for [*spodic horizons*](#sec-spodich).
+Limonic horizons develop in layers with [*gleyic properties*](#sec-gleyicp) and oximorphic features. The process of groundwater ascent may be active or relict. Limonic horizons differ from [*tsitelic horizons*](#sec-tsitelich), which are non-cemented and, if fine-textured, have a low bulk density. Limonic horizons, especially if with Mn oxides, may resemble [*spodic horizons*](#sec-spodich), but typically lack the Al translocation required for [*spodic horizons*](#sec-spodich). However, limonic horizons may overlap with [*spodic horizons*](#sec-spodich), especially with the lower part of the [*spodic horizon*](#sec-spodich).
 
 ### Mollic horizon {#sec-mollh}
 
@@ -1210,7 +1210,7 @@ A spodic horizon consists of [*mineral material*](#sec-minm) and:
     b.  ≥ 10% of the sand grains of the horizon show cracked coatings; ***or***
     c.  has a subhorizon that is cemented with a cementation class of at least weakly cemented in ≥ 50% of its horizontal extension; ***or***
     d.  has a subhorizon with an Al~ox~ + ½Fe~ox~ value of ≥ 0.5% that is ≥ 2 times that of the lowest Al~ox~ + ½Fe~ox~ value of all the mineral layers above the spodic horizon; ***and***
-6.  does not form part of a [*natric*](#sec-natrich), [*limonic*](#sec-limnh) or [*tsitelic horizon*](#sec-tsitelich); ***and***
+6.  does not form part of a [*natric horizon*](#sec-natrich); ***and***
 7.  has a thickness of ≥ 2.5 cm.
 
 #### Field identification {#sec-spodich-flid}
@@ -1224,6 +1224,8 @@ There may be a [*hortic*](#sec-hortih), [*plaggic*](#sec-plaggh), [*terric*](#se
 Spodic horizons in volcanic materials may exhibit [*andic properties*](#sec-andicp) as well. Spodic horizons in other materials may exhibit some characteristics of the andic properties, but normally have a higher bulk density. For classification purposes, the presence of a spodic horizon, unless buried deeper than 50 cm, is given preference over the occurrence of [*andic properties*](#sec-andicp).
 
 Some layers with [*andic properties*](#sec-andicp) resemble spodic horizons, if they are covered by relatively young, light-coloured volcanic ejecta that satisfy the requirements of [*claric material*](#sec-claricm). There is a [*lithic discontinuity*](#sec-lithd) in between, which excludes them from being spodic horizons. This can be further proven by the following analyses: The uppermost 2.5 cm of the spodic horizon have a C~py~/OC and a C~f~/C~py~ of ≥ 0.5. C~py~, C~f~ and OC are pyrophosphate-extractable C, fulvic acid C and organic C, respectively [@ito1991].
+
+[*Limonic*](#sec-limnh) and [*tsitelic horizons*](#sec-tsitelich) may resemble spodic horizons, but lack the translocation of Al. However, [*limonic horizons*](#sec-limnh) may overlap with spodic horizons, especially with the lower part of the spodic horizon.
 
 Similar to many spodic horizons, [*sombric horizons*](#sec-sombrh) also contain more organic matter than an overlying layer. They can be differentiated from each other by the clay mineralogy. Kaolinite usually dominates in [*sombric horizons*](#sec-sombrh), whereas the clay fraction of spodic horizons commonly contains significant amounts of vermiculite and Al-interlayered chlorite.
 
@@ -1298,7 +1300,7 @@ A tsitelic horizon consists of [*mineral material*](#sec-minm) and
 3.  has Al~ox~ \< Fe~ox~; ***and***
 4.  has a Munsell colour chroma of ≥ 4, moist; ***and***
 5.  does not show reductimorphic features; ***and***
-6.  does not form part of a [*limonic horizon*](#sec-limonich); ***and***
+6.  does not form part of a [*limonic*](#sec-limonich) or [*spodic horizon*](#sec-spodich); ***and***
 7.  has a thickness of ≥ 5 cm.
 
 #### Field identification {#sec-tsitelich-flid}
@@ -2019,7 +2021,7 @@ Acidification of hyposulfidic material usually does not cause the development of
 
 ### Limnic material {#sec-limnicm}
 
-#### Diagnostic criteria {#sec-limnicm-diag}
+#### Diagnostic criteria
 
 Limnic material (from Greek *limnae*, pool) includes both organic and [*mineral material*](#sec-minm) and is one or more of the following:
 

@@ -263,7 +263,7 @@ The WRB comprises two levels of categorical detail:
 
 In the WRB, a distinction is made between **principal qualifiers** and **supplementary qualifiers**. Principal qualifiers are regarded as being most significant for a further characterization of soils of the particular RSG. They are given in a ranked order. Supplementary qualifiers give some further details about the soil. They are not ranked but listed alphabetically (exception: the supplementary qualifiers related to the texture are given first). [Chapter 2](chapter-02.qmd) gives the rules for the use of qualifiers for naming soils and for creating map legends. Constructing the second level by adding qualifiers to the RSG has several advantages compared with a dichotomous key:
 
--   For every soil, the RSG has the appropriate number of qualifiers. Soils with few characteristics have short names; soils with many characteristics (e.g. polygenetic soils) have longer names.
+-   Every soil receives the appropriate number of qualifiers. Soils with few characteristics have short names; soils with many characteristics (e.g. polygenetic soils) have longer names.
 -   The WRB is capable of indicating most of the soil's properties, which are incorporated into an informative soil name.
 -   The system is robust. Missing data do not necessarily lead to a dramatic error in the classification of a soil. If one qualifier is erroneously added or erroneously omitted based on incomplete data, the rest of the soil name remains correct.
 

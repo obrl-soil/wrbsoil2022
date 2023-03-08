@@ -12,7 +12,7 @@ Usually, only a limited number of combinations will be possible in a soil name; 
 
 1.  [**Subqualifiers**](chapter-02.qmd#sec-subq), **which may be used in the soil name instead of the qualifier listed in the [Key](chapter-04.qmd#sec-key)**, are found beneath the definition of the respective qualifier (e.g. Protocalcic is found under Calcic). **Subqualifiers, which cannot replace a listed qualifier**, are found in alphabetical order (e.g. Hyperalic).
 
-2.  If a subqualifier (**optional or additional subqualifier**) related to depth requirements can be constructed by the user, **the figure indicates, which rule applies**: (1), (2), (3), (4), (5). If no figure is indicated, these subqualifiers cannot be constructed.
+2.  If a subqualifier related to depth requirements can be constructed by the user, **the figure indicates, which rule applies**: (1), (2), (3), (4), (5). If no figure is indicated, these subqualifiers cannot be constructed.
 
 ## Definitions {#sec-quals-defns}
 
@@ -735,6 +735,14 @@ with or without other accumulations, and that have a combined thickness of ≥ 
 
 (from Greek *limnae*, pool): having one or more layers with [*limnic material*](chapter-03.qmd#sec-limnicm) with a combined thickness of ≥ 10 cm within 100 cm of the soil surface (2).
 
+#### Minerolimnic (ml) {#sec-ml .unnumbered}
+
+(from Celtic *mine*, mineral): having one or more layers with [*limnic material*](chapter-03.qmd#sec-limnicm) consisting of [*mineral material*](chapter-03.qmd#sec-minm) with a combined thickness of ≥ 10 cm within 100 cm of the soil surface (2).
+
+#### Organolimnic (oo) {#sec-oo .unnumbered}
+
+(from Greek *organon*, tool): having one or more layers with [*limnic material*](chapter-03.qmd#sec-limnicm) consisting of [*organic material*](chapter-03.qmd#sec-orgm) with a combined thickness of ≥ 10 cm within 100 cm of the soil surface (2).
+
 ### Limonic (ln) {#sec-ln .unnumbered}
 
 (from Greek *leimon*, meadow): having a [*limonic horizon*](chapter-03.qmd#sec-limonich), starting ≤ 100 cm from the soil surface (2).
@@ -793,6 +801,13 @@ with or without other accumulations, and that have a combined thickness of ≥ 
 -   in the major part between the mineral soil surface and a limiting layer starting \< 60 cm from the mineral soil surface
 
 (2; no subqualifier if a limiting layer starts \< 60 cm from the mineral soil surface).
+
+### Mahic (ma) {#sec-ma .unnumbered}
+
+(from Maori *mahi*, work):
+
+-   having a layer, ≥ 10 cm thick and starting ≤ 50 cm from the soil surface, with ≥ 80% (by volume, weighted average, related to the whole soil) [*artefacts*](chapter-03.qmd#sec-artefm); *and*
+-   having < 20% (by volume, weighted average, related to the whole soil) [*artefacts*](chapter-03.qmd#sec-artefm) in the upper 100 cm from the soil surface or to a limiting layer, whichever is shallower.
 
 ### Mawic (mw) {#sec-mw .unnumbered}
 
@@ -966,7 +981,7 @@ see [*Fluvic*](#sec-fv).
 
 ### Pachic (ph) {#sec-ph .unnumbered}
 
-(from Greek *pachys*, thick): having a [*chernic*](chapter-03.qmd#sec-chernh), [*mollic*](chapter-03.qmd#sec-mollh) or [*umbric horizon*](chapter-03.qmd#sec-umbrich) ≥ 50 cm thick.
+(from Greek *pachys*, thick): having a [*chernic*](chapter-03.qmd#sec-chernh), [*mollic*](chapter-03.qmd#sec-mollh) or [*umbric horizon*](chapter-03.qmd#sec-umbrich) ≥ 50 cm thick (in [*Chernozems*](chapter-04.qmd#sec-key-ch), [*Kastanozems*](chapter-04.qmd#sec-key-ks), [*Phaeozems*](chapter-04.qmd#sec-key-ph) and [*Umbrisols*](chapter-04.qmd#sec-key-um) only).
 
 ### Panpaic (pb) {#sec-pb .unnumbered}
 
@@ -1086,7 +1101,7 @@ see [*Vertic*](#sec-vr).
 
 ### Relocatic (rc) {#sec-rc .unnumbered}
 
-(from Latin *re*, again, and *locatus*, put): being remodelled in situ or within the immediate vicinity by human activity to a depth of ≥ 100 cm (e.g. by deep ploughing, refilling soil pits or levelling land) and no formation of diagnostic horizons after remodelling, throughout, except a [*mollic*](chapter-03.qmd#sec-mollh) or [*umbric horizon*](chapter-03.qmd#sec-umbrich) (in [*Technosols*](chapter-04.qmd#sec-key-tc), Relocatic is redundant, except in combination with the [Ekranic](#sec-ek), [Thyric](#sec-th) or [Linic qualifier](#sec-lc)); a destroyed diagnostic subsurface horizon may be added with a hyphen, e.g. Spodi-Relocatic, Spodi-Epirelocatic, however, there are no codes provided for these additions (4: Epi- only).
+(from Latin *re*, again, and *locatus*, put): being remodelled in situ or within the immediate vicinity by human activity to a depth of ≥ 100 cm (e.g. by deep ploughing, refilling soil pits or levelling land) and no formation of diagnostic horizons after remodelling, throughout, except a [*mollic*](chapter-03.qmd#sec-mollh) or [*umbric horizon*](chapter-03.qmd#sec-umbrich) (in [*Technosols*](chapter-04.qmd#sec-key-tc), Relocatic is redundant, except in combination with the [Ekranic](#sec-ek), [Thyric](#sec-th) or [Linic qualifier](#sec-lc)); a destroyed diagnostic horizon  (excluding the horizons that are defined as surface horizon according to their diagnostic criteria) may be added with a hyphen, e.g. Spodi-Relocatic, Spodi-Epirelocatic, however, there are no codes provided for these additions (4: Epi- only).
 
 ### Rendzic (rz) {#sec-rz .unnumbered}
 
@@ -1220,10 +1235,6 @@ see [*Vertic*](#sec-vr).
 #### Hyperspodic (jp) {sec-jp .unnumbered}
 
 (from Greek *hyper*, over): having a [*spodic horizon*](chapter-03.qmd#sec-spodich), ≥ 100 cm thick and starting ≤ 200 cm from the mineral soil surface.
-
-#### Nudispodic (ns) {#sec-ns .unnumbered}
-
-(from Latin *nudus*, naked, and Greek *spodos*, wood ash): having layer, starting at the mineral soil surface, that fulfils the criteria of the [*spodic horizon*](chapter-03.qmd#sec-spodich), except criterion 2.
 
 #### Protospodic (qp) {#sec-qp .unnumbered}
 
@@ -1451,8 +1462,12 @@ and that has been moved from a source area outside the immediate vicinity by int
 
 ### Yermic (ye) {#sec-ye .unnumbered}
 
-(from Spanish *yermo*, desert): having [*yermic properties*](chapter-03.qmd#sec-yermicp), including a desert pavement.
+(from Spanish *yermo*, desert): having [*yermic properties*](chapter-03.qmd#sec-yermicp).
 
 #### Nudiyermic (ny) {#sec-ny .unnumbered}
 
 (from Latin *nudus*, naked): having [*yermic properties*](chapter-03.qmd#sec-yermicp) without a desert pavement.
+
+#### Paviyermic (vy) {#sec-vy .unnumbered}
+
+(for Latin *pavimentum*, floor): having [*yermic properties*](chapter-03.qmd#sec-yermicp), including a desert pavement.
