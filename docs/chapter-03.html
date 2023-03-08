@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.34">
+<meta name="generator" content="quarto-1.3.250">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -88,11 +88,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Diagnostic horizons, properties and materials</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter-03.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Diagnostic horizons, properties and materials</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -100,202 +105,246 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">World Reference Base for Soil Resources</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/obrl-soil/wrbsoil2022" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
+              <i class="bi bi-bi-linkedin pe-1"></i>
+            LinkedIn
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">About</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./foreword.html" class="sidebar-item-text sidebar-link">Foreword</a>
+  <a href="./foreword.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Foreword</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./preface.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="./preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./acknowledgements.html" class="sidebar-item-text sidebar-link">Acknowledgements</a>
+  <a href="./acknowledgements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Acknowledgements</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./list-of-acronyms.html" class="sidebar-item-text sidebar-link">List of acronyms</a>
+  <a href="./list-of-acronyms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">List of acronyms</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapter-01.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Background and basics</span></a>
+  <a href="./chapter-01.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Background and basics</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapter-02.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The rules for naming soils and creating legends for soil maps</span></a>
+  <a href="./chapter-02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The rules for naming soils and creating legends for soil maps</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapter-03.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Diagnostic horizons, properties and materials</span></a>
+  <a href="./chapter-03.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Diagnostic horizons, properties and materials</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapter-04.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Key to the Reference Soil Groups with lists of principal and supplementary qualifiers</span></a>
+  <a href="./chapter-04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Key to the Reference Soil Groups with lists of principal and supplementary qualifiers</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapter-05.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Definitions of qualifiers</span></a>
+  <a href="./chapter-05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Definitions of qualifiers</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapter-06.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Codes for the Reference Soil Groups, qualifiers and specifiers</span></a>
+  <a href="./chapter-06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Codes for the Reference Soil Groups, qualifiers and specifiers</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapter-07.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">References</span></a>
+  <a href="./chapter-07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">References</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./annex-01-field-guide.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Annex 1: Field Guide</span></a>
+  <a href="./annex-01-field-guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Annex 1: Field Guide</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./annex-02-analytical-procedures.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Annex 2: Summary of analytical procedures for soil characterization</span></a>
+  <a href="./annex-02-analytical-procedures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Annex 2: Summary of analytical procedures for soil characterization</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./annex-03-horizon-layer-designations.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Annex 3: Horizon and layer designations</span></a>
+  <a href="./annex-03-horizon-layer-designations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Annex 3: Horizon and layer designations</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./annex-04-soil-description-sheet.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Annex 4: Soil description sheet</span></a>
+  <a href="./annex-04-soil-description-sheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Annex 4: Soil description sheet</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./annex-05-database-setup.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Annex 5: Guidance on database set-up</span></a>
+  <a href="./annex-05-database-setup.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Annex 5: Guidance on database set-up</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./annex-06-rsg-colours.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Annex 6: Colour symbols for RSG maps</span></a>
+  <a href="./annex-06-rsg-colours.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Annex 6: Colour symbols for RSG maps</span></span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sec-diagh" id="toc-sec-diagh" class="nav-link active" data-scroll-target="#sec-diagh"><span class="toc-section-number">3.1</span>  Diagnostic horizons</a>
+  <li><a href="#sec-diagh" id="toc-sec-diagh" class="nav-link active" data-scroll-target="#sec-diagh"><span class="header-section-number">3.1</span> Diagnostic horizons</a>
   <ul class="collapse">
-  <li><a href="#sec-albich" id="toc-sec-albich" class="nav-link" data-scroll-target="#sec-albich"><span class="toc-section-number">3.1.1</span>  Albic horizon</a></li>
-  <li><a href="#sec-anthh" id="toc-sec-anthh" class="nav-link" data-scroll-target="#sec-anthh"><span class="toc-section-number">3.1.2</span>  Anthraquic horizon</a></li>
-  <li><a href="#sec-argich" id="toc-sec-argich" class="nav-link" data-scroll-target="#sec-argich"><span class="toc-section-number">3.1.3</span>  Argic horizon</a></li>
-  <li><a href="#sec-calch" id="toc-sec-calch" class="nav-link" data-scroll-target="#sec-calch"><span class="toc-section-number">3.1.4</span>  Calcic horizon</a></li>
-  <li><a href="#sec-cambich" id="toc-sec-cambich" class="nav-link" data-scroll-target="#sec-cambich"><span class="toc-section-number">3.1.5</span>  Cambic horizon</a></li>
-  <li><a href="#sec-chernh" id="toc-sec-chernh" class="nav-link" data-scroll-target="#sec-chernh"><span class="toc-section-number">3.1.6</span>  Chernic horizon</a></li>
-  <li><a href="#sec-cohesich" id="toc-sec-cohesich" class="nav-link" data-scroll-target="#sec-cohesich"><span class="toc-section-number">3.1.7</span>  Cohesic horizon</a></li>
-  <li><a href="#sec-cryich" id="toc-sec-cryich" class="nav-link" data-scroll-target="#sec-cryich"><span class="toc-section-number">3.1.8</span>  Cryic horizon</a></li>
-  <li><a href="#sec-durich" id="toc-sec-durich" class="nav-link" data-scroll-target="#sec-durich"><span class="toc-section-number">3.1.9</span>  Duric horizon</a></li>
-  <li><a href="#sec-feralh" id="toc-sec-feralh" class="nav-link" data-scroll-target="#sec-feralh"><span class="toc-section-number">3.1.10</span>  Ferralic horizon</a></li>
-  <li><a href="#sec-ferich" id="toc-sec-ferich" class="nav-link" data-scroll-target="#sec-ferich"><span class="toc-section-number">3.1.11</span>  Ferric horizon</a></li>
-  <li><a href="#sec-folich" id="toc-sec-folich" class="nav-link" data-scroll-target="#sec-folich"><span class="toc-section-number">3.1.12</span>  Folic horizon</a></li>
-  <li><a href="#sec-fragh" id="toc-sec-fragh" class="nav-link" data-scroll-target="#sec-fragh"><span class="toc-section-number">3.1.13</span>  Fragic horizon</a></li>
-  <li><a href="#sec-gypsih" id="toc-sec-gypsih" class="nav-link" data-scroll-target="#sec-gypsih"><span class="toc-section-number">3.1.14</span>  Gypsic horizon</a></li>
-  <li><a href="#sec-histih" id="toc-sec-histih" class="nav-link" data-scroll-target="#sec-histih"><span class="toc-section-number">3.1.15</span>  Histic horizon</a></li>
-  <li><a href="#sec-hortih" id="toc-sec-hortih" class="nav-link" data-scroll-target="#sec-hortih"><span class="toc-section-number">3.1.16</span>  Hortic horizon</a></li>
-  <li><a href="#sec-hydrh" id="toc-sec-hydrh" class="nav-link" data-scroll-target="#sec-hydrh"><span class="toc-section-number">3.1.17</span>  Hydragric horizon</a></li>
-  <li><a href="#sec-iragh" id="toc-sec-iragh" class="nav-link" data-scroll-target="#sec-iragh"><span class="toc-section-number">3.1.18</span>  Irragric horizon</a></li>
-  <li><a href="#sec-limonich" id="toc-sec-limonich" class="nav-link" data-scroll-target="#sec-limonich"><span class="toc-section-number">3.1.19</span>  Limonic horizon</a></li>
-  <li><a href="#sec-mollh" id="toc-sec-mollh" class="nav-link" data-scroll-target="#sec-mollh"><span class="toc-section-number">3.1.20</span>  Mollic horizon</a></li>
-  <li><a href="#sec-natrich" id="toc-sec-natrich" class="nav-link" data-scroll-target="#sec-natrich"><span class="toc-section-number">3.1.21</span>  Natric horizon</a></li>
-  <li><a href="#sec-nitich" id="toc-sec-nitich" class="nav-link" data-scroll-target="#sec-nitich"><span class="toc-section-number">3.1.22</span>  Nitic horizon</a></li>
-  <li><a href="#sec-panpaich" id="toc-sec-panpaich" class="nav-link" data-scroll-target="#sec-panpaich"><span class="toc-section-number">3.1.23</span>  Panpaic horizon</a></li>
-  <li><a href="#sec-pcalch" id="toc-sec-pcalch" class="nav-link" data-scroll-target="#sec-pcalch"><span class="toc-section-number">3.1.24</span>  Petrocalcic horizon</a></li>
-  <li><a href="#sec-pdurich" id="toc-sec-pdurich" class="nav-link" data-scroll-target="#sec-pdurich"><span class="toc-section-number">3.1.25</span>  Petroduric horizon</a></li>
-  <li><a href="#sec-pgypsich" id="toc-sec-pgypsich" class="nav-link" data-scroll-target="#sec-pgypsich"><span class="toc-section-number">3.1.26</span>  Petrogypsic horizon</a></li>
-  <li><a href="#sec-pplinthich" id="toc-sec-pplinthich" class="nav-link" data-scroll-target="#sec-pplinthich"><span class="toc-section-number">3.1.27</span>  Petroplinthic horizon</a></li>
-  <li><a href="#sec-pisoph" id="toc-sec-pisoph" class="nav-link" data-scroll-target="#sec-pisoph"><span class="toc-section-number">3.1.28</span>  Pisoplinthic horizon</a></li>
-  <li><a href="#sec-plaggh" id="toc-sec-plaggh" class="nav-link" data-scroll-target="#sec-plaggh"><span class="toc-section-number">3.1.29</span>  Plaggic horizon</a></li>
-  <li><a href="#sec-plinth" id="toc-sec-plinth" class="nav-link" data-scroll-target="#sec-plinth"><span class="toc-section-number">3.1.30</span>  Plinthic horizon</a></li>
-  <li><a href="#sec-preth" id="toc-sec-preth" class="nav-link" data-scroll-target="#sec-preth"><span class="toc-section-number">3.1.31</span>  Pretic horizon</a></li>
-  <li><a href="#sec-protvh" id="toc-sec-protvh" class="nav-link" data-scroll-target="#sec-protvh"><span class="toc-section-number">3.1.32</span>  Protovertic horizon</a></li>
-  <li><a href="#sec-salich" id="toc-sec-salich" class="nav-link" data-scroll-target="#sec-salich"><span class="toc-section-number">3.1.33</span>  Salic horizon</a></li>
-  <li><a href="#sec-sombrh" id="toc-sec-sombrh" class="nav-link" data-scroll-target="#sec-sombrh"><span class="toc-section-number">3.1.34</span>  Sombric horizon</a></li>
-  <li><a href="#sec-spodich" id="toc-sec-spodich" class="nav-link" data-scroll-target="#sec-spodich"><span class="toc-section-number">3.1.35</span>  Spodic horizon</a></li>
-  <li><a href="#sec-terich" id="toc-sec-terich" class="nav-link" data-scroll-target="#sec-terich"><span class="toc-section-number">3.1.36</span>  Terric horizon</a></li>
-  <li><a href="#sec-thionh" id="toc-sec-thionh" class="nav-link" data-scroll-target="#sec-thionh"><span class="toc-section-number">3.1.37</span>  Thionic horizon</a></li>
-  <li><a href="#sec-tsitelich" id="toc-sec-tsitelich" class="nav-link" data-scroll-target="#sec-tsitelich"><span class="toc-section-number">3.1.38</span>  Tsitelic horizon</a></li>
-  <li><a href="#sec-umbrich" id="toc-sec-umbrich" class="nav-link" data-scroll-target="#sec-umbrich"><span class="toc-section-number">3.1.39</span>  Umbric horizon</a></li>
-  <li><a href="#sec-verth" id="toc-sec-verth" class="nav-link" data-scroll-target="#sec-verth"><span class="toc-section-number">3.1.40</span>  Vertic horizon</a></li>
+  <li><a href="#sec-albich" id="toc-sec-albich" class="nav-link" data-scroll-target="#sec-albich"><span class="header-section-number">3.1.1</span> Albic horizon</a></li>
+  <li><a href="#sec-anthh" id="toc-sec-anthh" class="nav-link" data-scroll-target="#sec-anthh"><span class="header-section-number">3.1.2</span> Anthraquic horizon</a></li>
+  <li><a href="#sec-argich" id="toc-sec-argich" class="nav-link" data-scroll-target="#sec-argich"><span class="header-section-number">3.1.3</span> Argic horizon</a></li>
+  <li><a href="#sec-calch" id="toc-sec-calch" class="nav-link" data-scroll-target="#sec-calch"><span class="header-section-number">3.1.4</span> Calcic horizon</a></li>
+  <li><a href="#sec-cambich" id="toc-sec-cambich" class="nav-link" data-scroll-target="#sec-cambich"><span class="header-section-number">3.1.5</span> Cambic horizon</a></li>
+  <li><a href="#sec-chernh" id="toc-sec-chernh" class="nav-link" data-scroll-target="#sec-chernh"><span class="header-section-number">3.1.6</span> Chernic horizon</a></li>
+  <li><a href="#sec-cohesich" id="toc-sec-cohesich" class="nav-link" data-scroll-target="#sec-cohesich"><span class="header-section-number">3.1.7</span> Cohesic horizon</a></li>
+  <li><a href="#sec-cryich" id="toc-sec-cryich" class="nav-link" data-scroll-target="#sec-cryich"><span class="header-section-number">3.1.8</span> Cryic horizon</a></li>
+  <li><a href="#sec-durich" id="toc-sec-durich" class="nav-link" data-scroll-target="#sec-durich"><span class="header-section-number">3.1.9</span> Duric horizon</a></li>
+  <li><a href="#sec-feralh" id="toc-sec-feralh" class="nav-link" data-scroll-target="#sec-feralh"><span class="header-section-number">3.1.10</span> Ferralic horizon</a></li>
+  <li><a href="#sec-ferich" id="toc-sec-ferich" class="nav-link" data-scroll-target="#sec-ferich"><span class="header-section-number">3.1.11</span> Ferric horizon</a></li>
+  <li><a href="#sec-folich" id="toc-sec-folich" class="nav-link" data-scroll-target="#sec-folich"><span class="header-section-number">3.1.12</span> Folic horizon</a></li>
+  <li><a href="#sec-fragh" id="toc-sec-fragh" class="nav-link" data-scroll-target="#sec-fragh"><span class="header-section-number">3.1.13</span> Fragic horizon</a></li>
+  <li><a href="#sec-gypsih" id="toc-sec-gypsih" class="nav-link" data-scroll-target="#sec-gypsih"><span class="header-section-number">3.1.14</span> Gypsic horizon</a></li>
+  <li><a href="#sec-histih" id="toc-sec-histih" class="nav-link" data-scroll-target="#sec-histih"><span class="header-section-number">3.1.15</span> Histic horizon</a></li>
+  <li><a href="#sec-hortih" id="toc-sec-hortih" class="nav-link" data-scroll-target="#sec-hortih"><span class="header-section-number">3.1.16</span> Hortic horizon</a></li>
+  <li><a href="#sec-hydrh" id="toc-sec-hydrh" class="nav-link" data-scroll-target="#sec-hydrh"><span class="header-section-number">3.1.17</span> Hydragric horizon</a></li>
+  <li><a href="#sec-iragh" id="toc-sec-iragh" class="nav-link" data-scroll-target="#sec-iragh"><span class="header-section-number">3.1.18</span> Irragric horizon</a></li>
+  <li><a href="#sec-limonich" id="toc-sec-limonich" class="nav-link" data-scroll-target="#sec-limonich"><span class="header-section-number">3.1.19</span> Limonic horizon</a></li>
+  <li><a href="#sec-mollh" id="toc-sec-mollh" class="nav-link" data-scroll-target="#sec-mollh"><span class="header-section-number">3.1.20</span> Mollic horizon</a></li>
+  <li><a href="#sec-natrich" id="toc-sec-natrich" class="nav-link" data-scroll-target="#sec-natrich"><span class="header-section-number">3.1.21</span> Natric horizon</a></li>
+  <li><a href="#sec-nitich" id="toc-sec-nitich" class="nav-link" data-scroll-target="#sec-nitich"><span class="header-section-number">3.1.22</span> Nitic horizon</a></li>
+  <li><a href="#sec-panpaich" id="toc-sec-panpaich" class="nav-link" data-scroll-target="#sec-panpaich"><span class="header-section-number">3.1.23</span> Panpaic horizon</a></li>
+  <li><a href="#sec-pcalch" id="toc-sec-pcalch" class="nav-link" data-scroll-target="#sec-pcalch"><span class="header-section-number">3.1.24</span> Petrocalcic horizon</a></li>
+  <li><a href="#sec-pdurich" id="toc-sec-pdurich" class="nav-link" data-scroll-target="#sec-pdurich"><span class="header-section-number">3.1.25</span> Petroduric horizon</a></li>
+  <li><a href="#sec-pgypsich" id="toc-sec-pgypsich" class="nav-link" data-scroll-target="#sec-pgypsich"><span class="header-section-number">3.1.26</span> Petrogypsic horizon</a></li>
+  <li><a href="#sec-pplinthich" id="toc-sec-pplinthich" class="nav-link" data-scroll-target="#sec-pplinthich"><span class="header-section-number">3.1.27</span> Petroplinthic horizon</a></li>
+  <li><a href="#sec-pisoph" id="toc-sec-pisoph" class="nav-link" data-scroll-target="#sec-pisoph"><span class="header-section-number">3.1.28</span> Pisoplinthic horizon</a></li>
+  <li><a href="#sec-plaggh" id="toc-sec-plaggh" class="nav-link" data-scroll-target="#sec-plaggh"><span class="header-section-number">3.1.29</span> Plaggic horizon</a></li>
+  <li><a href="#sec-plinth" id="toc-sec-plinth" class="nav-link" data-scroll-target="#sec-plinth"><span class="header-section-number">3.1.30</span> Plinthic horizon</a></li>
+  <li><a href="#sec-preth" id="toc-sec-preth" class="nav-link" data-scroll-target="#sec-preth"><span class="header-section-number">3.1.31</span> Pretic horizon</a></li>
+  <li><a href="#sec-protvh" id="toc-sec-protvh" class="nav-link" data-scroll-target="#sec-protvh"><span class="header-section-number">3.1.32</span> Protovertic horizon</a></li>
+  <li><a href="#sec-salich" id="toc-sec-salich" class="nav-link" data-scroll-target="#sec-salich"><span class="header-section-number">3.1.33</span> Salic horizon</a></li>
+  <li><a href="#sec-sombrh" id="toc-sec-sombrh" class="nav-link" data-scroll-target="#sec-sombrh"><span class="header-section-number">3.1.34</span> Sombric horizon</a></li>
+  <li><a href="#sec-spodich" id="toc-sec-spodich" class="nav-link" data-scroll-target="#sec-spodich"><span class="header-section-number">3.1.35</span> Spodic horizon</a></li>
+  <li><a href="#sec-terich" id="toc-sec-terich" class="nav-link" data-scroll-target="#sec-terich"><span class="header-section-number">3.1.36</span> Terric horizon</a></li>
+  <li><a href="#sec-thionh" id="toc-sec-thionh" class="nav-link" data-scroll-target="#sec-thionh"><span class="header-section-number">3.1.37</span> Thionic horizon</a></li>
+  <li><a href="#sec-tsitelich" id="toc-sec-tsitelich" class="nav-link" data-scroll-target="#sec-tsitelich"><span class="header-section-number">3.1.38</span> Tsitelic horizon</a></li>
+  <li><a href="#sec-umbrich" id="toc-sec-umbrich" class="nav-link" data-scroll-target="#sec-umbrich"><span class="header-section-number">3.1.39</span> Umbric horizon</a></li>
+  <li><a href="#sec-verth" id="toc-sec-verth" class="nav-link" data-scroll-target="#sec-verth"><span class="header-section-number">3.1.40</span> Vertic horizon</a></li>
   </ul></li>
-  <li><a href="#sec-diagp" id="toc-sec-diagp" class="nav-link" data-scroll-target="#sec-diagp"><span class="toc-section-number">3.2</span>  Diagnostic properties</a>
+  <li><a href="#sec-diagp" id="toc-sec-diagp" class="nav-link" data-scroll-target="#sec-diagp"><span class="header-section-number">3.2</span> Diagnostic properties</a>
   <ul class="collapse">
-  <li><a href="#sec-abtxdf" id="toc-sec-abtxdf" class="nav-link" data-scroll-target="#sec-abtxdf"><span class="toc-section-number">3.2.1</span>  Abrupt textural difference</a></li>
-  <li><a href="#sec-albgl" id="toc-sec-albgl" class="nav-link" data-scroll-target="#sec-albgl"><span class="toc-section-number">3.2.2</span>  Albeluvic glossae</a></li>
-  <li><a href="#sec-andicp" id="toc-sec-andicp" class="nav-link" data-scroll-target="#sec-andicp"><span class="toc-section-number">3.2.3</span>  Andic properties</a></li>
-  <li><a href="#sec-anthricp" id="toc-sec-anthricp" class="nav-link" data-scroll-target="#sec-anthricp"><span class="toc-section-number">3.2.4</span>  Anthric properties</a></li>
-  <li><a href="#sec-crockp" id="toc-sec-crockp" class="nav-link" data-scroll-target="#sec-crockp"><span class="toc-section-number">3.2.5</span>  Continuous rock</a></li>
-  <li><a href="#sec-gleyicp" id="toc-sec-gleyicp" class="nav-link" data-scroll-target="#sec-gleyicp"><span class="toc-section-number">3.2.6</span>  Gleyic properties</a></li>
-  <li><a href="#sec-lithd" id="toc-sec-lithd" class="nav-link" data-scroll-target="#sec-lithd"><span class="toc-section-number">3.2.7</span>  Lithic discontinuity</a></li>
-  <li><a href="#sec-protcp" id="toc-sec-protcp" class="nav-link" data-scroll-target="#sec-protcp"><span class="toc-section-number">3.2.8</span>  Protocalcic properties</a></li>
-  <li><a href="#sec-protgp" id="toc-sec-protgp" class="nav-link" data-scroll-target="#sec-protgp"><span class="toc-section-number">3.2.9</span>  Protogypsic properties</a></li>
-  <li><a href="#sec-reducc" id="toc-sec-reducc" class="nav-link" data-scroll-target="#sec-reducc"><span class="toc-section-number">3.2.10</span>  Reducing conditions</a></li>
-  <li><a href="#sec-reticp" id="toc-sec-reticp" class="nav-link" data-scroll-target="#sec-reticp"><span class="toc-section-number">3.2.11</span>  Retic properties</a></li>
-  <li><a href="#sec-shrswc" id="toc-sec-shrswc" class="nav-link" data-scroll-target="#sec-shrswc"><span class="toc-section-number">3.2.12</span>  Shrink-swell cracks</a></li>
-  <li><a href="#sec-siderp" id="toc-sec-siderp" class="nav-link" data-scroll-target="#sec-siderp"><span class="toc-section-number">3.2.13</span>  Sideralic properties</a></li>
-  <li><a href="#sec-stagnp" id="toc-sec-stagnp" class="nav-link" data-scroll-target="#sec-stagnp"><span class="toc-section-number">3.2.14</span>  Stagnic properties</a></li>
-  <li><a href="#sec-takyrp" id="toc-sec-takyrp" class="nav-link" data-scroll-target="#sec-takyrp"><span class="toc-section-number">3.2.15</span>  Takyric properties</a></li>
-  <li><a href="#sec-vitricp" id="toc-sec-vitricp" class="nav-link" data-scroll-target="#sec-vitricp"><span class="toc-section-number">3.2.16</span>  Vitric properties</a></li>
-  <li><a href="#sec-yermicp" id="toc-sec-yermicp" class="nav-link" data-scroll-target="#sec-yermicp"><span class="toc-section-number">3.2.17</span>  Yermic properties</a></li>
+  <li><a href="#sec-abtxdf" id="toc-sec-abtxdf" class="nav-link" data-scroll-target="#sec-abtxdf"><span class="header-section-number">3.2.1</span> Abrupt textural difference</a></li>
+  <li><a href="#sec-albgl" id="toc-sec-albgl" class="nav-link" data-scroll-target="#sec-albgl"><span class="header-section-number">3.2.2</span> Albeluvic glossae</a></li>
+  <li><a href="#sec-andicp" id="toc-sec-andicp" class="nav-link" data-scroll-target="#sec-andicp"><span class="header-section-number">3.2.3</span> Andic properties</a></li>
+  <li><a href="#sec-anthricp" id="toc-sec-anthricp" class="nav-link" data-scroll-target="#sec-anthricp"><span class="header-section-number">3.2.4</span> Anthric properties</a></li>
+  <li><a href="#sec-crockp" id="toc-sec-crockp" class="nav-link" data-scroll-target="#sec-crockp"><span class="header-section-number">3.2.5</span> Continuous rock</a></li>
+  <li><a href="#sec-gleyicp" id="toc-sec-gleyicp" class="nav-link" data-scroll-target="#sec-gleyicp"><span class="header-section-number">3.2.6</span> Gleyic properties</a></li>
+  <li><a href="#sec-lithd" id="toc-sec-lithd" class="nav-link" data-scroll-target="#sec-lithd"><span class="header-section-number">3.2.7</span> Lithic discontinuity</a></li>
+  <li><a href="#sec-protcp" id="toc-sec-protcp" class="nav-link" data-scroll-target="#sec-protcp"><span class="header-section-number">3.2.8</span> Protocalcic properties</a></li>
+  <li><a href="#sec-protgp" id="toc-sec-protgp" class="nav-link" data-scroll-target="#sec-protgp"><span class="header-section-number">3.2.9</span> Protogypsic properties</a></li>
+  <li><a href="#sec-reducc" id="toc-sec-reducc" class="nav-link" data-scroll-target="#sec-reducc"><span class="header-section-number">3.2.10</span> Reducing conditions</a></li>
+  <li><a href="#sec-reticp" id="toc-sec-reticp" class="nav-link" data-scroll-target="#sec-reticp"><span class="header-section-number">3.2.11</span> Retic properties</a></li>
+  <li><a href="#sec-shrswc" id="toc-sec-shrswc" class="nav-link" data-scroll-target="#sec-shrswc"><span class="header-section-number">3.2.12</span> Shrink-swell cracks</a></li>
+  <li><a href="#sec-siderp" id="toc-sec-siderp" class="nav-link" data-scroll-target="#sec-siderp"><span class="header-section-number">3.2.13</span> Sideralic properties</a></li>
+  <li><a href="#sec-stagnp" id="toc-sec-stagnp" class="nav-link" data-scroll-target="#sec-stagnp"><span class="header-section-number">3.2.14</span> Stagnic properties</a></li>
+  <li><a href="#sec-takyrp" id="toc-sec-takyrp" class="nav-link" data-scroll-target="#sec-takyrp"><span class="header-section-number">3.2.15</span> Takyric properties</a></li>
+  <li><a href="#sec-vitricp" id="toc-sec-vitricp" class="nav-link" data-scroll-target="#sec-vitricp"><span class="header-section-number">3.2.16</span> Vitric properties</a></li>
+  <li><a href="#sec-yermicp" id="toc-sec-yermicp" class="nav-link" data-scroll-target="#sec-yermicp"><span class="header-section-number">3.2.17</span> Yermic properties</a></li>
   </ul></li>
-  <li><a href="#sec-diagm" id="toc-sec-diagm" class="nav-link" data-scroll-target="#sec-diagm"><span class="toc-section-number">3.3</span>  Diagnostic materials</a>
+  <li><a href="#sec-diagm" id="toc-sec-diagm" class="nav-link" data-scroll-target="#sec-diagm"><span class="header-section-number">3.3</span> Diagnostic materials</a>
   <ul class="collapse">
-  <li><a href="#sec-aeolicm" id="toc-sec-aeolicm" class="nav-link" data-scroll-target="#sec-aeolicm"><span class="toc-section-number">3.3.1</span>  Aeolic material</a></li>
-  <li><a href="#sec-artefm" id="toc-sec-artefm" class="nav-link" data-scroll-target="#sec-artefm"><span class="toc-section-number">3.3.2</span>  Artefacts</a></li>
-  <li><a href="#sec-calcam" id="toc-sec-calcam" class="nav-link" data-scroll-target="#sec-calcam"><span class="toc-section-number">3.3.3</span>  Calcaric material</a></li>
-  <li><a href="#sec-claricm" id="toc-sec-claricm" class="nav-link" data-scroll-target="#sec-claricm"><span class="toc-section-number">3.3.4</span>  Claric material</a></li>
-  <li><a href="#sec-dolom" id="toc-sec-dolom" class="nav-link" data-scroll-target="#sec-dolom"><span class="toc-section-number">3.3.5</span>  Dolomitic material</a></li>
-  <li><a href="#sec-fluvicm" id="toc-sec-fluvicm" class="nav-link" data-scroll-target="#sec-fluvicm"><span class="toc-section-number">3.3.6</span>  Fluvic material</a></li>
-  <li><a href="#sec-gyspicm" id="toc-sec-gyspicm" class="nav-link" data-scroll-target="#sec-gyspicm"><span class="toc-section-number">3.3.7</span>  Gypsiric material</a></li>
-  <li><a href="#sec-hypersm" id="toc-sec-hypersm" class="nav-link" data-scroll-target="#sec-hypersm"><span class="toc-section-number">3.3.8</span>  Hypersulfidic material</a></li>
-  <li><a href="#sec-hyposm" id="toc-sec-hyposm" class="nav-link" data-scroll-target="#sec-hyposm"><span class="toc-section-number">3.3.9</span>  Hyposulfidic material</a></li>
-  <li><a href="#sec-limnicm" id="toc-sec-limnicm" class="nav-link" data-scroll-target="#sec-limnicm"><span class="toc-section-number">3.3.10</span>  Limnic material</a></li>
-  <li><a href="#sec-minm" id="toc-sec-minm" class="nav-link" data-scroll-target="#sec-minm"><span class="toc-section-number">3.3.11</span>  Mineral material</a></li>
-  <li><a href="#sec-mulmicm" id="toc-sec-mulmicm" class="nav-link" data-scroll-target="#sec-mulmicm"><span class="toc-section-number">3.3.12</span>  Mulmic material</a></li>
-  <li><a href="#sec-orgm" id="toc-sec-orgm" class="nav-link" data-scroll-target="#sec-orgm"><span class="toc-section-number">3.3.13</span>  Organic material</a></li>
-  <li><a href="#sec-orgtechm" id="toc-sec-orgtechm" class="nav-link" data-scroll-target="#sec-orgtechm"><span class="toc-section-number">3.3.14</span>  Organotechnic material</a></li>
-  <li><a href="#sec-ornithm" id="toc-sec-ornithm" class="nav-link" data-scroll-target="#sec-ornithm"><span class="toc-section-number">3.3.15</span>  Ornithogenic material</a></li>
-  <li><a href="#sec-soc" id="toc-sec-soc" class="nav-link" data-scroll-target="#sec-soc"><span class="toc-section-number">3.3.16</span>  Soil organic carbon</a></li>
-  <li><a href="#sec-solimvm" id="toc-sec-solimvm" class="nav-link" data-scroll-target="#sec-solimvm"><span class="toc-section-number">3.3.17</span>  Solimovic material</a></li>
-  <li><a href="#sec-techhm" id="toc-sec-techhm" class="nav-link" data-scroll-target="#sec-techhm"><span class="toc-section-number">3.3.18</span>  Technic hard material</a></li>
-  <li><a href="#sec-tephrm" id="toc-sec-tephrm" class="nav-link" data-scroll-target="#sec-tephrm"><span class="toc-section-number">3.3.19</span>  Tephric material</a></li>
+  <li><a href="#sec-aeolicm" id="toc-sec-aeolicm" class="nav-link" data-scroll-target="#sec-aeolicm"><span class="header-section-number">3.3.1</span> Aeolic material</a></li>
+  <li><a href="#sec-artefm" id="toc-sec-artefm" class="nav-link" data-scroll-target="#sec-artefm"><span class="header-section-number">3.3.2</span> Artefacts</a></li>
+  <li><a href="#sec-calcam" id="toc-sec-calcam" class="nav-link" data-scroll-target="#sec-calcam"><span class="header-section-number">3.3.3</span> Calcaric material</a></li>
+  <li><a href="#sec-claricm" id="toc-sec-claricm" class="nav-link" data-scroll-target="#sec-claricm"><span class="header-section-number">3.3.4</span> Claric material</a></li>
+  <li><a href="#sec-dolom" id="toc-sec-dolom" class="nav-link" data-scroll-target="#sec-dolom"><span class="header-section-number">3.3.5</span> Dolomitic material</a></li>
+  <li><a href="#sec-fluvicm" id="toc-sec-fluvicm" class="nav-link" data-scroll-target="#sec-fluvicm"><span class="header-section-number">3.3.6</span> Fluvic material</a></li>
+  <li><a href="#sec-gyspicm" id="toc-sec-gyspicm" class="nav-link" data-scroll-target="#sec-gyspicm"><span class="header-section-number">3.3.7</span> Gypsiric material</a></li>
+  <li><a href="#sec-hypersm" id="toc-sec-hypersm" class="nav-link" data-scroll-target="#sec-hypersm"><span class="header-section-number">3.3.8</span> Hypersulfidic material</a></li>
+  <li><a href="#sec-hyposm" id="toc-sec-hyposm" class="nav-link" data-scroll-target="#sec-hyposm"><span class="header-section-number">3.3.9</span> Hyposulfidic material</a></li>
+  <li><a href="#sec-limnicm" id="toc-sec-limnicm" class="nav-link" data-scroll-target="#sec-limnicm"><span class="header-section-number">3.3.10</span> Limnic material</a></li>
+  <li><a href="#sec-minm" id="toc-sec-minm" class="nav-link" data-scroll-target="#sec-minm"><span class="header-section-number">3.3.11</span> Mineral material</a></li>
+  <li><a href="#sec-mulmicm" id="toc-sec-mulmicm" class="nav-link" data-scroll-target="#sec-mulmicm"><span class="header-section-number">3.3.12</span> Mulmic material</a></li>
+  <li><a href="#sec-orgm" id="toc-sec-orgm" class="nav-link" data-scroll-target="#sec-orgm"><span class="header-section-number">3.3.13</span> Organic material</a></li>
+  <li><a href="#sec-orgtechm" id="toc-sec-orgtechm" class="nav-link" data-scroll-target="#sec-orgtechm"><span class="header-section-number">3.3.14</span> Organotechnic material</a></li>
+  <li><a href="#sec-ornithm" id="toc-sec-ornithm" class="nav-link" data-scroll-target="#sec-ornithm"><span class="header-section-number">3.3.15</span> Ornithogenic material</a></li>
+  <li><a href="#sec-soc" id="toc-sec-soc" class="nav-link" data-scroll-target="#sec-soc"><span class="header-section-number">3.3.16</span> Soil organic carbon</a></li>
+  <li><a href="#sec-solimvm" id="toc-sec-solimvm" class="nav-link" data-scroll-target="#sec-solimvm"><span class="header-section-number">3.3.17</span> Solimovic material</a></li>
+  <li><a href="#sec-techhm" id="toc-sec-techhm" class="nav-link" data-scroll-target="#sec-techhm"><span class="header-section-number">3.3.18</span> Technic hard material</a></li>
+  <li><a href="#sec-tephrm" id="toc-sec-tephrm" class="nav-link" data-scroll-target="#sec-tephrm"><span class="header-section-number">3.3.19</span> Tephric material</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -305,7 +354,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-ch03" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Diagnostic horizons, properties and materials</span></span></h1>
+<h1 class="title"><span id="sec-ch03" class="quarto-section-identifier"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Diagnostic horizons, properties and materials</span></span></h1>
 </div>
 
 
@@ -317,7 +366,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">December 31, 2022</p>
+      <p class="date-modified">March 9, 2023</p>
     </div>
   </div>
     
@@ -326,12 +375,12 @@ div.csl-indent {
 
 </header>
 
-<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout callout-style-default callout-important callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
-<div class="callout-caption-container flex-fill">
+<div class="callout-title-container flex-fill">
 Important
 </div>
 </div>
@@ -665,7 +714,7 @@ Important
 <h3 data-number="3.1.7" class="anchored" data-anchor-id="sec-cohesich"><span class="header-section-number">3.1.7</span> Cohesic horizon</h3>
 <section id="sec-cohesich-desc" class="level4">
 <h4 class="anchored" data-anchor-id="sec-cohesich-desc">General description</h4>
-<p>A cohesic horizon (from Latin <em>cohaerere</em>, to stick together) is a subsurface horizon with a massive structure or a subangular blocky structure. It is poor in organic matter and iron oxides, normally contains quartz, and the clay fraction is dominated by kaolinite. It is typical for old landscapes of the tropics with a seasonal climate.</p>
+<p>A cohesic horizon (from Latin <em>cohaerere</em>, to stick together) is a subsurface horizon with a massive structure or a weak subangular blocky structure. It is poor in organic matter and iron oxides, normally contains quartz, and the clay fraction is dominated by kaolinite. It is typical for old landscapes of the tropics with a seasonal climate.</p>
 </section>
 <section id="sec-cohesich-diag" class="level4">
 <h4 class="anchored" data-anchor-id="sec-cohesich-diag">Diagnostic criteria</h4>
@@ -674,7 +723,7 @@ Important
 <li>has &lt;&nbsp;0.5% <a href="#sec-soc"><em>soil organic carbon</em></a>; <strong><em>and</em></strong></li>
 <li>has ≥&nbsp;15% clay; <strong><em>and</em></strong></li>
 <li>has a CEC (by 1&nbsp;<em>M</em> NH<sub>4</sub>OAc, pH&nbsp;7) of &lt;&nbsp;24 cmol<sub>c</sub>&nbsp;kg<sup>-1</sup> clay; <strong><em>and</em></strong></li>
-<li>has, single or in combination, a massive structure or a subangular blocky structure; <strong><em>and</em></strong></li>
+<li>has, single or in combination, a massive structure or a weak subangular blocky structure; <strong><em>and</em></strong></li>
 <li>is not cemented; <strong><em>and</em></strong></li>
 <li>has, when dry, a rupture-resistance class of at least hard; <strong><em>and</em></strong></li>
 <li>has a thickness of ≥&nbsp;10&nbsp;cm.</li>
@@ -778,7 +827,7 @@ Important
 <li>has a CEC (by 1&nbsp;<em>M</em>&nbsp;NH<sub>4</sub>OAc, pH&nbsp;7) of &lt;&nbsp;16&nbsp;cmol<sub>c</sub>&nbsp;kg<sup>-1</sup> clay; and</li>
 <li>has &lt;&nbsp;10% (by grain count) easily weatherable minerals in the 0.05–0.2&nbsp;mm fraction; and</li>
 <li>does not have <a href="#sec-andip"><em>andic</em></a> or <a href="#sec-vitricp"><em>vitric properties</em></a>; and</li>
-<li>6. has a thickness of ≥&nbsp;30&nbsp;cm.</li>
+<li>has a thickness of ≥&nbsp;30&nbsp;cm.</li>
 </ol>
 </section>
 <section id="sec-feralh-flid" class="level4">
@@ -791,7 +840,7 @@ Important
 <section id="sec-feralh-info" class="level4">
 <h4 class="anchored" data-anchor-id="sec-feralh-info">Additional information</h4>
 <p>As an alternative to the weatherable minerals requirement, a total reserve of bases (TRB = exchangeable plus mineral calcium [Ca], magnesium [Mg], potassium [K] and sodium [Na]) of &lt;&nbsp;25&nbsp;cmol<sub>c</sub>&nbsp;kg<sup>-1</sup> soil may be indicative.</p>
-<p>Ferralic horizons normally have &lt;&nbsp;10% water-dispersible clay. Occasionally they may have more waterdispersible clay, but if so, they have a ΔpH (pH<sub>KCl</sub> - pH<sub>water</sub>) ≥&nbsp;0 or a relatively high content of organic carbon.</p>
+<p>Ferralic horizons normally have &lt;&nbsp;10% water-dispersible clay. Occasionally they may have more water-dispersible clay, but if so, they have a ΔpH (pH<sub>KCl</sub> - pH<sub>water</sub>) ≥&nbsp;0 or a relatively high content of organic carbon.</p>
 <p>Examples of easily weatherable minerals are all 2:1 phyllosilicates, chlorites, sepiolites, palygorskites, allophanes, 1:1 trioctahedral phyllosilicates (serpentines), feldspars, feldspathoids, ferromagnesian minerals, glass, zeolites, dolomite and apatite. The intent of the term weatherable minerals is to include those minerals that are unstable in humid climates compared with other minerals, such as quartz and 1:1&nbsp;clay minerals, but that are more resistant to weathering than calcite <span class="citation" data-cites="soilsurveystaff1999">Soil Survey Staff (<a href="chapter-07.html#ref-soilsurveystaff1999" role="doc-biblioref">1999</a>)</span>.</p>
 <p>In thin sections, ferralic horizons have generally an undifferentiated b-fabric due to the isotropic behaviour of Fe oxides. The groundmass has commonly a granular microstructure, with a porosity composed by packing pores and star-like vughs, besides channels and chambers due to a strong bioturbation.</p>
 </section>
@@ -1088,7 +1137,7 @@ Important
 </section>
 <section id="sec-limnh-reln" class="level4">
 <h4 class="anchored" data-anchor-id="sec-limnh-reln">Relationships with some other diagnostics</h4>
-<p>Limonic horizons develop in layers with <a href="#sec-gleyicp"><em>gleyic properties</em></a> and oximorphic features. The process of groundwater ascent may be active or relict. Limonic horizons differ from <a href="#sec-tsitelich"><em>tsitelic horizons</em></a>, which are non-cemented and, if fine-textured, have a low bulk density. Limonic horizons, especially if with Mn oxides, may resemble <a href="#sec-spodich"><em>spodic horizons</em></a>, but typically lack the Al translocation required for <a href="#sec-spodich"><em>spodic horizons</em></a>.</p>
+<p>Limonic horizons develop in layers with <a href="#sec-gleyicp"><em>gleyic properties</em></a> and oximorphic features. The process of groundwater ascent may be active or relict. Limonic horizons differ from <a href="#sec-tsitelich"><em>tsitelic horizons</em></a>, which are non-cemented and, if fine-textured, have a low bulk density. Limonic horizons, especially if with Mn oxides, may resemble <a href="#sec-spodich"><em>spodic horizons</em></a>, but typically lack the Al translocation required for <a href="#sec-spodich"><em>spodic horizons</em></a>. However, limonic horizons may overlap with <a href="#sec-spodich"><em>spodic horizons</em></a>, especially with the lower part of the <a href="#sec-spodich"><em>spodic horizon</em></a>.</p>
 </section>
 </section>
 <section id="sec-mollh" class="level3" data-number="3.1.20">
@@ -1668,7 +1717,7 @@ Important
 <li>has a subhorizon that is cemented with a cementation class of at least weakly cemented in ≥&nbsp;50% of its horizontal extension; <strong><em>or</em></strong></li>
 <li>has a subhorizon with an Al<sub>ox</sub> + ½Fe<sub>ox</sub> value of ≥&nbsp;0.5% that is ≥&nbsp;2 times that of the lowest Al<sub>ox</sub>&nbsp;+&nbsp;½Fe<sub>ox</sub> value of all the mineral layers above the spodic horizon; <strong><em>and</em></strong></li>
 </ol></li>
-<li>does not form part of a <a href="#sec-natrich"><em>natric</em></a>, <a href="#sec-limnh"><em>limonic</em></a> or <a href="#sec-tsitelich"><em>tsitelic horizon</em></a>; <strong><em>and</em></strong></li>
+<li>does not form part of a <a href="#sec-natrich"><em>natric horizon</em></a>; <strong><em>and</em></strong></li>
 <li>has a thickness of ≥&nbsp;2.5&nbsp;cm.</li>
 </ol>
 </section>
@@ -1681,6 +1730,7 @@ Important
 <p>There may be a <a href="#sec-hortih"><em>hortic</em></a>, <a href="#sec-plaggh"><em>plaggic</em></a>, <a href="#sec-terich"><em>terric</em></a> or <a href="#sec-umbrich"><em>umbric horizon</em></a> above the spodic horizon, with or without <a href="#sec-claricm"><em>claric material</em></a> in between.</p>
 <p>Spodic horizons in volcanic materials may exhibit <a href="#sec-andicp"><em>andic properties</em></a> as well. Spodic horizons in other materials may exhibit some characteristics of the andic properties, but normally have a higher bulk density. For classification purposes, the presence of a spodic horizon, unless buried deeper than 50 cm, is given preference over the occurrence of <a href="#sec-andicp"><em>andic properties</em></a>.</p>
 <p>Some layers with <a href="#sec-andicp"><em>andic properties</em></a> resemble spodic horizons, if they are covered by relatively young, light-coloured volcanic ejecta that satisfy the requirements of <a href="#sec-claricm"><em>claric material</em></a>. There is a <a href="#sec-lithd"><em>lithic discontinuity</em></a> in between, which excludes them from being spodic horizons. This can be further proven by the following analyses: The uppermost 2.5&nbsp;cm of the spodic horizon have a C<sub>py</sub>/OC and a C<sub>f</sub>/C<sub>py</sub> of ≥&nbsp;0.5. C<sub>py</sub>, C<sub>f</sub> and OC are pyrophosphate-extractable C, fulvic acid C and organic C, respectively <span class="citation" data-cites="ito1991">(<a href="chapter-07.html#ref-ito1991" role="doc-biblioref">Ito et al. 1991</a>)</span>.</p>
+<p><a href="#sec-limnh"><em>Limonic</em></a> and <a href="#sec-tsitelich"><em>tsitelic horizons</em></a> may resemble spodic horizons, but lack the translocation of Al. However, <a href="#sec-limnh"><em>limonic horizons</em></a> may overlap with spodic horizons, especially with the lower part of the spodic horizon.</p>
 <p>Similar to many spodic horizons, <a href="#sec-sombrh"><em>sombric horizons</em></a> also contain more organic matter than an overlying layer. They can be differentiated from each other by the clay mineralogy. Kaolinite usually dominates in <a href="#sec-sombrh"><em>sombric horizons</em></a>, whereas the clay fraction of spodic horizons commonly contains significant amounts of vermiculite and Al-interlayered chlorite.</p>
 <p><a href="#sec-plinth"><em>Plinthic horizons</em></a>, which contain large amounts of accumulated Fe, have less Fe<sub>ox</sub> than spodic horizons.</p>
 </section>
@@ -1760,7 +1810,7 @@ Important
 <li>has Al<sub>ox</sub> &lt; Fe<sub>ox</sub>; <strong><em>and</em></strong></li>
 <li>has a Munsell colour chroma of ≥&nbsp;4, moist; <strong><em>and</em></strong></li>
 <li>does not show reductimorphic features; <strong><em>and</em></strong></li>
-<li>does not form part of a <a href="#sec-limnh"><em>limonic horizon</em></a>; <strong><em>and</em></strong></li>
+<li>does not form part of a <a href="#sec-limonich"><em>limonic</em></a> or <a href="#sec-spodich"><em>spodic horizon</em></a>; <strong><em>and</em></strong></li>
 <li>has a thickness of ≥&nbsp;5&nbsp;cm.</li>
 </ol>
 </section>
@@ -2577,8 +2627,8 @@ vesicular pores (<a href="./annex-01-field-guide.html#sec-a1-8412">Chapter 8.4.1
 </section>
 <section id="sec-limnicm" class="level3" data-number="3.3.10">
 <h3 data-number="3.3.10" class="anchored" data-anchor-id="sec-limnicm"><span class="header-section-number">3.3.10</span> Limnic material</h3>
-<section id="sec-limnicm-diag" class="level4">
-<h4 class="anchored" data-anchor-id="sec-limnicm-diag">Diagnostic criteria</h4>
+<section id="diagnostic-criteria" class="level4">
+<h4 class="anchored" data-anchor-id="diagnostic-criteria">Diagnostic criteria</h4>
 <p>Limnic material (from Greek <em>limnae</em>, pool) includes both organic and <a href="#sec-minm"><em>mineral material</em></a> and is one or more of the following:</p>
 <ol type="1">
 <li>deposited in water by precipitation, possibly in combination with sedimentation; <strong><em>or</em></strong></li>
@@ -2805,47 +2855,47 @@ vesicular pores (<a href="./annex-01-field-guide.html#sec-a1-8412">Chapter 8.4.1
 <p>Progressive weathering of tephric material will lead to the formation of <a href="#sec-vitricp"><em>vitric properties</em></a>. Glasses resulting from industrial processes fulfil the criteria of <a href="#sec-artefm"><em>artefacts</em></a>.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-almeida2015" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-almeida2015" class="csl-entry" role="listitem">
 Almeida, Jaime Antonio de, Antônio Lunardi Neto, and Pablo Vidal-Torrado. 2015. <span>“Sombric Horizon: Five Decades Without Evolution.”</span> <em>Scientia Agricola</em> 72 (1): 87–95. <a href="https://doi.org/10.1590/0103-9016-2014-0111">https://doi.org/10.1590/0103-9016-2014-0111</a>.
 </div>
-<div id="ref-asiamah2000" class="csl-entry" role="doc-biblioentry">
+<div id="ref-asiamah2000" class="csl-entry" role="listitem">
 Asiamah, R. D. 2000. <span>“Plinthite and Conditions for Its Hardening in Agricultural Soils in Ghana.”</span> PhD thesis, Kwame Nkrumah University of Science; Technology.
 </div>
-<div id="ref-costassociation2004" class="csl-entry" role="doc-biblioentry">
+<div id="ref-costassociation2004" class="csl-entry" role="listitem">
 COST Association. 2004. <em>Final Report - COST-622 Soil Resources of European Volcanic Systems (1998-2004)</em>. <a href="https://www.cost.eu/actions/622/">https://www.cost.eu/actions/622/</a>.
 </div>
-<div id="ref-fieldes1966" class="csl-entry" role="doc-biblioentry">
+<div id="ref-fieldes1966" class="csl-entry" role="listitem">
 Fieldes, Morice, and K. W. Perrott. 1966. <span>“The Nature of Allophane in Soils, Part 3 - Rapid Field and Laboratory Test for Allophane.”</span> <em>New Zealand Journal of Science</em> 9: 623–29. <a href="https://www.google.co.nz/books/edition/The_Nature_of_Allophane_in_Soils/3UD9cQAACAAJ?hl=en">https://www.google.co.nz/books/edition/The_Nature_of_Allophane_in_Soils/3UD9cQAACAAJ?hl=en</a>.
 </div>
-<div id="ref-hewitt1992" class="csl-entry" role="doc-biblioentry">
+<div id="ref-hewitt1992" class="csl-entry" role="listitem">
 Hewitt, A. E. 1992. <em>New Zealand Soil Classification (v. 3.0)</em>. 1st ed. DSIR Land Resources Scientific Report. DSIR Land Resources.
 </div>
-<div id="ref-ito1991" class="csl-entry" role="doc-biblioentry">
+<div id="ref-ito1991" class="csl-entry" role="listitem">
 Ito, Toyoaki, Sadao Shoji, Yasuhito Shirato, and Eri Ono. 1991. <span>“Differentiation of a Spodic Horizon from a Buried a Horizon.”</span> <em>Soil Science Society of America Journal</em> 55 (2): 438–42. <a href="https://doi.org/10.2136/sssaj1991.03615995005500020024x">https://doi.org/10.2136/sssaj1991.03615995005500020024x</a>.
 </div>
-<div id="ref-kabala2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-kabala2018" class="csl-entry" role="listitem">
 Kabała, Cezary, Bernard Galka, Beata Labaz, Lucia Anjos, and Rafael de Souza Cavassani. 2018. <span>“Towards More Simple and Coherent Chemical Criteria in a Classification of Anthropogenic Soils: A Comparison of Phosphorus Tests for Diagnostic Horizons and Properties.”</span> <em>Geoderma</em> 320 (June): 1–11. <a href="https://doi.org/10.1016/j.geoderma.2018.01.024">https://doi.org/10.1016/j.geoderma.2018.01.024</a>.
 </div>
-<div id="ref-krogh1999" class="csl-entry" role="doc-biblioentry">
+<div id="ref-krogh1999" class="csl-entry" role="listitem">
 Krogh, L., and M. H. Greve. 1999. <span>“Evaluation of World Reference Base for Soil Resources and FAO Soil Map of the World Using Nationwide Grid Soil Data from Denmark.”</span> <em>Soil Use and Management</em> 15 (3): 157–66. <a href="https://doi.org/10.1111/j.1475-2743.1999.tb00082.x">https://doi.org/10.1111/j.1475-2743.1999.tb00082.x</a>.
 </div>
-<div id="ref-miller2020" class="csl-entry" role="doc-biblioentry">
+<div id="ref-miller2020" class="csl-entry" role="listitem">
 Miller, Bradley A., and Jérôme Juilleret. 2020. <span>“The Colluvium and Alluvium Problem: Historical Review and Current State of Definitions.”</span> <em>Earth-Science Reviews</em> 209 (October): 103316. <a href="https://doi.org/10.1016/j.earscirev.2020.103316">https://doi.org/10.1016/j.earscirev.2020.103316</a>.
 </div>
-<div id="ref-shoji1996" class="csl-entry" role="doc-biblioentry">
+<div id="ref-shoji1996" class="csl-entry" role="listitem">
 Shoji, Sadao, Masami Nanzyo, Randy A. Dahlgren, and Paul Quantin. 1996. <span>“Evaluation and Proposed Revisions of Criteria for Andosols in the World Reference Base for Soil Resources.”</span> <em>Soil Science</em> 161 (9). <a href="https://doi.org/10.1097/00010694-199609000-00005">https://doi.org/10.1097/00010694-199609000-00005</a>.
 </div>
-<div id="ref-soilsurveystaff1999" class="csl-entry" role="doc-biblioentry">
+<div id="ref-soilsurveystaff1999" class="csl-entry" role="listitem">
 Soil Survey Staff. 1999. <em>Soil Taxonomy: A Basic System of Soil Classification for Making and Interpreting Soil Surveys</em>. 2nd ed. Agriculture Handbook. United States Department of Agriculture. <a href="https://www.nrcs.usda.gov/resources/guides-and-instructions/soil-taxonomy">https://www.nrcs.usda.gov/resources/guides-and-instructions/soil-taxonomy</a>.
 </div>
-<div id="ref-takahashi2004" class="csl-entry" role="doc-biblioentry">
+<div id="ref-takahashi2004" class="csl-entry" role="listitem">
 Takahashi, Tadashi, Masami Nanzyo, and Sadao Shoji. 2004. <span>“Proposed Revisions to the Diagnostic Criteria for Andic and Vitric Horizons and Qualifiers of Andosols in the World Reference Base for Soil Resources.”</span> <em>Soil Science and Plant Nutrition</em> 50 (3): 431–37. <a href="https://doi.org/10.1080/00380768.2004.10408497">https://doi.org/10.1080/00380768.2004.10408497</a>.
 </div>
-<div id="ref-uzarowicz2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-uzarowicz2017" class="csl-entry" role="listitem">
 Uzarowicz, Łukasz, Zbigniew Zagórski, Emilia Mendak, Piotr Bartmiński, Ewa Szara, Marek Kondras, Lidia Oktaba, Agnieszka Turek, and Radosław Rogoziński. 2017. <span>“Technogenic Soils (Technosols) Developed from Fly Ash and Bottom Ash from Thermal Power Stations Combusting Bituminous Coal and Lignite. Part i. Properties, Classification, and Indicators of Early Pedogenesis.”</span> <em>CATENA</em> 157 (October): 75–89. <a href="https://doi.org/10.1016/j.catena.2017.05.010">https://doi.org/10.1016/j.catena.2017.05.010</a>.
 </div>
-<div id="ref-varghese1993laterite" class="csl-entry" role="doc-biblioentry">
+<div id="ref-varghese1993laterite" class="csl-entry" role="listitem">
 Varghese, T. M., and G. Byju. 1993. <em>Laterite Soils: Their Distribution, Characteristics, Classification and Management</em>. Technical Monograph. Government of Kerala, State Committee on Science, Tech &amp; Environment. <a href="https://books.google.co.nz/books?id=_eBKHAAACAAJ">https://books.google.co.nz/books?id=_eBKHAAACAAJ</a>.
 </div>
 </div>
@@ -2881,9 +2931,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -2948,6 +3012,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {

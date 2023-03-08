@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.34">
+<meta name="generator" content="quarto-1.3.250">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -88,11 +88,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Background and basics</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter-01.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Background and basics</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -100,139 +105,183 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">World Reference Base for Soil Resources</a> 
+        <div class="sidebar-tools-main tools-wide">
+    <a href="https://github.com/obrl-soil/wrbsoil2022" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <div class="dropdown">
+      <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://twitter.com/intent/tweet?url=|url|">
+              <i class="bi bi-bi-twitter pe-1"></i>
+            Twitter
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item sidebar-tools-main-item" href="https://www.linkedin.com/sharing/share-offsite/?url=|url|">
+              <i class="bi bi-bi-linkedin pe-1"></i>
+            LinkedIn
+            </a>
+          </li>
+      </ul>
+    </div>
+  <a href="" class="quarto-reader-toggle quarto-navigation-tool px-1" onclick="window.quartoToggleReader(); return false;" title="Toggle reader mode">
+  <div class="quarto-reader-toggle-btn">
+  <i class="bi"></i>
+  </div>
+</a>
+</div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
         <div id="quarto-search" class="" title="Search"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">About</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">About</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./foreword.html" class="sidebar-item-text sidebar-link">Foreword</a>
+  <a href="./foreword.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Foreword</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./preface.html" class="sidebar-item-text sidebar-link">Preface</a>
+  <a href="./preface.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Preface</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./acknowledgements.html" class="sidebar-item-text sidebar-link">Acknowledgements</a>
+  <a href="./acknowledgements.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Acknowledgements</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./list-of-acronyms.html" class="sidebar-item-text sidebar-link">List of acronyms</a>
+  <a href="./list-of-acronyms.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">List of acronyms</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapter-01.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Background and basics</span></a>
+  <a href="./chapter-01.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Background and basics</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapter-02.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The rules for naming soils and creating legends for soil maps</span></a>
+  <a href="./chapter-02.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">The rules for naming soils and creating legends for soil maps</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapter-03.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Diagnostic horizons, properties and materials</span></a>
+  <a href="./chapter-03.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Diagnostic horizons, properties and materials</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapter-04.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Key to the Reference Soil Groups with lists of principal and supplementary qualifiers</span></a>
+  <a href="./chapter-04.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Key to the Reference Soil Groups with lists of principal and supplementary qualifiers</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapter-05.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Definitions of qualifiers</span></a>
+  <a href="./chapter-05.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Definitions of qualifiers</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapter-06.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Codes for the Reference Soil Groups, qualifiers and specifiers</span></a>
+  <a href="./chapter-06.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Codes for the Reference Soil Groups, qualifiers and specifiers</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./chapter-07.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">References</span></a>
+  <a href="./chapter-07.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">References</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./annex-01-field-guide.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Annex 1: Field Guide</span></a>
+  <a href="./annex-01-field-guide.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Annex 1: Field Guide</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./annex-02-analytical-procedures.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Annex 2: Summary of analytical procedures for soil characterization</span></a>
+  <a href="./annex-02-analytical-procedures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Annex 2: Summary of analytical procedures for soil characterization</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./annex-03-horizon-layer-designations.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Annex 3: Horizon and layer designations</span></a>
+  <a href="./annex-03-horizon-layer-designations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Annex 3: Horizon and layer designations</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./annex-04-soil-description-sheet.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Annex 4: Soil description sheet</span></a>
+  <a href="./annex-04-soil-description-sheet.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Annex 4: Soil description sheet</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./annex-05-database-setup.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Annex 5: Guidance on database set-up</span></a>
+  <a href="./annex-05-database-setup.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Annex 5: Guidance on database set-up</span></span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./annex-06-rsg-colours.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Annex 6: Colour symbols for RSG maps</span></a>
+  <a href="./annex-06-rsg-colours.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Annex 6: Colour symbols for RSG maps</span></span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#sec-hist" id="toc-sec-hist" class="nav-link active" data-scroll-target="#sec-hist"><span class="toc-section-number">1.1</span>  History</a>
+  <li><a href="#sec-hist" id="toc-sec-hist" class="nav-link active" data-scroll-target="#sec-hist"><span class="header-section-number">1.1</span> History</a>
   <ul class="collapse">
-  <li><a href="#sec-hist-beg" id="toc-sec-hist-beg" class="nav-link" data-scroll-target="#sec-hist-beg"><span class="toc-section-number">1.1.1</span>  From its beginnings to the third edition 2014/15</a></li>
-  <li><a href="#sect-hist-end" id="toc-sect-hist-end" class="nav-link" data-scroll-target="#sect-hist-end"><span class="toc-section-number">1.1.2</span>  From the third edition 2014 (Update 2015) to the fourth edition 2022</a></li>
+  <li><a href="#sec-hist-beg" id="toc-sec-hist-beg" class="nav-link" data-scroll-target="#sec-hist-beg"><span class="header-section-number">1.1.1</span> From its beginnings to the third edition 2014/15</a></li>
+  <li><a href="#sect-hist-end" id="toc-sect-hist-end" class="nav-link" data-scroll-target="#sect-hist-end"><span class="header-section-number">1.1.2</span> From the third edition 2014 (Update 2015) to the fourth edition 2022</a></li>
   </ul></li>
-  <li><a href="#sec-mjch" id="toc-sec-mjch" class="nav-link" data-scroll-target="#sec-mjch"><span class="toc-section-number">1.2</span>  Major changes in WRB 2022</a></li>
-  <li><a href="#sec-obcl" id="toc-sec-obcl" class="nav-link" data-scroll-target="#sec-obcl"><span class="toc-section-number">1.3</span>  The object classified in the WRB</a></li>
-  <li><a href="#sec-bspr" id="toc-sec-bspr" class="nav-link" data-scroll-target="#sec-bspr"><span class="toc-section-number">1.4</span>  Basic principles</a>
+  <li><a href="#sec-mjch" id="toc-sec-mjch" class="nav-link" data-scroll-target="#sec-mjch"><span class="header-section-number">1.2</span> Major changes in WRB 2022</a></li>
+  <li><a href="#sec-obcl" id="toc-sec-obcl" class="nav-link" data-scroll-target="#sec-obcl"><span class="header-section-number">1.3</span> The object classified in the WRB</a></li>
+  <li><a href="#sec-bspr" id="toc-sec-bspr" class="nav-link" data-scroll-target="#sec-bspr"><span class="header-section-number">1.4</span> Basic principles</a>
   <ul class="collapse">
   <li><a href="#sec-bspr-gen" id="toc-sec-bspr-gen" class="nav-link" data-scroll-target="#sec-bspr-gen">General principles</a></li>
-  <li><a href="#sec-bspr-str" id="toc-sec-bspr-str" class="nav-link" data-scroll-target="#sec-bspr-str"><span class="toc-section-number">1.4.1</span>  Structure</a></li>
-  <li><a href="#sec-bspr-evo" id="toc-sec-bspr-evo" class="nav-link" data-scroll-target="#sec-bspr-evo"><span class="toc-section-number">1.4.2</span>  Evolution of the system</a></li>
+  <li><a href="#sec-bspr-str" id="toc-sec-bspr-str" class="nav-link" data-scroll-target="#sec-bspr-str"><span class="header-section-number">1.4.1</span> Structure</a></li>
+  <li><a href="#sec-bspr-evo" id="toc-sec-bspr-evo" class="nav-link" data-scroll-target="#sec-bspr-evo"><span class="header-section-number">1.4.2</span> Evolution of the system</a></li>
   </ul></li>
-  <li><a href="#sec-arch" id="toc-sec-arch" class="nav-link" data-scroll-target="#sec-arch"><span class="toc-section-number">1.5</span>  Architecture</a>
+  <li><a href="#sec-arch" id="toc-sec-arch" class="nav-link" data-scroll-target="#sec-arch"><span class="header-section-number">1.5</span> Architecture</a>
   <ul class="collapse">
-  <li><a href="#sec-arch-rsg" id="toc-sec-arch-rsg" class="nav-link" data-scroll-target="#sec-arch-rsg"><span class="toc-section-number">1.5.1</span>  First Level: The Reference Soil Groups</a></li>
-  <li><a href="#sec-arch-qlf" id="toc-sec-arch-qlf" class="nav-link" data-scroll-target="#sec-arch-qlf"><span class="toc-section-number">1.5.2</span>  Second Level: The Reference Soil Groups with their qualifiers</a></li>
+  <li><a href="#sec-arch-rsg" id="toc-sec-arch-rsg" class="nav-link" data-scroll-target="#sec-arch-rsg"><span class="header-section-number">1.5.1</span> First Level: The Reference Soil Groups</a></li>
+  <li><a href="#sec-arch-qlf" id="toc-sec-arch-qlf" class="nav-link" data-scroll-target="#sec-arch-qlf"><span class="header-section-number">1.5.2</span> Second Level: The Reference Soil Groups with their qualifiers</a></li>
   </ul></li>
-  <li><a href="#sec-tops" id="toc-sec-tops" class="nav-link" data-scroll-target="#sec-tops"><span class="toc-section-number">1.6</span>  Topsoils</a></li>
-  <li><a href="#sec-rego" id="toc-sec-rego" class="nav-link" data-scroll-target="#sec-rego"><span class="toc-section-number">1.7</span>  Subsolum</a></li>
-  <li><a href="#sec-trns" id="toc-sec-trns" class="nav-link" data-scroll-target="#sec-trns"><span class="toc-section-number">1.8</span>  Translation into other languages</a></li>
+  <li><a href="#sec-tops" id="toc-sec-tops" class="nav-link" data-scroll-target="#sec-tops"><span class="header-section-number">1.6</span> Topsoils</a></li>
+  <li><a href="#sec-rego" id="toc-sec-rego" class="nav-link" data-scroll-target="#sec-rego"><span class="header-section-number">1.7</span> Subsolum</a></li>
+  <li><a href="#sec-trns" id="toc-sec-trns" class="nav-link" data-scroll-target="#sec-trns"><span class="header-section-number">1.8</span> Translation into other languages</a></li>
   </ul>
 </nav>
     </div>
@@ -241,7 +290,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-bgbs" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Background and basics</span></span></h1>
+<h1 class="title"><span id="sec-bgbs" class="quarto-section-identifier"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Background and basics</span></span></h1>
 </div>
 
 
@@ -253,7 +302,7 @@ div.csl-indent {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">December 31, 2022</p>
+      <p class="date-modified">March 9, 2023</p>
     </div>
   </div>
     
@@ -370,12 +419,21 @@ div.csl-indent {
 <div class="cell-output-display">
 <div id="tbl-oneone" class="anchored">
 
-<div id="lcyjucxsyk" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="rjiberdnxd" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-:where(#lcyjucxsyk) .gt_table {
+#rjiberdnxd thead, #rjiberdnxd tbody, #rjiberdnxd tfoot, #rjiberdnxd tr, #rjiberdnxd td, #rjiberdnxd th {
+  border-style: none;
+}
+
+#rjiberdnxd p {
+  margin: 0;
+  padding: 0;
+}
+
+#rjiberdnxd .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: 0;
@@ -400,24 +458,12 @@ div.csl-indent {
   border-left-color: #D3D3D3;
 }
 
-:where(#lcyjucxsyk) .gt_heading {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-bottom-color: #FFFFFF;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-:where(#lcyjucxsyk) .gt_caption {
+#rjiberdnxd .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-:where(#lcyjucxsyk) .gt_title {
+#rjiberdnxd .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: bold;
@@ -429,25 +475,37 @@ div.csl-indent {
   border-bottom-width: 0;
 }
 
-:where(#lcyjucxsyk) .gt_subtitle {
+#rjiberdnxd .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
-  padding-top: 0;
-  padding-bottom: 6px;
+  padding-top: 3px;
+  padding-bottom: 5px;
   padding-left: 5px;
   padding-right: 5px;
   border-top-color: #FFFFFF;
   border-top-width: 0;
 }
 
-:where(#lcyjucxsyk) .gt_bottom_border {
+#rjiberdnxd .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#rjiberdnxd .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-:where(#lcyjucxsyk) .gt_col_headings {
+#rjiberdnxd .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -462,7 +520,7 @@ div.csl-indent {
   border-right-color: #D3D3D3;
 }
 
-:where(#lcyjucxsyk) .gt_col_heading {
+#rjiberdnxd .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -482,7 +540,7 @@ div.csl-indent {
   overflow-x: hidden;
 }
 
-:where(#lcyjucxsyk) .gt_column_spanner_outer {
+#rjiberdnxd .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -494,15 +552,15 @@ div.csl-indent {
   padding-right: 4px;
 }
 
-:where(#lcyjucxsyk) .gt_column_spanner_outer:first-child {
+#rjiberdnxd .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-:where(#lcyjucxsyk) .gt_column_spanner_outer:last-child {
+#rjiberdnxd .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-:where(#lcyjucxsyk) .gt_column_spanner {
+#rjiberdnxd .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -514,7 +572,11 @@ div.csl-indent {
   width: 100%;
 }
 
-:where(#lcyjucxsyk) .gt_group_heading {
+#rjiberdnxd .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#rjiberdnxd .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -540,7 +602,7 @@ div.csl-indent {
   text-align: left;
 }
 
-:where(#lcyjucxsyk) .gt_empty_group_heading {
+#rjiberdnxd .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -555,15 +617,15 @@ div.csl-indent {
   vertical-align: middle;
 }
 
-:where(#lcyjucxsyk) .gt_from_md > :first-child {
+#rjiberdnxd .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-:where(#lcyjucxsyk) .gt_from_md > :last-child {
+#rjiberdnxd .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-:where(#lcyjucxsyk) .gt_row {
+#rjiberdnxd .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -582,7 +644,7 @@ div.csl-indent {
   overflow-x: hidden;
 }
 
-:where(#lcyjucxsyk) .gt_stub {
+#rjiberdnxd .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -595,7 +657,7 @@ div.csl-indent {
   padding-right: 5px;
 }
 
-:where(#lcyjucxsyk) .gt_stub_row_group {
+#rjiberdnxd .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -609,11 +671,15 @@ div.csl-indent {
   vertical-align: top;
 }
 
-:where(#lcyjucxsyk) .gt_row_group_first td {
+#rjiberdnxd .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-:where(#lcyjucxsyk) .gt_summary_row {
+#rjiberdnxd .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#rjiberdnxd .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -623,16 +689,16 @@ div.csl-indent {
   padding-right: 5px;
 }
 
-:where(#lcyjucxsyk) .gt_first_summary_row {
+#rjiberdnxd .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-:where(#lcyjucxsyk) .gt_first_summary_row.thick {
+#rjiberdnxd .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-:where(#lcyjucxsyk) .gt_last_summary_row {
+#rjiberdnxd .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -642,7 +708,7 @@ div.csl-indent {
   border-bottom-color: #D3D3D3;
 }
 
-:where(#lcyjucxsyk) .gt_grand_summary_row {
+#rjiberdnxd .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -652,7 +718,7 @@ div.csl-indent {
   padding-right: 5px;
 }
 
-:where(#lcyjucxsyk) .gt_first_grand_summary_row {
+#rjiberdnxd .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -662,11 +728,21 @@ div.csl-indent {
   border-top-color: #D3D3D3;
 }
 
-:where(#lcyjucxsyk) .gt_striped {
+#rjiberdnxd .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#rjiberdnxd .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-:where(#lcyjucxsyk) .gt_table_body {
+#rjiberdnxd .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -675,7 +751,7 @@ div.csl-indent {
   border-bottom-color: #D3D3D3;
 }
 
-:where(#lcyjucxsyk) .gt_footnotes {
+#rjiberdnxd .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -689,30 +765,8 @@ div.csl-indent {
   border-right-color: #D3D3D3;
 }
 
-:where(#lcyjucxsyk) .gt_footnote {
+#rjiberdnxd .gt_footnote {
   margin: 0px;
-  font-size: 90%;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-:where(#lcyjucxsyk) .gt_sourcenotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-:where(#lcyjucxsyk) .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -720,75 +774,100 @@ div.csl-indent {
   padding-right: 5px;
 }
 
-:where(#lcyjucxsyk) .gt_left {
+#rjiberdnxd .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#rjiberdnxd .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#rjiberdnxd .gt_left {
   text-align: left;
 }
 
-:where(#lcyjucxsyk) .gt_center {
+#rjiberdnxd .gt_center {
   text-align: center;
 }
 
-:where(#lcyjucxsyk) .gt_right {
+#rjiberdnxd .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-:where(#lcyjucxsyk) .gt_font_normal {
+#rjiberdnxd .gt_font_normal {
   font-weight: normal;
 }
 
-:where(#lcyjucxsyk) .gt_font_bold {
+#rjiberdnxd .gt_font_bold {
   font-weight: bold;
 }
 
-:where(#lcyjucxsyk) .gt_font_italic {
+#rjiberdnxd .gt_font_italic {
   font-style: italic;
 }
 
-:where(#lcyjucxsyk) .gt_super {
+#rjiberdnxd .gt_super {
   font-size: 65%;
 }
 
-:where(#lcyjucxsyk) .gt_footnote_marks {
+#rjiberdnxd .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
+  position: initial;
 }
 
-:where(#lcyjucxsyk) .gt_asterisk {
+#rjiberdnxd .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-:where(#lcyjucxsyk) .gt_indent_1 {
+#rjiberdnxd .gt_indent_1 {
   text-indent: 5px;
 }
 
-:where(#lcyjucxsyk) .gt_indent_2 {
+#rjiberdnxd .gt_indent_2 {
   text-indent: 10px;
 }
 
-:where(#lcyjucxsyk) .gt_indent_3 {
+#rjiberdnxd .gt_indent_3 {
   text-indent: 15px;
 }
 
-:where(#lcyjucxsyk) .gt_indent_4 {
+#rjiberdnxd .gt_indent_4 {
   text-indent: 20px;
 }
 
-:where(#lcyjucxsyk) .gt_indent_5 {
+#rjiberdnxd .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
-<table class="gt_table"><caption>Table&nbsp;1.1:  The diagnostic horizons, properties and materials of the WRB. This table does not provide definitions. For diagnostic criteria, please refer to Chapter 3. </caption>
-  <thead class="gt_header">
-    <tr>
+<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false"><caption>Table&nbsp;1.1:  <p>The diagnostic horizons, properties and materials of the WRB.
+<strong>This table does not provide definitions</strong>. For diagnostic
+criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </caption>
+  <thead>
+    <tr class="gt_heading">
       <td colspan="2" class="gt_heading gt_title gt_font_normal gt_bottom_border" style="">Simplified Description</td>
     </tr>
     
+    
   </thead>
-  
   <tbody class="gt_table_body">
     <tr class="gt_group_heading_row">
       <th colspan="2" class="gt_group_heading" scope="colgroup" id="1. Anthropogenic diagnostic horizons (all are mineral)">1. Anthropogenic diagnostic horizons (all are mineral)</th>
@@ -1018,7 +1097,7 @@ div.csl-indent {
 <h3 data-number="1.5.2" class="anchored" data-anchor-id="sec-arch-qlf"><span class="header-section-number">1.5.2</span> Second Level: The Reference Soil Groups with their qualifiers</h3>
 <p>In the WRB, a distinction is made between <strong>principal qualifiers</strong> and <strong>supplementary qualifiers</strong>. Principal qualifiers are regarded as being most significant for a further characterization of soils of the particular RSG. They are given in a ranked order. Supplementary qualifiers give some further details about the soil. They are not ranked but listed alphabetically (exception: the supplementary qualifiers related to the texture are given first). <a href="./chapter-02.html">Chapter 2</a> gives the rules for the use of qualifiers for naming soils and for creating map legends. Constructing the second level by adding qualifiers to the RSG has several advantages compared with a dichotomous key:</p>
 <ul>
-<li>For every soil, the RSG has the appropriate number of qualifiers. Soils with few characteristics have short names; soils with many characteristics (e.g.&nbsp;polygenetic soils) have longer names.</li>
+<li>Every soil receives the appropriate number of qualifiers. Soils with few characteristics have short names; soils with many characteristics (e.g.&nbsp;polygenetic soils) have longer names.</li>
 <li>The WRB is capable of indicating most of the soil’s properties, which are incorporated into an informative soil name.</li>
 <li>The system is robust. Missing data do not necessarily lead to a dramatic error in the classification of a soil. If one qualifier is erroneously added or erroneously omitted based on incomplete data, the rest of the soil name remains correct.</li>
 </ul>
@@ -1026,12 +1105,21 @@ div.csl-indent {
 <div class="cell-output-display">
 <div id="tbl-onetwo" class="anchored">
 
-<div id="ckttvgivyg" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<div id="hlfkgkcwbs" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-:where(#ckttvgivyg) .gt_table {
+#hlfkgkcwbs thead, #hlfkgkcwbs tbody, #hlfkgkcwbs tfoot, #hlfkgkcwbs tr, #hlfkgkcwbs td, #hlfkgkcwbs th {
+  border-style: none;
+}
+
+#hlfkgkcwbs p {
+  margin: 0;
+  padding: 0;
+}
+
+#hlfkgkcwbs .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: 0;
@@ -1056,24 +1144,12 @@ div.csl-indent {
   border-left-color: #D3D3D3;
 }
 
-:where(#ckttvgivyg) .gt_heading {
-  background-color: #FFFFFF;
-  text-align: center;
-  border-bottom-color: #FFFFFF;
-  border-left-style: none;
-  border-left-width: 1px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 1px;
-  border-right-color: #D3D3D3;
-}
-
-:where(#ckttvgivyg) .gt_caption {
+#hlfkgkcwbs .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-:where(#ckttvgivyg) .gt_title {
+#hlfkgkcwbs .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: bold;
@@ -1085,25 +1161,37 @@ div.csl-indent {
   border-bottom-width: 0;
 }
 
-:where(#ckttvgivyg) .gt_subtitle {
+#hlfkgkcwbs .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
-  padding-top: 0;
-  padding-bottom: 6px;
+  padding-top: 3px;
+  padding-bottom: 5px;
   padding-left: 5px;
   padding-right: 5px;
   border-top-color: #FFFFFF;
   border-top-width: 0;
 }
 
-:where(#ckttvgivyg) .gt_bottom_border {
+#hlfkgkcwbs .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#hlfkgkcwbs .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-:where(#ckttvgivyg) .gt_col_headings {
+#hlfkgkcwbs .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1118,7 +1206,7 @@ div.csl-indent {
   border-right-color: #D3D3D3;
 }
 
-:where(#ckttvgivyg) .gt_col_heading {
+#hlfkgkcwbs .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1138,7 +1226,7 @@ div.csl-indent {
   overflow-x: hidden;
 }
 
-:where(#ckttvgivyg) .gt_column_spanner_outer {
+#hlfkgkcwbs .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1150,15 +1238,15 @@ div.csl-indent {
   padding-right: 4px;
 }
 
-:where(#ckttvgivyg) .gt_column_spanner_outer:first-child {
+#hlfkgkcwbs .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-:where(#ckttvgivyg) .gt_column_spanner_outer:last-child {
+#hlfkgkcwbs .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-:where(#ckttvgivyg) .gt_column_spanner {
+#hlfkgkcwbs .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1170,7 +1258,11 @@ div.csl-indent {
   width: 100%;
 }
 
-:where(#ckttvgivyg) .gt_group_heading {
+#hlfkgkcwbs .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#hlfkgkcwbs .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1196,7 +1288,7 @@ div.csl-indent {
   text-align: left;
 }
 
-:where(#ckttvgivyg) .gt_empty_group_heading {
+#hlfkgkcwbs .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1211,15 +1303,15 @@ div.csl-indent {
   vertical-align: middle;
 }
 
-:where(#ckttvgivyg) .gt_from_md > :first-child {
+#hlfkgkcwbs .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-:where(#ckttvgivyg) .gt_from_md > :last-child {
+#hlfkgkcwbs .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-:where(#ckttvgivyg) .gt_row {
+#hlfkgkcwbs .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1238,7 +1330,7 @@ div.csl-indent {
   overflow-x: hidden;
 }
 
-:where(#ckttvgivyg) .gt_stub {
+#hlfkgkcwbs .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1251,7 +1343,7 @@ div.csl-indent {
   padding-right: 5px;
 }
 
-:where(#ckttvgivyg) .gt_stub_row_group {
+#hlfkgkcwbs .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1265,11 +1357,15 @@ div.csl-indent {
   vertical-align: top;
 }
 
-:where(#ckttvgivyg) .gt_row_group_first td {
+#hlfkgkcwbs .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-:where(#ckttvgivyg) .gt_summary_row {
+#hlfkgkcwbs .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#hlfkgkcwbs .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1279,16 +1375,16 @@ div.csl-indent {
   padding-right: 5px;
 }
 
-:where(#ckttvgivyg) .gt_first_summary_row {
+#hlfkgkcwbs .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-:where(#ckttvgivyg) .gt_first_summary_row.thick {
+#hlfkgkcwbs .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-:where(#ckttvgivyg) .gt_last_summary_row {
+#hlfkgkcwbs .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1298,7 +1394,7 @@ div.csl-indent {
   border-bottom-color: #D3D3D3;
 }
 
-:where(#ckttvgivyg) .gt_grand_summary_row {
+#hlfkgkcwbs .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1308,7 +1404,7 @@ div.csl-indent {
   padding-right: 5px;
 }
 
-:where(#ckttvgivyg) .gt_first_grand_summary_row {
+#hlfkgkcwbs .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1318,11 +1414,21 @@ div.csl-indent {
   border-top-color: #D3D3D3;
 }
 
-:where(#ckttvgivyg) .gt_striped {
+#hlfkgkcwbs .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#hlfkgkcwbs .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-:where(#ckttvgivyg) .gt_table_body {
+#hlfkgkcwbs .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1331,7 +1437,7 @@ div.csl-indent {
   border-bottom-color: #D3D3D3;
 }
 
-:where(#ckttvgivyg) .gt_footnotes {
+#hlfkgkcwbs .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1345,30 +1451,8 @@ div.csl-indent {
   border-right-color: #D3D3D3;
 }
 
-:where(#ckttvgivyg) .gt_footnote {
+#hlfkgkcwbs .gt_footnote {
   margin: 0px;
-  font-size: 90%;
-  padding-left: 4px;
-  padding-right: 4px;
-  padding-left: 5px;
-  padding-right: 5px;
-}
-
-:where(#ckttvgivyg) .gt_sourcenotes {
-  color: #333333;
-  background-color: #FFFFFF;
-  border-bottom-style: none;
-  border-bottom-width: 2px;
-  border-bottom-color: #D3D3D3;
-  border-left-style: none;
-  border-left-width: 2px;
-  border-left-color: #D3D3D3;
-  border-right-style: none;
-  border-right-width: 2px;
-  border-right-color: #D3D3D3;
-}
-
-:where(#ckttvgivyg) .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1376,71 +1460,97 @@ div.csl-indent {
   padding-right: 5px;
 }
 
-:where(#ckttvgivyg) .gt_left {
+#hlfkgkcwbs .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#hlfkgkcwbs .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#hlfkgkcwbs .gt_left {
   text-align: left;
 }
 
-:where(#ckttvgivyg) .gt_center {
+#hlfkgkcwbs .gt_center {
   text-align: center;
 }
 
-:where(#ckttvgivyg) .gt_right {
+#hlfkgkcwbs .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-:where(#ckttvgivyg) .gt_font_normal {
+#hlfkgkcwbs .gt_font_normal {
   font-weight: normal;
 }
 
-:where(#ckttvgivyg) .gt_font_bold {
+#hlfkgkcwbs .gt_font_bold {
   font-weight: bold;
 }
 
-:where(#ckttvgivyg) .gt_font_italic {
+#hlfkgkcwbs .gt_font_italic {
   font-style: italic;
 }
 
-:where(#ckttvgivyg) .gt_super {
+#hlfkgkcwbs .gt_super {
   font-size: 65%;
 }
 
-:where(#ckttvgivyg) .gt_footnote_marks {
+#hlfkgkcwbs .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
+  position: initial;
 }
 
-:where(#ckttvgivyg) .gt_asterisk {
+#hlfkgkcwbs .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-:where(#ckttvgivyg) .gt_indent_1 {
+#hlfkgkcwbs .gt_indent_1 {
   text-indent: 5px;
 }
 
-:where(#ckttvgivyg) .gt_indent_2 {
+#hlfkgkcwbs .gt_indent_2 {
   text-indent: 10px;
 }
 
-:where(#ckttvgivyg) .gt_indent_3 {
+#hlfkgkcwbs .gt_indent_3 {
   text-indent: 15px;
 }
 
-:where(#ckttvgivyg) .gt_indent_4 {
+#hlfkgkcwbs .gt_indent_4 {
   text-indent: 20px;
 }
 
-:where(#ckttvgivyg) .gt_indent_5 {
+#hlfkgkcwbs .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
-<table class="gt_table"><caption>Table&nbsp;1.2:  Simplified guide to the WRB Reference Soil Groups (RSGs) with suggested codes. This table is not to be used as a key. For full definitions, please refer toChapter 3 and the Key (Chapter 4). </caption>
-  
-  <thead class="gt_col_headings">
-    <tr>
+<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false"><caption>Table&nbsp;1.2:  <p>Simplified guide to the WRB Reference Soil Groups (RSGs) with
+suggested codes. <strong>This table is not to be used as a key</strong>.
+For full definitions, please refer to<a href="./chapter-03.html">Chapter
+3</a> and the Key (<a href="./chapter-04.html">Chapter 4</a>).</p> </caption>
+  <thead>
+    
+    <tr class="gt_col_headings">
       <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id=""></th>
       <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="RSG">RSG</th>
       <th class="gt_col_heading gt_columns_bottom_border gt_center" rowspan="1" colspan="1" scope="col" id="Code">Code</th>
@@ -1587,62 +1697,62 @@ div.csl-indent {
 <p>Translations into other languages are most welcome. For copyright, please contact IUSS. However, all elements of the soil names (RSG, qualifiers, specifiers) must not be translated into any other language nor transliterated into another alphabet. Soil names must preserve their grammatical form. The rules for the sequence of qualifiers must be followed in any translation. Names of RSGs and qualifiers start with capital letters.</p>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-broll2006" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-broll2006" class="csl-entry" role="listitem">
 Broll, Gabriele, Hans-Jörg Brauckmann, Mark Overesch, Birte Junge, Claudia Erber, Gerhard Milbert, Denis Baize, and Freddy Nachtergaele. 2006. <span>“Topsoil Characterization—Recommendations for Revision and Expansion of the FAO-Draft (1998) with Emphasis on Humus Forms and Biological Features.”</span> <em>Journal of Plant Nutrition and Soil Science</em> 169 (3): 453–61. <a href="https://doi.org/10.1002/jpln.200521961">https://doi.org/10.1002/jpln.200521961</a>.
 </div>
-<div id="ref-fao-unesco1971" class="csl-entry" role="doc-biblioentry">
+<div id="ref-fao-unesco1971" class="csl-entry" role="listitem">
 FAO-UNESCO. 1971–1981. <em>Soil Map of the World 1:5 000 000</em>. UNESCO. <a href="https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/faounesco-soil-map-of-the-world/en/">https://www.fao.org/soils-portal/data-hub/soil-maps-and-databases/faounesco-soil-map-of-the-world/en/</a>.
 </div>
-<div id="ref-fao-unesco1974" class="csl-entry" role="doc-biblioentry">
+<div id="ref-fao-unesco1974" class="csl-entry" role="listitem">
 ———. 1974. <em>Soil Map of the World 1:5 000 000 - Legend</em>. Vol. 1. UNESCO. <a href="https://www.fao.org/3/as360e/as360e.pdf">https://www.fao.org/3/as360e/as360e.pdf</a>.
 </div>
-<div id="ref-fao-unesco-isric1988" class="csl-entry" role="doc-biblioentry">
+<div id="ref-fao-unesco-isric1988" class="csl-entry" role="listitem">
 FAO-UNESCO-ISRIC. 1988. <em>Soil Map of the World, Revised Legend</em>. 60. FAO-UNESCO-ISRIC.
 </div>
-<div id="ref-fox2010" class="csl-entry" role="doc-biblioentry">
+<div id="ref-fox2010" class="csl-entry" role="listitem">
 Fox, Catherine A., Charles Tarnocai, and Gabrielle Broll. 2010. <span>“New a Horizon Protocols for Topsoil Characterization in Canada.”</span> In <em>19th World Congress of Soil Science Proceedings, Symposium 1.4.2</em>, 9–12. <a href="http://www.iuss.org/19th%20WCSS/Symposium/pdf/0467.pdf">http://www.iuss.org/19th%20WCSS/Symposium/pdf/0467.pdf</a>.
 </div>
-<div id="ref-graefe2012" class="csl-entry" role="doc-biblioentry">
+<div id="ref-graefe2012" class="csl-entry" role="listitem">
 Graefe, Ulfert, Rainer Baritz, Gabriele Broll, Eckart Kolb, Gerhard Milbert, and Christine Wachendorf. 2012. <span>“Adapting Humus Form Classification to WRB Principles.”</span> In <em>EUROSOIL 2012 Book of Abstracts</em>, 954. ECSSS.
 </div>
-<div id="ref-isss-isricfao1998" class="csl-entry" role="doc-biblioentry">
+<div id="ref-isss-isricfao1998" class="csl-entry" role="listitem">
 ISSS-ISRIC_FAO. 1998. <em>World Reference Base for Soil Resources</em>. Vol. 106. World Soil Resources Reports. FAO. <a href="https://www.fao.org/3/w8594e/w8594e00.htm">https://www.fao.org/3/w8594e/w8594e00.htm</a>.
 </div>
-<div id="ref-worldre2006" class="csl-entry" role="doc-biblioentry">
+<div id="ref-worldre2006" class="csl-entry" role="listitem">
 IUSS Working Group WRB, ed. 2006. <em>World Reference Base for Soil Resources 2006</em>. 2nd ed. World Soil Resources Reports. Food; Agriculture Organization of the United Nations.
 </div>
-<div id="ref-iussworkinggroupwrb2015" class="csl-entry" role="doc-biblioentry">
+<div id="ref-iussworkinggroupwrb2015" class="csl-entry" role="listitem">
 ———. 2015. <em>World Reference Base for Soil Resources 2014, Update 2015</em>. Vol. 106. World Soil Resources Reports. FAO. <a href="http://www.fao.org/soils-portal/soil-survey/soil-classification/world-reference-base/en/">http://www.fao.org/soils-portal/soil-survey/soil-classification/world-reference-base/en/</a>.
 </div>
-<div id="ref-jabiol2013" class="csl-entry" role="doc-biblioentry">
+<div id="ref-jabiol2013" class="csl-entry" role="listitem">
 Jabiol, Bernard, Augusto Zanella, Jean-François Ponge, Giacomo Sartori, Michael Englisch, Bas van Delft, Rein de Waal, and Renée-Claire Le Bayon. 2013. <span>“A Proposal for Including Humus Forms in the World Reference Base for Soil Resources (WRB-FAO).”</span> <em>Geoderma</em> 192 (January): 286–94. <a href="https://doi.org/10.1016/j.geoderma.2012.08.002">https://doi.org/10.1016/j.geoderma.2012.08.002</a>.
 </div>
-<div id="ref-juilleret2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-juilleret2018" class="csl-entry" role="listitem">
 Juilleret, Jérôme, Antonio C de Azevedo, Roseclenia A Santos, Jean CB dos Santos, Fabricio de A Pedron, and Stefaan Dondeyne. 2018. <span>“Where Are We with Whole Regolith Pedology? A Comparative Study from Brazil.”</span> <em>South African Journal of Plant and Soil</em> 35 (4): 251–61. <a href="https://doi.org/10.1080/02571862.2017.1411537">https://doi.org/10.1080/02571862.2017.1411537</a>.
 </div>
-<div id="ref-juilleret2016" class="csl-entry" role="doc-biblioentry">
+<div id="ref-juilleret2016" class="csl-entry" role="listitem">
 Juilleret, Jérôme, Stefaan Dondeyne, Karen Vancampenhout, Jozef Deckers, and Christophe Hissler. 2016. <span>“Mind the Gap: A Classification System for Integrating the Subsolum into Soil Surveys.”</span> <em>Soil Mapping, Classification, and Modelling: History and Future Directions</em> 264 (February): 332–39. <a href="https://doi.org/10.1016/j.geoderma.2015.08.031">https://doi.org/10.1016/j.geoderma.2015.08.031</a>.
 </div>
-<div id="ref-nachtergaele2005" class="csl-entry" role="doc-biblioentry">
+<div id="ref-nachtergaele2005" class="csl-entry" role="listitem">
 Nachtergaele, F. 2005. <span>“The <span>‘Soils’</span> to Be Classified in the World Reference Base for Soil Resources.”</span> <em>Eurasian Soil Science</em> 38 (January): 13–19.
 </div>
-<div id="ref-schoeneberger2012" class="csl-entry" role="doc-biblioentry">
+<div id="ref-schoeneberger2012" class="csl-entry" role="listitem">
 Schoeneberger, P. J., D. A. Wysocki, E. C. Benham, and Soil Survey Staff. 2012. <em>Field Book for Describing and Sampling Soils, Version 3.0</em>. Natural Resources Conservation Service, National Soil Survey Center.
 </div>
-<div id="ref-soilsciencedivisionstaff2017" class="csl-entry" role="doc-biblioentry">
+<div id="ref-soilsciencedivisionstaff2017" class="csl-entry" role="listitem">
 Soil Science Division Staff. 2017. <em>Soil Survey Manual</em>. 3rd ed. Agriculture Handbook. United States Department of Agriculture. <a href="https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/scientists/?cid=nrcs142p2_054262">https://www.nrcs.usda.gov/wps/portal/nrcs/detail/soils/scientists/?cid=nrcs142p2_054262</a>.
 </div>
-<div id="ref-soilsurveystaff1999" class="csl-entry" role="doc-biblioentry">
+<div id="ref-soilsurveystaff1999" class="csl-entry" role="listitem">
 Soil Survey Staff. 1999. <em>Soil Taxonomy: A Basic System of Soil Classification for Making and Interpreting Soil Surveys</em>. 2nd ed. Agriculture Handbook. United States Department of Agriculture. <a href="https://www.nrcs.usda.gov/resources/guides-and-instructions/soil-taxonomy">https://www.nrcs.usda.gov/resources/guides-and-instructions/soil-taxonomy</a>.
 </div>
-<div id="ref-sokolov1997" class="csl-entry" role="doc-biblioentry">
+<div id="ref-sokolov1997" class="csl-entry" role="listitem">
 Sokolov, I. A. 1997. <em>Pochvoobrazovanie i Ėkzogenez (Soil Formation and Exogenesis)</em>. Rossiĭskai︠a︡ akademii︠a︡ s.-kh. nauk, Pochvennyĭ in-t im. V.V. Dokuchaeva. <a href="https://www.rfbr.ru/rffi/ru/books/o_61096">https://www.rfbr.ru/rffi/ru/books/o_61096</a>.
 </div>
-<div id="ref-un-fao2006" class="csl-entry" role="doc-biblioentry">
+<div id="ref-un-fao2006" class="csl-entry" role="listitem">
 UN-FAO. 2006. <em>Guidelines for Soil Description</em>. 4th ed. UN-FAO. <a href="http://www.fao.org/3/a0541e/a0541e.pdf">http://www.fao.org/3/a0541e/a0541e.pdf</a>.
 </div>
-<div id="ref-zanella2018" class="csl-entry" role="doc-biblioentry">
+<div id="ref-zanella2018" class="csl-entry" role="listitem">
 Zanella, Augusto, Jean-François Ponge, Bernard Jabiol, Giacomo Sartori, Ekart Kolb, Renée-Claire Le Bayon, Jean-Michel Gobat, et al. 2018. <span>“Humusica 1, Article 5: Terrestrial Humus Systems and Forms — Keys of Classification of Humus Systems and Forms.”</span> <em>HUMUSICA 1 - Terrestrial Natural Humipedons</em> 122 (January): 75–86. <a href="https://doi.org/10.1016/j.apsoil.2017.06.012">https://doi.org/10.1016/j.apsoil.2017.06.012</a>.
 </div>
 </div>
@@ -1676,9 +1786,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1743,6 +1867,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
