@@ -5,11 +5,20 @@ project:
 book:
   title: "World Reference Base for Soil Resources"
   author: "Lauren O'Brien"
-  date: "2022-07-26"
+  date: "2022-07-22"
   isbn: 979-8-9862451-1-9
   language: en
   page-navigation: true
   cover-image: images/cover.png
+  cover-image-alt: 'An image of the cover of the World Reference Base for Soil Resources, 4th edition, showing pictures of soils and landscapes from around the world.'
+  site-url: https://obrl-soil.github.io/wrbsoil2022/
+  repo-url: https://github.com/obrl-soil/wrbsoil2022
+  repo-branch: main
+  reader-mode: true
+  sharing:
+    - twitter
+    - linkedin
+  image: images/cover.png
   chapters:
     - index.qmd
     - foreword.qmd
@@ -43,6 +52,8 @@ format:
     logo: images/cover.png
     appendix-style: none
     css: styles.css
+    mermaid:
+      theme: neutral
 
 editor: visual
 
