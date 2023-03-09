@@ -804,10 +804,10 @@ with or without other accumulations, and that have a combined thickness of ≥ 
 
 ### Mahic (ma) {#sec-ma .unnumbered}
 
-(from Maori *mahi*, work):
+(from Te Reo Māori *mahi*, work):
 
 -   having a layer, ≥ 10 cm thick and starting ≤ 50 cm from the soil surface, with ≥ 80% (by volume, weighted average, related to the whole soil) [*artefacts*](chapter-03.qmd#sec-artefm); *and*
--   having < 20% (by volume, weighted average, related to the whole soil) [*artefacts*](chapter-03.qmd#sec-artefm) in the upper 100 cm from the soil surface or to a limiting layer, whichever is shallower.
+-   having \< 20% (by volume, weighted average, related to the whole soil) [*artefacts*](chapter-03.qmd#sec-artefm) in the upper 100 cm from the soil surface or to a limiting layer, whichever is shallower.
 
 ### Mawic (mw) {#sec-mw .unnumbered}
 
@@ -1101,7 +1101,7 @@ see [*Vertic*](#sec-vr).
 
 ### Relocatic (rc) {#sec-rc .unnumbered}
 
-(from Latin *re*, again, and *locatus*, put): being remodelled in situ or within the immediate vicinity by human activity to a depth of ≥ 100 cm (e.g. by deep ploughing, refilling soil pits or levelling land) and no formation of diagnostic horizons after remodelling, throughout, except a [*mollic*](chapter-03.qmd#sec-mollh) or [*umbric horizon*](chapter-03.qmd#sec-umbrich) (in [*Technosols*](chapter-04.qmd#sec-key-tc), Relocatic is redundant, except in combination with the [Ekranic](#sec-ek), [Thyric](#sec-th) or [Linic qualifier](#sec-lc)); a destroyed diagnostic horizon  (excluding the horizons that are defined as surface horizon according to their diagnostic criteria) may be added with a hyphen, e.g. Spodi-Relocatic, Spodi-Epirelocatic, however, there are no codes provided for these additions (4: Epi- only).
+(from Latin *re*, again, and *locatus*, put): being remodelled in situ or within the immediate vicinity by human activity to a depth of ≥ 100 cm (e.g. by deep ploughing, refilling soil pits or levelling land) and no formation of diagnostic horizons after remodelling, throughout, except a [*mollic*](chapter-03.qmd#sec-mollh) or [*umbric horizon*](chapter-03.qmd#sec-umbrich) (in [*Technosols*](chapter-04.qmd#sec-key-tc), Relocatic is redundant, except in combination with the [Ekranic](#sec-ek), [Thyric](#sec-th) or [Linic qualifier](#sec-lc)); a destroyed diagnostic horizon (excluding the horizons that are defined as surface horizon according to their diagnostic criteria) may be added with a hyphen, e.g. Spodi-Relocatic, Spodi-Epirelocatic, however, there are no codes provided for these additions (4: Epi- only).
 
 ### Rendzic (rz) {#sec-rz .unnumbered}
 
