@@ -26,4 +26,4 @@ Eutric Glossic Stagnosol (Belgium) \[photo: Stefaan Dondeyne\]
 
 ------------------------------------------------------------------------
 
-This is a Quarto version of the [original PDF publication](https://www3.ls.tum.de/boku/wrb-working-group/documents/wrb-2022/). This version incorporates the [published errata](https://www3.ls.tum.de/boku/wrb-working-group/documents/wrb-2022/wrb-2022-errata/) to 2022-12-18.
+This is a Quarto version of the [original PDF publication](https://wrb.isric.org/files/WRB_fourth_edition_2022-12-18.pdf), available at the [WRB website](https://wrb.isric.org/) along with other supporting documentation and teaching materials. This version incorporates the published errata to 2022-12-18.
