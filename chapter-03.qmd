@@ -2090,7 +2090,7 @@ Organic material
 
 #### Additional information {#sec-orgm-info}
 
-20% organic carbon roughly correspond to 40% organic matter. The remaining up to 60% consist of mineral components and/or of organic components that meet the criteria of *artefacts*.
+20% organic carbon roughly corresponds to 40% organic matter. The remaining up to 60% consist of mineral components and/or of organic components that meet the criteria of [*artefacts*](#sec-artefm).
 
 #### Relationships with some other diagnostics {#sec-orgm-reln}
 
