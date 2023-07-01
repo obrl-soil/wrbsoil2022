@@ -16,7 +16,7 @@ ISBN 979-8-9862451-1-9
 First published: 22 July 2022. Update with minor corrections: 18 December 2022
 
 Copyright: International Union of Soil Sciences®, Vienna, Austria.\
-This is an open access document under the terms of the Creative Commons Attribution License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.
+This is an open access document under the terms of the [Creative Commons Attribution License](https://creativecommons.org/licenses/by/4.0/legalcode), which permits use, distribution and reproduction in any medium, provided the original work is properly cited.
 
 Cover by Stefaan Dondeyne\
 From left to right: Rhodic Ferritic Nitisol (Brazil) \[photo: Sérgio Shimizu\]\

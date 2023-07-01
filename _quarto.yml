@@ -8,6 +8,7 @@ book:
   date: "2022-07-22"
   isbn: 979-8-9862451-1-9
   language: en
+  license: https://creativecommons.org/licenses/by/4.0/legalcode
   page-navigation: true
   cover-image: images/cover.png
   cover-image-alt: 'An image of the cover of the World Reference Base for Soil Resources, 4th edition, showing pictures of soils and landscapes from around the world.'
