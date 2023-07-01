@@ -4,18 +4,22 @@ project:
 
 book:
   title: "World Reference Base for Soil Resources"
-  author: "Lauren O'Brien"
+  author: "IUSS Working Group WRB"
+  contributor: "Lauren O'Brien"
   date: "2022-07-22"
   isbn: 979-8-9862451-1-9
   language: en
   license: https://creativecommons.org/licenses/by/4.0/legalcode
   page-navigation: true
+  publisher: "International Union of Soil Sciences (IUSS)"
+  publisher-place: "Vienna, Austria"
   cover-image: images/cover.png
   cover-image-alt: 'An image of the cover of the World Reference Base for Soil Resources, 4th edition, showing pictures of soils and landscapes from around the world.'
   site-url: https://obrl-soil.github.io/wrbsoil2022/
   repo-url: https://github.com/obrl-soil/wrbsoil2022
   repo-branch: main
   reader-mode: true
+  search: true
   sharing:
     - twitter
     - linkedin
