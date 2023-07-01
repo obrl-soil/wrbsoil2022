@@ -126,7 +126,7 @@ and fulfilling the set of diagnostic criteria of the [Eutric](#sec-eu) qualifier
 
 ### Bryic (by) {#sec-by .unnumbered}
 
-(from Greek *bryon*, moss): ≥ 75% (by volume, related to the fine earth plus all dead plant residues) of the [*organic material*](chapter-03.qmd#sec-orgm){style="font-size: 11pt;"} within 100 cm of the soil surface consists of moss fibres.
+(from Greek *bryon*, moss): ≥ 75% (by volume, related to the fine earth plus all dead plant residues) of the [*organic material*](chapter-03.qmd#sec-orgm) within 100 cm of the soil surface consists of moss fibres.
 
 ### Calcaric (ca) {#sec-ca .unnumbered}
 
@@ -469,7 +469,7 @@ and not having a [*calcic*](chapter-03.qmd#sec-calch) or a [*petrocalcic horizon
 
 ### Fragic (fg) {#sec-fg .unnumbered}
 
-(from Latin *fragilis*, fragile): having a [*fragic horizon*](chapter-03.qmd#sec-fragich) starting ≤ 100 cm from the mineral soil surface (2).
+(from Latin *fragilis*, fragile): having a [*fragic horizon*](chapter-03.qmd#sec-fragh) starting ≤ 100 cm from the mineral soil surface (2).
 
 ### Garbic (ga) {#sec-ga .unnumbered}
 
@@ -582,7 +582,7 @@ and not having a [*gypsic*](chapter-03.qmd#sec-gypsih) or [*petrogypsic horizon*
 (from Greek *histos*, tissue): having a [*histic horizon*](chapter-03.qmd#sec-histih) starting
 
 -   at the soil surface, *or*
--   directly below a layer, \< 40 cm thick, consisting of [*mulmic material*](chapter-03.qmd#sec-mulm), *or*
+-   directly below a layer, \< 40 cm thick, consisting of [*mulmic material*](chapter-03.qmd#sec-mulmicm), *or*
 -   directly below a layer, \< 40 cm thick, consisting of [*organic material*](chapter-03.qmd#sec-orgm), that is saturated with water for \< 30 consecutive days in most years and is not drained.
 
 #### Skeletohistic (kh) {#sec-kh .unnumbered}
@@ -590,7 +590,7 @@ and not having a [*gypsic*](chapter-03.qmd#sec-gypsih) or [*petrogypsic horizon*
 (from Greek *skeletos*, dried out): having a [*histic horizon*](chapter-03.qmd#sec-histih) starting
 
 -   at the soil surface *or*
--   directly below a layer, \< 40 cm thick, consisting of [*mulmic material*](chapter-03.qmd#sec-mulm) *or*
+-   directly below a layer, \< 40 cm thick, consisting of [*mulmic material*](chapter-03.qmd#sec-mulmicm) *or*
 -   directly below a layer, \< 40 cm thick, consisting of [*organic material*](chapter-03.qmd#sec-orgm) that is saturated with water for \< 30 consecutive days in most years and is not drained; with ≥ 40% (by volume, weighted average, related to the whole soil) coarse fragments.
 
 ### Hortic (ht) {#sec-ht .unnumbered}
@@ -824,18 +824,18 @@ and the major part of the interstices between the coarse fragments is filled wit
 
 ### Mineralic (mi) {#sec-mi .unnumbered}
 
-(from Celtic *mine*, mineral): having, within 100 cm of the soil surface, one or more layers of [*mineral material*](chapter-03.qmd#sec-minm), not consisting of [*mulmic material*](chapter-03.qmd#sec-mulm), with a combined thickness of ≥ 20 cm, above or in between layers of [*organic material*](chapter-03.qmd#sec-orgm) (in [*Histosols*](chapter-04.qmd#sec-key-hs) only) (2: Epi-, Endo-, Amphi- and Poly- only).
+(from Celtic *mine*, mineral): having, within 100 cm of the soil surface, one or more layers of [*mineral material*](chapter-03.qmd#sec-minm), not consisting of [*m*](chapter-03.qmd#sec-mulm)[*ulm*](chapter-03.qmd#sec-mulmicm)[*ic material*](chapter-03.qmd#sec-mulm), with a combined thickness of ≥ 20 cm, above or in between layers of [*organic material*](chapter-03.qmd#sec-orgm) (in [*Histosols*](chapter-04.qmd#sec-key-hs) only) (2: Epi-, Endo-, Amphi- and Poly- only).
 
 #### Akromineralic (km) {#sec-km .unnumbered}
 
-(from Greek *akra*, top): having mineral material, ≥ 10 cm thick, not consisting of [*mulmic material*](chapter-03.qmd#sec-mulm) and starting at the soil surface, but the layers of [*mineral material*](chapter-03.qmd#sec-minm), not consisting of [*mulmic material*](chapter-03.qmd#sec-mulm), above or in between layers of [*organic material*](chapter-03.qmd#sec-orgm) have a combined thickness of \< 20 cm (in [*Histosols*](chapter-04.qmd#sec-key-hs) only).
+(from Greek *akra*, top): having mineral material, ≥ 10 cm thick, not consisting of [*mulmic material*](chapter-03.qmd#sec-mulmicm) and starting at the soil surface, but the layers of [*mineral material*](chapter-03.qmd#sec-minm), not consisting of [*mulmic material*](chapter-03.qmd#sec-mulm), above or in between layers of [*organic material*](chapter-03.qmd#sec-orgm) have a combined thickness of \< 20 cm (in [*Histosols*](chapter-04.qmd#sec-key-hs) only).
 
 #### Orthomineralic (oi) {#sec-oi .unnumbered}
 
 (from Greek *orthos*, right): having:
 
--   [*mineral material*](chapter-03.qmd#sec-minm), ≥ 10 cm thick, not consisting of [*mulmic material*](chapter-03.qmd#sec-mulm) and starting at the soil surface, *and*
--   within 100 cm of the soil surface, one or more layers of [*mineral material*](chapter-03.qmd#sec-minm), not consisting of [*mulmic material*](chapter-03.qmd#sec-mulm), with a combined thickness of ≥ 20 cm, above or in between layers of [*organic material*](chapter-03.qmd#sec-orgm) (in [*Histosols*](chapter-04.qmd#sec-key-hs) only) (2: Epi-, Endo-, Amphi- and Poly- only).
+-   [*mineral material*](chapter-03.qmd#sec-minm), ≥ 10 cm thick, not consisting of [*mulmic material*](chapter-03.qmd#sec-mulmicm) and starting at the soil surface, *and*
+-   within 100 cm of the soil surface, one or more layers of [*mineral material*](chapter-03.qmd#sec-minm), not consisting of [*mulmic material*](chapter-03.qmd#sec-mulmicm), with a combined thickness of ≥ 20 cm, above or in between layers of [*organic material*](chapter-03.qmd#sec-orgm) (in [*Histosols*](chapter-04.qmd#sec-key-hs) only) (2: Epi-, Endo-, Amphi- and Poly- only).
 
 ### Mochipic (mc) {#sec-mc .unnumbered}
 
@@ -859,14 +859,14 @@ and the major part of the interstices between the coarse fragments is filled wit
 
 ### Mulmic (mm) {#sec-mm .unnumbered}
 
-(from German *mulm*, powdery detritus): having a layer, ≥ 10 cm thick, consisting of [*mulmic material*](chapter-03.qmd#sec-mulm) and starting at the mineral soil surface.
+(from German *mulm*, powdery detritus): having a layer, ≥ 10 cm thick, consisting of [*mulmic material*](chapter-03.qmd#sec-mulmicm) and starting at the mineral soil surface.
 
 ### Murshic (mh) {#sec-mh .unnumbered}
 
 (from Polish *mursz*, decay): having a drained [*histic horizon*](chapter-03.qmd#sec-histih), ≥ 20 cm thick, and starting
 
 -   at the soil surface, *or*
--   directly below a layer, \< 40 cm thick, consisting of [*mulmic material*](chapter-03.qmd#sec-mulm), *or*
+-   directly below a layer, \< 40 cm thick, consisting of [*mulmic material*](chapter-03.qmd#sec-mulmicm), *or*
 -   directly below a layer, \< 40 cm thick, consisting of [*organic material*](chapter-03.qmd#sec-orgm) that is saturated with water for \< 30 consecutive days in most years and is not drained,
 
 and having a bulk density of ≥ 0.2 kg dm^-3^ and one or both of the following:
@@ -985,7 +985,7 @@ see [*Fluvic*](#sec-fv).
 
 ### Panpaic (pb) {#sec-pb .unnumbered}
 
-(from Quechua *p'anpay*, to bury): having a [*panpaic horizon*](chapter-03.qmd#sec-panph) starting ≤ 100 cm from the mineral soil surface (1, referring to the upper limit of the [*panpaic horizon*](chapter-03.qmd#sec-panph)).
+(from Quechua *p'anpay*, to bury): having a [*panpaic horizon*](chapter-03.qmd#sec-panpaich) starting ≤ 100 cm from the mineral soil surface (1, referring to the upper limit of the [*panpaic horizon*](chapter-03.qmd#sec-panpaich)).
 
 ### Pellic (pe) {#sec-pe .unnumbered}
 
@@ -1252,8 +1252,8 @@ see [*Vertic*](#sec-vr).
 
 (from Latin *stagnare*, to flood): having a layer, ≥ 25 cm thick and starting ≤ 75 cm from the mineral soil surface, that does not form part of a [hydragric horizon](chapter-03.qmd#sec-hydrh) and that has:
 
--   stagnic properties in which the area of reductimorphic features plus the area of oximorphic features is ≥ 25% (weighted average, related to the fine earth plus oximorphic features of any size and any cementation class) of the layer's total area, and
--   reducing conditions for some time during the year in some parts of the layer's volume that has the reductimorphic features (2).
+-   [*stagnic properties*](chapter-03.qmd#sec-stagnp) in which the area of reductimorphic features plus the area of oximorphic features is ≥ 25% (weighted average, related to the fine earth plus oximorphic features of any size and any cementation class) of the layer's total area, and
+-   [*reducing conditions*](chapter-03.qmd#sec-reducc) for some time during the year in some parts of the layer's volume that has the reductimorphic features (2).
 
 #### Inclinistagnic (iw) {#sec-iw .unnumbered}
 
@@ -1449,7 +1449,7 @@ and that has been moved from a source area outside the immediate vicinity by int
 
 (from Latin *vitrum*, glass): having within 100 cm of the soil surface
 
--   in [*Andosols*](chapter-04.qmd#sec-key-an), one or more layers with [*vitric properties*](chapter-03.qmd#sec-virticp) with a combined thickness of ≥ 30 cm. (2).
+-   in [*Andosols*](chapter-04.qmd#sec-key-an), one or more layers with [*vitric properties*](chapter-03.qmd#sec-vitricp) with a combined thickness of ≥ 30 cm. (2).
 -   in other soils, one or more layers with [*andic*](chapter-03.qmd#sec-andicp) or [*vitric properties*](chapter-03.qmd#sec-vitricp) with a combined thickness of ≥ 30 cm (in [*Cambisols*](chapter-04.qmd#sec-key-cm) ≥ 15 cm), of which ≥ 15  cm (in [*Cambisols*](chapter-04.qmd#sec-key-cm) ≥ 7.5 cm) have [*vitric properties*](chapter-03.qmd#sec-vitricp) (2).
 
 ### Wapnic (wa) {#sec-wa .unnumbered}
