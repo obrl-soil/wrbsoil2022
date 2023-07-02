@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.250">
+<meta name="generator" content="quarto-1.4.176">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -67,6 +67,11 @@ div.csl-indent {
   "panel-placement": "start",
   "type": "textbox",
   "limit": 20,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -76,7 +81,8 @@ div.csl-indent {
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
     "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit"
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
   }
 }</script>
 
@@ -93,10 +99,10 @@ div.csl-indent {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter-01.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Background and basics</span></a></li></ol></nav>
-      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
-      </a>
-      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter-01.html"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Background and basics</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
       </button>
     </div>
@@ -110,7 +116,7 @@ div.csl-indent {
     <div class="sidebar-title mb-0 py-0">
       <a href="./">World Reference Base for Soil Resources</a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://github.com/obrl-soil/wrbsoil2022" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/obrl-soil/wrbsoil2022" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
     <div class="dropdown">
       <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
@@ -398,7 +404,7 @@ div.csl-indent {
 <section id="sec-bspr-gen" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="sec-bspr-gen">General principles</h3>
 <ul>
-<li>The classification of soils is based on soil properties defined in terms of <a href="./chapter-03.html#sec-diagh">diagnostic horizons</a>, <a href="./chapter-03.html#sec-diagp">diagnostic properties</a> and <a href="./chapter-03.html#sec-diagm">diagnostic materials</a> (together called the <strong>diagnostics</strong>), which to the greatest extent possible should be measurable and observable in the field. <a href="#tbl-oneone">Table&nbsp;<span>1.1</span></a> provides an overview of the diagnostics used in the WRB.</li>
+<li>The classification of soils is based on soil properties defined in terms of <a href="./chapter-03.html#sec-diagh">diagnostic horizons</a>, <a href="./chapter-03.html#sec-diagp">diagnostic properties</a> and <a href="./chapter-03.html#sec-diagm">diagnostic materials</a> (together called the <strong>diagnostics</strong>), which to the greatest extent possible should be measurable and observable in the field. <a href="#tbl-oneone" class="quarto-xref">Table&nbsp;<span>1.1</span></a> provides an overview of the diagnostics used in the WRB.</li>
 <li>The selection of diagnostic characteristics takes into account their relationship with soil-forming processes. An understanding of soil-forming processes contributes to a better characterization of soils but these processes should not, as such, be used as differentiating criteria.</li>
 <li>To the extent possible at a high level of generalization, diagnostic features that are of significance for soil management are selected.</li>
 <li>Climate parameters are not applied in the classification of soils. It is understood that they should be used for interpretation purposes, in combination with soil properties, but they should not form part of soil definitions. The classification of soils is therefore not subordinated to the availability of climate data. The name of a certain soil will not become obsolete due to global or local climate change.</li>
@@ -415,27 +421,29 @@ div.csl-indent {
 <li>In addition to serving as a correlation between existing classification systems, the WRB also serves as a communication tool for compiling global soil databases and for the inventory and monitoring of the world’s soil resources.</li>
 <li>The nomenclature used to distinguish soil groups retains terms that have been used traditionally or that can be introduced easily into common language. They are defined precisely, in order to avoid the confusion that occurs where names are used with different connotations.</li>
 </ul>
-<div class="cell" data-layout-align="center">
+<div class="cell" data-layout-align="center" data-tbl-colwidths="[20,80]">
 <div class="cell-output-display">
 <div id="tbl-oneone" class="anchored">
-
-<div id="dcukaqzbnq" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>html {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+<div id="ybbckzrxxk" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ybbckzrxxk table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-#dcukaqzbnq thead, #dcukaqzbnq tbody, #dcukaqzbnq tfoot, #dcukaqzbnq tr, #dcukaqzbnq td, #dcukaqzbnq th {
+#ybbckzrxxk thead, #ybbckzrxxk tbody, #ybbckzrxxk tfoot, #ybbckzrxxk tr, #ybbckzrxxk td, #ybbckzrxxk th {
   border-style: none;
 }
 
-#dcukaqzbnq p {
+#ybbckzrxxk p {
   margin: 0;
   padding: 0;
 }
 
-#dcukaqzbnq .gt_table {
+#ybbckzrxxk .gt_table {
   display: table;
   border-collapse: collapse;
+  line-height: normal;
   margin-left: 0;
   margin-right: auto;
   color: #333333;
@@ -458,12 +466,12 @@ div.csl-indent {
   border-left-color: #D3D3D3;
 }
 
-#dcukaqzbnq .gt_caption {
+#ybbckzrxxk .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#dcukaqzbnq .gt_title {
+#ybbckzrxxk .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: bold;
@@ -475,7 +483,7 @@ div.csl-indent {
   border-bottom-width: 0;
 }
 
-#dcukaqzbnq .gt_subtitle {
+#ybbckzrxxk .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -487,7 +495,7 @@ div.csl-indent {
   border-top-width: 0;
 }
 
-#dcukaqzbnq .gt_heading {
+#ybbckzrxxk .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -499,13 +507,13 @@ div.csl-indent {
   border-right-color: #D3D3D3;
 }
 
-#dcukaqzbnq .gt_bottom_border {
+#ybbckzrxxk .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#dcukaqzbnq .gt_col_headings {
+#ybbckzrxxk .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -520,7 +528,7 @@ div.csl-indent {
   border-right-color: #D3D3D3;
 }
 
-#dcukaqzbnq .gt_col_heading {
+#ybbckzrxxk .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -540,7 +548,7 @@ div.csl-indent {
   overflow-x: hidden;
 }
 
-#dcukaqzbnq .gt_column_spanner_outer {
+#ybbckzrxxk .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -552,15 +560,15 @@ div.csl-indent {
   padding-right: 4px;
 }
 
-#dcukaqzbnq .gt_column_spanner_outer:first-child {
+#ybbckzrxxk .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#dcukaqzbnq .gt_column_spanner_outer:last-child {
+#ybbckzrxxk .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#dcukaqzbnq .gt_column_spanner {
+#ybbckzrxxk .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -572,11 +580,11 @@ div.csl-indent {
   width: 100%;
 }
 
-#dcukaqzbnq .gt_spanner_row {
+#ybbckzrxxk .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#dcukaqzbnq .gt_group_heading {
+#ybbckzrxxk .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -602,7 +610,7 @@ div.csl-indent {
   text-align: left;
 }
 
-#dcukaqzbnq .gt_empty_group_heading {
+#ybbckzrxxk .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -617,15 +625,15 @@ div.csl-indent {
   vertical-align: middle;
 }
 
-#dcukaqzbnq .gt_from_md > :first-child {
+#ybbckzrxxk .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#dcukaqzbnq .gt_from_md > :last-child {
+#ybbckzrxxk .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#dcukaqzbnq .gt_row {
+#ybbckzrxxk .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -644,7 +652,7 @@ div.csl-indent {
   overflow-x: hidden;
 }
 
-#dcukaqzbnq .gt_stub {
+#ybbckzrxxk .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -657,7 +665,7 @@ div.csl-indent {
   padding-right: 5px;
 }
 
-#dcukaqzbnq .gt_stub_row_group {
+#ybbckzrxxk .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -671,15 +679,15 @@ div.csl-indent {
   vertical-align: top;
 }
 
-#dcukaqzbnq .gt_row_group_first td {
+#ybbckzrxxk .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#dcukaqzbnq .gt_row_group_first th {
+#ybbckzrxxk .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#dcukaqzbnq .gt_summary_row {
+#ybbckzrxxk .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -689,16 +697,16 @@ div.csl-indent {
   padding-right: 5px;
 }
 
-#dcukaqzbnq .gt_first_summary_row {
+#ybbckzrxxk .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#dcukaqzbnq .gt_first_summary_row.thick {
+#ybbckzrxxk .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#dcukaqzbnq .gt_last_summary_row {
+#ybbckzrxxk .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -708,7 +716,7 @@ div.csl-indent {
   border-bottom-color: #D3D3D3;
 }
 
-#dcukaqzbnq .gt_grand_summary_row {
+#ybbckzrxxk .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -718,7 +726,7 @@ div.csl-indent {
   padding-right: 5px;
 }
 
-#dcukaqzbnq .gt_first_grand_summary_row {
+#ybbckzrxxk .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -728,7 +736,7 @@ div.csl-indent {
   border-top-color: #D3D3D3;
 }
 
-#dcukaqzbnq .gt_last_grand_summary_row_top {
+#ybbckzrxxk .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -738,11 +746,11 @@ div.csl-indent {
   border-bottom-color: #D3D3D3;
 }
 
-#dcukaqzbnq .gt_striped {
+#ybbckzrxxk .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#dcukaqzbnq .gt_table_body {
+#ybbckzrxxk .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -751,7 +759,7 @@ div.csl-indent {
   border-bottom-color: #D3D3D3;
 }
 
-#dcukaqzbnq .gt_footnotes {
+#ybbckzrxxk .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -765,7 +773,7 @@ div.csl-indent {
   border-right-color: #D3D3D3;
 }
 
-#dcukaqzbnq .gt_footnote {
+#ybbckzrxxk .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -774,7 +782,7 @@ div.csl-indent {
   padding-right: 5px;
 }
 
-#dcukaqzbnq .gt_sourcenotes {
+#ybbckzrxxk .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -788,7 +796,7 @@ div.csl-indent {
   border-right-color: #D3D3D3;
 }
 
-#dcukaqzbnq .gt_sourcenote {
+#ybbckzrxxk .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -796,65 +804,63 @@ div.csl-indent {
   padding-right: 5px;
 }
 
-#dcukaqzbnq .gt_left {
+#ybbckzrxxk .gt_left {
   text-align: left;
 }
 
-#dcukaqzbnq .gt_center {
+#ybbckzrxxk .gt_center {
   text-align: center;
 }
 
-#dcukaqzbnq .gt_right {
+#ybbckzrxxk .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#dcukaqzbnq .gt_font_normal {
+#ybbckzrxxk .gt_font_normal {
   font-weight: normal;
 }
 
-#dcukaqzbnq .gt_font_bold {
+#ybbckzrxxk .gt_font_bold {
   font-weight: bold;
 }
 
-#dcukaqzbnq .gt_font_italic {
+#ybbckzrxxk .gt_font_italic {
   font-style: italic;
 }
 
-#dcukaqzbnq .gt_super {
+#ybbckzrxxk .gt_super {
   font-size: 65%;
 }
 
-#dcukaqzbnq .gt_footnote_marks {
-  font-style: italic;
-  font-weight: normal;
+#ybbckzrxxk .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#dcukaqzbnq .gt_asterisk {
+#ybbckzrxxk .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#dcukaqzbnq .gt_indent_1 {
+#ybbckzrxxk .gt_indent_1 {
   text-indent: 5px;
 }
 
-#dcukaqzbnq .gt_indent_2 {
+#ybbckzrxxk .gt_indent_2 {
   text-indent: 10px;
 }
 
-#dcukaqzbnq .gt_indent_3 {
+#ybbckzrxxk .gt_indent_3 {
   text-indent: 15px;
 }
 
-#dcukaqzbnq .gt_indent_4 {
+#ybbckzrxxk .gt_indent_4 {
   text-indent: 20px;
 }
 
-#dcukaqzbnq .gt_indent_5 {
+#ybbckzrxxk .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -1091,7 +1097,7 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
 </ol>
 <section id="sec-arch-rsg" class="level3" data-number="1.5.1">
 <h3 data-number="1.5.1" class="anchored" data-anchor-id="sec-arch-rsg"><span class="header-section-number">1.5.1</span> First Level: The Reference Soil Groups</h3>
-<p><a href="#tbl-onetwo">Table&nbsp;<span>1.2</span></a> provides an overview of the RSGs and the rationale for the sequence of the RSGs in the WRB Key. The RSGs are allocated to groups on the basis of dominant identifiers, i.e.&nbsp;the soil-forming factors or processes that most clearly condition the soil.</p>
+<p><a href="#tbl-onetwo" class="quarto-xref">Table&nbsp;<span>1.2</span></a> provides an overview of the RSGs and the rationale for the sequence of the RSGs in the WRB Key. The RSGs are allocated to groups on the basis of dominant identifiers, i.e.&nbsp;the soil-forming factors or processes that most clearly condition the soil.</p>
 </section>
 <section id="sec-arch-qlf" class="level3" data-number="1.5.2">
 <h3 data-number="1.5.2" class="anchored" data-anchor-id="sec-arch-qlf"><span class="header-section-number">1.5.2</span> Second Level: The Reference Soil Groups with their qualifiers</h3>
@@ -1101,27 +1107,29 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
 <li>The WRB is capable of indicating most of the soil’s properties, which are incorporated into an informative soil name.</li>
 <li>The system is robust. Missing data do not necessarily lead to a dramatic error in the classification of a soil. If one qualifier is erroneously added or erroneously omitted based on incomplete data, the rest of the soil name remains correct.</li>
 </ul>
-<div class="cell" data-layout-align="center">
+<div class="cell" data-layout-align="center" data-tbl-colwidths="[70,20,10]">
 <div class="cell-output-display">
 <div id="tbl-onetwo" class="anchored">
-
-<div id="uizycqdyov" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>html {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
+<div id="jklrvsxwfv" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#jklrvsxwfv table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-#uizycqdyov thead, #uizycqdyov tbody, #uizycqdyov tfoot, #uizycqdyov tr, #uizycqdyov td, #uizycqdyov th {
+#jklrvsxwfv thead, #jklrvsxwfv tbody, #jklrvsxwfv tfoot, #jklrvsxwfv tr, #jklrvsxwfv td, #jklrvsxwfv th {
   border-style: none;
 }
 
-#uizycqdyov p {
+#jklrvsxwfv p {
   margin: 0;
   padding: 0;
 }
 
-#uizycqdyov .gt_table {
+#jklrvsxwfv .gt_table {
   display: table;
   border-collapse: collapse;
+  line-height: normal;
   margin-left: 0;
   margin-right: auto;
   color: #333333;
@@ -1144,12 +1152,12 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   border-left-color: #D3D3D3;
 }
 
-#uizycqdyov .gt_caption {
+#jklrvsxwfv .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#uizycqdyov .gt_title {
+#jklrvsxwfv .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: bold;
@@ -1161,7 +1169,7 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   border-bottom-width: 0;
 }
 
-#uizycqdyov .gt_subtitle {
+#jklrvsxwfv .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -1173,7 +1181,7 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   border-top-width: 0;
 }
 
-#uizycqdyov .gt_heading {
+#jklrvsxwfv .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -1185,13 +1193,13 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   border-right-color: #D3D3D3;
 }
 
-#uizycqdyov .gt_bottom_border {
+#jklrvsxwfv .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#uizycqdyov .gt_col_headings {
+#jklrvsxwfv .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1206,7 +1214,7 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   border-right-color: #D3D3D3;
 }
 
-#uizycqdyov .gt_col_heading {
+#jklrvsxwfv .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1226,7 +1234,7 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   overflow-x: hidden;
 }
 
-#uizycqdyov .gt_column_spanner_outer {
+#jklrvsxwfv .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1238,15 +1246,15 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   padding-right: 4px;
 }
 
-#uizycqdyov .gt_column_spanner_outer:first-child {
+#jklrvsxwfv .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#uizycqdyov .gt_column_spanner_outer:last-child {
+#jklrvsxwfv .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#uizycqdyov .gt_column_spanner {
+#jklrvsxwfv .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -1258,11 +1266,11 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   width: 100%;
 }
 
-#uizycqdyov .gt_spanner_row {
+#jklrvsxwfv .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#uizycqdyov .gt_group_heading {
+#jklrvsxwfv .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1288,7 +1296,7 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   text-align: left;
 }
 
-#uizycqdyov .gt_empty_group_heading {
+#jklrvsxwfv .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1303,15 +1311,15 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   vertical-align: middle;
 }
 
-#uizycqdyov .gt_from_md > :first-child {
+#jklrvsxwfv .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#uizycqdyov .gt_from_md > :last-child {
+#jklrvsxwfv .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#uizycqdyov .gt_row {
+#jklrvsxwfv .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1330,7 +1338,7 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   overflow-x: hidden;
 }
 
-#uizycqdyov .gt_stub {
+#jklrvsxwfv .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1343,7 +1351,7 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   padding-right: 5px;
 }
 
-#uizycqdyov .gt_stub_row_group {
+#jklrvsxwfv .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1357,15 +1365,15 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   vertical-align: top;
 }
 
-#uizycqdyov .gt_row_group_first td {
+#jklrvsxwfv .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#uizycqdyov .gt_row_group_first th {
+#jklrvsxwfv .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#uizycqdyov .gt_summary_row {
+#jklrvsxwfv .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1375,16 +1383,16 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   padding-right: 5px;
 }
 
-#uizycqdyov .gt_first_summary_row {
+#jklrvsxwfv .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#uizycqdyov .gt_first_summary_row.thick {
+#jklrvsxwfv .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#uizycqdyov .gt_last_summary_row {
+#jklrvsxwfv .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1394,7 +1402,7 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   border-bottom-color: #D3D3D3;
 }
 
-#uizycqdyov .gt_grand_summary_row {
+#jklrvsxwfv .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1404,7 +1412,7 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   padding-right: 5px;
 }
 
-#uizycqdyov .gt_first_grand_summary_row {
+#jklrvsxwfv .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1414,7 +1422,7 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   border-top-color: #D3D3D3;
 }
 
-#uizycqdyov .gt_last_grand_summary_row_top {
+#jklrvsxwfv .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1424,11 +1432,11 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   border-bottom-color: #D3D3D3;
 }
 
-#uizycqdyov .gt_striped {
+#jklrvsxwfv .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#uizycqdyov .gt_table_body {
+#jklrvsxwfv .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1437,7 +1445,7 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   border-bottom-color: #D3D3D3;
 }
 
-#uizycqdyov .gt_footnotes {
+#jklrvsxwfv .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1451,7 +1459,7 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   border-right-color: #D3D3D3;
 }
 
-#uizycqdyov .gt_footnote {
+#jklrvsxwfv .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1460,7 +1468,7 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   padding-right: 5px;
 }
 
-#uizycqdyov .gt_sourcenotes {
+#jklrvsxwfv .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1474,7 +1482,7 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   border-right-color: #D3D3D3;
 }
 
-#uizycqdyov .gt_sourcenote {
+#jklrvsxwfv .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1482,65 +1490,63 @@ criteria, please refer to <a href="./chapter-03.html">Chapter 3</a>.</p> </capti
   padding-right: 5px;
 }
 
-#uizycqdyov .gt_left {
+#jklrvsxwfv .gt_left {
   text-align: left;
 }
 
-#uizycqdyov .gt_center {
+#jklrvsxwfv .gt_center {
   text-align: center;
 }
 
-#uizycqdyov .gt_right {
+#jklrvsxwfv .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#uizycqdyov .gt_font_normal {
+#jklrvsxwfv .gt_font_normal {
   font-weight: normal;
 }
 
-#uizycqdyov .gt_font_bold {
+#jklrvsxwfv .gt_font_bold {
   font-weight: bold;
 }
 
-#uizycqdyov .gt_font_italic {
+#jklrvsxwfv .gt_font_italic {
   font-style: italic;
 }
 
-#uizycqdyov .gt_super {
+#jklrvsxwfv .gt_super {
   font-size: 65%;
 }
 
-#uizycqdyov .gt_footnote_marks {
-  font-style: italic;
-  font-weight: normal;
+#jklrvsxwfv .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#uizycqdyov .gt_asterisk {
+#jklrvsxwfv .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#uizycqdyov .gt_indent_1 {
+#jklrvsxwfv .gt_indent_1 {
   text-indent: 5px;
 }
 
-#uizycqdyov .gt_indent_2 {
+#jklrvsxwfv .gt_indent_2 {
   text-indent: 10px;
 }
 
-#uizycqdyov .gt_indent_3 {
+#jklrvsxwfv .gt_indent_3 {
   text-indent: 15px;
 }
 
-#uizycqdyov .gt_indent_4 {
+#jklrvsxwfv .gt_indent_4 {
   text-indent: 20px;
 }
 
-#uizycqdyov .gt_indent_5 {
+#jklrvsxwfv .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -1838,10 +1844,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn) {
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1851,8 +1856,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1865,6 +1879,60 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    if (id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        for (let i = 0; i < 2; i++) {
+          container.appendChild(note.children[i].cloneNode(true));
+        }
+        return container.innerHTML
+      } else {
+        return note.innerHTML;
+      }
+    } else {
+      return note.innerHTML;
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      try { hash = new URL(url).hash; } catch {}
+      const id = hash.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note !== null) {
+        try {
+          const html = processXRef(id, note);
+          instance.setContent(html);
+        } finally {
+          instance.enable();
+          instance.show();
+        }
+      } else {
+        // See if we can fetch this
+        fetch(url.split('#')[0])
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.getElementById(id);
+          if (note !== null) {
+            const html = processXRef(id, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1908,6 +1976,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -2005,6 +2074,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+
 
 
 
