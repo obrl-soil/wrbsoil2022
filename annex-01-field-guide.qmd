@@ -1521,7 +1521,7 @@ Report the texture class. Please note that the hand-texturing according to the f
 
 <!--# convert this to a ggtern diag at some future date -->
 
-![Texture classes, triangle, Blum et al. , Figure 28, modified](images/figure_8-13.png){#fig-a1-813}
+![Texture classes, triangle, Blum et al. [-@blum2018], Figure 28, modified](images/figure_8-13.png){#fig-a1-813}
 
 ```{r}
 #| label: tbl-a1839
@@ -2357,7 +2357,7 @@ For measuring the redox potential [@blume2010; @un-fao2006], the following equip
 -   a reference electrode, e.g., with Ag/AgCl in 1 *M* KCl or with calomel (as used for measuring the pH value)
 -   a potentiometer.
 
-Procedure: Step 1 - 2 m aside the profile pit and drive the rod into the soil down to the desired depth, roughen the Pt electrode with fine-grained sandpaper, intrude it immediately into the hole and press it against the soil. Make another hole at 10-20 cm distance, wide and deep enough to place a plastic tube that is some cm longer than the depth of the Pt electrode. Fill the tube with the fixed KCl solution, place the tube into the hole and fix it with soil material. Then, place the reference electrode into the KCl solution. Connect the electrodes with the potentiometer and read the voltage after 30 minutes. Repeat readings every 10 minutes until the value is stable. In some cases, this may take several hours. At least two replicates are recommended. (If you dispose of more than one set of equipment, you may measure the redox potential simultaneously at different soil depths.) The obtained voltage has to be adjusted to the voltage of the standard hydrogen electrode: for Ag/AgCl in 1 *M* KCl add +244 mV, for calomel add +287 mV. Simultaneously, measure the pH value (see [Chapter 8.4.29](#sec-a1-8429)) of the soil at the profile wall in distilled water (soil:water = 1:5) at the same depth. Report the rH value that is calculated with the following equation: rH = (2 Eh/59) + 2 pH
+Procedure: Step 1 - 2 m aside the profile pit and drive the rod into the soil down to the desired depth, roughen the Pt electrode with fine-grained sandpaper, intrude it immediately into the hole and press it against the soil. Make another hole at 10-20 cm distance, wide and deep enough to place a plastic tube that is some cm longer than the depth of the Pt electrode. Fill the tube with the fixed KCl solution, place the tube into the hole and fix it with soil material. Then, place the reference electrode into the KCl solution. Connect the electrodes with the potentiometer and read the voltage after 30 minutes. Repeat readings every 10 minutes until the value is stable. In some cases, this may take several hours. At least two replicates are recommended. (If you dispose of more than one set of equipment, you may measure the redox potential simultaneously at different soil depths.) The obtained voltage has to be adjusted to the voltage of the standard hydrogen electrode: for Ag/AgCl in 1 *M* KCl add +244 mV, for calomel add +287 mV. Simultaneously, measure the pH value (see [Chapter 8.4.29](#sec-a1-8429)) of the soil at the profile wall in distilled water (soil:water = 1:5) at the same depth. Report the rH value that is calculated with the following equation: $rH = (2 Eh \div 59) + 2 pH$
 
 Note: If the profile is freshly dug and not too sandy, you may also place the electrodes horizontally at least 15 cm behind in the profile wall.
 
@@ -2739,7 +2739,7 @@ Report the total percentage (by exposed area) of secondary silica. For a cemente
 
 Readily soluble salts are precipitated in dry soil and dissolved in moist soil. They are more soluble than gypsum. The presence of readily soluble salts is checked by measuring the electrical conductivity in the saturation extract (EC~SE~). In the saturation extract, the soil is completely moist, but has no visible water surplus. This is not easy to achieve.
 
-Alternatively, one can measure the electrical conductivity in an extract of 10 g soil with 25 ml aqua dest. (EC~2.5~). Mix soil and water carefully, let it rest for at least 30 minutes and measure the electrical conductivity in the clear solution in dS m^-1^. It must then be transformed into the EC~SE~ according to the following equation: EC~SE~ = 250 x EC~2.5~ x (WC~SE~)^-1^.
+Alternatively, one can measure the electrical conductivity in an extract of 10 g soil with 25 ml aqua dest. (EC~2.5~). Mix soil and water carefully, let it rest for at least 30 minutes and measure the electrical conductivity in the clear solution in dS m^-1^. It must then be transformed into the EC~SE~ according to the following equation: $EC_{SE} = 250 \times EC_{2.5} \times (WC_{SE})^{-1}$
 
 WC~SE~ is the water content in the saturation extract. It can be estimated in mineral soils from texture (see [Chapter 8.4.9](#sec-a1-849)) and C~org~ content (see [Chapter 8.4.36](#sec-a1-8436)) and in peat soils from the degree of decomposition (see [Chapter 8.4.41](#sec-a1-8441)) with the help of the following Tables. High amounts of coarse fragments reduce the water content.
 
@@ -2906,9 +2906,9 @@ tbl_a1872
 
 For checking this feature, different specimens have to be taken, depending on soil characteristics. For checking surface crusts and platy aggregates, take a specimen that is approximately 1 to 1.5 cm long by 0.5 cm thick (or the thickness of occurrence, if \< 0.5 cm thick) and apply force perpendicular to its greatest dimension. In all other cases, take a specimen, around 2.6 to 3 cm long at all dimensions, and apply force. Observe the force needed for failure and report the cementation class (cemented soil) or the rupture resistance class (non-cemented soil). The rupture resistance has to be detected in moist soil and, if possible, also in dry soil. If specimens of the required size are not obtainable, use the following equation to calculate the stress at failure (@tbl-a1873 and @tbl-a1874) [@schoeneberger2012]:
 
-(2.8 cm/cube length cm)^2^ x (estimated stress (N) at failure)
+$(2.8 \text{cm} \div \text{cube length cm})^{2} \times (\text{estimated stress (N) at failure})$
 
-e.g. for a 5.6-cm cube \[(2.8/5.6)^2^ x 20 N\] = 5 N → Very friable (moist).
+e.g. for a 5.6-cm cube $[(2.8 \div 5.6)^{2} \times 20 N] = 5 N$ → Very friable (moist).
 
 ```{r}
 #| label: tbl-a1873
@@ -3714,4 +3714,3 @@ To take out the rings, penetrate the soil with a spatula just beneath the ring a
 If you want to do further physical analyses, transfer the ring to the laboratory. If the layer thickness is smaller than the height of the ring (case c), fill up the volume with a resin. If you just want to determine the soil mass, you may empty the soil material from the ring into the designated bag and reuse the ring.
 
 To determine the soil mass of a sample of a certain volume, you may also use coated clods (see Annex 2, [Chapter 9.5](annex-02-analytical-procedures.qmd#sec-2-bd)).
-
