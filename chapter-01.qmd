@@ -272,8 +272,8 @@ In the WRB, a distinction is made between **principal qualifiers** and **supplem
 #| message: false
 #| results: hold
 #| label: tbl-onetwo
-#| tbl-cap: "Simplified guide to the WRB Reference Soil Groups (RSGs) with suggested codes. **This table is not to be used as a key**. For full definitions, please refer to[Chapter 3](chapter-03.qmd) and the Key ([Chapter 4](chapter-04.qmd))."
-#| tbl-colwidths: [70,20, 10]  
+#| tbl-cap: "Simplified guide to the WRB Reference Soil Groups (RSGs) with suggested codes. **This table is not to be used as a key**. For full definitions, please refer to [Chapter 3](chapter-03.qmd) and the Key ([Chapter 4](chapter-04.qmd))."
+#| tbl-colwidths: [70, 20, 10]  
 
 table_onetwo_body <- tribble(
   ~Name, ~RSG, ~Code,
