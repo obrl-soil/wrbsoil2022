@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.176">
+<meta name="generator" content="quarto-1.4.230">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -273,7 +273,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">March 9, 2023</p>
+      <p class="date-modified">August 2, 2023</p>
     </div>
   </div>
     
@@ -468,7 +468,7 @@ in C horizons forming part of the parent material [h like humus].</td>
 </tr>
 <tr class="even">
 <td>l</td>
-<td>Accumulation of Fe and/or Mn in reduced form by upwardmoving capillary water with subsequent oxidation (related to the fine earth plus accumulations of Fe and/or Mn oxides of any size and any cementation class): accumulation predominantly at soil aggregate surfaces, if present, and reduction of these oxides inside the aggregates [l like capi<strong>l</strong>lary].</td>
+<td>Accumulation of Fe and/or Mn in reduced form by upward-moving capillary water with subsequent oxidation (related to the fine earth plus accumulations of Fe and/or Mn oxides of any size and any cementation class): accumulation predominantly at soil aggregate surfaces, if present, and reduction of these oxides inside the aggregates [l like capi<strong>l</strong>lary].</td>
 <td>H, A, B, C</td>
 </tr>
 <tr class="odd">
@@ -896,33 +896,39 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       instance.disable();
       let url = xref.getAttribute('href');
       let hash = undefined; 
-      try { hash = new URL(url).hash; } catch {}
-      const id = hash.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note !== null) {
-        try {
-          const html = processXRef(id, note);
-          instance.setContent(html);
-        } finally {
-          instance.enable();
-          instance.show();
-        }
+      if (url.startsWith('#')) {
+        hash = url;
       } else {
-        // See if we can fetch this
-        fetch(url.split('#')[0])
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.getElementById(id);
-          if (note !== null) {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
             const html = processXRef(id, note);
             instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
       }
     }, function(instance) {
     });

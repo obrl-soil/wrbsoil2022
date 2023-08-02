@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.176">
+<meta name="generator" content="quarto-1.4.230">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -488,7 +488,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">March 26, 2023</p>
+      <p class="date-modified">August 2, 2023</p>
     </div>
   </div>
     
@@ -704,7 +704,7 @@ Important
 </section>
 <section id="sec-ce" class="level3 unnumbered">
 <h3 class="unnumbered anchored" data-anchor-id="sec-ce">Clayic (ce)</h3>
-<p>(from English <em>clay</em>): consisting of mineral material and having, single or in combination, a texture class of clay, sandy clay or silty clay</p>
+<p>(from English <em>clay</em>): consisting of <a href="./chapter-03.html#sec-minm"><em>mineral material</em></a> and having, single or in combination, a texture class of clay, sandy clay or silty clay</p>
 <ul>
 <li>in one or more layers with a combined thickness of ≥&nbsp;30&nbsp;cm, occurring within 100&nbsp;cm of the mineral soil surface, <em>or</em></li>
 <li>in the major part between the mineral soil surface and a limiting layer starting &gt;&nbsp;10 and &lt;&nbsp;60&nbsp;cm from the mineral soil surface</li>
@@ -2149,33 +2149,39 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       instance.disable();
       let url = xref.getAttribute('href');
       let hash = undefined; 
-      try { hash = new URL(url).hash; } catch {}
-      const id = hash.replace(/^#\/?/, "");
-      const note = window.document.getElementById(id);
-      if (note !== null) {
-        try {
-          const html = processXRef(id, note);
-          instance.setContent(html);
-        } finally {
-          instance.enable();
-          instance.show();
-        }
+      if (url.startsWith('#')) {
+        hash = url;
       } else {
-        // See if we can fetch this
-        fetch(url.split('#')[0])
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.getElementById(id);
-          if (note !== null) {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
             const html = processXRef(id, note);
             instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
       }
     }, function(instance) {
     });
