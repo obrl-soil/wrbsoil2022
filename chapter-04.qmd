@@ -125,7 +125,7 @@ Technosols may bury other soils, which can be mentioned behind the Technosol cla
 ### Qualifiers
 
 | Principal Qualifiers                                                    | Supplementary Qualifiers                                                                                                                                                                                              |
-|-------------------------|------------------------------------------------|
+|-------------------------|-----------------------------------------------|
 | [Ekranic](chapter-05.qmd#sec-ek) \| [Thyric](chapter-05.qmd#sec-th)     | [Arenic](chapter-05.qmd#sec-ar) \| [Clayic](chapter-05.qmd#sec-ce) \| [Loamic](chapter-05.qmd#sec-lo) \| [Siltic](chapter-05.qmd#sec-sl)                                                                              |
 | [Linic](chapter-05.qmd#sec-lc)                                          | [Geoabruptic](chapter-05.qmd#sec-go)                                                                                                                                                                                  |
 | [Urbic](chapter-05.qmd#sec-ub)                                          | [Alcalic](chapter-05.qmd#sec-ax) \| [Dystric](chapter-05.qmd#sec-dy) \| [Eutric](chapter-05.qmd#sec-eu)                                                                                                               |
@@ -221,7 +221,7 @@ Other soils having:
 Other soils having:
 
 1.  one of the following:
-    a.  [*continuous*](chapter-03.qmd#sec-crockp)[ *rock*](chapter-03.qmd#sec-contr) starting ≤ 25 cm from the soil surface; *or*
+    a.  [*continuous rock*](chapter-03.qmd#sec-crockp) starting ≤ 25 cm from the soil surface; *or*
     b.  \< 20% (by volume, related to the whole soil) fine earth plus dead plant residues of any size[^chapter-04-1], averaged over a depth of 75 cm from the soil surface or to [*continuous rock*](chapter-03.qmd#sec-crockp), whichever is shallower; *and*
 2.  no [*duric*](chapter-03.qmd#sec-durich), [*petrocalcic*](chapter-03.qmd#sec-petroh), [*petroduric*](chapter-03.qmd#sec-petdh), [*petrogypsic*](chapter-03.qmd#sec-petrgh), [*pisoplinthic*](chapter-03.qmd#sec-pisoph) or [*spodic horizon*](chapter-03.qmd#sec-spodh).
 
@@ -1451,3 +1451,4 @@ Other soils:
 |                                                                         | [Turbic](chapter-05.qmd#sec-tu)                                                                                                          |
 |                                                                         | [Protovertic](chapter-05.qmd#sec-qv)                                                                                                     |
 :::
+
