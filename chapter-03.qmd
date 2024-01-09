@@ -34,7 +34,7 @@ Albic horizons are normally overlain by humus-enriched surface layers but may al
 
 #### Relationships with some other diagnostics {#sec-albich-reln}
 
-While the albic horizon is the result of soil-forming processes, the [*claric material*](#sec-claricm) is only defined by colour criteria, and layers with [*claric material*](#sec-claricm) may or may not have undergone soil-forming processes. The definition of the albic horizon uses the [*argic*](#sec-argich), [*natric*](#sec-natrich), [*plinthic*](#sec-plinth) or [*spodic horizon*](#sec-spodich) or the [*stagnic properties*](#sec-stagnp) as criterion. The definitions of the [*spodic horizon*](#sec-spodich) and of the [*retic*](#sec-reticp)and [*stagnic properties*](#sec-stagnp), in turn, use the [*claric material*](#sec-claricm) as criterion.
+While the albic horizon is the result of soil-forming processes, the [*claric material*](#sec-claricm) is only defined by colour criteria, and layers with [*claric material*](#sec-claricm) may or may not have undergone soil-forming processes. The definition of the albic horizon uses the [*argic*](#sec-argich), [*natric*](#sec-natrich), [*plinthic*](#sec-plinth) or [*spodic horizon*](#sec-spodich) or the [*stagnic properties*](#sec-stagnp) as criterion. The definitions of the [*spodic horizon*](#sec-spodich) and of the [*retic*](#sec-reticp) and [*stagnic properties*](#sec-stagnp), in turn, use the [*claric material*](#sec-claricm) as criterion.
 
 Many albic horizons that were formed by stagnant water do not show active [*reducing conditions*](#sec-reducc).
 
@@ -1334,7 +1334,7 @@ An umbric horizon is a surface horizon consisting of [*mineral material*](#sec-m
 4.  if a layer is present that corresponds to the parent material of the umbric horizon and that has a Munsell colour value of ≤ 4, moist, ≥ 0.6% (absolute) more [*soil organic carbon*](#sec-soc) than this layer; ***and***
 5.  a base saturation (by 1 *M* NH~4~OAc, pH 7) of \< 50% on a weighted average; ***and***
 6.  a thickness of one of the following:
-    a.  ≥ 10 cm if directly overlying [*continuous rock*](#sec-crockp), [*technic hard material*](#sec-techhm) or a [*cryic*](#sec-cryich), [*petroduric*](#sec-petdh)or [*petroplinthic horizon*](#sec-pplinthich); ***or***
+    a.  ≥ 10 cm if directly overlying [*continuous rock*](#sec-crockp), [*technic hard material*](#sec-techhm) or a [*cryic*](#sec-cryich), [*petroduric*](#sec-petdh) or [*petroplinthic horizon*](#sec-pplinthich); ***or***
     b.  ≥ 20 cm.
 
 #### Field identification {#sec-umbrich-flid}
@@ -2017,7 +2017,7 @@ Hyposulfidic material forms in similar environments to [*hypersulfidic material*
 
 #### Relationships with some other diagnostics {#sec-hyposm-reln}
 
-Acidification of hyposulfidic material usually does not cause the development of a [*thionic horizon*](#sec-thionh). [Hypersulfidic material](#sec-hypersm) has the same criteria for inorganic sulfidic S and for the pH value but is capable of severe acidification.
+Acidification of hyposulfidic material usually does not cause the development of a [*thionic horizon*](#sec-thionh). [*Hypersulfidic material*](#sec-hypersm) has the same criteria for inorganic sulfidic S and for the pH value but is capable of severe acidification.
 
 ### Limnic material {#sec-limnicm}
 
