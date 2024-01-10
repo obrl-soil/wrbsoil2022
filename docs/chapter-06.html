@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.230">
+<meta name="generator" content="quarto-1.4.533">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -47,12 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "start",
   "type": "textbox",
-  "limit": 20,
+  "limit": 50,
   "keyboard-shortcut": [
     "f",
     "/",
     "s"
   ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -61,11 +62,19 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
   }
 }</script>
+<script src="site_libs/core-js-2.5.3/shim.min.js"></script>
+<script src="site_libs/react-18.2.0/react.min.js"></script>
+<script src="site_libs/react-18.2.0/react-dom.min.js"></script>
+<script src="site_libs/reactwidget-1.0.0/react-tools.js"></script>
+<script src="site_libs/htmlwidgets-1.6.4/htmlwidgets.js"></script>
+<link href="site_libs/reactable-0.4.4/reactable.css" rel="stylesheet">
+<script src="site_libs/reactable-binding-0.4.4/reactable.js"></script>
 
 
 <link rel="stylesheet" href="styles.css">
@@ -77,11 +86,11 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./chapter-06.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Codes for the Reference Soil Groups, qualifiers and specifiers</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
         <i class="bi bi-search"></i>
@@ -92,12 +101,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
       <a href="./">World Reference Base for Soil Resources</a> 
         <div class="sidebar-tools-main tools-wide">
-    <a href="https://github.com/obrl-soil/wrbsoil2022" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+    <a href="https://github.com/obrl-soil/wrbsoil2022" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
     <div class="dropdown">
       <a href="" title="Share" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Share"><i class="bi bi-share"></i></a>
       <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
@@ -241,7 +250,7 @@ ul.task-list li input[type="checkbox"] {
     </ul>
     </div>
 </nav>
-<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
@@ -278,36 +287,44 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">March 9, 2023</p>
+      <p class="date-modified">January 10, 2024</p>
     </div>
   </div>
     
   </div>
   
 
+
 </header>
+
 
 <section id="reference-soil-groups" class="level2" data-number="6.1">
 <h2 data-number="6.1" class="anchored" data-anchor-id="reference-soil-groups"><span class="header-section-number">6.1</span> Reference Soil Groups</h2>
-<div id="tbl-a291" class="cell tbl-parent anchored" data-layout-align="center">
+<div class="cell no-stripe" data-layout-align="center">
+<div id="tbl-sixone" class="cell no-stripe quarto-float anchored" data-layout-align="center">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-sixone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;6.1: Reference Soil Groups
+</figcaption>
+<div aria-describedby="tbl-sixone-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="bqnswmcwxf" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#bqnswmcwxf table {
+<div id="ezhslsbeqi" class=".gt_table" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#ezhslsbeqi table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#bqnswmcwxf thead, #bqnswmcwxf tbody, #bqnswmcwxf tfoot, #bqnswmcwxf tr, #bqnswmcwxf td, #bqnswmcwxf th {
+#ezhslsbeqi thead, #ezhslsbeqi tbody, #ezhslsbeqi tfoot, #ezhslsbeqi tr, #ezhslsbeqi td, #ezhslsbeqi th {
   border-style: none;
 }
 
-#bqnswmcwxf p {
+#ezhslsbeqi p {
   margin: 0;
   padding: 0;
 }
 
-#bqnswmcwxf .gt_table {
+#ezhslsbeqi .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -333,12 +350,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#bqnswmcwxf .gt_caption {
+#ezhslsbeqi .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#bqnswmcwxf .gt_title {
+#ezhslsbeqi .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: bold;
@@ -350,7 +367,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#bqnswmcwxf .gt_subtitle {
+#ezhslsbeqi .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -362,7 +379,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#bqnswmcwxf .gt_heading {
+#ezhslsbeqi .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -374,13 +391,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#bqnswmcwxf .gt_bottom_border {
+#ezhslsbeqi .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#bqnswmcwxf .gt_col_headings {
+#ezhslsbeqi .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -395,7 +412,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#bqnswmcwxf .gt_col_heading {
+#ezhslsbeqi .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -415,7 +432,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#bqnswmcwxf .gt_column_spanner_outer {
+#ezhslsbeqi .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -427,15 +444,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#bqnswmcwxf .gt_column_spanner_outer:first-child {
+#ezhslsbeqi .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#bqnswmcwxf .gt_column_spanner_outer:last-child {
+#ezhslsbeqi .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#bqnswmcwxf .gt_column_spanner {
+#ezhslsbeqi .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -447,11 +464,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#bqnswmcwxf .gt_spanner_row {
+#ezhslsbeqi .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#bqnswmcwxf .gt_group_heading {
+#ezhslsbeqi .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -477,7 +494,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#bqnswmcwxf .gt_empty_group_heading {
+#ezhslsbeqi .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -492,15 +509,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#bqnswmcwxf .gt_from_md > :first-child {
+#ezhslsbeqi .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#bqnswmcwxf .gt_from_md > :last-child {
+#ezhslsbeqi .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#bqnswmcwxf .gt_row {
+#ezhslsbeqi .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -519,7 +536,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#bqnswmcwxf .gt_stub {
+#ezhslsbeqi .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -532,7 +549,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#bqnswmcwxf .gt_stub_row_group {
+#ezhslsbeqi .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -546,15 +563,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#bqnswmcwxf .gt_row_group_first td {
+#ezhslsbeqi .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#bqnswmcwxf .gt_row_group_first th {
+#ezhslsbeqi .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#bqnswmcwxf .gt_summary_row {
+#ezhslsbeqi .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -564,16 +581,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#bqnswmcwxf .gt_first_summary_row {
+#ezhslsbeqi .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#bqnswmcwxf .gt_first_summary_row.thick {
+#ezhslsbeqi .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#bqnswmcwxf .gt_last_summary_row {
+#ezhslsbeqi .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -583,7 +600,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#bqnswmcwxf .gt_grand_summary_row {
+#ezhslsbeqi .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -593,7 +610,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#bqnswmcwxf .gt_first_grand_summary_row {
+#ezhslsbeqi .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -603,7 +620,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#bqnswmcwxf .gt_last_grand_summary_row_top {
+#ezhslsbeqi .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -613,11 +630,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#bqnswmcwxf .gt_striped {
+#ezhslsbeqi .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#bqnswmcwxf .gt_table_body {
+#ezhslsbeqi .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -626,7 +643,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#bqnswmcwxf .gt_footnotes {
+#ezhslsbeqi .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -640,7 +657,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#bqnswmcwxf .gt_footnote {
+#ezhslsbeqi .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -649,7 +666,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#bqnswmcwxf .gt_sourcenotes {
+#ezhslsbeqi .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -663,7 +680,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#bqnswmcwxf .gt_sourcenote {
+#ezhslsbeqi .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -671,169 +688,102 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#bqnswmcwxf .gt_left {
+#ezhslsbeqi .gt_left {
   text-align: left;
 }
 
-#bqnswmcwxf .gt_center {
+#ezhslsbeqi .gt_center {
   text-align: center;
 }
 
-#bqnswmcwxf .gt_right {
+#ezhslsbeqi .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#bqnswmcwxf .gt_font_normal {
+#ezhslsbeqi .gt_font_normal {
   font-weight: normal;
 }
 
-#bqnswmcwxf .gt_font_bold {
+#ezhslsbeqi .gt_font_bold {
   font-weight: bold;
 }
 
-#bqnswmcwxf .gt_font_italic {
+#ezhslsbeqi .gt_font_italic {
   font-style: italic;
 }
 
-#bqnswmcwxf .gt_super {
+#ezhslsbeqi .gt_super {
   font-size: 65%;
 }
 
-#bqnswmcwxf .gt_footnote_marks {
+#ezhslsbeqi .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#bqnswmcwxf .gt_asterisk {
+#ezhslsbeqi .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#bqnswmcwxf .gt_indent_1 {
+#ezhslsbeqi .gt_indent_1 {
   text-indent: 5px;
 }
 
-#bqnswmcwxf .gt_indent_2 {
+#ezhslsbeqi .gt_indent_2 {
   text-indent: 10px;
 }
 
-#bqnswmcwxf .gt_indent_3 {
+#ezhslsbeqi .gt_indent_3 {
   text-indent: 15px;
 }
 
-#bqnswmcwxf .gt_indent_4 {
+#ezhslsbeqi .gt_indent_4 {
   text-indent: 20px;
 }
 
-#bqnswmcwxf .gt_indent_5 {
+#ezhslsbeqi .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
-<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
-  <thead>
-    
-    <tr class="gt_col_headings">
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Name">Name</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Code">Code</th>
-    </tr>
-  </thead>
-  <tbody class="gt_table_body">
-    <tr><td headers="Name" class="gt_row gt_left">Acrisol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">AC</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Alisol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">AL</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Andosol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">AN</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Anthrosol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">AT</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Arenosol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">AR</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Calcisol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">CL</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Cambisol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">CM</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Cryosol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">CR</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Chernozem</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">CH</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Durisol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">DU</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Ferralsol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">FR</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Fluvisol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">FL</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Gleysol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">GL</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Gypsisol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">GY</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Histosol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">HS</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Kastanozem</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">KS</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Leptosol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">LP</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Lixisol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">LX</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Luvisol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">LV</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Nitisol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">NT</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Phaeozem</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">PH</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Planosol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">PL</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Plinthosol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">PT</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Podzol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">PZ</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Regosol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">RG</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Retisol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">RT</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Solonchak</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">SC</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Solonetz</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">SN</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Stagnosol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ST</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Technosol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">TC</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Umbrisol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">UM</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Vertisol</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">VR</td></tr>
-  </tbody>
-  
-  
-</table>
+<div id="ezhslsbeqi" class="reactable html-widget" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="ezhslsbeqi">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Name":["Acrisol","Alisol","Andosol","Anthrosol","Arenosol","Calcisol","Cambisol","Cryosol","Chernozem","Durisol","Ferralsol","Fluvisol","Gleysol","Gypsisol","Histosol","Kastanozem","Leptosol","Lixisol","Luvisol","Nitisol","Phaeozem","Planosol","Plinthosol","Podzol","Regosol","Retisol","Solonchak","Solonetz","Stagnosol","Technosol","Umbrisol","Vertisol"],"Code":["AC","AL","AN","AT","AR","CL","CM","CR","CH","DU","FR","FL","GL","GY","HS","KS","LP","LX","LV","NT","PH","PL","PT","PZ","RG","RT","SC","SN","ST","TC","UM","VR"]},"columns":[{"id":"Name","name":"Name","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'Code' & rowIndex === 1) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 2) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 3) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 4) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 5) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 6) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 7) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 8) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 9) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 10) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 11) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 12) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 13) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 14) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 15) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 16) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 17) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 18) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 19) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 20) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 21) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 22) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 23) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 24) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 25) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 26) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 27) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 28) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 29) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 30) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 31) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 32) {\n  return { fontWeight: 'bold' }\n}\n\n}","cell":["Acrisol","Alisol","Andosol","Anthrosol","Arenosol","Calcisol","Cambisol","Cryosol","Chernozem","Durisol","Ferralsol","Fluvisol","Gleysol","Gypsisol","Histosol","Kastanozem","Leptosol","Lixisol","Luvisol","Nitisol","Phaeozem","Planosol","Plinthosol","Podzol","Regosol","Retisol","Solonchak","Solonetz","Stagnosol","Technosol","Umbrisol","Vertisol"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"Code","name":"Code","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'Code' & rowIndex === 1) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 2) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 3) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 4) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 5) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 6) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 7) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 8) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 9) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 10) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 11) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 12) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 13) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 14) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 15) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 16) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 17) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 18) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 19) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 20) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 21) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 22) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 23) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 24) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 25) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 26) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 27) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 28) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 29) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 30) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 31) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 32) {\n  return { fontWeight: 'bold' }\n}\n\n}","cell":["AC","AL","AN","AT","AR","CL","CM","CR","CH","DU","FR","FL","GL","GY","HS","KS","LP","LX","LV","NT","PH","PL","PT","PZ","RG","RT","SC","SN","ST","TC","UM","VR"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}}],"searchable":true,"defaultPageSize":10,"showPageSizeOptions":true,"pageSizeOptions":[10,25,50,100],"paginationType":"numbers","showPagination":true,"showPageInfo":true,"minRows":1,"showSortable":true,"height":"auto","theme":{"color":"#333333","backgroundColor":"#FFFFFF","stripedColor":"rgba(128,128,128,0.05)","style":{"fontFamily":"system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"},"headerStyle":{"borderTopStyle":"solid","borderTopWidth":"2px","borderTopColor":"#D3D3D3","borderBottomStyle":"solid","borderBottomWidth":"2px","borderBottomColor":"#D3D3D3"}},"elementId":"ezhslsbeqi","dataKey":"7ad17414f4ac92b2383c75ad9f9d99d0"},"children":[]},"class":"reactR_markup"},"evals":["tag.attribs.columns.0.style","tag.attribs.columns.1.style"],"jsHooks":[]}</script>
 </div>
 </div>
-<p><strong>?(caption)</strong></p>
+</div>
+</figure>
+</div>
 </div>
 </section>
 <section id="qualifiers" class="level2" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="qualifiers"><span class="header-section-number">6.2</span> Qualifiers</h2>
-<div id="tbl-a292" class="cell tbl-parent anchored" data-layout-align="center">
+<div class="cell no-stripe" data-layout-align="center">
+<div id="tbl-sixtwo" class="cell no-stripe quarto-float anchored" data-layout-align="center">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-sixtwo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;6.2: Qualifiers
+</figcaption>
+<div aria-describedby="tbl-sixtwo-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell-output-display">
-<div id="pxxkeywydc" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
-<style>#pxxkeywydc table {
+<div id="tmnxzyuigq" class=".gt_table" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#tmnxzyuigq table {
   font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-#pxxkeywydc thead, #pxxkeywydc tbody, #pxxkeywydc tfoot, #pxxkeywydc tr, #pxxkeywydc td, #pxxkeywydc th {
+#tmnxzyuigq thead, #tmnxzyuigq tbody, #tmnxzyuigq tfoot, #tmnxzyuigq tr, #tmnxzyuigq td, #tmnxzyuigq th {
   border-style: none;
 }
 
-#pxxkeywydc p {
+#tmnxzyuigq p {
   margin: 0;
   padding: 0;
 }
 
-#pxxkeywydc .gt_table {
+#tmnxzyuigq .gt_table {
   display: table;
   border-collapse: collapse;
   line-height: normal;
@@ -859,12 +809,12 @@ ul.task-list li input[type="checkbox"] {
   border-left-color: #D3D3D3;
 }
 
-#pxxkeywydc .gt_caption {
+#tmnxzyuigq .gt_caption {
   padding-top: 4px;
   padding-bottom: 4px;
 }
 
-#pxxkeywydc .gt_title {
+#tmnxzyuigq .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: bold;
@@ -876,7 +826,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-width: 0;
 }
 
-#pxxkeywydc .gt_subtitle {
+#tmnxzyuigq .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -888,7 +838,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-width: 0;
 }
 
-#pxxkeywydc .gt_heading {
+#tmnxzyuigq .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -900,13 +850,13 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#pxxkeywydc .gt_bottom_border {
+#tmnxzyuigq .gt_bottom_border {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#pxxkeywydc .gt_col_headings {
+#tmnxzyuigq .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -921,7 +871,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#pxxkeywydc .gt_col_heading {
+#tmnxzyuigq .gt_col_heading {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -941,7 +891,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#pxxkeywydc .gt_column_spanner_outer {
+#tmnxzyuigq .gt_column_spanner_outer {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -953,15 +903,15 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 4px;
 }
 
-#pxxkeywydc .gt_column_spanner_outer:first-child {
+#tmnxzyuigq .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#pxxkeywydc .gt_column_spanner_outer:last-child {
+#tmnxzyuigq .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#pxxkeywydc .gt_column_spanner {
+#tmnxzyuigq .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
@@ -973,11 +923,11 @@ ul.task-list li input[type="checkbox"] {
   width: 100%;
 }
 
-#pxxkeywydc .gt_spanner_row {
+#tmnxzyuigq .gt_spanner_row {
   border-bottom-style: hidden;
 }
 
-#pxxkeywydc .gt_group_heading {
+#tmnxzyuigq .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1003,7 +953,7 @@ ul.task-list li input[type="checkbox"] {
   text-align: left;
 }
 
-#pxxkeywydc .gt_empty_group_heading {
+#tmnxzyuigq .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -1018,15 +968,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: middle;
 }
 
-#pxxkeywydc .gt_from_md > :first-child {
+#tmnxzyuigq .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#pxxkeywydc .gt_from_md > :last-child {
+#tmnxzyuigq .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#pxxkeywydc .gt_row {
+#tmnxzyuigq .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1045,7 +995,7 @@ ul.task-list li input[type="checkbox"] {
   overflow-x: hidden;
 }
 
-#pxxkeywydc .gt_stub {
+#tmnxzyuigq .gt_stub {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1058,7 +1008,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#pxxkeywydc .gt_stub_row_group {
+#tmnxzyuigq .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -1072,15 +1022,15 @@ ul.task-list li input[type="checkbox"] {
   vertical-align: top;
 }
 
-#pxxkeywydc .gt_row_group_first td {
+#tmnxzyuigq .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#pxxkeywydc .gt_row_group_first th {
+#tmnxzyuigq .gt_row_group_first th {
   border-top-width: 2px;
 }
 
-#pxxkeywydc .gt_summary_row {
+#tmnxzyuigq .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1090,16 +1040,16 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#pxxkeywydc .gt_first_summary_row {
+#tmnxzyuigq .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#pxxkeywydc .gt_first_summary_row.thick {
+#tmnxzyuigq .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#pxxkeywydc .gt_last_summary_row {
+#tmnxzyuigq .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1109,7 +1059,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#pxxkeywydc .gt_grand_summary_row {
+#tmnxzyuigq .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -1119,7 +1069,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#pxxkeywydc .gt_first_grand_summary_row {
+#tmnxzyuigq .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1129,7 +1079,7 @@ ul.task-list li input[type="checkbox"] {
   border-top-color: #D3D3D3;
 }
 
-#pxxkeywydc .gt_last_grand_summary_row_top {
+#tmnxzyuigq .gt_last_grand_summary_row_top {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -1139,11 +1089,11 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#pxxkeywydc .gt_striped {
+#tmnxzyuigq .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#pxxkeywydc .gt_table_body {
+#tmnxzyuigq .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #D3D3D3;
@@ -1152,7 +1102,7 @@ ul.task-list li input[type="checkbox"] {
   border-bottom-color: #D3D3D3;
 }
 
-#pxxkeywydc .gt_footnotes {
+#tmnxzyuigq .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1166,7 +1116,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#pxxkeywydc .gt_footnote {
+#tmnxzyuigq .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-top: 4px;
@@ -1175,7 +1125,7 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#pxxkeywydc .gt_sourcenotes {
+#tmnxzyuigq .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -1189,7 +1139,7 @@ ul.task-list li input[type="checkbox"] {
   border-right-color: #D3D3D3;
 }
 
-#pxxkeywydc .gt_sourcenote {
+#tmnxzyuigq .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -1197,740 +1147,1098 @@ ul.task-list li input[type="checkbox"] {
   padding-right: 5px;
 }
 
-#pxxkeywydc .gt_left {
+#tmnxzyuigq .gt_left {
   text-align: left;
 }
 
-#pxxkeywydc .gt_center {
+#tmnxzyuigq .gt_center {
   text-align: center;
 }
 
-#pxxkeywydc .gt_right {
+#tmnxzyuigq .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#pxxkeywydc .gt_font_normal {
+#tmnxzyuigq .gt_font_normal {
   font-weight: normal;
 }
 
-#pxxkeywydc .gt_font_bold {
+#tmnxzyuigq .gt_font_bold {
   font-weight: bold;
 }
 
-#pxxkeywydc .gt_font_italic {
+#tmnxzyuigq .gt_font_italic {
   font-style: italic;
 }
 
-#pxxkeywydc .gt_super {
+#tmnxzyuigq .gt_super {
   font-size: 65%;
 }
 
-#pxxkeywydc .gt_footnote_marks {
+#tmnxzyuigq .gt_footnote_marks {
   font-size: 75%;
   vertical-align: 0.4em;
   position: initial;
 }
 
-#pxxkeywydc .gt_asterisk {
+#tmnxzyuigq .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#pxxkeywydc .gt_indent_1 {
+#tmnxzyuigq .gt_indent_1 {
   text-indent: 5px;
 }
 
-#pxxkeywydc .gt_indent_2 {
+#tmnxzyuigq .gt_indent_2 {
   text-indent: 10px;
 }
 
-#pxxkeywydc .gt_indent_3 {
+#tmnxzyuigq .gt_indent_3 {
   text-indent: 15px;
 }
 
-#pxxkeywydc .gt_indent_4 {
+#tmnxzyuigq .gt_indent_4 {
   text-indent: 20px;
 }
 
-#pxxkeywydc .gt_indent_5 {
+#tmnxzyuigq .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
-<table class="gt_table" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
-  <thead>
-    
-    <tr class="gt_col_headings">
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Name">Name</th>
-      <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" scope="col" id="Code">Code</th>
-    </tr>
-  </thead>
-  <tbody class="gt_table_body">
-    <tr><td headers="Name" class="gt_row gt_left">Abruptic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ap</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Aceric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ae</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Acric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ac</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Acroxic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ao</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Activic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">at</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Aeolic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ay</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Akrofluvic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">kf</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Akromineralic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">km</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Akroskeletic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">kk</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Albic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ab</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Alcalic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ax</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Alic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">al</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Aluandic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">aa</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Andic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">an</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Anthraquic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">aq</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Anthric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ak</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Anthromollic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">am</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Anthroumbric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">aw</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Archaic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ah</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Arenic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ar</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Arenicolic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ad</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Areninovic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">aj</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Argisodic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">as</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Aric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ai</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Arzic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">az</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Biocrustic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">bc</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Brunic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">br</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Bryic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">by</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Calcaric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ca</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Calcic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">cc</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Calcifractic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">cf</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Cambic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">cm</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Capillaric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">cp</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Carbic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">cb</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Carbonatic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">cn</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Carbonic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">cx</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Chernic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ch</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Claric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">cq</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Chloridic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">cl</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Chromic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">cr</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Clayic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ce</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Clayinovic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">cj</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Coarsic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">cs</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Cohesic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">co</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Columnic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">cu</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Cordic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">cd</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Cryic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">cy</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Cutanic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ct</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Densic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">dn</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Differentic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">df</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Dolomitic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">do</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Dorsic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ds</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Drainic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">dr</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Duric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">du</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Dystric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">dy</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Ejectiskeletic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jk</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Ekranic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ek</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Endic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ed</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Entic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">et</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Epic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ep</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Escalic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ec</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Eutric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">eu</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Eutrosilic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">es</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Evapocrustic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ev</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Ferralic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">fl</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Ferric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">fr</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Ferritic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">fe</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Fibric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">fi</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Floatic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ft</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Fluvic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">fv</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Folic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">fo</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Fractic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">fc</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Fractiskeletic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">fk</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Fragic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">fg</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Garbic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ga</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Gelic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ge</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Gelistagnic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">gt</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Geoabruptic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">go</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Geric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">gr</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Gibbsic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">gi</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Gilgaic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">gg</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Glacic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">gc</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Gleyic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">gl</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Glossic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">gs</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Greyzemic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">gz</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Grumic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">gm</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Gypsic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">gy</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Gypsifractic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">gf</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Gypsiric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">gp</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Haplic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ha</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hemic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">hm</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Histic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">hi</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hortic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ht</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Humic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">hu</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hydragric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">hg</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hydric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">hy</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hydrophobic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">hf</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hyperalic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jl</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hyperartefactic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ja</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hypercalcic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jc</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hyperduric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ju</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hyperdystric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jd</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hypereutric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">je</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hyperferritic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jf</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hypergarbic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jb</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hypergeric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jq</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hypergypsic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jg</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hyperhumic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jh</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hyperhydragric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jy</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hypermagnesic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jm</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hypernatric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jn</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hyperorganic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jo</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hypersalic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jz</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hypersideralic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jr</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hyperspodic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jp</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hyperspolic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jj</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hypersulfidic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">js</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hypertechnic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jt</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hyperthionic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ji</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hyperurbic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">jx</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hyposulfidic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ws</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Hypothionic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">wi</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Immissic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">im</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Inclinic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ic</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Inclinigleyic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">iy</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Inclinistagnic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">iw</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Infraandic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ia</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Infraspodic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ia</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Irragric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ir</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Isolatic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">il</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Isopteric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ip</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Kalaic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ka</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Lamellic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ll</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Lapiadic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ld</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Laxic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">la</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Leptic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">le</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Lignic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">lg</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Limnic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">lm</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Limonic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ln</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Linic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">lc</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Lithic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">li</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Litholinic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">lh</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Lixic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">lx</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Loamic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">lo</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Loaminovic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">lj</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Luvic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">lv</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Magnesic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">mg</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Manganiferric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">mf</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Mahic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ma</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Mawic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">mw</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Mazic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">mz</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Mineralic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">mi</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Minerolimnic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ml</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Mochipic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">mc</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Mollic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">mo</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Mulmic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">mm</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Murshic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">mh</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Muusic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">mu</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Naramic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">nr</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Natric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">na</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Nechic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ne</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Neobrunic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">nb</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Neocambic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">nc</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Nitic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ni</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Novic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">nv</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Nudiargic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ng</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Nudilithic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">nt</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Nudinatric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">nn</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Nudipetric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">np</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Nudiyermic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ny</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Ochric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">oh</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Oligoeutric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ol</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Ombric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">om</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Organolimnic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">oo</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Organotransportic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ot</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Ornithic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">oc</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Orthodystric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">od</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Orthoeutric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">oe</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Orthofluvic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">of</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Orthomineralic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">oi</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Orthoskeletic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ok</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Ortsteinic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">os</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Oxyaquic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">oa</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Oxygleyic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">oy</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Pachic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ph</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Panpaic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">pb</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Paviyermic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">vy</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Pellic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">pe</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Pelocrustic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">pq</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Petric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">pt</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Petrocalcic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">pc</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Petroduric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">pd</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Petrogypsic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">pg</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Petroplinthic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">pp</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Petrosalic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ps</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Pisoplinthic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">px</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Placic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">pi</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Plaggic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">pa</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Plinthic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">pl</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Posic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">po</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Pretic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">pk</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Profondic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">pn</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Profundihumic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">dh</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Protic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">pr</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Protoandic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">qa</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Protoargic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">qg</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Protocalcic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">qc</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Protogleyic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">qy</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Protogypsic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">qq</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Protokalaic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">qk</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Protosalic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">qz</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Protosodic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">qs</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Protospodic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">qp</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Protostagnic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">qw</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Prototechnic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">qt</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Prototephric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">qf</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Protovertic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">qv</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Puffic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">pu</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Pyric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">py</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Radiotoxic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">rx</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Raptic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">rp</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Reductaquic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ra</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Reductic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">rd</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Reductigleyic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ry</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Relictigleyic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">rl</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Relictistagnic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">rw</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Relictiturbic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">rb</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Relocatic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">rc</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Rendzic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">rz</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Retic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">rt</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Rheic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">rh</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Rhodic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ro</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Rockic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">rk</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Rubic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ru</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Rustic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">rs</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Salic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">sz</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Sapric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">sa</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Saporlithic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">sh</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Sideralic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">se</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Silandic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">sn</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Siltic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">sl</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Siltinovic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">sj</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Skeletic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">sk</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Skeletofolic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ko</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Skeletohistic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">kh</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Skeletotransportic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">kt</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Sodic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">so</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Solimovic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">sv</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Sombric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">sb</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Someric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">si</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Somerimollic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">sm</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Somerirendzic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">sr</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Someriumbric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">sw</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Spodic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">sd</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Spolic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">sp</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Stagnic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">st</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Subaquatic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">sq</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Sulfatic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">su</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Sulfidic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">sf</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Takyric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ty</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Technic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">te</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Technotephric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">tt</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Tephric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">tf</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Terric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">tr</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Thionic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ti</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Thixotropic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">tp</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Thyric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">th</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Tidalic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">td</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Tonguic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">to</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Tonguichernic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">tc</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Tonguimollic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">tm</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Tonguiumbric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">tw</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Totilamellic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ta</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Toxic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">tx</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Transportic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">tn</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Tsitelic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ts</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Turbic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">tu</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Umbric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">um</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Urbic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ub</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Uterquic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">uq</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Vermic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">vm</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Vertic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">vr</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Vitric</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">vi</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Wapnic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">wa</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Xanthic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">xa</td></tr>
-    <tr><td headers="Name" class="gt_row gt_left">Yermic</td>
-<td headers="Code" class="gt_row gt_left" style="font-weight: bold;">ye</td></tr>
-  </tbody>
-  
-  
-</table>
+<div id="tmnxzyuigq" class="reactable html-widget" style="width:auto;height:auto;"></div>
+<script type="application/json" data-for="tmnxzyuigq">{"x":{"tag":{"name":"Reactable","attribs":{"data":{"Name":["Abruptic","Aceric","Acric","Acroxic","Activic","Aeolic","Akrofluvic","Akromineralic","Akroskeletic","Albic","Alcalic","Alic","Aluandic","Andic","Anthraquic","Anthric","Anthromollic","Anthroumbric","Archaic","Arenic","Arenicolic","Areninovic","Argisodic","Aric","Arzic","Biocrustic","Brunic","Bryic","Calcaric","Calcic","Calcifractic","Cambic","Capillaric","Carbic","Carbonatic","Carbonic","Chernic","Claric","Chloridic","Chromic","Clayic","Clayinovic","Coarsic","Cohesic","Columnic","Cordic","Cryic","Cutanic","Densic","Differentic","Dolomitic","Dorsic","Drainic","Duric","Dystric","Ejectiskeletic","Ekranic","Endic","Entic","Epic","Escalic","Eutric","Eutrosilic","Evapocrustic","Ferralic","Ferric","Ferritic","Fibric","Floatic","Fluvic","Folic","Fractic","Fractiskeletic","Fragic","Garbic","Gelic","Gelistagnic","Geoabruptic","Geric","Gibbsic","Gilgaic","Glacic","Gleyic","Glossic","Greyzemic","Grumic","Gypsic","Gypsifractic","Gypsiric","Haplic","Hemic","Histic","Hortic","Humic","Hydragric","Hydric","Hydrophobic","Hyperalic","Hyperartefactic","Hypercalcic","Hyperduric","Hyperdystric","Hypereutric","Hyperferritic","Hypergarbic","Hypergeric","Hypergypsic","Hyperhumic","Hyperhydragric","Hypermagnesic","Hypernatric","Hyperorganic","Hypersalic","Hypersideralic","Hyperspodic","Hyperspolic","Hypersulfidic","Hypertechnic","Hyperthionic","Hyperurbic","Hyposulfidic","Hypothionic","Immissic","Inclinic","Inclinigleyic","Inclinistagnic","Infraandic","Infraspodic","Irragric","Isolatic","Isopteric","Kalaic","Lamellic","Lapiadic","Laxic","Leptic","Lignic","Limnic","Limonic","Linic","Lithic","Litholinic","Lixic","Loamic","Loaminovic","Luvic","Magnesic","Manganiferric","Mahic","Mawic","Mazic","Mineralic","Minerolimnic","Mochipic","Mollic","Mulmic","Murshic","Muusic","Naramic","Natric","Nechic","Neobrunic","Neocambic","Nitic","Novic","Nudiargic","Nudilithic","Nudinatric","Nudipetric","Nudiyermic","Ochric","Oligoeutric","Ombric","Organolimnic","Organotransportic","Ornithic","Orthodystric","Orthoeutric","Orthofluvic","Orthomineralic","Orthoskeletic","Ortsteinic","Oxyaquic","Oxygleyic","Pachic","Panpaic","Paviyermic","Pellic","Pelocrustic","Petric","Petrocalcic","Petroduric","Petrogypsic","Petroplinthic","Petrosalic","Pisoplinthic","Placic","Plaggic","Plinthic","Posic","Pretic","Profondic","Profundihumic","Protic","Protoandic","Protoargic","Protocalcic","Protogleyic","Protogypsic","Protokalaic","Protosalic","Protosodic","Protospodic","Protostagnic","Prototechnic","Prototephric","Protovertic","Puffic","Pyric","Radiotoxic","Raptic","Reductaquic","Reductic","Reductigleyic","Relictigleyic","Relictistagnic","Relictiturbic","Relocatic","Rendzic","Retic","Rheic","Rhodic","Rockic","Rubic","Rustic","Salic","Sapric","Saporlithic","Sideralic","Silandic","Siltic","Siltinovic","Skeletic","Skeletofolic","Skeletohistic","Skeletotransportic","Sodic","Solimovic","Sombric","Someric","Somerimollic","Somerirendzic","Someriumbric","Spodic","Spolic","Stagnic","Subaquatic","Sulfatic","Sulfidic","Takyric","Technic","Technotephric","Tephric","Terric","Thionic","Thixotropic","Thyric","Tidalic","Tonguic","Tonguichernic","Tonguimollic","Tonguiumbric","Totilamellic","Toxic","Transportic","Tsitelic","Turbic","Umbric","Urbic","Uterquic","Vermic","Vertic","Vitric","Wapnic","Xanthic","Yermic"],"Code":["ap","ae","ac","ao","at","ay","kf","km","kk","ab","ax","al","aa","an","aq","ak","am","aw","ah","ar","ad","aj","as","ai","az","bc","br","by","ca","cc","cf","cm","cp","cb","cn","cx","ch","cq","cl","cr","ce","cj","cs","co","cu","cd","cy","ct","dn","df","do","ds","dr","du","dy","jk","ek","ed","et","ep","ec","eu","es","ev","fl","fr","fe","fi","ft","fv","fo","fc","fk","fg","ga","ge","gt","go","gr","gi","gg","gc","gl","gs","gz","gm","gy","gf","gp","ha","hm","hi","ht","hu","hg","hy","hf","jl","ja","jc","ju","jd","je","jf","jb","jq","jg","jh","jy","jm","jn","jo","jz","jr","jp","jj","js","jt","ji","jx","ws","wi","im","ic","iy","iw","ia","ia","ir","il","ip","ka","ll","ld","la","le","lg","lm","ln","lc","li","lh","lx","lo","lj","lv","mg","mf","ma","mw","mz","mi","ml","mc","mo","mm","mh","mu","nr","na","ne","nb","nc","ni","nv","ng","nt","nn","np","ny","oh","ol","om","oo","ot","oc","od","oe","of","oi","ok","os","oa","oy","ph","pb","vy","pe","pq","pt","pc","pd","pg","pp","ps","px","pi","pa","pl","po","pk","pn","dh","pr","qa","qg","qc","qy","qq","qk","qz","qs","qp","qw","qt","qf","qv","pu","py","rx","rp","ra","rd","ry","rl","rw","rb","rc","rz","rt","rh","ro","rk","ru","rs","sz","sa","sh","se","sn","sl","sj","sk","ko","kh","kt","so","sv","sb","si","sm","sr","sw","sd","sp","st","sq","su","sf","ty","te","tt","tf","tr","ti","tp","th","td","to","tc","tm","tw","ta","tx","tn","ts","tu","um","ub","uq","vm","vr","vi","wa","xa","ye"]},"columns":[{"id":"Name","name":"Name","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'Code' & rowIndex === 1) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 2) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 3) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 4) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 5) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 6) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 7) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 8) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 9) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 10) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 11) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 12) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 13) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 14) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 15) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 16) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 17) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 18) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 19) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 20) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 21) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 22) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 23) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 24) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 25) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 26) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 27) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 28) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 29) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 30) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 31) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 32) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 33) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 34) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 35) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 36) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 37) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 38) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 39) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 40) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 41) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 42) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 43) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 44) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 45) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 46) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 47) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 48) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 49) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 50) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 51) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 52) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 53) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 54) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 55) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 56) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 57) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 58) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 59) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 60) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 61) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 62) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 63) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 64) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 65) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 66) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 67) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 68) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 69) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 70) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 71) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 72) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 73) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 74) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 75) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 76) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 77) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 78) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 79) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 80) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 81) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 82) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 83) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 84) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 85) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 86) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 87) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 88) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 89) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 90) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 91) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 92) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 93) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 94) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 95) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 96) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 97) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 98) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 99) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 100) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 101) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 102) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 103) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 104) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 105) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 106) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 107) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 108) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 109) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 110) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 111) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 112) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 113) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 114) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 115) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 116) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 117) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 118) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 119) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 120) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 121) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 122) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 123) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 124) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 125) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 126) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 127) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 128) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 129) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 130) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 131) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 132) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 133) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 134) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 135) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 136) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 137) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 138) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 139) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 140) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 141) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 142) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 143) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 144) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 145) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 146) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 147) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 148) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 149) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 150) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 151) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 152) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 153) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 154) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 155) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 156) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 157) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 158) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 159) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 160) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 161) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 162) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 163) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 164) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 165) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 166) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 167) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 168) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 169) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 170) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 171) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 172) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 173) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 174) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 175) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 176) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 177) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 178) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 179) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 180) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 181) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 182) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 183) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 184) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 185) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 186) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 187) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 188) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 189) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 190) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 191) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 192) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 193) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 194) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 195) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 196) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 197) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 198) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 199) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 200) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 201) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 202) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 203) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 204) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 205) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 206) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 207) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 208) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 209) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 210) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 211) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 212) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 213) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 214) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 215) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 216) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 217) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 218) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 219) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 220) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 221) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 222) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 223) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 224) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 225) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 226) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 227) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 228) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 229) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 230) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 231) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 232) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 233) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 234) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 235) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 236) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 237) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 238) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 239) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 240) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 241) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 242) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 243) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 244) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 245) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 246) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 247) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 248) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 249) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 250) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 251) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 252) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 253) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 254) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 255) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 256) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 257) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 258) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 259) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 260) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 261) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 262) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 263) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 264) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 265) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 266) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 267) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 268) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 269) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 270) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 271) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 272) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 273) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 274) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 275) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 276) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 277) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 278) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 279) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 280) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 281) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 282) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 283) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 284) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 285) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 286) {\n  return { fontWeight: 'bold' }\n}\n\n}","cell":["Abruptic","Aceric","Acric","Acroxic","Activic","Aeolic","Akrofluvic","Akromineralic","Akroskeletic","Albic","Alcalic","Alic","Aluandic","Andic","Anthraquic","Anthric","Anthromollic","Anthroumbric","Archaic","Arenic","Arenicolic","Areninovic","Argisodic","Aric","Arzic","Biocrustic","Brunic","Bryic","Calcaric","Calcic","Calcifractic","Cambic","Capillaric","Carbic","Carbonatic","Carbonic","Chernic","Claric","Chloridic","Chromic","Clayic","Clayinovic","Coarsic","Cohesic","Columnic","Cordic","Cryic","Cutanic","Densic","Differentic","Dolomitic","Dorsic","Drainic","Duric","Dystric","Ejectiskeletic","Ekranic","Endic","Entic","Epic","Escalic","Eutric","Eutrosilic","Evapocrustic","Ferralic","Ferric","Ferritic","Fibric","Floatic","Fluvic","Folic","Fractic","Fractiskeletic","Fragic","Garbic","Gelic","Gelistagnic","Geoabruptic","Geric","Gibbsic","Gilgaic","Glacic","Gleyic","Glossic","Greyzemic","Grumic","Gypsic","Gypsifractic","Gypsiric","Haplic","Hemic","Histic","Hortic","Humic","Hydragric","Hydric","Hydrophobic","Hyperalic","Hyperartefactic","Hypercalcic","Hyperduric","Hyperdystric","Hypereutric","Hyperferritic","Hypergarbic","Hypergeric","Hypergypsic","Hyperhumic","Hyperhydragric","Hypermagnesic","Hypernatric","Hyperorganic","Hypersalic","Hypersideralic","Hyperspodic","Hyperspolic","Hypersulfidic","Hypertechnic","Hyperthionic","Hyperurbic","Hyposulfidic","Hypothionic","Immissic","Inclinic","Inclinigleyic","Inclinistagnic","Infraandic","Infraspodic","Irragric","Isolatic","Isopteric","Kalaic","Lamellic","Lapiadic","Laxic","Leptic","Lignic","Limnic","Limonic","Linic","Lithic","Litholinic","Lixic","Loamic","Loaminovic","Luvic","Magnesic","Manganiferric","Mahic","Mawic","Mazic","Mineralic","Minerolimnic","Mochipic","Mollic","Mulmic","Murshic","Muusic","Naramic","Natric","Nechic","Neobrunic","Neocambic","Nitic","Novic","Nudiargic","Nudilithic","Nudinatric","Nudipetric","Nudiyermic","Ochric","Oligoeutric","Ombric","Organolimnic","Organotransportic","Ornithic","Orthodystric","Orthoeutric","Orthofluvic","Orthomineralic","Orthoskeletic","Ortsteinic","Oxyaquic","Oxygleyic","Pachic","Panpaic","Paviyermic","Pellic","Pelocrustic","Petric","Petrocalcic","Petroduric","Petrogypsic","Petroplinthic","Petrosalic","Pisoplinthic","Placic","Plaggic","Plinthic","Posic","Pretic","Profondic","Profundihumic","Protic","Protoandic","Protoargic","Protocalcic","Protogleyic","Protogypsic","Protokalaic","Protosalic","Protosodic","Protospodic","Protostagnic","Prototechnic","Prototephric","Protovertic","Puffic","Pyric","Radiotoxic","Raptic","Reductaquic","Reductic","Reductigleyic","Relictigleyic","Relictistagnic","Relictiturbic","Relocatic","Rendzic","Retic","Rheic","Rhodic","Rockic","Rubic","Rustic","Salic","Sapric","Saporlithic","Sideralic","Silandic","Siltic","Siltinovic","Skeletic","Skeletofolic","Skeletohistic","Skeletotransportic","Sodic","Solimovic","Sombric","Someric","Somerimollic","Somerirendzic","Someriumbric","Spodic","Spolic","Stagnic","Subaquatic","Sulfatic","Sulfidic","Takyric","Technic","Technotephric","Tephric","Terric","Thionic","Thixotropic","Thyric","Tidalic","Tonguic","Tonguichernic","Tonguimollic","Tonguiumbric","Totilamellic","Toxic","Transportic","Tsitelic","Turbic","Umbric","Urbic","Uterquic","Vermic","Vertic","Vitric","Wapnic","Xanthic","Yermic"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}},{"id":"Code","name":"Code","type":"character","style":"function(rowInfo, colInfo) {\nconst rowIndex = rowInfo.index + 1\nif (colInfo.id === 'Code' & rowIndex === 1) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 2) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 3) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 4) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 5) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 6) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 7) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 8) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 9) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 10) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 11) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 12) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 13) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 14) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 15) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 16) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 17) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 18) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 19) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 20) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 21) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 22) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 23) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 24) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 25) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 26) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 27) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 28) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 29) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 30) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 31) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 32) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 33) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 34) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 35) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 36) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 37) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 38) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 39) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 40) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 41) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 42) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 43) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 44) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 45) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 46) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 47) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 48) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 49) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 50) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 51) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 52) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 53) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 54) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 55) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 56) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 57) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 58) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 59) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 60) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 61) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 62) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 63) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 64) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 65) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 66) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 67) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 68) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 69) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 70) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 71) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 72) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 73) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 74) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 75) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 76) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 77) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 78) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 79) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 80) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 81) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 82) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 83) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 84) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 85) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 86) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 87) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 88) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 89) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 90) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 91) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 92) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 93) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 94) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 95) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 96) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 97) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 98) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 99) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 100) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 101) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 102) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 103) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 104) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 105) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 106) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 107) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 108) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 109) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 110) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 111) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 112) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 113) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 114) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 115) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 116) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 117) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 118) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 119) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 120) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 121) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 122) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 123) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 124) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 125) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 126) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 127) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 128) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 129) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 130) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 131) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 132) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 133) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 134) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 135) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 136) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 137) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 138) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 139) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 140) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 141) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 142) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 143) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 144) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 145) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 146) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 147) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 148) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 149) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 150) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 151) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 152) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 153) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 154) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 155) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 156) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 157) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 158) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 159) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 160) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 161) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 162) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 163) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 164) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 165) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 166) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 167) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 168) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 169) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 170) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 171) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 172) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 173) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 174) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 175) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 176) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 177) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 178) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 179) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 180) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 181) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 182) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 183) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 184) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 185) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 186) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 187) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 188) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 189) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 190) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 191) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 192) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 193) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 194) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 195) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 196) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 197) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 198) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 199) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 200) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 201) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 202) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 203) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 204) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 205) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 206) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 207) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 208) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 209) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 210) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 211) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 212) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 213) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 214) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 215) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 216) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 217) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 218) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 219) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 220) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 221) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 222) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 223) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 224) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 225) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 226) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 227) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 228) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 229) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 230) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 231) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 232) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 233) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 234) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 235) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 236) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 237) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 238) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 239) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 240) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 241) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 242) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 243) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 244) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 245) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 246) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 247) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 248) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 249) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 250) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 251) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 252) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 253) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 254) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 255) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 256) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 257) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 258) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 259) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 260) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 261) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 262) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 263) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 264) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 265) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 266) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 267) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 268) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 269) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 270) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 271) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 272) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 273) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 274) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 275) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 276) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 277) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 278) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 279) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 280) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 281) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 282) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 283) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 284) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 285) {\n  return { fontWeight: 'bold' }\n}\n\nif (colInfo.id === 'Code' & rowIndex === 286) {\n  return { fontWeight: 'bold' }\n}\n\n}","cell":["ap","ae","ac","ao","at","ay","kf","km","kk","ab","ax","al","aa","an","aq","ak","am","aw","ah","ar","ad","aj","as","ai","az","bc","br","by","ca","cc","cf","cm","cp","cb","cn","cx","ch","cq","cl","cr","ce","cj","cs","co","cu","cd","cy","ct","dn","df","do","ds","dr","du","dy","jk","ek","ed","et","ep","ec","eu","es","ev","fl","fr","fe","fi","ft","fv","fo","fc","fk","fg","ga","ge","gt","go","gr","gi","gg","gc","gl","gs","gz","gm","gy","gf","gp","ha","hm","hi","ht","hu","hg","hy","hf","jl","ja","jc","ju","jd","je","jf","jb","jq","jg","jh","jy","jm","jn","jo","jz","jr","jp","jj","js","jt","ji","jx","ws","wi","im","ic","iy","iw","ia","ia","ir","il","ip","ka","ll","ld","la","le","lg","lm","ln","lc","li","lh","lx","lo","lj","lv","mg","mf","ma","mw","mz","mi","ml","mc","mo","mm","mh","mu","nr","na","ne","nb","nc","ni","nv","ng","nt","nn","np","ny","oh","ol","om","oo","ot","oc","od","oe","of","oi","ok","os","oa","oy","ph","pb","vy","pe","pq","pt","pc","pd","pg","pp","ps","px","pi","pa","pl","po","pk","pn","dh","pr","qa","qg","qc","qy","qq","qk","qz","qs","qp","qw","qt","qf","qv","pu","py","rx","rp","ra","rd","ry","rl","rw","rb","rc","rz","rt","rh","ro","rk","ru","rs","sz","sa","sh","se","sn","sl","sj","sk","ko","kh","kt","so","sv","sb","si","sm","sr","sw","sd","sp","st","sq","su","sf","ty","te","tt","tf","tr","ti","tp","th","td","to","tc","tm","tw","ta","tx","tn","ts","tu","um","ub","uq","vm","vr","vi","wa","xa","ye"],"html":true,"align":"left","headerStyle":{"font-weight":"normal"}}],"searchable":true,"defaultPageSize":10,"showPageSizeOptions":true,"pageSizeOptions":[10,25,50,100],"paginationType":"numbers","showPagination":true,"showPageInfo":true,"minRows":1,"showSortable":true,"height":"auto","theme":{"color":"#333333","backgroundColor":"#FFFFFF","stripedColor":"rgba(128,128,128,0.05)","style":{"fontFamily":"system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"},"headerStyle":{"borderTopStyle":"solid","borderTopWidth":"2px","borderTopColor":"#D3D3D3","borderBottomStyle":"solid","borderBottomWidth":"2px","borderBottomColor":"#D3D3D3"}},"elementId":"tmnxzyuigq","dataKey":"ab6ed299b832cc903511ad00913ecbe5"},"children":[]},"class":"reactR_markup"},"evals":["tag.attribs.columns.0.style","tag.attribs.columns.1.style"],"jsHooks":[]}</script>
 </div>
 </div>
-<p><strong>?(caption)</strong></p>
+</div>
+</figure>
+</div>
 </div>
 </section>
 <section id="specifiers" class="level2" data-number="6.3">
 <h2 data-number="6.3" class="anchored" data-anchor-id="specifiers"><span class="header-section-number">6.3</span> Specifiers</h2>
-<table class="table">
+<div class="cell no-stripe" data-layout-align="center">
+<div id="tbl-sixthree" class="cell no-stripe quarto-float anchored" data-layout-align="center">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-sixthree-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;6.3: Specifiers
+</figcaption>
+<div aria-describedby="tbl-sixthree-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<div id="oywzhjmayd" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#oywzhjmayd table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#oywzhjmayd thead, #oywzhjmayd tbody, #oywzhjmayd tfoot, #oywzhjmayd tr, #oywzhjmayd td, #oywzhjmayd th {
+  border-style: none;
+}
+
+#oywzhjmayd p {
+  margin: 0;
+  padding: 0;
+}
+
+#oywzhjmayd .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: 0;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#oywzhjmayd .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#oywzhjmayd .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: bold;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#oywzhjmayd .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#oywzhjmayd .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#oywzhjmayd .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#oywzhjmayd .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#oywzhjmayd .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#oywzhjmayd .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#oywzhjmayd .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#oywzhjmayd .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#oywzhjmayd .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#oywzhjmayd .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#oywzhjmayd .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#oywzhjmayd .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#oywzhjmayd .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#oywzhjmayd .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#oywzhjmayd .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#oywzhjmayd .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#oywzhjmayd .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#oywzhjmayd .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#oywzhjmayd .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#oywzhjmayd .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#oywzhjmayd .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#oywzhjmayd .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#oywzhjmayd .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#oywzhjmayd .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#oywzhjmayd .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#oywzhjmayd .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#oywzhjmayd .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#oywzhjmayd .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#oywzhjmayd .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#oywzhjmayd .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#oywzhjmayd .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#oywzhjmayd .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#oywzhjmayd .gt_left {
+  text-align: left;
+}
+
+#oywzhjmayd .gt_center {
+  text-align: center;
+}
+
+#oywzhjmayd .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#oywzhjmayd .gt_font_normal {
+  font-weight: normal;
+}
+
+#oywzhjmayd .gt_font_bold {
+  font-weight: bold;
+}
+
+#oywzhjmayd .gt_font_italic {
+  font-style: italic;
+}
+
+#oywzhjmayd .gt_super {
+  font-size: 65%;
+}
+
+#oywzhjmayd .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#oywzhjmayd .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#oywzhjmayd .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#oywzhjmayd .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#oywzhjmayd .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#oywzhjmayd .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#oywzhjmayd .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+
+<table class="gt_table do-not-create-environment cell no-stripe table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
 <colgroup>
-<col style="width: 10%">
-<col style="width: 14%">
-<col style="width: 9%">
-<col style="width: 14%">
-<col style="width: 10%">
-<col style="width: 14%">
-<col style="width: 12%">
-<col style="width: 14%">
+<col>
+<col style="width: 20%">
 </colgroup>
-<tbody>
+<thead>
+<tr class="header gt_col_headings">
+<th id="Name" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Name</th>
+<th id="Code" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Code</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
 <tr class="odd">
-<td>Amphi</td>
-<td><strong>..m</strong></td>
-<td>Endo</td>
-<td><strong>..n</strong></td>
-<td>Kato</td>
-<td><strong>..k</strong></td>
-<td>Supra</td>
-<td><strong>..s</strong></td>
+<td class="gt_row gt_left" headers="Name">Amphi</td>
+<td class="gt_row gt_left" headers="Code" style="font-weight: bold">..m</td>
 </tr>
 <tr class="even">
-<td>Ano</td>
-<td><strong>..a</strong></td>
-<td>Epi</td>
-<td><strong>..p</strong></td>
-<td>Panto</td>
-<td><strong>..e</strong></td>
-<td>Thapto</td>
-<td><strong>..b</strong></td>
+<td class="gt_row gt_left" headers="Name">Ano</td>
+<td class="gt_row gt_left" headers="Code" style="font-weight: bold">..a</td>
 </tr>
 <tr class="odd">
-<td>Bathy</td>
-<td><strong>..d</strong></td>
-<td></td>
-<td></td>
-<td>Poly</td>
-<td><strong>..y</strong></td>
-<td></td>
-<td></td>
+<td class="gt_row gt_left" headers="Name">Bathy</td>
+<td class="gt_row gt_left" headers="Code" style="font-weight: bold">..d</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Name">Endo</td>
+<td class="gt_row gt_left" headers="Code" style="font-weight: bold">..n</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Name">Epi</td>
+<td class="gt_row gt_left" headers="Code" style="font-weight: bold">..p</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Name">Kato</td>
+<td class="gt_row gt_left" headers="Code" style="font-weight: bold">..k</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Name">Panto</td>
+<td class="gt_row gt_left" headers="Code" style="font-weight: bold">..e</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Name">Poly</td>
+<td class="gt_row gt_left" headers="Code" style="font-weight: bold">..y</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Name">Supra</td>
+<td class="gt_row gt_left" headers="Code" style="font-weight: bold">..s</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Name">Thapto</td>
+<td class="gt_row gt_left" headers="Code" style="font-weight: bold">..b</td>
 </tr>
 </tbody>
 </table>
+
+</div>
+</div>
+</div>
+</figure>
+</div>
+</div>
 </section>
 <section id="combinations-with-the-novic-qualifier" class="level2" data-number="6.4">
 <h2 data-number="6.4" class="anchored" data-anchor-id="combinations-with-the-novic-qualifier"><span class="header-section-number">6.4</span> Combinations with the Novic qualifier</h2>
-<table class="table">
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>See Chapter 2.4, <a href="./chapter-02.html#sec-buried">Buried soils</a></p>
+</div>
+</div>
+<div class="cell no-stripe" data-layout-align="center">
+<div id="tbl-sixfour" class="cell no-stripe quarto-float anchored" data-layout-align="center">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-sixfour-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;6.4: Novic combinations
+</figcaption>
+<div aria-describedby="tbl-sixfour-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<div id="scditfeqgx" style="padding-left:0px;padding-right:0px;padding-top:10px;padding-bottom:10px;overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+<style>#scditfeqgx table {
+  font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#scditfeqgx thead, #scditfeqgx tbody, #scditfeqgx tfoot, #scditfeqgx tr, #scditfeqgx td, #scditfeqgx th {
+  border-style: none;
+}
+
+#scditfeqgx p {
+  margin: 0;
+  padding: 0;
+}
+
+#scditfeqgx .gt_table {
+  display: table;
+  border-collapse: collapse;
+  line-height: normal;
+  margin-left: 0;
+  margin-right: auto;
+  color: #333333;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: normal;
+  background-color: #FFFFFF;
+  width: auto;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #A8A8A8;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #A8A8A8;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+}
+
+#scditfeqgx .gt_caption {
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#scditfeqgx .gt_title {
+  color: #333333;
+  font-size: 125%;
+  font-weight: bold;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-color: #FFFFFF;
+  border-bottom-width: 0;
+}
+
+#scditfeqgx .gt_subtitle {
+  color: #333333;
+  font-size: 85%;
+  font-weight: initial;
+  padding-top: 3px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-color: #FFFFFF;
+  border-top-width: 0;
+}
+
+#scditfeqgx .gt_heading {
+  background-color: #FFFFFF;
+  text-align: center;
+  border-bottom-color: #FFFFFF;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#scditfeqgx .gt_bottom_border {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#scditfeqgx .gt_col_headings {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+}
+
+#scditfeqgx .gt_col_heading {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 6px;
+  padding-left: 5px;
+  padding-right: 5px;
+  overflow-x: hidden;
+}
+
+#scditfeqgx .gt_column_spanner_outer {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: bold;
+  text-transform: inherit;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+#scditfeqgx .gt_column_spanner_outer:first-child {
+  padding-left: 0;
+}
+
+#scditfeqgx .gt_column_spanner_outer:last-child {
+  padding-right: 0;
+}
+
+#scditfeqgx .gt_column_spanner {
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: bottom;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  overflow-x: hidden;
+  display: inline-block;
+  width: 100%;
+}
+
+#scditfeqgx .gt_spanner_row {
+  border-bottom-style: hidden;
+}
+
+#scditfeqgx .gt_group_heading {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  text-align: left;
+}
+
+#scditfeqgx .gt_empty_group_heading {
+  padding: 0.5px;
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  vertical-align: middle;
+}
+
+#scditfeqgx .gt_from_md > :first-child {
+  margin-top: 0;
+}
+
+#scditfeqgx .gt_from_md > :last-child {
+  margin-bottom: 0;
+}
+
+#scditfeqgx .gt_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin: 10px;
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 1px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-right-color: #D3D3D3;
+  vertical-align: middle;
+  overflow-x: hidden;
+}
+
+#scditfeqgx .gt_stub {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#scditfeqgx .gt_stub_row_group {
+  color: #333333;
+  background-color: #FFFFFF;
+  font-size: 100%;
+  font-weight: initial;
+  text-transform: inherit;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+  padding-left: 5px;
+  padding-right: 5px;
+  vertical-align: top;
+}
+
+#scditfeqgx .gt_row_group_first td {
+  border-top-width: 2px;
+}
+
+#scditfeqgx .gt_row_group_first th {
+  border-top-width: 2px;
+}
+
+#scditfeqgx .gt_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#scditfeqgx .gt_first_summary_row {
+  border-top-style: solid;
+  border-top-color: #D3D3D3;
+}
+
+#scditfeqgx .gt_first_summary_row.thick {
+  border-top-width: 2px;
+}
+
+#scditfeqgx .gt_last_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#scditfeqgx .gt_grand_summary_row {
+  color: #333333;
+  background-color: #FFFFFF;
+  text-transform: inherit;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#scditfeqgx .gt_first_grand_summary_row {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-top-style: double;
+  border-top-width: 6px;
+  border-top-color: #D3D3D3;
+}
+
+#scditfeqgx .gt_last_grand_summary_row_top {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-bottom-style: double;
+  border-bottom-width: 6px;
+  border-bottom-color: #D3D3D3;
+}
+
+#scditfeqgx .gt_striped {
+  background-color: rgba(128, 128, 128, 0.05);
+}
+
+#scditfeqgx .gt_table_body {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #D3D3D3;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+}
+
+#scditfeqgx .gt_footnotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#scditfeqgx .gt_footnote {
+  margin: 0px;
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#scditfeqgx .gt_sourcenotes {
+  color: #333333;
+  background-color: #FFFFFF;
+  border-bottom-style: none;
+  border-bottom-width: 2px;
+  border-bottom-color: #D3D3D3;
+  border-left-style: none;
+  border-left-width: 2px;
+  border-left-color: #D3D3D3;
+  border-right-style: none;
+  border-right-width: 2px;
+  border-right-color: #D3D3D3;
+}
+
+#scditfeqgx .gt_sourcenote {
+  font-size: 90%;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+#scditfeqgx .gt_left {
+  text-align: left;
+}
+
+#scditfeqgx .gt_center {
+  text-align: center;
+}
+
+#scditfeqgx .gt_right {
+  text-align: right;
+  font-variant-numeric: tabular-nums;
+}
+
+#scditfeqgx .gt_font_normal {
+  font-weight: normal;
+}
+
+#scditfeqgx .gt_font_bold {
+  font-weight: bold;
+}
+
+#scditfeqgx .gt_font_italic {
+  font-style: italic;
+}
+
+#scditfeqgx .gt_super {
+  font-size: 65%;
+}
+
+#scditfeqgx .gt_footnote_marks {
+  font-size: 75%;
+  vertical-align: 0.4em;
+  position: initial;
+}
+
+#scditfeqgx .gt_asterisk {
+  font-size: 100%;
+  vertical-align: 0;
+}
+
+#scditfeqgx .gt_indent_1 {
+  text-indent: 5px;
+}
+
+#scditfeqgx .gt_indent_2 {
+  text-indent: 10px;
+}
+
+#scditfeqgx .gt_indent_3 {
+  text-indent: 15px;
+}
+
+#scditfeqgx .gt_indent_4 {
+  text-indent: 20px;
+}
+
+#scditfeqgx .gt_indent_5 {
+  text-indent: 25px;
+}
+</style>
+
+<table class="gt_table do-not-create-environment cell no-stripe table table-sm table-striped small" data-quarto-postprocess="true" data-quarto-disable-processing="false" data-quarto-bootstrap="false">
 <colgroup>
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
-<col style="width: 12%">
+<col>
+<col style="width: 20%">
 </colgroup>
-<tbody>
+<thead>
+<tr class="header gt_col_headings">
+<th id="Name" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Name</th>
+<th id="Code" class="gt_col_heading gt_columns_bottom_border gt_left" data-quarto-table-cell-role="th" scope="col">Code</th>
+</tr>
+</thead>
+<tbody class="gt_table_body">
 <tr class="odd">
-<td>Aeoli-Novic</td>
-<td><strong>nva</strong></td>
-<td>Solimovic-Novic</td>
-<td><strong>nvs</strong></td>
-<td>Tephri-Novic</td>
-<td><strong>nvv</strong></td>
-<td>Transporti-Novic</td>
-<td><strong>nvp</strong></td>
+<td class="gt_row gt_left" headers="Name">Aeoli-novic</td>
+<td class="gt_row gt_left" headers="Code" style="font-weight: bold">nva</td>
 </tr>
 <tr class="even">
-<td>Fluvi-Novic</td>
-<td><strong>nvf</strong></td>
-<td>Techni-Novic</td>
-<td><strong>nvt</strong></td>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td class="gt_row gt_left" headers="Name">Fluvi-novic</td>
+<td class="gt_row gt_left" headers="Code" style="font-weight: bold">nvf</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Name">Solimovic-novic</td>
+<td class="gt_row gt_left" headers="Code" style="font-weight: bold">nvs</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Name">Techni-novic</td>
+<td class="gt_row gt_left" headers="Code" style="font-weight: bold">nvt</td>
+</tr>
+<tr class="odd">
+<td class="gt_row gt_left" headers="Name">Tephri-novic</td>
+<td class="gt_row gt_left" headers="Code" style="font-weight: bold">nvv</td>
+</tr>
+<tr class="even">
+<td class="gt_row gt_left" headers="Name">Transporti-novic</td>
+<td class="gt_row gt_left" headers="Code" style="font-weight: bold">nvp</td>
 </tr>
 </tbody>
 </table>
-<p><strong>Note:</strong> The codes for the combinations with subqualifiers of the Novic qualifier are constructed accordingly, e.g., Aeoli-Siltinovic (sja).</p>
+
+</div>
+</div>
+</div>
+</figure>
+</div>
+</div>
+<p><strong>Note:</strong> The codes for the combinations with subqualifiers of the <a href="./chapter-05.html#sec-nv">Novic</a> qualifier are constructed accordingly, e.g., Aeoli-Siltinovic (sja).</p>
 <section id="rules-for-the-use-of-the-codes-for-naming-soils" class="level3" data-number="6.4.1">
 <h3 data-number="6.4.1" class="anchored" data-anchor-id="rules-for-the-use-of-the-codes-for-naming-soils"><span class="header-section-number">6.4.1</span> Rules for the use of the codes for naming soils</h3>
 <p>At the first level of classification, the code of the RSG stands alone.</p>
@@ -2115,18 +2423,49 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
   const processXRef = (id, note) => {
-    if (id.startsWith('sec-')) {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
       // Special case sections, only their first couple elements
       const container = document.createElement("div");
       if (note.children && note.children.length > 2) {
-        for (let i = 0; i < 2; i++) {
-          container.appendChild(note.children[i].cloneNode(true));
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
         }
         return container.innerHTML
       } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
         return note.innerHTML;
       }
     } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
       return note.innerHTML;
     }
   }
@@ -2146,7 +2485,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         const note = window.document.getElementById(id);
         if (note !== null) {
           try {
-            const html = processXRef(id, note);
+            const html = processXRef(id, note.cloneNode(true));
             instance.setContent(html);
           } finally {
             instance.enable();
@@ -2169,6 +2508,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             instance.show();
           });
         }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
       }
     }, function(instance) {
     });
@@ -2240,6 +2602,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -2301,12 +2689,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./chapter-05.html" class="pagination-link">
+      <a href="./chapter-05.html" class="pagination-link  aria-label=" &lt;span="" of="" qualifiers&lt;="" span&gt;"="">
         <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Definitions of qualifiers</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./chapter-07.html" class="pagination-link">
+      <a href="./chapter-07.html" class="pagination-link" aria-label="<span class='chapter-number'>7</span>&nbsp; <span class='chapter-title'>References</span>">
         <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">References</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>

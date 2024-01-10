@@ -1,3 +1,12 @@
 caption, .table-caption {
   text-align: left;
 }
+
+/*
+See https://github.com/quarto-dev/quarto-cli/issues/6945 for why this is exists;
+hopefully temporary :/
+*/
+
+.no-stripe .gt_table tr.odd {
+  --bs-table-striped-bg: transparent;
+}
