@@ -15,6 +15,7 @@ book:
   publisher-place: "Vienna, Austria"
   cover-image: images/cover.png
   cover-image-alt: 'An image of the cover of the World Reference Base for Soil Resources, 4th edition, showing pictures of soils and landscapes from around the world.'
+  output-file: "WRB-Soil-4e"
   site-url: https://obrl-soil.github.io/wrbsoil2022/
   repo-url: https://github.com/obrl-soil/wrbsoil2022
   repo-branch: main
@@ -59,6 +60,8 @@ format:
     css: styles.css
     mermaid:
       theme: neutral
+  epub:
+    epub-cover-image: images/cover.png
 
 editor: visual
 

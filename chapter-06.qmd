@@ -14,10 +14,9 @@ library(tibble)
 ## Reference Soil Groups
 
 ```{r}
-#| label: tbl-sixone
-#| tbl-cap: Reference Soil Groups
-#| classes: no-stripe
+#| echo: false
 
+# sets up for interactive tables only in HTML
 tbl_sixone_dat <- tribble(
         ~Name, ~Code,
     'Acrisol',  'AC',
@@ -62,21 +61,25 @@ tbl_sixone <- gt(tbl_sixone_dat) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
 
+```
+
+```{r}
+#| label: tbl-sixone
+#| tbl-cap: Reference Soil Groups
+#| classes: no-stripe
+
 # using interactivity to manage table length
 tbl_sixone |> 
-  rm_caption() |>
   opt_interactive(
     use_search = TRUE,
     use_page_size_select = TRUE
-                  ) 
+    ) 
 ```
 
 ## Qualifiers
 
 ```{r}
-#| label: tbl-sixtwo
-#| tbl-cap: Qualifiers
-#| classes: no-stripe
+#| echo: false
 
 tbl_sixtwo_dat <- tribble(
                 ~Name, ~Code,
@@ -376,13 +379,19 @@ tbl_sixtwo <- gt(tbl_sixtwo_dat) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2))
 
+```
+
+```{r}
+#| label: tbl-sixtwo
+#| tbl-cap: Qualifiers
+#| classes: no-stripe
+
 # using interactivity to manage table length
 tbl_sixtwo |> 
   opt_interactive(
     use_search = TRUE,
     use_page_size_select = TRUE
-                  ) |>
-  rm_caption()
+                  )
 ```
 
 ## Specifiers
@@ -534,4 +543,3 @@ If elective qualifiers are added: examples:\
 first scale level: FR--ce\
 second scale level: FR-xa-ce\
 third scale level: FR-xa.gr-um.ce.dy
-
