@@ -1,9 +1,7 @@
 # Codes for the Reference Soil Groups, qualifiers and specifiers
 
-## Reference Soil Groups
-
 ```{r}
-#| label: tbl-a291
+#| echo: false
 
 library(dplyr)
 library(purrr)
@@ -11,9 +9,16 @@ library(glue)
 library(stringr)
 library(gt)
 library(tibble)
+```
 
-# NB wrap to multicolumns when that functionality becomes available
-tbl_a291_dat <- tribble(
+## Reference Soil Groups
+
+```{r}
+#| label: tbl-sixone
+#| tbl-cap: Reference Soil Groups
+#| classes: no-stripe
+
+tbl_sixone_dat <- tribble(
         ~Name, ~Code,
     'Acrisol',  'AC',
      'Alisol',  'AL',
@@ -48,24 +53,32 @@ tbl_a291_dat <- tribble(
    'Umbrisol',  'UM',
    'Vertisol',  'VR')
 
-tbl_a291 <- gt(tbl_a291_dat) |>
+tbl_sixone <- gt(tbl_sixone_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
 
-tbl_a291
+# using interactivity to manage table length
+tbl_sixone |> 
+  rm_caption() |>
+  opt_interactive(
+    use_search = TRUE,
+    use_page_size_select = TRUE
+                  ) 
 ```
 
 ## Qualifiers
 
 ```{r}
-#| label: tbl-a292
+#| label: tbl-sixtwo
+#| tbl-cap: Qualifiers
+#| classes: no-stripe
 
-tbl_a292_dat <- tribble(
+tbl_sixtwo_dat <- tribble(
                 ~Name, ~Code,
            'Abruptic',  'ap',
              'Aceric',  'ae',
@@ -354,34 +367,95 @@ tbl_a292_dat <- tribble(
             'Xanthic',  'xa',
              'Yermic',  'ye')
 
-tbl_a292 <- gt(tbl_a292_dat) |>
+tbl_sixtwo <- gt(tbl_sixtwo_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
     table.align = 'left'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2))
 
-tbl_a292
+# using interactivity to manage table length
+tbl_sixtwo |> 
+  opt_interactive(
+    use_search = TRUE,
+    use_page_size_select = TRUE
+                  ) |>
+  rm_caption()
 ```
 
 ## Specifiers
 
-|       |         |      |         |       |         |        |         |
-|-------|---------|------|---------|-------|---------|--------|---------|
-| Amphi | **..m** | Endo | **..n** | Kato  | **..k** | Supra  | **..s** |
-| Ano   | **..a** | Epi  | **..p** | Panto | **..e** | Thapto | **..b** |
-| Bathy | **..d** |      |         | Poly  | **..y** |        |         |
+```{r}
+#| label: tbl-sixthree
+#| tbl-cap: Specifiers
+#| classes: no-stripe
+
+tbl_sixthree_dat <- 
+  tribble(
+    ~Name, ~Code,
+    'Amphi',  '..m',
+    'Ano',    '..a',
+    'Bathy',  '..d',
+    'Endo',   '..n',
+    'Epi',    '..p',
+    'Kato',   '..k',
+    'Panto',  '..e',
+    'Poly',   '..y',
+    'Supra',  '..s',
+    'Thapto', '..b'
+  )
+
+tbl_sixthree <- gt(tbl_sixthree_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
+
+tbl_sixthree
+```
 
 ## Combinations with the Novic qualifier
 
-|             |         |                 |         |              |         |                  |         |
-|---------|---------|---------|---------|---------|---------|---------|---------|
-| Aeoli-Novic | **nva** | Solimovic-Novic | **nvs** | Tephri-Novic | **nvv** | Transporti-Novic | **nvp** |
-| Fluvi-Novic | **nvf** | Techni-Novic    | **nvt** |              |         |                  |         |
+::: callout-note
+See Chapter 2.4, [Buried soils](chapter-02.qmd#sec-buried)
+:::
 
-**Note:** The codes for the combinations with subqualifiers of the Novic qualifier are constructed accordingly, e.g., Aeoli-Siltinovic (sja).
+```{r}
+#| label: tbl-sixfour
+#| tbl-cap: Novic combinations
+#| classes: no-stripe
+
+tbl_sixfour_dat <- 
+  tribble(
+    ~Name, ~Code,
+    'Aeoli-novic',      'nva',
+    'Fluvi-novic',      'nvf',
+    'Solimovic-novic',  'nvs',
+    'Techni-novic',     'nvt',
+    'Tephri-novic',     'nvv',
+    'Transporti-novic', 'nvp'
+  )
+
+tbl_sixfour <- gt(tbl_sixfour_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight     = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
+
+tbl_sixfour
+```
+
+**Note:** The codes for the combinations with subqualifiers of the [Novic](chapter-05.qmd#sec-nv) qualifier are constructed accordingly, e.g., Aeoli-Siltinovic (sja).
 
 ### Rules for the use of the codes for naming soils
 
@@ -460,3 +534,4 @@ If elective qualifiers are added: examples:\
 first scale level: FR--ce\
 second scale level: FR-xa-ce\
 third scale level: FR-xa.gr-um.ce.dy
+

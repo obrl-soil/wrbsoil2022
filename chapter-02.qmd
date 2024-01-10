@@ -70,26 +70,26 @@ For naming a soil at the second level, all the principal and supplementary quali
 
 A soil developed from loess with high-activity clays has a marked clay increase at 60 cm depth, clay coatings in the clay-rich horizon, no stratification, and a field pH value around 6 in the depth from 50 to 100 cm. The clay-poor upper soil is subdivided into a darker upper and a light-coloured lower horizon. The clay-rich horizon has a limited amount of oximorphic features with intensive colours inside the soil aggregates and reducing conditions in some parts during springtime. The following conclusions can be drawn (for subqualifiers see [Chapter 2.3](#sec-subq)):
 
-+-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| a\.       | clay increase without [*lithic discontinuity*](chapter-03.qmd#sec-lithd) and/or with clay coatings                         | --\> [*argic horizon*](chapter-03.qmd#sec-argich)                       |
-+-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| b\.       | [*argic horizon*](chapter-03.qmd#sec-argich) with high CEC, more exchangeable base cations than Al (inferred by pH 6)      | --\> [Luvisol](chapter-04.qmd#sec-key-lv)                               |
-+-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| c\.       | light colour in the eluvial horizon                                                                                        | --\> [*claric material*](chapter-03.qmd#sec-claricm)                    |
-+-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| d\.       | [*claric material*](chapter-03.qmd#sec-claricm) above the [*argic horizon*](chapter-03.qmd#sec-argich)                     | *--\>* [*albic horizon*](chapter-03.qmd#sec-albich)*\                   |
-|           |                                                                                                                            | --\>* [Albic](chapter-05.qmd#sec-ab) qualifier                          |
-+-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| e\.       | some oximorphic features inside aggregates                                                                                 | --\> [*stagnic properties*](chapter-03.qmd#sec-stagnp)                  |
-+-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| f\.       | [*stagnic properties*](chapter-03.qmd#sec-stagnp) and [*reducing conditions*](chapter-03.qmd#sec-reducc) starting at 60 cm | --\> [Endo](#sec-endo)[stagnic](chapter-03.qmd#sec-stagnp) subqualifier |
-+-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| g\.       | clay coatings                                                                                                              | --\> [Cutanic](chapter-05.qmd#sec-ct) qualifier                         |
-+-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| h\.       | clay increase without [*lithic discontinuity*](chapter-03.qmd#sec-lithd)                                                   | --\> [Differentic](chapter-05.qmd#sec-df) qualifier                     |
-+-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
-| i\.       | argic horizon starting \> 50 cm and ≤ 100 cm                                                                               | --\> [Endic](chapter-05.qmd#sec-ed) qualifier                           |
-+-----------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
++------------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| a\.        | clay increase without [*lithic discontinuity*](chapter-03.qmd#sec-lithd) and/or with clay coatings                         | --\> [*argic horizon*](chapter-03.qmd#sec-argich)                       |
++------------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| b\.        | [*argic horizon*](chapter-03.qmd#sec-argich) with high CEC, more exchangeable base cations than Al (inferred by pH 6)      | --\> [Luvisol](chapter-04.qmd#sec-key-lv)                               |
++------------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| c\.        | light colour in the eluvial horizon                                                                                        | --\> [*claric material*](chapter-03.qmd#sec-claricm)                    |
++------------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| d\.        | [*claric material*](chapter-03.qmd#sec-claricm) above the [*argic horizon*](chapter-03.qmd#sec-argich)                     | *--\>* [*albic horizon*](chapter-03.qmd#sec-albich)*\                   |
+|            |                                                                                                                            | --\>* [Albic](chapter-05.qmd#sec-ab) qualifier                          |
++------------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| e\.        | some oximorphic features inside aggregates                                                                                 | --\> [*stagnic properties*](chapter-03.qmd#sec-stagnp)                  |
++------------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| f\.        | [*stagnic properties*](chapter-03.qmd#sec-stagnp) and [*reducing conditions*](chapter-03.qmd#sec-reducc) starting at 60 cm | --\> [Endo](#sec-endo)[stagnic](chapter-03.qmd#sec-stagnp) subqualifier |
++------------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| g\.        | clay coatings                                                                                                              | --\> [Cutanic](chapter-05.qmd#sec-ct) qualifier                         |
++------------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| h\.        | clay increase without [*lithic discontinuity*](chapter-03.qmd#sec-lithd)                                                   | --\> [Differentic](chapter-05.qmd#sec-df) qualifier                     |
++------------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
+| i\.        | argic horizon starting \> 50 cm and ≤ 100 cm                                                                               | --\> [Endic](chapter-05.qmd#sec-ed) qualifier                           |
++------------+----------------------------------------------------------------------------------------------------------------------------+-------------------------------------------------------------------------+
 
 The **field classification** is Albic Endostagnic Luvisol (Cutanic, Differentic).
 
@@ -233,7 +233,7 @@ A landscape usually shows a variety of soils. For a map unit, they often have to
 #| results: hold
 #| label: tbl-twoone
 #| tbl-cap: Detection of dominant, codominant and associated soils.
-#| tbl-colwidths: [10, 70, 20]  
+#| classes: no-stripe  
 
 library(dplyr)
 library(purrr)
@@ -257,7 +257,8 @@ tbl21 <- gt(table_twoone_body) |>
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
     table.align = 'left'
-  )
+  ) |>
+  cols_width(Area ~ pct(10), CSN ~ pct(70))
 
 tbl21
 
@@ -269,6 +270,7 @@ tbl21
 #| results: hold
 #| label: tbl-twotwo
 #| tbl-cap: Denomination of the map unit depending on the scale level.
+#| classes: no-stripe
 
 
 table_twotwo_body <- tribble(
@@ -287,7 +289,8 @@ tbl22 <- gt(table_twotwo_body) |>
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
     table.align = 'left'
-  )
+  ) |>
+  cols_width(ends_with('soil') ~ pct(30))
 
 tbl22
 ```

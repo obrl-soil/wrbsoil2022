@@ -110,7 +110,7 @@ The definition includes [*continuous rock*](chapter-03.qmd#sec-crockp), paved ur
 #| results: hold
 #| label: tbl-oneone
 #| tbl-cap: "The diagnostic horizons, properties and materials of the WRB. **This table does not provide definitions**. For diagnostic criteria, please refer to [Chapter 3](chapter-03.qmd)."
-#| tbl-colwidths: [20,80]  
+#| classes: no-stripe
 
 library(dplyr)
 library(purrr)
@@ -231,7 +231,8 @@ tb1 <- left_join(tbl_oneone_grpnames, table_oneone_body,
     heading.title.font.weight     = 'bold',
     column_labels.hidden          = TRUE,
     table.align = 'left'
-  )
+  ) |>
+  cols_width(link_nm ~ pct(20), desc ~ pct(80))
   
 tb1
   
@@ -273,7 +274,7 @@ In the WRB, a distinction is made between **principal qualifiers** and **supplem
 #| results: hold
 #| label: tbl-onetwo
 #| tbl-cap: "Simplified guide to the WRB Reference Soil Groups (RSGs) with suggested codes. **This table is not to be used as a key**. For full definitions, please refer to [Chapter 3](chapter-03.qmd) and the Key ([Chapter 4](chapter-04.qmd))."
-#| tbl-colwidths: [70, 20, 10]  
+#| classes: no-stripe
 
 table_onetwo_body <- tribble(
   ~Name, ~RSG, ~Code,
@@ -321,7 +322,8 @@ table_onetwo_body <- tribble(
 tb2 <- table_onetwo_body |>
   dplyr::mutate(
     cl = tolower(Code),
-    link_nm = glue::glue("[{Code}](chapter-04.qmd#sec-key-{cl})", .na = NULL),
+    link_nm = glue::glue("[{Code}](chapter-04.qmd#sec-key-{cl})", 
+                         .na = NULL),
                 link_nm = purrr::map(link_nm, gt::md)) |>
   dplyr::select(-cl, -Code,) |>
   dplyr::select(Name, RSG, link_nm) |>
@@ -333,13 +335,15 @@ tb2 <- table_onetwo_body |>
   tab_style(style = cell_text(align = 'left'), locations = cells_body()) |>
   tab_style(style = cell_text(weight = 'bold'), 
             locations = cells_body(columns = Name, 
-                                   rows    = c(1, 2, 5, 11, 20, 25, 29, 35))) |>
+                                   rows    = c(1, 2, 5, 11, 20, 
+                                               25, 29, 35))) |>
   sub_missing(missing_text = '') |>
   tab_options(
     column_labels.font.weight = 'bold',
     heading.title.font.weight     = 'bold',
     table.align = 'left'
-  )
+  ) |>
+  cols_width(Name ~ pct(70), RSG ~ pct(20), Code ~ pct(10))
 
 tb2
 ```

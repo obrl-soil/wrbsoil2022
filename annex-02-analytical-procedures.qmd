@@ -1,5 +1,17 @@
 # Annex 2: Summary of analytical procedures for soil characterization {#sec-a2}
 
+```{r}
+#| echo: false
+
+library(dplyr)
+library(purrr)
+library(glue)
+library(stringr)
+library(gt)
+library(gtExtras)
+library(tibble)
+```
+
 This annex provides summaries of recommended analytical procedures to be used for soil characterization for the World Reference Base for Soil Resources. Full descriptions can be found in *Procedures for soil analysis* [@procedur2002] and the USDA *Kellogg Soil Survey Laboratory Methods Manual* [@kellogg2014].
 
 ## Sample preparation {#sec-a2-91}
@@ -16,23 +28,45 @@ Calculation of contents is done on the basis of dry (105 °C) soil mass.
 
 The mineral part of the soil is separated into various size fractions and the proportion of these fractions is determined. The determination comprises all material, i.e. including coarse fragments, but the procedure itself is applied to the fine earth (≤ 2 mm) only. The particle-size classes according to ISO 11277:2009 [@internationalorganizationforstandardization2015] are given in the Table:
 
-| Particle-size class | Diameter of particles |
-|---------------------|-----------------------|
-| Fine earth          | all particles ≤ 2 mm  |
-| Sand                | \> 63 μm - ≤ 2 mm     |
-| Very coarse sand    | \> 1250 μm - ≤ 2 mm   |
-| Coarse sand         | \> 630 μm - ≤ 1250 μm |
-| Medium sand         | \> 200 μm - ≤ 630 μm  |
-| Fine sand           | \> 125 μm - ≤ 200 μm  |
-| Very fine sand      | \> 63 μm - ≤ 125 μm   |
-| Silt                | \> 2 μm - ≤ 63 μm     |
-| Coarse silt         | \> 20 μm - ≤ 63 μm    |
-| Fine silt           | \> 2 μm - ≤ 20 μm     |
-| Clay                | ≤ 2 μm                |
-| Coarse clay         | \> 0.2 μm - ≤ 2 μm    |
-| Fine clay           | ≤ 0.2 μm              |
+```{r}
+#| label: tbl-a291
+#| tbl-cap: Particle-size classes
+#| classes: no-stripe
 
-: Particle-size classes {#tbl-a2-91}
+# NB tbl-a1838 is almost identical...
+tbl_a291_dat <- tribble(
+ ~PS_Class,   ~Diameter,
+'Fine earth',       'all particles ≤ 2mm',  
+'Sand',             '> 63 μm - ≤ 2 mm',     
+'Very coarse sand', '> 1250 μm - ≤ 2 mm',
+'Coarse sand',      '> 630 μm - ≤ 1250 μm',
+'Medium sand',      '> 200 μm - ≤ 630 μm',
+'Fine sand',        '> 125 μm - ≤ 200 μm',
+'Very fine sand',   '> 63 μm - ≤ 125 μm',
+'Silt',             '> 2 μm - ≤ 63 μm',
+'Coarse silt',      '> 20 μm - ≤ 63 μm',  
+'Fine silt',        '> 2 μm - ≤ 20 μm',
+'Clay',             '≤ 2 μm',
+'Coarse clay',      '> 0.2 μm - ≤ 2 μm',
+'Fine clay',        '≤ 0.2 μm'
+)
+
+tbl_a291 <- gt(tbl_a291_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left',
+    table.width = '100%'
+  ) |>
+  tab_style(style = list(cell_text(indent = pct(5))),
+            locations = cells_body(columns = 1, 
+                                   rows = c(3:7, 9:10, 12:13))) |>
+  cols_label(PS_Class = 'Particle-size class',
+             Diameter = 'Diameter of particles') |>
+  cols_width(Diameter ~ pct(50))
+
+tbl_a291
+```
 
 The pre-treatment of the sample is aimed at complete dispersion of the primary particles. Therefore, cementing materials (usually of secondary origin) such as organic matter and calcium carbonate may have to be removed. In some cases, de-ferration also needs to be applied. The amount of cementing material has to be documented. However, depending on the aim of study, it may be fundamentally wrong to remove cementing materials. Thus, all pre-treatments are considered optional. However, for soil characterization purposes, removal of organic matter by H~2~O~2~ and of carbonates by HCl is routinely carried out. After this pre-treatment, the sample is shaken with a dispersing agent and sand is separated from clay and silt with a 63-μm sieve. The sand is fractionated by dry sieving; the clay and silt fractions are determined by the pipette method or, alternatively, by the hydrometer method.
 

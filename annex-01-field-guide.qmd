@@ -107,8 +107,8 @@ If the profile lies in an uneven terrain, report the profile position.
 
 ```{r}
 #| label: tbl-a181
-#| tbl-cap: Position of the profile, Schoeneberger et al. (2012), 1-7, modified
-#| tbl-colwidths: [80, 20] 
+#| tbl-cap: Position of the profile, Schoeneberger et al. [-@schoeneberger2012], 1-7, modified
+#| classes: no-stripe
 
 tbl_a181_dat <- tribble(
   ~Position, ~Code,
@@ -125,12 +125,13 @@ tbl_a181_dat <- tribble(
 tbl_a181 <- gt(tbl_a181_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
 
 tbl_a181
 ```
@@ -143,8 +144,8 @@ Report the climate according to Köppen [-@köppen1936] and the ecozones accordi
 
 ```{r}
 #| label: tbl-a182
-#| tbl-cap: Climate according to Köppen (1936)
-#| tbl-colwidths: [80, 20] 
+#| tbl-cap: Climate according to Köppen [-@köppen1936]
+#| classes: no-stripe
 
 tbl_a182_dat <- tribble(
   ~Climate, ~Code,
@@ -188,23 +189,24 @@ tbl_a182_dat <- tribble(
 tbl_a182 <- gt(tbl_a182_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |>
-  tab_style(style = list(cell_text(indent = 12)),
+  tab_style(style = list(cell_text(indent = pct(5))),
             locations = cells_body(rows = seq(36)[-c(1, 6, 11, 21, 34)], 
-                                   columns = 1))
+                                   columns = 1)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a182
 ```
 
 ```{r}
 #| label: tbl-a183
-#| tbl-cap: Ecozones according to Schultz (2005, adapted)
-#| tbl-colwidths: [80, 20] 
+#| tbl-cap: Ecozones according to Schultz [-@schultz2005, adapted]
+#| classes: no-stripe
 
 tbl_a183_dat <- tribble(
   ~Ecozone, ~Code,
@@ -221,12 +223,13 @@ tbl_a183_dat <- tribble(
 tbl_a183 <- gt(tbl_a183_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2))
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a183
 ```
@@ -237,8 +240,8 @@ Report the season of the description. Vegetation can best be described in the se
 
 ```{r}
 #| label: tbl-a184
-#| tbl-cap:  Season of description
-#| tbl-colwidths: [50, 30, 20] 
+#| tbl-cap: Season of description
+#| classes: no-stripe 
 
 tbl_a184_dat <- tribble(
   ~Ecozone, ~Season, ~Code,     
@@ -251,17 +254,18 @@ tbl_a184_dat <- tribble(
    'TYR, TSD', 'No significant seasonality for plant growth', 'NS')
 
 # n2s cell merging not fully implemented in gt at 2022-11, watch for updates
-tbl_a184 <- gt(tbl_a184_dat, rowname_col = 'Ecozone') |>
+# 2024-01 can still only merge col-wise, not row
+tbl_a184 <- gt(tbl_a184_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   sub_missing(missing_text = '') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
-  tab_stubhead(label = 'Ecozone')
+  cols_width(Ecozone ~ pct(40), Season ~ pct(40), Code ~ pct(20))
   
 tbl_a184
 ```
@@ -272,8 +276,8 @@ Report the current and past weather conditions.
 
 ```{r}
 #| label: tbl-a185
-#| tbl-cap:  Current weather conditions, Schoeneberger et al. (2012), 1-1
-#| tbl-colwidths: [80, 20] 
+#| tbl-cap:  Current weather conditions, Schoeneberger et al. [-@schoeneberger2012], 1-1
+#| classes: no-stripe
 
 tbl_a185_dat <- tribble(
   ~Current_wcond, ~Code,
@@ -287,21 +291,22 @@ tbl_a185_dat <- tribble(
 tbl_a185 <- gt(tbl_a185_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |>
-  cols_label(Current_wcond = "Current weather conditions")
+  cols_label(Current_wcond = "Current weather conditions") |>
+  cols_width(Code ~ pct(20))
   
 tbl_a185
 ```
 
 ```{r}
 #| label: tbl-a186
-#| tbl-cap:  Past weather conditions FAO (2006), Table 2
-#| tbl-colwidths: [80, 20] 
+#| tbl-cap:  Past weather conditions FAO [-@un-fao2006], Table 2
+#| classes: no-stripe
 
 tbl_a186_dat <- tribble(
   ~Past_wcond, ~Code,
@@ -315,13 +320,14 @@ tbl_a186_dat <- tribble(
 tbl_a186 <- gt(tbl_a186_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |>
-  cols_label(Past_wcond = "Current weather conditions")
+  cols_label(Past_wcond = "Current weather conditions") |>
+  cols_width(Code ~ pct(20))
   
 tbl_a186
 ```
@@ -336,8 +342,8 @@ The following strata are relevant.
 
 ```{r}
 #| label: tbl-a187
-#| tbl-cap:  Vegetation strata, National Committee on Soil and Terrain (2009), 79, modified
-#| tbl-colwidths: [60, 30, 10] 
+#| tbl-cap:  Vegetation strata, National Committee on Soil and Terrain [-@nationalcommitteeonsoilandterrain2009], 79, modified
+#| classes: no-stripe
 
 tbl_a187_dat <- tribble(
   ~Criterion, ~Stratum, ~Code,
@@ -348,12 +354,13 @@ tbl_a187_dat <- tribble(
 tbl_a187 <- gt(tbl_a187_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 3)) 
+            locations = cells_body(columns = 3)) |>
+  cols_width(Criterion ~ pct(60), Stratum ~ pct(20), Code ~ pct(20))
   
 tbl_a187
 ```
@@ -364,8 +371,8 @@ If the land is not cultivated, report the vegetation type according to @tbl-a188
 
 ```{r}
 #| label: tbl-a188
-#| tbl-cap:  Vegetation strata, National Committee on Soil and Terrain (2009), 79, modified
-#| tbl-colwidths: [60, 30, 10] 
+#| tbl-cap:  Vegetation strata, National Committee on Soil and Terrain [-@nationalcommitteeonsoilandterrain2009], 79, modified
+#| classes: no-stripe 
 
 tbl_a188_dat <- tribble(
   ~Life_form, ~Veg_type, ~Code,
@@ -390,7 +397,7 @@ tbl_a188_dat <- tribble(
 tbl_a188 <- gt(tbl_a188_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
@@ -398,7 +405,8 @@ tbl_a188 <- gt(tbl_a188_dat) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
   cols_label(Life_form = "Life form",
-             Veg_type = "Vegetation type")
+             Veg_type = "Vegetation type") |>
+  cols_width(Life_form ~ pct(30), Veg_type ~ pct(50), Code ~ pct(20))
   
 tbl_a188
 ```
@@ -406,7 +414,7 @@ tbl_a188
 ```{r}
 #| label: tbl-a189
 #| tbl-cap: Cultivation type
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a189_dat <- tribble(
   ~Cult_type, ~Code,
@@ -427,13 +435,14 @@ tbl_a189_dat <- tribble(
 tbl_a189 <- gt(tbl_a189_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |>
-  cols_label(Cult_type = "Cultivation type")
+  cols_label(Cult_type = "Cultivation type") |>
+  cols_width(Code ~ pct(20))
   
 tbl_a189
 ```
@@ -460,8 +469,8 @@ Report the techniques that refer to the surrounding area of the soil profile. Te
 
 ```{r}
 #| label: tbl-a1810
-#| tbl-cap:  Special techniques to enhance site productivity
-#| tbl-colwidths: [80, 20] 
+#| tbl-cap: Special techniques to enhance site productivity
+#| classes: no-stripe
 
 tbl_a1810_dat <- tribble(
   ~Type, ~Code,
@@ -478,12 +487,13 @@ tbl_a1810_dat <- tribble(
 tbl_a1810 <- gt(tbl_a1810_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1810
 ```
@@ -510,8 +520,8 @@ Coarse surface fragments are loose fragments lying at the soil surface, includin
 
 ```{r}
 #| label: tbl-a1811
-#| tbl-cap:  Size of coarse surface fragments, FAO (2006), Table 15
-#| tbl-colwidths: [40, 40, 20] 
+#| tbl-cap: Size of coarse surface fragments, FAO [-@un-fao2006], Table 15
+#| classes: no-stripe
 
 tbl_a1811_dat <- tribble(
   ~size_cm, ~size_class,  ~Code,
@@ -526,14 +536,15 @@ tbl_a1811_dat <- tribble(
 tbl_a1811 <- gt(tbl_a1811_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
   cols_label(size_cm    = 'Size (cm)',
-             size_class = 'Size class')
+             size_class = 'Size class') |>
+  cols_width(starts_with('size') ~ pct(40))
   
 tbl_a1811
 ```
@@ -553,7 +564,7 @@ Patterned ground is the result of material sorting due to freeze-thaw cycles in 
 ```{r}
 #| label: tbl-a1812
 #| tbl-cap: Patterned ground
-#| tbl-colwidths: [80, 20]
+#| classes: no-stripe
 
 tbl_a1812_dat <- tribble(
   ~Form,  ~Code,
@@ -565,12 +576,13 @@ tbl_a1812_dat <- tribble(
 tbl_a1812 <- gt(tbl_a1812_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1812
 ```
@@ -587,8 +599,8 @@ Cracks are fissures other than those attributed to soil structure (see [Chapter 
 
 ```{r}
 #| label: tbl-a1813
-#| tbl-cap: Width of surface cracks, FAO (2006), Table 21
-#| tbl-colwidths: [40, 40, 20] 
+#| tbl-cap: Width of surface cracks, FAO [-@un-fao2006], Table 21
+#| classes: no-stripe
 
 tbl_a1813_dat <- tribble(
   ~w_cm, ~w_class,  ~Code,
@@ -602,14 +614,15 @@ tbl_a1813_dat <- tribble(
 tbl_a1813 <- gt(tbl_a1813_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
   cols_label(w_cm    = 'Width (cm)',
-             w_class = 'Width class')
+             w_class = 'Width class') |>
+  cols_width(starts_with('w') ~ pct(40))
   
 tbl_a1813
 ```
@@ -618,8 +631,8 @@ tbl_a1813
 
 ```{r}
 #| label: tbl-a1814
-#| tbl-cap: Distance between surface cracks, FAO (2006), Table 21, modified
-#| tbl-colwidths: [40, 40, 20] 
+#| tbl-cap: Distance between surface cracks, FAO [-@un-fao2006], Table 21, modified
+#| classes: no-stripe
 
 tbl_a1814_dat <- tribble(
   ~d_cm, ~d_class,  ~Code,
@@ -635,14 +648,15 @@ tbl_a1814_dat <- tribble(
 tbl_a1814 <- gt(tbl_a1814_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
   cols_label(d_cm    = 'Distance (cm)',
-             d_class = 'Distance class')
+             d_class = 'Distance class') |>
+  cols_width(starts_with('d') ~ pct(40))
   
 tbl_a1814
 ```
@@ -652,7 +666,7 @@ tbl_a1814
 ```{r}
 #| label: tbl-a1815
 #| tbl-cap: Spatial arrangement of surface cracks
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe 
 
 tbl_a1815_dat <- tribble(
   ~spat_arr,  ~Code,
@@ -662,13 +676,14 @@ tbl_a1815_dat <- tribble(
 tbl_a1815 <- gt(tbl_a1815_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |>
-  cols_label(spat_arr = 'Spatial arrangement')
+  cols_label(spat_arr = 'Spatial arrangement') |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1815
 ```
@@ -678,7 +693,7 @@ tbl_a1815
 ```{r}
 #| label: tbl-a1816
 #| tbl-cap: Persistence of surface cracks
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1816_dat <- tribble(
   ~Criterion,  ~Code,
@@ -688,12 +703,13 @@ tbl_a1816_dat <- tribble(
 tbl_a1816 <- gt(tbl_a1816_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1816
 ```
@@ -705,7 +721,7 @@ Report the presence of water above the soil surface. For wet cultivation and irr
 ```{r}
 #| label: tbl-a1817
 #| tbl-cap: Water above the soil surface
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe 
 
 tbl_a1817_dat <- tribble(
   ~Criterion,  ~Code,
@@ -726,12 +742,13 @@ tbl_a1817_dat <- tribble(
 tbl_a1817 <- gt(tbl_a1817_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1817
 ```
@@ -743,7 +760,7 @@ Dry soil surfaces may be water-repellent (hydrophobic). Report the water repelle
 ```{r}
 #| label: tbl-a1818
 #| tbl-cap: Water repellence
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1818_dat <- tribble(
   ~Criterion,  ~Code,
@@ -753,12 +770,13 @@ tbl_a1818_dat <- tribble(
 tbl_a1818 <- gt(tbl_a1818_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1818
 ```
@@ -772,7 +790,7 @@ This paragraph refers to unevenness resulting from soil-forming processes, not a
 ```{r}
 #| label: tbl-a1819
 #| tbl-cap: Types of natural surface unevenness
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1819_dat <- tribble(
   ~Criterion,  ~Code,
@@ -784,12 +802,13 @@ tbl_a1819_dat <- tribble(
 tbl_a1819 <- gt(tbl_a1819_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1819
 ```
@@ -801,7 +820,7 @@ Report up to two types of human-made surface unevenness with an average height d
 ```{r}
 #| label: tbl-a1820
 #| tbl-cap: Types of human-made surface unevenness
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1820_dat <- tribble(
   ~Criterion,  ~Code,
@@ -821,12 +840,13 @@ tbl_a1820_dat <- tribble(
 tbl_a1820 <- gt(tbl_a1820_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1820
 ```
@@ -839,8 +859,8 @@ This paragraph refers to erosion phenomena with an average height difference of 
 
 ```{r}
 #| label: tbl-a1821
-#| tbl-cap: Categories of erosion, FAO (2006), Table 16
-#| tbl-colwidths: [80, 20] 
+#| tbl-cap: Categories of erosion, FAO [-@un-fao2006], Table 16
+#| classes: no-stripe
 
 tbl_a1821_dat <- tribble(
   ~Criterion,  ~Code,
@@ -860,23 +880,24 @@ tbl_a1821_dat <- tribble(
 tbl_a1821 <- gt(tbl_a1821_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |>
-  tab_style(style = list(cell_text(indent = 1)), # buggy???
+  tab_style(style = list(cell_text(indent = pct(5))),
             locations = cells_body(columns = 1, rows = c(2,3,4,5,7,8))) |>
-  sub_missing(missing_text = '')
+  sub_missing(missing_text = '') |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1821
 ```
 
 ```{r}
 #| label: tbl-a1822
-#| tbl-cap: Degree of erosion, FAO (2006), Table 18
-#| tbl-colwidths: [60, 20, 20] 
+#| tbl-cap: Degree of erosion, FAO [-@un-fao2006], Table 18
+#| classes: no-stripe
 
 tbl_a1822_dat <- tribble(
   ~Criterion,  ~Degree, ~Code,
@@ -888,20 +909,21 @@ tbl_a1822_dat <- tribble(
 tbl_a1822 <- gt(tbl_a1822_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 3)) 
+            locations = cells_body(columns = 3)) |>
+  cols_width(Criterion ~ pct(60), Degree ~ pct(20))
   
 tbl_a1822
 ```
 
 ```{r}
 #| label: tbl-a1823
-#| tbl-cap: Activity of erosion, FAO (2006), Table 19
-#| tbl-colwidths: [80, 20] 
+#| tbl-cap: Activity of erosion, FAO [-@un-fao2006], Table 19
+#| classes: no-stripe
 
 tbl_a1823_dat <- tribble(
   ~Criterion,  ~Code,
@@ -918,7 +940,8 @@ tbl_a1823 <- gt(tbl_a1823_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1823
 ```
@@ -930,7 +953,7 @@ Report, where the soil profile is located.
 ```{r}
 #| label: tbl-a1824
 #| tbl-cap: Position of the soil profile, if the soil surface is uneven
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1824_dat <- tribble(
   ~Criterion,  ~Code,
@@ -942,12 +965,13 @@ tbl_a1824_dat <- tribble(
 tbl_a1824 <- gt(tbl_a1824_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1824
 ```
@@ -959,7 +983,7 @@ This Chapter refers to technical surface alterations that do not cause or enhanc
 ```{r}
 #| label: tbl-a1825
 #| tbl-cap: Technical surface alterations
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1825_dat <- tribble(
   ~Criterion,  ~Code,
@@ -974,12 +998,13 @@ tbl_a1825_dat <- tribble(
 tbl_a1825 <- gt(tbl_a1825_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
-    heading.title.font.weight     = 'bold',
+    heading.title.font.weight = 'bold',
     table.align = 'left',
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1825
 ```
@@ -1035,7 +1060,7 @@ Alluvial strata comprise fluviatile, lacustrine and marine deposits. Tephra stra
 ```{r}
 #| label: tbl-a1826
 #| tbl-cap: Presence of strata within a layer
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe 
 
 tbl_a1826_dat <- tribble(
   ~Criterion,  ~Code,
@@ -1052,7 +1077,8 @@ tbl_a1826 <- gt(tbl_a1826_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1826
 ```
@@ -1066,7 +1092,7 @@ Report the water saturation.
 ```{r}
 #| label: tbl-a1827
 #| tbl-cap: Types of water saturation 
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe 
 
 tbl_a1827_dat <- tribble(
   ~Criterion,  ~Code,
@@ -1090,7 +1116,8 @@ tbl_a1827 <- gt(tbl_a1827_dat) |>
             locations = cells_body(columns = 2)) |>
   text_transform(
     locations = cells_body(columns = c(Criterion), rows = c(3,4)),
-    fn = \(x){ str_replace(x, '\\^-1\\^', '<sup>-1</sup>')})
+    fn = \(x){ str_replace(x, '\\^-1\\^', '<sup>-1</sup>')}) |>
+  cols_width(Code ~ pct(20))
 
 tbl_a1827
 ```
@@ -1101,8 +1128,8 @@ Check the soil water status of non-saturated layers. Spray the profile wall with
 
 ```{r}
 #| label: tbl-a1828
-#| tbl-cap: Soil water status, FAO (2006), Table 57, modified 
-#| tbl-colwidths: [30, 30, 20, 20] 
+#| tbl-cap: Soil water status, FAO [-@un-fao2006], Table 57, modified 
+#| classes: no-stripe 
 
 tbl_a1828_dat <- tribble(
   ~Moistening, ~Crushing, ~M_class,  ~Code,
@@ -1121,7 +1148,8 @@ tbl_a1828 <- gt(tbl_a1828_dat) |>
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 4)) |>
-  cols_label(M_class = 'Moisture class')
+  cols_label(M_class = 'Moisture class') |>
+  cols_width(ends_with("ing") ~ pct(30), Code ~ pct(20))
   
 tbl_a1828
 ```
@@ -1139,7 +1167,7 @@ An organic or organotechnic layer is called hydromorphic, if water saturation la
 ```{r}
 #| label: tbl-a1829
 #| tbl-cap: Organic (hydromorphic and terrestrial), organotechnic and mineral layers
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1829_dat <- tribble(
   ~Criterion,  ~Code,
@@ -1157,7 +1185,8 @@ tbl_a1829 <- gt(tbl_a1829_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1829
 ```
@@ -1170,16 +1199,16 @@ Report the distinctness of the layer's lower boundary.
 
 ```{r}
 #| label: tbl-a1830
-#| tbl-cap: Distinctness of layer boundaries, Schoeneberger et al. (2012), 2-6, modified
-#| tbl-colwidths: [25,25,25,25] 
+#| tbl-cap: Distinctness of layer boundaries, Schoeneberger et al. [-@schoeneberger2012], 2-6, modified
+#| classes: no-stripe
 
 tbl_a1830_dat <- tribble(
   ~Min_lyrs, ~Org_lyrs, ~Distinctness,  ~Code,
 '≤ 0.5', '≤ 0.1',       'Very abrupt', 'V',
 '> 0.5-2', '> 0.1-0.2', 'Abrupt',      'A',
-'>2-5', '> 0.2-0.5',    'Clear',       'C',
-'>5-15', '> 0.5-1',     'Gradual',     'G',
-'>15', '> 1',           'Diffuse',     'D')
+'> 2-5', '> 0.2-0.5',    'Clear',       'C',
+'> 5-15', '> 0.5-1',     'Gradual',     'G',
+'> 15', '> 1',           'Diffuse',     'D')
 
 tbl_a1830 <- gt(tbl_a1830_dat) |>
   tab_options(
@@ -1191,7 +1220,8 @@ tbl_a1830 <- gt(tbl_a1830_dat) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 4)) |>
   cols_label(Min_lyrs = 'Mineral layers, organotechnic layers and hydromorphic organic layers: transition within (cm)',
-             Org_lyrs = 'Terrestrial organic layers: transition within (cm)')
+             Org_lyrs = 'Terrestrial organic layers: transition within (cm)') |>
+  cols_width(ends_with('lyrs') ~ pct(27), Code ~ pct(20))
   
 tbl_a1830
 ```
@@ -1202,8 +1232,8 @@ Report the shape. The characteristic refers to the layer's lower boundary or, if
 
 ```{r}
 #| label: tbl-a1831
-#| tbl-cap: Shape of layer boundaries, Schoeneberger et al. (2012), 2-7
-#| tbl-colwidths: [50, 30, 20] 
+#| tbl-cap: Shape of layer boundaries, Schoeneberger et al. [-@schoeneberger2012], 2-7
+#| classes: no-stripe
 
 tbl_a1831_dat <- tribble(
   ~Criterion,  ~Shape, ~Code,
@@ -1220,12 +1250,13 @@ tbl_a1831 <- gt(tbl_a1831_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 3)) 
+            locations = cells_body(columns = 3)) |>
+  cols_width(Criterion ~ pct(50), Shape ~ pct(30), Code ~ pct(20))
   
 tbl_a1831
 ```
 
-![Shape of layer boundaries, Schoeneberger et al. , 2-7, modified](images/figure_8-11.png){#fig-a1-811}
+![Shape of layer boundaries, Schoeneberger et al. [-@schoeneberger2012], 2-7, modified](images/figure_8-11.png){#fig-a1-811}
 
 ### Wind deposition (m) {#sec-a1-846}
 
@@ -1234,7 +1265,7 @@ Report any evidence of wind deposition. Use a hand lens (maximum 10x).
 ```{r}
 #| label: tbl-a1832
 #| tbl-cap: Types of wind deposition
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1832_dat <- tribble(
   ~Criterion,  ~Code,
@@ -1252,7 +1283,8 @@ tbl_a1832 <- gt(tbl_a1832_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1832
 ```
@@ -1267,8 +1299,8 @@ The Table indicates the length of the greatest dimension and the shape.
 
 ```{r}
 #| label: tbl-a1833
-#| tbl-cap: Size and shape classes of coarse fragments and of remnants of broken-up cemented layers, FAO (2006), Tables 27 and 28
-#| tbl-colwidths: [20, 40, 40, 20] 
+#| tbl-cap: Size and shape classes of coarse fragments and of remnants of broken-up cemented layers, FAO [-@un-fao2006], Tables 27 and 28
+#| classes: no-stripe 
 
 tbl_a1833_dat <- tribble(
   ~Size, ~S_class, ~Shape,  ~Code,
@@ -1284,7 +1316,7 @@ NA_character_,         NA_character_,       'Rounded and angular', 'CB',
      '> 6-20',              'Stones',       'Rounded',             'SR',
 NA_character_,         NA_character_,       'Angular',             'SA',
 NA_character_,         NA_character_,       'Rounded and angular', 'SB',
-     '>20-60',            'Boulders',       'Rounded',             'BR',
+     '> 20-60',            'Boulders',       'Rounded',             'BR',
 NA_character_,         NA_character_,       'Angular',             'BA',
 NA_character_,         NA_character_,       'Rounded and angular', 'BB',
        '> 60',      'Large Boulders',       'Rounded',             'LR',
@@ -1303,7 +1335,9 @@ tbl_a1833 <- gt(tbl_a1833_dat) |>
             locations = cells_body(columns = 4)) |>
   cols_label(Size = 'Size (cm)',
              S_class = 'Size Class') |>
-  sub_missing(missing_text = '')
+  sub_missing(missing_text = '') |>
+  cols_width(Size ~ pct(20), S_class ~ pct(30), Shape ~ pct(30), 
+             Code ~ pct(20))
   
 tbl_a1833
 ```
@@ -1312,8 +1346,8 @@ tbl_a1833
 
 ```{r}
 #| label: tbl-a1834
-#| tbl-cap: Weathering stage of coarse fragments, FAO (2006), Table 29 
-#| tbl-colwidths: [70, 20, 10] 
+#| tbl-cap: Weathering stage of coarse fragments, FAO [-@un-fao2006], Table 29 
+#| classes: no-stripe
 
 tbl_a1834_dat <- tribble(
   ~Criterion, ~W_stage,  ~Code,
@@ -1330,7 +1364,8 @@ tbl_a1834 <- gt(tbl_a1834_dat) |>
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
-  cols_label(W_stage = 'Weathering stage')
+  cols_label(W_stage = 'Weathering stage') |>
+  cols_width(Criterion ~ pct(60), W_stage ~ pct(20))
   
 tbl_a1834
 ```
@@ -1338,7 +1373,7 @@ tbl_a1834
 ```{r}
 #| label: tbl-a1835
 #| tbl-cap: "Remnants of broken-up cemented layers: cementing agent" 
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1835_dat <- tribble(
   ~Cementing_agent,  ~Code,
@@ -1359,7 +1394,8 @@ tbl_a1835 <- gt(tbl_a1835_dat) |>
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |>
-  cols_label(Cementing_agent = 'Cementing agent')
+  cols_label(Cementing_agent = 'Cementing agent') |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1835
 ```
@@ -1385,8 +1421,8 @@ Between coarse fragments, large pores may exist that are visible with the naked 
 
 ```{r}
 #| label: tbl-a1836
-#| tbl-cap: Examples of artefacts, Schoeneberger et al. (2012), 2-50, modified
-#| tbl-colwidths: [80, 20] 
+#| tbl-cap: Examples of artefacts, Schoeneberger et al. [-@schoeneberger2012], 2-50, modified
+#| classes: no-stripe
 
 tbl_a1836_dat <- tribble(
   ~Type,  ~Code,
@@ -1432,7 +1468,8 @@ tbl_a1836 <- gt(tbl_a1836_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1836
 ```
@@ -1445,8 +1482,8 @@ The Table indicates the average length of the greatest dimension of solid [*arte
 
 ```{r}
 #| label: tbl-a1837
-#| tbl-cap: Size of artefacts, FAO (2006), Table 27
-#| tbl-colwidths: [40, 40, 20] 
+#| tbl-cap: Size of artefacts, FAO [-@un-fao2006], Table 27
+#| classes: no-stripe
 
 tbl_a1837_dat <- tribble(
   ~Size, ~S_class,  ~Code,
@@ -1468,7 +1505,8 @@ tbl_a1837 <- gt(tbl_a1837_dat) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
   cols_label(Size = 'Size (cm)',
-             S_class = 'Size class')
+             S_class = 'Size class') |>
+  cols_width(starts_with('S') ~ pct(40))
   
 tbl_a1837
 ```
@@ -1483,20 +1521,20 @@ Report the total percentage of the volume (related to the whole soil) occupied b
 
 ```{r}
 #| label: tbl-a1838
-#| tbl-cap: Particle-size classes, ISO 11277:2009
-#| tbl-colwidths: [80, 20] 
+#| tbl-cap: Particle-size classes, ISO 11277:2009 [@internationalorganizationforstandardization2015]
+#| classes: no-stripe
 
 tbl_a1838_dat <- tribble(
   ~PS_Class,   ~Diameter,
 'Fine earth',          'all particles ≤ 2 mm',
-'Sand',                '> 63 μm - ≤ 2 mm',
-'Very coarse sand',    '> 1250 μm - ≤ 2 mm',
-'Coarse sand',         '> 630 μm - ≤ 1250 μm',
-'Medium sand',         '> 200 μm - ≤ 630 μm',
-'Fine sand',           '> 125 μm - ≤ 200 μm',
-'Very fine sand',      '> 63 μm - < 125 μm',
-'Silt',                '> 2 μm - ≤ 63 μm',
-'Clay',                '≤ 2 μm')
+'Sand',                '> 63 μm - ≤ 2 mm',
+'Very coarse sand',    '> 1250 μm - ≤ 2 mm',
+'Coarse sand',         '> 630 μm - ≤ 1250 μm',
+'Medium sand',         '> 200 μm - ≤ 630 μm',
+'Fine sand',           '> 125 μm - ≤ 200 μm',
+'Very fine sand',      '> 63 μm - < 125 μm',
+'Silt',                '> 2 μm - ≤ 63 μm',
+'Clay',                '≤ 2 μm')
 
 tbl_a1838 <- gt(tbl_a1838_dat) |>
   tab_options(
@@ -1505,8 +1543,12 @@ tbl_a1838 <- gt(tbl_a1838_dat) |>
     table.align = 'left',
     table.width = '100%'
   ) |>
+  tab_style(style = list(cell_text(indent = pct(5))),
+            locations = cells_body(columns = 1, 
+                                   rows = c(3:7))) |>
   cols_label(PS_Class = 'Particle-size class',
-             Diameter = 'Diameter of particles')
+             Diameter = 'Diameter of particles') |>
+  cols_width(Diameter ~ pct(50))
   
 tbl_a1838
 ```
@@ -1525,8 +1567,8 @@ Report the texture class. Please note that the hand-texturing according to the f
 
 ```{r}
 #| label: tbl-a1839
-#| tbl-cap: Texture classes, Soil Science Division Staff (2017)
-#| tbl-colwidths: [20,20,20,20,20] 
+#| tbl-cap: Texture classes, Soil Science Division Staff [-@soilsciencedivisionstaff2017]
+#| classes: no-stripe
 
 tbl_a1839_dat <- tribble(
   ~Texture, ~sand, ~silt, ~clay, ~Additional_criteria,
@@ -1568,7 +1610,8 @@ tbl_a1839 <- gt(tbl_a1839_dat) |>
              silt = '% silt',
              clay = '% clay',
              Additional_criteria = 'Additional criteria') |>
-  sub_missing(missing_text = '')
+  sub_missing(missing_text = '') |>
+  cols_width(everything() ~ pct(20))
   
 tbl_a1839
 ```
@@ -1581,7 +1624,8 @@ If the layer belongs to the texture classes sand or loamy sand, report the subcl
 
 ```{r}
 #| label: tbl-a1840
-#| tbl-cap: Subclasses of the texture classes sand and loamy sand, Soil Science Division Staff (2017), modified; the percentages of the sand fractions are related to the entire fine earth (not related to sand).
+#| tbl-cap: Subclasses of the texture classes sand and loamy sand, Soil Science Division Staff [-@soilsciencedivisionstaff2017], modified; the percentages of the sand fractions are related to the entire fine earth (not related to sand).
+#| classes: no-stripe
 
 tbl_a1840_dat <- tribble(
   ~vcs, ~ms, ~cms, ~fs, ~vfs, ~Feel, ~scl_snd, ~scl_ls,
@@ -1654,8 +1698,8 @@ From the second-level structure, take some specimens from each type (if more tha
 
 ```{r}
 #| label: tbl-a1841
-#| tbl-cap: Types of structure, descriptions, Schoeneberger et al, (2012), 2-53, FAO (2006), Table 49, National Committee on Soil and Terrain (2009), 171-181, modified
-#| tbl-colwidths: [20, 20, 60] 
+#| tbl-cap: Types of structure, descriptions, Schoeneberger et al, [-@schoeneberger2012], 2-53, FAO [-@un-fao2006], Table 49, National Committee on Soil and Terrain [-@nationalcommitteeonsoilandterrain2009], 171-181, modified
+#| classes: no-stripe  
 
 tbl_a1841_dat <- tribble(
   ~Type, ~Image, ~Details,
@@ -1677,11 +1721,10 @@ tbl_a1841_dat <- tribble(
 tbl_a1841 <- gt(tbl_a1841_dat) |>
   tab_options(column_labels.hidden = TRUE,
               table.width = '100%') |>
-  text_transform(locations = cells_body(columns = Image),
-                 fn = \(x) { local_image(filename = x,
-                                         height = 80) }) |> 
+  fmt_image(columns = Image, width = pct(90)) |>
   text_transform(locations = cells_body(columns = Details),
-                 fn = \(x) { str_replace_all(x, '- ', '<li>')  })
+                 fn = \(x) { str_replace_all(x, '- ', '<li>')  }) |>
+  cols_width(Type ~ pct(20), Image ~ pct(20))
   
 tbl_a1841
 ```
@@ -1689,7 +1732,7 @@ tbl_a1841
 ```{r}
 #| label: tbl-a1842
 #| tbl-cap: Types of structure, formation and codes
-#| tbl-colwidths: [20, 60, 20] 
+#| classes: no-stripe
 
 tbl_a1842_dat <- tribble(
   ~Type, ~Formation, ~Code,
@@ -1721,7 +1764,8 @@ tbl_a1842 <- gt(tbl_a1842_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 3))
+            locations = cells_body(columns = 3)) |>
+  cols_width(Type ~ pct(20), Formation ~ pct(60))
   
 tbl_a1842
 ```
@@ -1730,8 +1774,8 @@ tbl_a1842
 
 ```{r}
 #| label: tbl-a1843
-#| tbl-cap: Grade of structural units, Soil Science Division Staff (2017), 159f, modified
-#| tbl-colwidths: [80, 10, 10] 
+#| tbl-cap: Grade of structural units, Soil Science Division Staff [-@soilsciencedivisionstaff2017], 159f, modified
+#| classes: no-stripe
 
 tbl_a1843_dat <- tribble(
   ~Criterion, ~Grade, ~Code,
@@ -1748,7 +1792,8 @@ tbl_a1843 <- gt(tbl_a1843_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 3))
+            locations = cells_body(columns = 3)) |>
+  cols_width(Criterion ~ pct(70), Grade ~ pct(10))
   
 tbl_a1843
 ```
@@ -1760,7 +1805,7 @@ Large soil aggregates may have a dense outer rim that does not allow roots to en
 ```{r}
 #| label: tbl-a1844
 #| tbl-cap: Aggregate penetrability for roots
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe 
 
 tbl_a1844_dat <- tribble(
   ~Criterion, ~Code,
@@ -1777,7 +1822,8 @@ tbl_a1844 <- gt(tbl_a1844_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2))
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1844
 ```
@@ -1788,8 +1834,8 @@ The dimension to be reported is indicated in @tbl-a1841 by a line.
 
 ```{r}
 #| label: tbl-a1845
-#| tbl-cap: Aggregate size, Schoeneberger et al. (2012), 2-55, FAO (2006), Table 50, modified
-#| tbl-colwidths: [20, 20, 20, 20, 20] 
+#| tbl-cap: Aggregate size, Schoeneberger et al. [-@schoeneberger2012], 2-55, FAO [-@un-fao2006], Table 50, modified
+#| classes: no-stripe
 
 tbl_a1845_dat <- tribble(
     ~Cri_01,    ~Cri_02,     ~Cri_03,              ~Size, ~Code,
@@ -1814,7 +1860,8 @@ tbl_a1845 <- gt(tbl_a1845_dat) |>
   tab_spanner(label = 'Criterion: size of structural unit (mm)',
               columns = c(Cri_01, Cri_02, Cri_03)) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 5))
+            locations = cells_body(columns = 5)) |>
+  cols_width(everything() ~ pct(20))
   
 tbl_a1845
 ```
@@ -1838,8 +1885,8 @@ Soil has air- or water-filled voids, which are:
 
 ```{r}
 #| label: tbl-a1846
-#| tbl-cap: Types of non-matrix pores, Schoeneberger et al. (2012), 2-73, modified
-#| tbl-colwidths: [80, 20] 
+#| tbl-cap: Types of non-matrix pores, Schoeneberger et al. [-@schoeneberger2012], 2-73, modified
+#| classes: no-stripe 
 
 tbl_a1846_dat <- tribble(
   ~Criterion, ~Type, ~Code,
@@ -1859,7 +1906,8 @@ tbl_a1846 <- gt(tbl_a1846_dat) |>
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
-  sub_missing(missing_text = '')
+  sub_missing(missing_text = '') |>
+  cols_width(Criterion ~ pct(60), Type ~ pct(20))
   
 tbl_a1846
 ```
@@ -1872,8 +1920,8 @@ Tubular and dendritic tubular pores are commonly referred to as **biopores**.
 
 ```{r}
 #| label: tbl-a1847
-#| tbl-cap: Pore size, Schoeneberger et al. (2012), 2-70
-#| tbl-colwidths: [25, 25, 25, 25] 
+#| tbl-cap: Pore size, Schoeneberger et al. [-@schoeneberger2012], 2-70
+#| classes: no-stripe 
 
 tbl_a1847_dat <- tribble(
   ~Diam, ~Area, ~Size, ~Code,
@@ -1898,15 +1946,16 @@ tbl_a1847 <- gt(tbl_a1847_dat) |>
              Size = 'Size Class') |>
   text_transform(
     locations = cells_body(columns = c(Area)),
-    fn = \(x){ str_replace(x, "\\^2\\^", '<sup>2</sup>') })
+    fn = \(x){ str_replace(x, "\\^2\\^", '<sup>2</sup>') }) |>
+  cols_width(Diam ~ pct(27), Area ~ pct(27), Size ~ pct(26))
   
 tbl_a1847
 ```
 
 ```{r}
 #| label: tbl-a1848
-#| tbl-cap: Abundance of pores, Schoeneberger et al. (2012), 2-70, modified
-#| tbl-colwidths: [20, 60, 20] 
+#| tbl-cap: Abundance of pores, Schoeneberger et al. [-@schoeneberger2012], 2-70, modified
+#| classes: no-stripe
 
 tbl_a1848_dat <- tribble(
   ~Number, ~Abundance, ~Code,
@@ -1924,7 +1973,8 @@ tbl_a1848 <- gt(tbl_a1848_dat) |>
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
-  cols_label(Abundance = 'Abundance class')
+  cols_label(Abundance = 'Abundance class') |>
+  cols_width(Number ~ pct(20), Abundance ~ pct(60))
   
 tbl_a1848
 ```
@@ -1949,8 +1999,8 @@ Report persistence and continuity,
 
 ```{r}
 #| label: tbl-a1849
-#| tbl-cap: Persistence of cracks, Schoeneberger et al. (2012), 2-76
-#| tbl-colwidths: [80, 20] 
+#| tbl-cap: Persistence of cracks, Schoeneberger et al. [-@schoeneberger2012], 2-76
+#| classes: no-stripe
 
 tbl_a1849_dat <- tribble(
   ~Criterion, ~Code,
@@ -1966,7 +2016,8 @@ tbl_a1849 <- gt(tbl_a1849_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1849
 ```
@@ -1976,7 +2027,7 @@ tbl_a1849
 ```{r}
 #| label: tbl-a1850
 #| tbl-cap: Continuity of cracks
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe 
 
 tbl_a1850_dat <- tribble(
   ~Criterion, ~Code,
@@ -1993,7 +2044,8 @@ tbl_a1850 <- gt(tbl_a1850_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1850
 ```
@@ -2017,8 +2069,8 @@ The following definitions apply to concentrations, e.g., redox concentrations or
 
 ```{r}
 #| label: tbl-a1851
-#| tbl-cap: Types of concentrations (overview), Soil Science Division Staff. (2017), page 174f
-#| tbl-colwidths: [80, 20] 
+#| tbl-cap: Types of concentrations (overview), Soil Science Division Staff. [-@soilsciencedivisionstaff2017], page 174f
+#| classes: no-stripe
 
 tbl_a1851_dat <- tribble(
   ~Description, ~Designation,
@@ -2035,7 +2087,8 @@ tbl_a1851 <- gt(tbl_a1851_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Designation ~ pct(20))
   
 tbl_a1851
 ```
@@ -2060,7 +2113,7 @@ In general, soil colour can be a property of the four following soil features:
 
 ```{mermaid}
 %%| label: fig-a1-818
-%%| fig-cap: Colour flow chart, Schoeneberger et al. 2012, 2-8, modified
+%%| fig-cap: Colour flow chart, Schoeneberger et al. [-@schoeneberger2012], 2-8, modified
 
 %%{ init: { 'flowchart': { 'curve': 'stepAfter' } } }%%
 flowchart TD
@@ -2108,8 +2161,8 @@ The Table indicates the average length of the greatest dimension.
 
 ```{r}
 #| label: tbl-a1852
-#| tbl-cap: Size of lithogenic variegates, FAO (2006), Table 33
-#| tbl-colwidths: [80, 20] 
+#| tbl-cap: Size of lithogenic variegates, FAO [-@un-fao2006], Table 33
+#| classes: no-stripe
 
 tbl_a1852_dat <- tribble(
   ~Size, ~Class, ~Designation,
@@ -2128,7 +2181,8 @@ tbl_a1852 <- gt(tbl_a1852_dat) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
   cols_label(Size = 'Size (mm)',
-             Class = 'Size class')
+             Class = 'Size class') |>
+  cols_width(Size ~ pct(40), Class ~ pct(40))
   
 tbl_a1852
 ```
@@ -2152,7 +2206,7 @@ Report the colour according to the Munsell Color Charts. Write 'None' if there a
 ```{r}
 #| label: tbl-a1853
 #| tbl-cap: Substance of oximorphic features
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1853_dat <- tribble(
   ~Substance, ~Code,
@@ -2171,7 +2225,8 @@ tbl_a1853 <- gt(tbl_a1853_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1853
 ```
@@ -2181,7 +2236,7 @@ The term 'oxides', as used here, includes hydroxides and oxide-hydroxides. The t
 ```{r}
 #| label: tbl-a1854
 #| tbl-cap: Substance of reductimorphic features
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1854_dat <- tribble(
   ~Substance, ~Code,
@@ -2196,7 +2251,8 @@ tbl_a1854 <- gt(tbl_a1854_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1854
 ```
@@ -2206,7 +2262,7 @@ tbl_a1854
 ```{r}
 #| label: tbl-a1855
 #| tbl-cap: Location of some reductimorphic features
-#| tbl-colwidths: [20, 60, 20] 
+#| classes: no-stripe
 
 tbl_a1855_dat <- tribble(
   ~Location, ~Loc_02, ~Code,
@@ -2233,7 +2289,9 @@ tbl_a1855 <- gt(tbl_a1855_dat) |>
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |>
-  cols_label(Loc_02 = '')
+  cols_label(Loc_02 = '') |>
+  cols_width(Location ~ pct(20), Loc_02 ~ pct(60))
+  # n2s row merges on col 1 when possible
 
 tbl_a1855
 ```
@@ -2243,7 +2301,7 @@ tbl_a1855
 ```{r}
 #| label: tbl-a1856
 #| tbl-cap: Location of reductimorphic features
-#| tbl-colwidths: [20, 60, 20] 
+#| classes: no-stripe
 
 tbl_a1856_dat <- tribble(
   ~Location, ~Loc_02, ~Code,
@@ -2265,7 +2323,9 @@ tbl_a1856 <- gt(tbl_a1856_dat) |>
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |> 
-  cols_label(Loc_02 = '')
+  cols_label(Loc_02 = '') |>
+  cols_width(Location ~ pct(20), Loc_02 ~ pct(60))
+  # n2s row merges on col 1 when possible
 
 tbl_a1856
 ```
@@ -2276,8 +2336,8 @@ The Table indicates the average length of the greatest dimension.
 
 ```{r}
 #| label: tbl-a1857
-#| tbl-cap: Size of oximorphic features, FAO (2006), Table 33
-#| tbl-colwidths: [40, 40, 20] 
+#| tbl-cap: Size of oximorphic features, FAO [-@un-fao2006], Table 33
+#| classes: no-stripe
 
 tbl_a1857_dat <- tribble(
   ~Size, ~Size_Class, ~Code,
@@ -2298,7 +2358,8 @@ tbl_a1857 <- gt(tbl_a1857_dat) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |> 
   cols_label(Size = 'Size (mm)',
-             Size_Class = 'Size Class')
+             Size_Class = 'Size Class') |>
+  cols_width(starts_with('Size') ~ pct(40))
 
 tbl_a1857
 ```
@@ -2309,8 +2370,8 @@ If an intact specimen is not obtainable, the oximorphic feature is not cemented.
 
 ```{r}
 #| label: tbl-a1858
-#| tbl-cap: Consistence of oximorphic features, Schoeneberger et al. (2012), 2-63
-#| tbl-colwidths: [60, 30, 10] 
+#| tbl-cap: Consistence of oximorphic features, Schoeneberger et al. [-@schoeneberger2012], 2-63
+#| classes: no-stripe
 
 tbl_a1858_dat <- tribble(
   ~Criterion, ~Class, ~Code,
@@ -2329,7 +2390,8 @@ tbl_a1858 <- gt(tbl_a1858_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 3)) 
+            locations = cells_body(columns = 3)) |>
+  cols_width(Criterion ~ pct(50), Class ~ pct(30))
 
 tbl_a1858
 ```
@@ -2373,8 +2435,8 @@ The following Table explains how to estimate the rH value using these field test
 
 ```{r}
 #| label: tbl-a1859
-#| tbl-cap: Ranges of rH values and related soil processes as derived from redoximorphic features and from field tests of reducing conditions, Blume et al. (2010), page 24, FAO (2006), Table 36, modified
-#| tbl-colwidths: [40, 30, 20, 10] 
+#| tbl-cap: Ranges of rH values and related soil processes as derived from redoximorphic features and from field tests of reducing conditions, Blume et al. [-@blume2010], page 24, FAO [-@un-fao2006], Table 36, modified
+#| classes: no-stripe
 
 tbl_a1859_dat <- tribble(
   ~Criterion, ~Processes, ~rH_value, ~Code,
@@ -2406,7 +2468,8 @@ tbl_a1859 <- gt(tbl_a1859_dat) |>
     fn = \(x){ str_replace(x, "\\^3\\+\\^", '<sup>3</sup>')}) |> 
   text_transform(
     locations = cells_body(columns = c(Criterion)),
-    fn = \(x){ str_replace(x, "~2~", '<sub>2</sub>')}) 
+    fn = \(x){ str_replace(x, "~2~", '<sub>2</sub>')}) |>
+  cols_width(Criterion ~ pct(40), Processes ~ pct(20), rH_value ~ pct(20))
   
 tbl_a1859
 ```
@@ -2435,7 +2498,7 @@ Sand and coarse silt grains are mostly coated by organic matter and/or oxides. I
 ```{r}
 #| label: tbl-a1860
 #| tbl-cap: Organic matter coatings and oxide coatings on sand and/or coarse silt grains 
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1860_dat <- tribble(
   ~Criterion,  ~Code,
@@ -2451,7 +2514,8 @@ tbl_a1860 <- gt(tbl_a1860_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |> 
+  cols_width(Code ~ pct(20))
   
 tbl_a1860
 ```
@@ -2465,7 +2529,7 @@ Ribbon-like accumulations are thin, horizontally continuous accumulations within
 ```{r}
 #| label: tbl-a1861
 #| tbl-cap: Substances of ribbon-like accumulations
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1861_dat <- tribble(
   ~Criterion,  ~Code,
@@ -2487,7 +2551,8 @@ tbl_a1861 <- gt(tbl_a1861_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1861
 ```
@@ -2504,8 +2569,8 @@ Report the carbonate content in the soil matrix and report, whether the reaction
 
 ```{r}
 #| label: tbl-a1862
-#| tbl-cap: Carbonate contents, FAO (2006), Table 38
-#| tbl-colwidths: [40, 30, 20, 10] 
+#| tbl-cap: Carbonate contents, FAO [-@un-fao2006], Table 38
+#| classes: no-stripe
 
 tbl_a1862_dat <- tribble(
   ~Criterion,  ~Content, ~pc_by_m, ~Code,
@@ -2525,7 +2590,8 @@ tbl_a1862 <- gt(tbl_a1862_dat) |>
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 4)) |> 
-    cols_label(pc_by_m = '% (by mass)')
+    cols_label(pc_by_m = '% (by mass)') |>
+  cols_width(Criterion ~ pct(40), Content ~ pct(20), pc_by_m ~ pct(20))
   
 tbl_a1862
 ```
@@ -2533,7 +2599,7 @@ tbl_a1862
 ```{r}
 #| label: tbl-a1863
 #| tbl-cap: Retarded reaction with HCl
-#| tbl-colwidths: [40, 30, 20, 10] 
+#| classes: no-stripe 
 
 tbl_a1863_dat <- tribble(
   ~Criterion,   ~Code,
@@ -2549,7 +2615,8 @@ tbl_a1863 <- gt(tbl_a1863_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1863
 ```
@@ -2561,7 +2628,7 @@ Report the type of secondary carbonates. If more than one occurs, report up to f
 ```{r}
 #| label: tbl-a1864
 #| tbl-cap: Types of secondary carbonates
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1864_dat <- tribble(
   ~Type,   ~Code,
@@ -2581,7 +2648,8 @@ tbl_a1864 <- gt(tbl_a1864_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1864
 ```
@@ -2589,7 +2657,7 @@ tbl_a1864
 ```{r}
 #| label: tbl-a1865
 #| tbl-cap: Reference for estimating the percentage of secondary carbonates
-#| tbl-colwidths: [30,70] 
+#| classes: no-stripe
 
 tbl_a1865_dat <- tribble(
   ~Code,   ~Reference,
@@ -2606,7 +2674,8 @@ tbl_a1865 <- gt(tbl_a1865_dat) |>
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 1)) |> 
-  cols_label(Reference = 'Reference for estimating the percentage')
+  cols_label(Reference = 'Reference for estimating the percentage') |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1865
 ```
@@ -2619,8 +2688,8 @@ Report the gypsum content in the soil matrix. If readily soluble salts are absen
 
 ```{r}
 #| label: tbl-a1866
-#| tbl-cap: Gypsum contents in layers with little readily soluble salts, FAO (2006), Table 40 
-#| tbl-colwidths: [50, 20, 20, 10] 
+#| tbl-cap: Gypsum contents in layers with little readily soluble salts, FAO [-@un-fao2006], Table 40 
+#| classes: no-stripe 
 
 tbl_a1866_dat <- tribble(
   ~EC, ~Content, ~pc_by_m, ~Code,
@@ -2649,7 +2718,8 @@ tbl_a1866 <- gt(tbl_a1866_dat) |>
     fn = \(x){ str_replace_all(x, "~2~", '<sub>2</sub>')})  |> 
   text_transform(
     locations = cells_body(columns = c(EC)),
-    fn = \(x){ str_replace(x, "\\\n", '<br />')}) 
+    fn = \(x){ str_replace(x, "\\\n", '<br />')}) |>
+  cols_width(EC ~ pct(40), Content ~ pct(20), pc_by_m ~ pct(20))
   
 tbl_a1866
 ```
@@ -2675,7 +2745,7 @@ Secondary silica (SiO~2~) is off-white and predominantly consisting of opal and 
 ```{r}
 #| label: tbl-a1867
 #| tbl-cap: Types of secondary silica
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe 
 
 tbl_a1867_dat <- tribble(
   ~Type,   ~Code,
@@ -2693,7 +2763,8 @@ tbl_a1867 <- gt(tbl_a1867_dat) |>
     table.width = '100%'
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2)) 
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1867
 ```
@@ -2705,7 +2776,7 @@ If a layer shows durinodes and/or remnants of a layer that has been cemented by 
 ```{r}
 #| label: tbl-a1868
 #| tbl-cap: Size of durinodes and remnants of a layer that has been cemented by secondary silica
-#| tbl-colwidths: [40, 40, 20] 
+#| classes: no-stripe
 
 tbl_a1868_dat <- tribble(
   ~Size, ~Size_class,  ~Code,
@@ -2726,7 +2797,8 @@ tbl_a1868 <- gt(tbl_a1868_dat) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 3)) |> 
   cols_label(Size = 'Size (cm)',
-             Size_class = 'Size class')
+             Size_class = 'Size class') |>
+  cols_width(starts_with('Size') ~ pct(40))
   
 tbl_a1868
 ```
@@ -2747,8 +2819,8 @@ Report the electrical conductivity of the saturation extract in dS m^-1^.
 
 ```{r}
 #| label: tbl-a1869
-#| tbl-cap: Estimation of the water content of the saturation extract of mineral layers, DVWK (1995), FAO (2006), Table 43
-#| tbl-colwidths: [28, 12, 12, 12, 12, 12, 12] 
+#| tbl-cap: Estimation of the water content of the saturation extract of mineral layers, DVWK [-@bodenkun1995], FAO [-@un-fao2006], Table 43
+#| classes: no-stripe
 
 tbl_a1869_dat <- tribble(
   ~Texture_class,       ~c1, ~c2, ~c3, ~c4, ~c5,  ~c6,
@@ -2785,15 +2857,16 @@ tbl_a1869 <- gt(tbl_a1869_dat) |>
              c6 = '4 - < 20') |> 
   tab_spanner(columns = c(c1,c2,c3,c4,c5,c6),
               label = html('Water content of the saturation extract (WC<sub>SE</sub>) (g water / 100 g soil) by C<sub>org</sub> content (%)'),
-              level = 1, id = 'span1')  
+              level = 1, id = 'span1') |>
+  cols_width(starts_with('c') ~ pct(12))
   
 tbl_a1869
 ```
 
 ```{r}
 #| label: tbl-a1870
-#| tbl-cap:  Estimation of the water content of the saturation extract of organic layers, DVWK (1995), FAO (2006), Table 43
-#| tbl-colwidths: [70, 30] 
+#| tbl-cap:  Estimation of the water content of the saturation extract of organic layers, DVWK [-@bodenkun1995], FAO [-@un-fao2006], Table 43
+#| classes: no-stripe
 
 tbl_a1870_dat <- tribble(
   ~decomp, ~water_c,
@@ -2811,7 +2884,8 @@ tbl_a1870 <- gt(tbl_a1870_dat) |>
     table.width = '100%'
   ) |>
   cols_label(decomp = html('Degree of decomposition<br />(by volume, related to the fine earth plus all dead plant residues)'),
-             water_c = html('Water content of the saturation extract (WC<sub>SE</sub>) (g water / 100 g soil)'))
+             water_c = html('Water content of the saturation extract (WC<sub>SE</sub>) (g water / 100 g soil)')) |>
+  cols_width(water_c ~ pct(30))
   
 tbl_a1870
 ```
@@ -2831,7 +2905,7 @@ Mix soil and distilled water in a 1:1 ratio (volume:volume) and stir the mixture
 ```{r}
 #| label: tbl-a1871
 #| tbl-cap: Potentiometric pH measurement
-#| tbl-colwidths: [40, 40, 20] 
+#| classes: no-stripe 
 
 tbl_a1871_dat <- tribble(
   ~Solution, ~m_ratio,  ~Code,
@@ -2852,7 +2926,10 @@ tbl_a1871 <- gt(tbl_a1871_dat) |>
   cols_label(m_ratio = html('Mixing ratio<br />(volume:volume)')) |> 
   text_transform(
     locations = cells_body(columns = Solution),
-    fn = \(x) { str_replace(x, '~2~', '<sub>2</sub>') })
+    fn = \(x) { str_replace(x, '~2~', '<sub>2</sub>') }) |>
+  cols_width(Solution ~ pct(40), m_ratio ~ pct(40)) |>
+  # not sure why tabl.align is being overridden on col 2, but
+  cols_align(columns = m_ratio, align = 'left')
   
 tbl_a1871
 ```
@@ -2871,8 +2948,8 @@ Report the cementing agents. If more than one is present, report up to three, th
 
 ```{r}
 #| label: tbl-a1872
-#| tbl-cap: Cementing agents, Schoeneberger et al. (2012), 2-64
-#| tbl-colwidths: [40, 40, 20] 
+#| tbl-cap: Cementing agents, Schoeneberger et al. [-@schoeneberger2012], 2-64
+#| classes: no-stripe
 
 tbl_a1872_dat <- tribble(
   ~Cementing_agent,  ~Code,
@@ -2897,7 +2974,8 @@ tbl_a1872 <- gt(tbl_a1872_dat) |>
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |> 
-  cols_label(Cementing_agent = 'Cementing agent') 
+  cols_label(Cementing_agent = 'Cementing agent') |>
+  cols_width(Code ~ pct(20))
   
 tbl_a1872
 ```
@@ -2912,8 +2990,8 @@ e.g. for a 5.6-cm cube $[(2.8 \div 5.6)^{2} \times 20 N] = 5 N$ → Very friab
 
 ```{r}
 #| label: tbl-a1873
-#| tbl-cap: Cementation, Schoeneberger et al. (2012), 2-63
-#| tbl-colwidths: [60, 30, 10] 
+#| tbl-cap: Cementation, Schoeneberger et al. [-@schoeneberger2012], 2-63
+#| classes: no-stripe  
 
 tbl_a1873_dat <- tribble(
   ~Criterion, ~Class,  ~Code,
@@ -2933,15 +3011,16 @@ tbl_a1873 <- gt(tbl_a1873_dat) |>
     table.align = 'left',
     table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 3)) 
+            locations = cells_body(columns = 3)) |>
+  cols_width(Criterion ~ pct(50), Class ~ pct(30))
   
 tbl_a1873
 ```
 
 ```{r}
 #| label: tbl-a1874
-#| tbl-cap: Rupture resistance, non-cemented soil, Schoeneberger et al. (2012), 2-63 
-#| tbl-colwidths: [40, 15, 15, 15, 15] 
+#| tbl-cap: Rupture resistance, non-cemented soil, Schoeneberger et al. [-@schoeneberger2012], 2-63 
+#| classes: no-stripe 
 
 tbl_a1874_dat <- tribble(
   ~Criterion, ~Class_m,  ~Code_m,  ~Class_d,  ~Code_d,
@@ -2972,7 +3051,9 @@ tbl_a1874 <- gt(tbl_a1874_dat) |>
   cols_label(Class_m = 'Class',
              Class_d = 'Class',
              Code_m = 'Code',
-             Code_d = 'Code')
+             Code_d = 'Code') |>
+  cols_width(starts_with('Class') ~ pct(15), 
+             starts_with('Code') ~ pct(15))
 
 tbl_a1874
 ```
@@ -2984,7 +3065,7 @@ Some layers are prone to cementation after repeated drying and wetting. Report t
 ```{r}
 #| label: tbl-a1875
 #| tbl-cap: Susceptibility for cementation 
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1875_dat <- tribble(
   ~Criterion, ~Code,
@@ -2998,7 +3079,8 @@ tbl_a1875 <- gt(tbl_a1875_dat) |>
     table.align = 'left',
     table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = c(2))) 
+            locations = cells_body(columns = c(2))) |>
+  cols_width(Code ~ pct(20))
 
 tbl_a1875
 ```
@@ -3009,8 +3091,8 @@ Report the manner of failure (brittleness). Take a moist specimen, around 3 cm 
 
 ```{r}
 #| label: tbl-a1876
-#| tbl-cap: Types of manner of failure (brittleness), Schoeneberger et al. (2012), 2-65
-#| tbl-colwidths: [70, 20, 10] 
+#| tbl-cap: Types of manner of failure (brittleness), Schoeneberger et al. [-@schoeneberger2012], 2-65
+#| classes: no-stripe
 
 tbl_a1876_dat <- tribble(
   ~Criterion, ~Type, ~Code,
@@ -3025,7 +3107,8 @@ tbl_a1876 <- gt(tbl_a1876_dat) |>
     table.align = 'left',
     table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = c(3))) 
+            locations = cells_body(columns = c(3))) |>
+  cols_width(Criterion ~ pct(60), Type ~ pct(20))
 
 tbl_a1876
 ```
@@ -3036,8 +3119,8 @@ Plasticity is the degree to which reworked soil can be permanently deformed with
 
 ```{r}
 #| label: tbl-a1877
-#| tbl-cap: Types of plasticity, Schoeneberger et al. (2012), 2-66
-#| tbl-colwidths: [70, 20, 10] 
+#| tbl-cap: Types of plasticity, Schoeneberger et al. [-@schoeneberger2012], 2-66
+#| classes: no-stripe 
 
 tbl_a1877_dat <- tribble(
   ~Criterion, ~Type, ~Code,
@@ -3054,7 +3137,8 @@ tbl_a1877 <- gt(tbl_a1877_dat) |>
     table.align = 'left',
     table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = c(3))) 
+            locations = cells_body(columns = c(3))) |>
+  cols_width(Criterion ~ pct(60), Type ~ pct(20))
 
 tbl_a1877
 ```
@@ -3072,7 +3156,7 @@ Report the sealing agent. If more than one is present, report up to three, the d
 ```{r}
 #| label: tbl-a1878
 #| tbl-cap: Sealing agent of surface crusts
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1878_dat <- tribble(
  ~Type, ~Code,
@@ -3096,7 +3180,8 @@ tbl_a1878 <- gt(tbl_a1878_dat) |>
     table.align = 'left',
     table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = c(2))) 
+            locations = cells_body(columns = c(2))) |>
+  cols_width(Code ~ pct(20))
 
 tbl_a1878
 ```
@@ -3114,7 +3199,7 @@ Report the percentage of the particles in the sand and coarse silt fraction (\>�
 ```{r}
 #| label: tbl-a1879
 #| tbl-cap: Abundance of particles in the sand and coarse silt fraction that consist of volcanic glasses
-#| tbl-colwidths: [40, 40, 20] 
+#| classes: no-stripe 
 
 tbl_a1879_dat <- tribble(
  ~Particles, ~Abundance_class, ~Code,
@@ -3132,7 +3217,8 @@ tbl_a1879 <- gt(tbl_a1879_dat) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = c(3))) |> 
   cols_label(Particles = '% of Particles',
-             Abundance_class = 'Abundance class')
+             Abundance_class = 'Abundance class') |>
+  cols_width(Particles ~ pct(40), Code ~ pct(20))
 
 tbl_a1879
 ```
@@ -3152,7 +3238,7 @@ Report the results.
 ```{r}
 #| label: tbl-a1880
 #| tbl-cap: Thixotropy and NaF field test
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1880_dat <- tribble(
  ~Criterion, ~Code,
@@ -3168,7 +3254,8 @@ tbl_a1880 <- gt(tbl_a1880_dat) |>
     table.align = 'left',
     table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2))
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
 
 tbl_a1880
 ```
@@ -3182,7 +3269,7 @@ Estimate the total percentage (by exposed area, related to the whole soil) affec
 ```{r}
 #| label: tbl-a1881
 #| tbl-cap: Cryogenic alteration
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1881_dat <- tribble(
  ~Criterion, ~Code,
@@ -3202,7 +3289,8 @@ tbl_a1881 <- gt(tbl_a1881_dat) |>
     table.align = 'left',
     table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2))
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
 
 tbl_a1881
 ```
@@ -3217,7 +3305,7 @@ A layer with permafrost has continuously for ≥ 2 consecutive years one of the
 ```{r}
 #| label: tbl-a1882
 #| tbl-cap: Layers with permafrost
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1882_dat <- tribble(
  ~Criterion, ~Code,
@@ -3232,7 +3320,8 @@ tbl_a1882 <- gt(tbl_a1882_dat) |>
     table.align = 'left',
     table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2))
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
 
 tbl_a1882
 ```
@@ -3244,7 +3333,7 @@ Estimate the packing density using a knife with a blade approx. 10 cm long.
 ```{r}
 #| label: tbl-a1883
 #| tbl-cap: Packing density
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1883_dat <- tribble(
  ~Criterion, ~Class, ~Code,
@@ -3261,7 +3350,8 @@ tbl_a1883 <- gt(tbl_a1883_dat) |>
     table.align = 'left',
     table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 3))
+            locations = cells_body(columns = 3)) |>
+  cols_width(Criterion ~ pct(60), Class ~ pct(20))
 
 tbl_a1883
 ```
@@ -3280,8 +3370,8 @@ Caution: The Munsell value is also influenced by parent material, carbonates and
 
 ```{r}
 #| label: tbl-a1884
-#| tbl-cap: Estimation of organic carbon contents in a moist sample, Blume et al. (2010), modified
-#| tbl-colwidths: [25, 25, 25, 25] 
+#| tbl-cap: Estimation of organic carbon contents in a moist sample, Blume et al. [-@blume2010], modified
+#| classes: no-stripe
 
 tbl_a1884_dat <- tribble(
  ~Munsell_value, ~t1, ~t2, ~t3,
@@ -3307,7 +3397,8 @@ tbl_a1884 <- gt(tbl_a1884_dat) |>
   cols_label(Munsell_value = 'Munsell value',
              t1 = 'S', 
              t2 = 'LS, SL, L', 
-             t3 = 'SiL, Si, SiCL, CL, SCL, SC, SiC, C')
+             t3 = 'SiL, Si, SiCL, CL, SCL, SC, SiC, C') |>
+  cols_width(everything() ~ pct(25))
 
 tbl_a1884
 ```
@@ -3319,7 +3410,7 @@ This Chapter refers to accumulations of organic matter in form of discrete bodie
 ```{r}
 #| label: tbl-a1885
 #| tbl-cap: Types of accumulation of organic matter
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe 
 
 tbl_a1885_dat <- tribble(
  ~Type, ~Code,
@@ -3336,7 +3427,8 @@ tbl_a1885 <- gt(tbl_a1885_dat) |>
     table.align = 'left',
     table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2))
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
 
 tbl_a1885
 ```
@@ -3349,8 +3441,8 @@ Count the number of roots per dm^2^, separately for the two diameter classes, an
 
 ```{r}
 #| label: tbl-a1886
-#| tbl-cap: Abundance of roots, FAO (2006), Table 80
-#| tbl-colwidths: [30, 30, 30, 10] 
+#| tbl-cap: Abundance of roots, FAO [-@un-fao2006], Table 80
+#| classes: no-stripe
 
 tbl_a1886_dat <- tribble(
  ~lt2, ~gt2, ~Abundance_class, ~Code,
@@ -3371,7 +3463,8 @@ tbl_a1886 <- gt(tbl_a1886_dat) |>
              gt2 = 'Number > 2 mm', 
              Abundance_class = 'Abundance class') |> 
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 4))
+            locations = cells_body(columns = 4)) |>
+  cols_width(lt2 ~ pct(27), lt2 ~ pct(27), Code ~ pct(20))
 
 tbl_a1886
 ```
@@ -3382,8 +3475,8 @@ Report the animal activity that has visibly changed the features of the layer. I
 
 ```{r}
 #| label: tbl-a1887
-#| tbl-cap: Types of animal activity, FAO (2006), Table 82, modified
-#| tbl-colwidths: [80, 20] 
+#| tbl-cap: Types of animal activity, FAO [-@un-fao2006], Table 82, modified
+#| classes: no-stripe
 
 tbl_a1887_dat <- tribble(
  ~Type, ~Code,
@@ -3410,9 +3503,10 @@ tbl_a1887 <- gt(tbl_a1887_dat) |>
     table.width = '100%') |> 
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |> 
-  tab_style(style = list(cell_text(indent = 12)),
+  tab_style(style = list(cell_text(indent = pct(5))),
             locations = cells_body(rows = c(2,3,5,7,8,10:14), 
-                                   columns = 1))
+                                   columns = 1)) |>
+  cols_width(Code ~ pct(20))
 
 tbl_a1887
 ```
@@ -3426,7 +3520,7 @@ Natural material is any material not meeting the criteria of [*artefacts*](chapt
 ```{r}
 #| label: tbl-a1888
 #| tbl-cap: Artificial additions of natural material
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1888_dat <- tribble(
  ~Material, ~Code,
@@ -3442,7 +3536,8 @@ tbl_a1888 <- gt(tbl_a1888_dat) |>
     table.align = 'left',
     table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2))
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
 
 tbl_a1888
 ```
@@ -3454,7 +3549,7 @@ Report in-situ alterations. If more than one applies, report up to two, the domi
 ```{r}
 #| label: tbl-a1889
 #| tbl-cap: In-situ alterations
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1889_dat <- tribble(
  ~Type, ~Code,
@@ -3476,7 +3571,8 @@ tbl_a1889 <- gt(tbl_a1889_dat) |>
     table.align = 'left',
     table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2))
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
 
 tbl_a1889
 ```
@@ -3488,7 +3584,7 @@ Adding or mixing may combine materials richer and poorer in C~org~. A new granul
 ```{r}
 #| label: tbl-a1890
 #| tbl-cap: Aggregate formation after additions or after *in-situ* alterations
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe
 
 tbl_a1890_dat <- tribble(
  ~Criterion, ~Code,
@@ -3503,7 +3599,8 @@ tbl_a1890 <- gt(tbl_a1890_dat) |>
     table.align = 'left',
     table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 2))
+            locations = cells_body(columns = 2)) |>
+  cols_width(Code ~ pct(20))
 
 tbl_a1890
 ```
@@ -3514,8 +3611,8 @@ Report the parent material. Use the help of a geological map.
 
 ```{r}
 #| label: tbl-a1891
-#| tbl-cap:  Types of parent material, FAO (2006), Table 12, modified
-#| tbl-colwidths: [25, 25, 10, 30, 10] 
+#| tbl-cap:  Types of parent material, FAO [-@un-fao2006], Table 12, modified
+#| classes: no-stripe
 
 tbl_a1891_dat <- tribble(
  ~Major_class, ~Group, ~Code, ~Type, ~Code_2,
@@ -3599,7 +3696,10 @@ tbl_a1891 <- gt(tbl_a1891_dat) |>
              Code_2 = 'Code') |> 
   text_transform(
     locations = cells_body(columns = c(Type)),
-    fn = \(x){ str_replace(x, "~3~", '<sub>3</sub>') })  
+    fn = \(x){ str_replace(x, "~3~", '<sub>3</sub>') })  |>
+  cols_width(Major_class ~ pct(25),
+             Group ~ pct(25),
+             starts_with('Code') ~ pct(10))
 
 tbl_a1891
 ```
@@ -3619,7 +3719,7 @@ If an Oa horizon (see Annex 3, [Chapter 10.2](annex-03-horizon-layer-designation
 ```{r}
 #| label: tbl-a1892
 #| tbl-cap: Subdivisions of the Oa horizon
-#| tbl-colwidths: [60, 20, 20] 
+#| classes: no-stripe 
 
 tbl_a1892_dat <- tribble(
   ~Criterion, ~Type, ~Code,
@@ -3634,7 +3734,8 @@ tbl_a1892 <- gt(tbl_a1892_dat) |>
     table.align = 'left',
     table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
-            locations = cells_body(columns = 3))
+            locations = cells_body(columns = 3)) |>
+  cols_width(Criterion ~ pct(60), Code ~ pct(20))
 
 tbl_a1892
 ```
@@ -3646,7 +3747,7 @@ This Chapter refers to dead natural plant residues of any length and a diameter 
 ```{r}
 #| label: tbl-a1893
 #| tbl-cap: Dead residues of specific plants
-#| tbl-colwidths: [80, 20] 
+#| classes: no-stripe 
 
 tbl_a1893_dat <- tribble(
   ~Type, ~Code,
@@ -3663,7 +3764,8 @@ tbl_a1893 <- gt(tbl_a1893_dat) |>
     table.width = '100%') |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |> 
-  cols_label(Type = 'Type of plant residues')
+  cols_label(Type = 'Type of plant residues') |>
+  cols_width(Code ~ pct(20))
 
 tbl_a1893
 ```
