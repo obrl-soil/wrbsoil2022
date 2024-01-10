@@ -2,9 +2,6 @@ project:
   type: book
   output-dir: docs
 
-execute:
-  freeze: auto
-
 book:
   title: "World Reference Base for Soil Resources"
   author: "IUSS Working Group WRB"
