@@ -326,7 +326,7 @@ tbl_a186 <- gt(tbl_a186_dat) |>
   ) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) |>
-  cols_label(Past_wcond = "Current weather conditions") |>
+  cols_label(Past_wcond = "Past weather conditions") |>
   cols_width(Code ~ pct(20))
   
 tbl_a186
