@@ -52,6 +52,12 @@ tbl_sixone_dat <- tribble(
    'Umbrisol',  'UM',
    'Vertisol',  'VR')
 
+```
+
+::: {#tbl-sixone}
+
+::: {.content-visible unless-format="html"}
+```{r}
 tbl_sixone <- gt(tbl_sixone_dat) |>
   tab_options(
     column_labels.font.weight = 'bold',
@@ -61,20 +67,32 @@ tbl_sixone <- gt(tbl_sixone_dat) |>
   tab_style(style = list(cell_text(weight = 'bold')),
             locations = cells_body(columns = 2)) 
 
+tbl_sixone 
 ```
+:::
 
+::: {.content-visible when-format="html"}
 ```{r}
-#| label: tbl-sixone
-#| tbl-cap: Reference Soil Groups
-#| classes: no-stripe
-
 # using interactivity to manage table length
+tbl_sixone <- gt(tbl_sixone_dat) |>
+  tab_options(
+    column_labels.font.weight = 'bold',
+    heading.title.font.weight = 'bold',
+    table.align = 'left'
+  ) |>
+  tab_style(style = list(cell_text(weight = 'bold')),
+            locations = cells_body(columns = 2)) 
+
 tbl_sixone |> 
   opt_interactive(
     use_search = TRUE,
     use_page_size_select = TRUE
     ) 
 ```
+:::
+
+Reference Soil Groups
+:::
 
 ## Qualifiers
 
@@ -381,9 +399,9 @@ tbl_sixtwo <- gt(tbl_sixtwo_dat) |>
 
 ```
 
+::: {#tbl-sixtwo}
+::: {.content-visible when-format="html"}
 ```{r}
-#| label: tbl-sixtwo
-#| tbl-cap: Qualifiers
 #| classes: no-stripe
 
 # using interactivity to manage table length
@@ -393,6 +411,18 @@ tbl_sixtwo |>
     use_page_size_select = TRUE
                   )
 ```
+:::
+
+::: {.content-visible unless-format="html"}
+```{r}
+#| classes: no-stripe
+
+tbl_sixtwo
+```
+:::
+
+Qualifiers
+:::
 
 ## Specifiers
 

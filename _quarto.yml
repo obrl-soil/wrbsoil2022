@@ -62,6 +62,13 @@ format:
       theme: neutral
   epub:
     epub-cover-image: images/cover.png
+    toc-depth: 4
+    split-level: 2
+  pdf:
+    documentclass: scrbook
+    papersize: A4
+    links-as-notes: true
+    toc-depth: 4
 
 editor: visual
 
