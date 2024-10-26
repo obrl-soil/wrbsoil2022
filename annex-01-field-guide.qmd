@@ -51,7 +51,7 @@ The soil profile should be at least 1 m deep or reach the parent material. On a
 
 The profile should be 1 m wide. If on a slope, the profile wall must be parallel to the contour lines. The material should be piled up to the left and/or right side of the profile and must not be placed on top side of the profile (the side of the profile wall). Never walk or place tools on the side of the profile wall. It is recommended to collect the soil material on two tarps, topsoil and subsoil separately. When refilling the soil profile later, you should first fill in the subsoil and then the topsoil.
 
-::: {grid}
+::::: {grid}
 ::: {grid-col-4}
 ![Ideal soil profile. Always take the photo perpendicular to the profile wall](images/figure_8-5.png){#fig-a1-85}
 :::
@@ -61,7 +61,7 @@ Carefully prepare the profile wall: it must be strictly vertical and smooth. Roo
 
 If you describe a soil profile that has been dug some time ago, the topsoil may be disturbed. To describe the humus forms, you need a fresh miniprofile nearby the soil profile.
 :::
-:::
+:::::
 
 ![The setting of the profile in the landscape](images/figure_8-6.png){#fig-a1-86}
 
@@ -85,7 +85,7 @@ This Chapter refers to the large-scale topography. For local surface unevenness,
 
 #### Gradient {#sec-a1-823-gr}
 
-Report the ground surface inclination with respect to the horizontal plane. If the profile lies on a flat surface, the gradient is 0%. If it lies on a slope, make 2 records, one upslope and one downslope; e.g., *upslope: 18%, downslope: 16%*.
+Report the ground surface inclination with respect to the horizontal plane. If the profile lies on a flat surface, the gradient is 0%. If it lies on a slope, make 2 records, one upslope and one downslope, if possible, 10 m distance each; e.g., *upslope: 18%, downslope: 16%*.
 
 #### Slope aspect {#sec-a1-823-as}
 
@@ -508,7 +508,7 @@ A **litter layer** is a loose layer that contains \> 90% (by volume, related to
 
 ### Litter layer {#sec-a1-832}
 
-Observe an area of 5 m x 5 m with the profile at its centre. Report the average and the maximum thickness of the litter layer in cm (see [Chapter 8.3.1](#sec-a1-831)). If there is no litter layer, report 0 cm as thickness.
+Observe an area of 5 m x 5 m with the profile at its centre. Report the percentage of the area covered and report the average and the maximum thickness of the litter layer in cm (see [Chapter 8.3.1](#sec-a1-831)). If there is no litter layer, report 0 cm as thickness.
 
 ### Rock outcrops {#sec-a1-833}
 
@@ -1102,6 +1102,7 @@ tbl_a1827_dat <- tribble(
 'Saturated by groundwater or flowing water for ≥ 30 consecutive days with water that has an electrical conductivity of < 4 dS m^-1^', 'GF',
 'Saturated by rainwater for ≥ 30 consecutive days', 'RA',
 'Saturated by water from melted ice for ≥ 30 consecutive days', 'MI',
+'Formerly water-saturated for ≥ 30 consecutive days, then drained and now water-saturated for < 30 consecutive days', 'DR',
 'Pure water, covered by floating organic material', 'PW',
 'None of the above', 'NO')
 
@@ -1616,7 +1617,7 @@ tbl_a1839 <- gt(tbl_a1839_dat) |>
 tbl_a1839
 ```
 
-![Texture classes, flow chart, ideas adapted from Natural England Technical Information Note TIN037 [-@naturalengland2008] and Thien [-@thien1979]](images/figure_8-14.png){#fig-a1-814}
+![Texture classes, flow chart, ideas adapted from Natural England Technical Information Note TIN037 [-@naturalengland2008] and Thien [-@thien1979]](images/figure_8-14_2024.png){#fig-a1-814}
 
 #### Subclasses of the texture classes sand and loamy sand {#sec-a1-849-s}
 
@@ -1678,13 +1679,13 @@ tbl_a1840
 
 ### Structure (m) {#sec-a1-8410}
 
-Structure is the spatial arrangement of soil constituents and pores. If this is, at least partially, the result of soil-forming processes, it is called **soil structure**. Otherwise, it is **rock structure**. Structure refers to the fine earth. Structure is reported for mineral layers. Additionally, structure is reported for drained hydromorphic organic layers.
+Structure is the spatial arrangement of solid constituents and pores. If this is, at least partially, the result of soil-forming processes, it is called **soil structure**. Otherwise, it is **rock structure**. Structure refers to the fine earth. Structure is reported for mineral layers. Additionally, structure is reported for drained hydromorphic organic layers.
 
 A **soil aggregate** is a discrete structural body that can be clearly distinguished from its surroundings and that results from soil-forming processes. If a force is applied to a specimen, and the specimen breaks along natural surfaces of weakness, it is composed of aggregates. If the specimen breaks exactly where force is applied, the structure is **massive** (coherent). If there is no coherence between the particles, the structure is of **single-grain** type. Human disturbance may create artificial structural elements, which are called **clods**.
 
-Undisturbed aggregates or non-aggregated structure are called the first-level structure. Aggregates of the types subangular blocky, angular blocky, polyhedral, lenticular, platy, wedge-shaped, prismatic, and columnar may break into aggregates of a second-level structure and even further into aggregates of a third-level structure. The second-level and the third-level structure may be of the same type(s) as the first-level structure or of a different one.
+Undisturbed aggregates or non-aggregated structure are called the first-level structure. A massive layer or aggregates of the types subangular blocky, angular blocky, polyhedral, lenticular, platy, wedge-shaped, prismatic, and columnar may break into aggregates of a second-level structure and even further into aggregates of a third-level structure. The second-level and the third-level structure may be of the same type(s) as the first-level structure or of a different one.
 
-Use the spade, take out a large sample, make sure that the aggregates of the first-level structure, if present, are undisturbed, and observe the structure. Report the type, if present, up to three, the dominant one first. For each type, report separately grade, penetrability for roots, and size class. If applicable, report two size classes, the dominant one first. Report for every type and size class the abundance (as percentage by volume of the layer).
+Use the spade, take out a large sample, make sure that the aggregates of the first-level structure, if present, are undisturbed, and observe the structure. Report the type, if present, up to three, the dominant one first. For aggregates and artificial structural elements, report grade, penetrability for roots, and size class, for each type separately. If applicable, report two size classes, the dominant one first. Report for every type and size class the abundance (as percentage by volume of the layer).
 
 From the first-level structure, take some specimens from each type (if more than one size class of a type is present, take only the greater one) and try to break them with low forces. If aggregates of a second-level structure appear, report the type, if present, up to two, the dominant one first. For each type, report separately grade, size class, and penetrability for roots. If applicable, report two size classes, the dominant one first. Report for every type and size class the abundance (as percentage by volume of the respective first level structure).
 
@@ -2077,7 +2078,8 @@ tbl_a1851_dat <- tribble(
   'Rounded body, at least very weakly cemented, that can be removed as discrete unit, with internal organization in the form of concentric layers that are visible to the naked eye', 'Concretion',
 'Rounded body, at least very weakly cemented, that can be removed as discrete unit, without evident internal organization', 'Nodule',
 'Longitudinal body of any cementation class', 'Filament',
-'Non-cemented or extremely weakly cemented body, of various shape, that cannot be removed as discrete unit', 'Mass')
+'Non-cemented or extremely weakly cemented body, of various shape, that cannot be removed as discrete unit', 'Mass',
+'Covering the surfaces of coarse fragments, remnants of a broken-up cemented layers, aggregates or pore walls', 'Coating')
 
 tbl_a1851 <- gt(tbl_a1851_dat) |>
   tab_options(
@@ -2193,7 +2195,7 @@ Report the percentage of abundance.
 
 ### Redoximorphic features (m) {#sec-a1-8420}
 
-Redoximorphic features (oximorphic features plus reductimorphic features) are the result of redox processes. Oximorphic features show the accumulation of substances in oxidized state and usually a redder hue, a higher chroma and a lower value than the surrounding material, while reductimorphic features show the opposite characteristics. Soil parts showing reductimorphic features may either contain substances in reduced state or may have lost them.
+Redoximorphic features (oximorphic features plus reductimorphic features) are the result of reduction processes or of reduction and subsequent re-oxidation processes. Oximorphic features show the accumulation of substances in oxidized state (concentrations) and usually have a redder hue, a higher chroma and a lower value than the surrounding material, while reductimorphic features show the opposite characteristics. Soil parts showing reductimorphic features may either contain substances in reduced state or may have lost them.
 
 Report substance, location, size class (up to two, the dominant one first), cementation class and abundance for each colour separately, for up to three colours, the dominant one first. Substance for oximorphic features is always reported, for reductimorphic features only in some cases. Size class is only reported for oximorphic features inside soil aggregates. Cementation is only reported for oximorphic features. The abundance is reported as percentage of the exposed area.
 
@@ -2557,7 +2559,15 @@ tbl_a1861 <- gt(tbl_a1861_dat) |>
 tbl_a1861
 ```
 
-The term 'oxides', as used here, includes hydroxides and oxide-hydroxides. If clay minerals are accumulated, a ribbon-like accumulation is \< 7.5 cm thick, in all other cases \< 2.5 cm. If there are 2 or more ribbon-like accumulations in one layer, report the number of the accumulations and their combined thickness in cm. If clay minerals are accumulated (CC, CO, CH, TO), the ribbon-like accumulations are called **lamellae**.
+The term 'oxides', as used here, includes hydroxides and oxide-hydroxides. If clay minerals are accumulated, a ribbon-like accumulation is \< 7.5 cm thick, in all other cases \< 2.5 cm. If there are 2 or more ribbon-like accumulations in one layer, report the number of the accumulations and their combined thickness in cm.
+
+If clay minerals are accumulated (CC, CO, CH, TO), the ribbon-like accumulations are called **lamellae**. For lamellae, report additionally the texture class, the abundance of clay coatings and clay bridges and the combined thickness within 50 cm of the upper limit of the uppermost lamella.
+
+Report the abundance of
+
+-   clay coatings in % of the surfaces of soil aggregates, coarse fragments and/or biopore walls
+
+-   clay bridges between sand grains in % of involved sand grains.
 
 ### Carbonates (o, m) {#sec-a1-8425}
 
@@ -2632,11 +2642,11 @@ Report the type of secondary carbonates. If more than one occurs, report up to f
 
 tbl_a1864_dat <- tribble(
   ~Type,   ~Code,
-'Masses (including spheroidal aggregations like white eyes (byeloglaska))',        'MA',
+'Masses (including spheroidal aggregations like white eyes (byeloglaska); including masses filling the complete fine earth)',                  'MA',
 'Nodules and/or concretions',                                        'NC',
 'Filaments (including continuous filaments like pseudomycelia)',     'FI',
 'Coatings on soil aggregate surfaces or biopore walls',              'AS',
-'Coatings on undersides of coarse fragments and of remnants of broken-up cemented layers', 'UR',
+'Coatings on undersides of coarse fragments and of remnants of broken-up cemented layers (with or without coatings on other sides)',                   'UR',
 'No secondary carbonates',                                           'NO'
   )
 
@@ -2809,11 +2819,11 @@ Report the total percentage (by exposed area) of secondary silica. For a cemente
 
 ### Readily soluble salts (o, m) {#sec-a1-8428}
 
-Readily soluble salts are precipitated in dry soil and dissolved in moist soil. They are more soluble than gypsum. The presence of readily soluble salts is checked by measuring the electrical conductivity in the saturation extract (EC~SE~). In the saturation extract, the soil is completely moist, but has no visible water surplus. This is not easy to achieve.
+Readily soluble salts are precipitated in dry soil and dissolved in moist soil. They are more soluble than gypsum. The presence of readily soluble salts is checked by measuring the electrical conductivity in the saturation extract (EC~e~). In the saturation extract, the soil is completely moist, but has no visible water surplus. This is not easy to achieve.
 
-Alternatively, one can measure the electrical conductivity in an extract of 10 g soil with 25 ml aqua dest. (EC~2.5~). Mix soil and water carefully, let it rest for at least 30 minutes and measure the electrical conductivity in the clear solution in dS m^-1^. It must then be transformed into the EC~SE~ according to the following equation: $EC_{SE} = 250 \times EC_{2.5} \times (WC_{SE})^{-1}$
+Alternatively, one can measure the electrical conductivity in an extract of 10 g soil with 25 ml aqua dest. (EC~2.5~). Mix soil and water carefully, let it rest for at least 30 minutes and measure the electrical conductivity in the clear solution in dS m^-1^. It must then be transformed into the EC~e~ according to the following equation: $EC_{e} = 250 \times EC_{2.5} \times (WC_{e})^{-1}$
 
-WC~SE~ is the water content in the saturation extract. It can be estimated in mineral soils from texture (see [Chapter 8.4.9](#sec-a1-849)) and C~org~ content (see [Chapter 8.4.36](#sec-a1-8436)) and in peat soils from the degree of decomposition (see [Chapter 8.4.41](#sec-a1-8441)) with the help of the following Tables. High amounts of coarse fragments reduce the water content.
+WC~e~ is the water content in the saturation extract. It can be estimated in mineral soils from texture (see [Chapter 8.4.9](#sec-a1-849)) and C~org~ content (see [Chapter 8.4.36](#sec-a1-8436)) and in peat soils from the degree of decomposition (see [Chapter 8.4.41](#sec-a1-8441)) with the help of the following Tables. High amounts of coarse fragments reduce the water content.
 
 Report the electrical conductivity of the saturation extract in dS m^-1^.
 
@@ -2940,7 +2950,7 @@ Consistence is the degree and kind of cohesion and adhesion that soil exhibits. 
 
 #### Presence and volume of cementation {#sec-a1-8430-p}
 
-For checking cementation, different specimens have to be taken, depending on soil characteristics. For checking surface crusts and platy aggregates, take a specimen that is approximately 1 to 1.5 cm long by 0.5 cm thick (or the thickness of occurrence, if \< 0.5 cm thick). In all other cases, take a specimen, around 2.6 to 3 cm long at all dimensions. Take the specimen air-dried and submerge it in water for at least 1 hour. If it slakes like forming a soup, it is not cemented. Otherwise, it is cemented. Report the percentage (by volume, related to the whole soil) of the layer that is cemented.
+Cementation by ice is obvious. For checking cementation by other agents, different specimens have to be taken, depending on soil characteristics. For checking surface crusts and platy aggregates, take a specimen that is approximately 1 to 1.5 cm long by 0.5 cm thick (or the thickness of occurrence, if \< 0.5 cm thick). In all other cases, take a specimen, around 2.6 to 3 cm long at all dimensions. Take the specimen air-dried and submerge it in water for at least 1 hour. If it slakes like forming a soup, it is not cemented. Otherwise, it is cemented. Report the percentage (by volume, related to the whole soil) of the layer that is cemented.
 
 #### Cementing agents (cemented soil) {#sec-a1-8430-c}
 
@@ -3231,7 +3241,7 @@ If the percentage is around a limit value, take a soil sample, gain the sand and
 
 Thixotropy: Layers with [*andic properties*](chapter-03.qmd#sec-andicp) show a high variable charge allowing the absorption of much water that can easily be driven out by shaking but will be absorbed again, after a while. Procedure: Take a soil sample and make a sphere of about 2.5 cm in diameter. Wait until any moisture films have disappeared. Place the sphere in cupped hands and shake it. If moisture films appear at the surface of the sphere, the soil shows thixotropy. After a while, the moisture films will disappear again.
 
-NaF test according to Fieldes and Perrott [-@fieldes1966], after FAO [-@un-fao2006]: A pH~NaF~ of \> 9.5 indicates the presence of abundant allophanes and imogolites and/or organo-aluminium complexes. Aluminium sorbs F^-^ ions while releasing OH^-^ ions. The test is indicative for most layers with [*andic properties*](chapter-03.qmd#sec-andicp), except for those very rich in organic matter. However, the same reaction occurs in [*spodic horizons*](chapter-03.qmd#sec-spodich) and in acidic clayey soils that are rich in aluminium-interlayered clay minerals; soils with free carbonates also react. Before applying the NaF test, check the soil pH in water or KCl (the NaF test is not suitable for alkaline soils) and the presence of free carbonates (using the HCl test). Procedure: Place a small amount of soil on a filter paper previously soaked in phenolphthalein and add some drops of 1 M NaF (adjusted to pH 7.5). A positive reaction is indicated by a fast change to an intense red colour. Alternatively, measure the pH of a suspension of 1 g soil in 50 ml 1 M NaF (adjusted to pH 7.5) after waiting 2 minutes. A pH of \> 9.5 is an indication of [*andic properties*](chapter-03.qmd#sec-andicp).
+NaF test according to Fieldes and Perrott [-@fieldes1966], after FAO [-@un-fao2006]: A pH~NaF~ of ≥ 9.5 indicates the presence of abundant allophanes and imogolites and/or organo-aluminium complexes. Aluminium sorbs F^-^ ions while releasing OH^-^ ions. The test is indicative for most layers with [*andic properties*](chapter-03.qmd#sec-andicp), except for those very rich in organic matter. However, the same reaction occurs in [*spodic horizons*](chapter-03.qmd#sec-spodich) and in acidic clayey soils that are rich in aluminium-interlayered clay minerals; soils with free carbonates also react. Before applying the NaF test, check the soil pH in water or KCl (the NaF test is not suitable for alkaline soils) and the presence of free carbonates (using the HCl test). Procedure: Place a small amount of soil on a filter paper previously soaked in phenolphthalein and add some drops of 1 M NaF (adjusted to pH 7.5). A positive reaction is indicated by a fast change to an intense red colour. Alternatively, measure the pH of a suspension of 1 g soil in 50 ml 1 M NaF (adjusted to pH 7.5) after waiting 2 minutes. A pH of \> 9.5 is an indication of [*andic properties*](chapter-03.qmd#sec-andicp).
 
 Report the results.
 
@@ -3360,9 +3370,9 @@ With the following Figure, the bulk density is determined from packing density a
 
 ![Estimation of bulk density from packing density and texture, FAO [-@un-fao2006], Figure 7, modified](images/figure_8-21.png){#fig-a1-821 fig-align="center"}
 
-### Soil organic carbon (C~org~) (m) {#sec-a1-8436}
+### Soil organic carbon (C~org~) {#sec-a1-8436}
 
-#### Estimation of the content (\*) {#sec-a1-8436-e}
+#### Estimation of the content (m) (\*) {#sec-a1-8436-e}
 
 Report the estimated organic carbon content. It is based on the Munsell value, moist, and the texture. If chroma is 3.5 - 6, use value 0.5 higher (e.g. if you reported a Munsell colour of 10YR 3/4, use a value of 3.5 for estimating soil organic carbon). If chroma is \> 6, use value 1 higher.
 
@@ -3403,7 +3413,7 @@ tbl_a1884 <- gt(tbl_a1884_dat) |>
 tbl_a1884
 ```
 
-#### Natural accumulations of organic matter {#sec-a1-8436-n}
+#### Natural accumulations of organic matter (m) {#sec-a1-8436-n}
 
 This Chapter refers to accumulations of organic matter in form of discrete bodies. They have usually a lower value than the surrounding material. Report here all accumulations that are natural or that are a side effect of human activities. For additions of [*artefacts*](chapter-03.qmd#sec-artefm) see [Chapter 8.4.8](#sec-a1-848) and of human-transported material see [Chapter 8.4.39](#sec-a1-8439). If black carbon is purposefully made by humans, it is considered to be an artefact. Organic matter accumulations due to animal activity are reported twice, once here and once in [Chapter 8.4.38](#sec-a1-8438).
 
@@ -3433,7 +3443,11 @@ tbl_a1885 <- gt(tbl_a1885_dat) |>
 tbl_a1885
 ```
 
-Report up to three types, the dominant one first, and report the percentage (by exposed area) for each type separately. Black carbon has to be additionally reported as percentage of the exposed area (related to the fine earth plus black carbon of any size).
+Report up to three types, the dominant one first, and report the percentage (by exposed area) for each type separately.
+
+#### Black carbon (o, m) {#sec-a1-8436-b}
+
+Black carbon has to be additionally reported as percentage of the exposed area (related to the fine earth plus black carbon of any size).
 
 ### Roots (o, m) {#sec-a1-8437}
 
@@ -3710,7 +3724,7 @@ If the type is unknown, just report the group. Note: the old terms 'acid' and 'b
 
 #### Degree of decomposition {#sec-a1-8441-d}
 
-This Chapter refers to the transformation of visible plant tissues into visibly homogeneous organic matter. Rub the soil material and report the percentage of visible plant tissues (by volume, related to the fine earth plus all dead plant residues).
+This Chapter refers to the transformation of recognizable dead plant tissues into visibly homogeneous organic matter. Rub the soil material and report the percentage of recognizable dead plant tissues (by volume, related to the fine earth plus all dead plant residues).
 
 #### Subdivisions of the Oa horizon {#sec-a1-8441-s}
 
@@ -3742,7 +3756,7 @@ tbl_a1892
 
 #### Dead natural plant residues {#sec-a1-8441-n}
 
-This Chapter refers to dead natural plant residues of any length and a diameter ≥ 5 mm. For treated plant residues, see [*artefacts*](chapter-03.qmd#sec-artefm) (see [Chapter 8.4.8](#sec-a1-848)). Report up to two types of plant remnants, the dominant one first, and give the percentage (by volume, related to the fine earth plus all dead plant residues) for each type separately.
+This Chapter refers to dead natural plant residues of any length and a diameter ≥ 5 mm. For processed plant residues, see [*artefacts*](chapter-03.qmd#sec-artefm) (see [Chapter 8.4.8](#sec-a1-848)). Report up to two types of plant remnants, the dominant one first, and give the percentage (by volume, related to the fine earth plus all dead plant residues) for each type separately.
 
 ```{r}
 #| label: tbl-a1893
@@ -3753,8 +3767,7 @@ tbl_a1893_dat <- tribble(
   ~Type, ~Code,
 'Wood',                   'W',
 'Moss fibres',            'S',
-'Other plants',           'O',
-'No dead plant residues', 'N')
+'No dead residues of wood or of moss fibres', 'N')
 
 tbl_a1893 <- gt(tbl_a1893_dat) |>
   tab_options(

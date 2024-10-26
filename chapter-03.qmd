@@ -77,7 +77,7 @@ After a long time of wet-field cultivation, a [*hydragric horizon*](#sec-hydrh) 
 
 #### General description {#sec-argich-desc}
 
-An argic horizon (from Latin *argilla*, white clay) is a subsurface horizon with a distinctly higher clay content than the overlying horizon. The textural differentiation may be caused by:
+An argic horizon (from Latin *argilla*, white clay) is a subsurface horizon with a distinctly higher clay content than in the overlying horizon(s). The textural differentiation may be caused by:
 
 -   an illuvial accumulation of clay mineral
 -   predominant pedogenic formation of clay minerals in the subsoil
@@ -154,13 +154,13 @@ A calcic horizon (from Latin *calx*, lime) is a horizon in which secondary calci
 
 A calcic horizon:
 
-1.  has a calcium carbonate equivalent of ≥ 15% (related to the fine earth plus accumulations of secondary carbonates of any size and any cementation class);\
+1.  has a calcium carbonate equivalent of ≥ 15% (related to the fine earth plus concentrations of secondary carbonates of any size and any cementation class);\
     ***and***
 
 2.  one or both of the following:
 
     a.  meets the diagnostic criteria of [*protocalcic properties*](#sec-protcp); ***or***
-    b.  has a calcium carbonate equivalent of ≥ 5% higher (absolute, related to the fine earth plus accumulations of secondary carbonates of any size and any cementation class) than that of an underlying layer and no [*lithic discontinuity*](#sec-lithd) between the two layers; ***and***
+    b.  has a calcium carbonate equivalent of ≥ 5% higher (absolute, related to the fine earth plus concentrations of secondary carbonates of any size and any cementation class) than that of the underlying layer and no [*lithic discontinuity*](#sec-lithd) between the two layers; ***and***
 
 3.  does not form part of a [*petrocalcic horizon*](#sec-pcalch);\
     ***and***
@@ -234,7 +234,7 @@ A cambic horizon consists of [*mineral material*](#sec-minm) and:
         ii. a ratio between Fe~ox~ and Fe~dith~ of ≥ 0.1; ***and***
         iii. a Munsell colour hue of 2.5YR to 2.5Y and a chroma of \> 3, all moist and in ≥ 90% of its exposed area;\
              ***and***
-4.  does not form part of a plough layer, does not form part of an [*albic*](#sec-albich), [*anthraquic*](#sec-anthh), [*argic*](#sec-argich), [*calcic*](#sec-calch), [*duric*](#sec-durich), [*ferralic*](#sec-feralh), [*fragic*](#sec-fragh), [*gypsic*](#sec-gypsih), [*hortic*](#sec-hortih), [*hydragric*](#sec-hydrh), [*irragric*](#sec-iragh), [*limonic*](#sec-limnh), [*mollic*](#sec-mollh), [*natric*](#sec-natrich), [*nitic*](#sec-nitich), [*petrocalcic*](#sec-petroh), [*petroduric*](#sec-petdh), [*petrogypsic*](#sec-petrgh), [*petroplinthic*](#sec-pplinthich), [*pisoplinthic*](#sec-pisoph), [*plaggic*](#sec-plaggh), [*plinthic*](#sec-plinth), [*pretic*](#sec-preth), [*salic*](#sec-salich), [*sombric*](#sec-sombrh), [*spodic*](#sec-spodich), [*umbric*](#sec-umbrich), [*terric*](#sec-terich), [*tsitelic*](#sec-tsitelich) or [*vertic horizon*](#sec-verth) and does not from part of a layer with [*andic properties*](#sec-andip);\
+4.  does not form part of a plough layer, does not form part of an [*albic*](#sec-albich), [*anthraquic*](#sec-anthh), [*argic*](#sec-argich), [*calcic*](#sec-calch), [*duric*](#sec-durich), [*ferralic*](#sec-feralh), [*fragic*](#sec-fragh), [*gypsic*](#sec-gypsih), [*hortic*](#sec-hortih), [*hydragric*](#sec-hydrh), [*irragric*](#sec-iragh), [*limonic*](#sec-limnh), [*mollic*](#sec-mollh), [*natric*](#sec-natrich), [*nitic*](#sec-nitich), [*petrocalcic*](#sec-petroh), [*petroduric*](#sec-petdh), [*petrogypsic*](#sec-petrgh), [*petroplinthic*](#sec-pplinthich), [*pisoplinthic*](#sec-pisoph), [*plaggic*](#sec-plaggh), [*plinthic*](#sec-plinth), [*pretic*](#sec-preth), [*salic*](#sec-salich), [*sombric*](#sec-sombrh), [*spodic*](#sec-spodich), [*terric*](#sec-terich), [*tsitelic*](#sec-tsitelich), [*umbric*](#sec-umbrich) or [*vertic horizon*](#sec-verth) and does not from part of a layer with [*andic properties*](#sec-andip);\
     ***and***
 5.  has a thickness of ≥ 15 cm.
 
@@ -451,8 +451,8 @@ A ferric horizon (from Latin *ferrum*, iron) has formed by redox processes, usua
 A ferric horizon consists of [*mineral material*](#sec-minm) and:
 
 1.  consists of one or more subhorizons with one or both of the following:
-    a.  ≥ 15% of its exposed area occupied by coarse (\> 20 mm, average length of the greatest dimension) masses inside soil aggregates that are black or have a Munsell colour hue redder than 7.5YR and a chroma of ≥ 5, both moist; ***or***
-    b.  ≥ 5% of its exposed area (related to the fine earth plus concretions and/or nodules of any size and cementation class) occupied by concretions and/or nodules with a cementation class of at least weakly cemented, a reddish and/or blackish colour and a diameter of \> 2 mm; ***and***
+    a.  ≥ 15% of its exposed area occupied by oximorphic features in the form of coarse (\> 20 mm, average length of the greatest dimension) masses inside soil aggregates that are black or have a Munsell colour hue redder than 7.5YR and a chroma of ≥ 5, both moist; ***or***
+    b.  ≥ 5% of its exposed area (related to the fine earth plus concretions and/or nodules of any size and cementation class) occupied by oximorphic features in the form of concretions and/or nodules with a cementation class of at least weakly cemented, a reddish and/or blackish colour and a diameter of \> 2 mm; ***and***
 2.  does not form part of a [*petroplinthic*](#sec-pplinthich), [*pisoplinthic*](#sec-pisoph) or [*plinthic horizon*](#sec-plinth); ***and***
 3.  has a thickness of ≥ 15 cm.
 
@@ -526,10 +526,10 @@ A gypsic horizon (from Greek *gypsos*, gypsum) is a non-cemented horizon contain
 
 A gypsic horizon consists of [*mineral material*](#sec-minm) and:
 
-1.  has ≥ 5% gypsum (related to the fine earth plus accumulations of secondary gypsum of any size and any cementation class); ***and***
+1.  has ≥ 5% gypsum (related to the fine earth plus concentrations of secondary gypsum of any size and any cementation class); ***and***
 2.  has one or both of the following:
     a.  meets the diagnostic criteria of [*protogypsic properties*](#sec-protgp); ***or***
-    b.  a gypsum content of ≥ 5% higher (absolute, related to the fine earth plus accumulations of secondary gypsum of any size and any cementation class) than that of an underlying layer and no [*lithic discontinuity*](#sec-lithd) between the two layers; ***and***
+    b.  a gypsum content of ≥ 5% higher (absolute, related to the fine earth plus concentrations of secondary gypsum of any size and any cementation class) than that of the underlying layer and no [*lithic discontinuity*](#sec-lithd) between the two layers; ***and***
 3.  has a product of thickness (in centimetres) times gypsum content (percentage, by mass) of ≥ 150; ***and***
 4.  does not form part of a [*petrogypsic horizon*](#sec-petrgh); ***and***
 5.  has a thickness of ≥ 15 cm.
@@ -677,8 +677,8 @@ A limonic horizon (from Greek *leimon*, meadow) develops in layers with [*gleyic
 
 A limonic horizon:
 
-1.  has ≥ 50% (by exposed area, related to the fine earth plus oximorphic features of any size and any cementation class) oximorphic features that are
-    a.  black, surrounded by lighter-coloured material, ***or***
+1.  has ≥ 50% (by exposed area, related to the fine earth plus oximorphic features of any size and any cementation class) oximorphic features that
+    a.  are black, surrounded by lighter-coloured material, ***or***
     b.  have a Munsell colour hue ≥ 2.5 units redder and a chroma ≥ 1 unit higher, moist, than the surrounding material ***or***
     c.  have a Munsell colour hue ≥ 2.5 units redder and a chroma ≥ 1 unit higher, moist, than the matrix of the directly underlying layer; ***and***
 2.  the oximorphic features are one or both of the following:
@@ -769,7 +769,7 @@ A natric horizon consists of [*mineral material*](#sec-minm) and:
         iii. in thin sections, oriented clay bodies (pure or interlayered with silt layers) that constitute ≥ 1% of the section and that have not been transported laterally after they had been formed; ***or***
         iv. a ratio of fine clay to total clay in the natric horizon greater by ≥ 1.2 times than the ratio in the overlying coarser-textured layer; ***and***
 3.  has one or more of the following:
-    a.  a columnar or prismatic structure in some part of the horizon; ***or***
+    a.  a columnar or prismatic structure in some parts of the horizon; ***or***
     b.  both of the following:
         i.  an angular or subangular blocky structure; ***and***
         ii. penetrations of an overlying coarser-textured layer, in which there are uncoated sand and/or coarse silt grains, extending ≥ 2.5 cm into the natric horizon; ***and***
@@ -814,8 +814,8 @@ A nitic horizon consists of [*mineral material*](#sec-minm) and:
 
 1.  has ≥ 30% clay; ***and***
 2.  has, single or in combination:
-    a.  moderate to strong angular or subangular blocky structure, breaking into polyhedral or flat-edged second-level structure with pressure faces (shiny surfaces) at ≥ 25% of the surfaces of the soil aggregates of the second-level structure; ***or***
-    b.  polyhedral structure with pressure faces (shiny surfaces) at ≥ 25% of the surfaces of the soil aggregates; ***and***
+    a.  moderate to strong angular or subangular blocky structure, breaking into polyhedral or flat-edged second-level structure with stress features (shiny surfaces) at ≥ 25% of the surfaces of the soil aggregates of the second-level structure; ***or***
+    b.  polyhedral structure with stress features (shiny surfaces) at ≥ 25% of the surfaces of the soil aggregates; ***and***
 3.  has all of the following:
     a.  ≥ 4% Fe~dith~ ('free iron'); ***and***
     b.  ≥ 0.2% Fe~ox~ ('active iron'); ***and***
@@ -864,7 +864,7 @@ A petrocalcic horizon (from Greek *petros*, rock, and Latin *calx*, lime) is cem
 
 A petrocalcic horizon consists of [*mineral material*](#sec-minm) and:
 
-1.  has very strong effervescence after adding a 1 M HCl solution; and
+1.  is strongly or extremely calcareous as shown by effervescence with 1 M HCl solution; ***and***
 2.  is cemented, at least partially by secondary carbonates, with a cementation class of at least moderately cemented; ***and***
 3.  is continuous to the extent that vertical fractures, if present, have an average horizontal spacing of ≥ 10 cm and occupy \< 20% (by volume, related to the whole soil), ***and***
 4.  does not have coarse roots except, if present, along the vertical fractures; ***and***
@@ -958,7 +958,7 @@ A petroplinthic horizon (from Greek *petros*, rock, and *plinthos*, brick) is a 
 
 A petroplinthic horizon consists of [*mineral material*](#sec-minm) and:
 
-1.  consists of oximorphic features inside (former) soil aggregates that are at least partially interconnected and have a reddish, yellowish and/or blackish colour; ***and***
+1.  consists of oximorphic features in the form of reddish, yellowish and/or blackish concretions and/or nodules inside (former) soil aggregates that are at least partially interconnected; ***and***
 2.  has one or both of the following:
     a.  ≥ 2.5% Fe~dith~ (related to the fine earth plus oximorphic features of any size and any cementation class); ***or***
     b.  ≥ 10% Fe~dith~ in the oximorphic features; ***and***
@@ -993,7 +993,7 @@ A pisoplinthic horizon (from Latin *pisum*, pea, and Greek *plinthos*, brick) co
 A pisoplinthic horizon consists of [*mineral material*](#sec-minm) and:
 
 1.  has ≥ 40% of its volume (related to the whole soil) occupied by, single or in combination,
-    a.  yellowish, reddish and/or blackish concretions and/or nodules; ***or***
+    a.  oximorphic features in the form of yellowish, reddish and/or blackish concretions and/or nodules; ***or***
     b.  remnants of a broken-up [*petroplinthic horizon*](#sec-pplinthich), with a diameter of \> 2 mm and a cementation class of at least moderately cemented; ***and***
 2.  does not form part of a [*petroplinthic horizon*](#sec-pplinthich); ***and***
 3.  has a thickness of ≥ 15 cm.
@@ -1187,7 +1187,7 @@ Sombric horizons may coincide with [*argic*](#sec-argich), [*cambic*](#sec-cambi
 
 #### General description {#sec-spodich-desc}
 
-A spodic horizon (from Greek *spodos*, wood ash) is a subsurface horizon that contains illuvial substances. In most spodic horizons, the appearance of the upper subhorizons is characterized by dark illuvial organic matter and that of the lower subhorizons by intensely coloured illuvial Fe oxides. Some spodic horizons, however, show either little illuviation of Fe or little illuviation of organic matter. In all spodic horizons, illuviated Al can be proven analytically. The illuvial materials are characterized by a high pH-dependent charge, a relatively large surface area and an elevated water retention. An overlying eluvial horizon may intrude with tongues into the spodic horizon.
+A spodic horizon (from Greek *spodos*, wood ash) is a subsurface horizon that contains illuvial substances. In most spodic horizons, the appearance of the upper subhorizons is characterized by dark illuvial organic matter and that of the lower subhorizons by intensely coloured illuvial Fe oxides. Some spodic horizons, however, show either little illuviation of Fe or little illuviation of organic matter. In all spodic horizons, illuviated Al can be proven analytically. The illuvial materials are characterized by a high pH-dependent charge, a relatively large specific surface and an elevated water retention. An overlying eluvial horizon may intrude with tongues into the spodic horizon.
 
 #### Diagnostic criteria {#sec-spodich-diag}
 
@@ -1197,8 +1197,8 @@ A spodic horizon consists of [*mineral material*](#sec-minm) and:
 2.  has a subhorizon with an Al~ox~ value that is ≥ 1.5 times that of the lowest Al~ox~ value of all the mineral layers above the spodic horizon; ***and***
 3.  has in its uppermost 1 cm one or both of the following:
     a.  ≥ 0.5% [*soil organic carbon*](#sec-soc); ***or***
-    b.  a Munsell colour chroma of ≥ 6, moist, in ≥ 90% of its exposed area; ***and***
-4.  has one or more subhorizons with the following Munsell colours, moist, in ≥ 90% of their exposed area:
+    b.  a Munsell colour chroma of ≥ 6, moist, in ≥ 85% of its exposed area; ***and***
+4.  has in every subhorizon one of the following Munsell colours, moist, in ≥ 85% of their exposed area:
     a.  a hue of 5YR or redder; ***or***
     b.  a hue of 7.5YR and a value of ≤ 5; ***or***
     c.  a hue of 10YR and a value and a chroma of ≤ 2; ***or***
@@ -1206,7 +1206,7 @@ A spodic horizon consists of [*mineral material*](#sec-minm) and:
     e.  a colour of 10YR 3/1; ***or***
     f.  a hue of N and a value of ≤ 2; ***and***
 5.  one or more of the following:
-    a.  is overlain by claric material that is not separated from the spodic horizon by a [*lithic discontinuity*](#sec-lithd) and that overlies the spodic horizon either directly or above a transitional horizon that has a thickness of one-tenth or less of the overlying claric material; ***or***
+    a.  is overlain by [*claric material*](#sec-claricm) that is not separated from the spodic horizon by a [*lithic discontinuity*](#sec-lithd) and that overlies the spodic horizon either directly or above a transitional horizon that has a thickness of one-tenth or less of the overlying [*claric material*](#sec-claricm); ***or***
     b.  ≥ 10% of the sand grains of the horizon show cracked coatings; ***or***
     c.  has a subhorizon that is cemented with a cementation class of at least weakly cemented in ≥ 50% of its horizontal extension; ***or***
     d.  has a subhorizon with an Al~ox~ + ½Fe~ox~ value of ≥ 0.5% that is ≥ 2 times that of the lowest Al~ox~ + ½Fe~ox~ value of all the mineral layers above the spodic horizon; ***and***
@@ -1269,7 +1269,7 @@ A thionic horizon has:
 1.  a pH (1:1 by mass in water, or in a minimum of water to permit measurement) of \< 4; ***and***
 2.  one or more of the following:
     a.  accumulations of iron or aluminium sulfate or hydroxysulfate minerals, predominantly on or adjacent to surfaces of soil aggregates; ***or***
-    b.  direct superposition on sulfidic material; ***or***
+    b.  direct superposition on [*hypersulfidic material*](#sec-hypersm); ***or***
     c.  ≥ 0.05% water-soluble sulfate; ***and***
 3.  a thickness of ≥ 15 cm.
 
@@ -1503,13 +1503,13 @@ Anthric properties are an additional characteristic of some [*mollic*](#sec-moll
 
 #### Diagnostic criteria {#sec-crockp-diag}
 
-Continuous rock (from Latin *continuare*, to continue) is consolidated material, exclusive of cemented pedogenic horizons such as [*limonic*](#sec-limnh), [*petrocalcic*](#sec-pcalch), [*petroduric*](#sec-petdh), [*petrogypsic*](#sec-petrgh), [*petroplinthic*](#sec-pplinthich) and [*spodic horizons*](#sec-spodich). Continuous rock is sufficiently consolidated to remain intact when an air-dried specimen, 25--30 mm on one side, is submerged in water for 1 hour. The material is considered continuous only if cracks occupy \< 10% (by volume) of the continuous rock, with no significant displacement of the rock having taken place.
+Continuous rock (from Latin *continuare*, to continue) is consolidated material, exclusive of cemented pedogenic horizons such as [*limonic*](#sec-limnh), [*petrocalcic*](#sec-pcalch), [*petroduric*](#sec-petdh), [*petrogypsic*](#sec-petrgh), [*petroplinthic*](#sec-pplinthich) and [*spodic horizons*](#sec-spodich). Continuous rock is sufficiently consolidated to remain intact when an air-dried specimen, 25--30 mm on one side, is submerged in water for 1 hour. The material is considered continuous only if cracks occupy \< 10% (by volume, related to the whole soil) of the continuous rock, with no significant displacement of the rock having taken place.
 
 ### Gleyic properties {#sec-gleyicp}
 
 #### General description {#sec-gleyicp-desc}
 
-Gleyic properties (from Russian folk name *gley*, wet bluish clay) develop in layers that are saturated with groundwater (or were saturated in the past, if now drained) for a period that allows [*reducing conditions*](#sec-reducc) to occur (this may range from a few days in the tropics to a few weeks in other areas) and in the capillary fringe above them. There may be gleyic properties without the presence of groundwater in a clay-rich layer over a layer rich in sand or coarse fragments. In some soils with gleyic properties, the [*reducing conditions*](#sec-reducc) are caused by upward moving gases such as methane or carbon dioxide. If there are no more [*reducing conditions*](#sec-reducc), the gleyic properties are relict.
+Gleyic properties (from Russian folk name *gley*, wet bluish clay) develop in layers that are saturated with groundwater (or were saturated in the past, if now drained) for a period long enough to allow [*reducing conditions*](#sec-reducc) to occur (this may range from a few days in the tropics to a few weeks in other areas) and in the capillary fringe above them. There may be gleyic properties without the presence of groundwater in a clay-rich layer over a layer rich in sand or coarse fragments. In some soils with gleyic properties, the [*reducing conditions*](#sec-reducc) are caused by upward moving gases such as methane or carbon dioxide. If there are no more [*reducing conditions*](#sec-reducc), the gleyic properties are relict.
 
 #### Diagnostic criteria {#sec-gleyicp-diag}
 
@@ -1592,9 +1592,9 @@ Protocalcic properties (from Greek *proton*, first, and Latin *calx*, lime) refe
 
 #### Diagnostic criteria {#sec-protcp-diag}
 
-Protocalcic properties refer to accumulations of secondary carbonates, visible when moist, that
+Protocalcic properties refer to concentrations of secondary carbonates, visible when moist, that show one or more of the following:
 
-1.  occupy ≥ 5% of the exposed area (related to the fine earth plus accumulations of secondary carbonates of any size and any cementation class) with masses, nodules, concretions or filaments; ***or***
+1.  occupy ≥ 5% of the exposed area (related to the fine earth plus concentrations of secondary carbonates of any size and any cementation class) with masses, nodules, concretions or filaments; ***or***
 2.  cover ≥ 10% of the surfaces of soil aggregates or biopore walls; ***or***
 3.  cover ≥ 10% of the underside surfaces of coarse fragments or of remnants of a cemented horizon.
 
@@ -1618,7 +1618,7 @@ Protogypsic properties (from Greek *proton*, first, and *gypsos*, gypsum) refer 
 
 #### Diagnostic criteria {#sec-protgp-diag}
 
-Protogypsic properties refer to visible accumulations of secondary gypsum that occupy ≥ 1% of the exposed area (related to the fine earth plus accumulations of secondary gypsum of any size and any cementation class).
+Protogypsic properties refer to visible concentrations of secondary gypsum that occupy ≥ 1% of the exposed area (related to the fine earth plus accumulations of secondary gypsum of any size and any cementation class).
 
 #### Field identification {#sec-protgp-flid}
 
@@ -1710,7 +1710,7 @@ Sideralic properties are also present in [*ferralic horizons*](#sec-feralh).
 
 #### General description {#sec-stagnp-desc}
 
-Stagnic properties (from Latin *stagnare*, to flood) form in layers that are, at least temporarily, saturated with stagnant water (or were saturated in the past, if now drained) for a period long enough that allows [*reducing conditions*](#sec-reducc) to occur (this may range from a few days in the tropics to a few weeks in other areas). In some soils with stagnic properties, the [*reducing conditions*](#sec-reducc) are caused by the intrusion of other liquids such as gasoline. If there are no more [*reducing conditions*](#sec-reducc), the stagnic properties are relict.
+Stagnic properties (from Latin *stagnare*, to flood) form in layers that are, at least temporarily, saturated with stagnant water (or were saturated in the past, if now drained) for a period long enough to allow [*reducing conditions*](#sec-reducc) to occur (this may range from a few days in the tropics to a few weeks in other areas). In some soils with stagnic properties, the [*reducing conditions*](#sec-reducc) are caused by the intrusion of other liquids such as gasoline. If there are no more [*reducing conditions*](#sec-reducc), the stagnic properties are relict.
 
 #### Diagnostic criteria {#sec-stagnp-diag}
 
@@ -1730,7 +1730,7 @@ Stagnic properties refer to [*mineral material*](#sec-minm), show redoximorphic 
         ii. a chroma ≥ 4 units higher; ***or***
         iii. a hue ≥ 2.5 units redder and a chroma ≥ 2 units higher; ***or***
         iv. a hue ≥ 2.5 units redder, a value ≥ 1 unit lower and a chroma ≥ 1 unit higher; ***or***
-4.  a layer with the colours of claric material in ≥ 95% of its exposed area, which is considered as reductimorphic feature, above an [*abrupt textural difference*](#sec-abtxdf) or above a layer with a bulk density of ≥ 1.5 kg dm^-1^; ***or***
+4.  a layer with the colours of claric material in ≥ 95% of its exposed area, which is considered as reductimorphic feature, above an [*abrupt textural difference*](#sec-abtxdf) or above a layer with a bulk density of ≥ 1.5 kg dm^-3^; ***or***
 5.  a combination of two layers: a layer with [*claric material*](#sec-claricm) in ≥ 95% of its exposed area, which is considered as reductimorphic feature, and a directly underlying layer fulfilling the diagnostic criteria 1, 2 or 3.
 
 #### Field identification {#sec-stagnp-flic}
@@ -2015,7 +2015,7 @@ Hyposulfidic material:
 
 Hyposulfidic material forms in similar environments to [*hypersulfidic material*](#sec-hypersm) and morphologically may be indistinguishable from it. However, it is less likely to be coarse in texture. The hydrogen peroxide screening test (see [*hypersulfidic material*](#sec-hypersm)) may also be indicative, but final assessment depends on incubation testing. Field tests for fine earth carbonate may be used to indicate whether the soil has some self-neutralizing capacity.
 
-#### Relationships with some other diagnostics {#sec-hyposm-reln}
+#### Relationships with some other diagnostics
 
 Acidification of hyposulfidic material usually does not cause the development of a [*thionic horizon*](#sec-thionh). [*Hypersulfidic material*](#sec-hypersm) has the same criteria for inorganic sulfidic S and for the pH value but is capable of severe acidification.
 
@@ -2148,7 +2148,7 @@ For organic carbon meeting the criteria of [*artefacts*](#sec-artefm), the [*Gar
 
 #### General description {#sec-solimvm-desc}
 
-Solimovic material (from Latin *solum*, soil, and *movere*, to move) is a heterogeneous mixture of material that has moved downslope, suspended in water. It is dominated by material that underwent soil formation at its original place, e.g. organic matter accumulation or the formation of Fe oxides. It has been transported as a result of erosional wash or soil creep, and the transport may have been accelerated by land-use practices (e.g. deforestation, ploughing, downhill tillage, structure degradation). Solimovic material has been formed in relatively recent times (mostly Holocene). It normally accumulates in slope positions, in depressions or above a barrier on a low-grade slope. The barrier may be natural or human-made (e.g. hedge walls, terraces, benches). After deposition, there was no advanced soil formation.
+Solimovic material (from Latin *solum*, soil, and *movere*, to move) is a heterogeneous mixture of material that has moved downslope, suspended in water. It is dominated by material that underwent soil formation at its original place, e.g. organic matter accumulation or the formation of Fe oxides. It has been transported as a result of erosional wash, and the transport may have been accelerated by land-use practices (e.g. deforestation, ploughing, downhill tillage, structure degradation). Solimovic material has been formed in relatively recent times (mostly Holocene). It normally accumulates in slope positions, in depressions or above a barrier on a low-grade slope. The barrier may be natural or human-made (e.g. hedge walls, terraces, benches). After deposition, there was no advanced soil formation.
 
 #### Diagnostic criteria {#sec-solimvm-diag}
 

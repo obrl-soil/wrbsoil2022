@@ -13,7 +13,7 @@ IUSS Working Group WRB. 2022. World Reference Base for Soil Resources. Internati
 
 ISBN 979-8-9862451-1-9
 
-First published: 22 July 2022. Update with minor corrections: 18 December 2022
+First published: 22 July 2022. Update with minor corrections: 24 September 2024
 
 Copyright: International Union of Soil Sciences®, Vienna, Austria.\
 This is an open access document under the terms of the [Creative Commons Attribution License](https://creativecommons.org/licenses/by/4.0/legalcode), which permits use, distribution and reproduction in any medium, provided the original work is properly cited.
@@ -26,4 +26,4 @@ Eutric Glossic Stagnosol (Belgium) \[photo: Stefaan Dondeyne\]
 
 ------------------------------------------------------------------------
 
-This is a Quarto version of the [original PDF publication](https://wrb.isric.org/files/WRB_fourth_edition_2022-12-18.pdf), available at the [WRB website](https://wrb.isric.org/) along with other supporting documentation and teaching materials. This version incorporates the published errata to 2022-12-18.
+This is a Quarto version of the [original PDF publication](https://wrb.isric.org/files/WRB_fourth_edition_2022-12-18_errata_correction_2024-09-24.pdf), available at the [WRB website](https://wrb.isric.org/) along with other supporting documentation and teaching materials. This version incorporates the published errata to 2024-09-24.
