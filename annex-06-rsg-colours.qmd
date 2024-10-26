@@ -11,7 +11,7 @@ The guidelines for creating map legends are given in [Chapter 2.5](chapter-02.qm
 It is recommended to use colour symbols and alphanumeric codes to allow the map reader a correct identification of the mapping unit of each polygon. (For raster datasets, only colours can be used.) The colour represents the dominant soil or, if absent, the major codominant soil, only. The other soils are indicated by adding alphanumeric codes. On the first scale level, nothing else is required. If you add elective qualifiers, use alphanumeric codes. The principal qualifiers added at the second and third scale level are also indicated by alphanumeric codes. These are selected by the soil scientist, who makes the map. In complex mapping units with several soils, codominant and associated soils may be mentioned in the mapping unit explanation, only.
 
 | RSG | R | G | B | RGB Hex |
-|---------------|---------------|---------------|---------------|---------------|
+|:---------------|:---------------|:---------------|:---------------|:---------------|
 | [Acrisol](chapter-04.qmd#sec-key-ac) (AC) | 247 | 152 | 4 | [🔴]{style="color: transparent; text-shadow: 0 0 0 #F79804;"} #F79804 |
 | [Alisol](chapter-04.qmd#sec-key-al) (AL) | 255 | 255 | 190 | [🔴]{style="color: transparent; text-shadow: 0 0 0 #FFFFBE;"} #FFFFBE |
 | [Andosol](chapter-04.qmd#sec-key-an) (AN) | 254 | 0 | 0 | [🔴]{style="color: transparent; text-shadow: 0 0 0 #FE0000;"} #FE0000 |
